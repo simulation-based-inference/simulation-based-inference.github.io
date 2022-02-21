@@ -17,9 +17,7 @@ SBI has also proven to be an effective lingua franca that facilitates communicat
 
 # Selected Papers
 
-The plan is to turn this page into a crowd-sourced community resource that can collect recent papers including methodological developments and applications. We are working on the underlying infrastructure, but it will probably be similar to what drives the [IRIS-HEP](https://iris-hep.org) webpages( [source](http://github.com/iris-hep/iris-hep.github.io-source) ) and/or something like this [living review](https://github.com/iml-wg/HEPML-LivingReview).
-
-Here are some links to get started:
+The plan is to turn this page into a crowd-sourced community resource that can collect recent papers including methodological developments and applications. Here are some links to get started:
 
  * [The frontier of simulation-based inference](https://doi.org/10.1073/pnas.1912789117) review by Kyle Cranmer, Johann Brehmer, and Gilles Louppe
 
@@ -37,5 +35,6 @@ An initial list of SBI-related software packages
 
 # About this site
 
-This page is maintained by Kyle Cranmer and hosted via GitHub pages via [the simulation-based-inference](http://github.com/simulation-based-inference/) GitHub organization. ccc
+This page is maintained by Kyle Cranmer and hosted via GitHub pages via [the simulation-based-inference](http://github.com/simulation-based-inference/) GitHub organization. As mentioned above, the plan is to turn this page into a crowd-sourced community resource that can collect recent papers including methodological developments and applications. We are working on the underlying infrastructure, but it will probably be similar to what drives the [IRIS-HEP](https://iris-hep.org) webpages( [source](http://github.com/iris-hep/iris-hep.github.io-source) ) and/or something like this [living review](https://github.com/iml-wg/HEPML-LivingReview).
+
 
