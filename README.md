@@ -1,2 +1,2 @@
 # Simulation-based Inference
-Website under construction
+This website is under construction.
