@@ -32,7 +32,7 @@ The plan is to turn this page into a crowd-sourced community resource that can c
 * **Computational Neuroscience**: [Training deep neural density estimators to identify mechanistic models of neural dynamics](https://elifesciences.org/articles/56261) by Pedro J Gonçalves, Jan-Matthis Lueckmann, Michael Deistler, Marcel Nonnenmacher, Kaan Öcal, Giacomo Bassetto, Chaitanya Chintaluri, William F Podlaski, Sara A Haddad, Tim P Vogels, David S Greenberg, Jakob H Macke
 
 
-* **Gravitaional Wave Astronomy**: [Real-Time Gravitational Wave Science with Neural Posterior Estimation](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.241103) by Maximilian Dax, Stephen R. Green, Jonathan Gair, Jakob H. Macke, Alessandra Buonanno, and Bernhard Schölkopf
+* **Gravitational Wave Astronomy**: [Real-Time Gravitational Wave Science with Neural Posterior Estimation](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.241103) by Maximilian Dax, Stephen R. Green, Jonathan Gair, Jakob H. Macke, Alessandra Buonanno, and Bernhard Schölkopf
 
 * **Astroparticle Physics**: [Inferring dark matter substructure with astrometric lensing beyond the power spectrum](https://iopscience.iop.org/article/10.1088/2632-2153/ac494a/meta) by Siddharth Mishra-Sharma
 
