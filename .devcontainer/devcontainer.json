@@ -1,0 +1,7 @@
+{
+    "dockerFile": "Dockerfile",
+    "name": "sim-based-inference",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/sim-based-inference,type=bind,consistency=cached",
+    "workspaceFolder": "/sim-based-inference",
+    "remoteUser": "root"
+}
