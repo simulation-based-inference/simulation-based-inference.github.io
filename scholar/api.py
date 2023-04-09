@@ -1,6 +1,7 @@
 import os
-from dotenv import load_dotenv
 import requests
+from dotenv import load_dotenv
+from .database import insert_serp_results
 
 load_dotenv()
 SERP_API_KEY = os.getenv('SERP_API_KEY')
@@ -13,7 +14,6 @@ def query_serp(url: str = None, term: str = None, more_results: bool = False) ->
         term (str): The term to search for.
         more_results (bool): If true search in everything instead of abstract.
     """
-
     params = {"api_key": SERP_API_KEY}
     scisbd = 2 if more_results else 1
 
@@ -35,10 +35,26 @@ def query_serp(url: str = None, term: str = None, more_results: bool = False) ->
         print(f"Request failed with status code {response.status_code}: {response.text}")
 
 
-def next_page_url(results: dict) -> str | None:
-    """Get the URL for the next page of results."""
-    return results['pagination']['next']
-
+def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
+    """Crawl the SERP API for snippets containing the given term.
+    
+    Args:
+        term (str): The term to search for.
+        more_results (bool): If true search in everything instead of abstract.
+        stop_days (int): Stop crawling when the oldest result is older than this.
+    """
+    next_url = None
+    while True:
+        results = query_serp(url=next_url, term=term, more_results=more_results)
+        term = None  # Only use the term on the first page, next_url already has it
+        
+        days_since_added = insert_serp_results(results)
+        if stop_days is not None and days_since_added > stop_days:
+            break
+        try:
+            next_url = results['serpapi_pagination']['next']
+        except KeyError:
+            break
 
 ############################## Obsolete ##############################
 def query_xdd(term: str) -> dict | None:
