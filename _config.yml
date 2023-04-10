@@ -1,2 +1,6 @@
 theme: jekyll-theme-cayman
 description: Simulation-based Inference is the next evolution in statistics
+exclude: 
+  - scholar/
+  - main.py
+  - tmp.ipynb
