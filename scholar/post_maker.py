@@ -13,13 +13,12 @@ def make_md_post(paper: Paper) -> None:
     file_name = f"{pub_date}-{hyphenated_title}.md"
 
     # Create file content
-    content = f"""
-    ---
+    content = f"""---
     title: {paper.title}
     categories:
-    - paper
+      - paper
     tags:
-    - auto
+      - auto
     ---
     {paper.publication_info_summary}
     {paper.snippet}
