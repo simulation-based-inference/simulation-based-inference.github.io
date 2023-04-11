@@ -1,9 +1,11 @@
 source "https://rubygems.org"
 
 gem "jekyll", "= 3.9.3"
-gem "github-pages", "= 228"
+gem "github-pages", "= 228", group: :jekyll_plugins
+gem "jekyll-include-cache", "= 0.2.1", group: :jekyll_plugins
+gem "jekyll-remote-theme", "= 0.4.3"
 gem "jekyll-theme-cayman", "= 0.2.0"
-gem "minimal-mistakes-jekyll"
+# gem "minimal-mistakes-jekyll"
 gem "jekyll-sass-converter", "= 1.5.2"
 gem "kramdown", "= 2.3.2"
 gem "kramdown-parser-gfm", "= 1.1.0"
@@ -20,8 +22,6 @@ gem "jekyll-coffeescript", "= 1.1.1"
 gem "jekyll-seo-tag", "= 2.8.0"
 gem "jekyll-github-metadata", "= 2.13.0"
 gem "jekyll-avatar", "= 0.7.0"
-gem "jekyll-remote-theme", "= 0.4.3"
-gem "jekyll-include-cache", "= 0.2.1"
 gem "jemoji", "= 0.12.0"
 gem "jekyll-mentions", "= 1.6.0"
 gem "jekyll-relative-links", "= 0.6.1"
