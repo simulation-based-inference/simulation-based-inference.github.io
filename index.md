@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "Simulation-based Inference"
-permalink: /index.html
+layout: home
+permalink: /
 ---
 
 *This website under construction.*
