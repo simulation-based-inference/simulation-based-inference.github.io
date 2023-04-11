@@ -1,0 +1,27 @@
+name: Daily pull
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Runs every day at 12:00 UTC
+
+jobs:
+  my_cron_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run job
+      env:
+        SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+      run: python main.py
