@@ -1,0 +1,9 @@
+---
+title: Investigating the turbulent hot gas in X-COP galaxy clusters
+categories:
+  - paper
+tags:
+  - auto
+---
+S Dupourqué, N Clerc, E Pointecouteau… - arXiv preprint arXiv …, 2023 - aanda.org
+… We propose a new Bayesian approach, relying on simulation-based inference to account for the whole error budget. We used the X-COP cluster sample to individually …

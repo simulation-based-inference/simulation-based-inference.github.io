@@ -1,0 +1,9 @@
+---
+title: A data integration framework for spatial interpolation of temperature observations using climate model data
+categories:
+  - paper
+tags:
+  - auto
+---
+T Economou, G Lazoglou, A Tzyrkalli, K Constantinidou… - PeerJ, 2023 - peerj.com
+… The approach is Bayesian which facilitates uncertainty quantification and simulation based inference, as illustrated by application to two countries from the Middle East …
