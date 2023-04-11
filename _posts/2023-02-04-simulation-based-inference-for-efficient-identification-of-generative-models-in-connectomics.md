@@ -1,5 +1,5 @@
 ---
-title: Simulation-based inference for efficient identification of generative models in connectomics
+title: "Simulation-based inference for efficient identification of generative models in connectomics"
 categories:
   - paper
 tags:

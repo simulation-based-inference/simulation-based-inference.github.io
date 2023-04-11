@@ -1,5 +1,5 @@
 ---
-title: Debiasing Standard Siren Inference of the Hubble Constant with Marginal Neural Ratio Estimation
+title: "Debiasing Standard Siren Inference of the Hubble Constant with Marginal Neural Ratio Estimation"
 categories:
   - paper
 tags:

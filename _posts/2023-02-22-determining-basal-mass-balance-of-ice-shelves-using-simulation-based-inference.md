@@ -1,5 +1,5 @@
 ---
-title: Determining Basal Mass Balance of Ice Shelves Using Simulation-Based Inference
+title: "Determining Basal Mass Balance of Ice Shelves Using Simulation-Based Inference"
 categories:
   - paper
 tags:

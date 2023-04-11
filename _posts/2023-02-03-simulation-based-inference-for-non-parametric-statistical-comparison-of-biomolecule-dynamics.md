@@ -1,5 +1,5 @@
 ---
-title: Simulation-based inference for non-parametric statistical comparison of biomolecule dynamics
+title: "Simulation-based inference for non-parametric statistical comparison of biomolecule dynamics"
 categories:
   - paper
 tags:

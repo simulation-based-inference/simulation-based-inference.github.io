@@ -1,5 +1,5 @@
 ---
-title: Recurrent connectivity structure controls the emergence of co-tuned excitation and inhibition
+title: "Recurrent connectivity structure controls the emergence of co-tuned excitation and inhibition"
 categories:
   - paper
 tags:

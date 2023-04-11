@@ -1,5 +1,5 @@
 ---
-title: Truncated Marginal Neural Ratio Estimation
+title: "Truncated Marginal Neural Ratio Estimation"
 categories:
   - paper
 tags:

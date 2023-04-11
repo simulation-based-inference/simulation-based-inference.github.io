@@ -1,5 +1,5 @@
 ---
-title: Sampling-Based Accuracy Testing of Posterior Estimators for General Inference
+title: "Sampling-Based Accuracy Testing of Posterior Estimators for General Inference"
 categories:
   - paper
 tags:

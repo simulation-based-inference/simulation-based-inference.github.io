@@ -1,5 +1,5 @@
 ---
-title: swyft: Scientific simulation-based inference at scale
+title: "swyft: Scientific simulation-based inference at scale"
 categories:
   - paper
 tags:

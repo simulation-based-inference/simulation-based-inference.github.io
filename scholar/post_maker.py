@@ -14,7 +14,7 @@ def make_md_post(paper: Paper) -> None:
 
     # Create file content
     content = f"""---
-    title: {paper.title}
+    title: "{paper.title}"
     categories:
       - paper
     tags:

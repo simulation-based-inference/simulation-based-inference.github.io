@@ -1,5 +1,5 @@
 ---
-title: Constraining the X-ray heating and reionization using 21-cm power spectra with Marginal Neural Ratio Estimation
+title: "Constraining the X-ray heating and reionization using 21-cm power spectra with Marginal Neural Ratio Estimation"
 categories:
   - paper
 tags:

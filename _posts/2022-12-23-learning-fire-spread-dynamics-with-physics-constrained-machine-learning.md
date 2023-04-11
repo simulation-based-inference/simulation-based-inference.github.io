@@ -1,5 +1,5 @@
 ---
-title: Learning fire spread dynamics with physics-constrained machine learning
+title: "Learning fire spread dynamics with physics-constrained machine learning"
 categories:
   - paper
 tags:

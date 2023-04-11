@@ -1,5 +1,5 @@
 ---
-title: Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference
+title: "Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference"
 categories:
   - paper
 tags:

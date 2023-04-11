@@ -1,5 +1,5 @@
 ---
-title: Investigating the turbulent hot gas in X-COP galaxy clusters
+title: "Investigating the turbulent hot gas in X-COP galaxy clusters"
 categories:
   - paper
 tags:

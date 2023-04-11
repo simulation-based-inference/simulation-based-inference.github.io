@@ -1,5 +1,5 @@
 ---
-title: Peregrine: Sequential simulation-based inference for gravitational wave signals
+title: "Peregrine: Sequential simulation-based inference for gravitational wave signals"
 categories:
   - paper
 tags:

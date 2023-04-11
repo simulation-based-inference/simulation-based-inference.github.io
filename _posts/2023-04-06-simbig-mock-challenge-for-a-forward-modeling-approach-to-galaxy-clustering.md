@@ -1,5 +1,5 @@
 ---
-title: SimBIG: mock challenge for a forward modeling approach to galaxy clustering
+title: "SimBIG: mock challenge for a forward modeling approach to galaxy clustering"
 categories:
   - paper
 tags:

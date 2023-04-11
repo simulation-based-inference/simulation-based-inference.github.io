@@ -1,5 +1,5 @@
 ---
-title: Misspecification-robust sequential neural likelihood
+title: "Misspecification-robust sequential neural likelihood"
 categories:
   - paper
 tags:

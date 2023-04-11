@@ -1,5 +1,5 @@
 ---
-title: Detection is truncation: studying source populations with truncated marginal neural ratio estimation
+title: "Detection is truncation: studying source populations with truncated marginal neural ratio estimation"
 categories:
   - paper
 tags:

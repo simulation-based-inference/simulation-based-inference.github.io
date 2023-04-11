@@ -1,5 +1,5 @@
 ---
-title: Simulation-based inference of single-molecule force spectroscopy
+title: "Simulation-based inference of single-molecule force spectroscopy"
 categories:
   - paper
 tags:

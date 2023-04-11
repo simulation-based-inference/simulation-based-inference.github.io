@@ -1,5 +1,5 @@
 ---
-title: Université Paris-Saclay, Inria, CEA Palaiseau, 91120, France louis. rouillard-odera@ inria. fr
+title: "Université Paris-Saclay, Inria, CEA Palaiseau, 91120, France louis. rouillard-odera@ inria. fr"
 categories:
   - paper
 tags:

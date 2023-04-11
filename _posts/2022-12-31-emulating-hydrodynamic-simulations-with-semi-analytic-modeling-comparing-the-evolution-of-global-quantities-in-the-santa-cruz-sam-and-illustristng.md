@@ -1,5 +1,5 @@
 ---
-title: Emulating hydrodynamic simulations with semi-analytic modeling: comparing the evolution of global quantities in the Santa Cruz SAM and IllustrisTNG
+title: "Emulating hydrodynamic simulations with semi-analytic modeling: comparing the evolution of global quantities in the Santa Cruz SAM and IllustrisTNG"
 categories:
   - paper
 tags:
