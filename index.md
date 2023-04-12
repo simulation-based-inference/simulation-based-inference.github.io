@@ -37,6 +37,8 @@ The plan is to turn this page into a crowd-sourced community resource that can c
 
 * **Astroparticle Physics**: [A neural simulation-based inference approach for characterizing the Galactic Center](https://arxiv.org/abs/2110.06931) by Siddharth Mishra-Sharma, Kyle Cranmer
 
+* **Climate Science**: [Model calibration using ESEm v1.1.0 – an open, scalable Earth system emulator](https://gmd.copernicus.org/articles/14/7659/2021/gmd-14-7659-2021.html) by Duncan Watson-Parris, Andrew Williams, Lucia Deaconu, and Philip Stier
+
 * **Cosmology**: [Simulation-Based Inference of Strong Gravitational Lensing Parameters](https://arxiv.org/abs/2112.05278) by Ronan Legin, Yashar Hezaveh, Laurence Perreault Levasseur, Benjamin Wandelt
 
 * **Cosmology**: [Simulation-Based Inference of Reionization Parameters From 3D Tomographic 21 cm Lightcone Images](https://arxiv.org/abs/2105.03344) by Zhao, Xiaosheng ;  Mao, Yi ;  Cheng, Cheng ;  Wandelt, Benjamin D.
