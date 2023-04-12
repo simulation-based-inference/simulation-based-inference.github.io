@@ -1,8 +1,9 @@
 # theme: jekyll-theme-cayman
 title: Simulation-based Inference
 description: Simulation-based Inference is the next evolution in statistics
-
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
 minimal_mistakes_skin: "mint" 
 defaults:
   # _pages
@@ -31,3 +32,4 @@ exclude:
   - main.py
   - tmp.ipynb
   - CNAME
+

@@ -1,13 +1,23 @@
 import datetime
-from peewee import Model, SqliteDatabase, CharField, DateTimeField, AutoField, IntegerField
+from peewee import (
+    Model,
+    SqliteDatabase,
+    CharField,
+    DateTimeField,
+    DateField,
+    AutoField,
+    IntegerField,
+)
 
-db = SqliteDatabase('scholar/paper.db')
+db = SqliteDatabase("scholar/paper.db")
+
 
 class Paper(Model):
     id = AutoField(primary_key=True)
     result_id = CharField()
     created_at = DateTimeField(default=datetime.datetime.now)
     days_since_added = IntegerField()
+    published_on = DateField()
     title = CharField(unique=True)
     publication_info_summary = CharField()
     link = CharField()
@@ -25,21 +35,30 @@ def create_tables() -> None:
 
 
 def insert_serp_results(results: list[dict]) -> None:
-    """Insert the results from the SERP API into the database and return the number of days since the oldest result was added."""
+    """Insert the results from the SERP API into the database.
 
-    for result in results['organic_results']:
+    Args:
+        results (list[dict]): The results from the SERP API.
 
-        _tmp = result['snippet'].split(' days ago - ')
+    Returns:
+        int: The number of days since the oldest paper was added.
+    """
+
+    for result in results["organic_results"]:
+        _tmp = result["snippet"].split(" days ago - ")
         days_since_added = int(_tmp[0])
+
         snippet = _tmp[1]
 
         Paper.insert(
-            result_id=result['result_id'],
-            title=result['title'],
+            result_id=result["result_id"],
+            published_on=datetime.datetime.now()
+            - datetime.timedelta(days=days_since_added),
+            title=result["title"],
             days_since_added=days_since_added,
-            publication_info_summary=result['publication_info']['summary'],
-            link=result['link'],
+            publication_info_summary=result["publication_info"]["summary"],
+            link=result["link"],
             snippet=snippet,
-        ).on_conflict_replace().execute()
+        ).on_conflict_ignore().execute()
 
     return days_since_added
