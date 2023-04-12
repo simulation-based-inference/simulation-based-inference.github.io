@@ -1,7 +1,23 @@
+import re
 from scholar.database import Paper
 from pathlib import Path
 
 POST_DIR = Path("_posts/")
+
+
+def sanitize_filename(filename: str) -> str:
+    """Sanitize a filename to make it safe for use on Windows and Linux."""
+
+    # Replace all symbols with spaces
+    sanitized = re.sub(r"[^a-zA-Z0-9\s]", " ", filename)
+    sanitized = sanitized.strip()
+    sanitized = sanitized.replace(" ", "-")
+    sanitized = sanitized.replace("--", "-")
+
+    if not sanitized:
+        sanitized = "default_filename"
+
+    return sanitized.lower()[:64]
 
 
 def make_md_post(paper: Paper) -> None:
@@ -9,8 +25,8 @@ def make_md_post(paper: Paper) -> None:
 
     # Create file name
     pub_date = paper.published_on.strftime("%Y-%m-%d")
-    hyphenated_title = paper.title.replace(" ", "-").replace(":", "").lower()
-    file_name = f"{pub_date}-{hyphenated_title}.md"
+    clean_title = sanitize_filename(paper.title)
+    file_name = f"{pub_date}-{clean_title}.md"
 
     # Create file content
     content = f"""---
@@ -21,7 +37,10 @@ def make_md_post(paper: Paper) -> None:
       - auto
     ---
     {paper.publication_info_summary}
+
     {paper.snippet}
+
+    Link to paper: [{paper.link}]({paper.link})
     """.replace(
         "    ", ""
     )
