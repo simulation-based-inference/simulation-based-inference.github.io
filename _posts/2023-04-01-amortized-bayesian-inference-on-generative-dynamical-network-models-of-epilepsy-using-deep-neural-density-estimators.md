@@ -6,4 +6,7 @@ tags:
   - auto
 ---
 M Hashemi, AN Vattikonda, J Jha, V Sip… - Neural Networks, 2023 - Elsevier
+
 … In this study, we introduce the simulation-based inference for the virtual epileptic patient model (SBI-VEP), enabling us to amortize the approximate posterior of the …
+
+Link to paper: [https://www.sciencedirect.com/science/article/pii/S0893608023001752](https://www.sciencedirect.com/science/article/pii/S0893608023001752)

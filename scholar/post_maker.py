@@ -21,7 +21,10 @@ def make_md_post(paper: Paper) -> None:
       - auto
     ---
     {paper.publication_info_summary}
+
     {paper.snippet}
+
+    Link to paper: [{paper.link}]({paper.link})
     """.replace(
         "    ", ""
     )
