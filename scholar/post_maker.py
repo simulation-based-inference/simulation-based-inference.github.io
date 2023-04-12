@@ -9,7 +9,7 @@ def sanitize_filename(filename: str) -> str:
     """Sanitize a filename to make it safe for use on Windows and Linux."""
 
     # Remove or replace any potentially invalid characters
-    sanitized = re.sub(r'[<>:"/\\|?*]', "-", filename)
+    sanitized = re.sub(r'[<>:"/\\|?*,;@]', "-", filename)
 
     # Remove double hyphens
     sanitized = sanitized.replace("--", "-")
