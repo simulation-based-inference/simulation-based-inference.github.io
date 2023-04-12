@@ -8,7 +8,9 @@ POST_DIR = Path("_posts/")
 def sanitize_filename(filename: str) -> str:
     """Sanitize a filename to make it safe for use on Windows and Linux."""
 
-    sanitized = re.sub(r'[<>:"/\\|?*,;@] ', "-", filename)
+    # Replace all symbols with spaces
+    sanitized = re.sub(r"[^a-zA-Z0-9\s]", " ", filename)
+    sanitized = sanitized.strip()
     sanitized = sanitized.replace(" ", "-")
     sanitized = sanitized.replace("--", "-")
 
