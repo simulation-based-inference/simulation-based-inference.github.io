@@ -1,7 +1,7 @@
 ---
 title: "Disordered Heterogeneous Universe: Galaxy Distribution and Clustering across Length Scales"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

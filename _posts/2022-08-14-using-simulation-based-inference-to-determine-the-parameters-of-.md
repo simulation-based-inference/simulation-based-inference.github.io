@@ -1,7 +1,7 @@
 ---
 title: "Using simulation-based inference to determine the parameters of an integrated hydrologic model: a case study from the upper Colorado River basin"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Practical estimation methods for high-dimensional multivariate stochastic volatility models"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

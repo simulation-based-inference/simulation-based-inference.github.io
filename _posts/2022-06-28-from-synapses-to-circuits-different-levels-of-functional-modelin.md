@@ -1,7 +1,7 @@
 ---
 title: "From Synapses to Circuits: Different Levels of Functional Modeling of the Retina"
 categories:
-  - paper
+  - Quantitative Biology
 tags:
   - auto
 ---

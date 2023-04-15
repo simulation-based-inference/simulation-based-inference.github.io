@@ -1,7 +1,7 @@
 ---
 title: "Efficient identification of informative features in simulation-based inference"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

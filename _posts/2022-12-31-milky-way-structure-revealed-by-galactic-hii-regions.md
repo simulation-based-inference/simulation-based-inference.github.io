@@ -1,7 +1,7 @@
 ---
 title: "Milky Way Structure Revealed by Galactic HII Regions"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

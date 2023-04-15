@@ -1,7 +1,7 @@
 ---
 title: "Amortized Bayesian inference on generative dynamical network models of epilepsy using deep neural density estimators"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

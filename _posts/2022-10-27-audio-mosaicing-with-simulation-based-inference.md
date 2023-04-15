@@ -1,7 +1,7 @@
 ---
 title: "Audio Mosaicing with Simulation-based Inference"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

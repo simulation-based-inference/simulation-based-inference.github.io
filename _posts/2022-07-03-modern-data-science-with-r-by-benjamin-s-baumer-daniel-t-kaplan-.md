@@ -1,7 +1,7 @@
 ---
 title: "Modern Data Science with R by Benjamin S. Baumer, Daniel T. Kaplan, and Nicholas J. Horton, Boca Raton, FL: Chapman and Hall/CRC Press, 2021, 650 pp …"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

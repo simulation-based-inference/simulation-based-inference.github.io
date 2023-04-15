@@ -1,7 +1,7 @@
 ---
 title: "Analytical and Stochastic Numerical Methods for the Simulation of Subsurface Flow in Floodplains"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

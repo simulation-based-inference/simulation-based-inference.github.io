@@ -1,7 +1,7 @@
 ---
 title: "${\rm S {\scriptsize IM} BIG} $: Mock Challenge for a Forward Modeling Approach to Galaxy Clustering"
 categories:
-  - paper
+  - Uncategorized
 tags:
   - auto
 ---

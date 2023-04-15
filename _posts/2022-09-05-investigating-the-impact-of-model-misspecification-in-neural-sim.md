@@ -1,7 +1,7 @@
 ---
 title: "Investigating the impact of model misspecification in neural simulation-based inference"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

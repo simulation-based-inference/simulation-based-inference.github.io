@@ -1,7 +1,7 @@
 ---
 title: "Combined statistical-mechanistic modeling links ion channel genes to physiology of cortical neuron types"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

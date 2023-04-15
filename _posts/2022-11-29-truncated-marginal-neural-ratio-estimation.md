@@ -1,7 +1,7 @@
 ---
 title: "Truncated Marginal Neural Ratio Estimation"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

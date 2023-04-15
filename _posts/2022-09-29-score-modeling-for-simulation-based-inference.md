@@ -1,7 +1,7 @@
 ---
 title: "Score Modeling for Simulation-based Inference"
 categories:
-  - paper
+  - Mathematics
 tags:
   - auto
 ---

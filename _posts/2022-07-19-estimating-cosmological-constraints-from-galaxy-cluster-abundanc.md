@@ -1,7 +1,7 @@
 ---
 title: "Estimating Cosmological Constraints from Galaxy Cluster Abundance using Simulation-Based Inference"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

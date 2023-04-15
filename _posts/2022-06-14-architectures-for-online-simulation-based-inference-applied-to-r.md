@@ -1,7 +1,7 @@
 ---
 title: "Architectures for online simulation-based inference applied to robot motion planning"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

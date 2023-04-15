@@ -1,7 +1,7 @@
 ---
 title: "Towards reliable simulation-based inference"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

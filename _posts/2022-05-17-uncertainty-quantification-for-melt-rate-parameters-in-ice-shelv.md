@@ -1,7 +1,7 @@
 ---
 title: "Uncertainty quantification for melt rate parameters in ice shelves using simulation-based inference"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

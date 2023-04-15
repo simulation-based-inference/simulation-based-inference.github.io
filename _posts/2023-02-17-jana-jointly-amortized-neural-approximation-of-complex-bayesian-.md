@@ -1,7 +1,7 @@
 ---
 title: "JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models"
 categories:
-  - paper
+  - Uncategorized
 tags:
   - auto
 ---

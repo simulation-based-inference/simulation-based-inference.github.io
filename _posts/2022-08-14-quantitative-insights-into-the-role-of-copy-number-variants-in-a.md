@@ -1,7 +1,7 @@
 ---
 title: "Quantitative Insights into the Role of Copy Number Variants in Adaptive Evolution"
 categories:
-  - paper
+  - Quantitative Biology
 tags:
   - auto
 ---

@@ -1,7 +1,7 @@
 ---
 title: "A Crisis In Simulation-Based Inference? Beware, Your Posterior Approximations Can Be Unfaithful"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

@@ -1,7 +1,7 @@
 ---
 title: "COMPASS project proposal: Scaling up simulation based inference to whole genome data"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

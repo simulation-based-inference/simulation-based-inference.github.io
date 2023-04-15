@@ -1,7 +1,7 @@
 ---
 title: "Full posterior estimation of Gray Matter cytoarchitecture using a three-compartment model with exchange: a simulation-based study"
 categories:
-  - paper
+  - Mathematics
 tags:
   - auto
 ---

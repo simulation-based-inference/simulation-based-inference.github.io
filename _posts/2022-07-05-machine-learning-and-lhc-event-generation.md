@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning and LHC Event Generation"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

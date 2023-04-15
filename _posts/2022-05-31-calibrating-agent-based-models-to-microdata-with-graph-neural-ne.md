@@ -1,7 +1,7 @@
 ---
 title: "Calibrating Agent-based Models to Microdata with Graph Neural Networks"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

@@ -1,7 +1,7 @@
 ---
 title: "paltas: Simulation-based inference on strong gravitational lensing systems"
 categories:
-  - paper
+  - Uncategorized
 tags:
   - auto
 ---

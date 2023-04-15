@@ -1,7 +1,7 @@
 ---
 title: "Book Review: Multivariate Data Integration Using R: Methods and Applications with the mixOmics Package, by Kim-Ahn Lê Cao and Zoe Welham, Boca Raton …"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

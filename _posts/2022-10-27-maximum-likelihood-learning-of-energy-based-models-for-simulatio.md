@@ -1,7 +1,7 @@
 ---
 title: "Maximum Likelihood Learning of Energy-Based Models for Simulation-Based Inference"
 categories:
-  - paper
+  - Mathematics
 tags:
   - auto
 ---

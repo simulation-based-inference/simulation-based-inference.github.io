@@ -1,7 +1,7 @@
 ---
 title: "Normalizing flows for likelihood-free inference with fusion simulations"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---
