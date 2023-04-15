@@ -21,7 +21,15 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r ./scholar/requirements.txt
 
-    - name: Run job
+    - name: Pull new articles
       env:
         SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
       run: python main.py
+
+    - name: Push new data to main
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Auto: download new articles data"
+        git push
