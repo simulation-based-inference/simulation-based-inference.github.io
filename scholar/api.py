@@ -1,11 +1,66 @@
+import json
+from time import sleep
 from typing import Optional
 import os
 import requests
 from dotenv import load_dotenv
 from .database import insert_serp_results
+import re
+import requests
+import xml.etree.ElementTree as ET
+from bs4 import BeautifulSoup
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
+ARXIV_CATEGORY = json.load(open("scholar/arxiv_category.json"))
+ARXIV_GROUP = json.load(open("scholar/arxiv_group.json"))
+
+def get_arxiv_category_map() -> dict:
+    url = 'https://arxiv.org/category_taxonomy'
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    data = soup.find("div", id="category_taxonomy_list").select('h4')
+
+    category_mapping = {}
+    for record in data:
+        text = str(record)
+        category = re.search(r"<h4>(.*?) <span>", text).group(1)
+        full_name = re.search(r"<span>\((.*?)\)</span>", text).group(1)
+        category_mapping[category] = full_name
+    
+    return category_mapping
+
+
+def get_arxiv_category(title: str) -> str:
+    """Get arxiv category from title.
+    
+    see: https://arxiv.org/category_taxonomy
+    """
+
+    sleep(0.5)  # Avoid being blocked by arxiv (max 3 requests per second)
+    url = "http://export.arxiv.org/api/query"
+    payload = {"search_query": f"ti:'{title}'", "max_results": 1}
+    response = requests.get(url, params=payload)
+
+    root = ET.fromstring(response.content)
+    namespaces = {
+        'arxiv': 'http://arxiv.org/schemas/atom'
+    }
+    category = root.find(".//arxiv:primary_category", namespaces)
+    if category is not None:
+        category = category.attrib['term']
+
+    if category in ARXIV_CATEGORY:
+        return category
+
+
+def to_group(arxiv_category: Optional[str]) -> str:
+    """Convert arxiv category to group."""
+    if arxiv_category is None:
+        return None
+    group_tag = arxiv_category.split('.')[0]
+    if group_tag in ARXIV_GROUP:
+        return group_tag
 
 
 def query_serp(
@@ -54,9 +109,18 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
     next_url = None
     while True:
         results = query_serp(url=next_url, term=term, more_results=more_results)
+
+        ### TODO:  Insert Arxiv category and group
+        for result in results['organic_results']:
+            title = result['title']
+            arxiv_category = get_arxiv_category(title)
+            result['arxiv_category'] = arxiv_category
+            result['arxiv_group'] = to_group(arxiv_category)
+
         term = None  # Only use the term on the first page, next_url already has it
 
         days_since_added = insert_serp_results(results)
+
         if stop_days is not None and days_since_added > stop_days:
             break
         try:

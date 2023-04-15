@@ -9,7 +9,7 @@ from peewee import (
     IntegerField,
 )
 
-db = SqliteDatabase("scholar/paper.db")
+DATABASE = SqliteDatabase("scholar/paper.db")
 
 
 class Paper(Model):
@@ -22,16 +22,18 @@ class Paper(Model):
     publication_info_summary = CharField()
     link = CharField()
     snippet = CharField()
+    arxiv_group_tag = CharField(null=True)
+    arxiv_category_tag = CharField(null=True)
 
     class Meta:
-        database = db
+        database = DATABASE
 
 
 def create_tables() -> None:
     """Create the tables in the database."""
-    db.connect()
-    db.create_tables([Paper])
-    db.close()
+    DATABASE.connect()
+    DATABASE.create_tables([Paper])
+    DATABASE.close()
 
 
 def insert_serp_results(results: list[dict]) -> None:
@@ -47,7 +49,6 @@ def insert_serp_results(results: list[dict]) -> None:
     for result in results["organic_results"]:
         _tmp = result["snippet"].split(" days ago - ")
         days_since_added = int(_tmp[0])
-
         snippet = _tmp[1]
 
         Paper.insert(
@@ -59,6 +60,8 @@ def insert_serp_results(results: list[dict]) -> None:
             publication_info_summary=result["publication_info"]["summary"],
             link=result["link"],
             snippet=snippet,
+            arxiv_group_tag=result["arxiv_group"],
+            arxiv_category_tag=result["arxiv_category"],
         ).on_conflict_ignore().execute()
 
     return days_since_added
