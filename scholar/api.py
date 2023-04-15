@@ -109,7 +109,7 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
     while True:
         results = query_serp(url=next_url, term=term, more_results=more_results)
 
-        ### TODO:  Insert Arxiv category and group
+        # Append arXiv category and group
         for result in results['organic_results']:
             title = result['title']
             arxiv_category = get_arxiv_category(title)
