@@ -1,6 +1,7 @@
 import re
-from scholar.database import Paper
 from pathlib import Path
+from scholar.database import Paper
+from scholar.api import ARXIV_GROUP_MAP 
 
 POST_DIR = Path("_posts/")
 
@@ -28,11 +29,16 @@ def make_md_post(paper: Paper) -> None:
     clean_title = sanitize_filename(paper.title)
     file_name = f"{pub_date}-{clean_title}.md"
 
+    if paper.arxiv_group_tag:
+        category = ARXIV_GROUP_MAP[paper.arxiv_group_tag]
+    else:
+        category = "Uncategorized"
+
     # Create file content
     content = f"""---
     title: "{paper.title}"
     categories:
-      - paper
+      - {category}
     tags:
       - auto
     ---

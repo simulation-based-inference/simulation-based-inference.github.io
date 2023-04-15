@@ -1,6 +1,6 @@
 ---
-title: "Papers by year"
-layout: posts
+title: "Papers by category"
+layout: categories
 permalink: /papers/
 author_profile: true
 ---

@@ -1,5 +1,6 @@
 FROM ruby:2.7-alpine
 
+EXPOSE 4000
 # Add Jekyll dependencies to Alpine
 RUN apk update
 RUN apk add --no-cache build-base gcc cmake github-cli

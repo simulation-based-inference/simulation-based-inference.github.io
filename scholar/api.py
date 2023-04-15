@@ -1,19 +1,18 @@
+import os
+import re
 import json
+import requests
 from time import sleep
 from typing import Optional
-import os
-import requests
 from dotenv import load_dotenv
-from .database import insert_serp_results
-import re
-import requests
-import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
+from xml.etree import ElementTree as ET
+from .database import insert_serp_results
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
-ARXIV_CATEGORY = json.load(open("scholar/arxiv_category.json"))
-ARXIV_GROUP = json.load(open("scholar/arxiv_group.json"))
+ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
+ARXIV_GROUP_MAP = json.load(open("scholar/arxiv_group.json"))
 
 def get_arxiv_category_map() -> dict:
     url = 'https://arxiv.org/category_taxonomy'
@@ -50,7 +49,7 @@ def get_arxiv_category(title: str) -> str:
     if category is not None:
         category = category.attrib['term']
 
-    if category in ARXIV_CATEGORY:
+    if category in ARXIV_CATEGORY_MAP:
         return category
 
 
@@ -59,7 +58,7 @@ def to_group(arxiv_category: Optional[str]) -> str:
     if arxiv_category is None:
         return None
     group_tag = arxiv_category.split('.')[0]
-    if group_tag in ARXIV_GROUP:
+    if group_tag in ARXIV_GROUP_MAP:
         return group_tag
 
 
