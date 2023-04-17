@@ -26,10 +26,12 @@ jobs:
         SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
       run: python main.py
 
-    - name: Push new data to main
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Auto: download new articles data"
-        git push
+    - name: Check if there are any updated file
+      run: if [[ "$(git diff --exit-code)" =~ 'diff' ]]; then echo "UPDATED=true" >> $GITHUB_ENV; else echo "UPDATED=false" >> $GITHUB_ENV ;fi
+
+    - if ${{ env.UPDATED == 'true'}}
+      name: Github commit and push
+      uses: Smart-Transportation/push@v1.3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'main'
