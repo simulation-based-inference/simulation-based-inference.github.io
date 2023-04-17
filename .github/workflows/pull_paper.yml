@@ -32,6 +32,6 @@ jobs:
     - name: Github commit and push
       uses: Smart-Transportation/push@v1.3
       with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'main'
-     if: env.UPDATED == 'true'
+          - github_token: ${{ secrets.GITHUB_TOKEN }}
+            branch: 'main'
+      if: env.UPDATED == 'true'
