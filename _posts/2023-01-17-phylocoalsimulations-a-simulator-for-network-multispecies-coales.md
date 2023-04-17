@@ -1,7 +1,7 @@
 ---
 title: "PhyloCoalSimulations: A simulator for network multispecies coalescent models, including a new extension for the inheritance of gene flow"
 categories:
-  - paper
+  - Uncategorized
 tags:
   - auto
 ---

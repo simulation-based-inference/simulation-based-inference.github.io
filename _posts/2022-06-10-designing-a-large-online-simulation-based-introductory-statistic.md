@@ -1,7 +1,7 @@
 ---
 title: "Designing a Large, Online Simulation-Based Introductory Statistics Course"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

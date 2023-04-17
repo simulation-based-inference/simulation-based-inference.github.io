@@ -1,7 +1,7 @@
 ---
 title: "SOBER: Scalable Batch Bayesian Optimization and Quadrature using Recombination Constraints"
 categories:
-  - paper
+  - Uncategorized
 tags:
   - auto
 ---

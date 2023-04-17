@@ -1,7 +1,7 @@
 ---
 title: "Contrastive Neural Ratio Estimation"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

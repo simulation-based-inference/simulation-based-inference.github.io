@@ -1,7 +1,7 @@
 ---
 title: "Applications of Neural Probabilistic Modeling to High Energy and Astrophysics"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

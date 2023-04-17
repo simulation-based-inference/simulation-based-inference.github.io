@@ -1,7 +1,7 @@
 ---
 title: "Un-Biasing Standard Siren Inference of the Hubble Constant"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

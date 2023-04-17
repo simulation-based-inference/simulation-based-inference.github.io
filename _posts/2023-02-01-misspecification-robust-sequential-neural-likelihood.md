@@ -1,7 +1,7 @@
 ---
 title: "Misspecification-robust sequential neural likelihood"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

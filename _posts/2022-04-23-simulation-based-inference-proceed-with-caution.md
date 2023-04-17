@@ -1,7 +1,7 @@
 ---
 title: "Simulation-based inference: proceed with caution!"
 categories:
-  - paper
+  - Mathematics
 tags:
   - auto
 ---

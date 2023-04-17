@@ -1,7 +1,7 @@
 ---
 title: "Truncated proposals for scalable and hassle-free simulation-based inference"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

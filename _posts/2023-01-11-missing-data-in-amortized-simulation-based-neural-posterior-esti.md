@@ -1,7 +1,7 @@
 ---
 title: "Missing data in amortized simulation-based neural posterior estimation"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

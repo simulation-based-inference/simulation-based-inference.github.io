@@ -1,7 +1,7 @@
 ---
 title: "Amortised inference in diffusion MRI biophysical models using artificial neural networks and simulation-based frameworks"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

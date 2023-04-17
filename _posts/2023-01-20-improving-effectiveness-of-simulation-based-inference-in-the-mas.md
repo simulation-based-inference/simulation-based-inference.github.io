@@ -1,7 +1,7 @@
 ---
 title: "Improving Effectiveness of Simulation-Based Inference in the Massively Parallel Regime"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

@@ -1,7 +1,7 @@
 ---
 title: "swyft: Scientific simulation-based inference at scale"
 categories:
-  - paper
+  - Uncategorized
 tags:
   - auto
 ---

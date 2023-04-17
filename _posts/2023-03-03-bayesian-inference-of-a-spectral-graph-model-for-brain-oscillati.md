@@ -1,7 +1,7 @@
 ---
 title: "Bayesian Inference of a Spectral Graph Model for Brain Oscillations"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

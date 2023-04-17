@@ -1,7 +1,7 @@
 ---
 title: "Simulation-based inference for non-parametric statistical comparison of biomolecule dynamics"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

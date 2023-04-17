@@ -1,7 +1,7 @@
 ---
 title: "Rethinking the Statistical Analysis of Neuromechanical Data"
 categories:
-  - paper
+  - Computer Science
 tags:
   - auto
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Recurrent connectivity structure controls the emergence of co-tuned excitation and inhibition"
 categories:
-  - paper
+  - Quantitative Biology
 tags:
   - auto
 ---

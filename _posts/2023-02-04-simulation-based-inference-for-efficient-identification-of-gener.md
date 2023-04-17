@@ -1,7 +1,7 @@
 ---
 title: "Simulation-based inference for efficient identification of generative models in connectomics"
 categories:
-  - paper
+  - Quantitative Biology
 tags:
   - auto
 ---

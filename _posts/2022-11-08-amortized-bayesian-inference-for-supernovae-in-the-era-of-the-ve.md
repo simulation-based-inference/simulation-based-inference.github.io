@@ -1,7 +1,7 @@
 ---
 title: "Amortized bayesian inference for supernovae in the era of the vera rubin observatory using normalizing flows"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

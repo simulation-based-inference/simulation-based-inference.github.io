@@ -1,7 +1,7 @@
 ---
 title: "Towards reconstructing the halo clustering and halo mass function of N-body simulations using neural ratio estimation"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---

@@ -1,7 +1,7 @@
 ---
 title: "A data integration framework for spatial interpolation of temperature observations using climate model data"
 categories:
-  - paper
+  - Statistics
 tags:
   - auto
 ---

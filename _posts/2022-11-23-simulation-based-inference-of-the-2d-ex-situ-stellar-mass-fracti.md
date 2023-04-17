@@ -1,7 +1,7 @@
 ---
 title: "Simulation-based inference of the 2D ex-situ stellar mass fraction distribution of galaxies using variational autoencoders"
 categories:
-  - paper
+  - Physics
 tags:
   - auto
 ---
