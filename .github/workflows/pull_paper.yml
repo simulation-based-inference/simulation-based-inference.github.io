@@ -29,9 +29,9 @@ jobs:
     - name: Check if there are any updated file
       run: if [[ "$(git diff --exit-code)" =~ 'diff' ]]; then echo "UPDATED=true" >> $GITHUB_ENV; else echo "UPDATED=false" >> $GITHUB_ENV ;fi
 
-    - if ${{ env.UPDATED == 'true'}}
-      name: Github commit and push
+    - name: Github commit and push
       uses: Smart-Transportation/push@v1.3
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: 'main'
+     if: env.UPDATED == 'true'
