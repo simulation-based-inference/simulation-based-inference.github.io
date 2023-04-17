@@ -65,3 +65,18 @@ def insert_serp_results(results: list[dict]) -> None:
         ).on_conflict_ignore().execute()
 
     return days_since_added
+
+
+def patch_arxiv(id: int, arxiv_category_tag: str) -> None:
+    """Patch the arxiv tags for a paper.
+
+    Args:
+        id (int): The ID of the paper.
+        arxiv_group_tag (str): The arxiv group tag.
+        arxiv_category_tag (str): The arxiv category tag.
+    """
+    paper = Paper.get(Paper.id == id)
+    print(paper.title)
+    paper.arxiv_category_tag = arxiv_category_tag
+    paper.arxiv_group_tag = arxiv_category_tag.split(".")[0]
+    paper.save()
