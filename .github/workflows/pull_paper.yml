@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -45,6 +45,7 @@ jobs:
         git config --local user.name "GitHub Action Bot"
         git add --all
         git commit -m "auto update publications"
+        
     - if: ${{ env.changed == 'true' }}
       uses: ad-m/github-push-action@master
       with:
