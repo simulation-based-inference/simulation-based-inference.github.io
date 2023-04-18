@@ -3,6 +3,8 @@ name: Daily pull
 on:
   schedule:
     - cron: '0 12 * * *'  # Runs every day at 12:00 UTC
+  
+  workflow_dispatch:  # Add manually dispatch option
 
 jobs:
   my_cron_job:
@@ -26,12 +28,25 @@ jobs:
         SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
       run: python main.py
 
-    - name: Check if there are any updated file
-      run: if [[ "$(git diff --exit-code)" =~ 'diff' ]]; then echo "UPDATED=true" >> $GITHUB_ENV; else echo "UPDATED=false" >> $GITHUB_ENV ;fi
+    - name: check for changed files
+      run: |
+        changed_files=$(git status --porcelain | grep -E '^\?\?')
+        if [ -n "$changed_files" ]; then
+          echo "changed=true" >> $GITHUB_ENV
+          echo "=== change detected ==="
+        else
+          echo "changed=false" >> $GITHUB_ENV
+          echo "=== no change detected ==="
+        fi
 
-    - name: Github commit and push
-      uses: Smart-Transportation/push@v1.3
+    - if: ${{ env.changed == 'true' }}
+      run: |
+        git config --local user.email "github-action[bot]@github.com"
+        git config --local user.name "GitHub Action Bot"
+        git add --all
+        git commit -m "auto update publications"
+    - if: ${{ env.changed == 'true' }}
+      uses: ad-m/github-push-action@master
       with:
-          - github_token: ${{ secrets.GITHUB_TOKEN }}
-            branch: 'main'
-      if: env.UPDATED == 'true'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
