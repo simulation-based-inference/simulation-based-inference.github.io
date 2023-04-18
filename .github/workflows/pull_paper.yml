@@ -30,7 +30,7 @@ jobs:
 
     - name: check for changed files
       run: |
-        changed_files=$(git status --porcelain | grep -E '^\?\?')
+        changed_files=$(git status --porcelain)
         if [ -n "$changed_files" ]; then
           echo "changed=true" >> $GITHUB_ENV
           echo "=== change detected ==="
@@ -45,7 +45,7 @@ jobs:
         git config --local user.name "GitHub Action Bot"
         git add --all
         git commit -m "auto update publications"
-        
+
     - if: ${{ env.changed == 'true' }}
       uses: ad-m/github-push-action@master
       with:
