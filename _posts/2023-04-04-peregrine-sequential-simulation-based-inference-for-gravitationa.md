@@ -1,7 +1,7 @@
 ---
 title: "Peregrine: Sequential simulation-based inference for gravitational wave signals"
 categories:
-  - Uncategorized
+  - Physics
 tags:
   - auto
 ---
