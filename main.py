@@ -15,4 +15,4 @@ if __name__ == "__main__":
         SEARCH_TERM, stop_days=14
     )  # For crawling only the last 14 days (simulate google scholar alerts)
 
-    make_all()  # TODO: maybe just build the new posts... (not all of them)
+    make_all(overwrite=False)

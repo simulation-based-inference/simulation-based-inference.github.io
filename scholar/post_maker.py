@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 from scholar.database import Paper
-from scholar.api import ARXIV_GROUP_MAP 
+from scholar.api import ARXIV_GROUP_MAP
 
 POST_DIR = Path("_posts/")
 
@@ -21,13 +21,18 @@ def sanitize_filename(filename: str) -> str:
     return sanitized.lower()[:64]
 
 
-def make_md_post(paper: Paper) -> None:
+def make_md_post(paper: Paper, overwrite: bool) -> None:
     """Make a post for the given paper."""
 
     # Create file name
     pub_date = paper.published_on.strftime("%Y-%m-%d")
     clean_title = sanitize_filename(paper.title)
     file_name = f"{pub_date}-{clean_title}.md"
+
+    # Check if file already exists
+    if (POST_DIR / file_name).exists() and not overwrite:
+        print(f"File already exists: {paper.title}")
+        return
 
     if paper.arxiv_group_tag:
         category = ARXIV_GROUP_MAP[paper.arxiv_group_tag]
@@ -58,10 +63,10 @@ def make_md_post(paper: Paper) -> None:
     print(f"Markdown file created successfully: {paper.title}")
 
 
-def make_all() -> None:
+def make_all(overwrite: bool = False) -> None:
     papers = Paper.select()
     for paper in papers:
-        make_md_post(paper)
+        make_md_post(paper, overwrite=overwrite)
 
 
 if __name__ == "__main__":

@@ -30,7 +30,7 @@ jobs:
 
     - name: check for changed files
       run: |
-        changed_files=$(git status --porcelain | grep -E "^\?\? ")
+        changed_files=$(git status --porcelain")
         if [ -n "$changed_files" ]; then
           echo "changed=true" >> $GITHUB_ENV
           echo "=== change detected ==="
