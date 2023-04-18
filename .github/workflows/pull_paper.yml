@@ -30,7 +30,7 @@ jobs:
 
     - name: check for changed files
       run: |
-        changed_files=$(git status --porcelain)
+        changed_files=$(git status --porcelain | grep -E "^\?\? ")
         if [ -n "$changed_files" ]; then
           echo "changed=true" >> $GITHUB_ENV
           echo "=== change detected ==="
@@ -38,14 +38,14 @@ jobs:
           echo "changed=false" >> $GITHUB_ENV
           echo "=== no change detected ==="
         fi
-
+    # Only add untracked file to avoid overwriting manual changes
     - if: ${{ env.changed == 'true' }}
       run: |
         git config --local user.email "github-action[bot]@github.com"
         git config --local user.name "GitHub Action Bot"
-        git add --all
+        echo -e "a\n*\nq\n"|git add -i
         git commit -m "auto update publications"
-
+        
     - if: ${{ env.changed == 'true' }}
       uses: ad-m/github-push-action@master
       with:
