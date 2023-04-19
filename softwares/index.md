@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Softwares for SBI
-permalink: /softwares/
+title: Software for SBI
+permalink: /software/
 ---
 
 An initial list of SBI-related software packages
 
-[Submit your software](https://github.com/simulation-based-inference/simulation-based-inference.github.io/issues/new?title=Submit%20software)
+[Submit your software](https://github.com/simulation-based-inference/simulation-based-inference.github.io/issues/new?assignees=&labels=&template=recommend-new-software.md&title=%5BSuggestion%5D%3A+New+software)
 
  * [SBI](https://www.mackelab.org/sbi/) (python) - general purpose SBI framework
  * [SBI Benchmarking](https://github.com/mackelab/sbibm/) (python) - for benchmarking
