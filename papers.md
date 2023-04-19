@@ -1,6 +1,5 @@
 ---
-title: "Papers by category"
-layout: categories
+layout: blog
+title: Papers about SBI
 permalink: /papers/
-author_profile: true
 ---

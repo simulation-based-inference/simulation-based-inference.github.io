@@ -1,5 +1,6 @@
-main:
-  - title: "Home"
-    url: /
-  - title: "Papers"
-    url: /papers/
+- name: Papers
+  link: /papers
+- name: Softwares
+  link: /softwares
+- name: About
+  link: /about
