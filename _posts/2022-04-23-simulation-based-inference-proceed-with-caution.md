@@ -7,7 +7,7 @@ tags:
 ---
 G Louppe - Learning to Discover, 2022 - orbi.uliege.be
 
-[cited by](None) 
+
 
 >… Simulation-based inference … We must make sure our approximate simulation-based inference algorithms can (at least) actually realize faithful inferences on …
 

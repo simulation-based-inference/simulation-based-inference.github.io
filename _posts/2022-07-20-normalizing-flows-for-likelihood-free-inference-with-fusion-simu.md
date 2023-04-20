@@ -7,7 +7,7 @@ tags:
 ---
 CS Furia, RM Churchill - Plasma Physics and Controlled Fusion, 2022 - iopscience.iop.org
 
-[cited by](None) 
+
 
 >… We introduce likelihood-free inference (also known as simulation-based inference) [4] with normalizing flows as a new approach to quantifying anomalous transport …
 

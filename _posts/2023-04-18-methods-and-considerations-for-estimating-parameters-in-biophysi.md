@@ -7,7 +7,7 @@ tags:
 ---
 N Tolley, PLC Rodrigues, A Gramfort, SR Jones - bioRxiv, 2023 - biorxiv.org
 
-[cited by](None) 
+
 
 >… Recently, simulation based inference (SBI) has been proposed as an approach to perform Bayesian inference to estimate parameters in detailed neural models. SBI …
 

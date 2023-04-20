@@ -7,7 +7,7 @@ tags:
 ---
 C Schröder - 2022 - coschroeder.github.io
 
-[cited by](None) 
+
 
 >… Throughout the presented work, I exploit the framework of simulation based inference to … I showcase the potentials of simulation based inference in neuroscience, and how …
 

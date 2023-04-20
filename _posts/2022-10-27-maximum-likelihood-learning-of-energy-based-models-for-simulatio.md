@@ -7,7 +7,7 @@ tags:
 ---
 P Glaser, M Arbel, A Doucet, A Gretton - arXiv preprint arXiv:2210.14756, 2022 - arxiv.org
 
-[cited by](https://scholar.google.com/scholar?cites=11264366275621914073&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
+[cited by](https://scholar.google.com/scholar?cites=11264366275621914073&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >We introduce two synthetic likelihood methods for Simulation-Based Inference (SBI), to conduct either amortized or targeted inference from experimental observations …
 

@@ -7,7 +7,7 @@ tags:
 ---
 T Economou, G Lazoglou, A Tzyrkalli, K Constantinidou… - PeerJ, 2023 - peerj.com
 
-[cited by](None) 
+
 
 >… The approach is Bayesian which facilitates uncertainty quantification and simulation based inference, as illustrated by application to two countries from the Middle East …
 

@@ -7,7 +7,7 @@ tags:
 ---
 S Lipovetsky - 2022 - Taylor & Francis
 
-[cited by](None) 
+
 
 >… Chapter 7 describes iterative computation using functions from the purrr package, which help implement the bootstrap and simulation-based inference described further in …
 

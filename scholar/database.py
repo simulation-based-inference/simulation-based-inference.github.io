@@ -69,7 +69,11 @@ def insert_serp_results(results: list[dict]) -> None:
             arxiv_group_tag=result["arxiv_group"],
             arxiv_category_tag=result["arxiv_category"],
             citation_backlink=citation_backlink,
-        ).on_conflict_replace().execute()
+        ).on_conflict(
+            conflict_target=[Paper.title],
+            preserve=[Paper.arxiv_group_tag, Paper.arxiv_category_tag],
+            update={Paper.citation_backlink: citation_backlink},
+        ).execute()
 
     return days_since_added
 

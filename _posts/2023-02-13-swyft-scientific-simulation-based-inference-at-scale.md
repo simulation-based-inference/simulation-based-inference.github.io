@@ -7,7 +7,7 @@ tags:
 ---
 B Miller, A Cole, C Weniger, F Nattino… - Astrophysics …, 2023 - ui.adsabs.harvard.edu
 
-[cited by](None) 
+
 
 >swyft implements Truncated Marginal Neural Radio Estimation (TMNRE), a Bayesian parameter inference technique for complex simulation data. The code improves …
 

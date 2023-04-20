@@ -7,7 +7,7 @@ tags:
 ---
 J Fogg, ES Allman, C Ané - bioRxiv, 2023 - biorxiv.org
 
-[cited by](https://scholar.google.com/scholar?cites=5642539770950589088&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
+[cited by](https://scholar.google.com/scholar?cites=5642539770950589088&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… This package should be useful for simulation studies and simulation-based inference methods. The software is available open source with documentation and a tutorial at …
 

@@ -7,7 +7,7 @@ tags:
 ---
 Y Bernaerts, M Deistler, PJ Goncalves, J Beck… - bioRxiv, 2023 - biorxiv.org
 
-[cited by](https://scholar.google.com/scholar?cites=6128980025825657340&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
+[cited by](https://scholar.google.com/scholar?cites=6128980025825657340&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… variety of cortical cell types using simulation-based inference, while overcoming the … that explain observed electrophysiology, we used simulation-based inference (SBI)25…
 

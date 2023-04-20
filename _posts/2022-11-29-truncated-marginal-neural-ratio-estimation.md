@@ -7,7 +7,7 @@ tags:
 ---
 A Cole, P Forre, G Louppe, BK Miller, C Weniger… - pure.uva.nl
 
-[cited by](None) 
+
 
 >… We present a neural simulation-based inference algorithm which simultaneously … We perform experiments on a marginalized version of the simulation-based inference …
 

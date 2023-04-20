@@ -7,7 +7,7 @@ tags:
 ---
 H Verdier, F Laurent, A Cassé… - PLOS Computational …, 2023 - journals.plos.org
 
-[cited by](None) 
+
 
 >… In this section, we present the simulation-based inference scheme on which this method relies, the architecture of the neural network used to compute latent vectors from …
 

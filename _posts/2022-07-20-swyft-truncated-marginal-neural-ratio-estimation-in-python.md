@@ -7,7 +7,7 @@ tags:
 ---
 BK Miller, A Cole, C Weniger, F Nattino, O Ku… - Journal of Open …, 2022 - joss.theoj.org
 
-[cited by](https://scholar.google.com/scholar?cites=2789752983513578176&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
+[cited by](https://scholar.google.com/scholar?cites=2789752983513578176&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… Simulation-based inference (SBI) is a machine learning technique which applies a simulator, a fitted statistical surrogate model, and a set of prior beliefs to estimate a …
 

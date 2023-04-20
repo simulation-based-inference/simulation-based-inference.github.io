@@ -7,7 +7,7 @@ tags:
 ---
 J Dyer, J Fitzgerald, B Rieck, SM Schmon - NeurIPS 2022 Temporal Graph … - openreview.net
 
-[cited by](https://scholar.google.com/scholar?cites=5984859003596420825&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
+[cited by](https://scholar.google.com/scholar?cites=5984859003596420825&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… In these settings, simulation-based inference (SBI) procedures are a convenient means to approximating conventional parameter calibration procedures. A popular …
 

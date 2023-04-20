@@ -7,7 +7,7 @@ tags:
 ---
 MA Asenov - 2022 - ethos.bl.uk
 
-[cited by](None) 
+
 
 >Robotic systems have enjoyed significant adoption in industrial and field applications in structured environments, where clear specifications of the task and observations …
 

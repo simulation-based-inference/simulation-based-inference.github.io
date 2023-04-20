@@ -7,7 +7,7 @@ tags:
 ---
 MV Vasist - Likelihood-free in Paris, 2022 - orbi.uliege.be
 
-[cited by](None) 
+
 
 >… NPE is a simulation based inference (SBI) algorithm that directly estimates the posterior, hence sidestepping the need to compute the likelihood. Once trained, the network …
 

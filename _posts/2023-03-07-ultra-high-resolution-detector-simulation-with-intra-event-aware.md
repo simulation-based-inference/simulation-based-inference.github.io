@@ -7,7 +7,7 @@ tags:
 ---
 H Hashemi, N Hartmann, S Sharifzadeh, J Kahn… - arXiv preprint arXiv …, 2023 - arxiv.org
 
-[cited by](None) 
+
 
 >… Applications of this work include controllable simulation-based inference and event generation, high-granularity detector simulation such as at the HL-LHC (High …
 

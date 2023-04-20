@@ -7,7 +7,7 @@ tags:
 ---
 T Nguyen, S Mishra-Sharma, R Williams, L Necib - Physical Review D, 2023 - APS
 
-[cited by](None) 
+
 
 >… We introduce a new method that leverages simulation-based inference and graph-based machine learning in order to infer the dark matter density profiles of dwarf …
 

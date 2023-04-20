@@ -7,7 +7,7 @@ tags:
 ---
 M Adachi, S Hayakawa, S Hamid, M Jørgensen… - arXiv preprint arXiv …, 2023 - arxiv.org
 
-[cited by](None) 
+
 
 >… As LFI likelihood is originally introduced to solve simulation-based inference, now our SOBER-LFI is also capable of solving simulation-based inference. The main …
 

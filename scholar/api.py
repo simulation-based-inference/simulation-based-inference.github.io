@@ -125,17 +125,3 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
             next_url = results["serpapi_pagination"]["next"]
         except KeyError:
             break
-
-
-############################## Obsolete ##############################
-def query_xdd(term: str) -> Optional[dict]:
-    """Query the XDD API for snippets containing the given term."""
-    url = "https://xdd.wisc.edu/api/snippets"
-    params = {"term": term, "article_limit": 1000}
-    response = requests.get(url, params=params)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(
-            f"Request failed with status code {response.status_code}: {response.text}"
-        )

@@ -7,7 +7,7 @@ tags:
 ---
 A Saoulis, A Ferreira, B Joachimi, AS Mancini… - 2023 - meetingorganizer.copernicus.org
 
-[cited by](None) 
+
 
 >… likelihood-free” or “simulation-based” inference, which removes any assumptions about … It then demonstrates simulation-based inference on the problem of source location …
 

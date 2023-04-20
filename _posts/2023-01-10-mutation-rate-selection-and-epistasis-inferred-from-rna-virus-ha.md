@@ -7,7 +7,7 @@ tags:
 ---
 I Caspi, M Meir, N Ben Nun, A Stern, Y Ram - bioRxiv, 2023 - biorxiv.org
 
-[cited by](None) 
+
 
 >… Our approach employs neural posterior estimation, a computational technique that applies simulationbased inference with neural networks to jointly infer multiple model …
 

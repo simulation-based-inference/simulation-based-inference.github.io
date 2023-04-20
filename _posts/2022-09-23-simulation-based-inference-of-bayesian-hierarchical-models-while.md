@@ -7,7 +7,7 @@ tags:
 ---
 F Leclercq - Physical Sciences Forum, 2022 - mdpi.com
 
-[cited by](None) 
+
 
 >… This paper presents recent methodological advances for performing simulation-based inference (SBI) of a general class of Bayesian hierarchical models (BHMs) while …
 

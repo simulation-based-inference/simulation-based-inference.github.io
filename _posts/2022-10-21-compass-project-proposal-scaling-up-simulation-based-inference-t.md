@@ -7,7 +7,7 @@ tags:
 ---
 D Prangle, M Beaumont - bristol.ac.uk
 
-[cited by](None) 
+
 
 >… A focus of research has been the development and application of simulation based inference methods in a number of different contexts (Beaumont et al., 2002; Howard-…
 

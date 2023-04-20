@@ -7,7 +7,7 @@ tags:
 ---
 CH Hahn, M Eickenberg, S Ho, J Hou… - … of Cosmology and …, 2023 - iopscience.iop.org
 
-[cited by](https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
+[cited by](https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… Simulation-Based Inference of Galaxies (SimBIG) is a forward modeling framework for analyzing galaxy clustering using simulation-based inference. In this work, we …
 

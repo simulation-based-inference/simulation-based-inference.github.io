@@ -7,7 +7,7 @@ tags:
 ---
 VA Villar - arXiv preprint arXiv:2211.04480, 2022 - arxiv.org
 
-[cited by](https://scholar.google.com/scholar?cites=17210040949417357460&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
+[cited by](https://scholar.google.com/scholar?cites=17210040949417357460&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… Here, we present the first simulation-based inference method using normalizing flows, trained to rapidly infer the parameters of toy supernovae model in multivariate, Rubin…
 

@@ -7,7 +7,7 @@ tags:
 ---
 JPM Patron, T Kypraios, SN Sotiropoulos - archive.ismrm.org
 
-[cited by](None) 
+
 
 >… We present a simulation-based inference approach to estimate diffusion MRI model parameters and their uncertainty. This novel framework trains a neural network to learn …
 

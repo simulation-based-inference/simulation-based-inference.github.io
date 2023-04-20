@@ -7,7 +7,7 @@ tags:
 ---
 MN Ahsan, JM Dufour - 2022 - wp.lancs.ac.uk
 
-[cited by](None) 
+
 
 >… 5 Simulation-based Inference In this section, we discuss simulation-based inference procedures for MSV models. The simulation-based methods are more attainable in …
 

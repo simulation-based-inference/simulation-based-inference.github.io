@@ -7,7 +7,7 @@ tags:
 ---
 LS Muhle, G Moss, ACJ Henry, R Drews - 2023 - meetingorganizer.copernicus.org
 
-[cited by](None) 
+
 
 >… Here, we develop a radar forward modeling framework that is geared to train a machine learning workflow (likely simulation-based inference) to extract radar attributes …
 

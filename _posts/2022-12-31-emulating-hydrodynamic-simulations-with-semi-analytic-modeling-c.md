@@ -7,7 +7,7 @@ tags:
 ---
 A Gabrielpillai, R Somerville, S Genel… - American …, 2023 - ui.adsabs.harvard.edu
 
-[cited by](None) 
+
 
 >… properties in larger volumes than are currently feasible with numerical hydrodynamic simulations, and these models can be interfaced with simulation based inference to …
 

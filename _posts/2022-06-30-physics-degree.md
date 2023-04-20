@@ -7,7 +7,7 @@ tags:
 ---
 CA Dıaz-Caneja - 2022 - riull.ull.es
 
-[cited by](None) 
+
 
 >… With this knowledge we will study their applicability in a simulation-based inference of cosmological and astrophysical parameters with Mixture Density Convolutional …
 

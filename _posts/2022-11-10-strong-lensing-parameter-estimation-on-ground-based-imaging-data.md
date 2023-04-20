@@ -7,7 +7,7 @@ tags:
 ---
 J Poh, A Samudre, A Ćiprijanović, B Nord… - arXiv preprint arXiv …, 2022 - arxiv.org
 
-[cited by](None) 
+
 
 >… We present two Simulation-Based Inference (SBI) approaches for lens parameter estimation of galaxy-galaxy lenses. We demonstrate the successful application of Neural …
 

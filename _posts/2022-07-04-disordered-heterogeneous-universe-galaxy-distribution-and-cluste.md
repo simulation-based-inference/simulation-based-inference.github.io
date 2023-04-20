@@ -7,7 +7,7 @@ tags:
 ---
 OHE Philcox, S Torquato - Physical Review X, 2023 - APS
 
-[cited by](None) 
+
 
 >… For the simulation-based inference (SBI), we utilize a set of 8192 galaxy simulations computed using FASTPM with the method of Ref. [139] at random locations in …
 

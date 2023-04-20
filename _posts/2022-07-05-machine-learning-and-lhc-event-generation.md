@@ -7,7 +7,7 @@ tags:
 ---
 O Mattelaer - 2022 - dial.uclouvain.be
 
-[cited by](None) 
+
 
 >… This review illustrates a wide range of applications of modern machine learning to event generation and simulation-based inference, including conceptional developments …
 

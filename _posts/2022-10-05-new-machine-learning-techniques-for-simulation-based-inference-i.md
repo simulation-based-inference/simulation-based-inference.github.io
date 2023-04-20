@@ -7,7 +7,7 @@ tags:
 ---
 K Kong, KT Matchev, S Mrenna… - arXiv preprint arXiv …, 2022 - arxiv.org
 
-[cited by](None) 
+
 
 >We propose an intuitive, machine-learning approach to multiparameter inference, dubbed the InferoStatic Networks (ISN) method, to model the score and likelihood ratio …
 

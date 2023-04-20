@@ -7,7 +7,7 @@ tags:
 ---
 J Zeghal, F Lanusse, A Boucaud, B Remy… - arXiv preprint arXiv …, 2022 - arxiv.org
 
-[cited by](None) 
+
 
 >… Simulation-Based Inference (SBI) is a promising Bayesian inference framework that alleviates the need for analytic likelihoods to estimate posterior distributions. Recent …
 

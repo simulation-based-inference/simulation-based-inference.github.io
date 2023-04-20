@@ -7,7 +7,7 @@ tags:
 ---
 T Meunier, C Fang, M Jallais, D Wassermann - archive.ismrm.org
 
-[cited by](None) 
+
 
 >… Our model improves on state-of-the-art in that 1) we extract an invertible system leading to stable parameters estimation, 2) our simulation-based inference approach …
 

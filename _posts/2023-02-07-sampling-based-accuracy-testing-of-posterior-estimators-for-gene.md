@@ -7,7 +7,7 @@ tags:
 ---
 P Lemos, A Coogan, Y Hezaveh… - arXiv preprint arXiv …, 2023 - arxiv.org
 
-[cited by](None) 
+
 
 >… Posterior inference with generative models is an alternative to methods such as Markov Chain Monte Carlo, both for likelihood-based and simulation-based inference. …
 
