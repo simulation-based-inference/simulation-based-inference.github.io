@@ -7,6 +7,8 @@ tags:
 ---
 L Rouillard - hal.science
 
+
+
 >… region of 300 brain locations features around 1 million parameters, hampering the usage of modern density estimation techniques such as Simulation-Based Inference (…
 
 Link to paper: [https://hal.science/hal-03267956v1/preview/paper.pdf](https://hal.science/hal-03267956v1/preview/paper.pdf)

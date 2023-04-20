@@ -14,11 +14,12 @@ SERP_API_KEY = os.getenv("SERP_API_KEY")
 ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
 ARXIV_GROUP_MAP = json.load(open("scholar/arxiv_group.json"))
 
+
 def get_arxiv_category_map() -> dict:
-    url = 'https://arxiv.org/category_taxonomy'
+    url = "https://arxiv.org/category_taxonomy"
     response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
-    data = soup.find("div", id="category_taxonomy_list").select('h4')
+    soup = BeautifulSoup(response.content, "html.parser")
+    data = soup.find("div", id="category_taxonomy_list").select("h4")
 
     category_mapping = {}
     for record in data:
@@ -26,13 +27,13 @@ def get_arxiv_category_map() -> dict:
         category = re.search(r"<h4>(.*?) <span>", text).group(1)
         full_name = re.search(r"<span>\((.*?)\)</span>", text).group(1)
         category_mapping[category] = full_name
-    
+
     return category_mapping
 
 
 def get_arxiv_category(title: str) -> str:
     """Get arxiv category from title.
-    
+
     see: https://arxiv.org/category_taxonomy
     """
 
@@ -42,12 +43,10 @@ def get_arxiv_category(title: str) -> str:
     response = requests.get(url, params=payload)
 
     root = ET.fromstring(response.content)
-    namespaces = {
-        'arxiv': 'http://arxiv.org/schemas/atom'
-    }
+    namespaces = {"arxiv": "http://arxiv.org/schemas/atom"}
     category = root.find(".//arxiv:primary_category", namespaces)
     if category is not None:
-        category = category.attrib['term']
+        category = category.attrib["term"]
 
     if category in ARXIV_CATEGORY_MAP:
         return category
@@ -57,7 +56,7 @@ def to_group(arxiv_category: Optional[str]) -> str:
     """Convert arxiv category to group."""
     if arxiv_category is None:
         return None
-    group_tag = arxiv_category.split('.')[0]
+    group_tag = arxiv_category.split(".")[0]
     if group_tag in ARXIV_GROUP_MAP:
         return group_tag
 
@@ -110,11 +109,11 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
         results = query_serp(url=next_url, term=term, more_results=more_results)
 
         # Append arXiv category and group
-        for result in results['organic_results']:
-            title = result['title']
+        for result in results["organic_results"]:
+            title = result["title"]
             arxiv_category = get_arxiv_category(title)
-            result['arxiv_category'] = arxiv_category
-            result['arxiv_group'] = to_group(arxiv_category)
+            result["arxiv_category"] = arxiv_category
+            result["arxiv_group"] = to_group(arxiv_category)
 
         term = None  # Only use the term on the first page, next_url already has it
 
@@ -126,17 +125,3 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
             next_url = results["serpapi_pagination"]["next"]
         except KeyError:
             break
-
-
-############################## Obsolete ##############################
-def query_xdd(term: str) -> Optional[dict]:
-    """Query the XDD API for snippets containing the given term."""
-    url = "https://xdd.wisc.edu/api/snippets"
-    params = {"term": term, "article_limit": 1000}
-    response = requests.get(url, params=params)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(
-            f"Request failed with status code {response.status_code}: {response.text}"
-        )

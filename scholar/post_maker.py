@@ -39,6 +39,11 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     else:
         category = "Uncategorized"
 
+    if paper.citation_backlink:
+        cited_by = f"[cited by]({paper.citation_backlink})"
+    else:
+        cited_by = ""
+
     # Create file content
     content = f"""---
     title: "{paper.title}"
@@ -48,6 +53,8 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
       - paper
     ---
     {paper.publication_info_summary}
+
+    {cited_by}
 
     >{paper.snippet}
 
