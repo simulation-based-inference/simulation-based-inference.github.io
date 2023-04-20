@@ -7,6 +7,8 @@ tags:
 ---
 S Barde - 2022 - kent.ac.uk
 
+[cited by](https://scholar.google.com/scholar?cites=13996944156683755311&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
+
 >… Most simulation models do not possess closed form expressions for their likelihood function, requiring the use of simulation-based inference, such as simulated method of …
 
 Link to paper: [https://www.kent.ac.uk/economics/repec/2203.pdf](https://www.kent.ac.uk/economics/repec/2203.pdf)

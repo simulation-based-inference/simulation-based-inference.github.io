@@ -7,6 +7,8 @@ tags:
 ---
 A Dimitriou, C Weniger, CA Correa - arXiv preprint arXiv:2206.11312, 2022 - arxiv.org
 
+[cited by](None) 
+
 >… To accomplish this we use marginal neural ratio estimation, an algorithm for simulation-based inference that allows marginal posteriors to be estimated by approximating …
 
 Link to paper: [https://arxiv.org/abs/2206.11312](https://arxiv.org/abs/2206.11312)

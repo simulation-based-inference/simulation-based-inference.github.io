@@ -5,8 +5,10 @@ categories:
 tags:
   - paper
 ---
-M Schmitt, ST Radev, PC Bürkner - arXiv preprint arXiv:2210.07278, 2022 - arxiv.org
+M Schmitt, ST Radev… - … Conference on Artificial …, 2023 - proceedings.mlr.press
 
->… utility of the proposed method in the context of conjugate Bayesian regression, likelihood-based inference with Markov chain Monte Carlo, and simulation-based inference …
+[cited by](https://scholar.google.com/scholar?cites=18047987674139003356&as_sdt=4000005&sciodt=0,18&hl=en&num=20) 
 
-Link to paper: [https://arxiv.org/abs/2210.07278](https://arxiv.org/abs/2210.07278)
+>… Recent advances in simulation-based inference (SBI) allow model comparison in high … facilitates the integration of our methods to simulation-based inference workflows. …
+
+Link to paper: [https://proceedings.mlr.press/v206/schmitt23a.html](https://proceedings.mlr.press/v206/schmitt23a.html)

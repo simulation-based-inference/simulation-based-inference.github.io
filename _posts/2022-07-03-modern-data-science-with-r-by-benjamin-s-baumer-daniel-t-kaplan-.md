@@ -7,6 +7,8 @@ tags:
 ---
 K Arai, V Lyubchich - 2022 - Taylor & Francis
 
+[cited by](None) 
+
 >… Chapter 7 describes iterative computation using functions from the purrr package, which help implement the bootstrap and simulation-based inference described further in …
 
 Link to paper: [https://www.tandfonline.com/doi/full/10.1080/00401706.2022.2087421](https://www.tandfonline.com/doi/full/10.1080/00401706.2022.2087421)

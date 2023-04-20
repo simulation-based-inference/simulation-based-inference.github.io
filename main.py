@@ -1,12 +1,20 @@
+import os
 from scholar.api import crawl
 from scholar.post_maker import make_all
+from scholar.database import create_tables
 
 SEARCH_TERM = '"simulation-based+inference"'
 
 
-# Reinit everything
-# create_tables()
-# crawl('"simulation-based+inference"')
+def reset() -> None:
+    """Rebuild the database from scratch and remake all md files."""
+
+    if os.path.exists("scholar/paper.db"):
+        os.remove("scholar/paper.db")
+
+    create_tables()
+    crawl(SEARCH_TERM)
+    make_all(overwrite=True)
 
 
 if __name__ == "__main__":

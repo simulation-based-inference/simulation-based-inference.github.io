@@ -14,7 +14,7 @@ DATABASE = SqliteDatabase("scholar/paper.db")
 
 class Paper(Model):
     id = AutoField(primary_key=True)
-    result_id = CharField()
+    result_id = CharField(null=True)
     created_at = DateTimeField(default=datetime.datetime.now)
     days_since_added = IntegerField()
     published_on = DateField()
@@ -24,6 +24,7 @@ class Paper(Model):
     snippet = CharField()
     arxiv_group_tag = CharField(null=True)
     arxiv_category_tag = CharField(null=True)
+    citation_backlink = CharField(null=True)
 
     class Meta:
         database = DATABASE
@@ -51,6 +52,11 @@ def insert_serp_results(results: list[dict]) -> None:
         days_since_added = int(_tmp[0])
         snippet = _tmp[1]
 
+        try:
+            citation_backlink = result["inline_links"]["cited_by"]["link"]
+        except KeyError:
+            citation_backlink = None
+
         Paper.insert(
             result_id=result["result_id"],
             published_on=datetime.datetime.now()
@@ -62,7 +68,8 @@ def insert_serp_results(results: list[dict]) -> None:
             snippet=snippet,
             arxiv_group_tag=result["arxiv_group"],
             arxiv_category_tag=result["arxiv_category"],
-        ).on_conflict_ignore().execute()
+            citation_backlink=citation_backlink,
+        ).on_conflict_replace().execute()
 
     return days_since_added
 

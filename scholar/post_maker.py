@@ -49,6 +49,8 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     ---
     {paper.publication_info_summary}
 
+    [cited by]({paper.citation_backlink}) 
+
     >{paper.snippet}
 
     Link to paper: [{paper.link}]({paper.link})
