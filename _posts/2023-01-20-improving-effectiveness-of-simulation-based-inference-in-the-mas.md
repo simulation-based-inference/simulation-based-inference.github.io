@@ -3,10 +3,10 @@ title: "Improving Effectiveness of Simulation-Based Inference in the Massively P
 categories:
   - Physics
 tags:
-  - auto
+  - paper
 ---
 S Kulkarni, CA Moritz - IEEE Transactions on Parallel and …, 2023 - ieeexplore.ieee.org
 
-… Next, we propose a new parallelism-aware adaptation to simulation-based inference, designed to perform best in such a massively parallel regime. The proposed adapted …
+>… Next, we propose a new parallelism-aware adaptation to simulation-based inference, designed to perform best in such a massively parallel regime. The proposed adapted …
 
 Link to paper: [https://ieeexplore.ieee.org/abstract/document/10021877/](https://ieeexplore.ieee.org/abstract/document/10021877/)

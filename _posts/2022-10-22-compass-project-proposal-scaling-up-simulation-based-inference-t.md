@@ -3,10 +3,10 @@ title: "COMPASS project proposal: Scaling up simulation based inference to whole
 categories:
   - Physics
 tags:
-  - auto
+  - paper
 ---
 D Prangle, M Beaumont - bristol.ac.uk
 
-… A focus of research has been the development and application of simulation based inference methods in a number of different contexts (Beaumont et al., 2002; Howard-…
+>… A focus of research has been the development and application of simulation based inference methods in a number of different contexts (Beaumont et al., 2002; Howard-…
 
 Link to paper: [https://www.bristol.ac.uk/media-library/sites/maths/documents/compass-projects/Prangle,%20Beaumont.pdf](https://www.bristol.ac.uk/media-library/sites/maths/documents/compass-projects/Prangle,%20Beaumont.pdf)

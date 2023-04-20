@@ -1,12 +1,10 @@
 ---
-layout: home
+layout: page
+title: Simulation-based inference
 permalink: /
 ---
 
-*This website under construction.*
-
-
-# Introduction
+## Introduction
 
 Simulators are the modern manifestation of scientific theories. They implement mechanistic models of the underlying natural phenomena of interest as well as models for the instruments used to observe those phenomena. The expressiveness of programming languages facilitates the development of complex, high-fidelity simulations and the power of modern computing provides the ability to generate synthetic data from them. The flexibility of simulators has made them critical research tools (and major cyberinfrastructure investments) for predicting how systems will behave across many areas of science and engineering. Unfortunately, despite their predictive power, these *simulators are poorly suited for statistical inference*, which is a core aspect of data-intensive science. To meet this challenge, there are an emerging set of techniques for simulation-based inference (SBI).
 
@@ -14,7 +12,7 @@ Simulation-based inference is the next step in the methodological evolution of s
 
 SBI has also proven to be an effective lingua franca that facilitates communication between domain scientists and methodological experts, supports convergence research, and accelerates cross-pollination of ideas between fields. 
 
-# Selected Papers
+## Selected Papers
 
 The plan is to turn this page into a crowd-sourced community resource that can collect recent papers including methodological developments and applications. Here are some links to get started:
 
@@ -54,23 +52,3 @@ The plan is to turn this page into a crowd-sourced community resource that can c
 * **Global Health**: [Simulation-Based Inference for Global Health Decisions](https://arxiv.org/abs/2005.07062) by Christian Schroeder de Witt, Bradley Gram-Hansen, Nantas Nardelli, Andrew Gambardella, Rob Zinkov, Puneet Dokania, N. Siddharth, Ana Belen Espinosa-Gonzalez, Ara Darzi, Philip Torr, Atılım Güneş Baydin
 
 * **Robotics**: [Simulation-based Bayesian inference for multi-fingered robotic grasping](https://arxiv.org/abs/2109.14275) by Norman Marlier, Olivier Brüls, Gilles Louppe
-
-
-# Selected Software
-
-An initial list of SBI-related software packages
-
- * [SBI](https://www.mackelab.org/sbi/) (python) - general purpose SBI framework
- * [SBI Benchmarking](https://github.com/mackelab/sbibm/) (python) - for benchmarking
- * [MadMiner](https://madminer-tool.github.io/madminer-tutorial/tutorial/0_intro.html) - aimed at particle physics
- * [swyft](https://github.com/undark-lab/swyft) (python) the reference implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), an efficient, simulation-based inference technique for complex data and expensive simulators
- * [carl](http://diana-hep.org/carl/) an early NN-based SBI package
- * [lampe](https://github.com/francois-rozet/lampe) (python) is a flexible, amortized sbi library. The philosophy of LAMPE is to avoid obfuscation and expose all components so it is most useful for researchers.
-
-
-
-# About this site
-
-This page is maintained by Kyle Cranmer and hosted via GitHub pages via [the simulation-based-inference](http://github.com/simulation-based-inference/) GitHub organization. As mentioned above, the plan is to turn this page into a crowd-sourced community resource that can collect recent papers including methodological developments and applications. We are working on the underlying infrastructure, but it will probably be similar to what drives the [IRIS-HEP](https://iris-hep.org) webpages ([source](http://github.com/iris-hep/iris-hep.github.io-source)) and/or something like this [living review](https://github.com/iml-wg/HEPML-LivingReview).
-
-

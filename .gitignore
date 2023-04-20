@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 .env
 __pycache__
+Gemfile.lock
+.sass-cache
