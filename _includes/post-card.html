@@ -1,13 +1,13 @@
 <div class="card">
-    {% if post.image %}
+    <!-- {% if post.image %}
     <div class="card-image">
         <img src="{{ post.image }}" alt="{{ post.title }}">
     </div>
-    {% else %}
+    {% else %} -->
     <header class="card-header">
         <a class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
     </header>
-    {% endif %}
+    <!-- {% endif %} -->
     <div class="card-content">
         <div class="content">
             {% if post.image %}
@@ -19,9 +19,9 @@
                 <p>{{ post.excerpt }}</p>
             {% endif %}
         </div>
-        <div class="has-text-centered">
+        <!-- <div class="has-text-centered">
             <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary">Read more</a>
-        </div>
+        </div> -->
     </div>
     <footer class="card-footer">
         <p class="card-footer-item">Published: {{ post.date | date: "%b %-d, %Y" }}</p>
