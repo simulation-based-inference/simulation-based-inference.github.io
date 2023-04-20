@@ -1,35 +1,88 @@
-# theme: jekyll-theme-cayman
+# Site Settings
+lang: en
+
+
 title: Simulation-based Inference
 description: Simulation-based Inference is the next evolution in statistics
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+url: http://simulation-based-inference.org/
+favicon: favicon.png
+permalink: pretty
+#hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
+
+paginate: 10
+paginate_path: "/papers/page:num"
+
+# Disqus Comments
+# disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  # shortname: csrhymes
+
+
 plugins:
-  - jekyll-include-cache
-minimal_mistakes_skin: "mint" 
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+#google_analytics: UA-code-here
+
 defaults:
-  # _pages
-  - scope:
+  -
+    scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
-      layout: home
-      toc: true
-      author_profile: false
-
-
-  # _posts
-  - scope:
+      show_sidebar: true
+  -
+    scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      layout: post
+      show_sidebar: false
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: example_footer_menu
+
+collections:
+  products: 
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+    
+include:
+  - _pages
+  - _papers
+
 exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - scholar/
   - main.py
   - tmp.ipynb
   - CNAME
 
+feed:
+  disable: true

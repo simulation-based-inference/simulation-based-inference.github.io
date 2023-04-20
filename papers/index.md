@@ -1,7 +1,0 @@
----
-layout: blog
-title: Papers about SBI
-permalink: /papers/
----
-
-The list is automatically compiled each day. Should you observe any inaccuracies or concerns, kindly [bring them to our attention](https://github.com/simulation-based-inference/simulation-based-inference.github.io/issues/new?assignees=&labels=&template=report-unrelated-paper.md&title=%5BBUG%5D%3A+Unrelated+paper). Additionally, if you believe a new paper aligns with the topic, feel free to [submit it](https://github.com/simulation-based-inference/simulation-based-inference.github.io/issues/new?assignees=&labels=&template=recommend-new-paper.md&title=%5BSuggestion%5D+New+paper).

@@ -4,3 +4,4 @@ _site
 .env
 __pycache__
 Gemfile.lock
+.sass-cache

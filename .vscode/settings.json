@@ -4,6 +4,8 @@
         "astro",
         "cond",
         "eess",
+        "endraw",
+        "markdownify",
         "nlin",
         "nucl",
         "scisbd",

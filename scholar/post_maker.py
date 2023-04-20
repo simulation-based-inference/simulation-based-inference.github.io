@@ -45,11 +45,11 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     categories:
       - {category}
     tags:
-      - auto
+      - paper
     ---
     {paper.publication_info_summary}
 
-    {paper.snippet}
+    >{paper.snippet}
 
     Link to paper: [{paper.link}]({paper.link})
     """.replace(
