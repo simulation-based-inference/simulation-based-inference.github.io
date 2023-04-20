@@ -79,10 +79,21 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - scholar/
-  - main.py
-  - tmp.ipynb
   - CNAME
+  - .devcontainer/
+  - .github/
+  - .vscode/
+  - sql/
+  - scholar/
+  - .dockerignore
+  - .env
+  - .gitignore
+  - README.md
+  - main.py
+  - working.ipynb
+  - tmp.ipynb
+
+
 
 feed:
   disable: true
