@@ -71,7 +71,7 @@ def insert_serp_results(results: list[dict]) -> None:
             citation_backlink=citation_backlink,
         ).on_conflict(
             conflict_target=[Paper.title],
-            preserve=[Paper.arxiv_group_tag, Paper.arxiv_category_tag],
+            preserve=[Paper.arxiv_group_tag, Paper.arxiv_category_tag, Paper.published_on],
             update={Paper.citation_backlink: citation_backlink},
         ).execute()
 
