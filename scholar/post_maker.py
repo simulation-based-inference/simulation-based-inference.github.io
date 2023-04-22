@@ -5,6 +5,8 @@ from scholar.api import ARXIV_GROUP_MAP
 
 POST_DIR = Path("_posts/")
 
+with open("scholar/blacklist.txt", "r") as f:
+    BLACKLIST = f.read().splitlines()
 
 def sanitize_filename(filename: str) -> str:
     """Sanitize a filename to make it safe for use on Windows and Linux."""
@@ -23,6 +25,11 @@ def sanitize_filename(filename: str) -> str:
 
 def make_md_post(paper: Paper, overwrite: bool) -> None:
     """Make a post for the given paper."""
+
+    # Check if paper is blacklisted
+    if paper.title in BLACKLIST:
+        print(f"Paper is blacklisted: {paper.title}, skipping...")
+        return
 
     # Create file name
     pub_date = paper.published_on.strftime("%Y-%m-%d")
