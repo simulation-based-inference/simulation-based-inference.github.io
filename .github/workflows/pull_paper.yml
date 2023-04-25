@@ -34,6 +34,7 @@ jobs:
         if [ -n "$changed_files" ]; then
           echo "changed=true" >> $GITHUB_ENV
           echo "=== change detected ==="
+          echo "$changed_files"
         else
           echo "changed=false" >> $GITHUB_ENV
           echo "=== no change detected ==="
