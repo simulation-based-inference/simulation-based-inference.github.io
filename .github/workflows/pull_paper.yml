@@ -34,6 +34,7 @@ jobs:
         if [ -n "$changed_files" ]; then
           echo "changed=true" >> $GITHUB_ENV
           echo "=== change detected ==="
+          echo "$changed_files"
         else
           echo "changed=false" >> $GITHUB_ENV
           echo "=== no change detected ==="
@@ -43,7 +44,7 @@ jobs:
       run: |
         git config --local user.email "github-action[bot]@github.com"
         git config --local user.name "GitHub Action Bot"
-        echo -e "a\n*\nq\n"|git add -i
+        git add -A
         git commit -m "auto update publications"
         
     - if: ${{ env.changed == 'true' }}
