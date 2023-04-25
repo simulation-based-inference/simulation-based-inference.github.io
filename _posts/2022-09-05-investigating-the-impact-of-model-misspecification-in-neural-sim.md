@@ -7,7 +7,7 @@ categories:
 tags:
   - paper
 ---
-[cited by](https://scholar.google.com/scholar?cites=16688827470381975843&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=16688827470381975843&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… Aided by advances in neural density estimation, considerable progress has been made in recent years towards a suite of simulation-based inference (SBI) methods …
 

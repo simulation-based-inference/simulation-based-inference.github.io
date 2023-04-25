@@ -3,7 +3,7 @@ title: "Bayesian model comparison for simulation-based inference"
 author: "A Spurio Mancini, MM Docherty, MA Price… - arXiv e …, 2022 - ui.adsabs.harvard.edu"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

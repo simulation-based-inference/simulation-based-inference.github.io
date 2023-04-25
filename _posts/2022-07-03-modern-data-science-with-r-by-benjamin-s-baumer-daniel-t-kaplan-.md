@@ -3,7 +3,7 @@ title: "Modern Data Science with R by Benjamin S. Baumer, Daniel T. Kaplan, and 
 author: "K Arai, V Lyubchich - 2022 - Taylor & Francis"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

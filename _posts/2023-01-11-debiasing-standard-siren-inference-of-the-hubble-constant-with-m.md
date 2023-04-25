@@ -7,7 +7,7 @@ categories:
 tags:
   - paper
 ---
-[cited by](https://scholar.google.com/scholar?cites=1669507538115876672&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=1669507538115876672&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… We extend this logic to EM anisotropy bias, using simulationbased inference (SBI) to characterize the EM selection criterion in a sample of BNS mergers. For an observed …
 

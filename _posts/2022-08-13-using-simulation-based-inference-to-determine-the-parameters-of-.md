@@ -3,7 +3,7 @@ title: "Using simulation-based inference to determine the parameters of an integ
 author: "R Hull, E Leonarduzzi, L De La Fuente… - Hydrology and Earth …, 2022 - hess.copernicus.org"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

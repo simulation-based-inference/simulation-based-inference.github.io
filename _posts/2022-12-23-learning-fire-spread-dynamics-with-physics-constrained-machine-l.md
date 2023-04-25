@@ -3,7 +3,7 @@ title: "Learning fire spread dynamics with physics-constrained machine learning"
 author: "J Buch, A Jivani, X Huan, AP Williams, P Gentine - Bulletin of the American …, 2023 - APS"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---

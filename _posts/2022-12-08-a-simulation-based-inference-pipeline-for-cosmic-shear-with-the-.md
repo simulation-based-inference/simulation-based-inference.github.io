@@ -3,7 +3,7 @@ title: "A simulation-based inference pipeline for cosmic shear with the Kilo-Deg
 author: "K Lin, M von Wietersheim-Kramsta, B Joachimi… - arXiv preprint arXiv …, 2022 - arxiv.org"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

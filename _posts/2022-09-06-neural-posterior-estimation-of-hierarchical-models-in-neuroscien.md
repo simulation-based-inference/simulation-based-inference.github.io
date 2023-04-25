@@ -3,7 +3,7 @@ title: "Neural Posterior Estimation of hierarchical models in neuroscience"
 author: "J Linhart, PLC Rodrigues, T Moreau… - … de Traitement du …, 2022 - hal.science"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

@@ -3,7 +3,7 @@ title: "Machine Learning and LHC Event Generation"
 author: "O Mattelaer - 2022 - dial.uclouvain.be"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

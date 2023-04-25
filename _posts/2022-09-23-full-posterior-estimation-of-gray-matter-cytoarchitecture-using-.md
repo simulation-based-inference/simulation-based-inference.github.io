@@ -3,7 +3,7 @@ title: "Full posterior estimation of Gray Matter cytoarchitecture using a three-
 author: "T Meunier, C Fang, M Jallais, D Wassermann - archive.ismrm.org"
 hero_title: "Papers"
 categories:
-  - Mathematics
+  - Uncategorized
 tags:
   - paper
 ---

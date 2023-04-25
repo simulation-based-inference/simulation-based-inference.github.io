@@ -3,7 +3,7 @@ title: "Methods and considerations for estimating parameters in biophysically de
 author: "N Tolley, PLC Rodrigues, A Gramfort, SR Jones - bioRxiv, 2023 - biorxiv.org"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---

@@ -3,7 +3,7 @@ title: "A data integration framework for spatial interpolation of temperature ob
 author: "T Economou, G Lazoglou, A Tzyrkalli, K Constantinidou… - PeerJ, 2023 - peerj.com"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

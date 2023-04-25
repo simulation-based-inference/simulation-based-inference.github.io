@@ -3,7 +3,7 @@ title: "STUDENT PERFORMANCE IN CURRICULA CENTERED ON SIMULATION-BASED INFERENCE"
 author: "B CHANCE, N TINTLE, S REYNOLDS… - Statistics Education …, 2022 - iase-web.org"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---

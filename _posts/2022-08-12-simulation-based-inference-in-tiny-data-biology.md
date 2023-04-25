@@ -3,7 +3,7 @@ title: "Simulation Based Inference in'Tiny Data'Biology."
 author: "D Flaherty - 2022 - repository.lib.ncsu.edu"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

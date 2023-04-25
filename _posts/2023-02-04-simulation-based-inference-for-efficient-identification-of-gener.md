@@ -3,7 +3,7 @@ title: "Simulation-based inference for efficient identification of generative mo
 author: "J Boelts, P Harth, R Gao, D Udvary, F Yanez, D Baum… - bioRxiv, 2023 - biorxiv.org"
 hero_title: "Papers"
 categories:
-  - Quantitative Biology
+  - Uncategorized
 tags:
   - paper
 ---

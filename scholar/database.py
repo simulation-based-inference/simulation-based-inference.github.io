@@ -19,6 +19,8 @@ class Paper(Model):
     days_since_added = IntegerField()
     published_on = DateField()
     title = CharField(unique=True)
+    authors = CharField(null=True)
+    doi = CharField(null=True)
     publication_info_summary = CharField()
     link = CharField()
     snippet = CharField()
@@ -37,45 +39,24 @@ def create_tables() -> None:
     DATABASE.close()
 
 
-def insert_serp_results(results: list[dict]) -> None:
+def insert_result(result: dict) -> None:
     """Insert the results from the SERP API into the database.
 
     Args:
-        results (list[dict]): The results from the SERP API.
+        results: The a formatted result from the SERP API.
 
     Returns:
         int: The number of days since the oldest paper was added.
     """
 
-    for result in results["organic_results"]:
-        _tmp = result["snippet"].split(" days ago - ")
-        days_since_added = int(_tmp[0])
-        snippet = _tmp[1]
-
-        try:
-            citation_backlink = result["inline_links"]["cited_by"]["link"]
-        except KeyError:
-            citation_backlink = None
-
-        Paper.insert(
-            result_id=result["result_id"],
-            published_on=datetime.datetime.now()
-            - datetime.timedelta(days=days_since_added),
-            title=result["title"],
-            days_since_added=days_since_added,
-            publication_info_summary=result["publication_info"]["summary"],
-            link=result["link"],
-            snippet=snippet,
-            arxiv_group_tag=result["arxiv_group"],
-            arxiv_category_tag=result["arxiv_category"],
-            citation_backlink=citation_backlink,
-        ).on_conflict(
-            conflict_target=[Paper.title],
-            preserve=[Paper.arxiv_group_tag, Paper.arxiv_category_tag, Paper.published_on],
-            update={Paper.citation_backlink: citation_backlink},
-        ).execute()
-
-    return days_since_added
+    Paper.insert(**result).on_conflict(
+        conflict_target=[Paper.title],
+        preserve=[
+            Paper.arxiv_group_tag,
+            Paper.arxiv_category_tag,
+            Paper.published_on,
+        ],
+    ).execute()
 
 
 def patch_arxiv(id: int, arxiv_category_tag: str) -> None:

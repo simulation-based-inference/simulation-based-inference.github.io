@@ -3,7 +3,7 @@ title: "Université Paris-Saclay, Inria, CEA Palaiseau, 91120, France louis. rou
 author: "L Rouillard - hal.science"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

@@ -3,7 +3,7 @@ title: "Milky Way Structure Revealed by Galactic HII Regions"
 author: "T Wenger, C Terrey - American Astronomical Society …, 2023 - ui.adsabs.harvard.edu"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

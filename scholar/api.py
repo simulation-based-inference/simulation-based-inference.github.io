@@ -2,12 +2,14 @@ import os
 import re
 import json
 import requests
+import arxiv
+import datetime
+import difflib
 from time import sleep
 from typing import Optional
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
-from xml.etree import ElementTree as ET
-from .database import insert_serp_results
+
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
@@ -31,25 +33,14 @@ def get_arxiv_category_map() -> dict:
     return category_mapping
 
 
-def get_arxiv_category(title: str) -> str:
-    """Get arxiv category from title.
+def timeout(func, duration=0.5):
+    """Delay the execution of a function."""
 
-    see: https://arxiv.org/category_taxonomy
-    """
+    def wrapper(*args, **kwargs):
+        sleep(duration)
+        return func(*args, **kwargs)
 
-    sleep(0.5)  # Avoid being blocked by arxiv (max 3 requests per second)
-    url = "http://export.arxiv.org/api/query"
-    payload = {"search_query": f"ti:'{title}'", "max_results": 1}
-    response = requests.get(url, params=payload)
-
-    root = ET.fromstring(response.content)
-    namespaces = {"arxiv": "http://arxiv.org/schemas/atom"}
-    category = root.find(".//arxiv:primary_category", namespaces)
-    if category is not None:
-        category = category.attrib["term"]
-
-    if category in ARXIV_CATEGORY_MAP:
-        return category
+    return wrapper
 
 
 def to_group(arxiv_category: Optional[str]) -> str:
@@ -59,6 +50,53 @@ def to_group(arxiv_category: Optional[str]) -> str:
     group_tag = arxiv_category.split(".")[0]
     if group_tag in ARXIV_GROUP_MAP:
         return group_tag
+
+
+@timeout
+def query_arxiv(title: str, threshold: float = 0.8) -> arxiv.Result:
+    """Query arxiv for a paper with the given title."""
+    search = arxiv.Search(query=f"ti:{title.replace(':', ' ')}", max_results=1)
+
+    try:
+        result = next(search.results())
+    except StopIteration:
+        return
+
+    # Double check that the title matches close enough
+    r = difflib.SequenceMatcher(None, title, result.title).ratio()
+    if r > threshold:
+        return {
+            "authors": ", ".join([str(author) for author in result.authors]),
+            "doi": result.doi,
+            "arxiv_category_tag": result.primary_category,
+            "arxiv_group_tag": to_group(result.primary_category),
+        }
+
+
+def format_serp_result(result: dict) -> dict:
+    """Format the SERP API results."""
+
+    _tmp = result["snippet"].split(" days ago - ")
+    snippet = _tmp[1]
+    days_since_added = int(_tmp[0])
+    published_on = datetime.datetime.now() - datetime.timedelta(days=days_since_added)
+    publication_info_summary = result["publication_info"]["summary"]
+
+    try:
+        citation_backlink = result["inline_links"]["cited_by"]["link"]
+    except KeyError:
+        citation_backlink = None
+
+    return {
+        "result_id": result["result_id"],
+        "published_on": published_on,
+        "title": result["title"],
+        "days_since_added": days_since_added,
+        "publication_info_summary": publication_info_summary,
+        "link": result["link"],
+        "snippet": snippet,
+        "citation_backlink": citation_backlink,
+    }
 
 
 def query_serp(
@@ -89,39 +127,12 @@ def query_serp(
 
     response = requests.get(url, params=params)
     if response.status_code == 200:
-        return response.json()
+        data = response.json()
+        data["formatted_results"] = [
+            format_serp_result(result) for result in data["organic_results"]
+        ]
+        return data
     else:
         print(
             f"Request failed with status code {response.status_code}: {response.text}"
         )
-
-
-def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
-    """Crawl the SERP API for snippets containing the given term.
-
-    Args:
-        term (str): The term to search for.
-        more_results (bool): If true search in everything instead of abstract.
-        stop_days (int): Stop crawling when the oldest result is older than this.
-    """
-    next_url = None
-    while True:
-        results = query_serp(url=next_url, term=term, more_results=more_results)
-
-        # Append arXiv category and group
-        for result in results["organic_results"]:
-            title = result["title"]
-            arxiv_category = get_arxiv_category(title)
-            result["arxiv_category"] = arxiv_category
-            result["arxiv_group"] = to_group(arxiv_category)
-
-        term = None  # Only use the term on the first page, next_url already has it
-
-        days_since_added = insert_serp_results(results)
-
-        if stop_days is not None and days_since_added > stop_days:
-            break
-        try:
-            next_url = results["serpapi_pagination"]["next"]
-        except KeyError:
-            break

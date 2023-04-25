@@ -3,7 +3,7 @@ title: "Towards Bayesian Full-Waveform Source Inversion using Simulation-Based I
 author: "A Saoulis, A Ferreira, B Joachimi, AS Mancini… - 2023 - meetingorganizer.copernicus.org"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

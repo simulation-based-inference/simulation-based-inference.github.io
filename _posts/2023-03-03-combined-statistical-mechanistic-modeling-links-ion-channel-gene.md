@@ -3,11 +3,11 @@ title: "Combined statistical-mechanistic modeling links ion channel genes to phy
 author: "Y Bernaerts, M Deistler, PJ Goncalves, J Beck… - bioRxiv, 2023 - biorxiv.org"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---
-[cited by](https://scholar.google.com/scholar?cites=6128980025825657340&as_sdt=2005&sciodt=0,5&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=6128980025825657340&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… variety of cortical cell types using simulation-based inference, while overcoming the … that explain observed electrophysiology, we used simulation-based inference (SBI)25…
 

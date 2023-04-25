@@ -3,7 +3,7 @@ title: "Albatross: A scalable simulation-based inference pipeline for analysing 
 author: "J Alvey, M Gerdes, C Weniger - arXiv preprint arXiv:2304.02032, 2023 - arxiv.org"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Physics
 tags:
   - paper
 ---

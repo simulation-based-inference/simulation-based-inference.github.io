@@ -3,7 +3,7 @@ title: "From Synapses to Circuits: Different Levels of Functional Modeling of th
 author: "C Schröder - 2022 - coschroeder.github.io"
 hero_title: "Papers"
 categories:
-  - Quantitative Biology
+  - Uncategorized
 tags:
   - paper
 ---

@@ -3,11 +3,11 @@ title: "Simulation-based inference of differentiation trajectories from RNA velo
 author: "R Gupta, D Cerletti, G Gut, A Oxenius, M Claassen - Cell Reports Methods, 2022 - Elsevier"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---
-[cited by](https://scholar.google.com/scholar?cites=2625108809264800670&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=2625108809264800670&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >We report Cytopath, a method for trajectory inference that takes advantage of transcriptional activity information from the RNA velocity of single cells to perform trajectory …
 

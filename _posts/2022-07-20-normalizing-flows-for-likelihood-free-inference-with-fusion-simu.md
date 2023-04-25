@@ -3,7 +3,7 @@ title: "Normalizing flows for likelihood-free inference with fusion simulations"
 author: "CS Furia, RM Churchill - Plasma Physics and Controlled Fusion, 2022 - iopscience.iop.org"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

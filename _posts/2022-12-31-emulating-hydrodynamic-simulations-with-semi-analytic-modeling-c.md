@@ -3,7 +3,7 @@ title: "Emulating hydrodynamic simulations with semi-analytic modeling: comparin
 author: "A Gabrielpillai, R Somerville, S Genel… - American …, 2023 - ui.adsabs.harvard.edu"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

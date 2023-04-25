@@ -3,7 +3,7 @@ title: "Book Review: Multivariate Data Integration Using R: Methods and Applicat
 author: "S Lipovetsky - 2022 - Taylor & Francis"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---

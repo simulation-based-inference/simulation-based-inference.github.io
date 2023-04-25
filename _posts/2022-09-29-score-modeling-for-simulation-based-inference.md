@@ -3,7 +3,7 @@ title: "Score Modeling for Simulation-based Inference"
 author: "T Geffner, G Papamakarios, A Mnih - arXiv preprint arXiv:2209.14249, 2022 - arxiv.org"
 hero_title: "Papers"
 categories:
-  - Mathematics
+  - Uncategorized
 tags:
   - paper
 ---

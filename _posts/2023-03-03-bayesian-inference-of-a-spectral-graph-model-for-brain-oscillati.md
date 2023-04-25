@@ -3,7 +3,7 @@ title: "Bayesian Inference of a Spectral Graph Model for Brain Oscillations"
 author: "H Jin, P Verma, F Jiang, S Nagarajan, A Raj - bioRxiv, 2023 - biorxiv.org"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

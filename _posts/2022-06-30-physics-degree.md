@@ -3,7 +3,7 @@ title: "Physics Degree"
 author: "CA Dıaz-Caneja - 2022 - riull.ull.es"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

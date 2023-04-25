@@ -3,11 +3,11 @@ title: "Designing a large, online simulation-based introductory statistics cours
 author: "EM Burnham, EE Blankenship… - Journal of Statistics and …, 2023 - Taylor & Francis"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---
-[cited by](https://scholar.google.com/scholar?cites=2247425310749538569&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=2247425310749538569&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… statistics course that focuses on simulation-based inference at the University of … While we emphasize simulation-based inference in our course, we believe that many …
 

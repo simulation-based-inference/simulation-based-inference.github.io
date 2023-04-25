@@ -3,7 +3,7 @@ title: "Practical estimation methods for high-dimensional multivariate stochasti
 author: "MN Ahsan, JM Dufour - 2022 - wp.lancs.ac.uk"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---

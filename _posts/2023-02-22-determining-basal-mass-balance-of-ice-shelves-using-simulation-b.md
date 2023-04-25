@@ -3,7 +3,7 @@ title: "Determining Basal Mass Balance of Ice Shelves Using Simulation-Based Inf
 author: "G Moss, V Višnjević, C Schröder, J Macke… - 2023 - meetingorganizer.copernicus.org"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

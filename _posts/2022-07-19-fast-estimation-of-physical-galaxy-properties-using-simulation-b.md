@@ -3,7 +3,7 @@ title: "Fast Estimation of Physical Galaxy Properties using Simulation-Based Inf
 author: "M Robeyns, S Fotopolou, M Walmsley, L Aitchison - ml4astro.github.io"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

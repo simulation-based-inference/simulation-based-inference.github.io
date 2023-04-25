@@ -3,7 +3,7 @@ title: "COMPASS project proposal: Scaling up simulation based inference to whole
 author: "D Prangle, M Beaumont - bristol.ac.uk"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

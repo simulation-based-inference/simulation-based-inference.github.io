@@ -3,7 +3,7 @@ title: "Architectures for online simulation-based inference applied to robot mot
 author: "MA Asenov - 2022 - ethos.bl.uk"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---

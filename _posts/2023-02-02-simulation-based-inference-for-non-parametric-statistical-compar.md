@@ -3,7 +3,7 @@ title: "Simulation-based inference for non-parametric statistical comparison of 
 author: "H Verdier, F Laurent, A Cassé… - PLOS Computational …, 2023 - journals.plos.org"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---
