@@ -1,5 +1,6 @@
 ---
 title: "SimBIG: mock challenge for a forward modeling approach to galaxy clustering"
+hero_title: "Papers"
 categories:
   - Uncategorized
 tags:
