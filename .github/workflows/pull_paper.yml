@@ -44,7 +44,7 @@ jobs:
       run: |
         git config --local user.email "github-action[bot]@github.com"
         git config --local user.name "GitHub Action Bot"
-        echo -e "a\n*\nq\n"|git add -i
+        git add -A
         git commit -m "auto update publications"
         
     - if: ${{ env.changed == 'true' }}
