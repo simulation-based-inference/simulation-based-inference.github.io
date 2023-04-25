@@ -1,5 +1,6 @@
 ---
 title: "Detection is truncation: studying source populations with truncated marginal neural ratio estimation"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

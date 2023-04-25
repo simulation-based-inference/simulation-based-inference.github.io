@@ -1,5 +1,6 @@
 ---
 title: "Estimation of erosion rate parameters from neural network inverse modeling of river profile and thermo-geochronology data"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

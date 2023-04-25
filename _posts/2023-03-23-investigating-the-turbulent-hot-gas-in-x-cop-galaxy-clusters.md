@@ -1,5 +1,6 @@
 ---
 title: "Investigating the turbulent hot gas in X-COP galaxy clusters"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

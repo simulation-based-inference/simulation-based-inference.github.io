@@ -1,5 +1,6 @@
 ---
 title: "Towards Bayesian Full-Waveform Source Inversion using Simulation-Based Inference"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

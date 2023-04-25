@@ -1,5 +1,6 @@
 ---
 title: "swyft: Truncated Marginal Neural Ratio Estimation in Python"
+hero_title: "Papers"
 categories:
   - Uncategorized
 tags:

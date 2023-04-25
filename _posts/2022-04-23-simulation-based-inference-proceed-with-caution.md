@@ -1,5 +1,6 @@
 ---
 title: "Simulation-based inference: proceed with caution!"
+hero_title: "Papers"
 categories:
   - Mathematics
 tags:

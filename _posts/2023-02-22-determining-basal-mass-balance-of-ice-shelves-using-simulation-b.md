@@ -1,5 +1,6 @@
 ---
 title: "Determining Basal Mass Balance of Ice Shelves Using Simulation-Based Inference"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

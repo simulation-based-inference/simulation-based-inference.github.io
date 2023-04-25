@@ -1,5 +1,6 @@
 ---
 title: "Uncovering dark matter density profiles in dwarf galaxies with simulation-based inference and graph neural networks"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

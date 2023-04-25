@@ -1,5 +1,6 @@
 ---
 title: "swyft: Scientific simulation-based inference at scale"
+hero_title: "Papers"
 categories:
   - Uncategorized
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "New Machine Learning Techniques for Simulation-Based Inference: InferoStatic Nets, Kernel Score Estimation, and Kernel Likelihood Ratio Estimation"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

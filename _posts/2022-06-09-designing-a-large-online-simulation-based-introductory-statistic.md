@@ -1,5 +1,6 @@
 ---
 title: "Designing a large, online simulation-based introductory statistics course"
+hero_title: "Papers"
 categories:
   - Computer Science
 tags:

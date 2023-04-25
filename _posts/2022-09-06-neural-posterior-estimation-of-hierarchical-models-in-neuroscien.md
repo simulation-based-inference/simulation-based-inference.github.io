@@ -1,5 +1,6 @@
 ---
 title: "Neural Posterior Estimation of hierarchical models in neuroscience"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

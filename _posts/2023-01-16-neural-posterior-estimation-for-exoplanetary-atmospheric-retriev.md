@@ -1,5 +1,6 @@
 ---
 title: "Neural posterior estimation for exoplanetary atmospheric retrieval"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

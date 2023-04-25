@@ -1,5 +1,6 @@
 ---
 title: "Bayesian model comparison for simulation-based inference"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

@@ -8,6 +8,7 @@ POST_DIR = Path("_posts/")
 with open("scholar/blacklist.txt", "r") as f:
     BLACKLIST = f.read().splitlines()
 
+
 def sanitize_filename(filename: str) -> str:
     """Sanitize a filename to make it safe for use on Windows and Linux."""
 
@@ -54,6 +55,7 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     # Create file content
     content = f"""---
     title: "{paper.title}"
+    hero_title: "Papers"
     categories:
       - {category}
     tags:

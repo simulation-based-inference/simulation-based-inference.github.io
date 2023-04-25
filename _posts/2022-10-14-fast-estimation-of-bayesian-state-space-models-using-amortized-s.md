@@ -1,5 +1,6 @@
 ---
 title: "Fast Estimation of Bayesian State Space Models Using Amortized Simulation-Based Inference"
+hero_title: "Papers"
 categories:
   - Economics
 tags:

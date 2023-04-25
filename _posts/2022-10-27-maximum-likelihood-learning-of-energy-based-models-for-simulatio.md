@@ -1,5 +1,6 @@
 ---
 title: "Maximum Likelihood Learning of Energy-Based Models for Simulation-Based Inference"
+hero_title: "Papers"
 categories:
   - Mathematics
 tags:

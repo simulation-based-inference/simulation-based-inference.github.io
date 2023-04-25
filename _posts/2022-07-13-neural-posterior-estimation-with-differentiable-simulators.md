@@ -1,5 +1,6 @@
 ---
 title: "Neural Posterior Estimation with Differentiable Simulators"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

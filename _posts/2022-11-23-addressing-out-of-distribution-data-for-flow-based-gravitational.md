@@ -1,5 +1,6 @@
 ---
 title: "Addressing out-of-distribution data for flow-based gravitational wave inference"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Software for SBI
+title: Software
 permalink: /software/
 ---
 

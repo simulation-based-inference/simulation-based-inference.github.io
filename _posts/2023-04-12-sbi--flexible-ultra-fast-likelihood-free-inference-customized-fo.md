@@ -1,5 +1,6 @@
 ---
 title: "SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical Application"
+hero_title: "Papers"
 categories:
   - Uncategorized
 tags:

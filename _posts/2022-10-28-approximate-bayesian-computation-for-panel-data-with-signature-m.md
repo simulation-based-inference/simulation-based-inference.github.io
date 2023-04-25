@@ -1,5 +1,6 @@
 ---
 title: "Approximate Bayesian Computation for Panel Data with Signature Maximum Mean Discrepancies"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

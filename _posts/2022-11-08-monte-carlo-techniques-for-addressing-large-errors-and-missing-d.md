@@ -1,5 +1,6 @@
 ---
 title: "Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

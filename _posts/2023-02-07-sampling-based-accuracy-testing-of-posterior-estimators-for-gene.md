@@ -1,5 +1,6 @@
 ---
 title: "Sampling-Based Accuracy Testing of Posterior Estimators for General Inference"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

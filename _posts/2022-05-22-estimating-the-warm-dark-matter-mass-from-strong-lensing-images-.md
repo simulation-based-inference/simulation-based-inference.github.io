@@ -1,5 +1,6 @@
 ---
 title: "Estimating the warm dark matter mass from strong lensing images with truncated marginal neural ratio estimation"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Fast Estimation of Physical Galaxy Properties using Simulation-Based Inference"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

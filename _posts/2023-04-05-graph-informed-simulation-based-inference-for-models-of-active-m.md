@@ -1,5 +1,6 @@
 ---
 title: "Graph-informed simulation-based inference for models of active matter"
+hero_title: "Papers"
 categories:
   - Physics
 tags:
