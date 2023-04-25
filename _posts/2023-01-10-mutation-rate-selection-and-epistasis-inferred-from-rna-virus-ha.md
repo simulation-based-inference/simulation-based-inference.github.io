@@ -1,5 +1,6 @@
 ---
 title: "Mutation rate, selection, and epistasis inferred from RNA virus haplotypes via neural posterior estimation"
+hero_title: "Papers"
 categories:
   - Uncategorized
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Methods and considerations for estimating parameters in biophysically detailed neural models with simulation based inference"
+hero_title: "Papers"
 categories:
   - Computer Science
 tags:

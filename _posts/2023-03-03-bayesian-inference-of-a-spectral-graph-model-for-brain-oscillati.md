@@ -1,5 +1,6 @@
 ---
 title: "Bayesian Inference of a Spectral Graph Model for Brain Oscillations"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

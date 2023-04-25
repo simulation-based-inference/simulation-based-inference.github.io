@@ -1,5 +1,6 @@
 ---
 title: "Towards reliable simulation-based inference"
+hero_title: "Papers"
 categories:
   - Computer Science
 tags:

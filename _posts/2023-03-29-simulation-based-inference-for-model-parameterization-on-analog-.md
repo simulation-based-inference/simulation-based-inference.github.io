@@ -1,5 +1,6 @@
 ---
 title: "Simulation-based Inference for Model Parameterization on Analog Neuromorphic Hardware"
+hero_title: "Papers"
 categories:
   - Computer Science
 tags:

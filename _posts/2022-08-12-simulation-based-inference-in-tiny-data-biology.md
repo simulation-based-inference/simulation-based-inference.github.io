@@ -1,5 +1,6 @@
 ---
 title: "Simulation Based Inference in'Tiny Data'Biology."
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

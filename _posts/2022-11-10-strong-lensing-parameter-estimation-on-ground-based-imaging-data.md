@@ -1,5 +1,6 @@
 ---
 title: "Strong Lensing Parameter Estimation on Ground-Based Imaging Data Using Simulation-Based Inference"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

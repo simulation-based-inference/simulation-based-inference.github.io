@@ -1,5 +1,6 @@
 ---
 title: "Simulation-Based Inference with WALDO: Perfectly Calibrated Confidence Regions Using Any Prediction or Posterior Estimation Algorithm"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

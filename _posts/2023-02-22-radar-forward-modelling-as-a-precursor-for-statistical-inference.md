@@ -1,5 +1,6 @@
 ---
 title: "Radar forward modelling as a precursor for statistical inference"
+hero_title: "Papers"
 categories:
   - Electrical Engineering and Systems Science
 tags:

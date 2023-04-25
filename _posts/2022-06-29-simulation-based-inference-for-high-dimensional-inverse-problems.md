@@ -1,5 +1,6 @@
 ---
 title: "Simulation based inference for high dimensional inverse problems: application to magnetic resonance fingerprinting"
+hero_title: "Papers"
 categories:
   - Electrical Engineering and Systems Science
 tags:

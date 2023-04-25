@@ -1,5 +1,6 @@
 ---
 title: "Physics Degree"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

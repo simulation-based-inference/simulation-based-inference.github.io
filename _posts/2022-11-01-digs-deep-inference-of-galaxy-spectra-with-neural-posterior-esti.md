@@ -1,5 +1,6 @@
 ---
 title: "DIGS: Deep Inference of Galaxy Spectra with Neural Posterior Estimation"
+hero_title: "Papers"
 categories:
   - Uncategorized
 tags:

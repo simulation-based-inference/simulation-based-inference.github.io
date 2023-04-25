@@ -1,5 +1,6 @@
 ---
 title: "Simulation-based inference of single-molecule force spectroscopy"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

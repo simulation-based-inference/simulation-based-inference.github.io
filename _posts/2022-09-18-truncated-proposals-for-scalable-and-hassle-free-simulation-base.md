@@ -1,5 +1,6 @@
 ---
 title: "Truncated proposals for scalable and hassle-free simulation-based inference"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

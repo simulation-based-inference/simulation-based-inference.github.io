@@ -1,5 +1,6 @@
 ---
 title: "Meta-Uncertainty in Bayesian Model Comparison"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "STUDENT PERFORMANCE IN CURRICULA CENTERED ON SIMULATION-BASED INFERENCE"
+hero_title: "Papers"
 categories:
   - Computer Science
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "A Trust Crisis In Simulation-Based Inference? Your Posterior Approximations Can Be Unfaithful"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

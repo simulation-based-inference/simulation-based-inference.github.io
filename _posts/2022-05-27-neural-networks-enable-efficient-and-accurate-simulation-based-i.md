@@ -1,5 +1,6 @@
 ---
 title: "Neural networks enable efficient and accurate simulation-based inference of evolutionary parameters from adaptation dynamics"
+hero_title: "Papers"
 categories:
   - Computer Science
 tags:

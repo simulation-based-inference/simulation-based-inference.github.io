@@ -1,5 +1,6 @@
 ---
 title: "Simulation-based inference of Bayesian hierarchical models while checking for model misspecification"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

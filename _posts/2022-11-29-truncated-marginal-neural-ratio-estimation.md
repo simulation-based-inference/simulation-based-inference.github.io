@@ -1,5 +1,6 @@
 ---
 title: "Truncated Marginal Neural Ratio Estimation"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

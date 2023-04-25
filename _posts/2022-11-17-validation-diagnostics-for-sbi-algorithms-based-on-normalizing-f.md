@@ -1,5 +1,6 @@
 ---
 title: "Validation Diagnostics for SBI algorithms based on Normalizing Flows"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Learning fire spread dynamics with physics-constrained machine learning"
+hero_title: "Papers"
 categories:
   - Computer Science
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

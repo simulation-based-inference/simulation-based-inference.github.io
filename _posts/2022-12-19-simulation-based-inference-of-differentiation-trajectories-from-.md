@@ -1,5 +1,6 @@
 ---
 title: "Simulation-based inference of differentiation trajectories from RNA velocity fields"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

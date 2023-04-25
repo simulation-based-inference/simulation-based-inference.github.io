@@ -1,5 +1,6 @@
 ---
 title: "Bayesian Estimation of Large-Scale Simulation Models with Gaussian Process Regression Surrogates"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

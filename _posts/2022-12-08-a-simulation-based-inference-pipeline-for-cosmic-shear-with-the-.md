@@ -1,5 +1,6 @@
 ---
 title: "A simulation-based inference pipeline for cosmic shear with the Kilo-Degree Survey"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Ultra-High-Resolution Detector Simulation with Intra-Event Aware GAN and Self-Supervised Relational Reasoning"
+hero_title: "Papers"
 categories:
   - Physics
 tags:

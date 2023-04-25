@@ -1,5 +1,6 @@
 ---
 title: "Modelling capture efficiency of single cell RNA-sequencing data improves inference of transcriptome-wide burst kinetics"
+hero_title: "Papers"
 categories:
   - Statistics
 tags:

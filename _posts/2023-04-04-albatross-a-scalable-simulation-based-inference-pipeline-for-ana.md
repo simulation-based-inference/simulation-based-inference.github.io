@@ -1,5 +1,6 @@
 ---
 title: "Albatross: A scalable simulation-based inference pipeline for analysing stellar streams in the Milky Way"
+hero_title: "Papers"
 categories:
   - Uncategorized
 tags:

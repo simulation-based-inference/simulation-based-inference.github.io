@@ -1,5 +1,6 @@
 ---
 title: "Simulation based inference for exoplanet characterization"
+hero_title: "Papers"
 categories:
   - Physics
 tags:
