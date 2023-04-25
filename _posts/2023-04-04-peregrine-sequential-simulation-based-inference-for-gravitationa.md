@@ -3,7 +3,7 @@ title: "Peregrine: Sequential simulation-based inference for gravitational wave 
 author: "U Bhardwaj, J Alvey, BK Miller, S Nissanke… - arXiv preprint arXiv …, 2023 - arxiv.org"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Physics
 tags:
   - paper
 ---

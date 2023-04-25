@@ -3,7 +3,7 @@ title: "SOBER: Scalable Batch Bayesian Optimization and Quadrature using Recombi
 author: "M Adachi, S Hayakawa, S Hamid, M Jørgensen… - arXiv preprint arXiv …, 2023 - arxiv.org"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Computer Science
 tags:
   - paper
 ---

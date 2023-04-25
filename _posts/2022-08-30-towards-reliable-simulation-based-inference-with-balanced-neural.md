@@ -7,7 +7,7 @@ categories:
 tags:
   - paper
 ---
-[cited by](https://scholar.google.com/scholar?cites=2070151199404142004&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=2070151199404142004&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… This work is concerned with simulation-based inference algorithms that produce posterior approximations p(ϑ | x) under the following semantics. Target parameters ϑ …
 

@@ -3,7 +3,7 @@ title: "Uncertainty quantification for melt rate parameters in ice shelves using
 author: "G Moss, V Višnjević, C Schröder… - EGU General …, 2022 - ui.adsabs.harvard.edu"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

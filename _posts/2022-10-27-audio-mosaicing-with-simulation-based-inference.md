@@ -3,7 +3,7 @@ title: "Audio Mosaicing with Simulation-based Inference"
 author: "A Gambardella, Y Choi, D Choi, J Lee - arXiv preprint arXiv:2210.14602, 2022 - arxiv.org"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---

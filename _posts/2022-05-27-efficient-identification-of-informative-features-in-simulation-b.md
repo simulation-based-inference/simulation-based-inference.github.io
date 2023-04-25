@@ -7,7 +7,7 @@ categories:
 tags:
   - paper
 ---
-[cited by](https://scholar.google.com/scholar?cites=9408830879778530143&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=9408830879778530143&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… a method to identify informative features in simulation-based inference (SBI). It builds on … , several techniques collectively known as simulation-based inference (SBI) have …
 

@@ -3,7 +3,7 @@ title: "Modelling capture efficiency of single cell RNA-sequencing data improves
 author: "W Tang, ACS Jørgensen, S Marguerat, P Thomas… - bioRxiv, 2023 - biorxiv.org"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

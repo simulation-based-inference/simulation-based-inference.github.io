@@ -7,7 +7,7 @@ categories:
 tags:
   - paper
 ---
-
+[cited by](https://scholar.google.com/scholar?cites=6744423897033119108&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… We show that these effects can be modeled self-consistently in the context of sequential simulation-based inference. Our approach couples source detection and catalog-…
 

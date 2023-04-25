@@ -7,7 +7,7 @@ categories:
 tags:
   - paper
 ---
-[cited by](https://scholar.google.com/scholar?cites=789365223049490404&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=789365223049490404&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… In recent years, simulation-based inference (SBI) methods have emerged as powerful tools for performing this task when the model likelihood function is intractable, as is …
 

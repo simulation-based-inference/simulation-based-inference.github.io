@@ -3,7 +3,7 @@ title: "Amortised inference in diffusion MRI biophysical models using artificial
 author: "JPM Patron, T Kypraios, SN Sotiropoulos - archive.ismrm.org"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

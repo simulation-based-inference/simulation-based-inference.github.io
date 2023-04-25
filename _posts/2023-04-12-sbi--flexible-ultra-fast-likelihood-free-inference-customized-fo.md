@@ -3,7 +3,7 @@ title: "SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Ast
 author: "B Wang, J Leja, VA Villar, JS Speagle - arXiv preprint arXiv:2304.05281, 2023 - arxiv.org"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Physics
 tags:
   - paper
 ---

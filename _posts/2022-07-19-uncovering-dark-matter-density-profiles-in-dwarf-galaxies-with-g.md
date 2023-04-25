@@ -7,7 +7,7 @@ categories:
 tags:
   - paper
 ---
-
+[cited by](https://scholar.google.com/scholar?cites=8913784847554083300&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
 
 >… We introduce a new method that leverages simulation-based inference and graph-based machine learning in order to infer the dark matter density profiles of dwarf …
 

@@ -3,7 +3,7 @@ title: "Strong Lensing Parameter Estimation on Ground-Based Imaging Data Using S
 author: "J Poh, A Samudre, A Ćiprijanović, B Nord… - arXiv preprint arXiv …, 2022 - arxiv.org"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

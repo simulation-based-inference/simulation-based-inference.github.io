@@ -3,7 +3,7 @@ title: "Amortized Bayesian inference on generative dynamical network models of e
 author: "M Hashemi, AN Vattikonda, J Jha, V Sip… - Neural Networks, 2023 - Elsevier"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

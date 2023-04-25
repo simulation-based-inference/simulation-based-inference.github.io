@@ -3,7 +3,7 @@ title: "Simulation-based inference of the 2D ex-situ stellar mass fraction distr
 author: "E Angeloudi, J Falcón-Barroso, R Sarmiento… - ml4physicalsciences.github.io"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

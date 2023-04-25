@@ -3,7 +3,7 @@ title: "Estimation of erosion rate parameters from neural network inverse modeli
 author: "T Bernard, C Glotzbach, D Peifer, A Neely… - 2023 - meetingorganizer.copernicus.org"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
 ---

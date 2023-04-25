@@ -3,7 +3,7 @@ title: "Improving Effectiveness of Simulation-Based Inference in the Massively P
 author: "S Kulkarni, CA Moritz - IEEE Transactions on Parallel and …, 2023 - ieeexplore.ieee.org"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

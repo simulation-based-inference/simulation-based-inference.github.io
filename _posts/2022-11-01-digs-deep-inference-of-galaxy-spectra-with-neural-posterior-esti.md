@@ -3,7 +3,7 @@ title: "DIGS: Deep Inference of Galaxy Spectra with Neural Posterior Estimation"
 author: "JP Ciprijanovic, F Xu - inspirehep.net"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Physics
 tags:
   - paper
 ---

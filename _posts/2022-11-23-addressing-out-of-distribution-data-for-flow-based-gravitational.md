@@ -3,7 +3,7 @@ title: "Addressing out-of-distribution data for flow-based gravitational wave in
 author: "M Dax, SR Green, J Wildberger, J Gair, M Pürrer… - ml4physicalsciences.github.io"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
 ---

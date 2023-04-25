@@ -3,7 +3,7 @@ title: "Quantitative Insights into the Role of Copy Number Variants in Adaptive 
 author: "G Avecilla - 2022 - search.proquest.com"
 hero_title: "Papers"
 categories:
-  - Quantitative Biology
+  - Uncategorized
 tags:
   - paper
 ---

@@ -3,7 +3,7 @@ title: "Simulation based inference for high dimensional inverse problems: applic
 author: "F Forbes - Colloque Intelligence Artificielle et santé: approches …, 2022 - hal.science"
 hero_title: "Papers"
 categories:
-  - Electrical Engineering and Systems Science
+  - Uncategorized
 tags:
   - paper
 ---

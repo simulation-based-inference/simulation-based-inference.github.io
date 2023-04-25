@@ -3,7 +3,7 @@ title: "Towards reliable simulation-based inference"
 author: "G Louppe - CAp-RFIAP 2022, 2022 - orbi.uliege.be"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
 ---
