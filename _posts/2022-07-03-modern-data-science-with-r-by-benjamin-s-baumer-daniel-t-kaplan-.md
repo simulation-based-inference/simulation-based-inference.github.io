@@ -1,13 +1,12 @@
 ---
 title: "Modern Data Science with R by Benjamin S. Baumer, Daniel T. Kaplan, and Nicholas J. Horton, Boca Raton, FL: Chapman and Hall/CRC Press, 2021, 650 pp …"
+author: "K Arai, V Lyubchich - 2022 - Taylor & Francis"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-K Arai, V Lyubchich - 2022 - Taylor & Francis
-
 
 
 >… Chapter 7 describes iterative computation using functions from the purrr package, which help implement the bootstrap and simulation-based inference described further in …

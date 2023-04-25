@@ -1,13 +1,12 @@
 ---
 title: "Architectures for online simulation-based inference applied to robot motion planning"
+author: "MA Asenov - 2022 - ethos.bl.uk"
 hero_title: "Papers"
 categories:
   - Computer Science
 tags:
   - paper
 ---
-MA Asenov - 2022 - ethos.bl.uk
-
 
 
 >Robotic systems have enjoyed significant adoption in industrial and field applications in structured environments, where clear specifications of the task and observations …

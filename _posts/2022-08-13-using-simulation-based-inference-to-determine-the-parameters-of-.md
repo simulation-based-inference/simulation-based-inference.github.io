@@ -1,13 +1,12 @@
 ---
 title: "Using simulation-based inference to determine the parameters of an integrated hydrologic model: a case study from the upper Colorado River basin"
+author: "R Hull, E Leonarduzzi, L De La Fuente… - Hydrology and Earth …, 2022 - hess.copernicus.org"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-R Hull, E Leonarduzzi, L De La Fuente… - Hydrology and Earth …, 2022 - hess.copernicus.org
-
 
 
 >… are derived from a python toolbox for simulation-based inference (Tejero-Cantero et al., … conditional density estimator for simulation-based inference. Others (Lueckmann …

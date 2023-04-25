@@ -1,13 +1,12 @@
 ---
 title: "Amortised inference in diffusion MRI biophysical models using artificial neural networks and simulation-based frameworks"
+author: "JPM Patron, T Kypraios, SN Sotiropoulos - archive.ismrm.org"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-JPM Patron, T Kypraios, SN Sotiropoulos - archive.ismrm.org
-
 
 
 >… We present a simulation-based inference approach to estimate diffusion MRI model parameters and their uncertainty. This novel framework trains a neural network to learn …

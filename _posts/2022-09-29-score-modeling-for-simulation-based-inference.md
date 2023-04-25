@@ -1,13 +1,12 @@
 ---
 title: "Score Modeling for Simulation-based Inference"
+author: "T Geffner, G Papamakarios, A Mnih - arXiv preprint arXiv:2209.14249, 2022 - arxiv.org"
 hero_title: "Papers"
 categories:
   - Mathematics
 tags:
   - paper
 ---
-T Geffner, G Papamakarios, A Mnih - arXiv preprint arXiv:2209.14249, 2022 - arxiv.org
-
 
 
 >… Neural Posterior Estimation methods for simulation-based inference can be illsuited … We introduce a new method for simulationbased inference that enjoys the benefits of …

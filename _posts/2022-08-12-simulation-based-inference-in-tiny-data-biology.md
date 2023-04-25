@@ -1,13 +1,12 @@
 ---
 title: "Simulation Based Inference in'Tiny Data'Biology."
+author: "D Flaherty - 2022 - repository.lib.ncsu.edu"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-D Flaherty - 2022 - repository.lib.ncsu.edu
-
 
 
 >… Chapter 1 will provide a discussion of biological systems modeling and the utility of simulation based inference (SBI) in model parameterization. Chapter 2 will introduce …

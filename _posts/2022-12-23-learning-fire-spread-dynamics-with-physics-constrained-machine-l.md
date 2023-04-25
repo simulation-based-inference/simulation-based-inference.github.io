@@ -1,13 +1,12 @@
 ---
 title: "Learning fire spread dynamics with physics-constrained machine learning"
+author: "J Buch, A Jivani, X Huan, AP Williams, P Gentine - Bulletin of the American …, 2023 - APS"
 hero_title: "Papers"
 categories:
   - Computer Science
 tags:
   - paper
 ---
-J Buch, A Jivani, X Huan, AP Williams, P Gentine - Bulletin of the American …, 2023 - APS
-
 
 
 >… Using the ML model as a simulation-based inference technique allows us to robustly quantify the uncertainty in the parameters of a fire spread rate model. Altogether, our …

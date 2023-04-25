@@ -1,13 +1,12 @@
 ---
 title: "Bayesian model comparison for simulation-based inference"
+author: "A Spurio Mancini, MM Docherty, MA Price… - arXiv e …, 2022 - ui.adsabs.harvard.edu"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-A Spurio Mancini, MM Docherty, MA Price… - arXiv e …, 2022 - ui.adsabs.harvard.edu
-
 
 
 >… We introduce a methodology to compute the Bayesian model evidence in simulation-based inference (SBI) scenarios (also often called likelihood-free inference). In …

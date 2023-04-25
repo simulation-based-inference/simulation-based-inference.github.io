@@ -1,13 +1,12 @@
 ---
 title: "Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation"
+author: "A Delaunoy, J Hermans, F Rozet, A Wehenkel… - arXiv preprint arXiv …, 2022 - arxiv.org"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-A Delaunoy, J Hermans, F Rozet, A Wehenkel… - arXiv preprint arXiv …, 2022 - arxiv.org
-
 [cited by](https://scholar.google.com/scholar?cites=2070151199404142004&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… This work is concerned with simulation-based inference algorithms that produce posterior approximations p(ϑ | x) under the following semantics. Target parameters ϑ …

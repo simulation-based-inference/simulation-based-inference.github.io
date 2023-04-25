@@ -55,14 +55,13 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     # Create file content
     content = f"""---
     title: "{paper.title}"
+    author: "{paper.publication_info_summary}"
     hero_title: "Papers"
     categories:
       - {category}
     tags:
       - paper
     ---
-    {paper.publication_info_summary}
-
     {cited_by}
 
     >{paper.snippet}

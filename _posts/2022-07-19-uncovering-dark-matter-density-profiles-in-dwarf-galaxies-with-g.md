@@ -1,13 +1,12 @@
 ---
 title: "Uncovering dark matter density profiles in dwarf galaxies with graph neural networks"
+author: "T Nguyen, S Mishra-Sharma, R Williams, L Necib - Physical Review D, 2023 - APS"
 hero_title: "Papers"
 categories:
   - Physics
 tags:
   - paper
 ---
-T Nguyen, S Mishra-Sharma, R Williams, L Necib - Physical Review D, 2023 - APS
-
 
 
 >… We introduce a new method that leverages simulation-based inference and graph-based machine learning in order to infer the dark matter density profiles of dwarf …

@@ -1,0 +1,49 @@
+/* ==========================================================================
+   ARCHIVE
+   ========================================================================== */
+
+   .archive {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .archive__item {
+    position: relative;
+  
+    a {
+      position: relative;
+      z-index: 10;
+    }
+  
+    a[rel="permalink"] {
+      position: static;
+    }
+  }
+  
+  .archive__subtitle {
+    margin: 1.414em 0 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid;
+  }
+  
+  .archive__item-title {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    line-height: initial;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+  
+    // a[rel="permalink"]::before {
+    //   content: '';
+    //   position: absolute;
+    //   left: 0;
+    //   top: 0;
+    //   right: 0;
+    //   bottom: 0;
+    // }
+  
+    a + a {
+      opacity: 0.5;
+    }
+  }
+  

@@ -1,13 +1,12 @@
 ---
 title: "Estimating the warm dark matter mass from strong lensing images with truncated marginal neural ratio estimation"
+author: "N Anau Montel, A Coogan, C Correa… - Monthly Notices of …, 2023 - academic.oup.com"
 hero_title: "Papers"
 categories:
   - Physics
 tags:
   - paper
 ---
-N Anau Montel, A Coogan, C Correa… - Monthly Notices of …, 2023 - academic.oup.com
-
 
 
 >… In this work, we have presented the first step towards a new neural simulation-based inference pipeline (see Section 3) to analyse present and future strong gravitational …

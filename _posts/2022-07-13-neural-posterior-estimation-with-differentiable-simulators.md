@@ -1,13 +1,12 @@
 ---
 title: "Neural Posterior Estimation with Differentiable Simulators"
+author: "J Zeghal, F Lanusse, A Boucaud, B Remy… - arXiv preprint arXiv …, 2022 - arxiv.org"
 hero_title: "Papers"
 categories:
   - Physics
 tags:
   - paper
 ---
-J Zeghal, F Lanusse, A Boucaud, B Remy… - arXiv preprint arXiv …, 2022 - arxiv.org
-
 
 
 >… Simulation-Based Inference (SBI) is a promising Bayesian inference framework that alleviates the need for analytic likelihoods to estimate posterior distributions. Recent …
