@@ -1,13 +1,12 @@
 ---
 title: "Quantitative Insights into the Role of Copy Number Variants in Adaptive Evolution"
+author: "G Avecilla - 2022 - search.proquest.com"
 hero_title: "Papers"
 categories:
   - Quantitative Biology
 tags:
   - paper
 ---
-G Avecilla - 2022 - search.proquest.com
-
 
 
 >… In chapter three, I used simulation-based inference with neural networks to estimate the formation rate and selection coefficients of CNVs using the observed population …

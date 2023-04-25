@@ -1,13 +1,12 @@
 ---
 title: "Efficient identification of informative features in simulation-based inference"
+author: "J Beck, M Deistler, Y Bernaerts… - Advances in Neural …, 2022 - proceedings.neurips.cc"
 hero_title: "Papers"
 categories:
   - Computer Science
 tags:
   - paper
 ---
-J Beck, M Deistler, Y Bernaerts… - Advances in Neural …, 2022 - proceedings.neurips.cc
-
 [cited by](https://scholar.google.com/scholar?cites=9408830879778530143&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… a method to identify informative features in simulation-based inference (SBI). It builds on … , several techniques collectively known as simulation-based inference (SBI) have …

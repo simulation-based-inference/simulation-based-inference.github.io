@@ -1,13 +1,12 @@
 ---
 title: "Truncated Marginal Neural Ratio Estimation"
+author: "A Cole, P Forre, G Louppe, BK Miller, C Weniger… - pure.uva.nl"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-A Cole, P Forre, G Louppe, BK Miller, C Weniger… - pure.uva.nl
-
 
 
 >… We present a neural simulation-based inference algorithm which simultaneously … We perform experiments on a marginalized version of the simulation-based inference …

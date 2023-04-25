@@ -1,13 +1,12 @@
 ---
 title: "Physics Degree"
+author: "CA Dıaz-Caneja - 2022 - riull.ull.es"
 hero_title: "Papers"
 categories:
   - Physics
 tags:
   - paper
 ---
-CA Dıaz-Caneja - 2022 - riull.ull.es
-
 
 
 >… With this knowledge we will study their applicability in a simulation-based inference of cosmological and astrophysical parameters with Mixture Density Convolutional …

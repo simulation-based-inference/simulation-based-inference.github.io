@@ -1,0 +1,50 @@
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+{% if category[1].size > categories_max %}
+{% assign categories_max = category[1].size %}
+{% endif %}
+{% endfor %}
+
+<div class="columns is-multiline">
+    <div class="column is-3">
+        <div class="box">
+            <!-- <strong>Sort by categories</strong> -->
+            <ul>
+                {% for i in (1..categories_max) reversed %}
+                {% for category in site.categories %}
+                {% if category[1].size == i %}
+                <li>
+                    <a href="#{{ category[0] | slugify }}">
+                        <strong>{{ category[0] }}</strong> <span class="taxonomy__count">({{ i }})</span>
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="column is-9">
+
+        {% for i in (1..categories_max) reversed %}
+        {% for category in site.categories %}
+        {% if category[1].size == i %}
+        <div class="box">
+            <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+                <h2 class="title is-4">{{ category[0] }}</h2>
+                <div class="entries-{{ entries_layout }}">
+                    {% for post in category.last %}
+                    <li class="archive__item-title">
+                        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>, {{ post.author }}
+                    </li>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+
+    </div>
+</div>

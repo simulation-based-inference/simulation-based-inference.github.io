@@ -1,13 +1,12 @@
 ---
 title: "Simulation-based inference: proceed with caution!"
+author: "G Louppe - Learning to Discover, 2022 - orbi.uliege.be"
 hero_title: "Papers"
 categories:
   - Mathematics
 tags:
   - paper
 ---
-G Louppe - Learning to Discover, 2022 - orbi.uliege.be
-
 
 
 >… Simulation-based inference … We must make sure our approximate simulation-based inference algorithms can (at least) actually realize faithful inferences on …

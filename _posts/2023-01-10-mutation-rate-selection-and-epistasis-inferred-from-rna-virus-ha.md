@@ -1,13 +1,12 @@
 ---
 title: "Mutation rate, selection, and epistasis inferred from RNA virus haplotypes via neural posterior estimation"
+author: "I Caspi, M Meir, N Ben Nun, A Stern, Y Ram - bioRxiv, 2023 - biorxiv.org"
 hero_title: "Papers"
 categories:
   - Uncategorized
 tags:
   - paper
 ---
-I Caspi, M Meir, N Ben Nun, A Stern, Y Ram - bioRxiv, 2023 - biorxiv.org
-
 
 
 >… Our approach employs neural posterior estimation, a computational technique that applies simulationbased inference with neural networks to jointly infer multiple model …

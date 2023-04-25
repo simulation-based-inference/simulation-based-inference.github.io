@@ -1,13 +1,12 @@
 ---
 title: "Fast Estimation of Physical Galaxy Properties using Simulation-Based Inference"
+author: "M Robeyns, S Fotopolou, M Walmsley, L Aitchison - ml4astro.github.io"
 hero_title: "Papers"
 categories:
   - Physics
 tags:
   - paper
 ---
-M Robeyns, S Fotopolou, M Walmsley, L Aitchison - ml4astro.github.io
-
 
 
 >… Astrophysical surveys present the challenge of scaling up accurate simulation based inference to billions of different examples. We develop a method to train fast, accurate …

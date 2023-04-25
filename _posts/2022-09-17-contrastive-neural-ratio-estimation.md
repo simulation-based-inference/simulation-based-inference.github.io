@@ -1,13 +1,12 @@
 ---
 title: "Contrastive Neural Ratio Estimation"
+author: "BK Miller, C Weniger, P Forré - Advances in Neural …, 2022 - proceedings.neurips.cc"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-BK Miller, C Weniger, P Forré - Advances in Neural …, 2022 - proceedings.neurips.cc
-
 
 
 >… On all hyperparameter searches we consider three simulators from the simulation-based inference benchmark, namely SLCP, Two Moons, and Gaussian Mixture [44]. …

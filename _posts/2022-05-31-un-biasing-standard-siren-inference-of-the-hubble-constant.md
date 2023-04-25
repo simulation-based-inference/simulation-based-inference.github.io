@@ -1,13 +1,12 @@
 ---
 title: "Un-Biasing Standard Siren Inference of the Hubble Constant"
+author: "S Gagnon-Hartman, J Ruan… - American Astronomical …, 2022 - ui.adsabs.harvard.edu"
 hero_title: "Papers"
 categories:
   - Physics
 tags:
   - paper
 ---
-S Gagnon-Hartman, J Ruan… - American Astronomical …, 2022 - ui.adsabs.harvard.edu
-
 
 
 >… We present a novel method of simulation-based inference which leverages data from both event classes to correct for both biases at once. …

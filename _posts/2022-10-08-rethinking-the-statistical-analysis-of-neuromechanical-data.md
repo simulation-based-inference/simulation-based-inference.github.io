@@ -1,13 +1,12 @@
 ---
 title: "Rethinking the Statistical Analysis of Neuromechanical Data"
+author: "RD Wilkinson, MR Mazzo… - Exercise and sport …, 2023 - journals.lww.com"
 hero_title: "Papers"
 categories:
   - Computer Science
 tags:
   - paper
 ---
-RD Wilkinson, MR Mazzo… - Exercise and sport …, 2023 - journals.lww.com
-
 [cited by](https://scholar.google.com/scholar?cites=10865944781745749225&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
 
 >… have moved far beyond what was possible 60 yr ago, such as nonlinear estimation, resampling, neural networks, spectral analyses, and other simulation-based inference …

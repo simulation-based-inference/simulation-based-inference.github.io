@@ -1,13 +1,12 @@
 ---
 title: "Albatross: A scalable simulation-based inference pipeline for analysing stellar streams in the Milky Way"
+author: "J Alvey, M Gerdes, C Weniger - arXiv preprint arXiv:2304.02032, 2023 - arxiv.org"
 hero_title: "Papers"
 categories:
   - Uncategorized
 tags:
   - paper
 ---
-J Alvey, M Gerdes, C Weniger - arXiv preprint arXiv:2304.02032, 2023 - arxiv.org
-
 
 
 >… in simulation-based inference. We argue that the use of simulation-based inference to … a particular observation) simulationbased inference algorithm known as Truncated …

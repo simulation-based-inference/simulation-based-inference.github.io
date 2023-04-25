@@ -1,13 +1,12 @@
 ---
 title: "Practical estimation methods for high-dimensional multivariate stochastic volatility models"
+author: "MN Ahsan, JM Dufour - 2022 - wp.lancs.ac.uk"
 hero_title: "Papers"
 categories:
   - Computer Science
 tags:
   - paper
 ---
-MN Ahsan, JM Dufour - 2022 - wp.lancs.ac.uk
-
 
 
 >… 5 Simulation-based Inference In this section, we discuss simulation-based inference procedures for MSV models. The simulation-based methods are more attainable in …

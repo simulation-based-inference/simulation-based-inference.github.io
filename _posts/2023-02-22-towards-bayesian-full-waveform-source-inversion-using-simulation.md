@@ -1,13 +1,12 @@
 ---
 title: "Towards Bayesian Full-Waveform Source Inversion using Simulation-Based Inference"
+author: "A Saoulis, A Ferreira, B Joachimi, AS Mancini… - 2023 - meetingorganizer.copernicus.org"
 hero_title: "Papers"
 categories:
   - Physics
 tags:
   - paper
 ---
-A Saoulis, A Ferreira, B Joachimi, AS Mancini… - 2023 - meetingorganizer.copernicus.org
-
 
 
 >… likelihood-free” or “simulation-based” inference, which removes any assumptions about … It then demonstrates simulation-based inference on the problem of source location …

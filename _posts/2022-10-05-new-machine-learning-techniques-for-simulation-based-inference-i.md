@@ -1,13 +1,12 @@
 ---
 title: "New Machine Learning Techniques for Simulation-Based Inference: InferoStatic Nets, Kernel Score Estimation, and Kernel Likelihood Ratio Estimation"
+author: "K Kong, KT Matchev, S Mrenna… - arXiv preprint arXiv …, 2022 - arxiv.org"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-K Kong, KT Matchev, S Mrenna… - arXiv preprint arXiv …, 2022 - arxiv.org
-
 
 
 >We propose an intuitive, machine-learning approach to multiparameter inference, dubbed the InferoStatic Networks (ISN) method, to model the score and likelihood ratio …

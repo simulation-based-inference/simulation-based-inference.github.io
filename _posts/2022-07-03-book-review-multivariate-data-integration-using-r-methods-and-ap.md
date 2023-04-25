@@ -1,13 +1,12 @@
 ---
 title: "Book Review: Multivariate Data Integration Using R: Methods and Applications with the mixOmics Package, by Kim-Ahn Lê Cao and Zoe Welham, Boca Raton …"
+author: "S Lipovetsky - 2022 - Taylor & Francis"
 hero_title: "Papers"
 categories:
   - Computer Science
 tags:
   - paper
 ---
-S Lipovetsky - 2022 - Taylor & Francis
-
 
 
 >… Chapter 7 describes iterative computation using functions from the purrr package, which help implement the bootstrap and simulation-based inference described further in …

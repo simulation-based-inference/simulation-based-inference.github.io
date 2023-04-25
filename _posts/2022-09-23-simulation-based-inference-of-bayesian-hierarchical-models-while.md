@@ -1,13 +1,12 @@
 ---
 title: "Simulation-based inference of Bayesian hierarchical models while checking for model misspecification"
+author: "F Leclercq - Physical Sciences Forum, 2022 - mdpi.com"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-F Leclercq - Physical Sciences Forum, 2022 - mdpi.com
-
 
 
 >… This paper presents recent methodological advances for performing simulation-based inference (SBI) of a general class of Bayesian hierarchical models (BHMs) while …

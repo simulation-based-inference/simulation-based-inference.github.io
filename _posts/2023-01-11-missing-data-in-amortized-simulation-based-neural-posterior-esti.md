@@ -1,13 +1,12 @@
 ---
 title: "Missing data in amortized simulation-based neural posterior estimation"
+author: "Z Wang, J Hasenauer, Y Schaelte - bioRxiv, 2023 - biorxiv.org"
 hero_title: "Papers"
 categories:
   - Statistics
 tags:
   - paper
 ---
-Z Wang, J Hasenauer, Y Schaelte - bioRxiv, 2023 - biorxiv.org
-
 
 
 >… Accordingly, we demonstrate that amortized simulation-based inference approaches are applicable even with missing data, and we provide a guideline for their handling, …

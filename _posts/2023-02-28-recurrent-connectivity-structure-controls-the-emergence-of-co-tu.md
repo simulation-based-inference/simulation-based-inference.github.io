@@ -1,13 +1,12 @@
 ---
 title: "Recurrent connectivity structure controls the emergence of co-tuned excitation and inhibition"
+author: "E Giannakakis, O Vinogradov, V Buendia, A Levina - bioRxiv, 2023 - biorxiv.org"
 hero_title: "Papers"
 categories:
   - Quantitative Biology
 tags:
   - paper
 ---
-E Giannakakis, O Vinogradov, V Buendia, A Levina - bioRxiv, 2023 - biorxiv.org
-
 [cited by](https://scholar.google.com/scholar?cites=6810493978059380896&as_sdt=2005&sciodt=0,5&hl=en&num=20)
 
 >… We employ a combination of analytical methods and simulation-based inference to uncover constraints on the recurrent connectivity that allow E/I co-tuning to emerge. We …
