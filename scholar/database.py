@@ -59,6 +59,9 @@ def insert_result(result: dict) -> None:
             Paper.arxiv_category_tag,
             Paper.published_on,
         ],
+        update={
+            Paper.citation_backlink: result["citation_backlink"],
+        },
     ).execute()
 
 

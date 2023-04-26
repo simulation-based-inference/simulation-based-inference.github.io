@@ -1,9 +1,11 @@
 import os
+from pathlib import Path
 from scholar.api import query_arxiv, query_serp
 from scholar.post_maker import make_all
 from scholar.database import create_tables, insert_result
 
 SEARCH_TERM = '"simulation-based+inference"'
+POST_DIR = Path("./_posts/")
 
 
 def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
@@ -39,12 +41,15 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
 
 
 if __name__ == "__main__":
-    # crawl(SEARCH_TERM)  # For crawling all results (start a new database)
-    crawl(
-        SEARCH_TERM, stop_days=14
-    )  # For crawling only the last 14 days (simulate google scholar alerts)
+    crawl(SEARCH_TERM, stop_days=14)
 
-    make_all(overwrite=False)
+    # The single source of truth is the database, so we can just delete all.
+    # Probably too aggressive.
+    # TODO: Find a better way to avoid post duplicates due to time zone???
+    for post in POST_DIR.glob("*.md"):
+        post.unlink()
+
+    make_all()
 
 
 def reset() -> None:
