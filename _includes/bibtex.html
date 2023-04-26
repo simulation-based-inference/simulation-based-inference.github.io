@@ -1,0 +1,6 @@
+<div class="panel is-info">
+    <p class="panel-heading">BibTeX</p>
+    <div class="panel-block">
+        {{ page.bibtex | replace: "<", "&lt;" | replace: ">" , "&gt;" | replace: " " , "&nbsp;" | replace: ","
+            , ",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" }} </div>
+    </div>

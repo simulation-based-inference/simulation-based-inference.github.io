@@ -17,6 +17,16 @@ ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
 ARXIV_GROUP_MAP = json.load(open("scholar/arxiv_group.json"))
 
 
+def timeout(func, duration=0.5):
+    """Delay the execution of a function."""
+
+    def wrapper(*args, **kwargs):
+        sleep(duration)
+        return func(*args, **kwargs)
+
+    return wrapper
+
+
 def get_arxiv_category_map() -> dict:
     url = "https://arxiv.org/category_taxonomy"
     response = requests.get(url)
@@ -33,14 +43,15 @@ def get_arxiv_category_map() -> dict:
     return category_mapping
 
 
-def timeout(func, duration=0.5):
-    """Delay the execution of a function."""
+def get_bibtex(arxiv_id: str) -> Optional[str]:
+    url = f"https://arxiv.org/bibtex/{arxiv_id}"
+    response = requests.get(url)
 
-    def wrapper(*args, **kwargs):
-        sleep(duration)
-        return func(*args, **kwargs)
-
-    return wrapper
+    if response.status_code == 200:
+        return response.text
+    else:
+        print(f"Failed to fetch BibTeX for arXiv ID {arxiv_id}")
+        return None
 
 
 def to_group(arxiv_category: Optional[str]) -> str:
@@ -57,6 +68,7 @@ def query_arxiv(title: str, threshold: float = 0.8) -> arxiv.Result:
     """Query arxiv for a paper with the given title."""
     search = arxiv.Search(query=f"ti:{title.replace(':', ' ')}", max_results=1)
 
+    # If no results, return
     try:
         result = next(search.results())
     except StopIteration:
@@ -70,6 +82,7 @@ def query_arxiv(title: str, threshold: float = 0.8) -> arxiv.Result:
             "doi": result.doi,
             "arxiv_category_tag": result.primary_category,
             "arxiv_group_tag": to_group(result.primary_category),
+            "arxiv_id": result.entry_id.split("/")[-1],
         }
 
 
