@@ -3,4 +3,3 @@ peewee
 requests
 bs4
 arxiv
-difflib

@@ -21,6 +21,25 @@
                     "label": "$(debug-start) serve"
                 }
             },
+        },
+        {
+            "label": "git ff",
+            "type": "shell",
+            "command": "git",
+            "args": [
+                "merge",
+                "--ff-only",
+                "upstream/main"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "options": {
+                "statusbar": {
+                    "label": "$(refresh) git ff"
+                }
+            },
         }
     ]
 }
