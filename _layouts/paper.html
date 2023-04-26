@@ -18,6 +18,10 @@ layout: default
             {% for label in labels %}
             {% include tag.html tag=label %}
             {% endfor %}
+            <a
+                href="https://github.com/simulation-based-inference/simulation-based-inference.github.io/issues/new?template=correct-category.md">
+                {% include tag.html tag="Suggest" style="is-warning" %}
+            </a>
         </div>
 
         {% if page.image %}
