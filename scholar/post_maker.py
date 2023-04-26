@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 from scholar.database import Paper
-from scholar.api import ARXIV_GROUP_MAP
+from scholar.api import ARXIV_GROUP_MAP, get_bibtex
 
 POST_DIR = Path("_posts/")
 
@@ -54,19 +54,22 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
 
     # Create file content
     content = f"""---
+    layout: paper
     title: "{paper.title}"
     author: "{paper.publication_info_summary}"
+    bibtex: "{get_bibtex(paper.arxiv_id)}"
     hero_title: "Papers"
     categories:
       - {category}
     tags:
       - paper
     ---
-    {cited_by}
-
     >{paper.snippet}
 
     Link to paper: [{paper.link}]({paper.link})
+    
+    {cited_by}
+
     """.replace(
         "    ", ""
     )
