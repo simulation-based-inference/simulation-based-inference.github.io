@@ -18,17 +18,20 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
     """
     next_url = None
     while True:
+
+        # Initial query from SERP API to get new papers
         results = query_serp(url=next_url, term=term, more_results=more_results)
 
-        for result in results["formatted_results"]:
 
-            # Append arXiv category and group
+        for result in results["formatted_results"]:
+            
+            # Append extra arxiv data
             if result['journal'] == 'arxiv.org':
                 arxiv_data = query_arxiv(result["title"])
                 if arxiv_data is not None:
                     result.update(arxiv_data)
 
-            # Append biorxiv category and group
+            # Append extra biorxiv data
             if result['journal'] == 'biorxiv.org':
                 biorxiv_data = query_biorxiv(result["doi"])
                 if biorxiv_data is not None:
@@ -38,8 +41,10 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
             insert_result(result)
             max_days_since_added = result["days_since_added"]
 
-        term = None  # Only use the term on the first page, next_url already has it
+        # Only use the search term on the first SERP API query, use next_url for the rest
+        term = None  
 
+        # Exit if we have reached the stopping condition or there are no more results
         if stop_days is not None and max_days_since_added > stop_days:
             break
         try:
@@ -51,9 +56,7 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
 if __name__ == "__main__":
     crawl(SEARCH_TERM, stop_days=14)
 
-    # The single source of truth is the database, so we can just delete all.
-    # Probably too aggressive.
-    # TODO: Find a better way to avoid post duplicates due to time zone???
+    # The single source of truth is in the database, so we delete all to avoid publish date offset by one bug due to timezone.
     for post in POST_DIR.glob("*.md"):
         post.unlink()
 

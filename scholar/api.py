@@ -27,7 +27,6 @@ def timeout(func, duration=0.5):
     def wrapper(*args, **kwargs):
         sleep(duration)
         return func(*args, **kwargs)
-
     return wrapper
 
 
@@ -60,6 +59,7 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
 
 def to_category(arxiv_category: Optional[str]) -> str:
     """Convert arxiv category to group."""
+
     if arxiv_category is None:
         return None
     group_tag = arxiv_category.split(".")[0]
@@ -67,6 +67,7 @@ def to_category(arxiv_category: Optional[str]) -> str:
 
 def to_doi(biorxiv_link: str) -> str:
     """Convert biorxiv link to doi."""
+
     if biorxiv_link is None:
         return None
     doi = biorxiv_link.replace("https://www.biorxiv.org/content/", "")
