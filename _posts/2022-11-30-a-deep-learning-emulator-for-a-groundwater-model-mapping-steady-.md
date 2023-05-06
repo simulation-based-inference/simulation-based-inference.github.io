@@ -12,6 +12,4 @@ tags:
 ---
 >… The aforementioned simulation-based inference (SBI) strategy opens up possibilities for improving the true accuracy of steady-state WTD mapping over the CONUS, and …
 
-Link to paper: [Link to paper: [https://ui.adsabs.harvard.edu/abs/2022AGUFM.H52P0670P/abstract](https://ui.adsabs.harvard.edu/abs/2022AGUFM.H52P0670P/abstract)](Link to paper: [https://ui.adsabs.harvard.edu/abs/2022AGUFM.H52P0670P/abstract](https://ui.adsabs.harvard.edu/abs/2022AGUFM.H52P0670P/abstract))
-
-
+Link to paper: [https://ui.adsabs.harvard.edu/abs/2022AGUFM.H52P0670P/abstract](https://ui.adsabs.harvard.edu/abs/2022AGUFM.H52P0670P/abstract)

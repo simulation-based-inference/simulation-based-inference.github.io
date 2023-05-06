@@ -5,13 +5,13 @@ author: "Y Bernaerts, M Deistler, PJ Goncalves, J Beck… - bioRxiv, 2023 - bior
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - neuroscience
+  - Neuroscience
 tags:
   - paper
 
 ---
 >… variety of cortical cell types using simulation-based inference, while overcoming the … that explain observed electrophysiology, we used simulation-based inference (SBI)25…
 
-Link to paper: [Link to paper: [https://www.biorxiv.org/content/10.1101/2023.03.02.530774.abstract](https://www.biorxiv.org/content/10.1101/2023.03.02.530774.abstract)](Link to paper: [https://www.biorxiv.org/content/10.1101/2023.03.02.530774.abstract](https://www.biorxiv.org/content/10.1101/2023.03.02.530774.abstract))
+Link to paper: [https://www.biorxiv.org/content/10.1101/2023.03.02.530774.abstract](https://www.biorxiv.org/content/10.1101/2023.03.02.530774.abstract)
 
 [cited by](https://scholar.google.com/scholar?cites=6128980025825657340&as_sdt=5,32&sciodt=0,32&hl=en&num=20)

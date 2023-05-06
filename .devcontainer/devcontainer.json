@@ -3,6 +3,16 @@
     "name": "sim-based-inference",
     "workspaceMount": "source=${localWorkspaceFolder},target=/sim-based-inference,type=bind,consistency=cached",
     "workspaceFolder": "/sim-based-inference",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "alexcvzz.vscode-sqlite",
+                "GitHub.vscode-pull-request-github"
+            ]
+        }
+    },
     "remoteUser": "root",
     "postCreateCommand": "/bin/sh .devcontainer/post_create.sh"
 }

@@ -1,5 +1,7 @@
+ipykernel
 python-dotenv
 peewee
 requests
 bs4
 arxiv
+pre-commit

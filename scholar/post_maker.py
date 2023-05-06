@@ -38,7 +38,7 @@ tags:
 ---
 >{snippet}
 
-Link to paper: [{link}]({link})
+{link}
 
 {cited_by}
 """
@@ -72,14 +72,16 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
 
     # Create file content
     content = POST_TEMPLATE.format(
-        title=paper.title, 
+        title=paper.title,
         publication_info_summary=paper.publication_info_summary,
         bibtex=get_bibtex(paper.arxiv_id) if paper.arxiv_id else None,
         category=paper.category if paper.category else "Uncategorized",
         arxiv_extra_tag=_make_arxiv_extra_tag(paper),
         snippet=paper.snippet,
         link=f"Link to paper: [{paper.link}]({paper.link})",
-        cited_by=f"[cited by]({paper.citation_backlink})" if paper.citation_backlink else ""
+        cited_by=f"[cited by]({paper.citation_backlink})"
+        if paper.citation_backlink
+        else "",
     )
 
     # Write file
