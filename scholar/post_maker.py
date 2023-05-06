@@ -42,15 +42,9 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
         print(f"File already exists: {paper.title}")
         return
 
-    if paper.arxiv_group_tag:
-        category = ARXIV_GROUP_MAP[paper.arxiv_group_tag]
-    else:
-        category = "Uncategorized"
-
-    if paper.citation_backlink:
-        cited_by = f"[cited by]({paper.citation_backlink})"
-    else:
-        cited_by = ""
+    category = paper.category if paper.category else "Uncategorized"
+    cited_by = f"[cited by]({paper.citation_backlink})" if paper.citation_backlink else ""
+    arxiv_extra_tag = f"  - {paper.arxiv_category_tag}" if paper.arxiv_category_tag else ""
 
     # Create file content
     content = f"""---
@@ -63,6 +57,7 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
       - {category}
     tags:
       - paper
+    {arxiv_extra_tag}
     ---
     >{paper.snippet}
 
