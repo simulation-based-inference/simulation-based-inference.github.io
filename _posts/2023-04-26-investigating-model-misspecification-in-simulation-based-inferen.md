@@ -12,9 +12,10 @@ bibtex: "@misc{cannon2022investigating,
 }"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
+  - stat.ML
 ---
 >… A modern approach for bypassing such difficulties is to use simulation-based inference (SBI), … In simulation-based inference, we sample parameters θi ∼ p(θ) from a prior …
 

@@ -5,9 +5,10 @@ author: "W Tang, ACS Jørgensen, S Marguerat, P Thomas… - bioRxiv, 2023 - bior
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - bioinformatics
 tags:
   - paper
+
 ---
 >… ) and two simulation-based inference methods. Through a … and flexibility of the simulation-based inference methods. We … of a simulation-based inference method based on …
 

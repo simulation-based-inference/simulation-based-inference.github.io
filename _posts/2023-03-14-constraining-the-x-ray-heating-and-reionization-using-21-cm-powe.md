@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - astro-ph.CO
 ---
 >… In this paper, we performed Simulation-Based Inference through a MNRE algorithm, swyft, to constrain the astrophysical parameters that govern the X-ray heating and …
 

@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… The approach is Bayesian which facilitates uncertainty quantification and simulation based inference, as illustrated by application to two countries from the Middle East …
 

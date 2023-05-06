@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… statistics course that focuses on simulation-based inference at the University of … While we emphasize simulation-based inference in our course, we believe that many …
 

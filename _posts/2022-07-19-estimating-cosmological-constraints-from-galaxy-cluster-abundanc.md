@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - astro-ph.CO
 ---
 >… In this paper, we use the simulation-based inference (SBI) approach to estimate cosmological constraints from a simplified galaxy cluster observation analysis. Using data …
 

@@ -15,6 +15,7 @@ categories:
   - Computer Science
 tags:
   - paper
+  - cs.LG
 ---
 >… amortized neural approximation” (JANA) of intractable likelihood functions and posterior densities arising in Bayesian surrogate modeling and simulation-based inference. …
 

@@ -12,9 +12,10 @@ bibtex: "@misc{miller2023contrastive,
 }"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
+  - stat.ML
 ---
 >… On all hyperparameter searches we consider three simulators from the simulation-based inference benchmark, namely SLCP, Two Moons, and Gaussian Mixture [44]. …
 

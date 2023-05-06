@@ -12,9 +12,10 @@ bibtex: "@misc{hermans2022trust,
 }"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
+  - stat.ML
 ---
 >… showing that current Bayesian simulation-based inference algorithms can produce … reduce the range of applicability of simulation-based inference. For this reason, we …
 

@@ -15,6 +15,7 @@ categories:
   - Statistics
 tags:
   - paper
+  - stat.ML
 ---
 >… This work tackles an important open question in simulation based inference. We introduce theoretically valid and interpretable validation diagnostics that scale to both high…
 

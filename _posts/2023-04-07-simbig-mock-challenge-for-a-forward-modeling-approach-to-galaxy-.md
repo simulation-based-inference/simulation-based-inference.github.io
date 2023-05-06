@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… Simulation-Based Inference of Galaxies (SimBIG) is a forward modeling framework for analyzing galaxy clustering using simulation-based inference. In this work, we …
 

@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >We report Cytopath, a method for trajectory inference that takes advantage of transcriptional activity information from the RNA velocity of single cells to perform trajectory …
 

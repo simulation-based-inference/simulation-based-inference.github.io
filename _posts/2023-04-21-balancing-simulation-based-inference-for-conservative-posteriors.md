@@ -15,6 +15,7 @@ categories:
   - Statistics
 tags:
   - paper
+  - stat.ML
 ---
 >Conservative inference is a major concern in simulation-based inference. It has been shown that commonly used algorithms can produce overconfident posterior …
 

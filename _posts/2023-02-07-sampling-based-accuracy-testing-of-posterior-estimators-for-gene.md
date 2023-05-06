@@ -15,6 +15,7 @@ categories:
   - Statistics
 tags:
   - paper
+  - stat.ML
 ---
 >… Posterior inference with generative models is an alternative to methods such as Markov Chain Monte Carlo, both for likelihood-based and simulation-based inference. …
 

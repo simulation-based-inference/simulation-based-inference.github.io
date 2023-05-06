@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… We present a simulation-based inference approach to estimate diffusion MRI model parameters and their uncertainty. This novel framework trains a neural network to learn …
 

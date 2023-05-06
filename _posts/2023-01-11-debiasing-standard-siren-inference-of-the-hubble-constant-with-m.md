@@ -12,9 +12,10 @@ bibtex: "@misc{gagnonhartman2023debiasing,
 }"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
+  - astro-ph.CO
 ---
 >… We extend this logic to EM anisotropy bias, using simulationbased inference (SBI) to characterize the EM selection criterion in a sample of BNS mergers. For an observed …
 

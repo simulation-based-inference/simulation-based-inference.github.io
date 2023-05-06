@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - astro-ph.IM
 ---
 >… Simulation-based inference (SBI) is a promising solution to the computational challenge put forth by next-generation astronomical surveys. It bypasses a traditional …
 

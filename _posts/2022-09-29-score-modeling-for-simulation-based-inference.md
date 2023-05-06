@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… Neural Posterior Estimation methods for simulation-based inference can be illsuited … We introduce a new method for simulationbased inference that enjoys the benefits of …
 

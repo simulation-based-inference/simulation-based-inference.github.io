@@ -12,9 +12,10 @@ bibtex: "@misc{beck2022efficient,
 }"
 hero_title: "Papers"
 categories:
-  - Computer Science
+  - Uncategorized
 tags:
   - paper
+  - cs.LG
 ---
 >… a method to identify informative features in simulation-based inference (SBI). It builds on … , several techniques collectively known as simulation-based inference (SBI) have …
 

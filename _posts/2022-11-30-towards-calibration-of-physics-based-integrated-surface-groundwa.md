@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… To do so, we use techniques from the field of simulation based inference (SBI). SBI provides a rigorous framework for estimating the probability distributions of parameter …
 

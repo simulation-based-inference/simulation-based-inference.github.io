@@ -12,9 +12,10 @@ bibtex: "@misc{khullar2022digs,
 }"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
+  - astro-ph.GA
 ---
 >… Accurate X-ray timing in the presence of systematic biases with simulation-based inference. 511, 5689–5708. doi:10.1093/mnras/stab3437, arXiv:2104.03278. …
 

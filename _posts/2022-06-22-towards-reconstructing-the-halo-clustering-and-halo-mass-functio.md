@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - astro-ph.CO
 ---
 >… To accomplish this we use marginal neural ratio estimation, an algorithm for simulation-based inference that allows marginal posteriors to be estimated by approximating …
 

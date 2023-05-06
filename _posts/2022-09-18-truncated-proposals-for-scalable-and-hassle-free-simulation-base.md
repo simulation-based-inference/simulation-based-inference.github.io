@@ -15,6 +15,7 @@ categories:
   - Statistics
 tags:
   - paper
+  - stat.ML
 ---
 >Simulation-based inference (SBI) solves statistical inverse problems by repeatedly running a stochastic simulator and inferring posterior distributions from model-…
 

@@ -5,9 +5,10 @@ author: "I Caspi, M Meir, N Ben Nun, A Stern, Y Ram - bioRxiv, 2023 - biorxiv.or
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - evolutionary biology
 tags:
   - paper
+
 ---
 >… Our approach employs neural posterior estimation, a computational technique that applies simulationbased inference with neural networks to jointly infer multiple model …
 

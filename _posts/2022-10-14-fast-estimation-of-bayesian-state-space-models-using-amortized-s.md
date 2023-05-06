@@ -15,6 +15,7 @@ categories:
   - Economics
 tags:
   - paper
+  - econ.EM
 ---
 >This paper presents a fast algorithm for estimating hidden states of Bayesian state space models. The algorithm is a variation of amortized simulation-based inference …
 

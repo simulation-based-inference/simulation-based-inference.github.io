@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… In this study, we introduce the simulation-based inference for the virtual epileptic patient model (SBI-VEP), enabling us to amortize the approximate posterior of the …
 

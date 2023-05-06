@@ -5,9 +5,10 @@ author: "Z Wang, J Hasenauer, Y Schaelte - bioRxiv, 2023 - biorxiv.org"
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - systems biology
 tags:
   - paper
+
 ---
 >… Accordingly, we demonstrate that amortized simulation-based inference approaches are applicable even with missing data, and we provide a guideline for their handling, …
 

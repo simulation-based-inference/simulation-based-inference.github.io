@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… Here, we develop a radar forward modeling framework that is geared to train a machine learning workflow (likely simulation-based inference) to extract radar attributes …
 

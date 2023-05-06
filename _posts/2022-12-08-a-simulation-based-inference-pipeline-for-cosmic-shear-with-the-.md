@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… the idealising assumptions about the form of the likelihood and the complexity of the data inherent to the standard approach, we investigate simulation-based inference (…
 

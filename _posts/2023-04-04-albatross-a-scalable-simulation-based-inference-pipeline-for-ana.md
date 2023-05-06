@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - astro-ph.GA
 ---
 >… in simulation-based inference. We argue that the use of simulation-based inference to … a particular observation) simulationbased inference algorithm known as Truncated …
 

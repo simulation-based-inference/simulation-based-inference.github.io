@@ -12,9 +12,10 @@ bibtex: "@misc{dupourqué2023investigating,
 }"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
+  - astro-ph.CO
 ---
 >… We propose a new Bayesian approach, relying on simulation-based inference to account for the whole error budget. We used the X-COP cluster sample to individually …
 

@@ -15,6 +15,7 @@ categories:
   - Statistics
 tags:
   - paper
+  - stat.ML
 ---
 >… This work is concerned with simulation-based inference algorithms that produce posterior approximations p(ϑ | x) under the following semantics. Target parameters ϑ …
 

@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >Robotic systems have enjoyed significant adoption in industrial and field applications in structured environments, where clear specifications of the task and observations …
 

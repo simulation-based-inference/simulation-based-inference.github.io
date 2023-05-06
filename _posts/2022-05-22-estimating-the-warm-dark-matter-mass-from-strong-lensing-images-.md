@@ -12,9 +12,10 @@ bibtex: "@misc{montel2022estimating,
 }"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
+  - astro-ph.CO
 ---
 >… In this work, we have presented the first step towards a new neural simulation-based inference pipeline (see Section 3) to analyse present and future strong gravitational …
 

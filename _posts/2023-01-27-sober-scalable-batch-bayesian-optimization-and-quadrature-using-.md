@@ -15,6 +15,7 @@ categories:
   - Computer Science
 tags:
   - paper
+  - cs.LG
 ---
 >… As LFI likelihood is originally introduced to solve simulation-based inference, now our SOBER-LFI is also capable of solving simulation-based inference. The main …
 

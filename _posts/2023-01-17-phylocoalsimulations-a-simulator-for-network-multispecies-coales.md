@@ -5,9 +5,10 @@ author: "J Fogg, ES Allman, C Ané - bioRxiv, 2023 - biorxiv.org"
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - evolutionary biology
 tags:
   - paper
+
 ---
 >… This package should be useful for simulation studies and simulation-based inference methods. The software is available open source with documentation and a tutorial at …
 

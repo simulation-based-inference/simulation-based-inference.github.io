@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… We present a novel method of simulation-based inference which leverages data from both event classes to correct for both biases at once. …
 

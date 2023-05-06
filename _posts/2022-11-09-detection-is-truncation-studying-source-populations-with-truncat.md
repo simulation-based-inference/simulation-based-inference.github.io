@@ -12,9 +12,10 @@ bibtex: "@misc{montel2022detection,
 }"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
+  - astro-ph.IM
 ---
 >… We show that these effects can be modeled self-consistently in the context of sequential simulation-based inference. Our approach couples source detection and catalog-…
 

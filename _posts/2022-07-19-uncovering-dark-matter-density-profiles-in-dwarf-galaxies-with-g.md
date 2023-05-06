@@ -12,9 +12,10 @@ bibtex: "@misc{nguyen2022uncovering,
 }"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
+  - astro-ph.CO
 ---
 >… We introduce a new method that leverages simulation-based inference and graph-based machine learning in order to infer the dark matter density profiles of dwarf …
 

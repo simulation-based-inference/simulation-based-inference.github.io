@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… Astrophysical surveys present the challenge of scaling up accurate simulation based inference to billions of different examples. We develop a method to train fast, accurate …
 

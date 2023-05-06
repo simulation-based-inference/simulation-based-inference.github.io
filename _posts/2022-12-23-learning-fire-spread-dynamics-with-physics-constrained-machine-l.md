@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… Using the ML model as a simulation-based inference technique allows us to robustly quantify the uncertainty in the parameters of a fire spread rate model. Altogether, our …
 

@@ -5,9 +5,10 @@ author: "E Giannakakis, O Vinogradov, V Buendia, A Levina - bioRxiv, 2023 - bior
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - neuroscience
 tags:
   - paper
+
 ---
 >… We employ a combination of analytical methods and simulation-based inference to uncover constraints on the recurrent connectivity that allow E/I co-tuning to emerge. We …
 

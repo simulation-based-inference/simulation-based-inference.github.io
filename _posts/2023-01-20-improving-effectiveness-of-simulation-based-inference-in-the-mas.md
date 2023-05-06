@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… Next, we propose a new parallelism-aware adaptation to simulation-based inference, designed to perform best in such a massively parallel regime. The proposed adapted …
 

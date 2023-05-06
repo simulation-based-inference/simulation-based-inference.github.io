@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - astro-ph.HE
 ---
 >… Here, we present the first simulation-based inference method using normalizing flows, trained to rapidly infer the parameters of toy supernovae model in multivariate, Rubin…
 

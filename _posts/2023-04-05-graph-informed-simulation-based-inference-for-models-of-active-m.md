@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - cond-mat.soft
 ---
 >… In this work, we demonstrate that simulation-based inference can be used to robustly infer active matter parameters from system observations. Moreover, we demonstrate …
 

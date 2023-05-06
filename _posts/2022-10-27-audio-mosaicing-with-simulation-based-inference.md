@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… Here we propose an algorithm to automatically create audio mosaics using the simulation-based inference paradigm. Our algorithm takes as input an audio file that one …
 

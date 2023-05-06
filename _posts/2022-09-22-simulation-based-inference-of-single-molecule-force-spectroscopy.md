@@ -12,9 +12,10 @@ bibtex: "@misc{dingeldein2022simulationbased,
 }"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Uncategorized
 tags:
   - paper
+  - physics.chem-ph
 ---
 >… We build on a new generation of likelihood-free inference methods called simulation-based inference (SBI). By encoding a parametric mechanistic model into a simulator …
 

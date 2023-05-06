@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - astro-ph.IM
 ---
 >… With simulation-based inference (SBI), it is possible to attain complex posterior distributions with the accuracy of traditional methods but with a > 104 increase in speed. …
 

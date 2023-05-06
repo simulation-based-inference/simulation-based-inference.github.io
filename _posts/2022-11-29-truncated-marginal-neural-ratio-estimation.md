@@ -12,9 +12,10 @@ bibtex: "@misc{miller2021truncated,
 }"
 hero_title: "Papers"
 categories:
-  - Statistics
+  - Uncategorized
 tags:
   - paper
+  - stat.ML
 ---
 >… We present a neural simulation-based inference algorithm which simultaneously … We perform experiments on a marginalized version of the simulation-based inference …
 

@@ -15,6 +15,7 @@ categories:
   - Physics
 tags:
   - paper
+  - physics.ins-det
 ---
 >… Applications of this work include controllable simulation-based inference and event generation, high-granularity detector simulation such as at the HL-LHC (High …
 

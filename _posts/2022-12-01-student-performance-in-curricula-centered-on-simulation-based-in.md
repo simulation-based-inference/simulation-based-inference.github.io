@@ -8,6 +8,7 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… We did not evaluate the extent of simulation-based inference in these materials. Textbooks also varied by the extent of coverage of parametric methods. For example, the …
 
