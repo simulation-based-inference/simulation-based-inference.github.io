@@ -29,6 +29,7 @@ class Paper(Model):
     arxiv_id = CharField(null=True)
     arxiv_group_tag = CharField(null=True)
     arxiv_category_tag = CharField(null=True)
+    category = CharField(null=True)
     authors = CharField(null=True)
     doi = CharField(null=True)
 

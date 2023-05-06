@@ -62,6 +62,31 @@ def to_group(arxiv_category: Optional[str]) -> str:
     if group_tag in ARXIV_GROUP_MAP:
         return group_tag
 
+def to_doi(biorxiv_link: str) -> str:
+    """Convert biorxiv link to doi."""
+    if biorxiv_link is None:
+        return None
+    doi = biorxiv_link.replace("https://www.biorxiv.org/content/", "")
+    doi = doi.replace("v1", "").replace("v2", "").replace("v3", "")
+    doi = doi.replace(".abstract", "").replace(".full", "").replace(".short", "")
+    return doi
+
+
+@timeout
+def query_biorxiv(doi:str) -> dict:
+    """Query biorxiv for a paper with the given doi."""
+
+    url = f"https://api.biorxiv.org/details/biorxiv/{doi}"
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()['collection'][0]
+        return {
+            "authors": data["authors"],
+            "doi": data["doi"],
+            "category": data["category"],
+        }
+
 
 @timeout
 def query_arxiv(title: str, threshold: float = 0.8) -> arxiv.Result:
@@ -107,6 +132,7 @@ def format_serp_result(result: dict) -> dict:
         "days_since_added": days_since_added,
         "publication_info_summary": publication_info_summary,
         "journal": publication_info_summary.split(" - ")[2],
+        "doi": to_doi(result["link"]),
         "link": result["link"],
         "snippet": snippet,
         "citation_backlink": citation_backlink,

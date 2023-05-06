@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from scholar.api import query_arxiv, query_serp
+from scholar.api import query_arxiv, query_serp, query_biorxiv
 from scholar.post_maker import make_all
 from scholar.database import create_tables, insert_result
 
@@ -21,10 +21,18 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
         results = query_serp(url=next_url, term=term, more_results=more_results)
 
         for result in results["formatted_results"]:
+
             # Append arXiv category and group
-            arxiv_data = query_arxiv(result["title"])
-            if arxiv_data is not None:
-                result.update(arxiv_data)
+            if result['journal'] == 'arxiv.org':
+                arxiv_data = query_arxiv(result["title"])
+                if arxiv_data is not None:
+                    result.update(arxiv_data)
+
+            # Append biorxiv category and group
+            if result['journal'] == 'biorxiv.org':
+                biorxiv_data = query_biorxiv(result["doi"])
+                if biorxiv_data is not None:
+                    result.update(biorxiv_data)
 
             # Insert into database
             insert_result(result)
