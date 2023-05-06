@@ -74,6 +74,7 @@ include:
   - _papers
 
 exclude:
+exclude:
   - Gemfile
   - clean-theme.gemspec
   - Gemfile.lock
@@ -88,6 +89,8 @@ exclude:
   - .vscode/
   - sql/
   - scholar/
+  - jobs/
+  - database/
   - .dockerignore
   - .env
   - .gitignore
