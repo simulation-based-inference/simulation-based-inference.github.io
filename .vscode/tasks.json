@@ -40,6 +40,19 @@
                     "label": "$(refresh) git ff"
                 }
             },
+        },
+        {
+            "label": "pre-commit run",
+            "type": "shell",
+            "command": "pre-commit run",
+            "options": {
+                "statusbar": {
+                    "label": "$(debug-alt) pre-commit"
+                }
+            },
+            "presentation": {
+                "close": true
+            }
         }
     ]
 }
