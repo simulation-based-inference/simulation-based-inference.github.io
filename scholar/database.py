@@ -21,6 +21,7 @@ class Paper(Model):
     published_on = DateField()
     title = CharField(unique=True)
     publication_info_summary = CharField()
+    journal = CharField(null=True)
     link = CharField()
     snippet = CharField()
     citation_backlink = CharField(null=True)

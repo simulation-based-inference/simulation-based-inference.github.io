@@ -106,6 +106,7 @@ def format_serp_result(result: dict) -> dict:
         "title": result["title"],
         "days_since_added": days_since_added,
         "publication_info_summary": publication_info_summary,
+        "journal": publication_info_summary.split(" - ")[2],
         "link": result["link"],
         "snippet": snippet,
         "citation_backlink": citation_backlink,
