@@ -19,7 +19,6 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
         stop_days (int): Stop crawling when the oldest result is older than this.
     """
     next_url = None
-
     while True:
         # Initial query from SERP API to get new papers
         results = query_serp(url=next_url, term=term, more_results=more_results)

@@ -1,2 +1,2 @@
 bundle install
-pip install -r ./scholar/requirements.txt
+pip install -r ./backend/requirements.txt
