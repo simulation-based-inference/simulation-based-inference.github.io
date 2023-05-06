@@ -27,7 +27,6 @@ class Paper(Model):
     citation_backlink = CharField(null=True)
     # Arxiv fields
     arxiv_id = CharField(null=True)
-    arxiv_group_tag = CharField(null=True)
     arxiv_category_tag = CharField(null=True)
     category = CharField(null=True)
     authors = CharField(null=True)
