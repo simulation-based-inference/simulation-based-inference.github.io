@@ -5,7 +5,7 @@ author: "E Giannakakis, O Vinogradov, V Buendia, A Levina - bioRxiv, 2023 - bior
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - neuroscience
+  - Neuroscience
 tags:
   - paper
 

@@ -4,7 +4,6 @@ import json
 import requests
 import arxiv
 import datetime
-import difflib
 from time import sleep
 from typing import Optional
 from dotenv import load_dotenv
@@ -27,6 +26,7 @@ def timeout(func, duration=0.5):
     def wrapper(*args, **kwargs):
         sleep(duration)
         return func(*args, **kwargs)
+
     return wrapper
 
 
@@ -65,6 +65,7 @@ def to_category(arxiv_category: Optional[str]) -> str:
     group_tag = arxiv_category.split(".")[0]
     return ARXIV_GROUP_MAP.get(group_tag, None)
 
+
 def to_doi(biorxiv_link: str) -> str:
     """Convert biorxiv link to doi."""
 
@@ -77,14 +78,14 @@ def to_doi(biorxiv_link: str) -> str:
 
 
 @timeout
-def query_biorxiv(doi:str) -> dict:
+def query_biorxiv(doi: str) -> dict:
     """Query biorxiv for a paper with the given doi."""
 
     url = f"https://api.biorxiv.org/details/biorxiv/{doi}"
     response = requests.get(url)
 
     if response.status_code == 200:
-        data = response.json()['collection'][0]
+        data = response.json()["collection"][0]
         return {
             "authors": data["authors"],
             "doi": data["doi"],
@@ -93,26 +94,21 @@ def query_biorxiv(doi:str) -> dict:
 
 
 @timeout
-def query_arxiv(title: str, threshold: float = 0.8) -> arxiv.Result:
+def query_arxiv(arxiv_id: str) -> arxiv.Result:
     """Query arxiv for a paper with the given title."""
-    search = arxiv.Search(query=f"ti:{title.replace(':', ' ')}", max_results=1)
+    search = arxiv.Search(id_list=[arxiv_id], max_results=1)
 
-    # If no results, return
     try:
         result = next(search.results())
     except StopIteration:
         return
 
-    # Double check that the title matches close enough
-    r = difflib.SequenceMatcher(None, title, result.title).ratio()
-    if r > threshold:
-        return {
-            "authors": ", ".join([str(author) for author in result.authors]),
-            "doi": result.doi,
-            "arxiv_category_tag": result.primary_category,
-            "arxiv_id": result.entry_id.split("/")[-1],
-            "category": to_category(result.primary_category),
-        }
+    return {
+        "authors": ", ".join([str(author) for author in result.authors]),
+        "doi": result.doi,
+        "arxiv_category_tag": result.primary_category,
+        "category": to_category(result.primary_category),
+    }
 
 
 def format_serp_result(result: dict) -> dict:
@@ -140,6 +136,7 @@ def format_serp_result(result: dict) -> dict:
         "link": result["link"],
         "snippet": snippet,
         "citation_backlink": citation_backlink,
+        "arxiv_id": result["link"].split("/")[-1],
     }
 
 

@@ -5,7 +5,7 @@ author: "N Tolley, PLC Rodrigues, A Gramfort, SR Jones - bioRxiv, 2023 - biorxiv
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - neuroscience
+  - Neuroscience
 tags:
   - paper
 

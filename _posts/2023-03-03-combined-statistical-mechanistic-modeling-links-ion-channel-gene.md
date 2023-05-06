@@ -5,7 +5,7 @@ author: "Y Bernaerts, M Deistler, PJ Goncalves, J Beck… - bioRxiv, 2023 - bior
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - neuroscience
+  - Neuroscience
 tags:
   - paper
 

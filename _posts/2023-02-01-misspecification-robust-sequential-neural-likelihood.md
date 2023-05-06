@@ -2,13 +2,22 @@
 layout: paper
 title: "Misspecification-robust sequential neural likelihood"
 author: "RP Kelly, DJ Nott, DT Frazier, DJ Warne… - arXiv preprint arXiv …, 2023 - arxiv.org"
-bibtex: "None"
+bibtex: "@misc{kelly2023misspecificationrobust,
+      title={Misspecification-robust Sequential Neural Likelihood},
+      author={Ryan P. Kelly and David J. Nott and David T. Frazier and David J. Warne and Chris Drovandi},
+      year={2023},
+      eprint={2301.13368},
+      archivePrefix={arXiv},
+      primaryClass={stat.ME}
+}"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Statistics
 tags:
   - paper
-
+  - arxiv_category:
+    name: stat.ME
+    tooltip: Methodology
 ---
 >… Simulation-based inference (SBI) techniques are now an essential tool for the parameter estimation of mechanistic and simulatable models with intractable likelihoods. …
 

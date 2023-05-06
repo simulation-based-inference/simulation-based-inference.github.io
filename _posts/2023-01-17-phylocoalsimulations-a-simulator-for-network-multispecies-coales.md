@@ -5,7 +5,7 @@ author: "J Fogg, ES Allman, C Ané - bioRxiv, 2023 - biorxiv.org"
 bibtex: "None"
 hero_title: "Papers"
 categories:
-  - evolutionary biology
+  - Evolutionary biology
 tags:
   - paper
 
