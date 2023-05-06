@@ -6,7 +6,7 @@ RUN apk update
 RUN apk add --no-cache build-base gcc cmake github-cli
 
 # Update the Ruby bundler and install Jekyll
-RUN gem update bundler 
+RUN gem update bundler
 RUN gem install jekyll -v 3.9.3
 RUN gem update github-pages
 
@@ -17,3 +17,4 @@ RUN python3 -m ensurepip
 RUN pip3 install --no-cache --upgrade pip setuptools
 RUN apk add gcc musl-dev linux-headers python3-dev
 RUN apk add sqlite
+RUN apk add bash
