@@ -1,3 +1,4 @@
-<span class="tag {% if include.style %} {{ include.style }} {% else %} is-primary {% endif %}">
+<span class="tag tooltip {% if include.style %} {{ include.style }} {% else %} is-primary {% endif %}"
+    title="{% if include.tooltip %} {{ include.tooltip }} {% endif %}">
     {{ include.tag }}
 </span>

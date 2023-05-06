@@ -14,9 +14,19 @@ layout: default
     <h2>{{ page.title }}</h1>
         {% endif %}
         <div class="tags">
-            {% assign labels = page.categories | concat: page.tags %}
-            {% for label in labels %}
-            {% include tag.html tag=label %}
+            <!-- Post categories -->
+            {% for category in page.categories %}
+            {% include tag.html tag=category %}
+            {% endfor %}
+            <!-- Post tags -->
+            {% for tag in page.tags %}
+            <!-- Nested format -->
+            {% if tag.tooltip %}
+            {% include tag.html tag=tag.name tooltip=tag.tooltip %}
+            {% else %}
+            <!-- Plain format -->
+            {% include tag.html tag=tag %}
+            {% endif %}
             {% endfor %}
         </div>
 

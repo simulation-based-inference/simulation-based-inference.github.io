@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 from scholar.database import Paper
-from scholar.api import ARXIV_GROUP_MAP, get_bibtex
+from scholar.api import get_bibtex, ARXIV_CATEGORY_MAP
 
 POST_DIR = Path("_posts/")
 
@@ -24,6 +24,26 @@ def sanitize_filename(filename: str) -> str:
     return sanitized.lower()[:64]
 
 
+POST_TEMPLATE = """---
+layout: paper
+title: "{title}"
+author: "{publication_info_summary}"
+bibtex: "{bibtex}"
+hero_title: "Papers"
+categories:
+  - {category}
+tags:
+  - paper
+{arxiv_extra_tag}
+---
+>{snippet}
+
+Link to paper: [{link}]({link})
+
+{cited_by}
+"""
+
+
 def make_md_post(paper: Paper, overwrite: bool) -> None:
     """Make a post for the given paper."""
 
@@ -42,31 +62,24 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
         print(f"File already exists: {paper.title}")
         return
 
-    category = paper.category if paper.category else "Uncategorized"
-    cited_by = f"[cited by]({paper.citation_backlink})" if paper.citation_backlink else ""
-    arxiv_extra_tag = f"  - {paper.arxiv_category_tag}" if paper.arxiv_category_tag else ""
+    def _make_arxiv_extra_tag(paper: Paper) -> str:
+        if paper.arxiv_category_tag:
+            line1 = f"  - arxiv_category:"
+            line2 = f"    name: {paper.arxiv_category_tag}"
+            line3 = f"    tooltip: {ARXIV_CATEGORY_MAP[paper.arxiv_category_tag]}"
+            return "\n".join([line1, line2, line3])
+        return ""
 
     # Create file content
-    content = f"""---
-    layout: paper
-    title: "{paper.title}"
-    author: "{paper.publication_info_summary}"
-    bibtex: "{get_bibtex(paper.arxiv_id)}"
-    hero_title: "Papers"
-    categories:
-      - {category}
-    tags:
-      - paper
-    {arxiv_extra_tag}
-    ---
-    >{paper.snippet}
-
-    Link to paper: [{paper.link}]({paper.link})
-    
-    {cited_by}
-
-    """.replace(
-        "    ", ""
+    content = POST_TEMPLATE.format(
+        title=paper.title, 
+        publication_info_summary=paper.publication_info_summary,
+        bibtex=get_bibtex(paper.arxiv_id) if paper.arxiv_id else None,
+        category=paper.category if paper.category else "Uncategorized",
+        arxiv_extra_tag=_make_arxiv_extra_tag(paper),
+        snippet=paper.snippet,
+        link=f"Link to paper: [{paper.link}]({paper.link})",
+        cited_by=f"[cited by]({paper.citation_backlink})" if paper.citation_backlink else ""
     )
 
     # Write file
