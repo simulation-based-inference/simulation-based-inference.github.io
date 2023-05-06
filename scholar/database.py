@@ -21,13 +21,14 @@ class Paper(Model):
     published_on = DateField()
     title = CharField(unique=True)
     publication_info_summary = CharField()
+    journal = CharField(null=True)
     link = CharField()
     snippet = CharField()
     citation_backlink = CharField(null=True)
     # Arxiv fields
     arxiv_id = CharField(null=True)
-    arxiv_group_tag = CharField(null=True)
     arxiv_category_tag = CharField(null=True)
+    category = CharField(null=True)
     authors = CharField(null=True)
     doi = CharField(null=True)
 

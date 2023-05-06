@@ -13,8 +13,12 @@ from bs4 import BeautifulSoup
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
-ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
+
+# GROUP is arxiv top level category
 ARXIV_GROUP_MAP = json.load(open("scholar/arxiv_group.json"))
+
+# CATEGORY is arxiv sub category
+ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
 
 
 def timeout(func, duration=0.5):
@@ -23,7 +27,6 @@ def timeout(func, duration=0.5):
     def wrapper(*args, **kwargs):
         sleep(duration)
         return func(*args, **kwargs)
-
     return wrapper
 
 
@@ -54,13 +57,39 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
         return None
 
 
-def to_group(arxiv_category: Optional[str]) -> str:
+def to_category(arxiv_category: Optional[str]) -> str:
     """Convert arxiv category to group."""
+
     if arxiv_category is None:
         return None
     group_tag = arxiv_category.split(".")[0]
-    if group_tag in ARXIV_GROUP_MAP:
-        return group_tag
+    return ARXIV_GROUP_MAP.get(group_tag, None)
+
+def to_doi(biorxiv_link: str) -> str:
+    """Convert biorxiv link to doi."""
+
+    if biorxiv_link is None:
+        return None
+    doi = biorxiv_link.replace("https://www.biorxiv.org/content/", "")
+    doi = doi.replace("v1", "").replace("v2", "").replace("v3", "")
+    doi = doi.replace(".abstract", "").replace(".full", "").replace(".short", "")
+    return doi
+
+
+@timeout
+def query_biorxiv(doi:str) -> dict:
+    """Query biorxiv for a paper with the given doi."""
+
+    url = f"https://api.biorxiv.org/details/biorxiv/{doi}"
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()['collection'][0]
+        return {
+            "authors": data["authors"],
+            "doi": data["doi"],
+            "category": data["category"],
+        }
 
 
 @timeout
@@ -81,8 +110,8 @@ def query_arxiv(title: str, threshold: float = 0.8) -> arxiv.Result:
             "authors": ", ".join([str(author) for author in result.authors]),
             "doi": result.doi,
             "arxiv_category_tag": result.primary_category,
-            "arxiv_group_tag": to_group(result.primary_category),
             "arxiv_id": result.entry_id.split("/")[-1],
+            "category": to_category(result.primary_category),
         }
 
 
@@ -106,6 +135,8 @@ def format_serp_result(result: dict) -> dict:
         "title": result["title"],
         "days_since_added": days_since_added,
         "publication_info_summary": publication_info_summary,
+        "journal": publication_info_summary.split(" - ")[2],
+        "doi": to_doi(result["link"]),
         "link": result["link"],
         "snippet": snippet,
         "citation_backlink": citation_backlink,

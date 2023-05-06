@@ -8,10 +8,10 @@ categories:
   - Uncategorized
 tags:
   - paper
+
 ---
 >… Next, we propose a new parallelism-aware adaptation to simulation-based inference, designed to perform best in such a massively parallel regime. The proposed adapted …
 
-Link to paper: [https://ieeexplore.ieee.org/abstract/document/10021877/](https://ieeexplore.ieee.org/abstract/document/10021877/)
-
+Link to paper: [Link to paper: [https://ieeexplore.ieee.org/abstract/document/10021877/](https://ieeexplore.ieee.org/abstract/document/10021877/)](Link to paper: [https://ieeexplore.ieee.org/abstract/document/10021877/](https://ieeexplore.ieee.org/abstract/document/10021877/))
 
 
