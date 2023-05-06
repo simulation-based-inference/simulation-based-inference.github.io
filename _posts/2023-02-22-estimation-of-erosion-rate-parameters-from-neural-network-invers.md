@@ -12,7 +12,6 @@ tags:
 ---
 >… The model algorithm utilizes an efficient inverse modeling scheme "Simulation-Based Inference" to resolve unknown parameters such as uplift or erodibility of the different …
 
-Link to paper: [https://meetingorganizer.copernicus.org/EGU23/EGU23-4903.html](https://meetingorganizer.copernicus.org/EGU23/EGU23-4903.html)
-
+Link to paper: [Link to paper: [https://meetingorganizer.copernicus.org/EGU23/EGU23-4903.html](https://meetingorganizer.copernicus.org/EGU23/EGU23-4903.html)](Link to paper: [https://meetingorganizer.copernicus.org/EGU23/EGU23-4903.html](https://meetingorganizer.copernicus.org/EGU23/EGU23-4903.html))
 
 

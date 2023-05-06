@@ -12,7 +12,6 @@ tags:
 ---
 >… To do so, we use techniques from the field of simulation based inference (SBI). SBI provides a rigorous framework for estimating the probability distributions of parameter …
 
-Link to paper: [https://ui.adsabs.harvard.edu/abs/2022AGUFM.H35C..08B/abstract](https://ui.adsabs.harvard.edu/abs/2022AGUFM.H35C..08B/abstract)
-
+Link to paper: [Link to paper: [https://ui.adsabs.harvard.edu/abs/2022AGUFM.H35C..08B/abstract](https://ui.adsabs.harvard.edu/abs/2022AGUFM.H35C..08B/abstract)](Link to paper: [https://ui.adsabs.harvard.edu/abs/2022AGUFM.H35C..08B/abstract](https://ui.adsabs.harvard.edu/abs/2022AGUFM.H35C..08B/abstract))
 
 

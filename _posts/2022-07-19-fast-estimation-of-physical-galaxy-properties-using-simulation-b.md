@@ -12,7 +12,6 @@ tags:
 ---
 >… Astrophysical surveys present the challenge of scaling up accurate simulation based inference to billions of different examples. We develop a method to train fast, accurate …
 
-Link to paper: [https://ml4astro.github.io/icml2022/assets/12.pdf](https://ml4astro.github.io/icml2022/assets/12.pdf)
-
+Link to paper: [Link to paper: [https://ml4astro.github.io/icml2022/assets/12.pdf](https://ml4astro.github.io/icml2022/assets/12.pdf)](Link to paper: [https://ml4astro.github.io/icml2022/assets/12.pdf](https://ml4astro.github.io/icml2022/assets/12.pdf))
 
 

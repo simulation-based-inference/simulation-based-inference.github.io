@@ -12,7 +12,6 @@ tags:
 ---
 >… Recent advances in simulation-based inference (SBI) allow model comparison in high … facilitates the integration of our methods to simulation-based inference workflows. …
 
-Link to paper: [https://proceedings.mlr.press/v206/schmitt23a.html](https://proceedings.mlr.press/v206/schmitt23a.html)
+Link to paper: [Link to paper: [https://proceedings.mlr.press/v206/schmitt23a.html](https://proceedings.mlr.press/v206/schmitt23a.html)](Link to paper: [https://proceedings.mlr.press/v206/schmitt23a.html](https://proceedings.mlr.press/v206/schmitt23a.html))
 
 [cited by](https://scholar.google.com/scholar?cites=18047987674139003356&as_sdt=5,44&sciodt=0,44&hl=en&num=20)
-

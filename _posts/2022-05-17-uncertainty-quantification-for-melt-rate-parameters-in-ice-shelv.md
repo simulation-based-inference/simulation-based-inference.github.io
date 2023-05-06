@@ -12,7 +12,6 @@ tags:
 ---
 >… We use the technique of simulation-based inference (SBI), a machine learning framework for performing Bayesian inference when the likelihood function is intractable. …
 
-Link to paper: [https://ui.adsabs.harvard.edu/abs/2022EGUGA..24..896M/abstract](https://ui.adsabs.harvard.edu/abs/2022EGUGA..24..896M/abstract)
-
+Link to paper: [Link to paper: [https://ui.adsabs.harvard.edu/abs/2022EGUGA..24..896M/abstract](https://ui.adsabs.harvard.edu/abs/2022EGUGA..24..896M/abstract)](Link to paper: [https://ui.adsabs.harvard.edu/abs/2022EGUGA..24..896M/abstract](https://ui.adsabs.harvard.edu/abs/2022EGUGA..24..896M/abstract))
 
 
