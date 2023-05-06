@@ -88,7 +88,7 @@ def query_biorxiv(doi:str) -> dict:
         return {
             "authors": data["authors"],
             "doi": data["doi"],
-            "category": data["category"],
+            "category": data["category"].capitalize(),
         }
 
 
