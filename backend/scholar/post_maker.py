@@ -1,8 +1,9 @@
-import re
 import json
 from pathlib import Path
-from scholar.api import get_bibtex
-from scholar.database import Paper, get_papers
+from backend.database import Paper, get_papers
+from backend.utils import sanitize_filename
+from backend.scholar.api import get_bibtex, ARXIV_CATEGORY_MAP
+
 
 POST_DIR = Path("_posts/")
 
@@ -35,21 +36,6 @@ tags:
 
 {cited_by}
 """
-
-
-def sanitize_filename(filename: str) -> str:
-    """Sanitize a filename to make it safe for use on Windows and Linux."""
-
-    # Replace all symbols with spaces
-    sanitized = re.sub(r"[^a-zA-Z0-9\s]", " ", filename)
-    sanitized = sanitized.strip()
-    sanitized = sanitized.replace(" ", "-")
-    sanitized = sanitized.replace("--", "-")
-
-    if not sanitized:
-        sanitized = "default_filename"
-
-    return sanitized.lower()[:64]
 
 
 def make_md_post(paper: Paper, overwrite: bool) -> None:
