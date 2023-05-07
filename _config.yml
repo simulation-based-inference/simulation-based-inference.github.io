@@ -55,6 +55,13 @@ defaults:
       layout: post
       comments: true
       show_sidebar: false
+  - scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: job
+      comments: false
+      show_sidebar: false
 
 markdown: kramdown
 highlighter: rouge
@@ -62,15 +69,13 @@ highlighter: rouge
 footer_menu: example_footer_menu
 
 collections:
-  products: 
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
-    
+  - jobs
+
+
 include:
   - _pages
   - _papers
+  - _jobs
 
 exclude: 
   - Gemfile
@@ -85,8 +90,8 @@ exclude:
   - .devcontainer/
   - .github/
   - .vscode/
-  - sql/
-  - scholar/
+  - backend/
+  - database/
   - .dockerignore
   - .env
   - .gitignore
