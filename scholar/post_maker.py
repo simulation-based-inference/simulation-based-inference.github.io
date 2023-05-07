@@ -1,27 +1,12 @@
-import re
 from pathlib import Path
-from scholar.database import Paper
-from scholar.api import get_bibtex, ARXIV_CATEGORY_MAP
+from backend.database import Paper
+from backend.utils import sanitize_filename
+from backend.scholar.api import get_bibtex, ARXIV_CATEGORY_MAP
 
 POST_DIR = Path("_posts/")
 
 with open("scholar/blacklist.txt", "r") as f:
     BLACKLIST = f.read().splitlines()
-
-
-def sanitize_filename(filename: str) -> str:
-    """Sanitize a filename to make it safe for use on Windows and Linux."""
-
-    # Replace all symbols with spaces
-    sanitized = re.sub(r"[^a-zA-Z0-9\s]", " ", filename)
-    sanitized = sanitized.strip()
-    sanitized = sanitized.replace(" ", "-")
-    sanitized = sanitized.replace("--", "-")
-
-    if not sanitized:
-        sanitized = "default_filename"
-
-    return sanitized.lower()[:64]
 
 
 POST_TEMPLATE = """---
