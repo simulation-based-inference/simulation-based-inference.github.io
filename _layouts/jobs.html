@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% assign all_locations = "" | split: "," %}
+
+{% for job in site.jobs %}
+{% unless all_locations contains job.location %}
+{% assign all_locations = all_locations | push: job.location %}
+{% endunless %}
+{% endfor %}
+
+<div class="columns is-multiline">
+    <!-- Location menu -->
+    <div class="column is-3">
+        <div class="box">
+            <ul>
+                {% for location in all_locations %}
+                <li>
+                    <a href="#{{ location | slugify }}">
+                        <strong>{{ location }}</strong>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <!-- Details -->
+    <div class="column is-9">
+        {% for location in all_locations %}
+        <div class="box">
+            <section id="{{ location | slugify | downcase }}" class="taxonomy__section">
+                <h2 class="title is-4">{{ location }}</h2>
+                {% assign jobs = site.jobs | where: "location", location %}
+                {% assign sorted_jobs = jobs | sort: "created_at" %}
+                <div class="entries-{{ entries_layout }}">
+                    {% for job in sorted_jobs %}
+                    <div class="message is-primary">
+                        <div class="message-header">
+                            <p>{{ job.title }}</p>
+                        </div>
+                        <div class="message-body has-text-dark">
+                            <p><strong>Posted on:</strong> {{ job.created_at }}</p>
+                            <p><strong>Employer:</strong> {{ job.employer }}</p>
+                            <p><strong>Location:</strong> {{ job.location }}</p>
+                            <p><strong>Link:</strong><a href="{{ job.link }}"> {{ job.link }}</a></p>
+                            <br>
+                            <p>{{ job.content }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+        {% endfor %}
+    </div>
