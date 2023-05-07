@@ -6,7 +6,7 @@ from scholar.database import Paper, get_papers
 
 POST_DIR = Path("_posts/")
 
-with open("scholar/blacklist.txt", "r") as f:
+with open("backend/scholar/blacklist.txt", "r") as f:
     BLACKLIST = f.read().splitlines()
 
 with open("scholar/whitelist_journals.txt", "r") as f:
