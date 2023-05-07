@@ -120,6 +120,10 @@ def format_serp_result(result: dict) -> dict:
     published_on = datetime.datetime.now() - datetime.timedelta(days=days_since_added)
     publication_info_summary = result["publication_info"]["summary"]
 
+    # Determine whether the result is from journal or not
+    summary_split = publication_info_summary.split(" - ")
+    journal = summary_split[2] if len(summary_split) == 3 else None
+
     try:
         citation_backlink = result["inline_links"]["cited_by"]["link"]
     except KeyError:
@@ -131,7 +135,7 @@ def format_serp_result(result: dict) -> dict:
         "title": result["title"],
         "days_since_added": days_since_added,
         "publication_info_summary": publication_info_summary,
-        "journal": publication_info_summary.split(" - ")[2],
+        "journal": journal,
         "doi": to_doi(result["link"]),
         "link": result["link"],
         "snippet": snippet,
