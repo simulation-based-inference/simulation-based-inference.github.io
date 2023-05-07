@@ -139,8 +139,7 @@ def format_serp_result(result: dict) -> dict:
         matches = re.findall("\d{4}", summary_split[1])
         year_of_publication = int(matches[-1])
     except IndexError:
-        # TODO: Probably bad to use default 2000 for non-dated results, improve later.
-        year_of_publication = 2000
+        year_of_publication = 0
 
     if " days ago - " in result["snippet"]:
         _tmp = result["snippet"].split(" days ago - ")
@@ -152,8 +151,6 @@ def format_serp_result(result: dict) -> dict:
     else:
         snippet = result["snippet"]
         published_on = datetime.datetime(year_of_publication, 1, 1)
-        delta = datetime.datetime.now() - published_on
-        days_since_added = delta.days
 
     try:
         citation_backlink = result["inline_links"]["cited_by"]["link"]
@@ -203,7 +200,7 @@ def query_serp(
             "engine": "google_scholar",
             "q": term,
             "hl": "en",
-            "num": 20,  # Maxed out at 20
+            "num": 20,  # Maxed-out at 20
             "scisbd": scisbd,
             "as_vis": 1,
             "as_rr": 1,
