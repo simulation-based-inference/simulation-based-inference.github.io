@@ -56,7 +56,6 @@ def insert_result(result: dict) -> None:
     Paper.insert(**result).on_conflict(
         conflict_target=[Paper.title],
         preserve=[
-            Paper.arxiv_group_tag,
             Paper.arxiv_category_tag,
             Paper.published_on,
         ],
@@ -71,11 +70,9 @@ def patch_arxiv(id: int, arxiv_category_tag: str) -> None:
 
     Args:
         id (int): The ID of the paper.
-        arxiv_group_tag (str): The arxiv group tag.
         arxiv_category_tag (str): The arxiv category tag.
     """
     paper = Paper.get(Paper.id == id)
     print(paper.title)
     paper.arxiv_category_tag = arxiv_category_tag
-    paper.arxiv_group_tag = arxiv_category_tag.split(".")[0]
     paper.save()
