@@ -27,7 +27,7 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
             
             # Append extra arxiv data
             if result['journal'] == 'arxiv.org':
-                arxiv_data = query_arxiv(result["title"])
+                arxiv_data = query_arxiv(result["arxiv_id"])
                 if arxiv_data is not None:
                     result.update(arxiv_data)
 
