@@ -54,7 +54,7 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
 
 
 if __name__ == "__main__":
-    crawl(SEARCH_TERM, stop_days=14)
+    crawl(SEARCH_TERM, stop_days=90)
 
     # The single source of truth is in the database, so we delete all to avoid publish date offset by one bug due to timezone.
     for post in POST_DIR.glob("*.md"):
