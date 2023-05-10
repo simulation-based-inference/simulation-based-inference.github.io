@@ -4,11 +4,13 @@ import json
 import requests
 import arxiv
 import datetime
+import logging
 from time import sleep
 from typing import Optional
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 
+logging.basicConfig(level=logging.DEBUG)
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
@@ -50,8 +52,21 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
     url = f"https://arxiv.org/bibtex/{arxiv_id}"
     response = requests.get(url)
 
+    formatting = {
+        "<": "&lt;",
+        ">": "&gt;",
+        "\n": "<br>",
+    }
+
     if response.status_code == 200:
-        return response.text
+        logging.debug(f"Fetched BibTeX for arXiv ID {arxiv_id}")
+        logging.debug(f"{response.text=}")
+
+        bibtex = response.text
+        for old, new in formatting.items():
+            bibtex = bibtex.replace(old, new)
+
+        return bibtex
     else:
         print(f"Failed to fetch BibTeX for arXiv ID {arxiv_id}")
         return None
