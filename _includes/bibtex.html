@@ -1,6 +1,9 @@
-<div class="panel is-info">
-    <p class="panel-heading">BibTeX</p>
-    <div class="panel-block">
-        {{ page.bibtex | replace: "<", "&lt;" | replace: ">" , "&gt;" | replace: " " , "&nbsp;" | replace: ","
-            , ",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" }} </div>
+{% assign bibtex = page.bibtex | replace: "<", "&lt;" | replace: ">" , "&gt;" | replace: " " , "&nbsp;" | replace: ","
+    , "<br>" | replace: "\n" , "<br>" %} <article class="message">
+    <div class="message-header">
+        <p>BibTeX</p>
     </div>
+    <div class="message-body bibtex">
+        <pre>{{ bibtex }}</pre>
+    </div>
+    </article>
