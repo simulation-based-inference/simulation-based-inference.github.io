@@ -23,4 +23,4 @@ tags:
 
 Link to paper: [https://arxiv.org/abs/2301.11832](https://arxiv.org/abs/2301.11832)
 
-[cited by](https://scholar.google.com/scholar?cites=6154015340046386391&as_sdt=5,38&sciodt=0,38&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=6154015340046386391&as_sdt=2005&sciodt=0,5&hl=en&num=20)
