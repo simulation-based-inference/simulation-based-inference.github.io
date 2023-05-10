@@ -3,7 +3,7 @@ layout: paper
 title: "Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation"
 author: "A Delaunoy, J Hermans, F Rozet, A Wehenkel… - arXiv preprint arXiv …, 2022 - arxiv.org"
 bibtex: "@misc{delaunoy2022reliable,
-      title={Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation},
+      title={Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation}, 
       author={Arnaud Delaunoy and Joeri Hermans and François Rozet and Antoine Wehenkel and Gilles Louppe},
       year={2022},
       eprint={2208.13624},

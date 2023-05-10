@@ -3,7 +3,7 @@ layout: paper
 title: "Validation Diagnostics for SBI algorithms based on Normalizing Flows"
 author: "J Linhart, A Gramfort, PLC Rodrigues - arXiv preprint arXiv:2211.09602, 2022 - arxiv.org"
 bibtex: "@misc{linhart2022validation,
-      title={Validation Diagnostics for SBI algorithms based on Normalizing Flows},
+      title={Validation Diagnostics for SBI algorithms based on Normalizing Flows}, 
       author={Julia Linhart and Alexandre Gramfort and Pedro L. C. Rodrigues},
       year={2022},
       eprint={2211.09602},

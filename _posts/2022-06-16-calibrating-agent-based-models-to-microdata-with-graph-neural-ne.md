@@ -3,7 +3,7 @@ layout: paper
 title: "Calibrating agent-based models to microdata with graph neural networks"
 author: "J Dyer, P Cannon, JD Farmer, SM Schmon - arXiv preprint arXiv …, 2022 - arxiv.org"
 bibtex: "@misc{dyer2022calibrating,
-      title={Calibrating Agent-based Models to Microdata with Graph Neural Networks},
+      title={Calibrating Agent-based Models to Microdata with Graph Neural Networks}, 
       author={Joel Dyer and Patrick Cannon and J. Doyne Farmer and Sebastian M. Schmon},
       year={2022},
       eprint={2206.07570},

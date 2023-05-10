@@ -3,7 +3,7 @@ layout: paper
 title: "Uncovering dark matter density profiles in dwarf galaxies with graph neural networks"
 author: "T Nguyen, S Mishra-Sharma, R Williams, L Necib - Physical Review D, 2023 - APS"
 bibtex: "@misc{nguyen2022uncovering,
-      title={Uncovering dark matter density profiles in dwarf galaxies with graph neural networks},
+      title={Uncovering dark matter density profiles in dwarf galaxies with graph neural networks}, 
       author={Tri Nguyen and Siddharth Mishra-Sharma and Reuel Williams and Lina Necib},
       year={2022},
       eprint={2208.12825},

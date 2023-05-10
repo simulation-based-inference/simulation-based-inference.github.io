@@ -3,7 +3,7 @@ layout: paper
 title: "Simulation-Based Inference with WALDO: Perfectly Calibrated Confidence Regions Using Any Prediction or Posterior Estimation Algorithm"
 author: "L Masserano, T Dorigo, R Izbicki, M Kuusela… - arXiv preprint arXiv …, 2022 - arxiv.org"
 bibtex: "@misc{masserano2023simulationbased,
-      title={Simulation-Based Inference with Waldo: Confidence Regions by Leveraging Prediction Algorithms or Posterior Estimators for Inverse Problems},
+      title={Simulation-Based Inference with Waldo: Confidence Regions by Leveraging Prediction Algorithms or Posterior Estimators for Inverse Problems}, 
       author={Luca Masserano and Tommaso Dorigo and Rafael Izbicki and Mikael Kuusela and Ann B. Lee},
       year={2023},
       eprint={2205.15680},
