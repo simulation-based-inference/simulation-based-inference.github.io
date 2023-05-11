@@ -2,6 +2,7 @@
 layout: paper
 title: "Methods and considerations for estimating parameters in biophysically detailed neural models with simulation based inference"
 author: "N Tolley, PLC Rodrigues, A Gramfort, SR Jones - bioRxiv, 2023 - biorxiv.org"
+image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

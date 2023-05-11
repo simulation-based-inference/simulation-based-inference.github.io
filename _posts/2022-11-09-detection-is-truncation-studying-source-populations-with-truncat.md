@@ -2,14 +2,8 @@
 layout: paper
 title: "Detection is truncation: studying source populations with truncated marginal neural ratio estimation"
 author: "N Anau Montel, C Weniger - arXiv e-prints, 2022 - ui.adsabs.harvard.edu"
-bibtex: "@misc{montel2022detection,
-      title={Detection is truncation: studying source populations with truncated marginal neural ratio estimation}, 
-      author={Noemi Anau Montel and Christoph Weniger},
-      year={2022},
-      eprint={2211.04291},
-      archivePrefix={arXiv},
-      primaryClass={astro-ph.IM}
-}"
+image: "/assets/img/SBI-icon-192x192.png"
+bibtex: "@misc{montel2022detection,<br>      title={Detection is truncation: studying source populations with truncated marginal neural ratio estimation}, <br>      author={Noemi Anau Montel and Christoph Weniger},<br>      year={2022},<br>      eprint={2211.04291},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.IM}<br>}"
 hero_title: "Papers"
 categories:
   - Uncategorized

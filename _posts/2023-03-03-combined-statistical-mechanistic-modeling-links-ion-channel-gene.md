@@ -2,6 +2,7 @@
 layout: paper
 title: "Combined statistical-mechanistic modeling links ion channel genes to physiology of cortical neuron types"
 author: "Y Bernaerts, M Deistler, PJ Goncalves, J Beck… - bioRxiv, 2023 - biorxiv.org"
+image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

@@ -2,14 +2,8 @@
 layout: paper
 title: "Truncated proposals for scalable and hassle-free simulation-based inference"
 author: "M Deistler, PJ Goncalves, JH Macke - arXiv preprint arXiv:2210.04815, 2022 - arxiv.org"
-bibtex: "@misc{deistler2022truncated,
-      title={Truncated proposals for scalable and hassle-free simulation-based inference}, 
-      author={Michael Deistler and Pedro J Goncalves and Jakob H Macke},
-      year={2022},
-      eprint={2210.04815},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
-}"
+image: "/assets/img/SBI-icon-192x192.png"
+bibtex: "@misc{deistler2022truncated,<br>      title={Truncated proposals for scalable and hassle-free simulation-based inference}, <br>      author={Michael Deistler and Pedro J Goncalves and Jakob H Macke},<br>      year={2022},<br>      eprint={2210.04815},<br>      archivePrefix={arXiv},<br>      primaryClass={stat.ML}<br>}"
 hero_title: "Papers"
 categories:
   - Statistics
