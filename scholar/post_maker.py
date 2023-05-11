@@ -28,7 +28,6 @@ POST_TEMPLATE = """---
 layout: paper
 title: "{title}"
 author: "{publication_info_summary}"
-image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "{bibtex}"
 hero_title: "Papers"
 categories:

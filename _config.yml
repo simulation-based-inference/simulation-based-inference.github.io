@@ -55,6 +55,7 @@ defaults:
       layout: post
       comments: true
       show_sidebar: false
+      image: "/assets/img/SBI-icon-192x192.png"
 
 markdown: kramdown
 highlighter: rouge
@@ -62,17 +63,17 @@ highlighter: rouge
 footer_menu: example_footer_menu
 
 collections:
-  products: 
+  products:
     output: true
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
-    
+
 include:
   - _pages
   - _papers
 
-exclude: 
+exclude:
   - Gemfile
   - clean-theme.gemspec
   - Gemfile.lock
@@ -99,3 +100,6 @@ exclude:
 
 feed:
   disable: true
+
+twitter:
+  card: summary
