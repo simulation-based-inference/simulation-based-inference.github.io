@@ -2,7 +2,6 @@
 layout: paper
 title: "PhyloCoalSimulations: A simulator for network multispecies coalescent models, including a new extension for the inheritance of gene flow"
 author: "J Fogg, ES Allman, C Ané - bioRxiv, 2023 - biorxiv.org"
-image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

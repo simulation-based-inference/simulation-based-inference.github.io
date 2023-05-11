@@ -2,8 +2,14 @@
 layout: paper
 title: "Efficient identification of informative features in simulation-based inference"
 author: "J Beck, M Deistler, Y Bernaerts… - Advances in Neural …, 2022 - proceedings.neurips.cc"
-image: "/assets/img/SBI-icon-192x192.png"
-bibtex: "@misc{beck2022efficient,<br>      title={Efficient identification of informative features in simulation-based inference}, <br>      author={Jonas Beck and Michael Deistler and Yves Bernaerts and Jakob Macke and Philipp Berens},<br>      year={2022},<br>      eprint={2210.11915},<br>      archivePrefix={arXiv},<br>      primaryClass={cs.LG}<br>}"
+bibtex: "@misc{beck2022efficient,
+      title={Efficient identification of informative features in simulation-based inference}, 
+      author={Jonas Beck and Michael Deistler and Yves Bernaerts and Jakob Macke and Philipp Berens},
+      year={2022},
+      eprint={2210.11915},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}"
 hero_title: "Papers"
 categories:
   - Uncategorized

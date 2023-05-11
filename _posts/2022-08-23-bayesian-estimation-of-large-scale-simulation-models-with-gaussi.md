@@ -2,7 +2,6 @@
 layout: paper
 title: "Bayesian Estimation of Large-Scale Simulation Models with Gaussian Process Regression Surrogates"
 author: "S Barde - 2022 - kent.ac.uk"
-image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

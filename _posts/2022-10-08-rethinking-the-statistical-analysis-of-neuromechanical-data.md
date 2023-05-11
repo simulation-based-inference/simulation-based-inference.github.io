@@ -2,7 +2,6 @@
 layout: paper
 title: "Rethinking the Statistical Analysis of Neuromechanical Data"
 author: "RD Wilkinson, MR Mazzo… - Exercise and sport …, 2023 - journals.lww.com"
-image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

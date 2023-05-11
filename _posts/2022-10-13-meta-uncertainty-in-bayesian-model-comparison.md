@@ -2,7 +2,6 @@
 layout: paper
 title: "Meta-Uncertainty in Bayesian Model Comparison"
 author: "M Schmitt, ST Radev… - … Conference on Artificial …, 2023 - proceedings.mlr.press"
-image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

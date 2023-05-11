@@ -2,8 +2,14 @@
 layout: paper
 title: "Amortized bayesian inference for supernovae in the era of the vera rubin observatory using normalizing flows"
 author: "VA Villar - arXiv preprint arXiv:2211.04480, 2022 - arxiv.org"
-image: "/assets/img/SBI-icon-192x192.png"
-bibtex: "@misc{villar2022amortized,<br>      title={Amortized Bayesian Inference for Supernovae in the Era of the Vera Rubin Observatory Using Normalizing Flows}, <br>      author={V. Ashley Villar},<br>      year={2022},<br>      eprint={2211.04480},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.HE}<br>}"
+bibtex: "@misc{villar2022amortized,
+      title={Amortized Bayesian Inference for Supernovae in the Era of the Vera Rubin Observatory Using Normalizing Flows}, 
+      author={V. Ashley Villar},
+      year={2022},
+      eprint={2211.04480},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.HE}
+}"
 hero_title: "Papers"
 categories:
   - Physics
