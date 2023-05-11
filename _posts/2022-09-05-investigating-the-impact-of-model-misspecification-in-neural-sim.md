@@ -2,8 +2,14 @@
 layout: paper
 title: "Investigating the impact of model misspecification in neural simulation-based inference"
 author: "P Cannon, D Ward, SM Schmon - arXiv preprint arXiv:2209.01845, 2022 - arxiv.org"
-image: "/assets/img/SBI-icon-192x192.png"
-bibtex: "@misc{cannon2022investigating,<br>      title={Investigating the Impact of Model Misspecification in Neural Simulation-based Inference}, <br>      author={Patrick Cannon and Daniel Ward and Sebastian M. Schmon},<br>      year={2022},<br>      eprint={2209.01845},<br>      archivePrefix={arXiv},<br>      primaryClass={stat.ML}<br>}"
+bibtex: "@misc{cannon2022investigating,
+      title={Investigating the Impact of Model Misspecification in Neural Simulation-based Inference}, 
+      author={Patrick Cannon and Daniel Ward and Sebastian M. Schmon},
+      year={2022},
+      eprint={2209.01845},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}"
 hero_title: "Papers"
 categories:
   - Statistics

@@ -2,7 +2,6 @@
 layout: paper
 title: "SimBIG: mock challenge for a forward modeling approach to galaxy clustering"
 author: "CH Hahn, M Eickenberg, S Ho, J Hou… - … of Cosmology and …, 2023 - iopscience.iop.org"
-image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

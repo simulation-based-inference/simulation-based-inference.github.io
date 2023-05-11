@@ -2,8 +2,14 @@
 layout: paper
 title: "A Crisis In Simulation-Based Inference? Beware, Your Posterior Approximations Can Be Unfaithful"
 author: "J Hermans, A Delaunoy, F Rozet, A Wehenkel… - … on Machine Learning … - openreview.net"
-image: "/assets/img/SBI-icon-192x192.png"
-bibtex: "@misc{hermans2022trust,<br>      title={A Trust Crisis In Simulation-Based Inference? Your Posterior Approximations Can Be Unfaithful}, <br>      author={Joeri Hermans and Arnaud Delaunoy and François Rozet and Antoine Wehenkel and Volodimir Begy and Gilles Louppe},<br>      year={2022},<br>      eprint={2110.06581},<br>      archivePrefix={arXiv},<br>      primaryClass={stat.ML}<br>}"
+bibtex: "@misc{hermans2022trust,
+      title={A Trust Crisis In Simulation-Based Inference? Your Posterior Approximations Can Be Unfaithful}, 
+      author={Joeri Hermans and Arnaud Delaunoy and François Rozet and Antoine Wehenkel and Volodimir Begy and Gilles Louppe},
+      year={2022},
+      eprint={2110.06581},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}"
 hero_title: "Papers"
 categories:
   - Uncategorized

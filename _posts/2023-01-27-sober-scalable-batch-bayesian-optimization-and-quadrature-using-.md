@@ -2,8 +2,14 @@
 layout: paper
 title: "SOBER: Scalable Batch Bayesian Optimization and Quadrature using Recombination Constraints"
 author: "M Adachi, S Hayakawa, S Hamid, M Jørgensen… - arXiv preprint arXiv …, 2023 - arxiv.org"
-image: "/assets/img/SBI-icon-192x192.png"
-bibtex: "@misc{adachi2023sober,<br>      title={SOBER: Scalable Batch Bayesian Optimization and Quadrature using Recombination Constraints}, <br>      author={Masaki Adachi and Satoshi Hayakawa and Saad Hamid and Martin Jørgensen and Harald Oberhauser and Micheal A. Osborne},<br>      year={2023},<br>      eprint={2301.11832},<br>      archivePrefix={arXiv},<br>      primaryClass={cs.LG}<br>}"
+bibtex: "@misc{adachi2023sober,
+      title={SOBER: Scalable Batch Bayesian Optimization and Quadrature using Recombination Constraints}, 
+      author={Masaki Adachi and Satoshi Hayakawa and Saad Hamid and Martin Jørgensen and Harald Oberhauser and Micheal A. Osborne},
+      year={2023},
+      eprint={2301.11832},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}"
 hero_title: "Papers"
 categories:
   - Computer Science

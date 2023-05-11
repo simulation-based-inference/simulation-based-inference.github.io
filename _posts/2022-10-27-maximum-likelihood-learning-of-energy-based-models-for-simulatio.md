@@ -2,8 +2,14 @@
 layout: paper
 title: "Maximum Likelihood Learning of Energy-Based Models for Simulation-Based Inference"
 author: "P Glaser, M Arbel, A Doucet, A Gretton - arXiv preprint arXiv:2210.14756, 2022 - arxiv.org"
-image: "/assets/img/SBI-icon-192x192.png"
-bibtex: "@misc{glaser2023maximum,<br>      title={Maximum Likelihood Learning of Unnormalized Models for Simulation-Based Inference}, <br>      author={Pierre Glaser and Michael Arbel and Samo Hromadka and Arnaud Doucet and Arthur Gretton},<br>      year={2023},<br>      eprint={2210.14756},<br>      archivePrefix={arXiv},<br>      primaryClass={cs.LG}<br>}"
+bibtex: "@misc{glaser2023maximum,
+      title={Maximum Likelihood Learning of Unnormalized Models for Simulation-Based Inference}, 
+      author={Pierre Glaser and Michael Arbel and Samo Hromadka and Arnaud Doucet and Arthur Gretton},
+      year={2023},
+      eprint={2210.14756},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}"
 hero_title: "Papers"
 categories:
   - Computer Science
