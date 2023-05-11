@@ -3,3 +3,9 @@
 
 // Import Main CSS file from theme
 @import "main";
+
+
+// Custom CSS
+.bibtex > pre {
+    margin-bottom: 0.5rem;
+}
