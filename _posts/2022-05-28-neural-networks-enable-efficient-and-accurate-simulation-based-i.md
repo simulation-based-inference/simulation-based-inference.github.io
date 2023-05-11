@@ -2,6 +2,7 @@
 layout: paper
 title: "Neural networks enable efficient and accurate simulation-based inference of evolutionary parameters from adaptation dynamics"
 author: "G Avecilla, JN Chuong, F Li, G Sherlock… - PLoS …, 2022 - journals.plos.org"
+image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

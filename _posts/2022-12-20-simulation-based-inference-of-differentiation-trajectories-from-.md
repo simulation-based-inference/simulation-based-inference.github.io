@@ -2,6 +2,7 @@
 layout: paper
 title: "Simulation-based inference of differentiation trajectories from RNA velocity fields"
 author: "R Gupta, D Cerletti, G Gut, A Oxenius, M Claassen - Cell Reports Methods, 2022 - Elsevier"
+image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

@@ -2,14 +2,8 @@
 layout: paper
 title: "Sampling-Based Accuracy Testing of Posterior Estimators for General Inference"
 author: "P Lemos, A Coogan, Y Hezaveh… - arXiv preprint arXiv …, 2023 - arxiv.org"
-bibtex: "@misc{lemos2023samplingbased,
-      title={Sampling-Based Accuracy Testing of Posterior Estimators for General Inference}, 
-      author={Pablo Lemos and Adam Coogan and Yashar Hezaveh and Laurence Perreault-Levasseur},
-      year={2023},
-      eprint={2302.03026},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
-}"
+image: "/assets/img/SBI-icon-192x192.png"
+bibtex: "@misc{lemos2023samplingbased,<br>      title={Sampling-Based Accuracy Testing of Posterior Estimators for General Inference}, <br>      author={Pablo Lemos and Adam Coogan and Yashar Hezaveh and Laurence Perreault-Levasseur},<br>      year={2023},<br>      eprint={2302.03026},<br>      archivePrefix={arXiv},<br>      primaryClass={stat.ML}<br>}"
 hero_title: "Papers"
 categories:
   - Statistics

@@ -2,6 +2,7 @@
 layout: paper
 title: "swyft: Truncated Marginal Neural Ratio Estimation in Python"
 author: "BK Miller, A Cole, C Weniger, F Nattino, O Ku… - Journal of Open …, 2022 - joss.theoj.org"
+image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

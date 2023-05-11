@@ -2,14 +2,8 @@
 layout: paper
 title: "JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models"
 author: "ST Radev, M Schmitt, V Pratz, U Picchini… - arXiv preprint arXiv …, 2023 - arxiv.org"
-bibtex: "@misc{radev2023jana,
-      title={JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models}, 
-      author={Stefan T. Radev and Marvin Schmitt and Valentin Pratz and Umberto Picchini and Ullrich Köthe and Paul-Christian Bürkner},
-      year={2023},
-      eprint={2302.09125},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}"
+image: "/assets/img/SBI-icon-192x192.png"
+bibtex: "@misc{radev2023jana,<br>      title={JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models}, <br>      author={Stefan T. Radev and Marvin Schmitt and Valentin Pratz and Umberto Picchini and Ullrich Köthe and Paul-Christian Bürkner},<br>      year={2023},<br>      eprint={2302.09125},<br>      archivePrefix={arXiv},<br>      primaryClass={cs.LG}<br>}"
 hero_title: "Papers"
 categories:
   - Computer Science
