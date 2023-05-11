@@ -2,6 +2,7 @@
 layout: paper
 title: "Designing a large, online simulation-based introductory statistics course"
 author: "EM Burnham, EE Blankenship… - Journal of Statistics and …, 2023 - Taylor & Francis"
+image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:

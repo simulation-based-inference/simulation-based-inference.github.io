@@ -2,6 +2,7 @@
 layout: paper
 title: "Approximate Bayesian Computation for Panel Data with Signature Maximum Mean Discrepancies"
 author: "J Dyer, J Fitzgerald, B Rieck, SM Schmon - NeurIPS 2022 Temporal Graph … - openreview.net"
+image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
 categories:
