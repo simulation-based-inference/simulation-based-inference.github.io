@@ -14,3 +14,5 @@ tags:
 >… properties in larger volumes than are currently feasible with numerical hydrodynamic simulations, and these models can be interfaced with simulation based inference to …
 
 Link to paper: [https://ui.adsabs.harvard.edu/abs/2023AAS...24140603G/abstract](https://ui.adsabs.harvard.edu/abs/2023AAS...24140603G/abstract)
+
+

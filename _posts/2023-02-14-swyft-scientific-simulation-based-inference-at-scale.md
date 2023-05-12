@@ -14,3 +14,5 @@ tags:
 >swyft implements Truncated Marginal Neural Radio Estimation (TMNRE), a Bayesian parameter inference technique for complex simulation data. The code improves …
 
 Link to paper: [https://ui.adsabs.harvard.edu/abs/2023ascl.soft02016M/abstract](https://ui.adsabs.harvard.edu/abs/2023ascl.soft02016M/abstract)
+
+

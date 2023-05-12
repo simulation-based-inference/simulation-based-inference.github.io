@@ -16,3 +16,5 @@ tags:
 >… With simulation-based inference (SBI), it is possible to attain complex posterior distributions with the accuracy of traditional methods but with a > 104 increase in speed. …
 
 Link to paper: [https://arxiv.org/abs/2304.05281](https://arxiv.org/abs/2304.05281)
+
+

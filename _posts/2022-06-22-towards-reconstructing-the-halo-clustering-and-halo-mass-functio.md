@@ -16,3 +16,5 @@ tags:
 >… To accomplish this we use marginal neural ratio estimation, an algorithm for simulation-based inference that allows marginal posteriors to be estimated by approximating …
 
 Link to paper: [https://arxiv.org/abs/2206.11312](https://arxiv.org/abs/2206.11312)
+
+

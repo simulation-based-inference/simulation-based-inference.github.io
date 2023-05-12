@@ -16,3 +16,5 @@ tags:
 >… the idealising assumptions about the form of the likelihood and the complexity of the data inherent to the standard approach, we investigate simulation-based inference (…
 
 Link to paper: [https://arxiv.org/abs/2212.04521](https://arxiv.org/abs/2212.04521)
+
+

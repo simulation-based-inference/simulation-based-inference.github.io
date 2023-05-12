@@ -16,3 +16,5 @@ tags:
 >… We present a new, simulation-based inference method to compute the angular power spectrum of the distribution of foreground gravitational-wave transient events. As a …
 
 Link to paper: [https://arxiv.org/abs/2305.02652](https://arxiv.org/abs/2305.02652)
+
+

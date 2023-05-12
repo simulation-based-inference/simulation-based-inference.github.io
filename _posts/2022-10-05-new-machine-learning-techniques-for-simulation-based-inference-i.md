@@ -16,3 +16,5 @@ tags:
 >We propose an intuitive, machine-learning approach to multiparameter inference, dubbed the InferoStatic Networks (ISN) method, to model the score and likelihood ratio …
 
 Link to paper: [https://arxiv.org/abs/2210.01680](https://arxiv.org/abs/2210.01680)
+
+

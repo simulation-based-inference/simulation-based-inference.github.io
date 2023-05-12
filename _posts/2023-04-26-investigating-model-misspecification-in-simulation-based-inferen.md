@@ -14,3 +14,5 @@ tags:
 >… A modern approach for bypassing such difficulties is to use simulation-based inference (SBI), … In simulation-based inference, we sample parameters θi ∼ p(θ) from a prior …
 
 Link to paper: [https://plcrodrigues.github.io/phd-inria-grenoble.pdf](https://plcrodrigues.github.io/phd-inria-grenoble.pdf)
+
+

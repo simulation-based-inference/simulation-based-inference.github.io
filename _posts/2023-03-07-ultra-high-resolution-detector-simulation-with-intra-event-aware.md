@@ -16,3 +16,5 @@ tags:
 >… Applications of this work include controllable simulation-based inference and event generation, high-granularity detector simulation such as at the HL-LHC (High …
 
 Link to paper: [https://arxiv.org/abs/2303.08046](https://arxiv.org/abs/2303.08046)
+
+
