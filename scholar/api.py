@@ -22,6 +22,14 @@ ARXIV_GROUP_MAP = json.load(open("scholar/arxiv_group.json"))
 ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
 
 
+def sanitize_title(title: str) -> str:
+    """Sanitize a title to make it safe for use in Jekyll."""
+
+    title = title.replace('"', "'")
+    title = title.replace("\\", "")
+    return title
+
+
 def timeout(func, duration=0.5):
     """Delay the execution of a function."""
 
@@ -167,7 +175,7 @@ def format_serp_result(result: dict) -> dict:
     return {
         "result_id": result["result_id"],
         "published_on": published_on,
-        "title": result["title"],
+        "title": sanitize_title(result["title"]),
         "days_since_added": days_since_added,
         "publication_info_summary": publication_info_summary,
         "journal": journal,
