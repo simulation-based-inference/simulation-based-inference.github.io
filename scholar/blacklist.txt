@@ -1,2 +1,4 @@
 Test
 ${\rm S {\scriptsize IM} BIG} $: Mock Challenge for a Forward Modeling Approach to Galaxy Clustering
+Université Paris-Saclay, Inria, CEA Palaiseau, 91120, France louis. rouillard-odera@ inria. fr
+Truncated Marginal Neural Ratio Estimation

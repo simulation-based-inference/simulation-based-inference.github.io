@@ -1,2 +1,5 @@
 -- SQLite
-SELECT id, arxiv_id, arxiv_category_tag, category FROM paper WHERE journal='arxiv.org';
+SELECT id, title, publication_info_summary, published_on, journal
+FROM paper 
+ORDER BY published_on ASC
+;

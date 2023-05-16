@@ -138,7 +138,7 @@ def format_serp_result(result: dict) -> dict:
     logging.debug(f"{publication_info_summary=}")
 
     try:
-        year_of_publication = int(re.search("\d{4}", publication_info_summary).group(0))
+        year_of_publication = int(re.search("\d{4}", summary_split[1]).group(0))
     except (TypeError, AttributeError):
         # TODO: Probably bad to use default 2000 here, improve later.
         year_of_publication = 2000
@@ -161,6 +161,9 @@ def format_serp_result(result: dict) -> dict:
     except KeyError:
         citation_backlink = None
 
+    if journal == "arxiv.org":
+        arxiv_id = result["link"].split("/")[-1]
+
     return {
         "result_id": result["result_id"],
         "published_on": published_on,
@@ -172,7 +175,7 @@ def format_serp_result(result: dict) -> dict:
         "link": result["link"],
         "snippet": snippet,
         "citation_backlink": citation_backlink,
-        "arxiv_id": result["link"].split("/")[-1],
+        "arxiv_id": arxiv_id,
     }
 
 
