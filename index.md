@@ -12,7 +12,13 @@ Simulation-based inference is the next step in the methodological evolution of s
 
 SBI has also proven to be an effective lingua franca that facilitates communication between domain scientists and methodological experts, supports convergence research, and accelerates cross-pollination of ideas between fields. 
 
-## Selected Papers
+## Selected Resources
+
+### Repository
+
+- [Awesome neural SBI](https://github.com/smsharma/awesome-neural-sbi)
+
+### Papers
 
 The plan is to turn this page into a crowd-sourced community resource that can collect recent papers including methodological developments and applications. Here are some links to get started:
 
