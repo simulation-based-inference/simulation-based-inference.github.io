@@ -8,6 +8,9 @@ POST_DIR = Path("_posts/")
 with open("scholar/blacklist.txt", "r") as f:
     BLACKLIST = f.read().splitlines()
 
+with open("scholar/whitelist_journals.txt", "r") as f:
+    WHITELIST_JOURNALS = f.read().splitlines()
+
 
 def sanitize_filename(filename: str) -> str:
     """Sanitize a filename to make it safe for use on Windows and Linux."""
@@ -51,6 +54,16 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     # Check if paper is blacklisted
     if paper.title in BLACKLIST:
         print(f"Paper is blacklisted: {paper.title}, skipping...")
+        return
+
+    if paper.journal not in WHITELIST_JOURNALS:
+        print(f"Paper is not in whitelist journals: {paper.title}, skipping...")
+        return
+
+    if (
+        paper.published_on.year == 2000
+    ):  # Paper without publication date will have default as 2000
+        print(f"Paper is undated: {paper.title}, skipping...")
         return
 
     # Create file name
