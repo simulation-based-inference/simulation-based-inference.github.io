@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{montel2022estimating,<br>      title={Estimating the warm dark matter mass from strong lensing images with truncated marginal neural ratio estimation}, <br>      author={Noemi Anau Montel and Adam Coogan and Camila Correa and Konstantin Karchev and Christoph Weniger},<br>      year={2022},<br>      eprint={2205.09126},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.CO}<br>}"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

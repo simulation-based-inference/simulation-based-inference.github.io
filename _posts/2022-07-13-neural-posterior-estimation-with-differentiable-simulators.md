@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{zeghal2022neural,<br>      title={Neural Posterior Estimation with Differentiable Simulators}, <br>      author={Justine Zeghal and François Lanusse and Alexandre Boucaud and Benjamin Remy and Eric Aubourg},<br>      year={2022},<br>      eprint={2207.05636},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.IM}<br>}"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

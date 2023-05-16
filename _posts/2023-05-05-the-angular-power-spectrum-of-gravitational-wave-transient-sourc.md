@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{zheng2023angular,<br>      title={The angular power spectrum of gravitational-wave transient sources as a probe of the large-scale structure}, <br>      author={Yanyan Zheng and Nikolaos Kouvatsos and Jacob Golomb and Marco Cavaglià and Arianna I. Renzini and Mairi Sakellariadou},<br>      year={2023},<br>      eprint={2305.02652},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.CO}<br>}"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

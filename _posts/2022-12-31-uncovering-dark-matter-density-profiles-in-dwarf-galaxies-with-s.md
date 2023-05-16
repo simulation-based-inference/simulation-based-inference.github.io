@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{nguyen2022uncovering,<br>      title={Uncovering dark matter density profiles in dwarf galaxies with graph neural networks}, <br>      author={Tri Nguyen and Siddharth Mishra-Sharma and Reuel Williams and Lina Necib},<br>      year={2022},<br>      eprint={2208.12825},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.CO}<br>}"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

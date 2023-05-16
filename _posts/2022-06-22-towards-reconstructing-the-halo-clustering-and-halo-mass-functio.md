@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{dimitriou2022reconstructing,<br>      title={Towards reconstructing the halo clustering and halo mass function of N-body simulations using neural ratio estimation}, <br>      author={Androniki Dimitriou and Christoph Weniger and Camila A. Correa},<br>      year={2022},<br>      eprint={2206.11312},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.CO}<br>}"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{philcox2023disordered,<br>      title={The Disordered Heterogeneous Universe: Galaxy Distribution and Clustering Across Length Scales}, <br>      author={Oliver H. E. Philcox and Salvatore Torquato},<br>      year={2023},<br>      eprint={2207.00519},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.CO}<br>}"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

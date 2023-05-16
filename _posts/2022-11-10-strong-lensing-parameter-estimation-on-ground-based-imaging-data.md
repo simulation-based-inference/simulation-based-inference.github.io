@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{poh2022strong,<br>      title={Strong Lensing Parameter Estimation on Ground-Based Imaging Data Using Simulation-Based Inference}, <br>      author={Jason Poh and Ashwin Samudre and Aleksandra Ćiprijanović and Brian Nord and Gourav Khullar and Dimitrios Tanoglidis and Joshua A. Frieman},<br>      year={2022},<br>      eprint={2211.05836},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.IM}<br>}"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

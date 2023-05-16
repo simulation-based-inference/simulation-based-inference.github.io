@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{khullar2022digs,<br>      title={DIGS: Deep Inference of Galaxy Spectra with Neural Posterior Estimation}, <br>      author={Gourav Khullar and Brian Nord and Aleksandra Ciprijanovic and Jason Poh and Fei Xu},<br>      year={2022},<br>      eprint={2211.09126},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.GA}<br>}"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:
