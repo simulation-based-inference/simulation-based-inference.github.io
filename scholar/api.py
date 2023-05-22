@@ -131,6 +131,8 @@ def query_arxiv(arxiv_id: str) -> arxiv.Result:
         "doi": result.doi,
         "arxiv_category_tag": result.primary_category,
         "category": to_category(result.primary_category),
+        "published_on": result.published,
+        "title": sanitize_title(result.title),
     }
 
 
@@ -146,8 +148,9 @@ def format_serp_result(result: dict) -> dict:
     logging.debug(f"{publication_info_summary=}")
 
     try:
-        year_of_publication = int(re.search("\d{4}", summary_split[1]).group(0))
-    except (TypeError, AttributeError):
+        matches = re.findall("\d{4}", summary_split[1])
+        year_of_publication = int(matches[-1])
+    except IndexError:
         # TODO: Probably bad to use default 2000 here, improve later.
         year_of_publication = 2000
 
@@ -170,7 +173,7 @@ def format_serp_result(result: dict) -> dict:
         citation_backlink = None
 
     if journal == "arxiv.org":
-        arxiv_id = result["link"].split("/")[-1]
+        arxiv_id = result["link"].split("/")[-1][:10]
     else:
         arxiv_id = None
 
@@ -178,7 +181,6 @@ def format_serp_result(result: dict) -> dict:
         "result_id": result["result_id"],
         "published_on": published_on,
         "title": sanitize_title(result["title"]),
-        "days_since_added": days_since_added,
         "publication_info_summary": publication_info_summary,
         "journal": journal,
         "doi": to_doi(result["link"]),

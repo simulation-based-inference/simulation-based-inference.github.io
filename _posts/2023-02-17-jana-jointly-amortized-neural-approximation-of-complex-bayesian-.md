@@ -17,4 +17,4 @@ tags:
 
 Link to paper: [https://arxiv.org/abs/2302.09125](https://arxiv.org/abs/2302.09125)
 
-[cited by](https://scholar.google.com/scholar?cites=9889389963876965867&as_sdt=2005&sciodt=0,5&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=9889389963876965867&as_sdt=5,36&sciodt=0,36&hl=en&num=20)

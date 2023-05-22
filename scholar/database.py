@@ -17,7 +17,6 @@ class Paper(Model):
     id = AutoField(primary_key=True)
     result_id = CharField(null=True)
     created_at = DateTimeField(default=datetime.datetime.now)
-    days_since_added = IntegerField(null=True)
     published_on = DateField()
     title = CharField(unique=True)
     publication_info_summary = CharField()

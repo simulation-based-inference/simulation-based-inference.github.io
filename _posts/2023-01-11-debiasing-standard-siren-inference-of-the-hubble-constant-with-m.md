@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{gagnonhartman2023debiasing,<br>      title={Debiasing Standard Siren Inference of the Hubble Constant with Marginal Neural Ratio Estimation}, <br>      author={Samuel Gagnon-Hartman and John Ruan and Daryl Haggard},<br>      year={2023},<br>      eprint={2301.05241},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.CO}<br>}"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Astrophysics
 tags:
   - paper
 
@@ -15,4 +15,4 @@ tags:
 
 Link to paper: [https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad069/6982915](https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad069/6982915)
 
-[cited by](https://scholar.google.com/scholar?cites=1669507538115876672&as_sdt=2005&sciodt=0,5&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=1669507538115876672&as_sdt=5,36&sciodt=0,36&hl=en&num=20)

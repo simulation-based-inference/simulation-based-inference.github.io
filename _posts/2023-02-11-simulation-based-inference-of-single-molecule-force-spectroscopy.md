@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{dingeldein2022simulationbased,<br>      title={Simulation-based inference of single-molecule force spectroscopy}, <br>      author={Lars Dingeldein and Pilar Cossio and Roberto Covino},<br>      year={2022},<br>      eprint={2209.10392},<br>      archivePrefix={arXiv},<br>      primaryClass={physics.chem-ph}<br>}"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Physics
 tags:
   - paper
 

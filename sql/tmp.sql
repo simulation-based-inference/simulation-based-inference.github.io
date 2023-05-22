@@ -1,5 +1,6 @@
 -- SQLite
-SELECT id, title, publication_info_summary, published_on, journal
-FROM paper 
-ORDER BY published_on ASC
-;
+
+SELECT id, title, published_on, arxiv_id
+FROM paper
+WHERE title LIKE '%spatial random field models%'
+ORDER BY published_on ASC;
