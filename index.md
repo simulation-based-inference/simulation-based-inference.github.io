@@ -12,7 +12,9 @@ Simulation-based inference is the next step in the methodological evolution of s
 
 SBI has also proven to be an effective lingua franca that facilitates communication between domain scientists and methodological experts, supports convergence research, and accelerates cross-pollination of ideas between fields. 
 
-## Selected Papers
+## Selected Resources
+
+### Papers
 
 The plan is to turn this page into a crowd-sourced community resource that can collect recent papers including methodological developments and applications. Here are some links to get started:
 
@@ -52,3 +54,7 @@ The plan is to turn this page into a crowd-sourced community resource that can c
 * **Global Health**: [Simulation-Based Inference for Global Health Decisions](https://arxiv.org/abs/2005.07062) by Christian Schroeder de Witt, Bradley Gram-Hansen, Nantas Nardelli, Andrew Gambardella, Rob Zinkov, Puneet Dokania, N. Siddharth, Ana Belen Espinosa-Gonzalez, Ara Darzi, Philip Torr, Atılım Güneş Baydin
 
 * **Robotics**: [Simulation-based Bayesian inference for multi-fingered robotic grasping](https://arxiv.org/abs/2109.14275) by Norman Marlier, Olivier Brüls, Gilles Louppe
+
+### Other curated resources list
+
+- [Awesome neural SBI](https://github.com/smsharma/awesome-neural-sbi)
