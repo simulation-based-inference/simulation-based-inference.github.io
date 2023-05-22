@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{montel2022detection,<br>      title={Detection is truncation: studying source populations with truncated marginal neural ratio estimation}, <br>      author={Noemi Anau Montel and Christoph Weniger},<br>      year={2022},<br>      eprint={2211.04291},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.IM}<br>}"
 hero_title: "Papers"
 categories:
-  - Uncategorized
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{wang2023sbi,<br>      title={SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical Application}, <br>      author={Bingjie Wang and Joel Leja and V. Ashley Villar and Joshua S. Speagle},<br>      year={2023},<br>      eprint={2304.05281},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.IM}<br>}"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:
