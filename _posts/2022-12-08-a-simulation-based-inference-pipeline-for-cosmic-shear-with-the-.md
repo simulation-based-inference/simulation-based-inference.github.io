@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{lin2022simulationbased,<br>      title={A simulation-based inference pipeline for cosmic shear with the Kilo-Degree Survey}, <br>      author={Kiyam Lin and Maximilian von Wietersheim-Kramsta and Benjamin Joachimi and Stephen Feeney},<br>      year={2022},<br>      eprint={2212.04521},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.CO}<br>}"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

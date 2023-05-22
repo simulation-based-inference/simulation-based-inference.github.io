@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{alvey2023albatross,<br>      title={Albatross: A scalable simulation-based inference pipeline for analysing stellar streams in the Milky Way}, <br>      author={James Alvey and Mathis Gerdes and Christoph Weniger},<br>      year={2023},<br>      eprint={2304.02032},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.GA}<br>}"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:

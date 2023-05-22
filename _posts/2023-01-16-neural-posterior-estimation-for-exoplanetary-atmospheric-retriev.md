@@ -6,7 +6,7 @@ image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "@misc{vasist2023neural,<br>      title={Neural posterior estimation for exoplanetary atmospheric retrieval}, <br>      author={Malavika Vasist and François Rozet and Olivier Absil and Paul Mollière and Evert Nasedkin and Gilles Louppe},<br>      year={2023},<br>      eprint={2301.06575},<br>      archivePrefix={arXiv},<br>      primaryClass={astro-ph.EP}<br>}"
 hero_title: "Papers"
 categories:
-  - Physics
+  - Astrophysics
 tags:
   - paper
   - arxiv_category:
@@ -17,4 +17,4 @@ tags:
 
 Link to paper: [https://arxiv.org/abs/2301.06575](https://arxiv.org/abs/2301.06575)
 
-[cited by](https://scholar.google.com/scholar?cites=8334937977002912374&as_sdt=2005&sciodt=0,5&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=8334937977002912374&as_sdt=5,36&sciodt=0,36&hl=en&num=20)
