@@ -1,0 +1,51 @@
+biorxiv.org
+arxiv.org
+iopscience.iop.org
+Elsevier
+meetingorganizer.copernicus.org
+ui.adsabs.harvard.edu
+cell.com
+journals.plos.org
+tobias-lib.ub.uni-tuebingen.de
+ieeexplore.ieee.org
+academic.oup.com
+APS
+iase-web.org
+openreview.net
+proceedings.mlr.press
+mdpi.com
+proceedings.neurips.cc
+hal.science
+search.proquest.com
+orbi.uliege.be
+Taylor & Francis
+drops.dagstuhl.de
+National Acad Sciences
+nature.com
+books.google.com
+Wiley Online Library
+World Scientific
+elifesciences.org
+projecteuclid.org
+Springer
+JSTOR
+medrxiv.org
+dl.acm.org
+degruyter.com
+digitalcollections.dordt.edu
+escholarship.org
+researchgate.net
+kingaa.github.io
+deepblue.lib.umich.edu
+papers.ssrn.com
+cambridge.org
+journals.sagepub.com
+Citeseer
+diva-portal.org
+annualreviews.org
+frontiersin.org
+ora.ox.ac.uk
+ncbi.nlm.nih.gov
+academia.edu
+royalsocietypublishing.org
+jstatsoft.org

@@ -22,6 +22,14 @@ ARXIV_GROUP_MAP = json.load(open("scholar/arxiv_group.json"))
 ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
 
 
+def sanitize_title(title: str) -> str:
+    """Sanitize a title to make it safe for use in Jekyll."""
+
+    title = title.replace('"', "'")
+    title = title.replace("\\", "")
+    return title
+
+
 def timeout(func, duration=0.5):
     """Delay the execution of a function."""
 
@@ -129,25 +137,45 @@ def query_arxiv(arxiv_id: str) -> arxiv.Result:
 def format_serp_result(result: dict) -> dict:
     """Format the SERP API results."""
 
-    _tmp = result["snippet"].split(" days ago - ")
-    snippet = _tmp[1]
-    days_since_added = int(_tmp[0])
-    published_on = datetime.datetime.now() - datetime.timedelta(days=days_since_added)
     publication_info_summary = result["publication_info"]["summary"]
 
     # Determine whether the result is from journal or not
     summary_split = publication_info_summary.split(" - ")
     journal = summary_split[2] if len(summary_split) == 3 else None
 
+    logging.debug(f"{publication_info_summary=}")
+
+    try:
+        year_of_publication = int(re.search("\d{4}", summary_split[1]).group(0))
+    except (TypeError, AttributeError):
+        # TODO: Probably bad to use default 2000 here, improve later.
+        year_of_publication = 2000
+
+    if " days ago - " in result["snippet"]:
+        _tmp = result["snippet"].split(" days ago - ")
+        snippet = _tmp[1]
+        days_since_added = int(_tmp[0])
+        published_on = datetime.datetime.now() - datetime.timedelta(
+            days=days_since_added
+        )
+    else:
+        snippet = result["snippet"]
+        published_on = datetime.datetime(year_of_publication, 1, 1)
+        delta = datetime.datetime.now() - published_on
+        days_since_added = delta.days
+
     try:
         citation_backlink = result["inline_links"]["cited_by"]["link"]
     except KeyError:
         citation_backlink = None
 
+    if journal == "arxiv.org":
+        arxiv_id = result["link"].split("/")[-1]
+
     return {
         "result_id": result["result_id"],
         "published_on": published_on,
-        "title": result["title"],
+        "title": sanitize_title(result["title"]),
         "days_since_added": days_since_added,
         "publication_info_summary": publication_info_summary,
         "journal": journal,
@@ -155,12 +183,15 @@ def format_serp_result(result: dict) -> dict:
         "link": result["link"],
         "snippet": snippet,
         "citation_backlink": citation_backlink,
-        "arxiv_id": result["link"].split("/")[-1],
+        "arxiv_id": arxiv_id,
     }
 
 
 def query_serp(
-    url: str = None, term: str = None, more_results: bool = False
+    url: str = None,
+    term: str = None,
+    more_results: bool = False,
+    historical: bool = False,
 ) -> Optional[dict]:
     """Query the SERP API for snippets containing the given term.
 
@@ -168,22 +199,29 @@ def query_serp(
         url (str): API URL. If None, use the default.
         term (str): The term to search for.
         more_results (bool): If true search in everything instead of abstract.
+        historical (bool): If true, search by relevant since year 2000.
     """
     params = {"api_key": SERP_API_KEY}
-    scisbd = 2 if more_results else 1
+    scisbd = 2 if more_results else 1  # 1 = abstract, 2 = everything
 
     if url is None:
         url = "https://serpapi.com/search"
-        params.update(
-            {
-                "engine": "google_scholar",
-                "q": term,
-                "hl": "en",
-                "num": 20,  # Maxed out at 20
-                "scisbd": scisbd,
-                "as_vis": 1,
-            }
-        )
+
+    params.update(
+        {
+            "engine": "google_scholar",
+            "q": term,
+            "hl": "en",
+            "num": 20,  # Maxed out at 20
+            "scisbd": scisbd,
+            "as_vis": 1,
+            "as_rr": 1,
+        }
+    )
+
+    if historical:
+        params.pop("scisbd")
+        params.update({"as_ylo": 2000})
 
     response = requests.get(url, params=params)
     if response.status_code == 200:
