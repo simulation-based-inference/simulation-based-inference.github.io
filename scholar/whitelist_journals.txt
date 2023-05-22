@@ -2,7 +2,6 @@ biorxiv.org
 arxiv.org
 iopscience.iop.org
 Elsevier
-meetingorganizer.copernicus.org
 ui.adsabs.harvard.edu
 cell.com
 journals.plos.org
@@ -22,9 +21,7 @@ Taylor & Francis
 drops.dagstuhl.de
 National Acad Sciences
 nature.com
-books.google.com
 Wiley Online Library
-World Scientific
 elifesciences.org
 projecteuclid.org
 Springer
@@ -35,7 +32,6 @@ degruyter.com
 digitalcollections.dordt.edu
 escholarship.org
 researchgate.net
-kingaa.github.io
 deepblue.lib.umich.edu
 papers.ssrn.com
 cambridge.org
