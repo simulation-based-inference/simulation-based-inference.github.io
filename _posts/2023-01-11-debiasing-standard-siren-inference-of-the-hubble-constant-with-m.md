@@ -15,4 +15,4 @@ tags:
 
 Link to paper: [https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad069/6982915](https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad069/6982915)
 
-[cited by](https://scholar.google.com/scholar?cites=1669507538115876672&as_sdt=40000005&sciodt=0,22&hl=en&num=20)
+[cited by](https://scholar.google.com/scholar?cites=1669507538115876672&as_sdt=2005&sciodt=0,5&hl=en&num=20)
