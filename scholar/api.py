@@ -171,6 +171,8 @@ def format_serp_result(result: dict) -> dict:
 
     if journal == "arxiv.org":
         arxiv_id = result["link"].split("/")[-1]
+    else:
+        arxiv_id = None
 
     return {
         "result_id": result["result_id"],
