@@ -178,7 +178,6 @@ def format_serp_result(result: dict) -> dict:
         arxiv_id = None
 
     return {
-        "result_id": result["result_id"],
         "published_on": published_on,
         "title": sanitize_title(result["title"]),
         "publication_info_summary": publication_info_summary,

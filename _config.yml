@@ -95,6 +95,7 @@ exclude:
   - main.py
   - working.ipynb
   - tmp.ipynb
+  - notebooks/
 
 
 

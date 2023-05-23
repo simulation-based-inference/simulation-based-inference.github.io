@@ -1,7 +1,7 @@
 ---
 layout: paper
-title: "Comparison of Learning Outcomes for Simulation-based and Traditional Inference"
-author: "K Maurer, D Lock - Technology, 2016 - researchgate.net"
+title: "Comparison of learning outcomes for simulation-based and traditional inference curricula in a designed educational experiment"
+author: "K Maurer, D Lock - Technology Innovations in Statistics Education, 2016 - escholarship.org"
 image: "/assets/img/SBI-icon-192x192.png"
 bibtex: "None"
 hero_title: "Papers"
@@ -13,6 +13,6 @@ tags:
 ---
 >… To compare the learning outcomes for students receiving the traditional and simulation-based inference curricula we first needed to prepare a curriculum for each approach. Both curric…
 
-Link to paper: [https://www.researchgate.net/profile/Karsten-Maurer/publication/321315355_Comparison_of_Learning_Outcomes_for_Simulation-based_and_Traditional_Inference_Curricula_in_a_Designed_Educational_Experiment/links/5a1f16bd0f7e9b9d5e027681/Comparison-of-Learning-Outcomes-for-Simulation-based-and-Traditional-Inference-Curricula-in-a-Designed-Educational-Experiment.pdf](https://www.researchgate.net/profile/Karsten-Maurer/publication/321315355_Comparison_of_Learning_Outcomes_for_Simulation-based_and_Traditional_Inference_Curricula_in_a_Designed_Educational_Experiment/links/5a1f16bd0f7e9b9d5e027681/Comparison-of-Learning-Outcomes-for-Simulation-based-and-Traditional-Inference-Curricula-in-a-Designed-Educational-Experiment.pdf)
+Link to paper: [https://escholarship.org/uc/item/0wm523b0](https://escholarship.org/uc/item/0wm523b0)
 
-
+[cited by](https://scholar.google.com/scholar?cites=6966691946674562777&as_sdt=2005&sciodt=0,5&hl=en&num=20)
