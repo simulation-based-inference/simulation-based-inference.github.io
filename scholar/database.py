@@ -1,76 +1,149 @@
-import datetime
-from peewee import (
-    Model,
-    SqliteDatabase,
-    CharField,
-    DateTimeField,
-    DateField,
-    AutoField,
-    IntegerField,
-)
+from typing import Optional, Union
+from datetime import datetime, date
+import yaml
+from pathlib import Path
+from pydantic import BaseModel, validator, Field
 
-DATABASE = SqliteDatabase("scholar/paper.db")
+PAPERS_YAML = Path(__file__).parent / "papers.yaml"
 
 
-class Paper(Model):
-    # SERP API fields
-    id = AutoField(primary_key=True)
-    created_at = DateTimeField(default=datetime.datetime.now)
-    title = CharField(unique=True)
-    published_on = DateField()
-    publication_info_summary = CharField(null=True)
-    journal = CharField(null=True)
-    link = CharField(null=True)
-    snippet = CharField(null=True)
-    citation_backlink = CharField(null=True)
-    # Arxiv fields
-    arxiv_id = CharField(null=True)
-    arxiv_category_tag = CharField(null=True)
-    category = CharField(null=True)
-    authors = CharField(null=True)
-    doi = CharField(null=True)
+def get_new_id() -> int:
+    """Get a new id for a paper."""
 
-    class Meta:
-        database = DATABASE
+    papers = get_papers(as_dict=True)
+    if papers:
+        return max([paper["id"] for paper in papers]) + 1
+    return 1
 
 
-def create_tables() -> None:
-    """Create the tables in the database."""
-    DATABASE.connect()
-    DATABASE.create_tables([Paper])
-    DATABASE.close()
+class Paper(BaseModel):
+    """Paper object with data validations."""
+
+    id: int = Field(default_factory=get_new_id)
+    created_at: datetime = Field(default_factory=datetime.now)
+    published_on: date
+    title: str
+    authors: Optional[str]
+    publication_info_summary: str
+    link: str
+    snippet: str
+    journal: Optional[str]
+    citation_backlink: Optional[str]
+    arxiv_id: Optional[str]
+    arxiv_category_tag: Optional[str]
+    category: Optional[str]
+    doi: Optional[str]
+
+    # Data validations (to make sure front-end doesn't break)
+    @validator("published_on")
+    def published_on_must_be_past_date(cls, v):
+        if not isinstance(v, date):
+            raise ValueError("published_on must be a date")
+
+        if v > date.today():
+            raise ValueError("published_on must be in the past")
+        return v
+
+    @validator("title")
+    def title_must_note_be_empty(cls, v):
+        if v == "":
+            raise ValueError("title must not be empty")
+        return v
+
+    @validator("link")
+    def link_must_be_url(cls, v):
+        if not v.startswith("http"):
+            raise ValueError("link must be a URL")
+        return v
+
+    @validator("snippet")
+    def snippet_must_not_be_empty(cls, v):
+        if v == "":
+            raise ValueError("snippet must not be empty")
+        return v
+
+    @validator("publication_info_summary")
+    def publication_info_summary_must_not_be_empty(cls, v):
+        if v == "":
+            raise ValueError("publication_info_summary must not be empty")
+        return v
 
 
-def insert_result(result: dict) -> None:
-    """Insert the results from the SERP API into the database.
+# Create, Read, Update, Delete (CRUD) operations
+def write_papers(papers: list[Union[Paper, dict]]) -> None:
+    """Write the papers to the YAML database."""
 
-    Args:
-        results: The a formatted result from the SERP API.
+    if isinstance(papers[0], Paper):
+        papers = [paper.dict(exclude_none=True) for paper in papers]
 
-    Returns:
-        int: The number of days since the oldest paper was added.
-    """
-
-    Paper.insert(**result).on_conflict(
-        conflict_target=[Paper.title],
-        preserve=[
-            Paper.arxiv_category_tag,
-            Paper.published_on,
-        ],
-        update={
-            Paper.citation_backlink: result["citation_backlink"],
-        },
-    ).execute()
+    with open(PAPERS_YAML, "w") as f:
+        yaml.dump(papers, f, sort_keys=False)
 
 
-def patch_arxiv(id: int, arxiv_category_tag: str) -> None:
-    """Patch the arxiv tags for a paper.
+def get_papers(as_dict: bool = False) -> list:
+    """Get all papers from the YAML database."""
 
-    Args:
-        id (int): The ID of the paper.
-        arxiv_category_tag (str): The arxiv category tag.
-    """
-    paper = Paper.get(Paper.id == id)
-    print(paper.title)
-    paper.arxiv_category_tag = arxiv_category_tag
-    paper.save()
+    with open(PAPERS_YAML, "r") as f:
+        data = yaml.load(f, Loader=yaml.FullLoader)
+
+    if as_dict:
+        return data
+    return [Paper(**paper) for paper in data]
+
+
+def get_paper(id: int) -> Paper:
+    """Get a paper from the YAML database."""
+
+    papers = get_papers()
+    for paper in papers:
+        if paper.id == id:
+            return paper
+    raise ValueError(f"Paper with id {id} not found")
+
+
+def insert_paper(paper: Union[dict, Paper]) -> None:
+    """Write the result to the YAML database."""
+
+    if isinstance(paper, Paper):
+        paper = paper.dict(exclude_none=True)
+
+    papers = get_papers(as_dict=True)
+    papers.append(paper)
+    write_papers(papers)
+
+
+def update_paper(paper: Paper) -> None:
+    """Update a paper in the YAML database."""
+
+    # It is safe to use dict models here because we are not validating
+    papers = get_papers(as_dict=True)
+
+    new_papers = []
+    found = False
+    for p in papers:
+        if p["id"] == paper.id:
+            updated = paper.dict(exclude_none=True)
+            new_papers.append(updated)
+            found = True
+        else:
+            new_papers.append(p)
+
+    if not found:
+        raise ValueError(f"Paper with id {paper.id} not found")
+    write_papers(papers)
+
+
+def delete_paper(paper: Paper = None, id: int = None) -> None:
+    """Delete a paper from the YAML database."""
+
+    if paper is None and id is None:
+        raise ValueError("Either paper or id must be provided")
+
+    if paper is not None and id is not None:
+        raise ValueError("Only one of paper or id must be provided")
+
+    papers = get_papers(as_dict=True)
+    id = paper.id if paper else id
+
+    new_papers = [p for p in papers if p["id"] != id]
+    write_papers(new_papers)
