@@ -109,7 +109,3 @@ def make_all(overwrite: bool = False) -> None:
     papers = Paper.select()
     for paper in papers:
         make_md_post(paper, overwrite=overwrite)
-
-
-if __name__ == "__main__":
-    make_all()

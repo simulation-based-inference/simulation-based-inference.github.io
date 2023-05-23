@@ -15,14 +15,13 @@ DATABASE = SqliteDatabase("scholar/paper.db")
 class Paper(Model):
     # SERP API fields
     id = AutoField(primary_key=True)
-    result_id = CharField(null=True)
     created_at = DateTimeField(default=datetime.datetime.now)
-    published_on = DateField()
     title = CharField(unique=True)
-    publication_info_summary = CharField()
+    published_on = DateField()
+    publication_info_summary = CharField(null=True)
     journal = CharField(null=True)
-    link = CharField()
-    snippet = CharField()
+    link = CharField(null=True)
+    snippet = CharField(null=True)
     citation_backlink = CharField(null=True)
     # Arxiv fields
     arxiv_id = CharField(null=True)

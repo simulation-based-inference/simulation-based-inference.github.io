@@ -16,5 +16,8 @@
         "SERP",
         "serpapi",
         "Uncategorized"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
     ]
 }
