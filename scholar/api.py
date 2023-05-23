@@ -10,28 +10,13 @@ from typing import Optional
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 
-logging.basicConfig(level=logging.DEBUG)
-
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
-
-# GROUP is arxiv top level category
 ARXIV_GROUP_MAP = json.load(open("scholar/arxiv_group.json"))
-
-# CATEGORY is arxiv sub category
-ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
-
-
-def sanitize_title(title: str) -> str:
-    """Sanitize a title to make it safe for use in Jekyll."""
-
-    title = title.replace('"', "'")
-    title = title.replace("\\", "")
-    return title
 
 
 def timeout(func, duration=0.5):
-    """Delay the execution of a function."""
+    """Delay the execution of a function to prevent blockage."""
 
     def wrapper(*args, **kwargs):
         sleep(duration)
@@ -41,6 +26,8 @@ def timeout(func, duration=0.5):
 
 
 def get_arxiv_category_map() -> dict:
+    """Get the arxiv category mapping."""
+
     url = "https://arxiv.org/category_taxonomy"
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
@@ -57,6 +44,8 @@ def get_arxiv_category_map() -> dict:
 
 
 def get_bibtex(arxiv_id: str) -> Optional[str]:
+    """Get bibtex from arxiv."""
+
     url = f"https://arxiv.org/bibtex/{arxiv_id}"
     response = requests.get(url)
 
@@ -73,7 +62,6 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
         bibtex = response.text
         for old, new in formatting.items():
             bibtex = bibtex.replace(old, new)
-
         return bibtex
     else:
         print(f"Failed to fetch BibTeX for arXiv ID {arxiv_id}")
@@ -81,7 +69,7 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
 
 
 def to_category(arxiv_category: Optional[str]) -> str:
-    """Convert arxiv category to group."""
+    """Convert arxiv category to arxiv group (aka category in frontend)."""
 
     if arxiv_category is None:
         return None
@@ -132,7 +120,7 @@ def query_arxiv(arxiv_id: str) -> arxiv.Result:
         "arxiv_category_tag": result.primary_category,
         "category": to_category(result.primary_category),
         "published_on": result.published,
-        "title": sanitize_title(result.title),
+        "title": result.title,
     }
 
 
@@ -151,7 +139,7 @@ def format_serp_result(result: dict) -> dict:
         matches = re.findall("\d{4}", summary_split[1])
         year_of_publication = int(matches[-1])
     except IndexError:
-        # TODO: Probably bad to use default 2000 here, improve later.
+        # TODO: Probably bad to use default 2000 for non-dated results, improve later.
         year_of_publication = 2000
 
     if " days ago - " in result["snippet"]:
@@ -179,7 +167,7 @@ def format_serp_result(result: dict) -> dict:
 
     return {
         "published_on": published_on,
-        "title": sanitize_title(result["title"]),
+        "title": result["title"],
         "publication_info_summary": publication_info_summary,
         "journal": journal,
         "doi": to_doi(result["link"]),

@@ -1,12 +1,13 @@
-import os
 import datetime
+import logging
 from pathlib import Path
 from scholar.api import query_arxiv, query_serp, query_biorxiv
-from scholar.post_maker import make_all
-from scholar.database import create_tables, insert_result
+from scholar.post_maker import remake_all_posts
+from scholar.database import insert_paper, Paper, get_paper, update_paper
+
+logging.basicConfig(level=logging.DEBUG)
 
 SEARCH_TERM = '"simulation-based+inference"'
-POST_DIR = Path("./_posts/")
 
 
 def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
@@ -18,6 +19,7 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
         stop_days (int): Stop crawling when the oldest result is older than this.
     """
     next_url = None
+
     while True:
         # Initial query from SERP API to get new papers
         results = query_serp(url=next_url, term=term, more_results=more_results)
@@ -35,11 +37,17 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
                 if biorxiv_data is not None:
                     result.update(biorxiv_data)
 
-            # Insert into database
-            insert_result(result)
+            # MUST Sanitize using Paper class, otherwise cannot get the correct title
+            paper = Paper(**result)
+            paper_from_db = get_paper(title=paper.title)
 
-            # If published_on is more than stop_days ago, stop crawling after this batch
+            if paper_from_db:
+                paper.id = paper_from_db.id
+                update_paper(paper)
+            else:
+                insert_paper(paper)
 
+            # Update delta
             delta = datetime.datetime.now() - result["published_on"].replace(
                 tzinfo=None
             )
@@ -58,20 +66,4 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
 
 if __name__ == "__main__":
     crawl(SEARCH_TERM, stop_days=90)
-
-    # The single source of truth is in the database, so we delete all to avoid publish date offset by one bug due to timezone.
-    for post in POST_DIR.glob("*.md"):
-        post.unlink()
-
-    make_all()
-
-
-def reset() -> None:
-    """Rebuild the database from scratch and remake all md files."""
-
-    if os.path.exists("scholar/paper.db"):
-        os.remove("scholar/paper.db")
-
-    create_tables()
-    crawl(SEARCH_TERM)
-    make_all(overwrite=True)
+    remake_all_posts()
