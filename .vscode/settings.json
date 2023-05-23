@@ -12,6 +12,7 @@
         "markdownify",
         "nlin",
         "nucl",
+        "pydantic",
         "scisbd",
         "SERP",
         "serpapi",

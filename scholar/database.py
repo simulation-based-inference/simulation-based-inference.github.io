@@ -50,6 +50,12 @@ class Paper(BaseModel):
             raise ValueError("title must not be empty")
         return v
 
+    @validator("title")
+    def title_safe_for_jekyll(cls, v):
+        v = v.replace('"', "'")
+        v = v.replace("\\", "")
+        return v
+
     @validator("link")
     def link_must_be_url(cls, v):
         if not v.startswith("http"):
@@ -91,14 +97,24 @@ def get_papers(as_dict: bool = False) -> list:
     return [Paper(**paper) for paper in data]
 
 
-def get_paper(id: int) -> Paper:
+def get_paper(id: int = None, title: str = None) -> Paper:
     """Get a paper from the YAML database."""
 
+    if id is None and title is None:
+        raise ValueError("Either id or title must be provided")
+
+    if id is not None and title is not None:
+        raise ValueError("Only one of id or title must be provided")
+
+    # Find the paper from the YAML database
     papers = get_papers()
-    for paper in papers:
-        if paper.id == id:
-            return paper
-    raise ValueError(f"Paper with id {id} not found")
+    if id:
+        matches = [paper for paper in papers if paper.id == id]
+    if title:
+        matches = [paper for paper in papers if paper.title == title]
+
+    assert len(matches) == 1
+    return matches[0] if matches else None
 
 
 def insert_paper(paper: Union[dict, Paper]) -> None:

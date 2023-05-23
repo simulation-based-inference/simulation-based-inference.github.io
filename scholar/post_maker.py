@@ -1,7 +1,8 @@
 import re
+import json
 from pathlib import Path
-from scholar.database import Paper
-from scholar.api import get_bibtex, ARXIV_CATEGORY_MAP
+from scholar.api import get_bibtex
+from scholar.database import Paper, get_papers
 
 POST_DIR = Path("_posts/")
 
@@ -11,20 +12,8 @@ with open("scholar/blacklist.txt", "r") as f:
 with open("scholar/whitelist_journals.txt", "r") as f:
     WHITELIST_JOURNALS = f.read().splitlines()
 
-
-def sanitize_filename(filename: str) -> str:
-    """Sanitize a filename to make it safe for use on Windows and Linux."""
-
-    # Replace all symbols with spaces
-    sanitized = re.sub(r"[^a-zA-Z0-9\s]", " ", filename)
-    sanitized = sanitized.strip()
-    sanitized = sanitized.replace(" ", "-")
-    sanitized = sanitized.replace("--", "-")
-
-    if not sanitized:
-        sanitized = "default_filename"
-
-    return sanitized.lower()[:64]
+# CATEGORY is arxiv sub category (!= category in paper object)
+ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
 
 
 POST_TEMPLATE = """---
@@ -46,6 +35,21 @@ tags:
 
 {cited_by}
 """
+
+
+def sanitize_filename(filename: str) -> str:
+    """Sanitize a filename to make it safe for use on Windows and Linux."""
+
+    # Replace all symbols with spaces
+    sanitized = re.sub(r"[^a-zA-Z0-9\s]", " ", filename)
+    sanitized = sanitized.strip()
+    sanitized = sanitized.replace(" ", "-")
+    sanitized = sanitized.replace("--", "-")
+
+    if not sanitized:
+        sanitized = "default_filename"
+
+    return sanitized.lower()[:64]
 
 
 def make_md_post(paper: Paper, overwrite: bool) -> None:
@@ -105,7 +109,14 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     print(f"Markdown file created successfully: {paper.title}")
 
 
-def make_all(overwrite: bool = False) -> None:
-    papers = Paper.select()
+def remake_all_posts() -> None:
+    """Re-make all posts from truth (paper.yaml)."""
+
+    # Delete all existing posts first (Maintain consistency with truth)
+    for post in POST_DIR.glob("*.md"):
+        post.unlink()
+
+    # Make all posts
+    papers = get_papers()
     for paper in papers:
-        make_md_post(paper, overwrite=overwrite)
+        make_md_post(paper, overwrite=True)
