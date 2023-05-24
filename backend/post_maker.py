@@ -21,7 +21,8 @@ POST_TEMPLATE = """---
 layout: paper
 title: "{title}"
 author: "{publication_info_summary}"
-image: "/assets/img/SBI-icon-192x192.png"
+journal: "{journal}"
+year: {year}
 bibtex: "{bibtex}"
 hero_title: "Papers"
 categories:
@@ -92,6 +93,8 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     # Create file content
     content = POST_TEMPLATE.format(
         title=paper.title,
+        journal=paper.journal,
+        year=paper.published_on.year,
         publication_info_summary=paper.publication_info_summary,
         bibtex=get_bibtex(paper.arxiv_id) if paper.arxiv_id else None,
         category=paper.category if paper.category else "Uncategorized",
