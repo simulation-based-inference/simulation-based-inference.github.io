@@ -63,8 +63,11 @@ defaults:
       type: "jobs"
     values:
       layout: job
+      hero_title: Jobs
       comments: false
       show_sidebar: false
+      category: 
+        - jobs
 
 include:
   - _pages

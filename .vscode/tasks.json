@@ -6,12 +6,17 @@
         {
             "label": "$(debug-start) serve",
             "type": "shell",
-            "command": "bundle exec jekyll serve --incremental",
+            "command": "bundle exec jekyll serve",
         },
         {
             "label": "$(refresh) git ff",
             "type": "shell",
             "command": "git merge --ff-only upstream/main && echo 'git ff done, pushing to origin...' && git push origin main",
+        },
+        {
+            "label": "$(close) sample posts",
+            "type": "shell",
+            "command": "python ./scripts/dev_delete_posts.py",
         }
     ]
 }
