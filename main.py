@@ -1,10 +1,12 @@
 import datetime
+import argparse
 import logging
 from backend.api import query_arxiv, query_serp, query_biorxiv
 from backend.post_maker import remake_all_posts
 from backend.database import insert_paper, Paper, get_paper, update_paper
 
 logging.basicConfig(level=logging.DEBUG)
+
 
 SEARCH_TERM = '"simulation-based+inference"'
 
@@ -63,5 +65,11 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
 
 
 if __name__ == "__main__":
-    crawl(SEARCH_TERM, stop_days=90)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--crawl", action="store_true")
+    args = parser.parse_args()
+
+    if args.crawl:
+        crawl(SEARCH_TERM, stop_days=90)
+
     remake_all_posts()

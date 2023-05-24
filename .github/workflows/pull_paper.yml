@@ -26,7 +26,7 @@ jobs:
     - name: Pull new articles
       env:
         SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
-      run: python main.py
+      run: python main.py --crawl
 
     - name: check for changed files
       run: |

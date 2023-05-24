@@ -113,6 +113,9 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
 def remake_all_posts() -> None:
     """Re-make all posts from truth (paper.yaml)."""
 
+    # Make dir
+    POST_DIR.mkdir(parents=True, exist_ok=True)
+
     # Delete all existing posts first (Maintain consistency with truth)
     for post in POST_DIR.glob("*.md"):
         post.unlink()
@@ -121,6 +124,3 @@ def remake_all_posts() -> None:
     papers = get_papers()
     for paper in papers:
         make_md_post(paper, overwrite=True)
-
-if __name__ == "__main__":
-    remake_all_posts()
