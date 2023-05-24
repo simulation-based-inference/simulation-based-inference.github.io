@@ -32,7 +32,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r ./backend/requirements.txt
       - name: Generate posts
-        run: python ./backend/post_maker.py
+        run: python main.py
       # Jekyll build pages
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
