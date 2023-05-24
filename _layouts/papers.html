@@ -4,4 +4,58 @@ layout: default
 
 {{ content }}
 
+{% capture intro%}
+The list is automatically compiled each day. Should you observe any inaccuracies or concerns,
+kindly [bring them to our
+attention](https://github.com/simulation-based-inference/simulation-based-inference.github.io/issues/new?assignees=&labels=&template=report-unrelated-paper.md&title=%5BBUG%5D%3A+Unrelated+paper).
+
+Additionally, if you believe a new paper aligns with the topic, feel free to
+[submit
+it](https://github.com/simulation-based-inference/simulation-based-inference.github.io/issues/new?assignees=&labels=&template=recommend-new-paper.md&title=%5BSuggestion%5D+New+paper).
+
+{% endcapture %}
+
+{{ intro | markdownify }}
+<br>
+<div class="tabs is-toggle is-fullwidth">
+    <ul>
+        {% if page.sort == 'category' %}
+        <li class="is-active">
+            {% else %}
+        <li>
+            {% endif %}
+            <a href="{{ site.baseurl }}/papers/sort-by-category">
+                <span class="icon is-small"><i class="fas fa-shapes" aria-hidden="true"></i></span>
+                <span>Sort by Category</span>
+            </a>
+        </li>
+        {% if page.sort == 'year' %}
+        <li class="is-active">
+            {% else %}
+        <li>
+            {% endif %}
+            <a href="{{ site.baseurl }}/papers/sort-by-year">
+                <span class="icon is-small"><i class="fas fa-calendar" aria-hidden="true"></i></span>
+                <span>Sort by Year</span>
+            </a>
+        </li>
+        {% if page.sort == 'journal' %}
+        <li class="is-active">
+            {% else %}
+        <li>
+            {% endif %}
+            <a href="{{ site.baseurl }}/papers/sort-by-journal">
+                <span class="icon is-small"><i class="fas fa-book" aria-hidden="true"></i></span>
+                <span>Sort by Journal</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+{% if page.sort == 'category' %}
 {% include papers-category-sort.html %}
+{% elsif page.sort == 'year' %}
+{% include papers-year-sort.html %}
+{% elsif page.sort == 'journal' %}
+{% include papers-journal-sort.html %}
+{% endif %}

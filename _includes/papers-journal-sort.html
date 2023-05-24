@@ -1,0 +1,48 @@
+{% assign sorted = site.posts | sort: 'date' | reverse %}
+
+{% assign unique_journals = "" %}
+{% for post in sorted %}
+{% if unique_journals contains post.journal %}
+{% else %}
+{% assign unique_journals = unique_journals | append: post.journal | append: "; " %}
+{% endif %}
+{% endfor %}
+
+{% assign unique_journals = unique_journals | split: "; " | sort %}
+
+<div class="columns is-multiline">
+    <div class="column is-3">
+        <div class="box">
+            <ul>
+                {% for journal in unique_journals %}
+                {% assign this_journal_paper = sorted | where: "journal", journal %}
+                <li>
+                    <a href="#{{ journal | slugify }}">
+                        <strong>{{ journal }}</strong> <span class="taxonomy__count">({{ this_journal_paper.size
+                            }})</span>
+                    </a>
+                </li>
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="column is-9">
+        {% for journal in unique_journals %}
+        {% assign this_journal_paper = sorted | where: "journal", journal %}
+        <div class="box">
+            <section id="{{ journal | slugify }}" class="taxonomy__section">
+                <h2 class="title is-4">{{ journal }}</h2>
+                <div class="entries-{{ entries_layout }}">
+                    {% for post in this_journal_paper %}
+                    <li class="archive__item-title">
+                        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>, {{ post.author }}
+                    </li>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+        {% endfor %}
+    </div>
+</div>
