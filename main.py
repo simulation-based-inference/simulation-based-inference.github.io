@@ -1,9 +1,8 @@
 import datetime
 import logging
-from pathlib import Path
-from scholar.api import query_arxiv, query_serp, query_biorxiv
-from scholar.post_maker import remake_all_posts
-from scholar.database import insert_paper, Paper, get_paper, update_paper
+from backend.api import query_arxiv, query_serp, query_biorxiv
+from backend.post_maker import remake_all_posts
+from backend.database import insert_paper, Paper, get_paper, update_paper
 
 logging.basicConfig(level=logging.DEBUG)
 

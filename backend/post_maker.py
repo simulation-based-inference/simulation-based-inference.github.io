@@ -1,20 +1,20 @@
 import json
+import re
 from pathlib import Path
-from backend.database import Paper, get_papers
-from backend.utils import sanitize_filename
-from backend.scholar.api import get_bibtex, ARXIV_CATEGORY_MAP
 
+from backend.api import get_bibtex
+from backend.database import Paper, get_papers
 
 POST_DIR = Path("_posts/")
 
-with open("backend/scholar/blacklist.txt", "r") as f:
+with open("backend/data/blacklist_title.txt", "r") as f:
     BLACKLIST = f.read().splitlines()
 
-with open("scholar/whitelist_journals.txt", "r") as f:
-    WHITELIST_JOURNALS = f.read().splitlines()
+with open("backend/data/whitelist_journals.txt", "r") as f:
+    WHITELIST = f.read().splitlines()
 
 # CATEGORY is arxiv sub category (!= category in paper object)
-ARXIV_CATEGORY_MAP = json.load(open("scholar/arxiv_category.json"))
+ARXIV_CATEGORY_MAP = json.load(open("backend/data/arxiv_category.json"))
 
 
 POST_TEMPLATE = """---
@@ -38,6 +38,21 @@ tags:
 """
 
 
+def sanitize_filename(filename: str) -> str:
+    """Sanitize a filename to make it safe for use on Windows and Linux."""
+
+    # Replace all symbols with spaces
+    sanitized = re.sub(r"[^a-zA-Z0-9\s]", " ", filename)
+    sanitized = sanitized.strip()
+    sanitized = sanitized.replace(" ", "-")
+    sanitized = sanitized.replace("--", "-")
+
+    if not sanitized:
+        sanitized = "default_filename"
+
+    return sanitized.lower()[:64]
+
+
 def make_md_post(paper: Paper, overwrite: bool) -> None:
     """Make a post for the given paper."""
 
@@ -46,7 +61,7 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
         print(f"Paper is blacklisted: {paper.title}, skipping...")
         return
 
-    if paper.journal not in WHITELIST_JOURNALS:
+    if paper.journal not in WHITELIST:
         print(f"Paper is not in whitelist journals: {paper.title}, skipping...")
         return
 

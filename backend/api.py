@@ -1,18 +1,19 @@
+import datetime
+import json
+import logging
 import os
 import re
-import json
-import requests
-import arxiv
-import datetime
-import logging
 from time import sleep
 from typing import Optional
-from dotenv import load_dotenv
+
+import arxiv
+import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
-ARXIV_GROUP_MAP = json.load(open("scholar/arxiv_group.json"))
+ARXIV_GROUP_MAP = json.load(open("backend/data/arxiv_group.json"))
 
 
 def timeout(func, duration=0.5):

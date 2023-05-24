@@ -1,10 +1,11 @@
-from typing import Optional, Union
-from datetime import datetime, date
-import yaml
+from datetime import date, datetime
 from pathlib import Path
-from pydantic import BaseModel, validator, Field
+from typing import Optional, Union
 
-PAPERS_YAML = Path(__file__).parent / "papers.yaml"
+import yaml
+from pydantic import BaseModel, Field, validator
+
+PAPERS_YAML = Path(__file__).parent / "data/papers.yaml"
 
 
 def get_new_id() -> int:

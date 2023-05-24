@@ -75,30 +75,25 @@ include:
   - _jobs
 
 exclude:
-  - __pycache__
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - CNAME
+  - .git/
+  - __pycache__/
   - .devcontainer/
   - .github/
+  - .sass-cache/
   - .vscode/
   - backend/
+  - node_modules/
+  - notebooks/
+  - scripts/
   - .dockerignore
   - .env
   - .gitignore
-  - README.md
+  - .pre-commit-config.yaml
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
   - main.py
-  - working.ipynb
+  - README.md
   - tmp.ipynb
-  - notebooks/
-  - scripts/
-  - .git/
-  - .sass-cache/
-  - google8385522a89983802.html
+  - working.ipynb
   
