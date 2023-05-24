@@ -5,6 +5,7 @@
 {% endif %}
 {% endfor %}
 
+
 <div class="columns is-multiline">
     <div class="column is-3">
         <div class="box">
@@ -12,6 +13,7 @@
             <ul>
                 {% for i in (1..categories_max) reversed %}
                 {% for category in site.categories %}
+                {% if category[0] != "Uncategorized" %}
                 {% if category[1].size == i %}
                 <li>
                     <a href="#{{ category[0] | slugify }}">
@@ -19,7 +21,19 @@
                     </a>
                 </li>
                 {% endif %}
+                {% endif %}
                 {% endfor %}
+                {% endfor %}
+
+                <!-- Manually put uncategorized in bottom of the list -->
+                {% for category in site.categories %}
+                {% if category[0] == "Uncategorized" %}
+                <li>
+                    <a href="#{{ category[0] | slugify }}">
+                        <strong>{{ category[0] }}</strong> <span class="taxonomy__count">({{ category[1].size }})</span>
+                    </a>
+                </li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>
@@ -29,6 +43,7 @@
 
         {% for i in (1..categories_max) reversed %}
         {% for category in site.categories %}
+        {% if category[0] != "Uncategorized" %}
         {% if category[1].size == i %}
         <div class="box">
             <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
@@ -43,7 +58,26 @@
             </section>
         </div>
         {% endif %}
+        {% endif %}
         {% endfor %}
+        {% endfor %}
+
+        <!-- Manually put uncategorized in bottom of the list -->
+        {% for category in site.categories %}
+        {% if category[0] == "Uncategorized" %}
+        <div class="box">
+            <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+                <h2 class="title is-4">{{ category[0] }}</h2>
+                <div class="entries-{{ entries_layout }}">
+                    {% for post in category.last %}
+                    <li class="archive__item-title">
+                        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>, {{ post.author }}
+                    </li>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+        {% endif %}
         {% endfor %}
 
     </div>

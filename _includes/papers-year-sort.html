@@ -1,0 +1,49 @@
+{% assign sorted = site.posts | sort: 'date' | reverse %}
+
+{% assign unique_years = "" %}
+{% for post in sorted %}
+{% if unique_years contains post.year %}
+{% else %}
+{% assign unique_years = unique_years | append: post.year | append: " " %}
+{% endif %}
+{% endfor %}
+
+{% assign unique_years = unique_years | split: " " %}
+
+<div class="columns is-multiline">
+    <div class="column is-3">
+        <div class="box">
+            <!-- <strong>Sort by categories</strong> -->
+            <ul>
+                {% for year in unique_years %}
+                {% assign this_year_paper = sorted | where: "year", year %}
+                <li>
+                    <a href="#{{ year | slugify }}">
+                        <strong>{{ year }}</strong> <span class="taxonomy__count">({{ this_year_paper.size
+                            }})</span>
+                    </a>
+                </li>
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="column is-9">
+        {% for year in unique_years %}
+        {% assign this_year_paper = sorted | where: "year", year %}
+        <div class="box">
+            <section id="{{ year | slugify }}" class="taxonomy__section">
+                <h2 class="title is-4">{{ year }}</h2>
+                <div class="entries-{{ entries_layout }}">
+                    {% for post in this_year_paper %}
+                    <li class="archive__item-title">
+                        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>, {{ post.author }}
+                    </li>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+        {% endfor %}
+    </div>
+</div>
