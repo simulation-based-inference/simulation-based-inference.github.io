@@ -3,7 +3,7 @@ name: Daily pull
 on:
   schedule:
     - cron: '0 12 * * *'  # Runs every day at 12:00 UTC
-  
+
   workflow_dispatch:  # Add manually dispatch option
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r ./scholar/requirements.txt
+        pip install -r ./backend/requirements.txt
 
     - name: Pull new articles
       env:
@@ -46,7 +46,7 @@ jobs:
         git config --local user.name "GitHub Action Bot"
         git add -A
         git commit -m "auto update publications"
-        
+
     - if: ${{ env.changed == 'true' }}
       uses: ad-m/github-push-action@master
       with:

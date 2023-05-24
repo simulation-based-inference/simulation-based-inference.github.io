@@ -1,43 +1,46 @@
 # Site Settings
 lang: en
-
-
 title: Simulation-based Inference
 description: Simulation-based Inference is the next evolution in statistics
 url: http://simulation-based-inference.org/
 favicon: favicon.png
 permalink: pretty
-#hide_share_buttons: true
-#theme_color: '#eeeeee'
-#fixed_navbar: top
-#direction: one of <ltr, rtl, auto>, default: ltr
-
-paginate: 10
-paginate_path: "/papers/page:num"
-
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: simulation-based-inference
-
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - kramdown-parser-gfm
-  - jekyll-redirect-from
-
-livereload: true
+footer_menu: example_footer_menu
 
 sass:
   style: compressed
   source_dir: _sass
 
-#google_analytics: UA-code-here
+# Custom objects
+collections:
+  - jobs
 
+# Plugins settings
+plugins:
+  # - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+paginate: 10
+paginate_path: "/papers/page:num"
+
+disqus:
+  shortname: simulation-based-inference
+
+feed:
+  disable: true
+
+twitter:
+  card: summary
+
+markdown: kramdown
+
+highlighter: rouge
+
+# Defaults properties
 defaults:
   - scope:
       path: ""
@@ -55,52 +58,42 @@ defaults:
       layout: post
       comments: true
       show_sidebar: false
-      image: "/assets/img/SBI-icon-192x192.png"
-
-markdown: kramdown
-highlighter: rouge
-
-footer_menu: example_footer_menu
-
-collections:
-  products:
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+  - scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: job
+      hero_title: Jobs
+      comments: false
+      show_sidebar: false
+      category: 
+        - jobs
 
 include:
   - _pages
   - _papers
+  - _jobs
 
 exclude:
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - CNAME
+  - .git/
+  - __pycache__/
   - .devcontainer/
   - .github/
+  - .sass-cache/
   - .vscode/
-  - sql/
-  - scholar/
+  - backend/
+  - node_modules/
+  - notebooks/
+  - scripts/
   - .dockerignore
   - .env
   - .gitignore
-  - README.md
+  - .pre-commit-config.yaml
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
   - main.py
-  - working.ipynb
+  - README.md
   - tmp.ipynb
-  - notebooks/
-
-
-
-feed:
-  disable: true
-
-twitter:
-  card: summary
+  - working.ipynb
+  
