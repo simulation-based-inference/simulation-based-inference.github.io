@@ -1,27 +1,21 @@
 # Site Settings
 lang: en
-
-
 title: Simulation-based Inference
 description: Simulation-based Inference is the next evolution in statistics
 url: http://simulation-based-inference.org/
 favicon: favicon.png
 permalink: pretty
-#hide_share_buttons: true
-#theme_color: '#eeeeee'
-#fixed_navbar: top
-#direction: one of <ltr, rtl, auto>, default: ltr
+footer_menu: example_footer_menu
 
-paginate: 10
-paginate_path: "/papers/page:num"
+sass:
+  style: compressed
+  source_dir: _sass
 
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: simulation-based-inference
+# Custom objects
+collections:
+  - jobs
 
-
+# Plugins settings
 plugins:
   # - jekyll-feed
   - jekyll-sitemap
@@ -30,14 +24,23 @@ plugins:
   - kramdown-parser-gfm
   - jekyll-redirect-from
 
-livereload: true
+paginate: 10
+paginate_path: "/papers/page:num"
 
-sass:
-  style: compressed
-  source_dir: _sass
+disqus:
+  shortname: simulation-based-inference
 
-#google_analytics: UA-code-here
+feed:
+  disable: true
 
+twitter:
+  card: summary
+
+markdown: kramdown
+
+highlighter: rouge
+
+# Defaults properties
 defaults:
   - scope:
       path: ""
@@ -63,26 +66,17 @@ defaults:
       comments: false
       show_sidebar: false
 
-markdown: kramdown
-highlighter: rouge
-
-footer_menu: example_footer_menu
-
-collections:
-  - jobs
-
-
 include:
   - _pages
   - _papers
   - _jobs
 
 exclude:
-exclude:
+  - __pycache__
   - Gemfile
   - clean-theme.gemspec
   - Gemfile.lock
-  - node_modules
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
@@ -92,7 +86,6 @@ exclude:
   - .github/
   - .vscode/
   - backend/
-  - database/
   - .dockerignore
   - .env
   - .gitignore
@@ -103,10 +96,6 @@ exclude:
   - notebooks/
   - scripts/
   - .git/
-
-
-feed:
-  disable: true
-
-twitter:
-  card: summary
+  - .sass-cache/
+  - google8385522a89983802.html
+  
