@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<div class="content">
+    {{ content }}
+</div>
+
 {% assign all_locations = "" | split: "," %}
 
 {% for job in site.jobs %}
