@@ -121,3 +121,6 @@ def remake_all_posts() -> None:
     papers = get_papers()
     for paper in papers:
         make_md_post(paper, overwrite=True)
+
+if __name__ == "__main__":
+    remake_all_posts()
