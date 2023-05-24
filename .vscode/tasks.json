@@ -4,55 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "serve",
+            "label": "$(debug-start) serve",
             "type": "shell",
-            "command": "bundle",
-            "args": [
-                "exec",
-                "jekyll",
-                "serve"
-            ],
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },
-            "options": {
-                "statusbar": {
-                    "label": "$(debug-start) serve"
-                }
-            },
+            "command": "bundle exec jekyll serve --incremental",
         },
         {
-            "label": "git ff",
+            "label": "$(refresh) git ff",
             "type": "shell",
-            "command": "git",
-            "args": [
-                "merge",
-                "--ff-only",
-                "upstream/main"
-            ],
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },
-            "options": {
-                "statusbar": {
-                    "label": "$(refresh) git ff"
-                }
-            },
-        },
-        {
-            "label": "pre-commit run",
-            "type": "shell",
-            "command": "pre-commit run",
-            "options": {
-                "statusbar": {
-                    "label": "$(debug-alt) pre-commit"
-                }
-            },
-            "presentation": {
-                "close": true
-            }
+            "command": "git merge --ff-only upstream/main && echo 'git ff done, pushing to origin...' && git push origin main",
         }
     ]
 }

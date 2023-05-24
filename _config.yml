@@ -23,9 +23,9 @@ disqus:
 
 
 plugins:
+  # - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-feed
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
@@ -101,7 +101,8 @@ exclude:
   - working.ipynb
   - tmp.ipynb
   - notebooks/
-
+  - scripts/
+  - .git/
 
 
 feed:
