@@ -1,7 +1,6 @@
 from datetime import date, datetime
 from pathlib import Path
 from typing import Optional, Union
-
 import yaml
 from pydantic import BaseModel, Field, validator
 
@@ -114,7 +113,7 @@ def get_paper(id: int = None, title: str = None) -> Paper:
     if title:
         matches = [paper for paper in papers if paper.title == title]
 
-    assert len(matches) == 1
+    assert len(matches) <= 1
     return matches[0] if matches else None
 
 
