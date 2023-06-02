@@ -204,7 +204,7 @@ def query_serp(
             "num": 20,  # Maxed-out at 20
             "scisbd": scisbd,
             "as_vis": 1,
-            "as_rr": 1,
+            # "as_rr": 1, # Reviewed articles only (broken on Google Scholar as of 2023-06-02)
         }
     )
 
