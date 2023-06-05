@@ -38,6 +38,12 @@ layout: default
             </a>
         </div>
         {{ content }}
+        {% if page.cited_by != 'None' %}
+        <a class="button is-link" href="{{ page.cited_by }}">Cited by</a>
+        {% endif %}
+        {% if page.link != 'None' %}
+        <a class="button is-link" href="{{ page.link }}">Link to paper</a>
+        {% endif %}
 </div>
 
 {% if page.bibtex != 'None' %}
