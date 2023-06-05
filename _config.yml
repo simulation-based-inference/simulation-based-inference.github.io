@@ -14,6 +14,7 @@ sass:
 # Custom objects
 collections:
   - jobs
+  - misc
 
 # Plugins settings
 plugins:
