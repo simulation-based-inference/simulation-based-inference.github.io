@@ -5,7 +5,8 @@ from pathlib import Path
 from backend.api import get_bibtex
 from backend.database import Paper, get_papers
 
-POST_DIR = Path("_posts/")
+POST_DIR = Path("_posts/")  # Journal articles
+MISC_DIR = Path("_misc/")  # Misc items from crawl
 
 with open("backend/data/blacklist_title.txt", "r") as f:
     BLACKLIST = f.read().splitlines()
@@ -24,6 +25,8 @@ author: "{publication_info_summary}"
 journal: "{journal}"
 year: {year}
 bibtex: "{bibtex}"
+link: "{link}"
+cited_by: "{cited_by}"
 hero_title: "Papers"
 categories:
   - {category}
@@ -33,9 +36,6 @@ tags:
 ---
 >{snippet}
 
-{link}
-
-{cited_by}
 """
 
 
@@ -54,23 +54,8 @@ def sanitize_filename(filename: str) -> str:
     return sanitized.lower()[:64]
 
 
-def make_md_post(paper: Paper, overwrite: bool) -> None:
+def make_md(paper: Paper, overwrite: bool, output_dir: Path) -> None:
     """Make a post for the given paper."""
-
-    # Check if paper is blacklisted
-    if paper.title in BLACKLIST:
-        print(f"Paper is blacklisted: {paper.title}, skipping...")
-        return
-
-    if paper.journal not in WHITELIST:
-        print(f"Paper is not in whitelist journals: {paper.title}, skipping...")
-        return
-
-    if (
-        paper.published_on.year == 2000
-    ):  # Paper without publication date will have default as 2000
-        print(f"Paper is undated: {paper.title}, skipping...")
-        return
 
     # Create file name
     pub_date = paper.published_on.strftime("%Y-%m-%d")
@@ -78,7 +63,7 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
     file_name = f"{pub_date}-{clean_title}.md"
 
     # Check if file already exists
-    if (POST_DIR / file_name).exists() and not overwrite:
+    if (output_dir / file_name).exists() and not overwrite:
         print(f"File already exists: {paper.title}")
         return
 
@@ -100,17 +85,26 @@ def make_md_post(paper: Paper, overwrite: bool) -> None:
         category=paper.category if paper.category else "Uncategorized",
         arxiv_extra_tag=_make_arxiv_extra_tag(paper),
         snippet=paper.snippet,
-        link=f"Link to paper: [{paper.link}]({paper.link})",
-        cited_by=f"[cited by]({paper.citation_backlink})"
-        if paper.citation_backlink
-        else "",
+        link=paper.link,
+        cited_by=paper.citation_backlink,
     )
 
     # Write file
-    with open(POST_DIR / file_name, "w", encoding="utf-8") as f:
+    with open(output_dir / file_name, "w", encoding="utf-8") as f:
         f.write(content)
 
     print(f"Markdown file created successfully: {paper.title}")
+
+
+def delete_existing_mds() -> None:
+    """Delete all existing posts and misc items."""
+
+    def _delete(dir: Path) -> None:
+        existing_mds = list(dir.glob("*.md"))
+        [post.unlink() for post in existing_mds if post is not None]
+
+    _delete(POST_DIR)
+    _delete(MISC_DIR)
 
 
 def remake_all_posts() -> None:
@@ -118,12 +112,28 @@ def remake_all_posts() -> None:
 
     # Make dir
     POST_DIR.mkdir(parents=True, exist_ok=True)
+    MISC_DIR.mkdir(parents=True, exist_ok=True)
 
     # Delete all existing posts first (Maintain consistency with truth)
-    for post in POST_DIR.glob("*.md"):
-        post.unlink()
+    delete_existing_mds()
 
     # Make all posts
     papers = get_papers()
+
     for paper in papers:
-        make_md_post(paper, overwrite=True)
+        # Filtering
+        if paper.title in BLACKLIST:
+            print(f"Paper is blacklisted: {paper.title}, skipping...")
+            continue
+
+        if (
+            paper.published_on.year == 2000
+        ):  # Paper without publication date will have default as 2000
+            print(f"Paper is undated: {paper.title}, skipping...")
+            continue
+
+        if paper.journal not in WHITELIST:
+            print(f"Paper is not in whitelist journals: {paper.title}, skipping...")
+            make_md(paper, overwrite=True, output_dir=MISC_DIR)
+        else:
+            make_md(paper, overwrite=True, output_dir=POST_DIR)

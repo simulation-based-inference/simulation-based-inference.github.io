@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="content">
+    {{ content }}
+</div>
+
+{% assign sorted_misc = site.misc | sort: 'date' | reverse %}
+
+<div class="columns is-multiline">
+    <div class="column is-12">
+        <div class="box">
+            {% for post in sorted_misc %}
+            {% if post.link != 'None' %}
+            <li class="archive__item-title">
+                <a href="{{ post.link }}">{{ post.title }}</a>, {{ post.author }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

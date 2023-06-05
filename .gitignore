@@ -1,5 +1,6 @@
 _site/
 _posts/
+_misc/
 .sass-cache
 .jekyll-metadata
 .env

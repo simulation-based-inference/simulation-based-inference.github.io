@@ -4,5 +4,7 @@
   link: /software
 - name: Jobs
   link: /jobs
+- name: Misc
+  link: /misc
 - name: About
   link: /about
