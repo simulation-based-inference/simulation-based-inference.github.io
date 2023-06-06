@@ -4,9 +4,33 @@
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title }}",
+      "author"   : "{{ post.author }}",
+      "journal"  : "{{ post.journal }}",
+      "year"     : "{{ post.year }}",
+      "category" : "{{ post.categories | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date | date_to_string }}",
-      "description" : "{{ post.description | strip_html | strip_newlines | escape }}"
-    } {% unless forloop.last %},{% endunless %}
+      "date"     : "{{ post.date | date_to_string }}"
+    },
   {% endfor %}
+
+  {% for job in site.jobs %}
+    {
+      "title"    : "{{ job.title }}",
+      "employer" : "{{ job.employer }}",
+      "location" : "{{ job.location }}",
+      "url"      : "{{ site.baseurl }}/jobs"
+    },
+  {% endfor %}
+
+  {% for m in site.misc %}
+    {
+      "title"    : "{{ m.title }}",
+      "author"   : "{{ m.author }}",
+      "journal"  : "{{ m.journal }}",
+      "year"     : "{{ m.year }}",
+      "category" : "{{ m.categories | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ m.url }}",
+      "date"     : "{{ m.date | date_to_string }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %} 
 ]
