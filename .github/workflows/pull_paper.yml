@@ -39,8 +39,8 @@ jobs:
           echo "changed=false" >> $GITHUB_ENV
           echo "=== no change detected ==="
         fi
-    # Only add untracked file to avoid overwriting manual changes
     - if: ${{ env.changed == 'true' }}
+      name: Commit changes
       run: |
         git config --local user.email "github-action[bot]@github.com"
         git config --local user.name "GitHub Action Bot"
@@ -48,7 +48,8 @@ jobs:
         git commit -m "auto update publications"
 
     - if: ${{ env.changed == 'true' }}
+      name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.PAT}}
         force: true
