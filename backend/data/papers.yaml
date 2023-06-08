@@ -11879,3 +11879,20 @@
   arxiv_id: '2305.14275'
   arxiv_category_tag: stat.ME
   category: Statistics
+- id: 976
+  created_at: 2023-06-08 12:23:48.597160
+  published_on: 2023-06-01
+  title: 'ERGO-ML: Towards a robust machine learning model for inferring the fraction
+    of accreted stars in galaxies from integral-field spectroscopic maps'
+  authors: "Eirini Angeloudi, Jes\xFAs Falc\xF3n-Barroso, Marc Huertas-Company, Regina\
+    \ Sarmiento, Annalisa Pillepich, Daniel Walo-Mart\xEDn, Lukas Eisert"
+  publication_info_summary: "E Angeloudi, J Falc\xF3n-Barroso\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2306.01056
+  snippet: "\u2026 We study the robustness of a simulation-based inference of the\
+    \ ex-situ stellar mass fraction of nearby galaxies to different observables \u2013\
+    \ integrated and spatially-resolved \u2026"
+  journal: arxiv.org
+  arxiv_id: '2306.01056'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
