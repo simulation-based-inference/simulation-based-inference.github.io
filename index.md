@@ -23,6 +23,8 @@ The plan is to turn this page into a crowd-sourced community resource that can c
 
  * Google Scholar searches for ["Simulation-based inference"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=%22simulation-based+inference%22+&btnG=),  ["likelihood-free"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=%22likelihood-free%22+&btnG=), and ["Approximate Bayesian Computation"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&as_vis=1&q=%22approximate+bayesian+computation%22&btnG=)
 
+**Curated Awesome List**
+ * [Awesome Neural SBI](https://github.com/smsharma/awesome-neural-sbi) - A similar effort with a less automated, more human-curated list of SBI papers initiated by Siddharth Mishra-Sharma. 
 
 **Applications**
 
