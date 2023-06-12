@@ -11896,3 +11896,31 @@
   arxiv_id: '2306.01056'
   arxiv_category_tag: astro-ph.GA
   category: Astrophysics
+- id: 977
+  created_at: 2023-06-12 15:03:40.120306
+  published_on: 2023-06-08
+  title: Estimating the Spatial Dynamics of Plant Recruitment using Approximate Bayesian
+    Computation
+  publication_info_summary: J Freeman - 2023 - macsphere.mcmaster.ca
+  link: https://macsphere.mcmaster.ca/handle/11375/28626
+  snippet: "\u2026 We use a Bayesian simulation-based inference algorithm (Approximate\
+    \ Bayesian Computation, ABC) to estimate model parameters. Interest in ABC and\
+    \ Bayesian \u2026"
+  journal: macsphere.mcmaster.ca
+  doi: https://macsphere.mcmaster.ca/handle/11375/28626
+- id: 978
+  created_at: 2023-06-12 15:03:44.565704
+  published_on: 2023-06-06
+  title: 'L-C2ST: Local Diagnostics for Posterior Approximations in Simulation-Based
+    Inference'
+  authors: Julia Linhart, Alexandre Gramfort, Pedro L. C. Rodrigues
+  publication_info_summary: J Linhart, A Gramfort, PLC Rodrigues - arXiv preprint
+    arXiv:2306.03580, 2023 - arxiv.org
+  link: https://arxiv.org/abs/2306.03580
+  snippet: "\u2026 In what follows, we will always assume the typical simulation-based\
+    \ inference setting\u2026 This work tackles an important open question in simulation\
+    \ based inference. We \u2026"
+  journal: arxiv.org
+  arxiv_id: '2306.03580'
+  arxiv_category_tag: stat.ML
+  category: Statistics
