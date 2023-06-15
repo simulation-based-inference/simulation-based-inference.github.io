@@ -2,9 +2,13 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Optional, Union
 import yaml
+import json
 from pydantic import BaseModel, Field, validator
 
 PAPERS_YAML = Path(__file__).parent / "data/papers.yaml"
+
+with open("backend/data/arxiv_group.json", "r") as f:
+    ARXIV_GROUP_MAP = json.load(f)
 
 
 def get_new_id() -> int:
@@ -74,6 +78,12 @@ class Paper(BaseModel):
             raise ValueError("publication_info_summary must not be empty")
         return v
 
+    def update_arxiv_category_tag(self, arxiv_category_tag: str) -> None:
+        """Update the arxiv_category_tag and category label of a paper."""
+
+        self.arxiv_category_tag = arxiv_category_tag
+        self.category = ARXIV_GROUP_MAP[arxiv_category_tag]
+
 
 # Create, Read, Update, Delete (CRUD) operations
 def write_papers(papers: list[Union[Paper, dict]]) -> None:
@@ -83,6 +93,7 @@ def write_papers(papers: list[Union[Paper, dict]]) -> None:
         papers = [paper.dict(exclude_none=True) for paper in papers]
 
     with open(PAPERS_YAML, "w") as f:
+        print("Updating YAML database...")
         yaml.dump(papers, f, sort_keys=False)
 
 
@@ -139,6 +150,7 @@ def update_paper(paper: Paper) -> None:
     for p in papers:
         if p["id"] == paper.id:
             updated = paper.dict(exclude_none=True)
+            print(updated)
             new_papers.append(updated)
             found = True
         else:
@@ -146,7 +158,7 @@ def update_paper(paper: Paper) -> None:
 
     if not found:
         raise ValueError(f"Paper with id {paper.id} not found")
-    write_papers(papers)
+    write_papers(new_papers)
 
 
 def delete_paper(paper: Paper = None, id: int = None) -> None:

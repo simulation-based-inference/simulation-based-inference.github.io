@@ -41,6 +41,8 @@
     \ In this work, we \u2026"
   journal: iopscience.iop.org
   citation_backlink: https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=5,36&sciodt=0,36&hl=en&num=20
+  arxiv_category_tag: astro-ph
+  category: Astrophysics
 - id: 4
   created_at: 2023-04-26 10:09:12.917063
   published_on: 2023-04-05
@@ -4249,6 +4251,7 @@
     \ Roberto \u2026 of likelihood-free inference methods called simulation-based\
     \ inference (SBI). By encoding a \u2026"
   journal: cell.com
+  category: Biophysics
   doi: https://www.cell.com/biophysj/pdf/S0006-3495(22)01832-X.pdf
 - id: 366
   created_at: 2023-05-22 16:55:56.332313
@@ -4612,6 +4615,7 @@
     \ Roberto \u2026 of likelihood-free inference methods called simulation-based\
     \ inference (SBI). By encoding a \u2026"
   journal: cell.com
+  category: Biophysics
   doi: https://www.cell.com/biophysj/pdf/S0006-3495(22)01834-3.pdf
 - id: 397
   created_at: 2023-05-22 16:56:05.278468
@@ -5868,6 +5872,8 @@
     \ methods such as MCMC, and (3) to \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=12030419494957555836&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  arxiv_category_tag: astro-ph
+  category: Astrophysics
   doi: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.171403
 - id: 494
   created_at: 2023-05-22 16:56:38.200377
@@ -11137,6 +11143,8 @@
     \ continual improvements to \u2026"
   journal: iopscience.iop.org
   citation_backlink: https://scholar.google.com/scholar?cites=1774884986639649625&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  arxiv_category_tag: astro-ph
+  category: Astrophysics
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/acbb53/meta
 - id: 915
   created_at: 2023-05-22 16:58:55.701159

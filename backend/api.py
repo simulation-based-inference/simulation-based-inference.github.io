@@ -13,7 +13,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
-ARXIV_GROUP_MAP = json.load(open("backend/data/arxiv_group.json"))
+
+with open("backend/data/arxiv_group.json", "r") as f:
+    ARXIV_GROUP_MAP = json.load(f)
 
 
 def timeout(func, duration=0.5):

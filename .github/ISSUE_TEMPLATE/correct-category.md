@@ -14,7 +14,7 @@ Among these available [categories](https://arxiv.org/category_taxonomy), which c
 - "econ": "Economics",
 - "eess": "Electrical Engineering and Systems Science",
 - "math": "Mathematics",
-- "astro-ph": "Physics",
+- "astro-ph": "Astrophysics",
 - "cond-mat": "Physics",
 - "gr-qc": "Physics",
 - "hep-ex": "Physics",
