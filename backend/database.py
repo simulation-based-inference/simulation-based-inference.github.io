@@ -78,12 +78,6 @@ class Paper(BaseModel):
             raise ValueError("publication_info_summary must not be empty")
         return v
 
-    def update_arxiv_category_tag(self, arxiv_category_tag: str) -> None:
-        """Update the arxiv_category_tag and category label of a paper."""
-
-        self.arxiv_category_tag = arxiv_category_tag
-        self.category = ARXIV_GROUP_MAP[arxiv_category_tag]
-
 
 # Create, Read, Update, Delete (CRUD) operations
 def write_papers(papers: list[Union[Paper, dict]]) -> None:
