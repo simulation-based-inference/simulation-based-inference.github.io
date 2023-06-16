@@ -1,8 +1,9 @@
 - id: 1
-  created_at: 2023-04-26 10:09:09.752265
+  created_at: 2023-06-16 12:37:38.612591
   published_on: 2023-04-18
   title: Methods and considerations for estimating parameters in biophysically detailed
     neural models with simulation based inference
+  authors: Tolley, N.; Rodrigues, P. L. C.; Gramfort, A.; Jones, S. R.
   publication_info_summary: N Tolley, PLC Rodrigues, A Gramfort, SR Jones - bioRxiv,
     2023 - biorxiv.org
   link: https://www.biorxiv.org/content/10.1101/2023.04.17.537118.abstract
@@ -10,11 +11,11 @@
     \ an approach to perform Bayesian inference to estimate parameters in detailed\
     \ neural models. SBI \u2026"
   journal: biorxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=5565541295098586319&as_sdt=5,36&sciodt=0,36&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=5565541295098586319&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   category: Neuroscience
   doi: 10.1101/2023.04.17.537118
 - id: 2
-  created_at: 2023-04-26 10:09:10.627180
+  created_at: 2023-06-16 12:37:43.072230
   published_on: 2023-04-11
   title: 'SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical
     Application'
@@ -30,8 +31,8 @@
   arxiv_category_tag: astro-ph.IM
   category: Astrophysics
 - id: 3
-  created_at: 2023-04-26 10:09:11.849706
-  published_on: 2023-04-06
+  created_at: 2023-06-16 12:37:46.827187
+  published_on: 2023-04-07
   title: 'SimBIG: mock challenge for a forward modeling approach to galaxy clustering'
   publication_info_summary: "CH Hahn, M Eickenberg, S Ho, J Hou\u2026 - \u2026 of\
     \ Cosmology and \u2026, 2023 - iopscience.iop.org"
@@ -40,10 +41,10 @@
     \ framework for analyzing galaxy clustering using simulation-based inference.\
     \ In this work, we \u2026"
   journal: iopscience.iop.org
-  citation_backlink: https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=5,36&sciodt=0,36&hl=en&num=20
-  category: Astrophysics
+  citation_backlink: https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=4000005&sciodt=0,18&hl=en&num=20
+  doi: https://iopscience.iop.org/article/10.1088/1475-7516/2023/04/010/meta
 - id: 4
-  created_at: 2023-04-26 10:09:12.917063
+  created_at: 2023-06-16 12:38:04.564569
   published_on: 2023-04-05
   title: Graph-informed simulation-based inference for models of active matter
   authors: Namid R. Stillman, Silke Henkes, Roberto Mayor, Gilles Louppe
@@ -58,7 +59,7 @@
   arxiv_category_tag: cond-mat.soft
   category: Physics
 - id: 5
-  created_at: 2023-04-26 10:09:14.164615
+  created_at: 2023-06-16 12:38:13.533107
   published_on: 2023-04-04
   title: 'Albatross: A scalable simulation-based inference pipeline for analysing
     stellar streams in the Milky Way'
@@ -74,7 +75,7 @@
   arxiv_category_tag: astro-ph.GA
   category: Astrophysics
 - id: 6
-  created_at: 2023-04-26 10:09:15.041206
+  created_at: 2023-06-16 12:38:09.077221
   published_on: 2023-04-04
   title: 'Peregrine: Sequential simulation-based inference for gravitational wave
     signals'
@@ -87,11 +88,12 @@
     \ simulation-based inference approach designed to study broad classes of gravitational\
     \ wave signal\u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=13895659792990643892&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   arxiv_id: '2304.02035'
   arxiv_category_tag: gr-qc
   category: Physics
 - id: 7
-  created_at: 2023-04-26 10:09:16.361236
+  created_at: 2023-06-16 12:38:17.278051
   published_on: 2023-04-01
   title: Amortized Bayesian inference on generative dynamical network models of epilepsy
     using deep neural density estimators
@@ -102,8 +104,9 @@
     \ the virtual epileptic patient model (SBI-VEP), enabling us to amortize the approximate\
     \ posterior of the \u2026"
   journal: Elsevier
+  doi: https://www.sciencedirect.com/science/article/pii/S0893608023001752
 - id: 8
-  created_at: 2023-04-26 10:09:17.504676
+  created_at: 2023-06-16 12:38:21.723970
   published_on: 2023-03-28
   title: Simulation-based Inference for Model Parameterization on Analog Neuromorphic
     Hardware
@@ -120,11 +123,9 @@
   arxiv_category_tag: cs.NE
   category: Computer Science
 - id: 9
-  created_at: 2023-04-26 10:09:18.513276
+  created_at: 2023-06-16 12:38:25.504700
   published_on: 2023-03-23
   title: Investigating the turbulent hot gas in X-COP galaxy clusters
-  authors: "Simon Dupourqu\xE9, Nicolas Clerc, Etienne Pointecouteau, Dominique Eckert,\
-    \ Stefano Ettori, Franco Vazza"
   publication_info_summary: "S Dupourqu\xE9, N Clerc, E Pointecouteau\u2026 - arXiv\
     \ preprint arXiv \u2026, 2023 - aanda.org"
   link: https://www.aanda.org/articles/aa/pdf/forth/aa45779-22.pdf
@@ -132,10 +133,9 @@
     \ inference to account for the whole error budget. We used the X-COP cluster sample\
     \ to individually \u2026"
   journal: aanda.org
-  arxiv_id: '2303.15102'
-  category: Astrophysics
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa45779-22.pdf
 - id: 10
-  created_at: 2023-04-26 10:09:19.781190
+  created_at: 2023-06-16 12:38:29.986540
   published_on: 2023-03-13
   title: Constraining the X-ray heating and reionization using 21-cm power spectra
     with Marginal Neural Ratio Estimation
@@ -152,10 +152,11 @@
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
 - id: 11
-  created_at: 2023-04-26 10:09:20.879188
+  created_at: 2023-06-16 12:38:34.417717
   published_on: 2023-03-08
   title: Modelling capture efficiency of single cell RNA-sequencing data improves
     inference of transcriptome-wide burst kinetics
+  authors: Tang, W.; Jorgensen, A. C. S.; Marguerat, S.; Thomas, P.; Shahrezaei, V.
   publication_info_summary: "W Tang, ACS J\xF8rgensen, S Marguerat, P Thomas\u2026\
     \ - bioRxiv, 2023 - biorxiv.org"
   link: https://www.biorxiv.org/content/10.1101/2023.03.06.531327.abstract
@@ -163,10 +164,11 @@
     \ and flexibility of the simulation-based inference methods. We \u2026 of a simulation-based\
     \ inference method based on \u2026"
   journal: biorxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=10087386736943123190&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   category: Bioinformatics
   doi: 10.1101/2023.03.06.531327
 - id: 12
-  created_at: 2023-04-26 10:09:21.889276
+  created_at: 2023-06-16 12:38:38.870759
   published_on: 2023-03-07
   title: Ultra-High-Resolution Detector Simulation with Intra-Event Aware GAN and
     Self-Supervised Relational Reasoning
@@ -179,14 +181,17 @@
     \ inference and event generation, high-granularity detector simulation such as\
     \ at the HL-LHC (High \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=1693599676799815557&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   arxiv_id: '2303.08046'
   arxiv_category_tag: physics.ins-det
   category: Physics
 - id: 13
-  created_at: 2023-04-26 10:09:22.974855
+  created_at: 2023-06-16 12:38:43.630444
   published_on: 2023-03-03
   title: Combined statistical-mechanistic modeling links ion channel genes to physiology
     of cortical neuron types
+  authors: Bernaerts, Y.; Deistler, M.; Goncalves, P. J.; Beck, J.; Stimberg, M.;
+    Scala, F.; Tolias, A. S.; Macke, J. H.; Kobak, D.; Berens, P.
   publication_info_summary: "Y Bernaerts, M Deistler, PJ Goncalves, J Beck\u2026 -\
     \ bioRxiv, 2023 - biorxiv.org"
   link: https://www.biorxiv.org/content/10.1101/2023.03.02.530774.abstract
@@ -194,13 +199,14 @@
     \ while overcoming the \u2026 that explain observed electrophysiology, we used\
     \ simulation-based inference (SBI)25\u2026"
   journal: biorxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=6128980025825657340&as_sdt=5,36&sciodt=0,36&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=6128980025825657340&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   category: Neuroscience
   doi: 10.1101/2023.03.02.530774
 - id: 14
-  created_at: 2023-04-26 10:09:24.201702
+  created_at: 2023-06-16 12:38:48.375000
   published_on: 2023-03-03
   title: Bayesian Inference of a Spectral Graph Model for Brain Oscillations
+  authors: Jin, H.; Verma, P.; Jiang, F.; Nagarajan, S.; Raj, A.
   publication_info_summary: H Jin, P Verma, F Jiang, S Nagarajan, A Raj - bioRxiv,
     2023 - biorxiv.org
   link: https://www.biorxiv.org/content/10.1101/2023.03.01.530704.abstract
@@ -211,10 +217,11 @@
   category: Neuroscience
   doi: 10.1101/2023.03.01.530704
 - id: 15
-  created_at: 2023-04-26 10:09:25.406652
+  created_at: 2023-06-16 12:38:52.879643
   published_on: 2023-02-28
   title: Recurrent connectivity structure controls the emergence of co-tuned excitation
     and inhibition
+  authors: Giannakakis, E.; Vinogradov, O.; Buendia, V.; Levina, A.
   publication_info_summary: E Giannakakis, O Vinogradov, V Buendia, A Levina - bioRxiv,
     2023 - biorxiv.org
   link: https://www.biorxiv.org/content/10.1101/2023.02.27.530253.abstract
@@ -222,11 +229,11 @@
     \ inference to uncover constraints on the recurrent connectivity that allow E/I\
     \ co-tuning to emerge. We \u2026"
   journal: biorxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=6810493978059380896&as_sdt=5,36&sciodt=0,36&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=6810493978059380896&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   category: Neuroscience
   doi: 10.1101/2023.02.27.530253
 - id: 16
-  created_at: 2023-04-26 10:09:26.393747
+  created_at: 2023-06-16 12:38:56.664960
   published_on: 2023-02-22
   title: Determining Basal Mass Balance of Ice Shelves Using Simulation-Based Inference
   publication_info_summary: "G Moss, V Vi\u0161njevi\u0107, C Schr\xF6der, J Macke\u2026\
@@ -236,8 +243,9 @@
     \ (SBI) [1], a novel machine learning inference method. SBI utilizes artificial\
     \ neural networks to approximate \u2026"
   journal: meetingorganizer.copernicus.org
+  doi: https://meetingorganizer.copernicus.org/EGU23/EGU23-6900.html
 - id: 17
-  created_at: 2023-04-26 10:09:27.347689
+  created_at: 2023-06-16 12:39:00.400777
   published_on: 2023-02-22
   title: Towards Bayesian Full-Waveform Source Inversion using Simulation-Based Inference
   publication_info_summary: "A Saoulis, A Ferreira, B Joachimi, AS Mancini\u2026 -\
@@ -247,8 +255,9 @@
     \ which removes any assumptions about \u2026 It then demonstrates simulation-based\
     \ inference on the problem of source location \u2026"
   journal: meetingorganizer.copernicus.org
+  doi: https://meetingorganizer.copernicus.org/EGU23/EGU23-7939.html
 - id: 18
-  created_at: 2023-04-26 10:09:28.731581
+  created_at: 2023-06-16 12:39:04.141439
   published_on: 2023-02-22
   title: Estimation of erosion rate parameters from neural network inverse modeling
     of river profile and thermo-geochronology data
@@ -259,8 +268,9 @@
     \ \"Simulation-Based Inference\" to resolve unknown parameters such as uplift\
     \ or erodibility of the different \u2026"
   journal: meetingorganizer.copernicus.org
+  doi: https://meetingorganizer.copernicus.org/EGU23/EGU23-4903.html
 - id: 19
-  created_at: 2023-04-26 10:09:29.861923
+  created_at: 2023-06-16 12:39:07.896833
   published_on: 2023-02-22
   title: Radar forward modelling as a precursor for statistical inference
   publication_info_summary: LS Muhle, G Moss, ACJ Henry, R Drews - 2023 - meetingorganizer.copernicus.org
@@ -269,8 +279,9 @@
     \ to train a machine learning workflow (likely simulation-based inference) to\
     \ extract radar attributes \u2026"
   journal: meetingorganizer.copernicus.org
+  doi: https://meetingorganizer.copernicus.org/EGU23/EGU23-12495.html
 - id: 20
-  created_at: 2023-04-26 10:09:30.817749
+  created_at: 2023-06-16 12:39:12.371193
   published_on: 2023-02-17
   title: 'JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models'
   authors: "Stefan T. Radev, Marvin Schmitt, Valentin Pratz, Umberto Picchini, Ullrich\
@@ -282,13 +293,13 @@
     \ functions and posterior densities arising in Bayesian surrogate modeling and\
     \ simulation-based inference. \u2026"
   journal: arxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=9889389963876965867&as_sdt=5,36&sciodt=0,36&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=9889389963876965867&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   arxiv_id: '2302.09125'
   arxiv_category_tag: cs.LG
   category: Computer Science
 - id: 21
-  created_at: 2023-04-26 10:09:32.928077
-  published_on: 2023-02-13
+  created_at: 2023-06-16 12:39:16.129871
+  published_on: 2023-02-14
   title: 'swyft: Scientific simulation-based inference at scale'
   publication_info_summary: "B Miller, A Cole, C Weniger, F Nattino\u2026 - Astrophysics\
     \ \u2026, 2023 - ui.adsabs.harvard.edu"
@@ -297,11 +308,11 @@
     \ Bayesian parameter inference technique for complex simulation data. The code\
     \ improves \u2026"
   journal: ui.adsabs.harvard.edu
+  doi: https://ui.adsabs.harvard.edu/abs/2023ascl.soft02016M/abstract
 - id: 22
-  created_at: 2023-04-26 10:09:33.824378
+  created_at: 2023-06-16 12:39:19.886238
   published_on: 2023-02-11
   title: Simulation-based inference of single-molecule force spectroscopy
-  authors: Lars Dingeldein, Pilar Cossio, Roberto Covino
   publication_info_summary: R Covino, P Cossio, L Dingeldein - Biophysical Journal,
     2023 - cell.com
   link: https://www.cell.com/biophysj/pdf/S0006-3495(22)01836-7.pdf
@@ -309,11 +320,9 @@
     \ called simulation-based inference (SBI). By encoding a parametric mechanistic\
     \ model into a simulator \u2026"
   journal: cell.com
-  arxiv_id: '2209.10392'
-  category: Physics
-  doi: 10.1088/2632-2153/acc8b8
+  doi: https://www.cell.com/biophysj/pdf/S0006-3495(22)01836-7.pdf
 - id: 23
-  created_at: 2023-04-26 10:09:34.958759
+  created_at: 2023-06-16 12:39:24.383834
   published_on: 2023-02-06
   title: Sampling-Based Accuracy Testing of Posterior Estimators for General Inference
   authors: Pablo Lemos, Adam Coogan, Yashar Hezaveh, Laurence Perreault-Levasseur
@@ -324,7 +333,7 @@
     \ methods such as Markov Chain Monte Carlo, both for likelihood-based and simulation-based\
     \ inference. \u2026"
   journal: arxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=7010707496353533455&as_sdt=5,36&sciodt=0,36&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=7010707496353533455&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   arxiv_id: '2302.03026'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -1348,7 +1357,7 @@
     \ is intractable. \u2026"
   journal: ui.adsabs.harvard.edu
 - id: 107
-  created_at: 2023-04-26 18:19:10.025186
+  created_at: 2023-06-16 12:37:33.927212
   published_on: 2023-04-21
   title: Balancing Simulation-based Inference for Conservative Posteriors
   authors: "Arnaud Delaunoy, Benjamin Kurt Miller, Patrick Forr\xE9, Christoph Weniger,\
@@ -1360,12 +1369,13 @@
     \ It has been shown that commonly used algorithms can produce overconfident posterior\
     \ \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=6096852839922274420&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   arxiv_id: '2304.10978'
   arxiv_category_tag: stat.ML
   category: Statistics
 - id: 109
-  created_at: 2023-05-06 12:16:12.222452
-  published_on: 2023-05-03
+  created_at: 2023-06-16 12:37:21.918039
+  published_on: 2023-05-04
   title: "3.10 Simulation Based Analysis of Social Systems\u2013Models, Data and Policy"
   publication_info_summary: "M Lees - Computer Science Methods for Effective and \u2026\
     , 2023 - drops.dagstuhl.de"
@@ -1374,8 +1384,9 @@
     \ how novel calibration methods offer promising solutions to calibrate city-scale\
     \ models of social \u2026"
   journal: drops.dagstuhl.de
+  doi: https://drops.dagstuhl.de/opus/volltexte/dagrep-complete/2022/dagrep-v012-i010-complete.pdf#page=18
 - id: 110
-  created_at: 2023-05-10 01:22:34.502781
+  created_at: 2023-06-16 12:37:18.174041
   published_on: 2023-05-04
   title: The angular power spectrum of gravitational-wave transient sources as a probe
     of the large-scale structure
@@ -1388,12 +1399,12 @@
     \ the angular power spectrum of the distribution of foreground gravitational-wave\
     \ transient events. As a \u2026"
   journal: arxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=988054112449157708&as_sdt=5,36&sciodt=0,36&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=988054112449157708&as_sdt=4000005&sciodt=0,18&hl=en&num=20
   arxiv_id: '2305.02652'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
 - id: 111
-  created_at: 2023-05-10 01:22:34.509246
+  created_at: 2023-06-16 12:37:25.679928
   published_on: 2023-04-27
   title: 'AI Seminar: Machine Learning Powered Inference in Cosmology'
   publication_info_summary: TV Kristensen - 2023 - ai.ku.dk
@@ -1402,10 +1413,9 @@
     \ on techniques traditionally used in the field, such as simulation-based inference,\
     \ and stochastic control \u2026"
   journal: ai.ku.dk
-  arxiv_id: ''
   doi: https://ai.ku.dk/events/ai-seminar-machine-learning-powered-inference-in-cosmology/
 - id: 114
-  created_at: 2023-05-22 16:23:42.744792
+  created_at: 2023-06-16 12:37:13.744816
   published_on: 2023-05-08
   title: ATLAS data analysis using a parallelized workflow on distributed cloud-based
     services with GPUs
@@ -11747,7 +11757,7 @@
   citation_backlink: https://scholar.google.com/scholar?cites=12762485340581241026&as_sdt=2005&sciodt=0,5&hl=en&num=20
   doi: http://www.isi-stats.com/isi/presentations/ICOTS2018-6.pdf
 - id: 961
-  created_at: 2023-05-22 21:29:45.373201
+  created_at: 2023-06-16 12:37:10.003490
   published_on: 2023-05-10
   title: 'The cosmic graph: optimal information extraction from large-scale structure
     using catalogues'
@@ -11758,8 +11768,8 @@
     \ inference\u2026"
   doi: https://spiral.imperial.ac.uk/handle/10044/1/101619
 - id: 962
-  created_at: 2023-05-22 21:36:42.730411
-  published_on: 2023-04-25
+  created_at: 2023-06-16 12:37:29.484037
+  published_on: 2023-04-26
   title: Investigating model misspecification in simulation-based inference
   publication_info_summary: "PLC Rodrigues, I Statify, MN Arbel, I Thoth, F Forbes\u2026\
     \ - plcrodrigues.github.io"
@@ -11792,7 +11802,7 @@
   journal: The Pudding
   category: Musicology
 - id: 970
-  created_at: 2023-06-02 15:59:32.323215
+  created_at: 2023-06-16 12:36:43.967144
   published_on: 2023-05-29
   title: 'Neural Posterior Estimation with guaranteed exact coverage: the ringdown
     of GW150914'
@@ -11808,7 +11818,7 @@
   arxiv_category_tag: gr-qc
   category: Physics
 - id: 971
-  created_at: 2023-06-02 15:59:37.771741
+  created_at: 2023-06-16 12:36:48.430199
   published_on: 2023-05-26
   title: Flow Matching for Scalable Simulation-Based Inference
   authors: "Maximilian Dax, Jonas Wildberger, Simon Buchholz, Stephen R. Green, Jakob\
@@ -11824,7 +11834,7 @@
   arxiv_category_tag: cs.LG
   category: Computer Science
 - id: 972
-  created_at: 2023-06-02 15:59:43.502292
+  created_at: 2023-06-16 12:36:52.897380
   published_on: 2023-05-25
   title: Learning Robust Statistics for Simulation-based Inference under Model Misspecification
   authors: Daolang Huang, Ayush Bharti, Amauri Souza, Luigi Acerbi, Samuel Kaski
@@ -11839,7 +11849,7 @@
   arxiv_category_tag: stat.ML
   category: Statistics
 - id: 973
-  created_at: 2023-06-02 15:59:48.655780
+  created_at: 2023-06-16 12:36:57.351665
   published_on: 2023-05-24
   title: Simultaneous identification of models and parameters of scientific simulators
   authors: "Cornelius Schr\xF6der, Jakob H. Macke"
@@ -11854,7 +11864,7 @@
   arxiv_category_tag: cs.LG
   category: Computer Science
 - id: 974
-  created_at: 2023-06-02 15:59:53.899895
+  created_at: 2023-06-16 12:37:01.831340
   published_on: 2023-05-24
   title: Generalized Bayesian Inference for Scientific Simulators via Amortized Cost
     Estimation
@@ -11870,7 +11880,7 @@
   arxiv_category_tag: stat.ML
   category: Statistics
 - id: 975
-  created_at: 2023-06-02 15:59:59.612817
+  created_at: 2023-06-16 12:37:06.257946
   published_on: 2023-05-23
   title: Variational Inference with Coverage Guarantees
   authors: Yash Patel, Declan McNamara, Jackson Loper, Jeffrey Regier, Ambuj Tewari
@@ -11885,24 +11895,20 @@
   arxiv_category_tag: stat.ME
   category: Statistics
 - id: 976
-  created_at: 2023-06-08 12:23:48.597160
+  created_at: 2023-06-16 12:36:39.503590
   published_on: 2023-06-01
   title: 'ERGO-ML: Towards a robust machine learning model for inferring the fraction
     of accreted stars in galaxies from integral-field spectroscopic maps'
-  authors: "Eirini Angeloudi, Jes\xFAs Falc\xF3n-Barroso, Marc Huertas-Company, Regina\
-    \ Sarmiento, Annalisa Pillepich, Daniel Walo-Mart\xEDn, Lukas Eisert"
-  publication_info_summary: "E Angeloudi, J Falc\xF3n-Barroso\u2026 - arXiv preprint\
-    \ arXiv \u2026, 2023 - arxiv.org"
-  link: https://arxiv.org/abs/2306.01056
+  publication_info_summary: "E Angeloudi, J Falc\xF3n-Barroso\u2026 - Monthly Notices\
+    \ of \u2026, 2023 - academic.oup.com"
+  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad1669/7191269
   snippet: "\u2026 We study the robustness of a simulation-based inference of the\
     \ ex-situ stellar mass fraction of nearby galaxies to different observables \u2013\
     \ integrated and spatially-resolved \u2026"
-  journal: arxiv.org
-  arxiv_id: '2306.01056'
-  arxiv_category_tag: astro-ph.GA
-  category: Astrophysics
+  journal: academic.oup.com
+  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad1669/7191269
 - id: 977
-  created_at: 2023-06-12 15:03:40.120306
+  created_at: 2023-06-16 12:36:26.789376
   published_on: 2023-06-08
   title: Estimating the Spatial Dynamics of Plant Recruitment using Approximate Bayesian
     Computation
@@ -11914,7 +11920,7 @@
   journal: macsphere.mcmaster.ca
   doi: https://macsphere.mcmaster.ca/handle/11375/28626
 - id: 978
-  created_at: 2023-06-12 15:03:44.565704
+  created_at: 2023-06-16 12:36:35.761899
   published_on: 2023-06-06
   title: 'L-C2ST: Local Diagnostics for Posterior Approximations in Simulation-Based
     Inference'
@@ -11930,7 +11936,7 @@
   arxiv_category_tag: stat.ML
   category: Statistics
 - id: 979
-  created_at: 2023-06-15 12:36:19.817745
+  created_at: 2023-06-16 12:36:23.047676
   published_on: 2023-06-10
   title: 'Albatross: Stellar stream parameter inference with neural ratio estimation'
   publication_info_summary: "J Alvey, M Gerdes, C Weniger - Astrophysics Source Code\
