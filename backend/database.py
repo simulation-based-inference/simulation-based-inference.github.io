@@ -87,7 +87,7 @@ def write_papers(papers: list[Union[Paper, dict]]) -> None:
         papers = [paper.dict(exclude_none=True) for paper in papers]
 
     with open(PAPERS_YAML, "w") as f:
-        print("Updating YAML database...")
+        print(f"Updating YAML database: {PAPERS_YAML}...")
         yaml.dump(papers, f, sort_keys=False)
 
 
