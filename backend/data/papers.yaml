@@ -41,7 +41,7 @@
     \ framework for analyzing galaxy clustering using simulation-based inference.\
     \ In this work, we \u2026"
   journal: iopscience.iop.org
-  citation_backlink: https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=400005&sciodt=0,14&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=80005&sciodt=0,11&hl=en&num=20
   category: Astrophysics
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2023/04/010/meta
 - id: 4
@@ -7889,7 +7889,7 @@
     \ inverse parameter estimation, can \u2026"
   journal: Citeseer
   citation_backlink: https://scholar.google.com/scholar?cites=4741382632537829191&as_sdt=2005&sciodt=0,5&hl=en&num=20
-  category: Mathematical
+  category: Mathematics
   doi: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b524e87fb56fb60bd8a4c04cb28a20e7313667b9
 - id: 621
   created_at: 2023-05-22 16:57:01.521854
