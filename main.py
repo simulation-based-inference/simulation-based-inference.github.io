@@ -3,12 +3,14 @@ import argparse
 import logging
 from backend.api import query_arxiv, query_serp, query_biorxiv
 from backend.post_maker import remake_all_posts
-from backend.database import insert_paper, Paper, get_paper, update_paper
+from backend.database import insert_paper, Paper, get_paper, update_paper, get_papers
+from backend.guess_category import Guesser
 
 logging.basicConfig(level=logging.DEBUG)
 
 
 SEARCH_TERM = '"simulation-based+inference"'
+CATEGORY_GUESSER = Guesser()
 
 
 def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
@@ -47,6 +49,11 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
             else:
                 insert_paper(paper)
 
+            # Append guessed category
+            if paper.category is None:
+                paper.category = CATEGORY_GUESSER.guess(paper.id, paper.title)
+                update_paper(paper)
+
             # Update delta
             delta = datetime.datetime.now() - result["published_on"].replace(
                 tzinfo=None
@@ -64,6 +71,13 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
             break
 
 
+def update_manual_category_group() -> None:
+    """Update the manual category group in the database."""
+
+    papers = get_papers()
+    CATEGORY_GUESSER.regenerate_categories(papers)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--crawl", action="store_true")
@@ -72,4 +86,5 @@ if __name__ == "__main__":
     if args.crawl:
         crawl(SEARCH_TERM, stop_days=90)
 
+    update_manual_category_group()  # Make sure changes made to guess_category_group.json are reflected in the database
     remake_all_posts()

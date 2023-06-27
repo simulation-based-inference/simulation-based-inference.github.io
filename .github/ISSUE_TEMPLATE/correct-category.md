@@ -6,8 +6,6 @@ labels: ''
 assignees: ''
 
 ---
-Paper title:
-
 Among these available [categories](https://arxiv.org/category_taxonomy), which category should this paper belongs? Please suggest one and only one category below.
 
 - "cs": "Computer Science",
