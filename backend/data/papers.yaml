@@ -2333,6 +2333,7 @@
     \ extend to these more complicated \u2026"
   journal: nature.com
   citation_backlink: https://scholar.google.com/scholar?cites=4864613241366748869&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Epidemiology
   doi: https://www.nature.com/articles/s41598-022-25018-3
 - id: 194
   created_at: 2023-05-22 16:55:06.535832
@@ -2589,6 +2590,7 @@
     \ inference\u201D (SBI) has been gaining in popularity in \u2026"
   journal: iase-web.org
   citation_backlink: https://scholar.google.com/scholar?cites=8724779173309933016&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Education
   doi: https://iase-web.org/icots/10/proceedings/pdfs/ICOTS10_C177.pdf
 - id: 214
   created_at: 2023-05-22 16:55:12.408627
@@ -3559,6 +3561,7 @@
     \ dark matter-induced gravitational \u2026"
   journal: iopscience.iop.org
   citation_backlink: https://scholar.google.com/scholar?cites=10875271906517967859&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Astrophysics
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/ac494a/meta
 - id: 294
   created_at: 2023-05-22 16:55:37.786063
@@ -5084,6 +5087,7 @@
     \ chain Monte Carlo methods) was not mentioned. Computational advances have made\
     \ it possible to draw inferences for \u2026"
   journal: ncbi.nlm.nih.gov
+  category: Statistics
   doi: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4062083/
 - id: 411
   created_at: 2023-05-22 16:56:09.897850
@@ -5712,6 +5716,7 @@
     \ is based on a Markov chain \u2026"
   journal: Elsevier
   citation_backlink: https://scholar.google.com/scholar?cites=757191850279118333&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Statistics
   doi: https://www.sciencedirect.com/science/article/pii/S0167947304001616
 - id: 455
   created_at: 2023-05-22 16:56:24.383968
@@ -6411,6 +6416,7 @@
     \ Roberto \u2026 of likelihood-free inference methods called simulation-based\
     \ inference (SBI). By encoding a \u2026"
   journal: cell.com
+  category: Quantitative Biology
   doi: https://www.cell.com/biophysj/pdf/S0006-3495(22)01831-8.pdf
 - id: 509
   created_at: 2023-05-22 16:56:41.226796
@@ -6604,6 +6610,7 @@
     \ inference approach balances the benefits of \u2026"
   journal: Elsevier
   citation_backlink: https://scholar.google.com/scholar?cites=8163780911785871048&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Engineering
   doi: https://www.sciencedirect.com/science/article/pii/S0306261920306073
 - id: 523
   created_at: 2023-05-22 16:56:45.235550
@@ -8337,6 +8344,7 @@
     \ activity theory and behavioral dynamics through simulation-based inference into\
     \ the transportation domain. \u2026"
   journal: search.proquest.com
+  category: Engineering
   doi: https://search.proquest.com/openview/6277dc21825f785450319d4a5500c969/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 658
   created_at: 2023-05-22 16:57:07.604799
@@ -9850,6 +9858,7 @@
     \ to mention just a few. \u2026"
   journal: Wiley Online Library
   citation_backlink: https://scholar.google.com/scholar?cites=1174452097378577255&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Statistics
   doi: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9574.2004.00266.x
 - id: 766
   created_at: 2023-05-22 16:57:42.757313
@@ -10402,6 +10411,7 @@
     \ healthy and AD groups. Global \u2026 By combining neuropsychological BNMs with\
     \ simulation-based inference, we are able to \u2026"
   journal: medrxiv.org
+  category: Neuroscience
   doi: https://www.medrxiv.org/content/10.1101/2023.01.11.23284438
 - id: 806
   created_at: 2023-05-22 16:57:51.172590
@@ -10750,6 +10760,7 @@
     \ auxiliary model, which is some-\u2026"
   journal: papers.ssrn.com
   citation_backlink: https://scholar.google.com/scholar?cites=12810553133636149565&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Statistics
   doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1986419
 - id: 831
   created_at: 2023-05-22 16:57:56.189327
@@ -10777,6 +10788,7 @@
     \ and visualized the results. MvK \u2026"
   journal: nature.com
   citation_backlink: https://scholar.google.com/scholar?cites=18217517799571834425&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Cognitive Science
   doi: https://www.nature.com/articles/s41562-021-01282-7
 - id: 833
   created_at: 2023-05-22 16:57:56.271396
@@ -11376,6 +11388,7 @@
     \ for simulation\u2013 based inference in \u2026"
   journal: Springer
   citation_backlink: https://scholar.google.com/scholar?cites=8075448290544912062&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Statistics
   doi: https://link.springer.com/article/10.1007/s11222-008-9108-5
 - id: 879
   created_at: 2023-05-22 16:58:08.311305
