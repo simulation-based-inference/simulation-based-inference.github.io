@@ -62,6 +62,7 @@ class Guesser:
 
     GUESS_JSON = "backend/data/guess_category_inference.json"
     GROUP_JSON = "backend/data/guess_category_group.json"
+    OVERRIDE_JSON = "backend/data/category_override.json"
 
     def __init__(self):
         with open(self.GROUP_JSON, "r") as f:
@@ -70,9 +71,13 @@ class Guesser:
         with open(self.GUESS_JSON, "r") as f:
             self.guesses = json.load(f)
 
+        with open(self.OVERRIDE_JSON, "r") as f:
+            self.override = json.load(f)
+
     def guess(self, id: int, title: str) -> str | None:
         """Guess and log the category group."""
 
+        id = str(id)
         if id in self.guesses:
             logging.info("Using cached guess")
             guess = self.guesses[id]
@@ -98,9 +103,15 @@ class Guesser:
         """Regenerate all guessed categories (for updating manual group label)."""
 
         for paper in tqdm(papers):
-            # Only guess if the category is not already set
-            if paper.id in self.guesses:
+            # Top priority is the override
+            if str(paper.id) in self.override:
+                paper.category = self.override[str(paper.id)]
+                continue
+
+            # Then, guess if the category is not already set
+            if str(paper.id) in self.guesses:
                 paper.category = self.guess(paper.id, paper.title)
+
         write_papers(papers)
 
 
