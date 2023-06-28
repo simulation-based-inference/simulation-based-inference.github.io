@@ -11,14 +11,18 @@
         "eess",
         "endraw",
         "ipynb",
+        "lampe",
         "markdownify",
         "nlin",
         "nucl",
         "pycache",
         "pydantic",
+        "pydelfi",
         "scisbd",
         "SERP",
         "serpapi",
+        "swyft",
+        "TMNRE",
         "Uncategorized"
     ],
     "githubPullRequests.ignoredPullRequestBranches": [
