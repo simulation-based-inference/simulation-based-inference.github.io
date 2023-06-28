@@ -51,7 +51,9 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
 
             # Append guessed category
             if paper.category is None:
-                paper.category = CATEGORY_GUESSER.guess(paper.id, paper.title)
+                paper.category = CATEGORY_GUESSER.guess(
+                    paper.id, paper.title, paper.publication_info_summary
+                )
                 update_paper(paper)
 
             # Update delta

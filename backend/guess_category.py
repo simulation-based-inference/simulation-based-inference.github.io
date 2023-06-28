@@ -40,12 +40,12 @@ def post_process_guesses(guess: str) -> str:
     return guess.strip()
 
 
-def guess_category(title: str) -> str:
+def guess_category(title: str, info: str) -> str:
     """Guess category with OpenAI."""
 
     openai.api_key = os.getenv("OPENAI_API_KEY")
-    instruction = "Given a journal article title, predict a subject category. Only provide one category, if you are not sure, just return 'uncertain'."
-    prompt = f"Title: {title}"
+    instruction = "Given a journal article predict a subject category. Only provide one category, if you are not sure, just return 'uncertain'."
+    prompt = f"Title: {title} Info: {info}"
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -74,7 +74,7 @@ class Guesser:
         with open(self.OVERRIDE_JSON, "r") as f:
             self.override = json.load(f)
 
-    def guess(self, id: int, title: str) -> str | None:
+    def guess(self, id: int, title: str, info: str) -> str | None:
         """Guess and log the category group."""
 
         id = str(id)
@@ -82,7 +82,7 @@ class Guesser:
             logging.info("Using cached guess")
             guess = self.guesses[id]
         else:
-            guess = guess_category(title)
+            guess = guess_category(title, info)
             self.guesses[id] = guess
             with open(self.GUESS_JSON, "w") as f:
                 json.dump(self.guesses, f, indent=4)
@@ -128,7 +128,7 @@ def _test_guesses() -> Tuple[dict, dict, dict]:
         try:
             real_categories[paper["id"]] = paper["category"]
             results[paper["id"]] = (
-                guess_category(paper["title"])
+                guess_category(paper["title"], paper["publication_info_summary"])
                 .removeprefix("subject category: ")
                 .removeprefix("subject categories: ")
                 .removesuffix(".")
