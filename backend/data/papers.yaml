@@ -12727,3 +12727,97 @@
   arxiv_id: '2306.12584'
   arxiv_category_tag: stat.ML
   category: Statistics
+- id: 984
+  created_at: 2023-06-27 21:26:46.958077
+  published_on: 2023-01-27
+  title: Optimally-Weighted Estimators of the Maximum Mean Discrepancy for Likelihood-Free
+    Inference
+  authors: "Ayush Bharti, Masha Naslidnyk, Oscar Key, Samuel Kaski, Fran\xE7ois-Xavier\
+    \ Briol"
+  publication_info_summary: "A Bharti, M Naslidnyk, O Key, S Kaski\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2301.11674
+  snippet: "Likelihood-free inference methods typically make use of a distance between\
+    \ simulated and real data. A common example is the maximum mean discrepancy (MMD),\
+    \ which has previously been used for approximate Bayesian computation, minimum\
+    \ distance estimation, generalised Bayesian inference, and within the nonparametric\
+    \ learning framework. The MMD is commonly estimated at a root-$ m $ rate, where\
+    \ $ m $ is the number of simulated samples. This can lead to significant computational\
+    \ challenges since a large \u2026"
+  journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=18148207035085053295&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  arxiv_id: '2301.11674'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 985
+  created_at: 2023-06-27 21:27:00.797416
+  published_on: 2022-10-10
+  title: 'Sequential Neural Score Estimation: Likelihood-Free Inference with Conditional
+    Score Based Diffusion Models'
+  authors: Louis Sharrock, Jack Simons, Song Liu, Mark Beaumont
+  publication_info_summary: "L Sharrock, J Simons, S Liu, M Beaumont - arXiv preprint\
+    \ arXiv \u2026, 2022 - arxiv.org"
+  link: https://arxiv.org/abs/2210.04872
+  snippet: "We introduce Sequential Neural Posterior Score Estimation (SNPSE) and\
+    \ Sequential Neural Likelihood Score Estimation (SNLSE), two new score-based methods\
+    \ for Bayesian inference in simulator-based models. Our methods, inspired by the\
+    \ success of score-based methods in generative modelling, leverage conditional\
+    \ score-based diffusion models to generate samples from the posterior distribution\
+    \ of interest. These models can be trained using one of two possible objective\
+    \ functions, one of which approximates the score \u2026"
+  journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=7118558091020695604&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  arxiv_id: '2210.04872'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 986
+  created_at: 2023-06-27 21:31:58.713310
+  published_on: 2022-01-01
+  title: Approximate Bayesian Computation with Domain Expert in the Loop
+  publication_info_summary: "A Bharti, L Filstroff, S Kaski - International Conference\
+    \ on \u2026, 2022 - proceedings.mlr.press"
+  link: https://proceedings.mlr.press/v162/bharti22a.html
+  snippet: "Approximate Bayesian computation (ABC) is a popular likelihood-free inference\
+    \ method for models with intractable likelihood functions. As ABC methods usually\
+    \ rely on comparing summary statistics of observed and simulated data, the choice\
+    \ of the statistics is crucial. This choice involves a trade-off between loss\
+    \ of information and dimensionality reduction, and is often determined based on\
+    \ domain knowledge. However, handcrafting and selecting suitable statistics is\
+    \ a laborious task involving multiple trial-and-error steps. In this work, we\
+    \ \u2026"
+  journal: proceedings.mlr.press
+  citation_backlink: https://scholar.google.com/scholar?cites=17515613516089862675&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Statistics
+  doi: https://proceedings.mlr.press/62/bharti22a.html
+- id: 987
+  created_at: 2023-06-27 21:32:35.180050
+  published_on: 2022-01-01
+  title: Bayesian stokes inversion with normalizing flows
+  publication_info_summary: "CJD Baso, AA Ramos\u2026 - Astronomy & \u2026, 2022 -\
+    \ aanda.org"
+  link: https://www.aanda.org/articles/aa/abs/2022/03/aa42018-21/aa42018-21.html
+  snippet: "Stokes inversion techniques are very powerful methods for obtaining information\
+    \ on the thermodynamic and magnetic properties of solar and stellar atmospheres.\
+    \ In recent years, highly sophisticated inversion codes have been developed that\
+    \ are now routinely applied to spectro-polarimetric observations. Most of these\
+    \ inversion codes are designed to find an optimum solution to the nonlinear inverse\
+    \ problem. However, to obtain the location of potentially multimodal cases (ambiguities),\
+    \ the degeneracies and the uncertainties of each \u2026"
+  journal: aanda.org
+  citation_backlink: https://scholar.google.com/scholar?cites=43789689725012083&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  category: Mathematics
+  doi: https://www.aanda.org/articles/aa/abs/2022/03/aa42018-21/aa42018-21.html
+- id: 988
+  created_at: 2023-06-27 21:44:40.622706
+  published_on: 2022-01-01
+  title: Approximate Bayesian neural Doppler imaging
+  publication_info_summary: AA Ramos, CJD Baso, O Kochukhov - Astronomy & Astrophysics,
+    2022 - aanda.org
+  link: https://www.aanda.org/articles/aa/full_html/2022/02/aa42027-21/aa42027-21.html
+  snippet: "Aims. The non-uniform surface temperature distribution of rotating active\
+    \ stars is routinely mapped with the Doppler imaging technique. Inhomogeneities\
+    \ in the surface produce features \u2026"
+  journal: aanda.org
+  citation_backlink: https://scholar.google.com/scholar?cites=14797826573721894262&as_sdt=2005&sciodt=0,5&hl=en&num=20
+  category: Neuroscience
+  doi: https://www.aanda.org/articles/aa/full_html/2022/02/aa42027-21/aa42027-21.html
