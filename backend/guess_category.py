@@ -110,7 +110,9 @@ class Guesser:
 
             # Then, guess if the category is not already set
             if str(paper.id) in self.guesses:
-                paper.category = self.guess(paper.id, paper.title)
+                paper.category = self.guess(
+                    paper.id, paper.title, paper.publication_info_summary
+                )
 
         write_papers(papers)
 
