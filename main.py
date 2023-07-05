@@ -43,21 +43,19 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
             paper = Paper(**result)
             paper_from_db = get_paper(title=paper.title)
 
+            # Append guessed category
+            if paper.category is None:
+                paper.category = CATEGORY_GUESSER.guess(paper.id, paper.title)
+
             if paper_from_db:
                 paper.id = paper_from_db.id
+                paper.created_at = paper_from_db.created_at
                 update_paper(paper)
             else:
                 insert_paper(paper)
 
-            # Append guessed category
-            if paper.category is None:
-                paper.category = CATEGORY_GUESSER.guess(paper.id, paper.title)
-                update_paper(paper)
-
             # Update delta
-            delta = datetime.datetime.now() - result["published_on"].replace(
-                tzinfo=None
-            )
+            delta = datetime.datetime.now().date() - paper.published_on
 
         # Only use the search term on the first SERP API query, use next_url for the rest
         term = None
