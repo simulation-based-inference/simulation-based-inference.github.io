@@ -27,16 +27,16 @@ class Paper(BaseModel):
     created_at: datetime = Field(default_factory=datetime.now)
     published_on: date
     title: str
-    authors: Optional[str]
+    authors: Optional[str] = None
     publication_info_summary: str
     link: str
     snippet: str
-    journal: Optional[str]
-    citation_backlink: Optional[str]
-    arxiv_id: Optional[str]
-    arxiv_category_tag: Optional[str]
-    category: Optional[str]
-    doi: Optional[str]
+    journal: Optional[str] = None
+    citation_backlink: Optional[str] = None
+    arxiv_id: Optional[str] = None
+    arxiv_category_tag: Optional[str] = None
+    category: Optional[str] = None
+    doi: Optional[str] = None
 
     # Data validations (to make sure front-end doesn't break)
     @validator("published_on")
@@ -126,7 +126,7 @@ def insert_paper(paper: Union[dict, Paper]) -> None:
     """Write the result to the YAML database."""
 
     if isinstance(paper, Paper):
-        paper = paper.dict(exclude_none=True)
+        paper = paper.model_dump(exclude_none=True)
 
     papers = get_papers(as_dict=True)
     papers.append(paper)
@@ -143,7 +143,7 @@ def update_paper(paper: Paper) -> None:
     found = False
     for p in papers:
         if p["id"] == paper.id:
-            updated = paper.dict(exclude_none=True)
+            updated = paper.model_dump(exclude_none=True)
             print(updated)
             new_papers.append(updated)
             found = True

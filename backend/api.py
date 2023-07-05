@@ -122,7 +122,7 @@ def query_arxiv(arxiv_id: str) -> arxiv.Result:
         "doi": result.doi,
         "arxiv_category_tag": result.primary_category,
         "category": to_category(result.primary_category),
-        "published_on": result.published,
+        "published_on": result.published.date(),
         "title": result.title,
     }
 
@@ -151,9 +151,10 @@ def format_serp_result(result: dict) -> dict:
         published_on = datetime.datetime.now() - datetime.timedelta(
             days=days_since_added
         )
+        published_on = published_on.date()
     else:
         snippet = result["snippet"]
-        published_on = datetime.datetime(year_of_publication, 1, 1)
+        published_on = datetime.date(year_of_publication, 1, 1)
 
     try:
         citation_backlink = result["inline_links"]["cited_by"]["link"]
