@@ -84,7 +84,7 @@ def write_papers(papers: list[Union[Paper, dict]]) -> None:
     """Write the papers to the YAML database."""
 
     if isinstance(papers[0], Paper):
-        papers = [paper.dict(exclude_none=True) for paper in papers]
+        papers = [paper.model_dump(exclude_none=True) for paper in papers]
 
     with open(PAPERS_YAML, "w") as f:
         print(f"Updating YAML database: {PAPERS_YAML}...")

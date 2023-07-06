@@ -127,6 +127,21 @@ def query_arxiv(arxiv_id: str) -> arxiv.Result:
     }
 
 
+def format_backlink(url: str) -> str:
+    """Format citation backlink obtained from SERP API."""
+
+    if not url:
+        return None
+
+    # Non-google scholar link returns as is
+    if not "scholar.google" in url:
+        return url
+
+    # Google scholar link remove junks
+    splitted = url.split("&as_sdt")
+    return splitted[0]
+
+
 def format_serp_result(result: dict) -> dict:
     """Format the SERP API results."""
 
@@ -158,6 +173,7 @@ def format_serp_result(result: dict) -> dict:
 
     try:
         citation_backlink = result["inline_links"]["cited_by"]["link"]
+        citation_backlink = format_backlink(citation_backlink)
     except KeyError:
         citation_backlink = None
 
