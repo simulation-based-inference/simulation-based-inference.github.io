@@ -11,7 +11,7 @@
     \ an approach to perform Bayesian inference to estimate parameters in detailed\
     \ neural models. SBI \u2026"
   journal: biorxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=5565541295098586319&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=5565541295098586319&as_sdt=5,34&sciodt=0,34&hl=en&num=20
   category: Neuroscience
   doi: 10.1101/2023.04.17.537118
 - id: 2
@@ -41,7 +41,7 @@
     \ framework for analyzing galaxy clustering using simulation-based inference.\
     \ In this work, we \u2026"
   journal: iopscience.iop.org
-  citation_backlink: https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=1204951877132903978&as_sdt=5,34&sciodt=0,34&hl=en&num=20
   category: Astrophysics
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2023/04/010/meta
 - id: 4
@@ -89,7 +89,7 @@
     \ simulation-based inference approach designed to study broad classes of gravitational\
     \ wave signal\u2026"
   journal: arxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=13895659792990643892&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=13895659792990643892&as_sdt=5,34&sciodt=0,34&hl=en&num=20
   arxiv_id: '2304.02035'
   arxiv_category_tag: gr-qc
   category: Physics
@@ -135,7 +135,7 @@
     \ inference to account for the whole error budget. We used the X-COP cluster sample\
     \ to individually \u2026"
   journal: aanda.org
-  citation_backlink: https://scholar.google.com/scholar?cites=17554045131362085212&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=17554045131362085212&as_sdt=5,34&sciodt=0,34&hl=en&num=20
   category: Astrophysics
   doi: https://www.aanda.org/articles/aa/pdf/forth/aa45779-22.pdf
 - id: 10
@@ -168,7 +168,7 @@
     \ and flexibility of the simulation-based inference methods. We \u2026 of a simulation-based\
     \ inference method based on \u2026"
   journal: biorxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=10087386736943123190&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=10087386736943123190&as_sdt=5,34&sciodt=0,34&hl=en&num=20
   category: Bioinformatics
   doi: 10.1101/2023.03.06.531327
 - id: 12
@@ -185,7 +185,7 @@
     \ inference and event generation, high-granularity detector simulation such as\
     \ at the HL-LHC (High \u2026"
   journal: arxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=1693599676799815557&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=1693599676799815557&as_sdt=5,34&sciodt=0,34&hl=en&num=20
   arxiv_id: '2303.08046'
   arxiv_category_tag: physics.ins-det
   category: Physics
@@ -1417,13 +1417,13 @@
     \ It has been shown that commonly used algorithms can produce overconfident posterior\
     \ \u2026"
   journal: arxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=6096852839922274420&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=6096852839922274420&as_sdt=5,34&sciodt=0,34&hl=en&num=20
   arxiv_id: '2304.10978'
   arxiv_category_tag: stat.ML
   category: Statistics
 - id: 109
   created_at: 2023-06-30 12:41:10.246761
-  published_on: 2023-05-03
+  published_on: 2023-05-04
   title: "3.10 Simulation Based Analysis of Social Systems\u2013Models, Data and Policy"
   publication_info_summary: "M Lees - Computer Science Methods for Effective and \u2026\
     , 2023 - drops.dagstuhl.de"
@@ -1448,7 +1448,7 @@
     \ the angular power spectrum of the distribution of foreground gravitational-wave\
     \ transient events. As a \u2026"
   journal: arxiv.org
-  citation_backlink: https://scholar.google.com/scholar?cites=988054112449157708&as_sdt=5,33&sciodt=0,33&hl=en&num=20
+  citation_backlink: https://scholar.google.com/scholar?cites=988054112449157708&as_sdt=5,34&sciodt=0,34&hl=en&num=20
   arxiv_id: '2305.02652'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -12702,7 +12702,7 @@
   doi: https://openreview.net/forum?id=5Q5wD1sAKj
 - id: 982
   created_at: 2023-06-30 12:40:00.960125
-  published_on: 2023-06-20
+  published_on: 2023-06-21
   title: Parameter Inference for Stochastic Models of Gene Expression in Eukaryotic
     Cells
   publication_info_summary: A Siddiqui - 2023 - diva-portal.org
@@ -12792,7 +12792,7 @@
     \ Simulation-based Inference \u2026 We must make sure our approximate simulation-based\
     \ inference \u2026"
   journal: orbi.uliege.be
-  category: physics - astrophysics
+  category: Astrophysics
   doi: https://orbi.uliege.be/bitstream/2268/304592/2/louppe-edt-stat-actu2023.pdf
 - id: 989
   created_at: 2023-07-05 15:05:49.270884
