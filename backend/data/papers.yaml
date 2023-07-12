@@ -12733,14 +12733,14 @@
   published_on: 2023-07-01
   title: Identifying Advantages to Teaching Linear Regression in a Modeling and Simulation
     Introductory Statistics Curriculum
-  publication_info_summary: KH Clement - 2023 - pdxscholar.library.pdx.edu
-  link: https://pdxscholar.library.pdx.edu/open_access_etds/6428/
+  publication_info_summary: KH Clement - 2023 - search.proquest.com
+  link: https://search.proquest.com/openview/c3517173ed276fe91af80957feb20f65/1?pq-origsite=gscholar&cbl=18750&diss=y
   snippet: "\u2026 statistics curricula is the use of simulation-based inference,\
     \ which has shown positive \u2026 that identify challenges in learning simulation-based\
     \ inference. Based on the \u2026"
-  journal: pdxscholar.library.pdx.edu
+  journal: search.proquest.com
   category: Education
-  doi: https://pdxscholar.library.pdx.edu/open_access_etds/6428/
+  doi: https://search.proquest.com/openview/c3517173ed276fe91af80957feb20f65/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 985
   created_at: 2023-07-05 15:03:37.771936
   published_on: 2023-06-28
@@ -12818,3 +12818,45 @@
     \ (at least) actually realize \u2026"
   journal: orbi.uliege.be
   doi: https://orbi.uliege.be/bitstream/2268/304591/2/louppe-nsn2023.pdf
+- id: 991
+  created_at: 2023-07-12 12:11:23.819050
+  published_on: 2023-07-07
+  title: Exploring the likelihood of the 21-cm power spectrum with simulation-based
+    inference
+  publication_info_summary: "D Prelogovi\u0107, A Mesinger - Monthly Notices of the\
+    \ Royal \u2026, 2023 - academic.oup.com"
+  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2027/7220718
+  snippet: "\u2026 We compare \u201Cclassical\u201D inference that uses an explicit\
+    \ likelihood with simulation based inference (SBI) that estimates the likelihood\
+    \ from a training set. Our forward-models \u2026"
+  journal: academic.oup.com
+  category: Physics
+  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2027/7220718
+- id: 992
+  created_at: 2023-07-12 12:11:28.358206
+  published_on: 2023-07-06
+  title: Amortized Neural Networks for Agent-Based Model Forecasting
+  publication_info_summary: D Koshelev, A Ponomarenko, S Seleznev - 2023 - cbr.ru
+  link: https://www.cbr.ru/StaticHtml/File/149735/WP_115_e.pdf
+  snippet: "\u2026 (2022a)), and although this work is still in progress, the use\
+    \ of simulation-based inference (hereinafter, SBI, see Cranmer et al. (2021))\
+    \ has allowed the achievement of \u2026"
+  journal: cbr.ru
+  category: Computer Science
+  doi: https://www.cbr.ru/StaticHtml/File/149735/WP_115_e.pdf
+- id: 993
+  created_at: 2023-07-12 12:13:55.852099
+  published_on: 2023-04-11
+  title: 'SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical
+    Applications'
+  authors: Bingjie Wang, Joel Leja, V. Ashley Villar, Joshua S. Speagle
+  publication_info_summary: B Wang, J Leja, VA Villar, JS Speagle - arXiv preprint
+    arXiv:2304.05281, 2023 - arxiv.org
+  link: https://arxiv.org/abs/2304.05281
+  snippet: "\u2026 With simulation-based inference (SBI), it is possible to attain\
+    \ complex posterior distributions with the accuracy of traditional methods but\
+    \ with a > 104 increase in speed. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2304.05281'
+  arxiv_category_tag: astro-ph.IM
+  category: Education
