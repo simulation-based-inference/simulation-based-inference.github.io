@@ -12860,3 +12860,20 @@
   arxiv_id: '2304.05281'
   arxiv_category_tag: astro-ph.IM
   category: Education
+- id: 994
+  created_at: 2023-07-15 12:09:08.045066
+  published_on: 2023-07-10
+  title: Fast emulation of anisotropies induced in the cosmic microwave background
+    by cosmic strings
+  authors: Matthew A. Price, Matthijs Mars, Matthew M. Docherty, Alessio Spurio Mancini,
+    Augustin Marignier, Jason. D. McEwen
+  publication_info_summary: "MA Price, M Mars, MM Docherty, AS Mancini\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2307.04798
+  snippet: "\u2026 Our findings indicate these fast emulation approaches may be suitable\
+    \ for wide use in, eg, simulation based inference pipelines. We make our code\
+    \ available to the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2307.04798'
+  arxiv_category_tag: astro-ph.CO
+  category: Astronomy
