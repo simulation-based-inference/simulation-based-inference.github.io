@@ -12877,3 +12877,15 @@
   arxiv_id: '2307.04798'
   arxiv_category_tag: astro-ph.CO
   category: Astronomy
+- id: 995
+  created_at: 2023-07-18 12:10:16.967334
+  published_on: 2023-06-25
+  title: 'Master Thesis: Implicit neural representations for robotic grasping'
+  publication_info_summary: J Gustin - 2023 - matheo.uliege.be
+  link: https://matheo.uliege.be/handle/2268.2/17624
+  snippet: "\u2026 This enables the application of powerful simulation-based inference\
+    \ algorithms to determine plausible and successful grasp poses in unstructured\
+    \ environments. \u2026"
+  journal: matheo.uliege.be
+  category: Physics
+  doi: https://matheo.uliege.be/handle/2268.2/17624
