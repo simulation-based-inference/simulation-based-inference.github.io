@@ -12890,3 +12890,15 @@
   journal: matheo.uliege.be
   category: Physics
   doi: https://matheo.uliege.be/handle/2268.2/17624
+- id: 996
+  created_at: 2023-07-22 12:08:10.288747
+  published_on: 2023-07-18
+  title: Field-Level Simulation-Based Inference of Large-Scale Structure
+  publication_info_summary: L Parker - 2023 - dataspace.princeton.edu
+  link: https://dataspace.princeton.edu/handle/88435/dsp012j62s814w
+  snippet: "\u2026 Simulation-based inference (SBI), which leverages machine learning\
+    \ to approximate likelihood-free posteriors from high-fidelity forward models\
+    \ of the LSS, has already \u2026"
+  journal: dataspace.princeton.edu
+  category: biological sciences
+  doi: https://dataspace.princeton.edu/handle/88435/dsp012j62s814w
