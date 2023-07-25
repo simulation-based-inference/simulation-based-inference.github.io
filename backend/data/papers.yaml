@@ -12902,3 +12902,14 @@
   journal: dataspace.princeton.edu
   category: biological sciences
   doi: https://dataspace.princeton.edu/handle/88435/dsp012j62s814w
+- id: 997
+  created_at: 2023-07-25 12:09:46.916581
+  published_on: 2023-07-13
+  title: 'BayesFlow: Amortized Bayesian Workflows With'
+  publication_info_summary: "PC B\xFCrkner - raw.githubusercontent.com"
+  link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.05640/joss.05640/10.21105.joss.05640.pdf
+  snippet: "\u2026 When it comes to simulation-based inference with neural networks,\
+    \ the sbi toolkit enables 97 both likelihood and posterior estimation using different\
+    \ inference algorithms, \u2026"
+  category: Astrophysics
+  doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.05640/joss.05640/10.21105.joss.05640.pdf
