@@ -12861,6 +12861,7 @@
   arxiv_id: '2304.05281'
   arxiv_category_tag: astro-ph.IM
   category: Education
+  doi: 10.3847/2041-8213/ace361
 - id: 994
   created_at: 2023-07-15 12:09:08.045066
   published_on: 2023-07-10
@@ -12913,3 +12914,15 @@
     \ inference algorithms, \u2026"
   category: Astrophysics
   doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.05640/joss.05640/10.21105.joss.05640.pdf
+- id: 998
+  created_at: 2023-07-27 12:09:15.749365
+  published_on: 2023-07-21
+  title: Advancing Methods and Applicability of Simulation-Based Inference in Neuroscience
+  publication_info_summary: "J B\xF6lts - 2023 - tobias-lib.ub.uni-tuebingen.de"
+  link: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/143554
+  snippet: "\u2026 approach has recently emerged: simulation-based inference (SBI).\
+    \ SBI enables \u2026 simulation-based inference and are the focus of this thesis.\
+    \ In simulation-based inference \u2026"
+  journal: tobias-lib.ub.uni-tuebingen.de
+  category: Computer Science
+  doi: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/143554
