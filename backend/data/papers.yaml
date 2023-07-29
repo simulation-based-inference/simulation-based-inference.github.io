@@ -12698,6 +12698,7 @@
     \ be ill-suited for dealing with posterior distributions obtained by conditioning\
     \ on multiple \u2026"
   journal: openreview.net
+  citation_backlink: https://scholar.google.com/scholar?cites=5479678618172500948
   category: Computer Science
   doi: https://openreview.net/forum?id=5Q5wD1sAKj
 - id: 982
@@ -12825,13 +12826,13 @@
     inference
   publication_info_summary: "D Prelogovi\u0107, A Mesinger - Monthly Notices of the\
     \ Royal \u2026, 2023 - academic.oup.com"
-  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2027/7220718
-  snippet: "\u2026 We compare \u201Cclassical\u201D inference that uses an explicit\
-    \ likelihood with simulation based inference (SBI) that estimates the likelihood\
-    \ from a training set. Our forward-models \u2026"
+  link: https://academic.oup.com/mnras/article/524/3/4239/7220718
+  snippet: "\u2026 We compare \u2018classical\u2019 inference that uses an explicit\
+    \ likelihood with simulation-based inference (SBI) that estimates the likelihood\
+    \ from a training set. Our forward models \u2026"
   journal: academic.oup.com
   category: Physics
-  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2027/7220718
+  doi: https://academic.oup.com/mnras/article/524/3/4239/7220718
 - id: 992
   created_at: 2023-07-12 12:11:28.358206
   published_on: 2023-07-04
@@ -12926,3 +12927,31 @@
   journal: tobias-lib.ub.uni-tuebingen.de
   category: Computer Science
   doi: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/143554
+- id: 999
+  created_at: 2023-07-29 12:08:20.192409
+  published_on: 2023-07-27
+  title: Likelihood free inference with advanced machine learning techniques
+  publication_info_summary: L Wild - 2023 - repositum.tuwien.at
+  link: https://repositum.tuwien.at/handle/20.500.12708/187606
+  snippet: "\u2026 techniques based on simulation (simulation-based inference) to\
+    \ teach the machine the \u2026 of sample generation, training with simulation-based\
+    \ inference, and the limit setting \u2026"
+  journal: repositum.tuwien.at
+  category: Astrophysics
+  doi: https://repositum.tuwien.at/handle/20.500.12708/187606
+- id: 1000
+  created_at: 2023-07-29 12:08:24.940754
+  published_on: 2023-07-26
+  title: Simulation-based Inference for Cardiovascular Models
+  authors: "Antoine Wehenkel, Jens Behrmann, Andrew C. Miller, Guillermo Sapiro, Ozan\
+    \ Sener, Marco Cuturi, J\xF6rn-Henrik Jacobsen"
+  publication_info_summary: "A Wehenkel, J Behrmann, AC Miller, G Sapiro\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2307.13918
+  snippet: "\u2026 simulation-based inference methodology to analyze complex cardiovascular\
+    \ simulators. Our results show that our simulation-based inference \u2026 , simulation-based\
+    \ inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2307.13918'
+  arxiv_category_tag: stat.ML
+  category: Statistics
