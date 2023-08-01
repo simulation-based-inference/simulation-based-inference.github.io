@@ -12570,6 +12570,7 @@
     \ computation (ABC), synthetic likelihood, and neural posterior estimation (NPE)\
     \ rely on \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=116495087645242745
   arxiv_id: '2305.15871'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -12826,25 +12827,26 @@
     inference
   publication_info_summary: "D Prelogovi\u0107, A Mesinger - Monthly Notices of the\
     \ Royal \u2026, 2023 - academic.oup.com"
-  link: https://academic.oup.com/mnras/article/524/3/4239/7220718
+  link: https://academic.oup.com/mnras/article-abstract/524/3/4239/7220718
   snippet: "\u2026 We compare \u2018classical\u2019 inference that uses an explicit\
     \ likelihood with simulation-based inference (SBI) that estimates the likelihood\
     \ from a training set. Our forward models \u2026"
   journal: academic.oup.com
   category: Physics
-  doi: https://academic.oup.com/mnras/article/524/3/4239/7220718
+  doi: https://academic.oup.com/mnras/article-abstract/524/3/4239/7220718
 - id: 992
   created_at: 2023-07-12 12:11:28.358206
   published_on: 2023-07-04
   title: Amortized Neural Networks for Agent-Based Model Forecasting
-  publication_info_summary: D Koshelev, A Ponomarenko, S Seleznev - 2023 - cbr.ru
-  link: http://www.cbr.ru/StaticHtml/File/149735/WP_115_e.pdf
-  snippet: "\u2026 (2022a)), and although this work is still in progress, the use\
-    \ of simulation-based inference (hereinafter, SBI, see Cranmer et al. (2021))\
-    \ has allowed the achievement of \u2026"
-  journal: cbr.ru
+  publication_info_summary: "D Koshelev, A Ponomarenko\u2026 - Available at SSRN \u2026\
+    , 2023 - papers.ssrn.com"
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4520621
+  snippet: "In this paper, we propose a new procedure for unconditional and conditional\
+    \ forecasting in agent-based models. The proposed algorithm is based on the application\
+    \ of \u2026"
+  journal: papers.ssrn.com
   category: Computer Science
-  doi: http://www.cbr.ru/StaticHtml/File/149735/WP_115_e.pdf
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4520621
 - id: 993
   created_at: 2023-07-12 12:13:55.852099
   published_on: 2023-04-11
