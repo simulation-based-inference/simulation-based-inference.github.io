@@ -12911,12 +12911,12 @@
   published_on: 2023-07-13
   title: 'BayesFlow: Amortized Bayesian Workflows With'
   publication_info_summary: "PC B\xFCrkner - raw.githubusercontent.com"
-  link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.05640/joss.05640/10.21105.joss.05640.pdf
+  link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.05702/joss.05702/10.21105.joss.05702.pdf
   snippet: "\u2026 When it comes to simulation-based inference with neural networks,\
     \ the sbi toolkit enables 97 both likelihood and posterior estimation using different\
     \ inference algorithms, \u2026"
   category: Astrophysics
-  doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.05640/joss.05640/10.21105.joss.05640.pdf
+  doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.05702/joss.05702/10.21105.joss.05702.pdf
 - id: 998
   created_at: 2023-07-27 12:09:15.749365
   published_on: 2023-07-21
