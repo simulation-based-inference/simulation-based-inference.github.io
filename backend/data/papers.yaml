@@ -12994,3 +12994,18 @@
     \ parameters from field-level analysis of galaxy clustering. Standard galaxy clustering\
     \ analyses rely on \u2026"
   doi: https://ml4astro.github.io/icml2023/assets/48.pdf
+- id: 1004
+  created_at: 2023-08-08 12:09:16.575755
+  published_on: 2023-08-02
+  title: Reconstructing axion-like particles from beam dumps with simulation-based
+    inference
+  authors: Alessandro Morandini, Torben Ferber, Felix Kahlhoefer
+  publication_info_summary: A Morandini, T Ferber, F Kahlhoefer - arXiv preprint arXiv:2308.01353,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2308.01353
+  snippet: "\u2026 We use a simulation-based inference approach based on conditional\
+    \ invertible neural networks to reconstruct the posterior probability of the ALP\
+    \ parameters for a given \u2026"
+  journal: arxiv.org
+  arxiv_id: '2308.01353'
+  arxiv_category_tag: hep-ph
