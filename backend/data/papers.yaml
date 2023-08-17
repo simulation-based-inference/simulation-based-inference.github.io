@@ -12542,6 +12542,7 @@
   arxiv_id: '2305.18528'
   arxiv_category_tag: gr-qc
   category: Physics
+  doi: 10.1103/PhysRevD.108.044029
 - id: 971
   created_at: 2023-06-30 12:40:32.775614
   published_on: 2023-05-26
@@ -13034,3 +13035,32 @@
     \ problem when the likelihood is only known implicitly. Neural Posterior Estimation\
     \ commonly fits a normalized \u2026"
   doi: https://syns-ml.github.io/2023/assets/papers/27.pdf
+- id: 1007
+  created_at: 2023-08-17 12:08:46.064695
+  published_on: 2023-08-15
+  title: Neural Computation Through Synaptic Dynamics in Serotonergic Networks
+  publication_info_summary: MBF Lynn - 2023 - ruor.uottawa.ca
+  link: https://ruor.uottawa.ca/handle/10393/45261
+  snippet: "\u2026 186 Synthetic likelihood functions as a scalable approach for simulation-based\
+    \ inference\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\
+    \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\
+    \u2026\u2026\u2026\u2026\u2026 187 \u2026"
+  journal: ruor.uottawa.ca
+  category: Computer Science
+  doi: https://ruor.uottawa.ca/handle/10393/45261
+- id: 1008
+  created_at: 2023-08-17 12:08:50.991831
+  published_on: 2023-08-11
+  title: What to do when things get crowded? Scalable joint analysis of overlapping
+    gravitational wave signals
+  authors: James Alvey, Uddipta Bhardwaj, Samaya Nissanke, Christoph Weniger
+  publication_info_summary: "J Alvey, U Bhardwaj, S Nissanke, C Weniger - arXiv preprint\
+    \ arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2308.06318
+  snippet: "\u2026 In this work, we argue that sequential simulation-based inference\
+    \ methods can solve this problem by breaking the scaling behaviour. Specifically,\
+    \ we apply an algorithm \u2026"
+  journal: arxiv.org
+  arxiv_id: '2308.06318'
+  arxiv_category_tag: gr-qc
+  category: Physics
