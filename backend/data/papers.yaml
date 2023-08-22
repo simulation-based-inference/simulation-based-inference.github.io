@@ -13027,14 +13027,16 @@
   arxiv_category_tag: hep-ph
 - id: 1006
   created_at: 2023-08-15 12:08:54.359215
-  published_on: 2023-08-07
+  published_on: 2023-07-07
   title: Simulation-based Inference with the Generalized Kullback-Leibler Divergence
-  publication_info_summary: "BK Miller, M Federici, C Weniger, P Forr\xE9 - syns-ml.github.io"
-  link: https://syns-ml.github.io/2023/assets/papers/27.pdf
+  publication_info_summary: "BK Miller, M Federici, C Weniger\u2026 - 1st Workshop\
+    \ on the \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=tPb1Fe58ro
   snippet: "\u2026 In Simulation-based Inference, the goal is to solve the inverse\
     \ problem when the likelihood is only known implicitly. Neural Posterior Estimation\
     \ commonly fits a normalized \u2026"
-  doi: https://syns-ml.github.io/2023/assets/papers/27.pdf
+  journal: openreview.net
+  doi: https://openreview.net/forum?id=tPb1Fe58ro
 - id: 1007
   created_at: 2023-08-17 12:08:46.064695
   published_on: 2023-08-15
@@ -13064,3 +13066,27 @@
   arxiv_id: '2308.06318'
   arxiv_category_tag: gr-qc
   category: Physics
+- id: 1009
+  created_at: 2023-08-22 12:09:17.243817
+  published_on: 2023-08-19
+  title: On noise, uncertainty and inference for computational diffusion MRI
+  publication_info_summary: JP Manzano Patron - eprints.nottingham.ac.uk
+  link: http://eprints.nottingham.ac.uk/74189/
+  snippet: "\u2026 In the second approach, we resort to Simulation-Based Inference\
+    \ (SBI), a data-driven approach that avoids the need for iterative model inversions.\
+    \ This is achieved by \u2026"
+  doi: http://eprints.nottingham.ac.uk/74189/
+- id: 1010
+  created_at: 2023-08-22 12:09:37.718878
+  published_on: 2023-08-05
+  title: 'arXiv: Simulation-based inference in the search for CP violation in leptonic
+    WH production'
+  publication_info_summary: "R Barru\xE9, V Dao, P Conde-Mu\xED\xF1o, R Santos - 2023\
+    \ - cds.cern.ch"
+  link: https://cds.cern.ch/record/2867720
+  snippet: "\u2026 We studied the feasibility of using a machine learning simulation-based\
+    \ inference method, SALLY, that estimates a detector-level optimal observable,\
+    \ and compared its \u2026"
+  journal: cds.cern.ch
+  category: Neuroscience
+  doi: https://cds.cern.ch/record/2867720
