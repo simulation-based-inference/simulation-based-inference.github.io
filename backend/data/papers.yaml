@@ -12675,6 +12675,7 @@
     \ swyft (ascl:2302.016), which implements neural ratio estimation to efficiently\
     \ access marginal posteriors for \u2026"
   journal: ui.adsabs.harvard.edu
+  citation_backlink: https://scholar.google.com/scholar?cites=16916467593110171254
   category: Astronomy
   doi: https://ui.adsabs.harvard.edu/abs/2023ascl.soft06009A/abstract
 - id: 980
@@ -12770,6 +12771,7 @@
     \ with challenging inverse problems. However, SBI models often face a significant\
     \ hurdle due to \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=3686575203115301469
   arxiv_id: '2306.15731'
   arxiv_category_tag: cs.LG
   category: Computer Science
@@ -13063,6 +13065,7 @@
     \ methods can solve this problem by breaking the scaling behaviour. Specifically,\
     \ we apply an algorithm \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=11948240078300186712
   arxiv_id: '2308.06318'
   arxiv_category_tag: gr-qc
   category: Physics
@@ -13090,3 +13093,18 @@
   journal: cds.cern.ch
   category: Neuroscience
   doi: https://cds.cern.ch/record/2867720
+- id: 1011
+  created_at: 2023-08-23 12:09:06.283029
+  published_on: 2023-08-16
+  title: Scalable inference with Autoregressive Neural Ratio Estimation
+  authors: Noemi Anau Montel, James Alvey, Christoph Weniger
+  publication_info_summary: NA Montel, J Alvey, C Weniger - arXiv preprint arXiv:2308.08597,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2308.08597
+  snippet: "\u2026 In recent years, there has been a remarkable development of simulation-based\
+    \ inference (SBI) algorithms, and they have now been applied across a wide range\
+    \ of \u2026"
+  journal: arxiv.org
+  arxiv_id: '2308.08597'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
