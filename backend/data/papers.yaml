@@ -13110,13 +13110,13 @@
   category: Astrophysics
 - id: 1012
   created_at: 2023-08-25 12:08:50.546971
-  published_on: 2023-01-01
+  published_on: 2023-08-24
   title: Higher-order statistics in cosmic shear
   publication_info_summary: S Heydenreich - 2023 - bonndoc.ulb.uni-bonn.de
   link: https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/11003
-  snippet: "1 day ago - \u2026 For the former, we develop a simulation-based inference\
-    \ pipeline to constrain cosmological parameters, show that they perform better\
-    \ than peak count statistics, and \u2026"
+  snippet: "\u2026 For the former, we develop a simulation-based inference pipeline\
+    \ to constrain cosmological parameters, show that they perform better than peak\
+    \ count statistics, and \u2026"
   journal: bonndoc.ulb.uni-bonn.de
   category: Neuroscience
   doi: https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/11003
