@@ -13146,3 +13146,30 @@
   journal: APS
   category: Physics
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.042004
+- id: 1015
+  created_at: 2023-08-31 12:09:17.654841
+  published_on: 2023-08-26
+  title: A transport approach to sequential simulation-based inference
+  authors: Paul-Baptiste Rubio, Youssef Marzouk, Matthew Parno
+  publication_info_summary: PB Rubio, Y Marzouk, M Parno - arXiv preprint arXiv:2308.13940,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2308.13940
+  snippet: "\u2026 easy to obtain), Simulation-Based Inference (SBI) methods \u2026\
+    \ Simulation-based inference involves generating artificial \u2026 than ABC for\
+    \ simulation-based inference, especially \u2026"
+  journal: arxiv.org
+  arxiv_id: '2308.13940'
+  arxiv_category_tag: stat.ME
+  category: Astronomy
+- id: 1016
+  created_at: 2023-08-31 12:11:23.138777
+  published_on: 2023-07-09
+  title: Modeling Digital Twins of Kubernetes-Based Applications
+  publication_info_summary: "D Borsatti, W Cerroni, L Foschini\u2026 - \u2026 IEEE\
+    \ Symposium on \u2026, 2023 - ieeexplore.ieee.org"
+  link: https://ieeexplore.ieee.org/abstract/document/10217853/
+  snippet: "\u2026 Specifically, this work presents an innovative simulation-based\
+    \ inference approach to define accurate DT models for a Kubernetes environment.\
+    \ We experimentally \u2026"
+  journal: ieeexplore.ieee.org
+  doi: https://ieeexplore.ieee.org/abstract/document/10217853/
