@@ -926,19 +926,15 @@
   category: Statistics
 - id: 70
   created_at: 2023-04-26 10:10:36.390874
-  published_on: 2022-10-11
+  published_on: 2023-08-26
   title: Contrastive Neural Ratio Estimation
-  authors: "Benjamin Kurt Miller, Christoph Weniger, Patrick Forr\xE9"
-  publication_info_summary: "BK Miller, C Weniger, P Forr\xE9 - Advances in Neural\
-    \ \u2026, 2022 - proceedings.neurips.cc"
-  link: https://proceedings.neurips.cc/paper_files/paper/2022/hash/159f7fe5b51ecd663b85337e8e28ce65-Abstract-Conference.html
-  snippet: "\u2026 On all hyperparameter searches we consider three simulators from\
-    \ the simulation-based inference benchmark, namely SLCP, Two Moons, and Gaussian\
-    \ Mixture [44]. \u2026"
-  journal: proceedings.neurips.cc
-  arxiv_id: '2210.06170'
-  arxiv_category_tag: stat.ML
-  category: Statistics
+  publication_info_summary: "P Forr\xE9, BK Miller, C Weniger - 2023 - dare.uva.nl"
+  link: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
+  snippet: "\u2026 We suggest a bound on the mutual information as a performance metric\
+    \ for simulation-based inference methods, without the need for posterior samples,\
+    \ and provide \u2026"
+  journal: dare.uva.nl
+  doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
   published_on: 2021-10-13
@@ -12545,20 +12541,16 @@
   doi: 10.1103/PhysRevD.108.044029
 - id: 971
   created_at: 2023-06-30 12:40:32.775614
-  published_on: 2023-05-26
+  published_on: 2023-07-05
   title: Flow Matching for Scalable Simulation-Based Inference
-  authors: "Maximilian Dax, Jonas Wildberger, Simon Buchholz, Stephen R. Green, Jakob\
-    \ H. Macke, Bernhard Sch\xF6lkopf"
-  publication_info_summary: "M Dax, J Wildberger, S Buchholz, SR Green\u2026 - arXiv\
-    \ preprint arXiv \u2026, 2023 - arxiv.org"
-  link: https://arxiv.org/abs/2305.17161
+  publication_info_summary: "JB Wildberger, M Dax, S Buchholz\u2026 - ICML 2023 Workshop\
+    \ \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=LdGjxxjfh8
   snippet: "Neural posterior estimation methods based on discrete normalizing flows\
     \ have become established tools for simulation-based inference (SBI), but scaling\
     \ them to high-\u2026"
-  journal: arxiv.org
-  arxiv_id: '2305.17161'
-  arxiv_category_tag: cs.LG
-  category: Computer Science
+  journal: openreview.net
+  doi: https://openreview.net/forum?id=LdGjxxjfh8
 - id: 972
   created_at: 2023-06-30 12:40:37.299545
   published_on: 2023-05-25
@@ -13173,3 +13165,39 @@
     \ We experimentally \u2026"
   journal: ieeexplore.ieee.org
   doi: https://ieeexplore.ieee.org/abstract/document/10217853/
+- id: 1017
+  created_at: 2023-09-12 12:09:53.085348
+  published_on: 2023-09-08
+  title: Bayesian model calibration for wetting processes via simulation-based inference
+    and measure transport
+  publication_info_summary: H Bonart, Y Marzouk, S Hardt - Bulletin of the American
+    Physical Society, 2023 - APS
+  link: https://meetings.aps.org/Meeting/DFD23/Session/J16.3
+  snippet: "APS -76th Annual Meeting of the Division of Fluid Dynamics - Event - Bayesian\
+    \ model calibration for wetting processes via simulation-based inference and \u2026"
+  journal: APS
+  category: statistical inference
+  doi: https://meetings.aps.org/Meeting/DFD23/Session/J16.3
+- id: 1018
+  created_at: 2023-09-12 12:09:57.087422
+  published_on: 2023-09-03
+  title: Data assimilation as simulation-based inference
+  publication_info_summary: G Andry - 2023 - matheo.uliege.be
+  link: https://matheo.uliege.be/handle/2268.2/18255
+  snippet: "\u2026 In this thesis, we delve into the realm of simulation-based inference\
+    \ methods applied to inverse \u2026 Unlike classical simulation-based inference\
+    \ problems, our focus extends to \u2026"
+  journal: matheo.uliege.be
+  doi: https://matheo.uliege.be/handle/2268.2/18255
+- id: 1019
+  created_at: 2023-09-12 12:10:01.943183
+  published_on: 2023-09-03
+  title: Estimation of neural models from spikes
+  publication_info_summary: C Grodent - 2023 - matheo.uliege.be
+  link: https://matheo.uliege.be/handle/2268.2/18299
+  snippet: "\u2026 filters and modern simulation-based inference ones to \u2026 say\
+    \ that modern simulation-based inference methods are \u2026 Moreover, simulation-based\
+    \ inference methods can \u2026"
+  journal: matheo.uliege.be
+  category: Neuroscience
+  doi: https://matheo.uliege.be/handle/2268.2/18299
