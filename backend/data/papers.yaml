@@ -13202,3 +13202,14 @@
   journal: matheo.uliege.be
   category: Neuroscience
   doi: https://matheo.uliege.be/handle/2268.2/18299
+- id: 1020
+  created_at: 2023-09-19 12:09:49.985745
+  published_on: 2023-09-15
+  title: Applications of Physics-Informed Machine Learning in Chemical Engineering
+  publication_info_summary: M Ansari - 2023 - search.proquest.com
+  link: https://search.proquest.com/openview/f82d5730c0d1b7e82ba7dbe7f92e99e8/1?pq-origsite=gscholar&cbl=18750&diss=y
+  snippet: "\u2026 White is focused on physics-informed machine learning and simulationbased\
+    \ inference applied to different settings, including fluid dynamics, disease modeling\
+    \ and \u2026"
+  journal: search.proquest.com
+  doi: https://search.proquest.com/openview/f82d5730c0d1b7e82ba7dbe7f92e99e8/1?pq-origsite=gscholar&cbl=18750&diss=y
