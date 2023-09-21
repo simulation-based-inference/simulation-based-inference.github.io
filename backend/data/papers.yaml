@@ -934,6 +934,7 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
+  category: Computer Science
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -2164,19 +2165,16 @@
   category: Mathematics
 - id: 177
   created_at: 2023-05-22 16:55:03.649835
-  published_on: 2021-01-01
+  published_on: 2023-09-14
   title: Detecting Model Misspecification in Amortized Bayesian Inference with Neural
     Networks
-  publication_info_summary: "M Schmitt, PC B\xFCrkner, U K\xF6the, ST Radev - arXiv\
-    \ e-prints, 2021 - ui.adsabs.harvard.edu"
-  link: https://ui.adsabs.harvard.edu/abs/2021arXiv211208866S/abstract
-  snippet: "\u2026 In this paper, we conceptualize the types of model misspecification\
-    \ arising in simulation-based inference and systematically investigate the performance\
-    \ of the BayesFlow framework \u2026"
-  journal: ui.adsabs.harvard.edu
-  citation_backlink: https://scholar.google.com/scholar?cites=4812079485626010900
+  publication_info_summary: T Radev - dagm-gcpr.de
+  link: https://www.dagm-gcpr.de/fileadmin/dagm-gcpr/pictures/2023_Heidelberg/Paper_MainTrack/030.pdf
+  snippet: "\u2026 Here, we consider simulation-based inference (SBI) [9] as a general\
+    \ approach to overcome this difficulty within a Bayesian inference framework.\
+    \ That is, given an assumed \u2026"
   category: Computer Science
-  doi: https://ui.adsabs.harvard.edu/abs/2021arXi11208866S/abstract
+  doi: https://www.dagm-gcpr.de/fileadmin/dagm-gcpr/pictures/2023_Heidelberg/Paper_MainTrack/030.pdf
 - id: 178
   created_at: 2023-05-22 16:55:03.679895
   published_on: 2021-01-01
@@ -12550,6 +12548,7 @@
     \ have become established tools for simulation-based inference (SBI), but scaling\
     \ them to high-\u2026"
   journal: openreview.net
+  category: Computer Science
   doi: https://openreview.net/forum?id=LdGjxxjfh8
 - id: 972
   created_at: 2023-06-30 12:40:37.299545
@@ -13003,6 +13002,7 @@
     \ invertible neural networks to reconstruct the posterior probability of the ALP\
     \ parameters for a given \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=3119872172745949134
   arxiv_id: '2308.01353'
   arxiv_category_tag: hep-ph
 - id: 1005
@@ -13213,3 +13213,37 @@
     \ and \u2026"
   journal: search.proquest.com
   doi: https://search.proquest.com/openview/f82d5730c0d1b7e82ba7dbe7f92e99e8/1?pq-origsite=gscholar&cbl=18750&diss=y
+- id: 1021
+  created_at: 2023-09-21 12:09:52.173335
+  published_on: 2023-09-17
+  title: 'Simulation-based Inference for Exoplanet Atmospheric Retrieval: Insights
+    from winning the Ariel Data Challenge 2023 using Normalizing Flows'
+  authors: "Mayeul Aubin, Carolina Cuesta-Lazaro, Ethan Tregidga, Javier Via\xF1a,\
+    \ Cecilia Garraffo, Iouli E. Gordon, Mercedes L\xF3pez-Morales, Robert J. Hargreaves,\
+    \ Vladimir Yu. Makhnev, Jeremy J. Drake, Douglas P. Finkbeiner, Phillip Cargile"
+  publication_info_summary: "M Aubin, C Cuesta-Lazaro, E Tregidga, J Via\xF1a\u2026\
+    \ - arXiv preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2309.09337
+  snippet: "\u2026 Definition of Normalizing Flows: Normalizing Flows have gained\
+    \ popularity in the field of simulation based inference, as they offer flexible\
+    \ and easily trainable models for \u2026"
+  journal: arxiv.org
+  arxiv_id: '2309.09337'
+  arxiv_category_tag: astro-ph.EP
+- id: 1022
+  created_at: 2023-09-21 12:10:01.663253
+  published_on: 2023-09-14
+  title: Simulation-based inference for stochastic gravitational wave background data
+    analysis
+  authors: James Alvey, Uddipta Bhardwaj, Valerie Domcke, Mauro Pieroni, Christoph
+    Weniger
+  publication_info_summary: "J Alvey, U Bhardwaj, V Domcke, M Pieroni\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2309.07954
+  snippet: "\u2026 We demonstrate that simulation-based inference (SBI) \u2013 specifically\
+    \ truncated marginal neural ratio estimation (TMNRE) \u2013 is a promising avenue\
+    \ to overcome some of the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2309.07954'
+  arxiv_category_tag: gr-qc
+  category: Chemistry
