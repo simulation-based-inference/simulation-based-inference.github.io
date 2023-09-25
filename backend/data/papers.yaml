@@ -12657,7 +12657,7 @@
   category: Statistics
 - id: 979
   created_at: 2023-06-30 12:40:06.496109
-  published_on: 2023-06-10
+  published_on: 2023-06-09
   title: 'Albatross: Stellar stream parameter inference with neural ratio estimation'
   publication_info_summary: "J Alvey, M Gerdes, C Weniger - Astrophysics Source Code\
     \ \u2026, 2023 - ui.adsabs.harvard.edu"
@@ -12697,7 +12697,7 @@
   doi: https://openreview.net/forum?id=5Q5wD1sAKj
 - id: 982
   created_at: 2023-06-30 12:40:00.960125
-  published_on: 2023-06-21
+  published_on: 2023-06-20
   title: Parameter Inference for Stochastic Models of Gene Expression in Eukaryotic
     Cells
   publication_info_summary: A Siddiqui - 2023 - diva-portal.org
@@ -12725,7 +12725,7 @@
   category: Statistics
 - id: 984
   created_at: 2023-07-05 15:03:32.561304
-  published_on: 2023-07-01
+  published_on: 2023-06-30
   title: Identifying Advantages to Teaching Linear Regression in a Modeling and Simulation
     Introductory Statistics Curriculum
   publication_info_summary: KH Clement - 2023 - search.proquest.com
@@ -12970,7 +12970,7 @@
   category: Neuroscience
 - id: 1002
   created_at: 2023-08-05 12:08:03.810532
-  published_on: 2023-08-01
+  published_on: 2023-07-31
   title: 'SIMBIG: Galaxy Clustering beyond the Power Spectrum'
   publication_info_summary: "CH Hahn, P Lemos, L Parker\u2026 - ml4astro.github.io"
   link: https://ml4astro.github.io/icml2023/assets/50.pdf
@@ -12980,7 +12980,7 @@
   doi: https://ml4astro.github.io/icml2023/assets/50.pdf
 - id: 1003
   created_at: 2023-08-05 12:08:07.733194
-  published_on: 2023-08-01
+  published_on: 2023-07-31
   title: 'SimBIG: Field-level Simulation-based Inference of Large-scale Structure'
   publication_info_summary: "P Lemos, L Parker, CH Hahn, S Ho, M Eickenberg\u2026\
     \ - ml4astro.github.io"
@@ -13103,7 +13103,7 @@
   category: Astrophysics
 - id: 1012
   created_at: 2023-08-25 12:08:50.546971
-  published_on: 2023-08-24
+  published_on: 2023-08-23
   title: Higher-order statistics in cosmic shear
   publication_info_summary: S Heydenreich - 2023 - bonndoc.ulb.uni-bonn.de
   link: https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/11003
