@@ -934,7 +934,7 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
-  category: Astrophysics
+  category: Chemistry
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -12548,7 +12548,7 @@
     \ have become established tools for simulation-based inference (SBI), but scaling\
     \ them to high-\u2026"
   journal: openreview.net
-  category: Astrophysics
+  category: Chemistry
   doi: https://openreview.net/forum?id=LdGjxxjfh8
 - id: 972
   created_at: 2023-06-30 12:40:37.299545
@@ -13288,3 +13288,17 @@
     \ both the posterior \u2026"
   category: Computer Science
   doi: https://openreview.net/forum?id=aewcDfu3Zn
+- id: 1026
+  created_at: 2023-09-30 12:08:23.676340
+  published_on: 2023-09-27
+  title: The effect of the perturber population on subhalo measurements in strong
+    gravitational lenses
+  publication_info_summary: "A Coogan, NA Montel, K Karchev\u2026 - Monthly Notices\
+    \ of \u2026, 2023 - academic.oup.com"
+  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2925/7283168
+  snippet: "\u2026 Here we show that a simulation-based inference method called truncated\
+    \ marginal neural ratio estimation (TMNRE) makes it possible to relax these requirements\
+    \ by \u2026"
+  journal: academic.oup.com
+  category: Astrophysics
+  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2925/7283168
