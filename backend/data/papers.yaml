@@ -13302,3 +13302,15 @@
   journal: academic.oup.com
   category: Astrophysics
   doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2925/7283168
+- id: 1027
+  created_at: 2023-10-03 12:09:58.233041
+  published_on: 2023-09-26
+  title: Theoretical Advances in Gravitational Microlensing Guided by Artificial Intelligence
+  publication_info_summary: K Zhang - 2023 - search.proquest.com
+  link: https://search.proquest.com/openview/cb7d6af4a295c9506832dc942aadd1e9/1?pq-origsite=gscholar&cbl=18750&diss=y
+  snippet: "\u2026 advancement in feature learning and NDE has allowed for accelerated\
+    \ progress in the field of likelihood-free inference (LFI), also known as simulation-based\
+    \ inference (\u2026"
+  journal: search.proquest.com
+  category: Chemistry
+  doi: https://search.proquest.com/openview/cb7d6af4a295c9506832dc942aadd1e9/1?pq-origsite=gscholar&cbl=18750&diss=y
