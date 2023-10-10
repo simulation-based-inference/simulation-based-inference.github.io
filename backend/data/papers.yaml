@@ -934,7 +934,7 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
-  category: Chemistry
+  category: Astrophysics
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -12548,7 +12548,7 @@
     \ have become established tools for simulation-based inference (SBI), but scaling\
     \ them to high-\u2026"
   journal: openreview.net
-  category: Chemistry
+  category: Astrophysics
   doi: https://openreview.net/forum?id=LdGjxxjfh8
 - id: 972
   created_at: 2023-06-30 12:40:37.299545
@@ -13314,3 +13314,18 @@
   journal: search.proquest.com
   category: Chemistry
   doi: https://search.proquest.com/openview/cb7d6af4a295c9506832dc942aadd1e9/1?pq-origsite=gscholar&cbl=18750&diss=y
+- id: 1028
+  created_at: 2023-10-10 12:10:14.934074
+  published_on: 2023-10-05
+  title: "EFTofLSS meets simulation-based inference: $\u03C3_8$ from biased tracers"
+  authors: Beatriz Tucci, Fabian Schmidt
+  publication_info_summary: B Tucci, F Schmidt - arXiv preprint arXiv:2310.03741,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2310.03741
+  snippet: "\u2026 Simulation-based inference (SBI), in contrast, does not require\
+    \ an explicit form for the \u2026 We compare full simulation-based inference with\
+    \ cases where the data vector is \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.03741'
+  arxiv_category_tag: astro-ph.CO
+  category: Chemistry
