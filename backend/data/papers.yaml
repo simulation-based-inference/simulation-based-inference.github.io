@@ -13374,3 +13374,19 @@
   arxiv_id: '2310.10003'
   arxiv_category_tag: stat.ME
   category: Physics
+- id: 1032
+  created_at: 2023-10-21 12:08:15.618655
+  published_on: 2023-10-17
+  title: Sensitivity-Aware Amortized Bayesian Inference
+  authors: "Lasse Elsem\xFCller, Hans Olischl\xE4ger, Marvin Schmitt, Paul-Christian\
+    \ B\xFCrkner, Ullrich K\xF6the, Stefan T. Radev"
+  publication_info_summary: "L Elsem\xFCller, H Olischl\xE4ger, M Schmitt\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.11122
+  snippet: "\u2026 practical interest, turning simulation-based inference into a computational\
+    \ challenge. \u2026 Varying likelihood context variables are ubiquitous in simulation-based\
+    \ inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.11122'
+  arxiv_category_tag: stat.ML
+  category: Astrophysics
