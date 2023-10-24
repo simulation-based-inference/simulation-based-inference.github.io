@@ -934,7 +934,6 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
-  category: Astrophysics
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -13390,3 +13389,43 @@
   arxiv_id: '2310.11122'
   arxiv_category_tag: stat.ML
   category: Astrophysics
+- id: 1033
+  created_at: 2023-10-24 12:09:20.496590
+  published_on: 2023-10-19
+  title: Conditional Density Estimations from Privacy-Protected Data
+  authors: Yifei Xiong, Nianqiao P. Ju, Sanguo Zhang
+  publication_info_summary: X Xiong, NP Ju, S Zhang - arXiv preprint arXiv:2310.12781,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2310.12781
+  snippet: "\u2026 In this work, we propose simulation-based inference methods from\
+    \ privacy-protected datasets. Specifically, we use neural conditional density\
+    \ estimators as a flexible family \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.12781'
+  arxiv_category_tag: stat.ML
+  category: Astrophysics
+- id: 1034
+  created_at: 2023-10-24 12:09:26.185855
+  published_on: 2023-10-18
+  title: Fast Parameter Inference on Pulsar Timing Arrays with Normalizing Flows
+  authors: David Shih, Marat Freytsis, Stephen R. Taylor, Jeff A. Dror, Nolan Smyth
+  publication_info_summary: "D Shih, M Freytsis, SR Taylor, JA Dror\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.12209
+  snippet: "\u2026 Fortunately, generating simulated data is fast, so modern simulation-based\
+    \ inference techniques can be brought to bear on the problem. In this paper, we\
+    \ demonstrate \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.12209'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1035
+  created_at: 2023-10-24 12:09:42.001479
+  published_on: 2023-10-14
+  title: From Neural NLP to Neural SBI
+  publication_info_summary: W Wolf - willwolf.io
+  link: https://willwolf.io/images/nlp_for_sbi_proposal.pdf
+  snippet: "\u2026 Recent work has demonstrated the efficacy of using neural networks\
+    \ as estimators within simulation-based inference (SBI) routines; broadly, their\
+    \ use has been shown to \u2026"
+  doi: https://willwolf.io/images/nlp_for_sbi_proposal.pdf
