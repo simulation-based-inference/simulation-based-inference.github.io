@@ -6,3 +6,4 @@ arxiv==1.4.8
 pre-commit==3.3.3
 pydantic==2.4.2
 openai==0.28.1
+aiohttp==3.8.6
