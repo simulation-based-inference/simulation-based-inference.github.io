@@ -1,8 +1,8 @@
-ipykernel
-python-dotenv
-requests
-bs4
-arxiv
-pre-commit
-pydantic
-openai
+ipykernel==6.23.3
+python-dotenv==1.0.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+arxiv==1.4.8
+pre-commit==3.3.3
+pydantic==2.4.2
+openai==0.28.1
