@@ -934,7 +934,6 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
-  category: Physics
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -13359,6 +13358,7 @@
     \ (SBI) analysis of galaxy clustering from the SimBIG forward modeling framework.\
     \ SimBIG \u2026"
   journal: National Acad Sciences
+  citation_backlink: https://scholar.google.com/scholar?cites=16610408877189553952
   category: Astrophysics
   doi: https://www.pnas.org/doi/abs/10.1073/pnas.2218810120
 - id: 1031
@@ -13460,3 +13460,107 @@
     \ inference \u2026"
   journal: ui.adsabs.harvard.edu
   doi: https://ui.adsabs.harvard.edu/abs/2023ascl.soft09016B/abstract
+- id: 1038
+  created_at: 2023-11-01 12:09:53.289916
+  published_on: 2023-10-26
+  title: 'Simulation-based Inference of Reionization Parameters from 3D Tomographic
+    21 cm Light-cone Images -- II: Application of Solid Harmonic Wavelet Scattering
+    Transform'
+  authors: Xiaosheng Zhao, Yi Mao, Shifan Zuo, Benjamin D. Wandelt
+  publication_info_summary: X Zhao, Y Mao, S Zuo, BD Wandelt - arXiv preprint arXiv:2310.17602,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2310.17602
+  snippet: "\u2026 This research serves as a proof of concept, demonstrating the potential\
+    \ to harness the strengths of WST and simulation-based inference to derive insights\
+    \ from future 21 \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.17602'
+  arxiv_category_tag: astro-ph.IM
+  category: Physics
+- id: 1039
+  created_at: 2023-11-01 12:09:59.367446
+  published_on: 2023-10-25
+  title: Simulation based stacking
+  authors: "Yuling Yao, Bruno R\xE9galdo-Saint Blancard, Justin Domke"
+  publication_info_summary: Y Yao, BRS Blancard, J Domke - arXiv preprint arXiv:2310.17009,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2310.17009
+  snippet: "\u2026 Simulation-based inference and calibration. Many individual objective\
+    \ functions of our stacking have been used as part of simulation-based inference\
+    \ or calibration. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.17009'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1040
+  created_at: 2023-11-01 12:10:05.601004
+  published_on: 2023-10-23
+  title: 'Field-level simulation-based inference with galaxy catalogs: the impact
+    of systematic effects'
+  authors: "Natal\xED S. M. de Santi, Francisco Villaescusa-Navarro, L. Raul Abramo,\
+    \ Helen Shao, Lucia A. Perez, Tiago Castro, Yueying Ni, Christopher C. Lovell,\
+    \ Elena Hernandez-Martinez, Federico Marinacci, David N. Spergel, Klaus Dolag,\
+    \ Lars Hernquist, Mark Vogelsberger"
+  publication_info_summary: "NSM de Santi, F Villaescusa-Navarro\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.15234
+  snippet: "It has been recently shown that a powerful way to constrain cosmological\
+    \ parameters from galaxy redshift surveys is to train graph neural networks to\
+    \ perform field-level \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.15234'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1041
+  created_at: 2023-11-01 12:10:11.671940
+  published_on: 2023-10-23
+  title: 'SimBIG: Field-level Simulation-Based Inference of Galaxy Clustering'
+  authors: Pablo Lemos, Liam Parker, ChangHoon Hahn, Shirley Ho, Michael Eickenberg,
+    Jiamin Hou, Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Bruno Regaldo-Saint
+    Blancard, David Spergel
+  publication_info_summary: "P Lemos, L Parker, CH Hahn, S Ho\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.15256
+  snippet: "\u2026 We present the first simulation-based inference (SBI) of cosmological\
+    \ parameters from field-level analysis of galaxy clustering. Standard galaxy clustering\
+    \ analyses rely on \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.15256'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1042
+  created_at: 2023-11-01 12:10:17.744570
+  published_on: 2023-10-23
+  title: '${rm S{scriptsize IM}BIG}$: The First Cosmological Constraints from the
+    Non-Linear Galaxy Bispectrum'
+  authors: "ChangHoon Hahn, Michael Eickenberg, Shirley Ho, Jiamin Hou, Pablo Lemos,\
+    \ Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker, Bruno R\xE9\
+    galdo-Saint Blancard"
+  publication_info_summary: "CH Hahn, M Eickenberg, S Ho, J Hou, P Lemos\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.15243
+  snippet: "\u2026 We use SimBIG, a forward modeling framework for galaxy clustering\
+    \ analyses that employs simulation-based inference to perform highly efficient\
+    \ cosmological inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.15243'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1043
+  created_at: 2023-11-01 12:10:23.865522
+  published_on: 2023-10-23
+  title: '${rm S{scriptsize IM}BIG}$: Galaxy Clustering Analysis with the Wavelet
+    Scattering Transform'
+  authors: "Bruno R\xE9galdo-Saint Blancard, ChangHoon Hahn, Shirley Ho, Jiamin Hou,\
+    \ Pablo Lemos, Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker,\
+    \ Yuling Yao, Michael Eickenberg"
+  publication_info_summary: "BRS Blancard, CH Hahn, S Ho, J Hou, P Lemos\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.15250
+  snippet: "\u2026 \u039BCDM parameters \u2126m, \u2126b, h, ns, and \u03C38 from\
+    \ the BOSS CMASS galaxy sample by combining the wavelet scattering transform (WST)\
+    \ with a simulation-based inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.15250'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
