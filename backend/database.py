@@ -58,6 +58,9 @@ class Paper(BaseModel):
     def title_safe_for_jekyll(cls, v):
         v = v.replace('"', "'")
         v = v.replace("\\", "")
+        v = v.replace(":", "")
+        v = v.replace("${rm H{scriptsize ALO}F{scriptsize LOW}}$", "HALOFLOW")
+        v = v.replace("${rm S{scriptsize IM}BIG}$", "SIMBIG")
         return v
 
     @validator("link")

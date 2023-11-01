@@ -13528,39 +13528,3 @@
   arxiv_id: '2310.15256'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
-- id: 1042
-  created_at: 2023-11-01 12:10:17.744570
-  published_on: 2023-10-23
-  title: '${rm S{scriptsize IM}BIG}$: The First Cosmological Constraints from the
-    Non-Linear Galaxy Bispectrum'
-  authors: "ChangHoon Hahn, Michael Eickenberg, Shirley Ho, Jiamin Hou, Pablo Lemos,\
-    \ Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker, Bruno R\xE9\
-    galdo-Saint Blancard"
-  publication_info_summary: "CH Hahn, M Eickenberg, S Ho, J Hou, P Lemos\u2026 - arXiv\
-    \ preprint arXiv \u2026, 2023 - arxiv.org"
-  link: https://arxiv.org/abs/2310.15243
-  snippet: "\u2026 We use SimBIG, a forward modeling framework for galaxy clustering\
-    \ analyses that employs simulation-based inference to perform highly efficient\
-    \ cosmological inference \u2026"
-  journal: arxiv.org
-  arxiv_id: '2310.15243'
-  arxiv_category_tag: astro-ph.CO
-  category: Astrophysics
-- id: 1043
-  created_at: 2023-11-01 12:10:23.865522
-  published_on: 2023-10-23
-  title: '${rm S{scriptsize IM}BIG}$: Galaxy Clustering Analysis with the Wavelet
-    Scattering Transform'
-  authors: "Bruno R\xE9galdo-Saint Blancard, ChangHoon Hahn, Shirley Ho, Jiamin Hou,\
-    \ Pablo Lemos, Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker,\
-    \ Yuling Yao, Michael Eickenberg"
-  publication_info_summary: "BRS Blancard, CH Hahn, S Ho, J Hou, P Lemos\u2026 - arXiv\
-    \ preprint arXiv \u2026, 2023 - arxiv.org"
-  link: https://arxiv.org/abs/2310.15250
-  snippet: "\u2026 \u039BCDM parameters \u2126m, \u2126b, h, ns, and \u03C38 from\
-    \ the BOSS CMASS galaxy sample by combining the wavelet scattering transform (WST)\
-    \ with a simulation-based inference \u2026"
-  journal: arxiv.org
-  arxiv_id: '2310.15250'
-  arxiv_category_tag: astro-ph.CO
-  category: Astrophysics

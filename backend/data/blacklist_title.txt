@@ -1,15 +1,11 @@
 Test
-${-rm S {-scriptsize IM} BIG} $: Mock Challenge for a Forward Modeling Approach to Galaxy Clustering
 Université Paris-Saclay, Inria, CEA Palaiseau, 91120, France louis. rouillard-odera@ inria. fr
 Truncated Marginal Neural Ratio Estimation
 Spatial random field models based on L-'evy indicator convolutions
-rm-s--scriptsize-im-big---mock-challenge-for-a-forward-modeling-
 Bayesflow can reliably detect model misspecification and posterior errors in amortized bayesian inference
 Simulation-Based Inference for Global Health Decisions
 A Trust Crisis In Simulation-Based Inference? Your Posterior Approximations Can Be Unfaithful
 Spatial random field models based on Lévy indicator convolutions
-${rm S{scriptsize IM}BIG}$: Mock Challenge for a Forward Modeling Approach to Galaxy Clustering
 Editorial and Front Matter Issue 3 2022
 Interview With Soma Roy
 EFTofLSS meets simulation-based inference: $σ_8$ from biased tracers
-${rm H{scriptsize ALO}F{scriptsize LOW}}$ I: Neural Inference of Halo Mass from Galaxy Photometry and Morphology
