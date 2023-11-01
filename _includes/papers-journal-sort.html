@@ -20,12 +20,14 @@
                 </li>
                 {% for journal in unique_journals %}
                 {% assign this_journal_paper = sorted | where: "journal", journal %}
+                {% if this_journal_paper.size > 0 %}
                 <li>
                     <a href="#{{ journal | slugify }}">
                         <strong>{{ journal }}</strong> <span class="taxonomy__count">({{ this_journal_paper.size
                             }})</span>
                     </a>
                 </li>
+                {% endif %}
                 {% endfor %}
 
             </ul>
