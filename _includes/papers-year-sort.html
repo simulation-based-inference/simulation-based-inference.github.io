@@ -15,6 +15,11 @@
         <div class="box">
             <!-- <strong>Sort by categories</strong> -->
             <ul>
+                <li>
+                    <a>
+                        <strong>Total</strong> <span class="taxonomy__count">({{ site.posts.size }})</span>
+                    </a>
+                </li>
                 {% for year in unique_years %}
                 {% assign this_year_paper = sorted | where: "year", year %}
                 <li>
