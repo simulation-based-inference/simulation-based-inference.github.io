@@ -2,8 +2,10 @@
 
 <div class="columns is-multiline">
     {% for post in site.posts limit:4 %}
+    {% unless post.title == "" %}
     <div class="column is-12">
         {% include post-card.html %}
     </div>
+    {% endunless %}
     {% endfor %}
 </div>
