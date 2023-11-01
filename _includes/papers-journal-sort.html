@@ -2,10 +2,9 @@
 
 {% assign unique_journals = "" %}
 {% for post in sorted %}
-{% if unique_journals contains post.journal %}
-{% else %}
+{% unless unique_journals contains post.journal %}
 {% assign unique_journals = unique_journals | append: post.journal | append: "; " %}
-{% endif %}
+{% endunless %}
 {% endfor %}
 
 {% assign unique_journals = unique_journals | split: "; " | sort %}
