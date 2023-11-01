@@ -8,4 +8,3 @@ A Trust Crisis In Simulation-Based Inference? Your Posterior Approximations Can 
 Spatial random field models based on Lévy indicator convolutions
 Editorial and Front Matter Issue 3 2022
 Interview With Soma Roy
-EFTofLSS meets simulation-based inference: $σ_8$ from biased tracers

@@ -56,6 +56,7 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
         "<": "&lt;",
         ">": "&gt;",
         "\n": "<br>",
+        ":": "",
     }
 
     if response.status_code == 200:
