@@ -1,4 +1,5 @@
 {% assign categories_max = 0 %}
+
 {% for category in site.categories %}
 {% if category[1].size > categories_max %}
 {% assign categories_max = category[1].size %}
@@ -11,6 +12,11 @@
         <div class="box">
             <!-- <strong>Sort by categories</strong> -->
             <ul>
+                <li>
+                    <a>
+                        <strong>Total</strong> <span class="taxonomy__count">({{ site.posts.size }})</span>
+                    </a>
+                </li>
                 {% for i in (1..categories_max) reversed %}
                 {% for category in site.categories %}
                 {% if category[0] != "Uncategorized" %}
