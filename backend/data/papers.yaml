@@ -5748,7 +5748,7 @@
   snippet: "\u2026 Our algorithms are simple extensions to an existing simulation-based\
     \ inference framework called approximate Bayesian computation. POPE is applied\
     \ two biological simulators: a fast \u2026"
-  journal: "bmcbioinformatics.biomedcentral \u2026"
+  journal: BMC
   category: Statistics
   doi: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0658-1
 - id: 459
@@ -6463,7 +6463,7 @@
   snippet: "\u2026 Our third algorithm induces probabilistic models on which Rao-Blackwellised\
     \ importance sampling, a popular simulation-based inference scheme is likely to\
     \ perform well. Finally, our \u2026"
-  journal: utd-ir.tdl.org
+  `utd-ir.tdl.org
   category: Computer Science
   doi: https://utd-ir.tdl.org/handle/10735.1/9463
 - id: 513
