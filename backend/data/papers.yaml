@@ -17,8 +17,8 @@
 - id: 2
   created_at: 2023-06-30 12:41:49.954263
   published_on: 2023-04-11
-  title: 'SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical
-    Application'
+  title: SBI++ Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical
+    Application
   authors: Bingjie Wang, Joel Leja, V. Ashley Villar, Joshua S. Speagle
   publication_info_summary: B Wang, J Leja, VA Villar, JS Speagle - arXiv preprint
     arXiv:2304.05281, 2023 - arxiv.org
@@ -33,7 +33,7 @@
 - id: 3
   created_at: 2023-06-30 12:41:53.737092
   published_on: 2023-04-07
-  title: 'SimBIG: mock challenge for a forward modeling approach to galaxy clustering'
+  title: SimBIG mock challenge for a forward modeling approach to galaxy clustering
   publication_info_summary: "CH Hahn, M Eickenberg, S Ho, J Hou\u2026 - \u2026 of\
     \ Cosmology and \u2026, 2023 - iopscience.iop.org"
   link: https://iopscience.iop.org/article/10.1088/1475-7516/2023/04/010/meta
@@ -62,8 +62,8 @@
 - id: 5
   created_at: 2023-06-30 12:42:09.193318
   published_on: 2023-04-04
-  title: 'Albatross: A scalable simulation-based inference pipeline for analysing
-    stellar streams in the Milky Way'
+  title: Albatross A scalable simulation-based inference pipeline for analysing stellar
+    streams in the Milky Way
   authors: James Alvey, Mathis Gerdes, Christoph Weniger
   publication_info_summary: J Alvey, M Gerdes, C Weniger - arXiv preprint arXiv:2304.02032,
     2023 - arxiv.org
@@ -78,8 +78,7 @@
 - id: 6
   created_at: 2023-06-30 12:42:04.680732
   published_on: 2023-04-04
-  title: 'Peregrine: Sequential simulation-based inference for gravitational wave
-    signals'
+  title: Peregrine Sequential simulation-based inference for gravitational wave signals
   authors: Uddipta Bhardwaj, James Alvey, Benjamin Kurt Miller, Samaya Nissanke, Christoph
     Weniger
   publication_info_summary: "U Bhardwaj, J Alvey, BK Miller, S Nissanke\u2026 - arXiv\
@@ -291,7 +290,7 @@
 - id: 20
   created_at: 2023-06-26 12:44:31.105211
   published_on: 2023-02-17
-  title: 'JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models'
+  title: JANA Jointly Amortized Neural Approximation of Complex Bayesian Models
   authors: "Stefan T. Radev, Marvin Schmitt, Valentin Pratz, Umberto Picchini, Ullrich\
     \ K\xF6the, Paul-Christian B\xFCrkner"
   publication_info_summary: "ST Radev, M Schmitt, V Pratz, U Picchini\u2026 - arXiv\
@@ -308,7 +307,7 @@
 - id: 21
   created_at: 2023-06-23 12:43:48.753969
   published_on: 2023-02-14
-  title: 'swyft: Scientific simulation-based inference at scale'
+  title: swyft Scientific simulation-based inference at scale
   publication_info_summary: "B Miller, A Cole, C Weniger, F Nattino\u2026 - Astrophysics\
     \ \u2026, 2023 - ui.adsabs.harvard.edu"
   link: https://ui.adsabs.harvard.edu/abs/2023ascl.soft02016M/abstract
@@ -393,8 +392,8 @@
 - id: 27
   created_at: 2023-04-26 10:09:39.028862
   published_on: 2023-01-27
-  title: 'SOBER: Scalable Batch Bayesian Optimization and Quadrature using Recombination
-    Constraints'
+  title: SOBER Scalable Batch Bayesian Optimization and Quadrature using Recombination
+    Constraints
   authors: "Masaki Adachi, Satoshi Hayakawa, Saad Hamid, Martin J\xF8rgensen, Harald\
     \ Oberhauser, Micheal A. Osborne"
   publication_info_summary: "M Adachi, S Hayakawa, S Hamid, M J\xF8rgensen\u2026 -\
@@ -436,8 +435,8 @@
 - id: 30
   created_at: 2023-04-26 10:09:44.286292
   published_on: 2023-01-16
-  title: 'PhyloCoalSimulations: A simulator for network multispecies coalescent models,
-    including a new extension for the inheritance of gene flow'
+  title: PhyloCoalSimulations A simulator for network multispecies coalescent models,
+    including a new extension for the inheritance of gene flow
   publication_info_summary: "J Fogg, ES Allman, C An\xE9 - bioRxiv, 2023 - biorxiv.org"
   link: https://www.biorxiv.org/content/10.1101/2023.01.11.523690.abstract
   snippet: "\u2026 This package should be useful for simulation studies and simulation-based\
@@ -524,8 +523,8 @@
 - id: 37
   created_at: 2023-04-26 10:09:55.204243
   published_on: 2023-01-01
-  title: 'Emulating hydrodynamic simulations with semi-analytic modeling: comparing
-    the evolution of global quantities in the Santa Cruz SAM and IllustrisTNG'
+  title: Emulating hydrodynamic simulations with semi-analytic modeling comparing
+    the evolution of global quantities in the Santa Cruz SAM and IllustrisTNG
   publication_info_summary: "A Gabrielpillai, R Somerville, S Genel\u2026 - American\
     \ \u2026, 2023 - ui.adsabs.harvard.edu"
   link: https://ui.adsabs.harvard.edu/abs/2023AAS...24140603G/abstract
@@ -605,8 +604,8 @@
 - id: 44
   created_at: 2023-04-26 10:10:03.846077
   published_on: 2022-01-01
-  title: 'A Deep Learning Emulator for a Groundwater Model: Mapping Steady-State Water
-    Table Depth'
+  title: A Deep Learning Emulator for a Groundwater Model Mapping Steady-State Water
+    Table Depth
   publication_info_summary: "A Paulraj, A Bennett, Y Ma, L Condon\u2026 - AGU Fall\
     \ Meeting \u2026, 2022 - ui.adsabs.harvard.edu"
   link: https://ui.adsabs.harvard.edu/abs/2022AGUFM.H52P0670P/abstract
@@ -663,8 +662,8 @@
 - id: 50
   created_at: 2023-04-26 10:10:10.671159
   published_on: 2022-11-08
-  title: 'Detection is truncation: studying source populations with truncated marginal
-    neural ratio estimation'
+  title: Detection is truncation studying source populations with truncated marginal
+    neural ratio estimation
   authors: Noemi Anau Montel, Christoph Weniger
   publication_info_summary: N Anau Montel, C Weniger - arXiv e-prints, 2022 - ui.adsabs.harvard.edu
   link: https://ui.adsabs.harvard.edu/abs/2022arXiv221104291A/abstract
@@ -727,7 +726,7 @@
 - id: 55
   created_at: 2023-04-26 10:10:17.776510
   published_on: 2022-11-16
-  title: 'DIGS: Deep Inference of Galaxy Spectra with Neural Posterior Estimation'
+  title: DIGS Deep Inference of Galaxy Spectra with Neural Posterior Estimation
   authors: Gourav Khullar, Brian Nord, Aleksandra Ciprijanovic, Jason Poh, Fei Xu
   publication_info_summary: JP Ciprijanovic, F Xu - inspirehep.net
   link: https://inspirehep.net/files/44c956bfbc3d3802ecbb9573824c59b5
@@ -828,8 +827,8 @@
 - id: 63
   created_at: 2023-04-26 10:10:27.104223
   published_on: 2022-10-04
-  title: 'New Machine Learning Techniques for Simulation-Based Inference: InferoStatic
-    Nets, Kernel Score Estimation, and Kernel Likelihood Ratio Estimation'
+  title: New Machine Learning Techniques for Simulation-Based Inference InferoStatic
+    Nets, Kernel Score Estimation, and Kernel Likelihood Ratio Estimation
   authors: Kyoungchul Kong, Konstantin T. Matchev, Stephen Mrenna, Prasanth Shyamsundar
   publication_info_summary: "K Kong, KT Matchev, S Mrenna\u2026 - arXiv preprint arXiv\
     \ \u2026, 2022 - arxiv.org"
@@ -845,7 +844,7 @@
 - id: 64
   created_at: 2023-04-26 10:10:28.024563
   published_on: 2022-01-01
-  title: 'paltas: Simulation-based inference on strong gravitational lensing systems'
+  title: paltas Simulation-based inference on strong gravitational lensing systems
   publication_info_summary: "S Wagner-Carena, J Aalbers, S Birrer\u2026 - Astrophysics\
     \ \u2026, 2022 - ui.adsabs.harvard.edu"
   link: https://ui.adsabs.harvard.edu/abs/2022ascl.soft10029W/abstract
@@ -873,8 +872,8 @@
 - id: 66
   created_at: 2023-04-26 10:10:31.045239
   published_on: 2022-09-24
-  title: 'Full posterior estimation of Gray Matter cytoarchitecture using a three-compartment
-    model with exchange: a simulation-based study'
+  title: Full posterior estimation of Gray Matter cytoarchitecture using a three-compartment
+    model with exchange a simulation-based study
   publication_info_summary: T Meunier, C Fang, M Jallais, D Wassermann - archive.ismrm.org
   link: https://archive.ismrm.org/2022/1908.html
   snippet: "\u2026 Our model improves on state-of-the-art in that 1) we extract an\
@@ -1015,8 +1014,8 @@
 - id: 76
   created_at: 2023-04-26 10:10:43.812664
   published_on: 2022-01-01
-  title: 'Using simulation-based inference to determine the parameters of an integrated
-    hydrologic model: a case study from the upper Colorado River basin'
+  title: Using simulation-based inference to determine the parameters of an integrated
+    hydrologic model a case study from the upper Colorado River basin
   publication_info_summary: "R Hull, E Leonarduzzi, L De La Fuente\u2026 - Hydrology\
     \ and Earth \u2026, 2022 - hess.copernicus.org"
   link: https://hess.copernicus.org/preprints/hess-2022-345/
@@ -1074,7 +1073,7 @@
 - id: 81
   created_at: 2023-04-26 10:10:50.780681
   published_on: 2022-01-01
-  title: 'swyft: Truncated Marginal Neural Ratio Estimation in Python'
+  title: swyft Truncated Marginal Neural Ratio Estimation in Python
   publication_info_summary: "BK Miller, A Cole, C Weniger, F Nattino, O Ku\u2026 -\
     \ Journal of Open \u2026, 2022 - joss.theoj.org"
   link: https://joss.theoj.org/papers/10.21105/joss.04205.pdf
@@ -1183,8 +1182,8 @@
 - id: 89
   created_at: 2023-04-26 10:10:59.405963
   published_on: 2022-07-01
-  title: 'The Disordered Heterogeneous Universe: Galaxy Distribution and Clustering
-    Across Length Scales'
+  title: The Disordered Heterogeneous Universe Galaxy Distribution and Clustering
+    Across Length Scales
   authors: Oliver H. E. Philcox, Salvatore Torquato
   publication_info_summary: OHE Philcox, S Torquato - Physical Review X, 2023 - APS
   link: https://journals.aps.org/prx/abstract/10.1103/PhysRevX.13.011038
@@ -1198,7 +1197,7 @@
 - id: 90
   created_at: 2023-04-26 10:11:00.993010
   published_on: 2022-01-01
-  title: "Book Review: Multivariate Data Integration Using R: Methods and Applications\
+  title: "Book Review Multivariate Data Integration Using R Methods and Applications\
     \ with the mixOmics Package, by Kim-Ahn L\xEA Cao and Zoe Welham, Boca Raton \u2026"
   publication_info_summary: S Lipovetsky - 2022 - Taylor & Francis
   link: https://www.tandfonline.com/doi/full/10.1080/00401706.2022.2087426
@@ -1211,7 +1210,7 @@
   created_at: 2023-04-26 10:11:02.523282
   published_on: 2022-01-01
   title: "Modern Data Science with R by Benjamin S. Baumer, Daniel T. Kaplan, and\
-    \ Nicholas J. Horton, Boca Raton, FL: Chapman and Hall/CRC Press, 2021, 650 pp\
+    \ Nicholas J. Horton, Boca Raton, FL Chapman and Hall/CRC Press, 2021, 650 pp\
     \ \u2026"
   publication_info_summary: K Arai, V Lyubchich - 2022 - Taylor & Francis
   link: https://www.tandfonline.com/doi/full/10.1080/00401706.2022.2087421
@@ -1233,8 +1232,8 @@
 - id: 93
   created_at: 2023-04-26 10:11:04.485209
   published_on: 2022-01-01
-  title: 'Simulation based inference for high dimensional inverse problems: application
-    to magnetic resonance fingerprinting'
+  title: Simulation based inference for high dimensional inverse problems application
+    to magnetic resonance fingerprinting
   publication_info_summary: "F Forbes - Colloque Intelligence Artificielle et sant\xE9\
     : approches \u2026, 2022 - hal.science"
   link: https://hal.science/hal-03876812/
@@ -1246,8 +1245,8 @@
 - id: 94
   created_at: 2023-04-26 10:11:05.971393
   published_on: 2022-01-01
-  title: 'From Synapses to Circuits: Different Levels of Functional Modeling of the
-    Retina'
+  title: From Synapses to Circuits Different Levels of Functional Modeling of the
+    Retina
   publication_info_summary: "C Schr\xF6der - 2022 - coschroeder.github.io"
   link: https://coschroeder.github.io/pdfs/PhD_Thesis_Schroeder_without_pdfs.pdf
   snippet: "\u2026 Throughout the presented work, I exploit the framework of simulation\
@@ -1299,8 +1298,8 @@
 - id: 100
   created_at: 2023-04-26 10:11:14.428256
   published_on: 2022-05-31
-  title: 'Simulation-Based Inference with Waldo: Confidence Regions by Leveraging
-    Prediction Algorithms or Posterior Estimators for Inverse Problems'
+  title: Simulation-Based Inference with Waldo Confidence Regions by Leveraging Prediction
+    Algorithms or Posterior Estimators for Inverse Problems
   authors: Luca Masserano, Tommaso Dorigo, Rafael Izbicki, Mikael Kuusela, Ann B.
     Lee
   publication_info_summary: "L Masserano, T Dorigo, R Izbicki, M Kuusela\u2026 - arXiv\
@@ -1451,7 +1450,7 @@
 - id: 111
   created_at: 2023-06-30 12:41:21.303430
   published_on: 2023-04-27
-  title: 'AI Seminar: Machine Learning Powered Inference in Cosmology'
+  title: AI Seminar Machine Learning Powered Inference in Cosmology
   publication_info_summary: TV Kristensen - 2023 - ai.ku.dk
   link: https://ai.ku.dk/events/ai-seminar-machine-learning-powered-inference-in-cosmology/
   snippet: "\u2026 I will then talk about Machine Learning based methods to improve\
@@ -1504,8 +1503,8 @@
 - id: 117
   created_at: 2023-05-22 16:54:51.455440
   published_on: 2022-01-01
-  title: 'Advances in Simulation-Based Inference: Towards the automation of the Scientific
-    Method through Learning Algorithms'
+  title: Advances in Simulation-Based Inference Towards the automation of the Scientific
+    Method through Learning Algorithms
   publication_info_summary: J Hermans - 2022 - orbi.uliege.be
   link: https://orbi.uliege.be/handle/2268/289425
   snippet: "\u2026 advance the field of simulation-based inference. Simulation-based\
@@ -1548,7 +1547,7 @@
 - id: 120
   created_at: 2023-05-22 16:54:52.416793
   published_on: 2022-01-01
-  title: 'Simulation-based inference: proceed with caution!'
+  title: Simulation-based inference proceed with caution!
   publication_info_summary: G Louppe - Learning to Discover, 2022 - orbi.uliege.be
   link: https://orbi.uliege.be/bitstream/2268/290857/1/talk-learning-to-discover.pdf
   snippet: "\u2026 Simulation-based inference \u2026 We must make sure our approximate\
@@ -1656,8 +1655,8 @@
 - id: 128
   created_at: 2023-05-22 16:54:52.767084
   published_on: 2015-01-01
-  title: 'Simulation-Based Inference in Statistics Education: Exciting Progress and
-    Future Directions'
+  title: Simulation-Based Inference in Statistics Education Exciting Progress and
+    Future Directions
   publication_info_summary: NL Tintle - Statistics Views, 2015 - digitalcollections.dordt.edu
   link: https://digitalcollections.dordt.edu/faculty_work/811/
   snippet: "\u2026 In essence, simulation-based inference methods can help instructors\
@@ -1670,8 +1669,8 @@
 - id: 129
   created_at: 2023-05-22 16:54:52.806755
   published_on: 2020-01-01
-  title: 'Simulation across representation: The interplay of schemas and simulation-based
-    inference on different levels of abstraction'
+  title: Simulation across representation The interplay of schemas and simulation-based
+    inference on different levels of abstraction
   publication_info_summary: "M Schilling, N Chang, KJ Rohlfing\u2026 - Behavioral\
     \ and Brain \u2026, 2020 - search.proquest.com"
   link: https://search.proquest.com/openview/35c4a960c97d0e7ae2a4595fb0929781/1?pq-origsite=gscholar&cbl=47829
@@ -1697,8 +1696,7 @@
 - id: 132
   created_at: 2023-05-22 16:54:54.733644
   published_on: 2022-01-01
-  title: 'Lesson 1: Introduction to Simulation-based Inference for Epidemiological
-    Dynamics'
+  title: Lesson 1 Introduction to Simulation-based Inference for Epidemiological Dynamics
   publication_info_summary: AA King, EL Ionides - 2022 - kingaa.github.io
   link: https://kingaa.github.io/sbied/intro/notes.pdf
   snippet: "Lesson 1: Introduction to Simulation-based Inference for Epidemiological\
@@ -1799,7 +1797,7 @@
 - id: 145
   created_at: 2023-05-22 16:54:55.343796
   published_on: 2019-01-01
-  title: 'Mining gold: Improving simulation-based inference with latent information'
+  title: Mining gold Improving simulation-based inference with latent information
   publication_info_summary: "J Brehmer, K Cranmer, S Mishra-Sharma\u2026 - Machine\
     \ Learning and \u2026, 2019 - orbi.uliege.be"
   link: https://orbi.uliege.be/handle/2268/241748
@@ -1851,8 +1849,8 @@
 - id: 149
   created_at: 2023-05-22 16:54:56.404587
   published_on: 2021-01-01
-  title: 'Simulation-based Inference: From Approximate Bayesian Computation and Particle
-    Methods to Neural Density Estimation'
+  title: Simulation-based Inference From Approximate Bayesian Computation and Particle
+    Methods to Neural Density Estimation
   publication_info_summary: S Wiqvist - 2021 - portal.research.lu.se
   link: https://portal.research.lu.se/en/publications/simulation-based-inference-from-approximate-bayesian-computation-
   snippet: "\u2026 The inference methods developed in the thesis are simulation-based\
@@ -1880,8 +1878,8 @@
 - id: 154
   created_at: 2023-05-22 16:54:56.715159
   published_on: 2018-01-01
-  title: 'Assessment of statistical education in Indonesia: Preliminary results and
-    initiation to simulation-based inference'
+  title: Assessment of statistical education in Indonesia Preliminary results and
+    initiation to simulation-based inference
   publication_info_summary: "KVI Saputra, L Cahyadi\u2026 - Journal of Physics \u2026\
     , 2018 - iopscience.iop.org"
   link: https://iopscience.iop.org/article/10.1088/1742-6596/948/1/012033/meta
@@ -1910,8 +1908,8 @@
 - id: 156
   created_at: 2023-05-22 16:54:57.638254
   published_on: 2015-01-01
-  title: 'Experiencing a Paradigm Shift: Teaching Statistics Through Simulation-Based
-    Inference'
+  title: Experiencing a Paradigm Shift Teaching Statistics Through Simulation-Based
+    Inference
   publication_info_summary: NL Tintle, D Klanderman, M Maxwell - 2015 - digitalcollections.dordt.edu
   link: https://digitalcollections.dordt.edu/faculty_work/462/
   snippet: "\u2026 This paper describes simulation-based inference curricula more\
@@ -1936,8 +1934,8 @@
 - id: 159
   created_at: 2023-05-22 16:54:57.752406
   published_on: 2015-01-01
-  title: 'Experiencing a Paradigm Shift: Teaching Statistics through Simulation-based
-    Inference'
+  title: Experiencing a Paradigm Shift Teaching Statistics through Simulation-based
+    Inference
   publication_info_summary: "D Klanderman, M Maxwell, N Tintle - of the Association\
     \ of \u2026, 2015 - pillars.taylor.edu"
   link: https://pillars.taylor.edu/cgi/viewcontent.cgi?article=1004&context=acms-2015#page=52
@@ -2013,8 +2011,8 @@
 - id: 165
   created_at: 2023-05-22 16:55:01.691562
   published_on: 2001-01-01
-  title: 'The dynamics of health in British households: Simulation-based inference
-    in panel probit models'
+  title: The dynamics of health in British households Simulation-based inference in
+    panel probit models
   publication_info_summary: N Rice - 2001 - york.ac.uk
   link: https://www.york.ac.uk/media/economics/documents/discussionpapers/2001/0115.pdf
   snippet: "The study of income dynamics, such as the analysis of transitions into\
@@ -2136,8 +2134,8 @@
 - id: 175
   created_at: 2023-05-22 16:55:02.847473
   published_on: 2011-01-01
-  title: 'Bayesian inference based only on simulated likelihood: particle filter analysis
-    of dynamic economic models'
+  title: Bayesian inference based only on simulated likelihood particle filter analysis
+    of dynamic economic models
   publication_info_summary: T Flury, N Shephard - Econometric Theory, 2011 - cambridge.org
   link: https://www.cambridge.org/core/journals/econometric-theory/article/bayesian-inference-based-only-on-simulated-likelihood-particle-filter-analysis-of-dynamic-economic-models/CBB67FA72D9A0B384400193E8D5472B3
   snippet: "\u2026 These observations led to the development of new simulation-based\
@@ -2262,8 +2260,8 @@
 - id: 189
   created_at: 2023-05-22 16:55:06.373458
   published_on: 2022-01-01
-  title: 'Estimating the true arrival, balking, and reneging processes from censored
-    transactional data: a simulation-based approach'
+  title: Estimating the true arrival, balking, and reneging processes from censored
+    transactional data a simulation-based approach
   publication_info_summary: A Negahban - Simulation, 2022 - journals.sagepub.com
   link: https://journals.sagepub.com/doi/pdf/10.1177/00375497211061115
   snippet: "\u2026 The simulation-based inference approach proposed in this paper\
@@ -2346,8 +2344,8 @@
 - id: 195
   created_at: 2023-05-22 16:55:06.568782
   published_on: 2022-01-01
-  title: 'Mutual information maximization for amortized likelihood inference from
-    sampled trajectories: MINIMALIST'
+  title: Mutual information maximization for amortized likelihood inference from sampled
+    trajectories MINIMALIST
   publication_info_summary: "G Isacchini, N Spisak, A Nourmohammad, T Mora\u2026 -\
     \ Physical Review E, 2022 - APS"
   link: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.055309
@@ -2419,8 +2417,8 @@
 - id: 200
   created_at: 2023-05-22 16:55:09.797358
   published_on: 2012-01-01
-  title: 'Cell motility models and inference for dynamic systems or Plug-and-play
-    inference: What? Why? When? How?'
+  title: Cell motility models and inference for dynamic systems or Plug-and-play inference
+    What? Why? When? How?
   publication_info_summary: E Ionides - 2012 - Citeseer
   link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=29134a30ecd5b0f137a176410a02d09c6ea86f73
   snippet: "\u2026 Modern simulation-based inference methods do not generate long\
@@ -2446,7 +2444,7 @@
 - id: 203
   created_at: 2023-05-22 16:55:09.905358
   published_on: 2017-08-07
-  title: 'Reallocating and Resampling: A Comparison for Inference'
+  title: Reallocating and Resampling A Comparison for Inference
   authors: Kari Lock Morgan
   publication_info_summary: K Lock Morgan - arXiv e-prints, 2017 - ui.adsabs.harvard.edu
   link: https://ui.adsabs.harvard.edu/abs/2017arXiv170802102L/abstract
@@ -2476,8 +2474,7 @@
 - id: 205
   created_at: 2023-05-22 16:55:10.022776
   published_on: 2013-03-28
-  title: 'Toward a Bayesian Inference of Time-Deformation Models: Some Simulation
-    Studies'
+  title: Toward a Bayesian Inference of Time-Deformation Models Some Simulation Studies
   publication_info_summary: TS Wirjanto, Z Men - Available at SSRN 2241194, 2013 -
     papers.ssrn.com
   link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2241194
@@ -2589,7 +2586,7 @@
 - id: 214
   created_at: 2023-05-22 16:55:12.408627
   published_on: 2015-01-01
-  title: 'EDITORS''INTRODUCTION: IDENTIFICATION, SIMULATION AND FINITE-SAMPLE INFERENCE'
+  title: EDITORS'INTRODUCTION IDENTIFICATION, SIMULATION AND FINITE-SAMPLE INFERENCE
   publication_info_summary: "RBC Chaire - L'Actualit\xE9 \xE9conomique, 2015 - mail.cirano.qc.ca"
   link: https://mail.cirano.qc.ca/~dufourj/Web_Site/Beaulieu_Dufour_Khalaf_MacKinlay_2015_AE_Intro_IdentificationSimulationFiniteSampleInference.pdf
   snippet: "\u2026 Improving finite-sample accuracy is a major concern, so practitioners\
@@ -2704,8 +2701,8 @@
 - id: 228
   created_at: 2023-05-22 16:55:16.148857
   published_on: 2018-01-01
-  title: 'Finding Meaning in a Multivariable World: A Conceptual Approach to an Algebra-Based
-    Second Course in Statistics'
+  title: Finding Meaning in a Multivariable World A Conceptual Approach to an Algebra-Based
+    Second Course in Statistics
   publication_info_summary: "K McGaughey, B Chance, NL Tintle, S Roy, T Swanson\u2026\
     \ - 2018 - digitalcollections.dordt.edu"
   link: https://digitalcollections.dordt.edu/faculty_work/1252/
@@ -2869,8 +2866,8 @@
 - id: 241
   created_at: 2023-05-22 16:55:18.998114
   published_on: 2020-11-11
-  title: 'Solving high-dimensional parameter inference: marginal posterior densities
-    & Moment Networks'
+  title: Solving high-dimensional parameter inference marginal posterior densities
+    & Moment Networks
   authors: Niall Jeffrey, Benjamin D. Wandelt
   publication_info_summary: N Jeffrey, BD Wandelt - arXiv preprint arXiv:2011.05991,
     2020 - arxiv.org
@@ -2902,7 +2899,7 @@
 - id: 243
   created_at: 2023-05-22 16:55:19.789669
   published_on: 2020-01-01
-  title: 'MSL: Mining for Substructure Lenses'
+  title: MSL Mining for Substructure Lenses
   publication_info_summary: "S Mishra-Sharma, J Brehmer\u2026 - \u2026 Source Code\
     \ Library, 2020 - ui.adsabs.harvard.edu"
   link: https://ui.adsabs.harvard.edu/abs/2020ascl.soft09024M/abstract
@@ -2984,9 +2981,8 @@
 - id: 250
   created_at: 2023-05-22 16:55:24.117337
   published_on: 2007-01-01
-  title: "Hensher, DA, Rose, JM, & Greene, WH (2005). Applied choice analysis: A primer.\
-    \ Cambridge: Cambridge University Press. 742+ xxiv pp. US $60.00. ISBN: 0-521\
-    \ \u2026"
+  title: "Hensher, DA, Rose, JM, & Greene, WH (2005). Applied choice analysis A primer.\
+    \ Cambridge Cambridge University Press. 742+ xxiv pp. US $60.00. ISBN 0-521 \u2026"
   publication_info_summary: TR Johnson - 2007 - search.proquest.com
   link: https://search.proquest.com/openview/5401597d85021585aa3aaddfcd9d21af/1?pq-origsite=gscholar&cbl=47416
   snippet: "\u2026 Chapters 15 and 16 concern the mixed logit model and simulation-based\
@@ -3134,8 +3130,8 @@
 - id: 261
   created_at: 2023-05-22 16:55:29.796566
   published_on: 2022-01-01
-  title: 'Driver-Pedestrian Perceptual Models Demonstrate Coupling: Implications for
-    Vehicle Automation'
+  title: Driver-Pedestrian Perceptual Models Demonstrate Coupling Implications for
+    Vehicle Automation
   publication_info_summary: "JE Domeyer, JD Lee, H Toyoda\u2026 - IEEE Transactions\
     \ on \u2026, 2022 - ieeexplore.ieee.org"
   link: https://ieeexplore.ieee.org/abstract/document/9745572/
@@ -3163,8 +3159,8 @@
 - id: 263
   created_at: 2023-05-22 16:55:29.863605
   published_on: 2016-01-01
-  title: 'A spatial stochastic frontier model with spillovers: Evidence for Italian
-    regions'
+  title: A spatial stochastic frontier model with spillovers Evidence for Italian
+    regions
   publication_info_summary: "EG Tsionas, PG Michaelides - Scottish Journal of Political\
     \ \u2026, 2016 - Wiley Online Library"
   link: https://onlinelibrary.wiley.com/doi/abs/10.1111/sjpe.12081
@@ -3192,7 +3188,7 @@
 - id: 265
   created_at: 2023-05-22 16:55:29.936934
   published_on: 2015-01-01
-  title: 'Softstar: Heuristic-guided probabilistic inference'
+  title: Softstar Heuristic-guided probabilistic inference
   publication_info_summary: "M Monfort, BM Lake, B Ziebart\u2026 - Advances in Neural\
     \ \u2026, 2015 - proceedings.neurips.cc"
   link: https://proceedings.neurips.cc/paper/2015/hash/ed4227734ed75d343320b6a5fd16ce57-Abstract.html
@@ -3233,7 +3229,7 @@
 - id: 268
   created_at: 2023-05-22 16:55:30.034999
   published_on: 2006-01-01
-  title: 'Higher Dimensional Multi-Fractal Model: Filtering via Simulation'
+  title: Higher Dimensional Multi-Fractal Model Filtering via Simulation
   publication_info_summary: R Liu, T Lux - 2006 - Citeseer
   link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=d912360c046eee208f956978bc0f2050d368cb1e
   snippet: "\u2026 To overcome this up-bound limit, we seek some support from simulation\
@@ -3246,7 +3242,7 @@
 - id: 269
   created_at: 2023-05-22 16:55:30.068896
   published_on: 2022-01-01
-  title: 'SIMBIG: Likelihood-Free Inference of Galaxy Clustering'
+  title: SIMBIG Likelihood-Free Inference of Galaxy Clustering
   publication_info_summary: "CH Hahn, M Abidi, M Eickenberg, S Ho\u2026 - Machine\
     \ Learning \u2026, 2022 - ml4astro.github.io"
   link: https://ml4astro.github.io/icml2022/assets/24.pdf
@@ -3273,7 +3269,7 @@
 - id: 271
   created_at: 2023-05-22 16:55:30.145519
   published_on: 2013-01-01
-  title: 'Revisiting the FDI-led growth hypothesis: The case of China'
+  title: Revisiting the FDI-led growth hypothesis The case of China
   publication_info_summary: AY Yalta - Economic Modelling, 2013 - Elsevier
   link: https://www.sciencedirect.com/science/article/pii/S0264999312003860
   snippet: "\u2026 We employ simulation based inference to investigate the causal\
@@ -3286,8 +3282,8 @@
 - id: 272
   created_at: 2023-05-22 16:55:30.186835
   published_on: 2021-01-01
-  title: 'Simulation-based engineering design: solving parameter inference and multi-objective
-    optimization problems on a shared simulation budget'
+  title: Simulation-based engineering design solving parameter inference and multi-objective
+    optimization problems on a shared simulation budget
   publication_info_summary: "OPH Jones, JE Oakley\u2026 - 2021 IEEE International\
     \ \u2026, 2021 - ieeexplore.ieee.org"
   link: https://ieeexplore.ieee.org/abstract/document/9658645/
@@ -3329,8 +3325,8 @@
 - id: 275
   created_at: 2023-05-22 16:55:32.500547
   published_on: 2023-01-01
-  title: 'From Images to Dark Matter: End-To-End Inference of Substructure From Hundreds
-    of Strong Gravitational Lenses'
+  title: From Images to Dark Matter End-To-End Inference of Substructure From Hundreds
+    of Strong Gravitational Lenses
   publication_info_summary: "S Wagner-Carena, J Aalbers, S Birrer\u2026 - The Astrophysical\
     \ \u2026, 2023 - iopscience.iop.org"
   link: https://iopscience.iop.org/article/10.3847/1538-4357/aca525/meta
@@ -3358,8 +3354,8 @@
 - id: 277
   created_at: 2023-05-22 16:55:32.574958
   published_on: 2011-01-01
-  title: 'Simulation-based models of emergency departments: Operational, tactical,
-    and strategic staffing'
+  title: Simulation-based models of emergency departments Operational, tactical, and
+    strategic staffing
   publication_info_summary: "S Zeltyn, YN Marmor, A Mandelbaum\u2026 - ACM Transactions\
     \ on \u2026, 2011 - dl.acm.org"
   link: https://dl.acm.org/doi/abs/10.1145/2000494.2000497
@@ -3387,7 +3383,7 @@
 - id: 279
   created_at: 2023-05-22 16:55:32.637661
   published_on: 2022-01-01
-  title: 'Lesson 3: Likelihood-based inference for POMP models'
+  title: Lesson 3 Likelihood-based inference for POMP models
   publication_info_summary: AA King, EL Ionides, Q Lin - 2022 - kingaa.github.io
   link: https://kingaa.github.io/sbied/pfilter/notes.pdf
   snippet: "\u2026 \u2022 This lesson is prepared for the Simulation-based Inference\
@@ -3427,8 +3423,8 @@
 - id: 282
   created_at: 2023-05-22 16:55:32.736751
   published_on: 2011-01-01
-  title: 'SPECIAL ISSUE OF ECONOMETRIC THEORY ON BOOTSTRAP AND NUMERICAL METHODS IN
-    TIME SERIES: GUEST EDITORS''INTRODUCTION'
+  title: SPECIAL ISSUE OF ECONOMETRIC THEORY ON BOOTSTRAP AND NUMERICAL METHODS IN
+    TIME SERIES GUEST EDITORS'INTRODUCTION
   publication_info_summary: AMR Taylor, TJ Vogelsang - Econometric Theory, 2011 -
     cambridge.org
   link: https://www.cambridge.org/core/journals/econometric-theory/article/special-issue-of-econometric-theory-on-bootstrap-and-numerical-methods-in-time-series-guest-editors-introduction/F5F99A0E7D29E14EE58D5F3C628B928B
@@ -3441,7 +3437,7 @@
 - id: 283
   created_at: 2023-05-22 16:55:32.775012
   published_on: 2012-01-01
-  title: 'Capital structure: The case of firms issuing debt'
+  title: Capital structure The case of firms issuing debt
   publication_info_summary: Y Zhu - Australian Journal of Management, 2012 - journals.sagepub.com
   link: https://journals.sagepub.com/doi/pdf/10.1177/0312896211429159
   snippet: "\u2026 Therefore, solutions to the spurious ratio problem will be found\
@@ -3483,7 +3479,7 @@
 - id: 287
   created_at: 2023-05-22 16:55:34.498719
   published_on: 2021-12-06
-  title: 'Simulation Intelligence: Towards a New Generation of Scientific Methods'
+  title: Simulation Intelligence Towards a New Generation of Scientific Methods
   authors: "Alexander Lavin, David Krakauer, Hector Zenil, Justin Gottschlich, Tim\
     \ Mattson, Johann Brehmer, Anima Anandkumar, Sanjay Choudry, Kamil Rocki, At\u0131\
     l\u0131m G\xFCne\u015F Baydin, Carina Prunkl, Brooks Paige, Olexandr Isayev, Erik\
@@ -3616,8 +3612,8 @@
 - id: 298
   created_at: 2023-05-22 16:55:37.976655
   published_on: 2019-01-01
-  title: 'Mining for Dark Matter Substructure: Inferring subhalo population properties
-    from strong lenses with machine learning'
+  title: Mining for Dark Matter Substructure Inferring subhalo population properties
+    from strong lenses with machine learning
   publication_info_summary: "J Brehmer, S Mishra-Sharma, J Hermans\u2026 - The Astrophysical\
     \ \u2026, 2019 - iopscience.iop.org"
   link: https://iopscience.iop.org/article/10.3847/1538-4357/ab4c41/meta
@@ -3717,7 +3713,7 @@
 - id: 305
   created_at: 2023-05-22 16:55:42.806844
   published_on: 2017-01-01
-  title: 'The mosaic package: helping students to''think with data''using R'
+  title: The mosaic package helping students to'think with data'using R
   publication_info_summary: RJ Pruim, DT Kaplan, NJ Horton - R Journal, 2017 - digitalcommons.calvin.edu
   link: https://digitalcommons.calvin.edu/calvin_facultypubs/252/
   snippet: "\u2026 The mosaic package provides a simplified and systematic introduction\
@@ -3785,8 +3781,8 @@
 - id: 310
   created_at: 2023-05-22 16:55:43.805079
   published_on: 2015-01-01
-  title: 'Emphasizing the Entire Research Process Throughout the Curriculum: The Next
-    Step in Real Data Integration in Introductory Statistics Courses'
+  title: Emphasizing the Entire Research Process Throughout the Curriculum The Next
+    Step in Real Data Integration in Introductory Statistics Courses
   publication_info_summary: NL Tintle - 2015 - digitalcollections.dordt.edu
   link: https://digitalcollections.dordt.edu/cgi/viewcontent.cgi?article=1818&context=faculty_work
   snippet: "\u2026 use of simulation-based inference \u2026 simulation-based inference\
@@ -3811,7 +3807,7 @@
 - id: 312
   created_at: 2023-05-22 16:55:44.557837
   published_on: 2018-01-01
-  title: 'Turing: a language for flexible probabilistic inference'
+  title: Turing a language for flexible probabilistic inference
   publication_info_summary: "H Ge, K Xu, Z Ghahramani - International conference on\
     \ \u2026, 2018 - proceedings.mlr.press"
   link: http://proceedings.mlr.press/v84/ge18b.html?ref=https://githubhelp.com
@@ -3855,7 +3851,7 @@
 - id: 316
   created_at: 2023-05-22 16:55:45.520965
   published_on: 2018-01-01
-  title: "Randomization\u2010based statistical inference: A resampling and simulation\
+  title: "Randomization\u2010based statistical inference A resampling and simulation\
     \ infrastructure"
   publication_info_summary: "ID Dinov, S Palanimalai, A Khare\u2026 - Teaching statistics,\
     \ 2018 - Wiley Online Library"
@@ -3896,7 +3892,7 @@
 - id: 319
   created_at: 2023-05-22 16:55:48.436676
   published_on: 2018-01-01
-  title: 'Exit dynamics of start-up firms: Structural estimation using indirect inference'
+  title: Exit dynamics of start-up firms Structural estimation using indirect inference
   publication_info_summary: R Golombek, A Raknerud - Journal of Econometrics, 2018
     - Elsevier
   link: https://www.sciencedirect.com/science/article/pii/S0304407618300502
@@ -3954,7 +3950,7 @@
 - id: 323
   created_at: 2023-05-22 16:55:49.344595
   published_on: 2021-01-01
-  title: 'HNPE: Leveraging global parameters for neural posterior estimation'
+  title: HNPE Leveraging global parameters for neural posterior estimation
   publication_info_summary: "P Rodrigues, T Moreau, G Louppe\u2026 - Advances in Neural\
     \ \u2026, 2021 - proceedings.neurips.cc"
   link: https://proceedings.neurips.cc/paper/2021/hash/6fbd841e2e4b2938351a4f9b68f12e6b-Abstract.html
@@ -3968,7 +3964,7 @@
 - id: 324
   created_at: 2023-05-22 16:55:49.421772
   published_on: 2022-01-01
-  title: 'DIGS: deep inference of galaxy spectra with neural posterior estimation'
+  title: DIGS deep inference of galaxy spectra with neural posterior estimation
   publication_info_summary: "G Khullar, B Nord, A \u0106iprijanovi\u0107\u2026 - \u2026\
     \ Learning: Science and \u2026, 2022 - iopscience.iop.org"
   link: https://iopscience.iop.org/article/10.1088/2632-2153/ac98f4/meta
@@ -3982,7 +3978,7 @@
 - id: 325
   created_at: 2023-05-22 16:55:49.457460
   published_on: 2021-01-01
-  title: "OutbreakFlow: Model-based Bayesian inference of disease outbreak dynamics\
+  title: "OutbreakFlow Model-based Bayesian inference of disease outbreak dynamics\
     \ with invertible neural networks and its application to the COVID-19 pandemics\
     \ \u2026"
   publication_info_summary: "ST Radev, F Graw, S Chen, NT Mutters\u2026 - PLoS computational\
@@ -4040,8 +4036,8 @@
 - id: 329
   created_at: 2023-05-22 16:55:49.609817
   published_on: 2022-01-01
-  title: 'A splitting method for SDEs with locally Lipschitz drift: Illustration on
-    the FitzHugh-Nagumo model'
+  title: A splitting method for SDEs with locally Lipschitz drift Illustration on
+    the FitzHugh-Nagumo model
   publication_info_summary: "E Buckwar, A Samson, M Tamborrino\u2026 - Applied Numerical\
     \ \u2026, 2022 - Elsevier"
   link: https://www.sciencedirect.com/science/article/pii/S0168927422001118
@@ -4069,7 +4065,7 @@
 - id: 331
   created_at: 2023-05-22 16:55:49.687033
   published_on: 2012-01-01
-  title: 'Energy consumption and economic growth in China: A reconciliation'
+  title: Energy consumption and economic growth in China A reconciliation
   publication_info_summary: AT Yalta, H Cakar - Energy Policy, 2012 - Elsevier
   link: https://www.sciencedirect.com/science/article/pii/S0301421511009062
   snippet: "\u2026 We also employ a time series oriented advanced data generation\
@@ -4113,7 +4109,7 @@
 - id: 335
   created_at: 2023-05-22 16:55:50.985995
   published_on: 2012-01-01
-  title: "Constructing summary statistics for approximate Bayesian computation: semi\u2010\
+  title: "Constructing summary statistics for approximate Bayesian computation semi\u2010\
     automatic approximate Bayesian computation"
   publication_info_summary: "P Fearnhead, D Prangle - Journal of the Royal Statistical\
     \ \u2026, 2012 - Wiley Online Library"
@@ -4395,8 +4391,8 @@
 - id: 357
   created_at: 2023-05-22 16:55:55.153323
   published_on: 2020-01-01
-  title: 'Master''s Thesis: Lightning Gravitational Wave Parameter Inference through
-    Neural Amortization'
+  title: Master's Thesis Lightning Gravitational Wave Parameter Inference through
+    Neural Amortization
   publication_info_summary: A Delaunoy - 2020 - matheo.uliege.be
   link: https://matheo.uliege.be/handle/2268.2/10554
   snippet: "\u2026 This work explores simulation-based inference which relies on likelihood-to-evidence\
@@ -4436,8 +4432,8 @@
 - id: 361
   created_at: 2023-05-22 16:55:56.152846
   published_on: 2013-01-01
-  title: 'The Kumaraswamy distribution: median-dispersion re-parameterizations for
-    regression modeling and simulation-based estimation'
+  title: The Kumaraswamy distribution median-dispersion re-parameterizations for regression
+    modeling and simulation-based estimation
   publication_info_summary: PA Mitnik, S Baek - Statistical Papers, 2013 - Springer
   link: https://link.springer.com/article/10.1007/s00362-011-0417-y
   snippet: "The Kumaraswamy distribution is very similar to the Beta distribution,\
@@ -4477,7 +4473,7 @@
 - id: 364
   created_at: 2023-05-22 16:55:56.262349
   published_on: 2011-01-01
-  title: 'New evidence on the FDI-led growth: The case of China'
+  title: New evidence on the FDI-led growth The case of China
   publication_info_summary: "AY Yalta - TOBB University of Economics and Technology\
     \ \u2026, 2011 - researchgate.net"
   link: https://www.researchgate.net/profile/Ayse-Yalta-2/publication/228828821_New_Evidence_on_FDI-Led_Growth_The_Case_of_China/links/54859f730cf2437065c9e93c/New-Evidence-on-FDI-Led-Growth-The-Case-of-China.pdf
@@ -4819,7 +4815,7 @@
 - id: 391
   created_at: 2023-05-22 16:56:03.284111
   published_on: 2021-01-01
-  title: 'On democratizing data science: some iNZights into empowering the many'
+  title: On democratizing data science some iNZights into empowering the many
   publication_info_summary: CJ Wild, T Elliott, A Sporle - Harv. Data Sci. Rev, 2021
     - assets.pubpub.org
   link: https://assets.pubpub.org/v6dfqlqn/85206ff9-021b-440c-9f47-38d8a4ca143d.pdf
@@ -4972,8 +4968,8 @@
 - id: 403
   created_at: 2023-05-22 16:56:07.008191
   published_on: 2013-01-26
-  title: 'AABC: approximate approximate Bayesian computation when simulating a large
-    number of data sets is computationally infeasible'
+  title: AABC approximate approximate Bayesian computation when simulating a large
+    number of data sets is computationally infeasible
   authors: Erkan O. Buzbas, Noah A. Rosenberg
   publication_info_summary: EO Buzbas, NA Rosenberg - arXiv preprint arXiv:1301.6282,
     2013 - arxiv.org
@@ -4989,8 +4985,8 @@
 - id: 404
   created_at: 2023-05-22 16:56:07.036885
   published_on: 2005-01-01
-  title: 'On The Specification, Identification, and Estimation of Discrete Choice
-    Models: Classical and Bayesian Perspectives'
+  title: On The Specification, Identification, and Estimation of Discrete Choice Models
+    Classical and Bayesian Perspectives
   publication_info_summary: M Weeks - 2005 - Citeseer
   link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e4c9f654bf1482cc5bc8a5c47f2b82ebcbdabb7b
   snippet: "\u2026 Classical Simulation An introduction to simulation-based inference\
@@ -5072,7 +5068,7 @@
 - id: 410
   created_at: 2023-05-22 16:56:09.199138
   published_on: 2014-01-01
-  title: "Discussion of \u201CThe Need for More Emphasis on Prediction: A 'Nondenominational'Model-Based\
+  title: "Discussion of \u201CThe Need for More Emphasis on Prediction A 'Nondenominational'Model-Based\
     \ Approach\u201D"
   publication_info_summary: H Stern - The American statistician, 2014 - ncbi.nlm.nih.gov
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4062083/
@@ -5085,8 +5081,8 @@
 - id: 411
   created_at: 2023-05-22 16:56:09.897850
   published_on: 2023-01-01
-  title: 'Inference of population genetics parameters using discriminator neural networks:
-    an adversarial Monte Carlo approach'
+  title: Inference of population genetics parameters using discriminator neural networks
+    an adversarial Monte Carlo approach
   authors: Gower, G.; Ianez Picazo, P.; Lindgren, F.; Racimo, F.
   publication_info_summary: "G Gower, P I\xE1\xF1ez Picazo, F Lindgren, F Racimo -\
     \ bioRxiv, 2023 - biorxiv.org"
@@ -5100,8 +5096,8 @@
 - id: 412
   created_at: 2023-05-22 16:56:09.968217
   published_on: 2021-01-01
-  title: 'Empirical asset pricing with multi-period disaster risk: A simulation-based
-    approach'
+  title: Empirical asset pricing with multi-period disaster risk A simulation-based
+    approach
   publication_info_summary: "J S\xF6nksen, J Grammig - Journal of Econometrics, 2021\
     \ - Elsevier"
   link: https://www.sciencedirect.com/science/article/pii/S0304407620302748
@@ -5115,8 +5111,8 @@
 - id: 413
   created_at: 2023-05-22 16:56:10.768345
   published_on: 2022-11-04
-  title: 'Simulation-Based Calibration Checking for Bayesian Computation: The Choice
-    of Test Quantities Shapes Sensitivity'
+  title: Simulation-Based Calibration Checking for Bayesian Computation The Choice
+    of Test Quantities Shapes Sensitivity
   authors: "Martin Modr\xE1k, Angie H. Moon, Shinyoung Kim, Paul B\xFCrkner, Niko\
     \ Huurre, Kate\u0159ina Faltejskov\xE1, Andrew Gelman, Aki Vehtari"
   publication_info_summary: "M Modr\xE1k, AH Moon, S Kim, P B\xFCrkner\u2026 - arXiv\
@@ -5161,8 +5157,8 @@
 - id: 416
   created_at: 2023-05-22 16:56:11.617207
   published_on: 2022-09-20
-  title: 'One never walks alone: the effect of the perturber population on subhalo
-    measurements in strong gravitational lenses'
+  title: One never walks alone the effect of the perturber population on subhalo measurements
+    in strong gravitational lenses
   authors: Adam Coogan, Noemi Anau Montel, Konstantin Karchev, Meiert W. Grootes,
     Francesco Nattino, Christoph Weniger
   publication_info_summary: "A Coogan, NA Montel, K Karchev, MW Grootes\u2026 - arXiv\
@@ -5178,8 +5174,8 @@
 - id: 417
   created_at: 2023-05-22 16:56:12.340271
   published_on: 2018-01-01
-  title: 'Testing the equality of several multivariate normal mean vectors under heteroscedasticity:
-    A fiducial approach and an approximate test'
+  title: Testing the equality of several multivariate normal mean vectors under heteroscedasticity
+    A fiducial approach and an approximate test
   publication_info_summary: "S Eftekhar, M Sadooghi-Alvandi\u2026 - \u2026 in Statistics-Theory\
     \ \u2026, 2018 - Taylor & Francis"
   link: https://www.tandfonline.com/doi/abs/10.1080/03610926.2017.1324984
@@ -5208,8 +5204,8 @@
 - id: 419
   created_at: 2023-05-22 16:56:12.429024
   published_on: 2003-01-01
-  title: 'Discrete choice methods with simulation, Kenneth E. Train, Cambridge University
-    press, 2003, ISBN: 0-521-81696-3, pp. 334'
+  title: Discrete choice methods with simulation, Kenneth E. Train, Cambridge University
+    press, 2003, ISBN 0-521-81696-3, pp. 334
   publication_info_summary: M Weeks - Journal of Applied Econometrics, 2003 - search.proquest.com
   link: https://search.proquest.com/openview/4478d31de8bc095591b7f175738d4a52/1?pq-origsite=gscholar&cbl=37372
   snippet: "\u2026 This book represents a collection of themes based upon a number\
@@ -5236,8 +5232,8 @@
 - id: 421
   created_at: 2023-05-22 16:56:12.502431
   published_on: 2010-01-01
-  title: 'Flexible and robust modelling of volatility comovements: A comparison of
-    two multifractal models'
+  title: Flexible and robust modelling of volatility comovements A comparison of two
+    multifractal models
   publication_info_summary: R Liu, T Lux - 2010 - econstor.eu
   link: https://www.econstor.eu/handle/10419/30048
   snippet: "\u2026 In this paper, we propose a parsimonious version of a bivariate\
@@ -5358,7 +5354,7 @@
 - id: 430
   created_at: 2023-05-22 16:56:17.029760
   published_on: 2019-01-01
-  title: 'Statistical inference via data science: A ModernDive into R and the tidyverse'
+  title: Statistical inference via data science A ModernDive into R and the tidyverse
   publication_info_summary: C Ismay, AY Kim - 2019 - books.google.com
   link: https://books.google.com/books?hl=en&lr=&id=JkQPEAAAQBAJ&oi=fnd&pg=PP1&dq=%22simulation-based%2Binference%22&ots=BrZK7Ti7pJ&sig=gHQl6vQVyZCh5febSbImxiVaNsM
   snippet: "\u2026 10.4 Simulation-based inference for regression \u2026 of using\
@@ -5371,7 +5367,7 @@
 - id: 431
   created_at: 2023-05-22 16:56:17.073561
   published_on: 2003-01-01
-  title: 'Causality in vector autoregressions: A Bayesian graphical modelling approach'
+  title: Causality in vector autoregressions A Bayesian graphical modelling approach
   publication_info_summary: J Corander, MA Villani - 2003 - gauss.stat.su.se
   link: http://gauss.stat.su.se/rr/RR2003_1.pdf
   snippet: "\u2026 Due to the very large number of graph structures that may be considered,\
@@ -5399,8 +5395,8 @@
 - id: 433
   created_at: 2023-05-22 16:56:17.930376
   published_on: 2020-11-27
-  title: 'Simulation-efficient marginal posterior estimation with swyft: stop wasting
-    your precious time'
+  title: Simulation-efficient marginal posterior estimation with swyft stop wasting
+    your precious time
   authors: Benjamin Kurt Miller, Alex Cole, Gilles Louppe, Christoph Weniger
   publication_info_summary: BK Miller, A Cole, G Louppe, C Weniger - arXiv preprint
     arXiv:2011.13951, 2020 - arxiv.org
@@ -5442,8 +5438,8 @@
 - id: 436
   created_at: 2023-05-22 16:56:18.071922
   published_on: 2021-01-01
-  title: 'Guest Editorial: ACM JETC Special Issue on Hardware-Aware Learning for Medical
-    Applications'
+  title: Guest Editorial ACM JETC Special Issue on Hardware-Aware Learning for Medical
+    Applications
   publication_info_summary: "Y Shi, Y Liu, J Chen, S Jiang - ACM Journal on Emerging\
     \ Technologies \u2026, 2021 - dl.acm.org"
   link: https://dl.acm.org/doi/full/10.1145/3503262
@@ -5544,8 +5540,8 @@
 - id: 443
   created_at: 2023-05-22 16:56:23.185272
   published_on: 2010-04-07
-  title: 'Constructing Summary Statistics for Approximate Bayesian Computation: Semi-automatic
-    ABC'
+  title: Constructing Summary Statistics for Approximate Bayesian Computation Semi-automatic
+    ABC
   authors: Paul Fearnhead, Dennis Prangle
   publication_info_summary: P Fearnhead, D Prangle - arXiv preprint arXiv:1004.1112,
     2010 - arxiv.org
@@ -5741,7 +5737,7 @@
 - id: 458
   created_at: 2023-05-22 16:56:24.516689
   published_on: 2015-01-01
-  title: 'POPE: post optimization posterior evaluation of likelihood free models'
+  title: POPE post optimization posterior evaluation of likelihood free models
   publication_info_summary: "E Meeds, M Chiang, M Lee\u2026 - BMC \u2026, 2015 - bmcbioinformatics.biomedcentral\
     \ \u2026"
   link: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0658-1
@@ -5818,8 +5814,8 @@
 - id: 463
   created_at: 2023-05-22 16:56:29.830905
   published_on: 2014-01-01
-  title: 'Generalized linear models with coarsened covariates: A practical Bayesian
-    approach.'
+  title: Generalized linear models with coarsened covariates A practical Bayesian
+    approach.
   publication_info_summary: TR Johnson, MM Wiest - Psychological Methods, 2014 - psycnet.apa.org
   link: https://psycnet.apa.org/record/2013-44734-001
   snippet: "\u2026 We also show that this model is amenable to widely available general-purpose\
@@ -5846,8 +5842,8 @@
 - id: 465
   created_at: 2023-05-22 16:56:30.680829
   published_on: 2009-01-01
-  title: 'Simulation-based Tests for Regression Models with IID Errors: Some Non-standard
-    Cases'
+  title: Simulation-based Tests for Regression Models with IID Errors Some Non-standard
+    Cases
   publication_info_summary: L Godfrey - Bootstrap Tests for Regression Models, 2009
     - Springer
   link: https://link.springer.com/chapter/10.1057/9780230233737_4
@@ -5859,8 +5855,8 @@
 - id: 466
   created_at: 2023-05-22 16:56:30.713210
   published_on: 2022-01-01
-  title: 'Mining for cosmological information: Simulation-based methods for Redshift
-    Space Distortions and Galaxy Clustering'
+  title: Mining for cosmological information Simulation-based methods for Redshift
+    Space Distortions and Galaxy Clustering
   publication_info_summary: C Cuesta-Lazaro - 2022 - etheses.dur.ac.uk
   link: http://etheses.dur.ac.uk/14587/
   snippet: "The standard model of cosmology describes the complex large scale structure\
@@ -5930,8 +5926,8 @@
 - id: 471
   created_at: 2023-05-22 16:56:32.333849
   published_on: 2020-01-01
-  title: "Statistical Inference via Data Science: A Modern Dive Into R and the Tidyverse:\
-    \ by Chester Ismay and Albert Y. Kim. Boca Raton, FL: Chapman and Hall/CRC \u2026"
+  title: "Statistical Inference via Data Science A Modern Dive Into R and the Tidyverse\
+    \ by Chester Ismay and Albert Y. Kim. Boca Raton, FL Chapman and Hall/CRC \u2026"
   publication_info_summary: S Lipovetsky - 2020 - Taylor & Francis
   link: https://www.tandfonline.com/doi/full/10.1080/00401706.2020.1744908
   snippet: "\u2026 10 \u201CInference for Regression\u201D deals with standard error\
@@ -5989,7 +5985,7 @@
 - id: 476
   created_at: 2023-05-22 16:56:33.990199
   published_on: 2008-01-01
-  title: 'Simulation techniques for panels: Efficient importance sampling'
+  title: Simulation techniques for panels Efficient importance sampling
   publication_info_summary: "R Liesenfeld, JF Richard - The Econometrics of Panel\
     \ Data: Fundamentals \u2026, 2008 - Springer"
   link: https://link.springer.com/content/pdf/10.1007/978-3-540-75892-1_13.pdf
@@ -6030,7 +6026,7 @@
 - id: 479
   created_at: 2023-05-22 16:56:36.858433
   published_on: 2021-01-01
-  title: 'Stock return predictability: Evidence across US industries'
+  title: Stock return predictability Evidence across US industries
   publication_info_summary: QTT Pham - Finance Research Letters, 2021 - Elsevier
   link: https://www.sciencedirect.com/science/article/pii/S1544612320302646
   snippet: "This paper revisits the return predictability pattern in the stock market\
@@ -6096,7 +6092,7 @@
 - id: 484
   created_at: 2023-05-22 16:56:37.063212
   published_on: 2013-01-01
-  title: 'Intersection bounds: Estimation and inference'
+  title: Intersection bounds Estimation and inference
   publication_info_summary: V Chernozhukov, S Lee, AM Rosen - Econometrica, 2013 -
     Wiley Online Library
   link: https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA8718
@@ -6124,7 +6120,7 @@
 - id: 486
   created_at: 2023-05-22 16:56:37.141019
   published_on: 2009-01-01
-  title: 'Stochastic volatility: origins and overview'
+  title: Stochastic volatility origins and overview
   publication_info_summary: N Shephard, TG Andersen - Handbook of financial time series,
     2009 - Springer
   link: https://link.springer.com/chapter/10.1007/978-3-540-71297-8_10
@@ -6138,7 +6134,7 @@
 - id: 487
   created_at: 2023-05-22 16:56:37.173481
   published_on: 2023-01-01
-  title: 'j-Wave: An open-source differentiable wave simulator'
+  title: j-Wave An open-source differentiable wave simulator
   publication_info_summary: A Stanziola, SR Arridge, BT Cox, BE Treeby - SoftwareX,
     2023 - Elsevier
   link: https://www.sciencedirect.com/science/article/pii/S2352711023000341
@@ -6300,7 +6296,7 @@
 - id: 500
   created_at: 2023-05-22 16:56:39.308565
   published_on: 2017-01-01
-  title: 'Latent Gaussian modeling and INLA: A review with focus on space-time applications'
+  title: Latent Gaussian modeling and INLA A review with focus on space-time applications
   publication_info_summary: "T Opitz - Journal de la soci\xE9t\xE9 fran\xE7aise de\
     \ statistique, 2017 - numdam.org"
   link: http://www.numdam.org/item/JSFS_2017__158_3_62_0/
@@ -6400,8 +6396,8 @@
 - id: 507
   created_at: 2023-05-22 16:56:41.109746
   published_on: 2023-01-01
-  title: 'DAQ-refine: Protein structure model evaluation and refinement for cryo-EM
-    maps'
+  title: DAQ-refine Protein structure model evaluation and refinement for cryo-EM
+    maps
   publication_info_summary: G Terashi, X Wang, D Kihara - Biophysical Journal, 2023
     - cell.com
   link: https://www.cell.com/biophysj/pdf/S0006-3495(22)01831-8.pdf
@@ -6637,8 +6633,8 @@
 - id: 526
   created_at: 2023-05-22 16:56:45.360587
   published_on: 2020-01-01
-  title: 'CFR Working Paper NO. 14-06 Empirical Asset Pricing with Multi-Period Disaster
-    Risk: A Simulation-Based Approach'
+  title: CFR Working Paper NO. 14-06 Empirical Asset Pricing with Multi-Period Disaster
+    Risk A Simulation-Based Approach
   publication_info_summary: "J S\xF6nksen, J Grammig - 2020 - cfr-cologne.de"
   link: https://www.cfr-cologne.de/download/workingpaper/cfr-14-06.pdf
   snippet: "We propose a simulation-based strategy to estimate and empirically assess\
@@ -6678,8 +6674,8 @@
 - id: 529
   created_at: 2023-05-22 16:56:46.147673
   published_on: 2020-01-01
-  title: 'PipeMaster: inferring population divergence and demographic history with
-    approximate Bayesian computation and supervised machine-learning in R'
+  title: PipeMaster inferring population divergence and demographic history with approximate
+    Bayesian computation and supervised machine-learning in R
   authors: Gehara, M.; Mazzochinni, G. G.; Burbrink, F. T.
   publication_info_summary: M Gehara, GG Mazzochinni, F Burbrink - BioRxiv, 2020 -
     biorxiv.org
@@ -6759,8 +6755,8 @@
 - id: 535
   created_at: 2023-05-22 16:56:48.518453
   published_on: 2015-01-01
-  title: 'NHPoisson: An R package for fitting and validating nonhomogeneous Poisson
-    processes'
+  title: NHPoisson An R package for fitting and validating nonhomogeneous Poisson
+    processes
   publication_info_summary: "AC Cebri\xE1n, J Abaurrea, J As\xEDn - Journal of Statistical\
     \ Software, 2015 - jstatsoft.org"
   link: https://www.jstatsoft.org/index.php/jss/article/view/v064i06/0
@@ -6789,7 +6785,7 @@
 - id: 537
   created_at: 2023-05-22 16:56:49.341173
   published_on: 2021-01-01
-  title: 'Sim2Real in robotics and automation: Applications and challenges'
+  title: Sim2Real in robotics and automation Applications and challenges
   publication_info_summary: "S H\xF6fer, K Bekris, A Handa, JC Gamboa\u2026 - IEEE\
     \ transactions on \u2026, 2021 - ieeexplore.ieee.org"
   link: https://ieeexplore.ieee.org/abstract/document/9398246/
@@ -6831,7 +6827,7 @@
 - id: 540
   created_at: 2023-05-22 16:56:49.452976
   published_on: 2013-01-01
-  title: 'Consequential Repetition: Microsatellites as Targets of Natural Selection'
+  title: Consequential Repetition Microsatellites as Targets of Natural Selection
   publication_info_summary: RJ Haasl - 2013 - search.proquest.com
   link: https://search.proquest.com/openview/b3790ab19c4d0487cafd63bd9153e047/1?pq-origsite=gscholar&cbl=18750
   snippet: "\u2026 In our simulation-based inference, we allowed both African and\
@@ -6939,8 +6935,8 @@
 - id: 549
   created_at: 2023-05-22 16:56:49.833965
   published_on: 2022-01-01
-  title: 'Evolutionary Properties of Neural Networks: Exploration of Robustness and
-    Evolvability in the Genotype-Phenotype Map'
+  title: Evolutionary Properties of Neural Networks Exploration of Robustness and
+    Evolvability in the Genotype-Phenotype Map
   publication_info_summary: D Cho - 2022 - lup.lub.lu.se
   link: https://lup.lub.lu.se/student-papers/record/9076414/file/12149521
   snippet: "\u2026 We use information theory to quantify robustness and evolvability\
@@ -7121,7 +7117,7 @@
 - id: 562
   created_at: 2023-05-22 16:56:52.740219
   published_on: 2005-01-01
-  title: 'Gaussian Markov random fields: theory and applications'
+  title: Gaussian Markov random fields theory and applications
   publication_info_summary: H Rue, L Held - 2005 - books.google.com
   link: https://books.google.com/books?hl=en&lr=&id=TLBYs-faw-0C&oi=fnd&pg=PP1&dq=%22simulation-based%2Binference%22&ots=RO1NzNRtnW&sig=O4rd8YDz5t1qIeR3mxbLZwMpTTY
   snippet: "\u2026 Simulation-based inference via MCMC is typically the only way for\
@@ -7134,8 +7130,8 @@
 - id: 563
   created_at: 2023-05-22 16:56:52.777612
   published_on: 2020-01-01
-  title: 'Calibration of individual-based models to epidemiological data: A systematic
-    review'
+  title: Calibration of individual-based models to epidemiological data A systematic
+    review
   publication_info_summary: "CM Hazelbag, J Dushoff, EM Dominic\u2026 - PLoS computational\
     \ \u2026, 2020 - journals.plos.org"
   link: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007893
@@ -7220,8 +7216,8 @@
 - id: 569
   created_at: 2023-05-22 16:56:53.025776
   published_on: 2020-01-01
-  title: 'Private posterior inference consistent with public information: A case study
-    in small area estimation from synthetic census data'
+  title: Private posterior inference consistent with public information A case study
+    in small area estimation from synthetic census data
   publication_info_summary: "J Seeman, A Slavkovic, M Reimherr - Privacy in Statistical\
     \ Databases \u2026, 2020 - Springer"
   link: https://link.springer.com/chapter/10.1007/978-3-030-57521-2_23
@@ -7249,7 +7245,7 @@
 - id: 571
   created_at: 2023-05-22 16:56:53.113126
   published_on: 2019-01-01
-  title: 'PYLFIRE: Python implementation of likelihood-free inference by ratio estimation'
+  title: PYLFIRE Python implementation of likelihood-free inference by ratio estimation
   publication_info_summary: "J Kokko, U Remes, O Thomas, H Pesonen\u2026 - Wellcome\
     \ open \u2026, 2019 - ncbi.nlm.nih.gov"
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7041362/
@@ -7322,8 +7318,8 @@
 - id: 577
   created_at: 2023-05-22 16:56:56.059805
   published_on: 2015-01-01
-  title: 'AABC: approximate approximate Bayesian computation for inference in population-genetic
-    models'
+  title: AABC approximate approximate Bayesian computation for inference in population-genetic
+    models
   publication_info_summary: EO Buzbas, NA Rosenberg - Theoretical population biology,
     2015 - Elsevier
   link: https://www.sciencedirect.com/science/article/pii/S0040580914000744
@@ -7380,7 +7376,7 @@
 - id: 582
   created_at: 2023-05-22 16:56:56.283338
   published_on: 2005-01-01
-  title: 'Nonlinear time series: nonparametric and parametric methods'
+  title: Nonlinear time series nonparametric and parametric methods
   publication_info_summary: J Breidt - 2005 - academia.edu
   link: https://www.academia.edu/download/43593619/Nonlinear_time_series_nonparametric_and_20160310-29217-19xmvp7.pdf
   snippet: "\u2026 Although other good books on spatial point processes are available,\
@@ -7420,8 +7416,8 @@
 - id: 585
   created_at: 2023-05-22 16:56:56.408915
   published_on: 2009-01-01
-  title: 'Cointegrating Polynomial Regressions with Power Law Trends: Environmental
-    Kuznets Curve or Omitted Time Effects?'
+  title: Cointegrating Polynomial Regressions with Power Law Trends Environmental
+    Kuznets Curve or Omitted Time Effects?
   publication_info_summary: Y Lin, H Reuvers - arXiv preprint arXiv:2009.02262, 2020
     - researchgate.net
   link: https://www.researchgate.net/profile/Yicong-Lin/publication/344150041_Cointegrating_Polynomial_Regressions_with_Power_Law_Trends_Environmental_Kuznets_Curve_or_Omitted_Time_Effects/links/61bb3546a6251b553ac0763f/Cointegrating-Polynomial-Regressions-with-Power-Law-Trends-Environmental-Kuznets-Curve-or-Omitted-Time-Effects.pdf
@@ -7632,8 +7628,8 @@
 - id: 601
   created_at: 2023-05-22 16:56:58.287256
   published_on: 2003-01-01
-  title: 'Non-nested models and the likelihood ratio statistic: a comparison of simulation
-    and bootstrap based tests'
+  title: Non-nested models and the likelihood ratio statistic a comparison of simulation
+    and bootstrap based tests
   publication_info_summary: "G Kapetanios, M Weeks - U of London Queen Mary Economics\
     \ \u2026, 2003 - papers.ssrn.com"
   link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=394341
@@ -7658,8 +7654,8 @@
 - id: 603
   created_at: 2023-05-22 16:56:58.370946
   published_on: 2022-01-01
-  title: 'Evology: an Empirically-Calibrated Market Ecology Agent-Based Model for
-    Trading Strategy Search'
+  title: Evology an Empirically-Calibrated Market Ecology Agent-Based Model for Trading
+    Strategy Search
   publication_info_summary: "A Vie, MP Scholl, DJ Farmer - ICML 2022 Workshop AI for\
     \ Agent \u2026, 2022 - openreview.net"
   link: https://openreview.net/forum?id=jycOgqMX0xA
@@ -7673,8 +7669,8 @@
 - id: 604
   created_at: 2023-05-22 16:56:58.416537
   published_on: 2020-01-01
-  title: 'Granting forgiveness: State and trait evidence for genetic and gender indirect
-    effects through empathy'
+  title: Granting forgiveness State and trait evidence for genetic and gender indirect
+    effects through empathy
   publication_info_summary: "C vanOyen Witvliet, LM Root Luna\u2026 - The Journal\
     \ of \u2026, 2020 - Taylor & Francis"
   link: https://www.tandfonline.com/doi/abs/10.1080/17439760.2019.1615108
@@ -7748,8 +7744,8 @@
 - id: 610
   created_at: 2023-05-22 16:57:01.077537
   published_on: 2019-01-01
-  title: 'The state of statistics education research in client disciplines: Themes
-    and trends across the university'
+  title: The state of statistics education research in client disciplines Themes and
+    trends across the university
   publication_info_summary: A Schwab-McCoy - Journal of Statistics Education, 2019
     - Taylor & Francis
   link: https://www.tandfonline.com/doi/abs/10.1080/10691898.2019.1687369
@@ -7846,8 +7842,8 @@
 - id: 617
   created_at: 2023-05-22 16:57:01.362404
   published_on: 2019-01-01
-  title: 'High-dimensional Inferences via Estimator Augmentation: Post-selection and
-    Group Structure'
+  title: High-dimensional Inferences via Estimator Augmentation Post-selection and
+    Group Structure
   publication_info_summary: S Min - 2019 - escholarship.org
   link: https://escholarship.org/uc/item/75v0b921
   snippet: "\u2026 The package contains a parametric bootstrap, an importance sampler,\
@@ -7928,7 +7924,7 @@
 - id: 624
   created_at: 2023-05-22 16:57:01.647991
   published_on: 2004-01-01
-  title: 'Modelling and forecasting financial data: techniques of nonlinear dynamics'
+  title: Modelling and forecasting financial data techniques of nonlinear dynamics
   publication_info_summary: ZQJ Lu - 2004 - Taylor & Francis
   link: https://www.tandfonline.com/doi/pdf/10.1198/tech.2004.s749
   snippet: "This book is a compilation of the recent developments on spatial cluster\
@@ -7981,7 +7977,7 @@
 - id: 629
   created_at: 2023-05-22 16:57:02.875337
   published_on: 2008-01-01
-  title: 'Higher Dimensional Multi-fractal Processes: Filtering via Simulation'
+  title: Higher Dimensional Multi-fractal Processes Filtering via Simulation
   publication_info_summary: R Liu, T Lux - 2008 - Citeseer
   link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b65fb6aee56a1ae73aa0aa353b9d9ecfa93cb08d
   snippet: "\u2026 We implement the simulation based inference with the aid of particle\
@@ -8119,8 +8115,8 @@
 - id: 640
   created_at: 2023-05-22 16:57:03.976847
   published_on: 2019-01-01
-  title: 'Quantifying transmission of emerging zoonoses: using mathematical models
-    to maximize the value of surveillance data'
+  title: Quantifying transmission of emerging zoonoses using mathematical models to
+    maximize the value of surveillance data
   authors: Ambrose, M.; Kucharski, A. J.; Formenty, P.; Muyembe-Tamfum, J.-J.; Rimoin,
     A. W.; Lloyd-Smith, J. O.
   publication_info_summary: "MR Ambrose, AJ Kucharski, P Formenty\u2026 - BioRxiv,\
@@ -8175,8 +8171,8 @@
 - id: 644
   created_at: 2023-05-22 16:57:04.135926
   published_on: 2021-01-01
-  title: 'Simulating genetic diversity in heterogenous landscapes: why, how, limits
-    and perspectives'
+  title: Simulating genetic diversity in heterogenous landscapes why, how, limits
+    and perspectives
   publication_info_summary: A Becheler - 2021 - becheler.github.io
   link: https://becheler.github.io/assets/pdfs/10_14_2021_BrazWebinar_Arnaud_Becheler.pdf
   snippet: "As ABC algorithm progress\u2022 density of accepted parameters increases\
@@ -8300,8 +8296,8 @@
 - id: 654
   created_at: 2023-05-22 16:57:06.643034
   published_on: 2022-01-01
-  title: 'Data-centric Engineering: Integrating simulation, machine learning and statistics.
-    Challenges and opportunities'
+  title: Data-centric Engineering Integrating simulation, machine learning and statistics.
+    Challenges and opportunities
   publication_info_summary: I Pan, LR Mason, OK Matar - Chemical Engineering Science,
     2022 - Elsevier
   link: https://www.sciencedirect.com/science/article/pii/S0009250921008368
@@ -8329,8 +8325,8 @@
 - id: 657
   created_at: 2023-05-22 16:57:06.798389
   published_on: 2021-01-01
-  title: 'Toward Vehicle Automation that Communicates and Coordinates: Understanding
-    Road User Behavior'
+  title: Toward Vehicle Automation that Communicates and Coordinates Understanding
+    Road User Behavior
   publication_info_summary: JE Domeyer - 2021 - search.proquest.com
   link: https://search.proquest.com/openview/6277dc21825f785450319d4a5500c969/1?pq-origsite=gscholar&cbl=18750&diss=y
   snippet: "\u2026 The theoretical contribution of this work is an extension of joint\
@@ -8359,7 +8355,7 @@
 - id: 659
   created_at: 2023-05-22 16:57:07.633883
   published_on: 2020-01-01
-  title: 'The CATALST curriculum: A story of change'
+  title: The CATALST curriculum A story of change
   publication_info_summary: "N Justice, L Le, A Sabbag, E Fry, L Ziegler\u2026 - Journal\
     \ of Statistics \u2026, 2020 - Taylor & Francis"
   link: https://www.tandfonline.com/doi/abs/10.1080/10691898.2020.1787115
@@ -8415,8 +8411,8 @@
 - id: 663
   created_at: 2023-05-22 16:57:08.494165
   published_on: 2022-07-11
-  title: 'The Cosmic Graph: Optimal Information Extraction from Large-Scale Structure
-    using Catalogues'
+  title: The Cosmic Graph Optimal Information Extraction from Large-Scale Structure
+    using Catalogues
   authors: T. Lucas Makinen, Tom Charnock, Pablo Lemos, Natalia Porqueres, Alan Heavens,
     Benjamin D. Wandelt
   publication_info_summary: "TL Makinen, T Charnock, P Lemos\u2026 - arXiv preprint\
@@ -8490,7 +8486,7 @@
 - id: 669
   created_at: 2023-05-22 16:57:14.906737
   published_on: 2023-02-08
-  title: 'Deep Machine Learning in Cosmology: Evolution or Revolution?'
+  title: Deep Machine Learning in Cosmology Evolution or Revolution?
   authors: Ofer Lahav
   publication_info_summary: O Lahav - arXiv preprint arXiv:2302.04324, 2023 - arxiv.org
   link: https://arxiv.org/abs/2302.04324
@@ -8607,7 +8603,7 @@
 - id: 677
   created_at: 2023-05-22 16:57:15.943732
   published_on: 2005-01-01
-  title: 'CRAN task view: Bayesian inference'
+  title: CRAN task view Bayesian inference
   publication_info_summary: JH Park, AD Martin, KM Quinn - 2005 - deepblue.lib.umich.edu
   link: https://deepblue.lib.umich.edu/bitstream/handle/2027.42/116262/CRAN%20Task%20View_%20Bayesian%20Inference.pdf?sequence=1
   snippet: "\u2026 an iterative Laplace approximation to build a global approximation\
@@ -8660,7 +8656,7 @@
 - id: 681
   created_at: 2023-05-22 16:57:16.105527
   published_on: 2011-01-01
-  title: 'From data to phenomena and back again: computer-simulated signatures'
+  title: From data to phenomena and back again computer-simulated signatures
   publication_info_summary: E Tal - Synthese, 2011 - Springer
   link: https://link.springer.com/article/10.1007/s11229-009-9612-y
   snippet: "\u2026 While the simulation-based inference consists of two mutually supportive\
@@ -8673,8 +8669,8 @@
 - id: 682
   created_at: 2023-05-22 16:57:16.147454
   published_on: 2018-01-01
-  title: 'ecolottery: Simulating and assessing community assembly with environmental
-    filtering and neutral dynamics in R'
+  title: ecolottery Simulating and assessing community assembly with environmental
+    filtering and neutral dynamics in R
   publication_info_summary: "F Munoz, M Greni\xE9, P Denelle\u2026 - Methods in Ecology\
     \ \u2026, 2018 - Wiley Online Library"
   link: https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12918
@@ -8786,7 +8782,7 @@
 - id: 691
   created_at: 2023-05-22 16:57:18.181356
   published_on: 2021-01-01
-  title: 'Small sample sizes: A big data problem in high-dimensional data analysis'
+  title: Small sample sizes A big data problem in high-dimensional data analysis
   publication_info_summary: "F Konietschke, K Schwab\u2026 - Statistical Methods in\
     \ \u2026, 2021 - journals.sagepub.com"
   link: https://journals.sagepub.com/doi/pdf/10.1177/0962280220970228
@@ -8872,7 +8868,7 @@
 - id: 697
   created_at: 2023-05-22 16:57:18.419129
   published_on: 2020-01-01
-  title: 'BayesFlow: Learning complex stochastic models with invertible neural networks'
+  title: BayesFlow Learning complex stochastic models with invertible neural networks
   publication_info_summary: "ST Radev, UK Mertens, A Voss\u2026 - IEEE transactions\
     \ on \u2026, 2020 - ieeexplore.ieee.org"
   link: https://ieeexplore.ieee.org/abstract/document/9298920/
@@ -8900,7 +8896,7 @@
 - id: 699
   created_at: 2023-05-22 16:57:18.507017
   published_on: 2006-01-01
-  title: 'Book review: Books about Time Series and/or Spatial Data Analysis'
+  title: Book review Books about Time Series and/or Spatial Data Analysis
   publication_info_summary: R Shanmugam - 2006 - Taylor & Francis
   link: https://www.tandfonline.com/doi/full/10.1080/00949650412331321034
   snippet: "\u2026 framework for space\u2013time processes, Poisson point processes,\
@@ -8941,7 +8937,7 @@
 - id: 702
   created_at: 2023-05-22 16:57:19.410382
   published_on: 2023-02-03
-  title: 'GLASS: Generator for Large Scale Structure'
+  title: GLASS Generator for Large Scale Structure
   authors: Nicolas Tessore, Arthur Loureiro, Benjamin Joachimi, Maximilian von Wietersheim-Kramsta,
     Niall Jeffrey
   publication_info_summary: "N Tessore, A Loureiro, B Joachimi\u2026 - arXiv preprint\
@@ -8958,8 +8954,8 @@
 - id: 703
   created_at: 2023-05-22 16:57:19.444565
   published_on: 2020-01-01
-  title: 'Combining machine learning and simulation to a hybrid modelling approach:
-    Current and future directions'
+  title: Combining machine learning and simulation to a hybrid modelling approach
+    Current and future directions
   publication_info_summary: "L von Rueden, S Mayer, R Sifa, C Bauckhage\u2026 - Advances\
     \ in Intelligent \u2026, 2020 - Springer"
   link: https://link.springer.com/chapter/10.1007/978-3-030-44584-3_43
@@ -9078,8 +9074,8 @@
 - id: 711
   created_at: 2023-05-22 16:57:25.410473
   published_on: 2020-01-01
-  title: 'Why we should teach causal inference: Examples in linear regression with
-    simulated data'
+  title: Why we should teach causal inference Examples in linear regression with simulated
+    data
   publication_info_summary: "K L\xFCbke, M Gehrke, J Horst\u2026 - Journal of Statistics\
     \ \u2026, 2020 - Taylor & Francis"
   link: https://www.tandfonline.com/doi/abs/10.1080/10691898.2020.1752859
@@ -9120,7 +9116,7 @@
 - id: 714
   created_at: 2023-05-22 16:57:25.534832
   published_on: 2005-01-01
-  title: "Multiple imputation for model checking: completed\u2010data plots with missing\
+  title: "Multiple imputation for model checking completed\u2010data plots with missing\
     \ and latent data"
   publication_info_summary: "A Gelman, I Van Mechelen, G Verbeke, DF Heitjan\u2026\
     \ - \u2026, 2005 - Wiley Online Library"
@@ -9135,8 +9131,8 @@
 - id: 715
   created_at: 2023-05-22 16:57:25.574086
   published_on: 2021-01-01
-  title: 'Cosmic shear cosmology beyond two-point statistics: a combined peak count
-    and correlation function analysis of DES-Y1'
+  title: Cosmic shear cosmology beyond two-point statistics a combined peak count
+    and correlation function analysis of DES-Y1
   publication_info_summary: "J Harnois-D\xE9raps, N Martinet, T Castro\u2026 - Monthly\
     \ Notices of \u2026, 2021 - academic.oup.com"
   link: https://academic.oup.com/mnras/article-abstract/506/2/1623/6297283
@@ -9265,7 +9261,7 @@
 - id: 724
   created_at: 2023-05-22 16:57:27.428618
   published_on: 2023-01-01
-  title: "GANs sch\xF6n kompliziert: Applications of Generative Adversarial Networks"
+  title: "GANs sch\xF6n kompliziert Applications of Generative Adversarial Networks"
   publication_info_summary: P Ramesh - 2023 - tobias-lib.ub.uni-tuebingen.de
   link: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/135001
   snippet: "\u2026 The set of methods for obtaining Bayesian posteriors for simulators\
@@ -9323,7 +9319,7 @@
 - id: 729
   created_at: 2023-05-22 16:57:30.803292
   published_on: 2017-01-01
-  title: 'Bayesian computing with INLA: a review'
+  title: Bayesian computing with INLA a review
   publication_info_summary: "H Rue, A Riebler, SH S\xF8rbye, JB Illian\u2026 - Annual\
     \ Review of \u2026, 2017 - annualreviews.org"
   link: https://www.annualreviews.org/doi/abs/10.1146/annurev-statistics-060116-054045
@@ -9366,8 +9362,7 @@
 - id: 732
   created_at: 2023-05-22 16:57:31.662282
   published_on: 2022-01-01
-  title: 'Lesson 8: Case study: Panel data on dynamic variation in sexual contact
-    rates'
+  title: Lesson 8 Case study Panel data on dynamic variation in sexual contact rates
   publication_info_summary: AA King, EL Ionides - 2022 - kingaa.github.io
   link: https://kingaa.github.io/sbied/contacts/notes.pdf
   snippet: "\u2026 \u2022 This lesson is prepared for the Simulation-based Inference\
@@ -9379,8 +9374,8 @@
 - id: 733
   created_at: 2023-05-22 16:57:32.468155
   published_on: 2022-01-01
-  title: 'The virtual aging brain: a model-driven explanation for cognitive decline
-    in older subjects'
+  title: The virtual aging brain a model-driven explanation for cognitive decline
+    in older subjects
   authors: Lavanga, M.; Stumme, J.; Yalcinkaya, B. H.; Fousek, J.; Jockwitz, C.; Sheheitli,
     H.; Bittner, N.; Hashemi, M.; Petkoski, S.; Caspers, S.; Jirsa, V.
   publication_info_summary: "M Lavanga, J Stumme, BH Yalcinkaya, J Fousek\u2026 -\
@@ -9413,8 +9408,8 @@
 - id: 735
   created_at: 2023-05-22 16:57:33.381955
   published_on: 2022-01-01
-  title: 'Variational inference for nonlinear inverse problems via neural net kernels:
-    Comparison to Bayesian neural networks, application to topology optimization'
+  title: Variational inference for nonlinear inverse problems via neural net kernels
+    Comparison to Bayesian neural networks, application to topology optimization
   publication_info_summary: "V Keshavarzzadeh, RM Kirby, A Narayan - Computer Methods\
     \ in Applied \u2026, 2022 - Elsevier"
   link: https://www.sciencedirect.com/science/article/pii/S0045782522005102
@@ -9455,8 +9450,8 @@
 - id: 738
   created_at: 2023-05-22 16:57:34.245627
   published_on: 2021-01-21
-  title: 'bssm: Bayesian Inference of Non-linear and Non-Gaussian State Space Models
-    in R'
+  title: bssm Bayesian Inference of Non-linear and Non-Gaussian State Space Models
+    in R
   authors: Jouni Helske, Matti Vihola
   publication_info_summary: J Helske, M Vihola - arXiv preprint arXiv:2101.08492,
     2021 - arxiv.org
@@ -9592,8 +9587,8 @@
 - id: 747
   created_at: 2023-05-22 16:57:38.984271
   published_on: 2022-11-23
-  title: 'Neural Superstatistics: A Bayesian Method for Estimating Dynamic Models
-    of Cognition'
+  title: Neural Superstatistics A Bayesian Method for Estimating Dynamic Models of
+    Cognition
   authors: "Lukas Schumacher, Paul-Christian B\xFCrkner, Andreas Voss, Ullrich K\xF6\
     the, Stefan T. Radev"
   publication_info_summary: "L Schumacher, PC B\xFCrkner, A Voss, U K\xF6the\u2026\
@@ -9654,7 +9649,7 @@
 - id: 751
   created_at: 2023-05-22 16:57:40.004931
   published_on: 2022-11-18
-  title: 'pmwd: A Differentiable Cosmological Particle-Mesh $N$-body Library'
+  title: pmwd A Differentiable Cosmological Particle-Mesh $N$-body Library
   authors: "Yin Li, Libin Lu, Chirag Modi, Drew Jamieson, Yucheng Zhang, Yu Feng,\
     \ Wenda Zhou, Ngai Pok Kwan, Fran\xE7ois Lanusse, Leslie Greengard"
   publication_info_summary: "Y Li, L Lu, C Modi, D Jamieson, Y Zhang\u2026 - arXiv\
@@ -9797,8 +9792,7 @@
 - id: 762
   created_at: 2023-05-22 16:57:40.434837
   published_on: 2021-01-01
-  title: 'Sum of the masses of the Milky Way and M31: A likelihood-free inference
-    approach'
+  title: Sum of the masses of the Milky Way and M31 A likelihood-free inference approach
   publication_info_summary: "P Lemos, N Jeffrey, L Whiteway, O Lahav\u2026 - Physical\
     \ Review D, 2021 - APS"
   link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.023009
@@ -9812,8 +9806,8 @@
 - id: 763
   created_at: 2023-05-22 16:57:40.484651
   published_on: 2006-01-01
-  title: 'Estimation of a simple agent-based model of financial markets: An application
-    to australian stock and foreign exchange data'
+  title: Estimation of a simple agent-based model of financial markets An application
+    to australian stock and foreign exchange data
   publication_info_summary: "S Alfarano, T Lux, F Wagner - Physica A: Statistical\
     \ Mechanics and its \u2026, 2006 - Elsevier"
   link: https://www.sciencedirect.com/science/article/pii/S0378437106004298
@@ -9827,8 +9821,8 @@
 - id: 764
   created_at: 2023-05-22 16:57:40.522945
   published_on: 2017-01-01
-  title: 'New standards require teaching more statistics: Are preservice secondary
-    mathematics teachers ready?'
+  title: New standards require teaching more statistics Are preservice secondary mathematics
+    teachers ready?
   publication_info_summary: JN Lovett, HS Lee - Journal of Teacher Education, 2017
     - journals.sagepub.com
   link: https://journals.sagepub.com/doi/pdf/10.1177/0022487117697918
@@ -10105,8 +10099,8 @@
 - id: 784
   created_at: 2023-05-22 16:57:46.098640
   published_on: 2011-02-21
-  title: 'Modelling stochastic volatility with leverage and jumps: A simulated maximum
-    likelihood approach via particle filtering'
+  title: Modelling stochastic volatility with leverage and jumps A simulated maximum
+    likelihood approach via particle filtering
   publication_info_summary: S Malik, MK Pitt - Available at SSRN 1763783, 2011 - papers.ssrn.com
   link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1763783
   snippet: "In this paper we provide a unified methodology for conducting likelihood-based\
@@ -10148,7 +10142,7 @@
 - id: 788
   created_at: 2023-05-22 16:57:47.027222
   published_on: 2023-01-01
-  title: "EWF: simulating exact paths of the Wright\u2013Fisher diffusion"
+  title: "EWF simulating exact paths of the Wright\u2013Fisher diffusion"
   publication_info_summary: "J Sant, PA Jenkins, J Koskela, D Span\xF2 - Bioinformatics,\
     \ 2023 - academic.oup.com"
   link: https://academic.oup.com/bioinformatics/article-abstract/39/1/btad017/6984715
@@ -10266,7 +10260,7 @@
 - id: 796
   created_at: 2023-05-22 16:57:49.523249
   published_on: 2020-01-01
-  title: 'Normality tests for dependent data: large-sample and bootstrap approaches'
+  title: Normality tests for dependent data large-sample and bootstrap approaches
   publication_info_summary: "Z Psaradakis, M V\xE1vra - Communications in statistics-simulation\
     \ \u2026, 2020 - Taylor & Francis"
   link: https://www.tandfonline.com/doi/abs/10.1080/03610918.2018.1485941
@@ -10280,8 +10274,8 @@
 - id: 797
   created_at: 2023-05-22 16:57:49.559312
   published_on: 2021-01-01
-  title: 'Likelihood-free parameter estimation for dynamic queueing networks: Case
-    study of passenger flow in an international airport terminal'
+  title: Likelihood-free parameter estimation for dynamic queueing networks Case study
+    of passenger flow in an international airport terminal
   publication_info_summary: "A Ebert, R Dutta, K Mengersen, A Mira\u2026 - Journal\
     \ of the Royal \u2026, 2021 - academic.oup.com"
   link: https://academic.oup.com/jrsssc/article-abstract/70/3/770/7033981
@@ -10323,8 +10317,8 @@
 - id: 800
   created_at: 2023-05-22 16:57:49.680613
   published_on: 2003-01-01
-  title: 'Identification, weak instruments and statistical inference in econometrics:
-    problems and solution'
+  title: Identification, weak instruments and statistical inference in econometrics
+    problems and solution
   publication_info_summary: "JM Dufour - presidential address to the Canadian economics\
     \ \u2026, 2003 - cirano.qc.ca"
   link: https://www2.cirano.qc.ca/~dufourj/Web_Site/Dufour_2003_CEAPresAddress_Slides_W.pdf
@@ -10352,7 +10346,7 @@
 - id: 802
   created_at: 2023-05-22 16:57:51.006241
   published_on: 2022-01-01
-  title: 'Robot learning from randomized simulations: A review'
+  title: Robot learning from randomized simulations A review
   publication_info_summary: "F Muratore, F Ramos, G Turk, W Yu\u2026 - Frontiers in\
     \ Robotics \u2026, 2022 - frontiersin.org"
   link: https://www.frontiersin.org/articles/10.3389/frobt.2022.799893/full?utm_source=ad&utm_medium=tw&utm_campaign=ba_sci-hz_frobt&twclid=23lplcfud7ivfxxdxrni07c6gu
@@ -10422,8 +10416,8 @@
 - id: 807
   created_at: 2023-05-22 16:57:51.217342
   published_on: 2022-01-01
-  title: 'Social Simulation Learning Model in Basic Socio-Cultural Sciences for Colleges
-    Students: Preliminary Studies.'
+  title: Social Simulation Learning Model in Basic Socio-Cultural Sciences for Colleges
+    Students Preliminary Studies.
   publication_info_summary: A Ananda, A Fitrisia, N Fitri - Special Education, 2022
     - search.ebscohost.com
   link: https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=13925369&AN=159790137&h=Kz2x34m2O%2BYBuP7wIBGdf8unnmTXYgIyXu1lgaREeqgXG6JUSKGXmKolVCm5DmFSMAST05BpKXFtl1vT6DmrEQ%3D%3D&crl=c
@@ -10509,8 +10503,7 @@
 - id: 813
   created_at: 2023-05-22 16:57:52.666136
   published_on: 2022-10-20
-  title: 'Towards Evology: a Market Ecology Agent-Based Model of US Equity Mutual
-    Funds'
+  title: Towards Evology a Market Ecology Agent-Based Model of US Equity Mutual Funds
   authors: Aymeric Vie, Maarten Scholl, Alissa M. Kleinnijenhuis, J. Doyne Farmer
   publication_info_summary: "A Vie, M Scholl, AM Kleinnijenhuis\u2026 - arXiv preprint\
     \ arXiv \u2026, 2022 - arxiv.org"
@@ -10539,8 +10532,8 @@
 - id: 815
   created_at: 2023-05-22 16:57:52.744928
   published_on: 2023-01-01
-  title: 'DiSECt: a differentiable simulator for parameter inference and control in
-    robotic cutting'
+  title: DiSECt a differentiable simulator for parameter inference and control in
+    robotic cutting
   publication_info_summary: "E Heiden, M Macklin, Y Narang, D Fox, A Garg\u2026 -\
     \ Autonomous \u2026, 2023 - Springer"
   link: https://link.springer.com/article/10.1007/s10514-023-10094-9
@@ -10568,8 +10561,8 @@
 - id: 817
   created_at: 2023-05-22 16:57:52.830909
   published_on: 2021-01-01
-  title: 'Inference and De-noising of Non-gaussian Particle Distribution Functions:
-    A Generative Modeling Approach'
+  title: Inference and De-noising of Non-gaussian Particle Distribution Functions
+    A Generative Modeling Approach
   publication_info_summary: "J Donaghy, K Germaschewski - \u2026 , LOD 2021, Grasmere,\
     \ UK, October 4\u20138 \u2026, 2022 - Springer"
   link: https://link.springer.com/chapter/10.1007/978-3-030-95467-3_25
@@ -10582,8 +10575,8 @@
 - id: 818
   created_at: 2023-05-22 16:57:52.871562
   published_on: 2017-01-01
-  title: "Approximate Bayesian computation in large-scale structure: constraining\
-    \ the galaxy\u2013halo connection"
+  title: "Approximate Bayesian computation in large-scale structure constraining the\
+    \ galaxy\u2013halo connection"
   publication_info_summary: "CH Hahn, M Vakili, K Walsh, AP Hearin\u2026 - Monthly\
     \ Notices of \u2026, 2017 - academic.oup.com"
   link: https://academic.oup.com/mnras/article-abstract/469/3/2791/3737672
@@ -10610,8 +10603,8 @@
 - id: 820
   created_at: 2023-05-22 16:57:52.950706
   published_on: 2020-01-01
-  title: 'Model selection and parameter estimation for dynamic epidemic models via
-    iterated filtering: application to rotavirus in Germany'
+  title: Model selection and parameter estimation for dynamic epidemic models via
+    iterated filtering application to rotavirus in Germany
   publication_info_summary: "T Stocks, T Britton, M H\xF6hle - Biostatistics, 2020\
     \ - academic.oup.com"
   link: https://academic.oup.com/biostatistics/article-abstract/21/3/400/5108499
@@ -10667,8 +10660,8 @@
 - id: 825
   created_at: 2023-05-22 16:57:55.947086
   published_on: 2020-12-07
-  title: 'Perspectives on Sim2Real Transfer for Robotics: A Summary of the R:SS 2020
-    Workshop'
+  title: Perspectives on Sim2Real Transfer for Robotics A Summary of the RSS 2020
+    Workshop
   authors: "Sebastian H\xF6fer, Kostas Bekris, Ankur Handa, Juan Camilo Gamboa, Florian\
     \ Golemo, Melissa Mozifian, Chris Atkeson, Dieter Fox, Ken Goldberg, John Leonard,\
     \ C. Karen Liu, Jan Peters, Shuran Song, Peter Welinder, Martha White"
@@ -10701,8 +10694,8 @@
 - id: 827
   created_at: 2023-05-22 16:57:56.015750
   published_on: 2022-01-01
-  title: 'Snowmass2021 theory frontier white paper: Astrophysical and cosmological
-    probes of dark matter'
+  title: Snowmass2021 theory frontier white paper Astrophysical and cosmological probes
+    of dark matter
   publication_info_summary: "KK Boddy, M Lisanti, SD McDermott, NL Rodd\u2026 - Journal\
     \ of High Energy \u2026, 2022 - Elsevier"
   link: https://www.sciencedirect.com/science/article/pii/S2214404822000349
@@ -10815,8 +10808,8 @@
 - id: 835
   created_at: 2023-05-22 16:57:56.349941
   published_on: 2022-01-01
-  title: 'Generative adversarial networks for construction of virtual populations
-    of mechanistic models: simulations to study Omecamtiv Mecarbil action'
+  title: Generative adversarial networks for construction of virtual populations of
+    mechanistic models simulations to study Omecamtiv Mecarbil action
   publication_info_summary: "J Parikh, T Rumbell, X Butova, T Myachina\u2026 - \u2026\
     \ of Pharmacokinetics and \u2026, 2022 - Springer"
   link: https://link.springer.com/article/10.1007/s10928-021-09787-4
@@ -10936,8 +10929,8 @@
 - id: 844
   created_at: 2023-05-22 16:57:59.239641
   published_on: 2016-01-01
-  title: 'Testing exogeneity of multinomial regressors in count data models: does
-    two-stage residual inclusion work?'
+  title: Testing exogeneity of multinomial regressors in count data models does two-stage
+    residual inclusion work?
   publication_info_summary: A Geraci, D Fabbri, C Monfardini - Journal of Econometric
     Methods, 2016 - degruyter.com
   link: https://www.degruyter.com/document/doi/10.1515/jem-2014-0019/html
@@ -10951,8 +10944,8 @@
 - id: 845
   created_at: 2023-05-22 16:57:59.933277
   published_on: 2023-01-01
-  title: 'FitMultiCell: Simulating and parameterizing computational models of multi-scale
-    and multi-cellular processes'
+  title: FitMultiCell Simulating and parameterizing computational models of multi-scale
+    and multi-cellular processes
   authors: Alamoudi, E.; Schalte, Y.; Muller, R.; Starruss, J.; Bundgaard, N.; Graw,
     F.; Brusch, L.; Hasenauer, J.
   publication_info_summary: "E Alamoudi, Y Sch\xE4lte, R M\xFCller, J Starruss\u2026\
@@ -11022,8 +11015,7 @@
 - id: 851
   created_at: 2023-05-22 16:58:00.894651
   published_on: 2015-01-01
-  title: 'Global network inference from ego network samples: testing a simulation
-    approach'
+  title: Global network inference from ego network samples testing a simulation approach
   publication_info_summary: JA Smith - The Journal of Mathematical Sociology, 2015
     - Taylor & Francis
   link: https://www.tandfonline.com/doi/abs/10.1080/0022250X.2014.994621
@@ -11053,7 +11045,7 @@
 - id: 854
   created_at: 2023-05-22 16:58:01.739241
   published_on: 2023-01-01
-  title: 'Generative Models: An Interdisciplinary Perspective'
+  title: Generative Models An Interdisciplinary Perspective
   publication_info_summary: "K Sankaran, SP Holmes - Annual Review of Statistics and\
     \ Its \u2026, 2023 - annualreviews.org"
   link: https://www.annualreviews.org/doi/abs/10.1146/annurev-statistics-033121-110134
@@ -11151,8 +11143,8 @@
 - id: 861
   created_at: 2023-05-22 16:58:03.254636
   published_on: 2003-01-01
-  title: 'Relaxing the IIA assumption in locational choice models: A comparison between
-    conditional logit, mixed logit, and multinomial probit models'
+  title: Relaxing the IIA assumption in locational choice models A comparison between
+    conditional logit, mixed logit, and multinomial probit models
   publication_info_summary: "M Dahlberg, M Ekl\xF6f - 2003 - diva-portal.org"
   link: https://www.diva-portal.org/smash/record.jsf?pid=diva2:129254
   snippet: "\u2026 An alternative approach is to retreat to simulation based inference.\
@@ -11182,7 +11174,7 @@
 - id: 863
   created_at: 2023-05-22 16:58:04.054475
   published_on: 2006-01-01
-  title: 'Econometric software development: past, present and future'
+  title: Econometric software development past, present and future
   publication_info_summary: M Ooms, JA Doornik - Statistica Neerlandica, 2006 - Wiley
     Online Library
   link: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9574.2006.00317.x
@@ -11238,8 +11230,8 @@
 - id: 867
   created_at: 2023-05-22 16:58:04.200259
   published_on: 2018-01-01
-  title: 'Noise is not error: detecting parametric heterogeneity between epidemiologic
-    time series'
+  title: Noise is not error detecting parametric heterogeneity between epidemiologic
+    time series
   publication_info_summary: "EO Romero-Severson, RM Ribeiro\u2026 - Frontiers in Microbiology,\
     \ 2018 - frontiersin.org"
   link: https://www.frontiersin.org/articles/10.3389/fmicb.2018.01529/full
@@ -11270,8 +11262,8 @@
 - id: 871
   created_at: 2023-05-22 16:58:05.121186
   published_on: 2018-01-01
-  title: 'Preservice secondary mathematics teachers'' statistical knowledge: A snapshot
-    of strengths and weaknesses'
+  title: Preservice secondary mathematics teachers' statistical knowledge A snapshot
+    of strengths and weaknesses
   publication_info_summary: JN Lovett, HS Lee - Journal of Statistics Education, 2018
     - Taylor & Francis
   link: https://www.tandfonline.com/doi/abs/10.1080/10691898.2018.1496806
@@ -11343,8 +11335,8 @@
 - id: 876
   created_at: 2023-05-22 16:58:06.173345
   published_on: 2022-01-01
-  title: 'The GIGANTES data set: precision cosmology from voids in the machine-learning
-    Era'
+  title: The GIGANTES data set precision cosmology from voids in the machine-learning
+    Era
   publication_info_summary: "CD Kreisch, A Pisani\u2026 - The Astrophysical \u2026\
     , 2022 - iopscience.iop.org"
   link: https://iopscience.iop.org/article/10.3847/1538-4357/ac7d4b/meta
@@ -11538,7 +11530,7 @@
 - id: 891
   created_at: 2023-05-22 16:58:08.822921
   published_on: 2021-01-01
-  title: 'Kessler: A machine learning library for spacecraft collision avoidance'
+  title: Kessler A machine learning library for spacecraft collision avoidance
   publication_info_summary: "G Acciarini, F Pinto, F Letizia\u2026 - \u2026 on Space\
     \ Debris, 2021 - strathprints.strath.ac.uk"
   link: https://strathprints.strath.ac.uk/76217/
@@ -11731,8 +11723,8 @@
 - id: 908
   created_at: 2023-05-22 16:58:53.921394
   published_on: 2016-01-01
-  title: 'Student performance in curricula centered on simulation-based inference:
-    A preliminary report'
+  title: Student performance in curricula centered on simulation-based inference A
+    preliminary report
   publication_info_summary: B Chance, J Wong, N Tintle - Journal of Statistics Education,
     2016 - Taylor & Francis
   link: https://www.tandfonline.com/doi/abs/10.1080/10691898.2016.1223529
@@ -11789,7 +11781,7 @@
 - id: 912
   created_at: 2023-05-22 16:58:55.591846
   published_on: 2022-03-12
-  title: 'GATSBI: Generative Adversarial Training for Simulation-Based Inference'
+  title: GATSBI Generative Adversarial Training for Simulation-Based Inference
   authors: "Poornima Ramesh, Jan-Matthis Lueckmann, Jan Boelts, \xC1lvaro Tejero-Cantero,\
     \ David S. Greenberg, Pedro J. Gon\xE7alves, Jakob H. Macke"
   publication_info_summary: "P Ramesh, JM Lueckmann, J Boelts\u2026 - arXiv preprint\
@@ -11806,8 +11798,8 @@
 - id: 913
   created_at: 2023-05-22 16:58:55.627453
   published_on: 2004-01-01
-  title: 'Simulation-based inference in dynamic panel probit models: an application
-    to health'
+  title: Simulation-based inference in dynamic panel probit models an application
+    to health
   publication_info_summary: P Contoyannis, AM Jones, N Rice - Empirical Economics,
     2004 - Springer
   link: https://link.springer.com/article/10.1007/s00181-003-0189-x
@@ -11865,8 +11857,8 @@
 - id: 917
   created_at: 2023-05-22 16:59:00.001284
   published_on: 2021-01-01
-  title: 'Neural empirical bayes: Source distribution estimation and its applications
-    to simulation-based inference'
+  title: Neural empirical bayes Source distribution estimation and its applications
+    to simulation-based inference
   publication_info_summary: "M Vandegar, M Kagan, A Wehenkel\u2026 - International\
     \ \u2026, 2021 - proceedings.mlr.press"
   link: https://proceedings.mlr.press/v130/vandegar21a.html?ref=https://githubhelp.com
@@ -11896,7 +11888,7 @@
   created_at: 2023-05-22 16:59:00.865267
   published_on: 2018-01-01
   title: "\u2026 metrics of student preparation and student performance in introductory\
-    \ statistics: Results from early data on simulation-based inference vs. nonsimulation-based\
+    \ statistics Results from early data on simulation-based inference vs. nonsimulation-based\
     \ \u2026"
   publication_info_summary: "N Tintle, J Clark, K Fischer, B Chance\u2026 - Journal\
     \ of Statistics \u2026, 2018 - Taylor & Francis"
@@ -12011,8 +12003,8 @@
 - id: 928
   created_at: 2023-05-22 16:59:02.027690
   published_on: 2022-01-01
-  title: 'Simulation based inference for efficient theory space sampling: An application
-    to supersymmetric explanations of the anomalous muon'
+  title: Simulation based inference for efficient theory space sampling An application
+    to supersymmetric explanations of the anomalous muon
   publication_info_summary: L Morrison, S Profumo, N Smyth, J Tamanas - Physical Review
     D, 2022 - APS
   link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.115016
@@ -12119,7 +12111,7 @@
 - id: 935
   created_at: 2023-05-22 16:59:05.771470
   published_on: 2021-01-01
-  title: "A physics-informed, machine learning emulator of a 2d surface water model:\
+  title: "A physics-informed, machine learning emulator of a 2d surface water model\
     \ What temporal networks and simulation-based inference can help us learn about\
     \ \u2026"
   publication_info_summary: RM Maxwell, LE Condon, P Melchior - Water, 2021 - mdpi.com
@@ -12152,8 +12144,8 @@
 - id: 938
   created_at: 2023-05-22 16:59:06.615854
   published_on: 2016-01-01
-  title: 'Genetic Mapping by Bulk Segregant Analysis in Drosophila: Experimental Design
-    and Simulation-Based Inference'
+  title: Genetic Mapping by Bulk Segregant Analysis in Drosophila Experimental Design
+    and Simulation-Based Inference
   publication_info_summary: JE Pool - Genetics, 2016 - academic.oup.com
   link: https://academic.oup.com/genetics/article-abstract/204/3/1295/6066352
   snippet: "\u2026 I also introduce a prototype analysis method for simulation-based\
@@ -12224,8 +12216,8 @@
 - id: 943
   created_at: 2023-05-22 16:59:11.117431
   published_on: 2020-01-01
-  title: 'Cytopath: Simulation based inference of differentiation trajectories from
-    RNA velocity fields'
+  title: Cytopath Simulation based inference of differentiation trajectories from
+    RNA velocity fields
   authors: Gupta, R.; Cerletti, D.; Gut, G.; Oxenius, A.; Claassen, M.
   publication_info_summary: R Gupta, D Cerletti, G Gut, A Oxenius, M Claassen - bioRxiv,
     2020 - biorxiv.org
@@ -12357,8 +12349,8 @@
 - id: 953
   created_at: 2023-05-22 16:59:23.470284
   published_on: 2019-01-01
-  title: 'Toward an understanding of p-values: Simulation-based inference in a traditional
-    statistics course'
+  title: Toward an understanding of p-values Simulation-based inference in a traditional
+    statistics course
   publication_info_summary: "C Case, M Battles, T Jacobbe - Investigations in Mathematics\
     \ \u2026, 2019 - Taylor & Francis"
   link: https://www.tandfonline.com/doi/abs/10.1080/19477503.2018.1438869
@@ -12372,8 +12364,8 @@
 - id: 954
   created_at: 2023-05-22 16:59:23.527122
   published_on: 2018-01-01
-  title: 'Implementing a simulation-based inference curriculum in Indonesia: A preliminary
-    report'
+  title: Implementing a simulation-based inference curriculum in Indonesia A preliminary
+    report
   publication_info_summary: "KV Saputra, O Couch - \u2026 of the Tenth International\
     \ Conference on \u2026, 2018 - iase-web.org"
   link: https://iase-web.org/icots/10/proceedings/pdfs/ICOTS10_C174.pdf
@@ -12459,8 +12451,8 @@
 - id: 960
   created_at: 2023-05-22 16:59:31.194238
   published_on: 2018-01-01
-  title: 'Assessing the association between quantitative maturity and student performance
-    in an introductory statistics class: Simulation-based vs non simulation-based'
+  title: Assessing the association between quantitative maturity and student performance
+    in an introductory statistics class Simulation-based vs non simulation-based
   publication_info_summary: "JL VanderStoep, O Couch, C Lenderink - Proceedings of\
     \ the \u2026, 2018 - isi-stats.com"
   link: http://www.isi-stats.com/isi/presentations/ICOTS2018-6.pdf
@@ -12474,8 +12466,8 @@
 - id: 961
   created_at: 2023-06-30 12:40:54.659913
   published_on: 2023-05-10
-  title: 'The cosmic graph: optimal information extraction from large-scale structure
-    using catalogues'
+  title: The cosmic graph optimal information extraction from large-scale structure
+    using catalogues
   publication_info_summary: "A Heavens, TL Makinen, P Lemos, N Porqueres\u2026 - spiral.imperial.ac.uk"
   link: https://spiral.imperial.ac.uk/handle/10044/1/101619
   snippet: "\u2026 to noisy survey cuts, and d) illustrate how nonlinear IMNN summaries\
@@ -12521,8 +12513,8 @@
 - id: 970
   created_at: 2023-06-30 12:40:28.285457
   published_on: 2023-05-29
-  title: 'Neural Posterior Estimation with guaranteed exact coverage: the ringdown
-    of GW150914'
+  title: Neural Posterior Estimation with guaranteed exact coverage the ringdown of
+    GW150914
   authors: Marco Crisostomi, Kallol Dey, Enrico Barausse, Roberto Trotta
   publication_info_summary: "M Crisostomi, K Dey, E Barausse, R Trotta - arXiv preprint\
     \ arXiv \u2026, 2023 - arxiv.org"
@@ -12546,7 +12538,6 @@
     \ have become established tools for simulation-based inference (SBI), but scaling\
     \ them to high-\u2026"
   journal: openreview.net
-  category: Physics
   doi: https://openreview.net/forum?id=LdGjxxjfh8
 - id: 972
   created_at: 2023-06-30 12:40:37.299545
@@ -12613,8 +12604,8 @@
 - id: 976
   created_at: 2023-06-30 12:40:22.042137
   published_on: 2023-06-01
-  title: 'ERGO-ML: Towards a robust machine learning model for inferring the fraction
-    of accreted stars in galaxies from integral-field spectroscopic maps'
+  title: ERGO-ML Towards a robust machine learning model for inferring the fraction
+    of accreted stars in galaxies from integral-field spectroscopic maps
   publication_info_summary: "E Angeloudi, J Falc\xF3n-Barroso\u2026 - Monthly Notices\
     \ of \u2026, 2023 - academic.oup.com"
   link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad1669/7191269
@@ -12640,8 +12631,8 @@
 - id: 978
   created_at: 2023-06-30 12:40:18.231073
   published_on: 2023-06-06
-  title: 'L-C2ST: Local Diagnostics for Posterior Approximations in Simulation-Based
-    Inference'
+  title: L-C2ST Local Diagnostics for Posterior Approximations in Simulation-Based
+    Inference
   authors: Julia Linhart, Alexandre Gramfort, Pedro L. C. Rodrigues
   publication_info_summary: J Linhart, A Gramfort, PLC Rodrigues - arXiv preprint
     arXiv:2306.03580, 2023 - arxiv.org
@@ -12656,7 +12647,7 @@
 - id: 979
   created_at: 2023-06-30 12:40:06.496109
   published_on: 2023-06-09
-  title: 'Albatross: Stellar stream parameter inference with neural ratio estimation'
+  title: Albatross Stellar stream parameter inference with neural ratio estimation
   publication_info_summary: "J Alvey, M Gerdes, C Weniger - Astrophysics Source Code\
     \ \u2026, 2023 - ui.adsabs.harvard.edu"
   link: https://ui.adsabs.harvard.edu/abs/2023ascl.soft06009A/abstract
@@ -12737,8 +12728,8 @@
 - id: 985
   created_at: 2023-07-05 15:03:37.771936
   published_on: 2023-06-28
-  title: 'Sequential Bayesian inference with intractable likelihoods: A sequential
-    mixture model method for posterior and likelihood estimation'
+  title: Sequential Bayesian inference with intractable likelihoods A sequential mixture
+    model method for posterior and likelihood estimation
   publication_info_summary: "H H\xE4ggstr\xF6m - 2023 - odr.chalmers.se"
   link: https://odr.chalmers.se/items/ccff7b89-7b07-4a4f-801c-6419db90398b
   snippet: "In a Bayesian setting with realistic models it is not unusual that it\
@@ -12752,22 +12743,18 @@
   published_on: 2023-06-27
   title: Stochastic Gradient Bayesian Optimal Experimental Designs for Simulation-based
     Inference
-  authors: Vincent D. Zaballa, Elliot E. Hui
-  publication_info_summary: VD Zaballa, EE Hui - arXiv preprint arXiv:2306.15731,
-    2023 - arxiv.org
-  link: https://arxiv.org/abs/2306.15731
+  publication_info_summary: VD Zaballa, EE Hui - ArXiv, 2023 - ncbi.nlm.nih.gov
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10327247/
   snippet: "Simulation-based inference (SBI) methods tackle complex scientific models\
     \ with challenging inverse problems. However, SBI models often face a significant\
     \ hurdle due to \u2026"
-  journal: arxiv.org
+  journal: ncbi.nlm.nih.gov
   citation_backlink: https://scholar.google.com/scholar?cites=3686575203115301469
-  arxiv_id: '2306.15731'
-  arxiv_category_tag: cs.LG
-  category: Computer Science
+  doi: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10327247/
 - id: 987
   created_at: 2023-07-05 15:04:18.185431
   published_on: 2023-06-05
-  title: 'sbi: Simulation-based inference toolkit'
+  title: sbi Simulation-based inference toolkit
   publication_info_summary: "A Tejero-Cantero, J Boelts, M Deistler\u2026 - Astrophysics\
     \ \u2026, 2023 - ui.adsabs.harvard.edu"
   link: https://ui.adsabs.harvard.edu/abs/2023ascl.soft06002T/abstract
@@ -12843,8 +12830,8 @@
 - id: 993
   created_at: 2023-07-12 12:13:55.852099
   published_on: 2023-04-11
-  title: 'SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical
-    Applications'
+  title: SBI++ Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical
+    Applications
   authors: Bingjie Wang, Joel Leja, V. Ashley Villar, Joshua S. Speagle
   publication_info_summary: B Wang, J Leja, VA Villar, JS Speagle - arXiv preprint
     arXiv:2304.05281, 2023 - arxiv.org
@@ -12879,7 +12866,7 @@
 - id: 995
   created_at: 2023-07-18 12:10:16.967334
   published_on: 2023-06-25
-  title: 'Master Thesis: Implicit neural representations for robotic grasping'
+  title: Master Thesis Implicit neural representations for robotic grasping
   publication_info_summary: J Gustin - 2023 - matheo.uliege.be
   link: https://matheo.uliege.be/handle/2268.2/17624
   snippet: "\u2026 This enables the application of powerful simulation-based inference\
@@ -12903,7 +12890,7 @@
 - id: 997
   created_at: 2023-07-25 12:09:46.916581
   published_on: 2023-07-13
-  title: 'BayesFlow: Amortized Bayesian Workflows With'
+  title: BayesFlow Amortized Bayesian Workflows With
   publication_info_summary: "PC B\xFCrkner - raw.githubusercontent.com"
   link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.05702/joss.05702/10.21105.joss.05702.pdf
   snippet: "\u2026 When it comes to simulation-based inference with neural networks,\
@@ -12970,7 +12957,7 @@
 - id: 1002
   created_at: 2023-08-05 12:08:03.810532
   published_on: 2023-08-01
-  title: 'SIMBIG: Galaxy Clustering beyond the Power Spectrum'
+  title: SIMBIG Galaxy Clustering beyond the Power Spectrum
   publication_info_summary: "CH Hahn, P Lemos, L Parker\u2026 - ml4astro.github.io"
   link: https://ml4astro.github.io/icml2023/assets/50.pdf
   snippet: "\u2026 The paper uses the SIMBIG framework, which leverages machine learning\
@@ -12980,7 +12967,7 @@
 - id: 1003
   created_at: 2023-08-05 12:08:07.733194
   published_on: 2023-08-01
-  title: 'SimBIG: Field-level Simulation-based Inference of Large-scale Structure'
+  title: SimBIG Field-level Simulation-based Inference of Large-scale Structure
   publication_info_summary: "P Lemos, L Parker, CH Hahn, S Ho, M Eickenberg\u2026\
     \ - ml4astro.github.io"
   link: https://ml4astro.github.io/icml2023/assets/48.pdf
@@ -13021,16 +13008,18 @@
   arxiv_category_tag: hep-ph
 - id: 1006
   created_at: 2023-08-15 12:08:54.359215
-  published_on: 2023-07-07
+  published_on: 2023-10-03
   title: Simulation-based Inference with the Generalized Kullback-Leibler Divergence
-  publication_info_summary: "BK Miller, M Federici, C Weniger\u2026 - 1st Workshop\
-    \ on the \u2026, 2023 - openreview.net"
-  link: https://openreview.net/forum?id=tPb1Fe58ro
+  authors: "Benjamin Kurt Miller, Marco Federici, Christoph Weniger, Patrick Forr\xE9"
+  publication_info_summary: "BK Miller, M Federici, C Weniger, P Forr\xE9 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.01808
   snippet: "\u2026 In Simulation-based Inference, the goal is to solve the inverse\
     \ problem when the likelihood is only known implicitly. Neural Posterior Estimation\
     \ commonly fits a normalized \u2026"
-  journal: openreview.net
-  doi: https://openreview.net/forum?id=tPb1Fe58ro
+  journal: arxiv.org
+  arxiv_id: '2310.01808'
+  arxiv_category_tag: stat.ML
 - id: 1007
   created_at: 2023-08-17 12:08:46.064695
   published_on: 2023-08-15
@@ -13075,8 +13064,8 @@
 - id: 1010
   created_at: 2023-08-22 12:09:37.718878
   published_on: 2023-08-05
-  title: 'arXiv: Simulation-based inference in the search for CP violation in leptonic
-    WH production'
+  title: arXiv Simulation-based inference in the search for CP violation in leptonic
+    WH production
   publication_info_summary: "R Barru\xE9, V Dao, P Conde-Mu\xED\xF1o, R Santos - 2023\
     \ - cds.cern.ch"
   link: https://cds.cern.ch/record/2867720
@@ -13216,8 +13205,8 @@
 - id: 1021
   created_at: 2023-09-21 12:09:52.173335
   published_on: 2023-09-17
-  title: 'Simulation-based Inference for Exoplanet Atmospheric Retrieval: Insights
-    from winning the Ariel Data Challenge 2023 using Normalizing Flows'
+  title: Simulation-based Inference for Exoplanet Atmospheric Retrieval Insights from
+    winning the Ariel Data Challenge 2023 using Normalizing Flows
   authors: "Mayeul Aubin, Carolina Cuesta-Lazaro, Ethan Tregidga, Javier Via\xF1a,\
     \ Cecilia Garraffo, Iouli E. Gordon, Mercedes L\xF3pez-Morales, Robert J. Hargreaves,\
     \ Vladimir Yu. Makhnev, Jeremy J. Drake, Douglas P. Finkbeiner, Phillip Cargile"
@@ -13265,8 +13254,8 @@
 - id: 1024
   created_at: 2023-09-26 12:10:03.102412
   published_on: 2023-09-14
-  title: 'arXiv: Simulation-based inference for stochastic gravitational wave background
-    data analysis'
+  title: arXiv Simulation-based inference for stochastic gravitational wave background
+    data analysis
   publication_info_summary: J Alvey, V Domcke, U Bhardwaj, M Pieroni, C Weniger -
     2023 - cds.cern.ch
   link: https://cds.cern.ch/record/2871692
@@ -13279,8 +13268,8 @@
 - id: 1025
   created_at: 2023-09-26 12:11:23.569393
   published_on: 2023-08-02
-  title: 'SOBER: Highly Parallel Bayesian Optimization and Bayesian Quadrature over
-    Discrete and Mixed Spaces'
+  title: SOBER Highly Parallel Bayesian Optimization and Bayesian Quadrature over
+    Discrete and Mixed Spaces
   publication_info_summary: "M Adachi, S Hayakawa, S Hamid\u2026 - ICML 2023 Workshop\
     \ \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=aewcDfu3Zn
@@ -13288,6 +13277,7 @@
     \ akin to BO, widely applied in simulation-based inference. The task is to estimate\
     \ both the posterior \u2026"
   journal: openreview.net
+  citation_backlink: https://scholar.google.com/scholar?cites=11251752591255446830
   category: Computer Science
   doi: https://openreview.net/forum?id=aewcDfu3Zn
 - id: 1026
@@ -13319,7 +13309,7 @@
 - id: 1028
   created_at: 2023-10-10 12:10:14.934074
   published_on: 2023-10-05
-  title: "EFTofLSS meets simulation-based inference: $\u03C3_8$ from biased tracers"
+  title: "EFTofLSS meets simulation-based inference $\u03C3_8$ from biased tracers"
   authors: Beatriz Tucci, Fabian Schmidt
   publication_info_summary: B Tucci, F Schmidt - arXiv preprint arXiv:2310.03741,
     2023 - arxiv.org
@@ -13334,8 +13324,7 @@
 - id: 1029
   created_at: 2023-10-12 12:09:45.789819
   published_on: 2023-10-06
-  title: '${rm H{scriptsize ALO}F{scriptsize LOW}}$ I: Neural Inference of Halo Mass
-    from Galaxy Photometry and Morphology'
+  title: HALOFLOW I Neural Inference of Halo Mass from Galaxy Photometry and Morphology
   authors: ChangHoon Hahn, Connor Bottrell, Khee-Gan Lee
   publication_info_summary: CH Hahn, C Bottrell, KG Lee - arXiv preprint arXiv:2310.04503,
     2023 - arxiv.org
@@ -13451,7 +13440,7 @@
 - id: 1037
   created_at: 2023-10-26 12:10:19.746426
   published_on: 2023-10-01
-  title: 'PEREGRINE: Gravitational wave parameter inference with neural ration estimation'
+  title: PEREGRINE Gravitational wave parameter inference with neural ration estimation
   publication_info_summary: "U Bhardwaj, J Alvey, BK Miller\u2026 - Astrophysics \u2026\
     , 2023 - ui.adsabs.harvard.edu"
   link: https://ui.adsabs.harvard.edu/abs/2023ascl.soft09016B/abstract
@@ -13463,9 +13452,9 @@
 - id: 1038
   created_at: 2023-11-01 12:09:53.289916
   published_on: 2023-10-26
-  title: 'Simulation-based Inference of Reionization Parameters from 3D Tomographic
-    21 cm Light-cone Images -- II: Application of Solid Harmonic Wavelet Scattering
-    Transform'
+  title: Simulation-based Inference of Reionization Parameters from 3D Tomographic
+    21 cm Light-cone Images -- II Application of Solid Harmonic Wavelet Scattering
+    Transform
   authors: Xiaosheng Zhao, Yi Mao, Shifan Zuo, Benjamin D. Wandelt
   publication_info_summary: X Zhao, Y Mao, S Zuo, BD Wandelt - arXiv preprint arXiv:2310.17602,
     2023 - arxiv.org
@@ -13495,8 +13484,8 @@
 - id: 1040
   created_at: 2023-11-01 12:10:05.601004
   published_on: 2023-10-23
-  title: 'Field-level simulation-based inference with galaxy catalogs: the impact
-    of systematic effects'
+  title: Field-level simulation-based inference with galaxy catalogs the impact of
+    systematic effects
   authors: "Natal\xED S. M. de Santi, Francisco Villaescusa-Navarro, L. Raul Abramo,\
     \ Helen Shao, Lucia A. Perez, Tiago Castro, Yueying Ni, Christopher C. Lovell,\
     \ Elena Hernandez-Martinez, Federico Marinacci, David N. Spergel, Klaus Dolag,\
@@ -13514,7 +13503,7 @@
 - id: 1041
   created_at: 2023-11-01 12:10:11.671940
   published_on: 2023-10-23
-  title: 'SimBIG: Field-level Simulation-Based Inference of Galaxy Clustering'
+  title: SimBIG Field-level Simulation-Based Inference of Galaxy Clustering
   authors: Pablo Lemos, Liam Parker, ChangHoon Hahn, Shirley Ho, Michael Eickenberg,
     Jiamin Hou, Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Bruno Regaldo-Saint
     Blancard, David Spergel
@@ -13528,3 +13517,62 @@
   arxiv_id: '2310.15256'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
+- id: 1042
+  created_at: 2023-11-02 12:09:24.325891
+  published_on: 2023-10-27
+  title: Approximation of Intractable Likelihood Functions in Systems Biology via
+    Normalizing Flows
+  publication_info_summary: "V Zaballa, E Hui - NeurIPS 2023 Generative AI and Biology\
+    \ (GenBio \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=FpUqHQSmqC
+  snippet: "\u2026 By using normalizing flows in the Simulation-based inference setting,\
+    \ we demonstrate a method that not only approximates a likelihood function but\
+    \ also allows for model \u2026"
+  journal: openreview.net
+  category: Quantitative Biology
+  doi: https://openreview.net/forum?id=FpUqHQSmqC
+- id: 1043
+  created_at: 2023-11-02 12:09:50.573809
+  published_on: 2023-10-23
+  title: SIMBIG The First Cosmological Constraints from the Non-Linear Galaxy Bispectrum
+  authors: "ChangHoon Hahn, Michael Eickenberg, Shirley Ho, Jiamin Hou, Pablo Lemos,\
+    \ Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker, Bruno R\xE9\
+    galdo-Saint Blancard"
+  publication_info_summary: "CH Hahn, M Eickenberg, S Ho, J Hou, P Lemos\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.15243
+  snippet: "\u2026 We use SimBIG, a forward modeling framework for galaxy clustering\
+    \ analyses that employs simulation-based inference to perform highly efficient\
+    \ cosmological inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.15243'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1044
+  created_at: 2023-11-02 12:09:55.547907
+  published_on: 2023-10-23
+  title: SIMBIG Galaxy Clustering Analysis with the Wavelet Scattering Transform
+  authors: "Bruno R\xE9galdo-Saint Blancard, ChangHoon Hahn, Shirley Ho, Jiamin Hou,\
+    \ Pablo Lemos, Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker,\
+    \ Yuling Yao, Michael Eickenberg"
+  publication_info_summary: "BRS Blancard, CH Hahn, S Ho, J Hou, P Lemos\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2310.15250
+  snippet: "\u2026 \u039BCDM parameters \u2126m, \u2126b, h, ns, and \u03C38 from\
+    \ the BOSS CMASS galaxy sample by combining the wavelet scattering transform (WST)\
+    \ with a simulation-based inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.15250'
+  arxiv_category_tag: astro-ph.CO
+- id: 1045
+  created_at: 2023-11-02 12:11:40.688936
+  published_on: 2023-08-31
+  title: Inferring dynamical states in complex recurrent networks
+  publication_info_summary: V Buendia, A Levina - Bernstein Conference 2023, 2023
+    - pure.mpg.de
+  link: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_3548130
+  snippet: "\u2026 Here, we introduce a novel method based on simulation-based inference\
+    \ (SBI) to infer the dynamical regimes of regions in a strongly connected network.\
+    \ In recent years, \u2026"
+  journal: pure.mpg.de
+  doi: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_3548130
