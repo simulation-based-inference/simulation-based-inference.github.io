@@ -13576,3 +13576,17 @@
     \ In recent years, \u2026"
   journal: pure.mpg.de
   doi: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_3548130
+- id: 1046
+  created_at: 2023-11-04 12:18:22.085623
+  published_on: 2023-10-30
+  title: Bayesian Simulation-based Inference for Cosmological Initial Conditions
+  authors: Florian List, Noemi Anau Montel, Christoph Weniger
+  publication_info_summary: F List, NA Montel, C Weniger - arXiv preprint arXiv:2310.19910,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2310.19910
+  snippet: "\u2026 We present a versatile Bayesian field reconstruction algorithm\
+    \ rooted in simulation-based inference and enhanced by autoregressive modeling.\
+    \ The proposed technique \u2026"
+  journal: arxiv.org
+  arxiv_id: '2310.19910'
+  arxiv_category_tag: astro-ph.CO
