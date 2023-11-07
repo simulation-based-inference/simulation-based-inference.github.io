@@ -933,6 +933,7 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
+  category: Astrophysics
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -12538,6 +12539,7 @@
     \ have become established tools for simulation-based inference (SBI), but scaling\
     \ them to high-\u2026"
   journal: openreview.net
+  category: Astrophysics
   doi: https://openreview.net/forum?id=LdGjxxjfh8
 - id: 972
   created_at: 2023-06-30 12:40:37.299545
@@ -12951,6 +12953,7 @@
     \ inference which we call Surjective Sequential Neural Likelihood (SSNL) estimation.\
     \ SSNL uses \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=18265314395851828552
   arxiv_id: '2308.01054'
   arxiv_category_tag: stat.ML
   category: Neuroscience
@@ -13154,6 +13157,7 @@
     \ inference approach to define accurate DT models for a Kubernetes environment.\
     \ We experimentally \u2026"
   journal: ieeexplore.ieee.org
+  citation_backlink: https://scholar.google.com/scholar?cites=8210103132949725549
   doi: https://ieeexplore.ieee.org/abstract/document/10217853/
 - id: 1017
   created_at: 2023-09-12 12:09:53.085348
@@ -13285,15 +13289,15 @@
   published_on: 2023-09-27
   title: The effect of the perturber population on subhalo measurements in strong
     gravitational lenses
-  publication_info_summary: "A Coogan, NA Montel, K Karchev\u2026 - Monthly Notices\
-    \ of \u2026, 2023 - academic.oup.com"
-  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2925/7283168
-  snippet: "\u2026 Here we show that a simulation-based inference method called truncated\
+  publication_info_summary: "A Coogan, N Anau Montel, K Karchev\u2026 - Monthly Notices\
+    \ of \u2026, 2024 - academic.oup.com"
+  link: https://academic.oup.com/mnras/article/527/1/66/7283168
+  snippet: "\u2026 Here, we show that a simulation-based inference method called truncated\
     \ marginal neural ratio estimation (TMNRE) makes it possible to relax these requirements\
     \ by \u2026"
   journal: academic.oup.com
   category: Astrophysics
-  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad2925/7283168
+  doi: https://academic.oup.com/mnras/article/527/1/66/7283168
 - id: 1027
   created_at: 2023-10-03 12:09:58.233041
   published_on: 2023-09-26
@@ -13526,8 +13530,8 @@
     \ (GenBio \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=FpUqHQSmqC
   snippet: "\u2026 By using normalizing flows in the Simulation-based inference setting,\
-    \ we demonstrate a method that not only approximates a likelihood function but\
-    \ also allows for model \u2026"
+    \ 8 we demonstrate a method that not only approximates a likelihood function but\
+    \ 9 also allows for \u2026"
   journal: openreview.net
   category: Quantitative Biology
   doi: https://openreview.net/forum?id=FpUqHQSmqC
@@ -13590,3 +13594,55 @@
   journal: arxiv.org
   arxiv_id: '2310.19910'
   arxiv_category_tag: astro-ph.CO
+- id: 1047
+  created_at: 2023-11-07 12:09:33.950103
+  published_on: 2023-10-31
+  title: Assessing the Effectiveness of Using Simulation-Based Inference Curriculum
+    at the High School Level
+  publication_info_summary: S Roy, B Chance, T Mcdonnel, N Tintle - 2023 - osf.io
+  link: https://osf.io/preprints/edarxiv/xyc63/
+  snippet: "\u2026 Abstract: Simulation-based inference methods continue to gain in\
+    \ popularity across \u2026 , including, but not limited to, simulation-based inference.\
+    \ In this article, we summarize \u2026"
+  journal: osf.io
+  doi: https://osf.io/preprints/edarxiv/xyc63/
+- id: 1048
+  created_at: 2023-11-07 12:09:44.818953
+  published_on: 2023-10-28
+  title: Sensitivity Analysis of Simulation-Based Inference for Galaxy Clustering
+  publication_info_summary: "S Pandey, C Modi, B Wandelt, M Ho\u2026 - NeurIPS 2023\
+    \ AI for \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=VM7CdbDkQt
+  snippet: "\u2026 4 Simulation-based Inference Next, we outline the details of our\
+    \ simulation-based inference pipeline using the Latin-hypercubes generated in\
+    \ the previous section as the \u2026"
+  journal: openreview.net
+  category: Physics
+  doi: https://openreview.net/forum?id=VM7CdbDkQt
+- id: 1049
+  created_at: 2023-11-07 12:09:51.105113
+  published_on: 2023-10-28
+  title: CHARM Creating Halos with Auto-Regressive Multi-stage networks
+  publication_info_summary: "S Pandey, C Modi, B Wandelt\u2026 - NeurIPS 2023 AI for\
+    \ \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=dz3O7M1QzA
+  snippet: "\u2026 a major first 17 step towards being able to analyze the non-Gaussian\
+    \ and non-linear information 18 from current-generation surveys using simulation-based\
+    \ inference \u2026"
+  journal: openreview.net
+  category: Computer Science
+  doi: https://openreview.net/forum?id=dz3O7M1QzA
+- id: 1050
+  created_at: 2023-11-07 12:11:35.744177
+  published_on: 2023-10-01
+  title: Meta-learning families of plasticity rules in recurrent spiking networks
+    using simulation-based inference
+  publication_info_summary: "B Confavreux, P Ramesh, PJ Goncalves\u2026 - \u2026 on\
+    \ Neural Information \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=FLFasCFJNo
+  snippet: "\u2026 Here, we develop a simulation-based inference (SBI) method for\
+    \ sequentially filtering plasticity rules through an increasingly fine mesh of\
+    \ constraints that can be modified \u2026"
+  journal: openreview.net
+  category: Quantitative Biology
+  doi: https://openreview.net/forum?id=FLFasCFJNo
