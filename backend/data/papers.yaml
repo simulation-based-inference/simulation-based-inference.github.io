@@ -933,7 +933,7 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
-  category: Astrophysics
+  category: Computer Science
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -13291,13 +13291,13 @@
     gravitational lenses
   publication_info_summary: "A Coogan, N Anau Montel, K Karchev\u2026 - Monthly Notices\
     \ of \u2026, 2024 - academic.oup.com"
-  link: https://academic.oup.com/mnras/article/527/1/66/7283168
+  link: https://academic.oup.com/mnras/article-abstract/527/1/66/7283168
   snippet: "\u2026 Here, we show that a simulation-based inference method called truncated\
     \ marginal neural ratio estimation (TMNRE) makes it possible to relax these requirements\
     \ by \u2026"
   journal: academic.oup.com
   category: Astrophysics
-  doi: https://academic.oup.com/mnras/article/527/1/66/7283168
+  doi: https://academic.oup.com/mnras/article-abstract/527/1/66/7283168
 - id: 1027
   created_at: 2023-10-03 12:09:58.233041
   published_on: 2023-09-26
@@ -13646,3 +13646,29 @@
   journal: openreview.net
   category: Quantitative Biology
   doi: https://openreview.net/forum?id=FLFasCFJNo
+- id: 1051
+  created_at: 2023-11-09 12:10:33.077097
+  published_on: 2023-10-01
+  title: Discriminative Calibration Check Bayesian Computation from Simulations and
+    Flexible Classifier
+  publication_info_summary: "Y Yao, J Domke - Thirty-seventh Conference on Neural\
+    \ Information \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=2Cmdh5z6ph
+  snippet: "\u2026 We apply simulation based inference to sample from each of the\
+    \ models, where we try various normalizing flow architectures and return either\
+    \ the best architecture or the \u2026"
+  journal: openreview.net
+  category: Astrophysics
+  doi: https://openreview.net/forum?id=2Cmdh5z6ph
+- id: 1052
+  created_at: 2023-11-09 12:12:32.835660
+  published_on: 2023-07-31
+  title: MCMC methods graph samplers, invariance tests and epidemic models
+  publication_info_summary: JA Scott - 2023 - spiral.imperial.ac.uk
+  link: https://spiral.imperial.ac.uk/handle/10044/1/106997
+  snippet: "\u2026 Markov Chain Monte Carlo (MCMC) techniques are used ubiquitously\
+    \ for simulationbased inference. This thesis provides novel contributions to MCMC\
+    \ methods and their \u2026"
+  journal: spiral.imperial.ac.uk
+  category: Computer Science
+  doi: https://spiral.imperial.ac.uk/handle/10044/1/106997
