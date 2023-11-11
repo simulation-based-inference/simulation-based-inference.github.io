@@ -933,7 +933,7 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
-  category: Computer Science
+  category: Education
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -13672,3 +13672,17 @@
   journal: spiral.imperial.ac.uk
   category: Computer Science
   doi: https://spiral.imperial.ac.uk/handle/10044/1/106997
+- id: 1053
+  created_at: 2023-11-11 12:08:10.926152
+  published_on: 2023-11-06
+  title: link-ancestors Fast simulation of local ancestry with tree sequence software
+  authors: Tsambos, G.; Kelleher, J.; Ralph, P. L.; Leslie, S. J.; Vukcevic, D.
+  publication_info_summary: G Tsambos, J Kelleher, P Ralph, S Leslie, D Vukcevic -
+    bioRxiv, 2023 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2023.11.03.564476.abstract
+  snippet: "\u2026 Summary It is challenging to simulate realistic tracts of genetic\
+    \ ancestry on a scale suitable for simulation based inference. We present an algorithm\
+    \ that enables this \u2026"
+  journal: biorxiv.org
+  category: Computer Science
+  doi: 10.1101/2023.11.03.564476
