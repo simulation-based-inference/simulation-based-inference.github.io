@@ -933,7 +933,6 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
-  category: Education
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -13686,3 +13685,46 @@
   journal: biorxiv.org
   category: Computer Science
   doi: 10.1101/2023.11.03.564476
+- id: 1054
+  created_at: 2023-11-14 12:09:45.459824
+  published_on: 2023-11-10
+  title: ADP release can explain spatially-dependent kinesin binding times
+  authors: Nguyen, T.; Reddy, B. J. N.; Gross, S. P.; Miles, C. E.
+  publication_info_summary: T Nguyen, BJN Reddy, SP Gross, CE Miles - bioRxiv, 2023
+    - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2023.11.08.563482.abstract
+  snippet: "\u2026 Through Brownian dynamics simulations and simulation-based inference,\
+    \ we find this simple 26 diffusion model fails to explain the experimental binding\
+    \ times, but an \u2026"
+  journal: biorxiv.org
+  category: Education
+  doi: 10.1101/2023.11.08.563482
+- id: 1055
+  created_at: 2023-11-14 12:09:50.797761
+  published_on: 2023-11-09
+  title: Model-based inference of a plant-specific dual role for HOPS in regulating
+    guard cell vacuole fusion
+  authors: Hodgens, C.; Flaherty, D.; Pullen, A.-M.; Khan, I.; English, N. J.; Gillan,
+    L.; Rojas-Pierce, M.; Akpa, B.
+  publication_info_summary: "C Hodgens, D Flaherty, AM Pullen, I Khan, NJ English\u2026\
+    \ - bioRxiv, 2023 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2023.11.07.565947.abstract
+  snippet: "\u2026 by applying simulation-based inference to integrate prior knowledge\
+    \ about molecular \u2026 Using simulation-based inference, we integrated existing\
+    \ biological knowledge with \u2026"
+  journal: biorxiv.org
+  category: Systems biology
+  doi: 10.1101/2023.11.07.565947
+- id: 1056
+  created_at: 2023-11-14 12:11:14.942500
+  published_on: 2023-10-01
+  title: Pseudo-Likelihood Inference
+  publication_info_summary: "T Gruner, B Belousov, F Muratore\u2026 - \u2026 on Neural\
+    \ Information \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=FIv84qGPFT
+  snippet: "\u2026 Simulation-Based Inference (SBI) is a common name for an emerging\
+    \ family of approaches that infer the model parameters when the likelihood is\
+    \ intractable. Existing SBI \u2026"
+  journal: openreview.net
+  category: Education
+  doi: https://openreview.net/forum?id=FIv84qGPFT
