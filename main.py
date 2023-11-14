@@ -1,8 +1,10 @@
 import datetime
 import argparse
 import logging
+from pathlib import Path
 from backend.api import query_arxiv, query_serp, query_biorxiv
 from backend.post_maker import remake_all_posts
+from backend.plot_maker import make_plot
 from backend.database import insert_paper, Paper, get_paper, update_paper, get_papers
 from backend.guess_category import Guesser
 
@@ -86,3 +88,4 @@ if __name__ == "__main__":
 
     update_manual_category_group()  # Make sure changes made to guess_category_group.json are reflected in the database
     remake_all_posts()
+    make_plot(post_dir=Path("./_posts"), save=Path("assets/publication_by_year.json"))

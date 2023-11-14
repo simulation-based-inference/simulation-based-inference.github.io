@@ -1,0 +1,27 @@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.15.1"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+<script type="text/javascript">
+  var embedOpt = { mode: "vega-lite", theme: "light", actions: false };
+
+  fetch('/assets/publication_by_year.json')
+    .then(response => response.json())
+    .then(spec => {
+      vegaEmbed("#vis", spec, embedOpt)
+        .then(function (result) { })
+        .catch(console.error);
+    });
+</script>
+
+
+<div x-data="{ open: false }" markdown="0">
+  <a x-on:click="open = true" title="View plot">
+    Visualize the annual growth in the number of publications.
+  </a>
+  <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+    <div class="modal-background" x-on:click="open = false"></div>
+    <div class="modal-content plot-modal-content" id="vis"></div>
+    <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+  </div>
+</div>
