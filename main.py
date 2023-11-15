@@ -1,6 +1,7 @@
 import datetime
 import argparse
 import logging
+import json
 from pathlib import Path
 from backend.api import query_arxiv, query_serp, query_biorxiv
 from backend.post_maker import remake_all_posts
@@ -13,6 +14,8 @@ logging.basicConfig(level=logging.DEBUG)
 
 SEARCH_TERM = '"simulation-based+inference"'
 CATEGORY_GUESSER = Guesser()
+with open("./backend/data/arxiv_group.json", "r") as f:
+    ARXIV_GROUP_MAPPING = json.load(f)
 
 
 def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
@@ -44,6 +47,11 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
             # MUST Sanitize using Paper class, otherwise cannot get the correct title
             paper = Paper(**result)
             paper_from_db = get_paper(title=paper.title)
+
+            # Use arxiv category if available
+            if paper.category is None and paper.arxiv_category_tag is not None:
+                arxiv_group = paper.arxiv_category_tag.split(".")[0]
+                paper.category = ARXIV_GROUP_MAPPING[arxiv_group]
 
             # Append guessed category
             if paper.category is None:
