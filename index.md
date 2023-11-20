@@ -10,7 +10,22 @@ Simulators are the modern manifestation of scientific theories. They implement m
 
 Simulation-based inference is the next step in the methodological evolution of statistical practice in the sciences. SBI provides qualitatively new capabilities that can transform scientific practice in fields as diverse as evolutionary biology, systems biology, neuroscience, gravitational wave astronomy, dark matter astrophysics, cosmology, and particle physics. Inference problems in these areas are challenging because they involve high-dimensional, richly-structured spaces. Empowering domain scientists with the ability to directly infer from data the properties of the underlying mechanistic models that they are developing would be transformative.
 
-SBI has also proven to be an effective lingua franca that facilitates communication between domain scientists and methodological experts, supports convergence research, and accelerates cross-pollination of ideas between fields. 
+SBI has also proven to be an effective lingua franca that facilitates communication between domain scientists and methodological experts, supports convergence research, and accelerates cross-pollination of ideas between fields.
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.15.1"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<div id="vis"></div>
+<script type="text/javascript">
+    var embedOpt = { mode: "vega-lite", theme: "light", actions: false };
+    fetch('/assets/publication_by_year.json')
+        .then(response => response.json())
+        .then(vlSpec => {
+        vegaEmbed('#vis', vlSpec, embedOpt)
+            .then(function (result) { })
+            .catch(console.error);
+        });
+</script>
 
 ## Selected Resources
 
@@ -19,12 +34,14 @@ SBI has also proven to be an effective lingua franca that facilitates communicat
 The plan is to turn this page into a crowd-sourced community resource that can collect recent papers including methodological developments and applications. Here are some links to get started:
 
 **Reviews**
- * [The frontier of simulation-based inference](https://doi.org/10.1073/pnas.1912789117) review by Kyle Cranmer, Johann Brehmer, and Gilles Louppe
 
- * Google Scholar searches for ["Simulation-based inference"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=%22simulation-based+inference%22+&btnG=),  ["likelihood-free"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=%22likelihood-free%22+&btnG=), and ["Approximate Bayesian Computation"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&as_vis=1&q=%22approximate+bayesian+computation%22&btnG=)
+* [The frontier of simulation-based inference](https://doi.org/10.1073/pnas.1912789117) review by Kyle Cranmer, Johann Brehmer, and Gilles Louppe
+
+* Google Scholar searches for ["Simulation-based inference"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=%22simulation-based+inference%22+&btnG=),  ["likelihood-free"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=%22likelihood-free%22+&btnG=), and ["Approximate Bayesian Computation"](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&as_vis=1&q=%22approximate+bayesian+computation%22&btnG=)
 
 **Curated Awesome List**
- * [Awesome Neural SBI](https://github.com/smsharma/awesome-neural-sbi) - A similar effort with a less automated, more human-curated list of SBI papers initiated by Siddharth Mishra-Sharma. 
+
+* [Awesome Neural SBI](https://github.com/smsharma/awesome-neural-sbi) - A similar effort with a less automated, more human-curated list of SBI papers initiated by Siddharth Mishra-Sharma.
 
 **Applications**
 
@@ -47,11 +64,12 @@ The plan is to turn this page into a crowd-sourced community resource that can c
 * **Cosmology**: [Simulation-Based Inference of Reionization Parameters From 3D Tomographic 21 cm Lightcone Images](https://arxiv.org/abs/2105.03344) by Zhao, Xiaosheng ;  Mao, Yi ;  Cheng, Cheng ;  Wandelt, Benjamin D.
 
 * **Genomics**: [Addressing uncertainty in genome-scale metabolic model reconstruction and analysis](https://link.springer.com/article/10.1186/s13059-021-02289-z) by David B. Bernstein, Snorre Sulheim, Eivind Almaas & Daniel Segrè in Genome Biology volume 22, Article number: 64 (2021)
+
 > Furthermore, genome-scale metabolic models (GEMs) can be used to simulate disparate types of ‘omics data, even though the explicit calculation of likelihoods may be intractable. Thus, the use of “simulation-based” Bayesian inference approaches is a promising route for informing GEM structure and parameters from data [198]. However, scaling Bayesian approaches up to deal with the large space of possible GEM reconstructions is an open, exciting and challenging research direction.
 
 * **Evolutionary Biology**: [Simulation-based inference of evolutionary parameters from adaptation dynamics using neural networks](https://www.biorxiv.org/content/10.1101/2021.09.30.462581v1.abstract) by  Grace Avecilla,  Julie N. Chuong, Fangfei Li,  Gavin Sherlock,  David Gresham,  Yoav Ram
 
-* **Evolutionary Biology**: [Universal probabilistic programming offers a powerful approach to statistical phylogenetics]() by Fredrik Ronquist, Jan Kudlicka, Viktor Senderov, Johannes Borgström, Nicolas Lartillot, Daniel Lundén, Lawrence Murray, Thomas B. Schön & David Broman 
+* **Evolutionary Biology**: [Universal probabilistic programming offers a powerful approach to statistical phylogenetics]() by Fredrik Ronquist, Jan Kudlicka, Viktor Senderov, Johannes Borgström, Nicolas Lartillot, Daniel Lundén, Lawrence Murray, Thomas B. Schön & David Broman
 
 * **Global Health**: [Simulation-Based Inference for Global Health Decisions](https://arxiv.org/abs/2005.07062) by Christian Schroeder de Witt, Bradley Gram-Hansen, Nantas Nardelli, Andrew Gambardella, Rob Zinkov, Puneet Dokania, N. Siddharth, Ana Belen Espinosa-Gonzalez, Ara Darzi, Philip Torr, Atılım Güneş Baydin
 
@@ -59,4 +77,4 @@ The plan is to turn this page into a crowd-sourced community resource that can c
 
 ### Other curated resources list
 
-- [Awesome neural SBI](https://github.com/smsharma/awesome-neural-sbi)
+* [Awesome neural SBI](https://github.com/smsharma/awesome-neural-sbi)
