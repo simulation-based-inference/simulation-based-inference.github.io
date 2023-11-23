@@ -13820,3 +13820,48 @@
   arxiv_id: '2311.09446'
   arxiv_category_tag: stat.ME
   category: Statistics
+- id: 1062
+  created_at: 2023-11-23 12:09:56.224209
+  published_on: 2023-11-17
+  title: Fuse It or Lose It Deep Fusion for Multimodal Simulation-Based Inference
+  authors: "Marvin Schmitt, Stefan T. Radev, Paul-Christian B\xFCrkner"
+  publication_info_summary: "M Schmitt, ST Radev, PC B\xFCrkner - arXiv preprint arXiv:2311.10671,\
+    \ 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2311.10671
+  snippet: "\u2026 the flexibility of MultiNPE as a novel simulationbased inference\
+    \ tool for real-world \u2026 it pushes the boundaries of modern simulationbased\
+    \ inference with neural networks and \u2026"
+  journal: arxiv.org
+  arxiv_id: '2311.10671'
+  arxiv_category_tag: cs.LG
+  category: Education
+- id: 1063
+  created_at: 2023-11-23 12:10:00.563808
+  published_on: 2023-11-17
+  title: Galaxy clustering multi-scale emulation
+  authors: Tyann Dumerchat, Julian Bautista
+  publication_info_summary: T Dumerchat, J Bautista - arXiv preprint arXiv:2311.10425,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2311.10425
+  snippet: "\u2026 Simulation based inference has seen increasing interest in the\
+    \ past few years as a promising approach to model the non linear scales of galaxy\
+    \ clustering. The common \u2026"
+  journal: arxiv.org
+  arxiv_id: '2311.10425'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1064
+  created_at: 2023-11-23 12:10:04.821431
+  published_on: 2023-11-17
+  title: Direct Amortized Likelihood Ratio Estimation
+  authors: Adam D. Cobb, Brian Matejek, Daniel Elenius, Anirban Roy, Susmit Jha
+  publication_info_summary: "AD Cobb, B Matejek, D Elenius, A Roy\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2311.10571
+  snippet: "\u2026 We introduce a new amortized likelihood ratio estimator for likelihood-free\
+    \ simulation-based inference (SBI). Our estimator is simple to train and estimates\
+    \ the likelihood \u2026"
+  journal: arxiv.org
+  arxiv_id: '2311.10571'
+  arxiv_category_tag: stat.ML
+  category: Statistics
