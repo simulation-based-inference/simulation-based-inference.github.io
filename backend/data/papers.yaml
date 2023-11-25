@@ -13543,8 +13543,8 @@
     \ (GenBio \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=FpUqHQSmqC
   snippet: "\u2026 By using normalizing flows in the Simulation-based inference setting,\
-    \ 8 we demonstrate a method that not only approximates a likelihood function but\
-    \ 9 also allows for \u2026"
+    \ we demonstrate a method that not only approximates a likelihood function but\
+    \ also allows for model \u2026"
   journal: openreview.net
   category: Quantitative Biology
   doi: https://openreview.net/forum?id=FpUqHQSmqC
@@ -13630,9 +13630,9 @@
   publication_info_summary: "S Pandey, C Modi, B Wandelt, M Ho\u2026 - NeurIPS 2023\
     \ AI for \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=VM7CdbDkQt
-  snippet: "\u2026 4 Simulation-based Inference Next, we outline the details of our\
-    \ simulation-based inference pipeline using the Latin-hypercubes generated in\
-    \ the previous section as the \u2026"
+  snippet: "Simulation-based inference (SBI) is a promising approach to leverage high\
+    \ fidelity cosmological simulations and extract information from the non-Gaussian,\
+    \ non-linear \u2026"
   journal: openreview.net
   category: Physics
   doi: https://openreview.net/forum?id=VM7CdbDkQt
@@ -13643,8 +13643,8 @@
   publication_info_summary: "S Pandey, C Modi, B Wandelt\u2026 - NeurIPS 2023 AI for\
     \ \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=dz3O7M1QzA
-  snippet: "\u2026 a major first 17 step towards being able to analyze the non-Gaussian\
-    \ and non-linear information 18 from current-generation surveys using simulation-based\
+  snippet: "\u2026 a major first step towards being able to analyze the non-Gaussian\
+    \ and non-linear information from current-generation surveys using simulation-based\
     \ inference \u2026"
   journal: openreview.net
   category: Computer Science
@@ -13671,9 +13671,9 @@
   publication_info_summary: "Y Yao, J Domke - Thirty-seventh Conference on Neural\
     \ Information \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=2Cmdh5z6ph
-  snippet: "\u2026 We apply simulation based inference to sample from each of the\
-    \ models, where we try various normalizing flow architectures and return either\
-    \ the best architecture or the \u2026"
+  snippet: "\u2026 , applicable to MCMC, variational and simulation based inference.\
+    \ We provide a high-\u2026 generating processes to address simulation-based inference\
+    \ or traditional inference \u2026"
   journal: openreview.net
   category: Astrophysics
   doi: https://openreview.net/forum?id=2Cmdh5z6ph
@@ -13740,9 +13740,9 @@
   publication_info_summary: "T Gruner, B Belousov, F Muratore\u2026 - \u2026 on Neural\
     \ Information \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=FIv84qGPFT
-  snippet: "\u2026 Simulation-Based Inference (SBI) is a common name for an emerging\
-    \ family of approaches that infer the model parameters when the likelihood is\
-    \ intractable. Existing SBI \u2026"
+  snippet: "\u2026 Keywords: simulation-based inference, approximate Bayesian computation\
+    \ Abstract: Simulation-Based Inference (SBI) is a common name for an emerging\
+    \ family of \u2026"
   journal: openreview.net
   category: Education
   doi: https://openreview.net/forum?id=FIv84qGPFT
@@ -13865,3 +13865,16 @@
   arxiv_id: '2311.10571'
   arxiv_category_tag: stat.ML
   category: Statistics
+- id: 1065
+  created_at: 2023-11-25 12:08:41.193800
+  published_on: 2023-11-22
+  title: Statistical Inference for Dependence Networks in Topological Data Analysis
+  publication_info_summary: AB El-Yaagoubi, MK Chung, H Ombao - Frontiers in Artificial
+    Intelligence - frontiersin.org
+  link: https://www.frontiersin.org/articles/10.3389/frai.2023.1293504/full
+  snippet: "Topological data analysis (TDA) provide tools that are becoming increasingly\
+    \ popular for analyzing multivariate time series data. One key aspect in analyzing\
+    \ multivariate \u2026"
+  journal: frontiersin.org
+  category: Education
+  doi: https://www.frontiersin.org/articles/10.3389/frai.2023.1293504/full
