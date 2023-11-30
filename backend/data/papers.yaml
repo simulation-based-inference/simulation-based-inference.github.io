@@ -13878,3 +13878,17 @@
   journal: frontiersin.org
   category: Education
   doi: https://www.frontiersin.org/articles/10.3389/frai.2023.1293504/full
+- id: 1066
+  created_at: 2023-11-30 12:10:18.874794
+  published_on: 2023-11-21
+  title: Deep Calibration of Market Simulations using Neural Density Estimators and
+    Embedding Networks
+  publication_info_summary: "NR Stillman, R Baggott, J Lyon, J Zhang\u2026 - 4th ACM\
+    \ International \u2026, 2023 - dl.acm.org"
+  link: https://dl.acm.org/doi/abs/10.1145/3604237.3626881
+  snippet: "\u2026 In this work, we show how simulation-based inference can be used\
+    \ to calibrate an ABM market simulator. We demonstrate our approach using two\
+    \ ABMs, a simple model \u2026"
+  journal: dl.acm.org
+  category: Education
+  doi: https://dl.acm.org/doi/abs/10.1145/3604237.3626881
