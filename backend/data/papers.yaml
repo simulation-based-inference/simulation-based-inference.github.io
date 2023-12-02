@@ -933,7 +933,7 @@
     \ for simulation-based inference methods, without the need for posterior samples,\
     \ and provide \u2026"
   journal: dare.uva.nl
-  category: Education
+  category: Physics
   doi: https://dare.uva.nl/search?identifier=c8c09918-33ed-4ec2-9b7b-a3a24a21d1db
 - id: 71
   created_at: 2023-04-26 10:10:37.456042
@@ -13068,7 +13068,7 @@
     \ (SBI), a data-driven approach that avoids the need for iterative model inversions.\
     \ This is achieved by \u2026"
   journal: eprints.nottingham.ac.uk
-  category: Education
+  category: Physics
   doi: http://eprints.nottingham.ac.uk/74189/
 - id: 1010
   created_at: 2023-08-22 12:09:37.718878
@@ -13189,7 +13189,7 @@
     \ methods applied to inverse \u2026 Unlike classical simulation-based inference\
     \ problems, our focus extends to \u2026"
   journal: matheo.uliege.be
-  category: Education
+  category: Physics
   doi: https://matheo.uliege.be/handle/2268.2/18255
 - id: 1019
   created_at: 2023-09-12 12:10:01.943183
@@ -13213,7 +13213,7 @@
     \ inference applied to different settings, including fluid dynamics, disease modeling\
     \ and \u2026"
   journal: search.proquest.com
-  category: Education
+  category: Physics
   doi: https://search.proquest.com/openview/f82d5730c0d1b7e82ba7dbe7f92e99e8/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 1021
   created_at: 2023-09-21 12:09:52.173335
@@ -13434,7 +13434,7 @@
   snippet: "\u2026 Recent work has demonstrated the efficacy of using neural networks\
     \ as estimators within simulation-based inference (SBI) routines; broadly, their\
     \ use has been shown to \u2026"
-  category: Education
+  category: Mathematics
   doi: https://willwolf.io/images/nlp_for_sbi_proposal.pdf
 - id: 1036
   created_at: 2023-10-26 12:09:24.704106
@@ -13464,7 +13464,7 @@
     \ efficiently access marginal posteriors, PEREGRINE conducts a sequential simulation-based\
     \ inference \u2026"
   journal: ui.adsabs.harvard.edu
-  category: Education
+  category: Physics
   doi: https://ui.adsabs.harvard.edu/abs/2023ascl.soft09016B/abstract
 - id: 1038
   created_at: 2023-11-01 12:09:53.289916
@@ -13593,7 +13593,7 @@
     \ (SBI) to infer the dynamical regimes of regions in a strongly connected network.\
     \ In recent years, \u2026"
   journal: pure.mpg.de
-  category: Education
+  category: Physics
   doi: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_3548130
 - id: 1046
   created_at: 2023-11-04 12:18:22.085623
@@ -13621,7 +13621,7 @@
     \ popularity across \u2026 , including, but not limited to, simulation-based inference.\
     \ In this article, we summarize \u2026"
   journal: osf.io
-  category: Education
+  category: Mathematics
   doi: https://osf.io/preprints/edarxiv/xyc63/
 - id: 1048
   created_at: 2023-11-07 12:09:44.818953
@@ -13735,17 +13735,19 @@
   doi: 10.1101/2023.11.07.565947
 - id: 1056
   created_at: 2023-11-14 12:11:14.942500
-  published_on: 2023-10-01
+  published_on: 2023-11-28
   title: Pseudo-Likelihood Inference
-  publication_info_summary: "T Gruner, B Belousov, F Muratore\u2026 - \u2026 on Neural\
-    \ Information \u2026, 2023 - openreview.net"
-  link: https://openreview.net/forum?id=FIv84qGPFT
-  snippet: "\u2026 Keywords: simulation-based inference, approximate Bayesian computation\
-    \ Abstract: Simulation-Based Inference (SBI) is a common name for an emerging\
-    \ family of \u2026"
-  journal: openreview.net
+  authors: Theo Gruner, Boris Belousov, Fabio Muratore, Daniel Palenicek, Jan Peters
+  publication_info_summary: "T Gruner, B Belousov, F Muratore, D Palenicek\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2311.16656
+  snippet: "\u2026 Simulation-Based Inference (SBI) is a common name for an emerging\
+    \ family of approaches that infer the model parameters when the likelihood is\
+    \ intractable. Existing SBI \u2026"
+  journal: arxiv.org
+  arxiv_id: '2311.16656'
+  arxiv_category_tag: cs.LG
   category: Education
-  doi: https://openreview.net/forum?id=FIv84qGPFT
 - id: 1057
   created_at: 2023-11-16 12:09:55.594904
   published_on: 2023-11-12
@@ -13892,3 +13894,62 @@
   journal: dl.acm.org
   category: Education
   doi: https://dl.acm.org/doi/abs/10.1145/3604237.3626881
+- id: 1067
+  created_at: 2023-12-02 12:08:51.179440
+  published_on: 2023-11-28
+  title: A point cloud approach to generative modeling for galaxy surveys at the field
+    level
+  authors: Carolina Cuesta-Lazaro, Siddharth Mishra-Sharma
+  publication_info_summary: C Cuesta-Lazaro, S Mishra-Sharma - arXiv preprint arXiv:2311.17141,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2311.17141
+  snippet: "\u2026 extended to enable a comprehensive analysis of cosmological data,\
+    \ circumventing limitations inherent to summary statistics- as well as neural\
+    \ simulation-based inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2311.17141'
+  arxiv_category_tag: astro-ph.CO
+  category: Education
+- id: 1068
+  created_at: 2023-12-02 12:08:55.583523
+  published_on: 2023-11-27
+  title: Learning Reionization History from Quasars with Simulation-Based Inference
+  authors: Huanqing Chen, Joshua Speagle, Keir K. Rogers
+  publication_info_summary: H Chen, J Speagle, KK Rogers - arXiv preprint arXiv:2311.16238,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2311.16238
+  snippet: "\u2026 We assess the performance of a simulation-based inference (SBI)\
+    \ method to infer the neutral fraction of the universe from quasar spectra. The\
+    \ SBI method adeptly exploits \u2026"
+  journal: arxiv.org
+  arxiv_id: '2311.16238'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1069
+  created_at: 2023-12-02 12:08:58.997758
+  published_on: 2023-11-24
+  title: Loss-driven sampling within hard-to-learn areas for simulation-based neural
+    network training
+  publication_info_summary: "S Dymchenko, B Raffin - MLPS 2023-Machine Learning and\
+    \ the \u2026, 2023 - hal.science"
+  link: https://hal.science/hal-04305233/
+  snippet: "\u2026 This includes Physics Informed Neural Networks (PINNs), simulation-based\
+    \ inference, deep surrogates and deep reinforcement learning. An adaptive process\
+    \ observes \u2026"
+  journal: hal.science
+  category: Computer Science
+  doi: https://hal.science/hal-04305233/
+- id: 1070
+  created_at: 2023-12-02 12:11:14.047048
+  published_on: 2023-10-01
+  title: Simulation-based inference for the in situ estimation of the acoustic boundary
+    admittance
+  publication_info_summary: "JM Schmid, JD Schmid, S Marburg - The Journal of the\
+    \ Acoustical \u2026, 2023 - pubs.aip.org"
+  link: https://pubs.aip.org/asa/jasa/article/154/4_supplement/A98/2923924
+  snippet: "\u2026 The method utilizes simulation-based inference, where a neural\
+    \ network is trained to \u2026 By adopting simulation-based inference, we gain\
+    \ advantages over sampling-based \u2026"
+  journal: pubs.aip.org
+  category: Mathematics
+  doi: https://pubs.aip.org/asa/jasa/article/154/4_supplement/A98/2923924
