@@ -13434,7 +13434,7 @@
   snippet: "\u2026 Recent work has demonstrated the efficacy of using neural networks\
     \ as estimators within simulation-based inference (SBI) routines; broadly, their\
     \ use has been shown to \u2026"
-  category: Mathematics
+  category: Physics
   doi: https://willwolf.io/images/nlp_for_sbi_proposal.pdf
 - id: 1036
   created_at: 2023-10-26 12:09:24.704106
@@ -13621,7 +13621,7 @@
     \ popularity across \u2026 , including, but not limited to, simulation-based inference.\
     \ In this article, we summarize \u2026"
   journal: osf.io
-  category: Mathematics
+  category: Physics
   doi: https://osf.io/preprints/edarxiv/xyc63/
 - id: 1048
   created_at: 2023-11-07 12:09:44.818953
