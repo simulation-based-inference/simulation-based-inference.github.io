@@ -13189,7 +13189,7 @@
     \ methods applied to inverse \u2026 Unlike classical simulation-based inference\
     \ problems, our focus extends to \u2026"
   journal: matheo.uliege.be
-  category: Computer Science
+  category: Physics
   doi: https://matheo.uliege.be/handle/2268.2/18255
 - id: 1019
   created_at: 2023-09-12 12:10:01.943183
@@ -13213,7 +13213,7 @@
     \ inference applied to different settings, including fluid dynamics, disease modeling\
     \ and \u2026"
   journal: search.proquest.com
-  category: Computer Science
+  category: Physics
   doi: https://search.proquest.com/openview/f82d5730c0d1b7e82ba7dbe7f92e99e8/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 1021
   created_at: 2023-09-21 12:09:52.173335
@@ -13434,7 +13434,7 @@
   snippet: "\u2026 Recent work has demonstrated the efficacy of using neural networks\
     \ as estimators within simulation-based inference (SBI) routines; broadly, their\
     \ use has been shown to \u2026"
-  category: Computer Science
+  category: Medicine
   doi: https://willwolf.io/images/nlp_for_sbi_proposal.pdf
 - id: 1036
   created_at: 2023-10-26 12:09:24.704106
@@ -13464,7 +13464,7 @@
     \ efficiently access marginal posteriors, PEREGRINE conducts a sequential simulation-based\
     \ inference \u2026"
   journal: ui.adsabs.harvard.edu
-  category: Computer Science
+  category: Physics
   doi: https://ui.adsabs.harvard.edu/abs/2023ascl.soft09016B/abstract
 - id: 1038
   created_at: 2023-11-01 12:09:53.289916
@@ -13536,18 +13536,20 @@
   category: Astrophysics
 - id: 1042
   created_at: 2023-11-02 12:09:24.325891
-  published_on: 2023-10-27
+  published_on: 2023-12-04
   title: Approximation of Intractable Likelihood Functions in Systems Biology via
     Normalizing Flows
-  publication_info_summary: "V Zaballa, E Hui - NeurIPS 2023 Generative AI and Biology\
-    \ (GenBio \u2026, 2023 - openreview.net"
-  link: https://openreview.net/forum?id=FpUqHQSmqC
+  authors: Vincent D. Zaballa, Elliot E. Hui
+  publication_info_summary: VD Zaballa, EE Hui - arXiv preprint arXiv:2312.02391,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2312.02391
   snippet: "\u2026 By using normalizing flows in the Simulation-based inference setting,\
     \ we demonstrate a method that not only approximates a likelihood function but\
     \ also allows for model \u2026"
-  journal: openreview.net
+  journal: arxiv.org
+  arxiv_id: '2312.02391'
+  arxiv_category_tag: q-bio.QM
   category: Quantitative Biology
-  doi: https://openreview.net/forum?id=FpUqHQSmqC
 - id: 1043
   created_at: 2023-11-02 12:09:50.573809
   published_on: 2023-10-23
@@ -13593,7 +13595,7 @@
     \ (SBI) to infer the dynamical regimes of regions in a strongly connected network.\
     \ In recent years, \u2026"
   journal: pure.mpg.de
-  category: Computer Science
+  category: Physics
   doi: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_3548130
 - id: 1046
   created_at: 2023-11-04 12:18:22.085623
@@ -13621,13 +13623,13 @@
     \ popularity across \u2026 , including, but not limited to, simulation-based inference.\
     \ In this article, we summarize \u2026"
   journal: osf.io
-  category: Computer Science
+  category: Medicine
   doi: https://osf.io/preprints/edarxiv/xyc63/
 - id: 1048
   created_at: 2023-11-07 12:09:44.818953
   published_on: 2023-10-28
   title: Sensitivity Analysis of Simulation-Based Inference for Galaxy Clustering
-  publication_info_summary: "S Pandey, C Modi, B Wandelt, M Ho\u2026 - NeurIPS 2023\
+  publication_info_summary: "S Pandey, C Modi, BD Wandelt, M Ho\u2026 - NeurIPS 2023\
     \ AI for \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=VM7CdbDkQt
   snippet: "Simulation-based inference (SBI) is a promising approach to leverage high\
@@ -13790,6 +13792,7 @@
     \ inference (SBI) to introduce a new framework for making optimal Bayesian decisions:\
     \ hereafter, we \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=13493163952657905535
   arxiv_id: '2311.05742'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -13960,13 +13963,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2024 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8joWWv3&sig=WgtzlWnKzQkxpTV_drbPeKS-X7s
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8knTPx7&sig=5U9BGTS6ZOTjn4hP1TviuGwg6c8
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8joWW&sig=WgtzlWnKzQkxpTV_drbPeKS-X7s
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8knTPx7&sig=5U9BGTS6ZOTjn4hP1TviuGwg6c8
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -13984,3 +13987,60 @@
   arxiv_id: '2311.18017'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
+- id: 1073
+  created_at: 2023-12-09 12:09:00.384206
+  published_on: 2023-12-07
+  title: GENERAL-PURPOSE STATISTICAL INFERENCE WITH DIFFERENTIAL PRIVACY GUARANTEES
+  publication_info_summary: Z Wang - 2023 - hammer.purdue.edu
+  link: https://hammer.purdue.edu/articles/thesis/GENERAL-PURPOSE_STATISTICAL_INFERENCE_WITH_DIFFERENTIAL_PRIVACY_GUARANTEES/24732675
+  snippet: "Differential privacy (DP) uses a probabilistic framework to measure the\
+    \ level of privacy protection of a mechanism that releases data analysis results\
+    \ to the public. Although \u2026"
+  journal: hammer.purdue.edu
+  category: Computer Science
+  doi: https://hammer.purdue.edu/articles/thesis/GENERAL-PURPOSE_STATISTICAL_INFERENCE_WITH_DIFFERENTIAL_PRIVACY_GUARANTEES/24732675
+- id: 1074
+  created_at: 2023-12-09 12:09:04.863152
+  published_on: 2023-12-05
+  title: Amortized Bayesian Decision Making for simulation-based models
+  authors: Mila Gorecki, Jakob H. Macke, Michael Deistler
+  publication_info_summary: M Gorecki, JH Macke, M Deistler - arXiv preprint arXiv:2312.02674,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2312.02674
+  snippet: "\u2026 Simulation-based inference (SBI) provides a powerful framework\
+    \ for inferring posterior distributions of stochastic simulators in a wide range\
+    \ of domains. In many settings, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2312.02674'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1075
+  created_at: 2023-12-09 12:09:09.079574
+  published_on: 2023-12-03
+  title: Simulation-Based Inference of Surface Accumulation and Basal Melt Rates of
+    an Antarctic Ice Shelf from Isochronal Layers
+  authors: "Guy Moss, Vjeran Vi\u0161njevi\u0107, Olaf Eisen, Falk M. Oraschewski,\
+    \ Cornelius Schr\xF6der, Jakob H. Macke, Reinhard Drews"
+  publication_info_summary: "G Moss, V Vi\u0161njevi\u0107, O Eisen, FM Oraschewski\u2026\
+    \ - arXiv preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2312.02997
+  snippet: "\u2026 We solve the inverse problem using simulation-based inference (SBI).\
+    \ SBI performs Bayesian inference by training neural networks on simulations of\
+    \ the forward model to \u2026"
+  journal: arxiv.org
+  arxiv_id: '2312.02997'
+  arxiv_category_tag: physics.ao-ph
+  category: Physics
+- id: 1076
+  created_at: 2023-12-09 12:11:34.148447
+  published_on: 2023-10-11
+  title: Impacts of Digitalization on Content and Goals of Statistics Education
+  publication_info_summary: "R Biehler, D Frischemeier, R Gould\u2026 - Handbook of\
+    \ Digital \u2026, 2023 - Springer"
+  link: https://link.springer.com/content/pdf/10.1007/978-3-030-95060-6_20-1.pdf
+  snippet: "\u2026 Multivariate methods, Bayesian methods, and simulation-based inference\
+    \ methods are important examples. New impacts are coming from the growing field\
+    \ of data science\u2026"
+  journal: Springer
+  category: Medicine
+  doi: https://link.springer.com/content/pdf/10.1007/978-3-030-95060-6_20-1.pdf
