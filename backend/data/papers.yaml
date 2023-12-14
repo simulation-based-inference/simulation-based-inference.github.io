@@ -13189,7 +13189,7 @@
     \ methods applied to inverse \u2026 Unlike classical simulation-based inference\
     \ problems, our focus extends to \u2026"
   journal: matheo.uliege.be
-  category: Mathematics
+  category: Computer Science
   doi: https://matheo.uliege.be/handle/2268.2/18255
 - id: 1019
   created_at: 2023-09-12 12:10:01.943183
@@ -13213,7 +13213,7 @@
     \ inference applied to different settings, including fluid dynamics, disease modeling\
     \ and \u2026"
   journal: search.proquest.com
-  category: Mathematics
+  category: Computer Science
   doi: https://search.proquest.com/openview/f82d5730c0d1b7e82ba7dbe7f92e99e8/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 1021
   created_at: 2023-09-21 12:09:52.173335
@@ -13435,7 +13435,7 @@
   snippet: "\u2026 Recent work has demonstrated the efficacy of using neural networks\
     \ as estimators within simulation-based inference (SBI) routines; broadly, their\
     \ use has been shown to \u2026"
-  category: Mathematics
+  category: Computer Science
   doi: https://willwolf.io/images/nlp_for_sbi_proposal.pdf
 - id: 1036
   created_at: 2023-10-26 12:09:24.704106
@@ -13465,7 +13465,7 @@
     \ efficiently access marginal posteriors, PEREGRINE conducts a sequential simulation-based\
     \ inference \u2026"
   journal: ui.adsabs.harvard.edu
-  category: Mathematics
+  category: Computer Science
   doi: https://ui.adsabs.harvard.edu/abs/2023ascl.soft09016B/abstract
 - id: 1038
   created_at: 2023-11-01 12:09:53.289916
@@ -13624,7 +13624,7 @@
     \ popularity across \u2026 , including, but not limited to, simulation-based inference.\
     \ In this article, we summarize \u2026"
   journal: osf.io
-  category: Mathematics
+  category: Computer Science
   doi: https://osf.io/preprints/edarxiv/xyc63/
 - id: 1048
   created_at: 2023-11-07 12:09:44.818953
@@ -13964,13 +13964,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2024 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8nrYWu8&sig=nbj0opRlG0q6h9JDsm5zmfRE86E
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8oqVQw5&sig=UukjcgxGWHQBsY5Q-1gD8l6Tieg
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8nrYWu8&sig=nbj0opRlG0q6h9JDsm5zmfRE86E
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8oqVQw5&sig=UukjcgxGWHQBsY5Q-1gD8l6Tieg
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14058,3 +14058,31 @@
   journal: academic.oup.com
   category: Physics
   doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stad3789/7464056
+- id: 1078
+  created_at: 2023-12-14 12:10:29.547423
+  published_on: 2023-12-09
+  title: Consistency Models for Scalable and Fast Simulation-Based Inference
+  authors: "Marvin Schmitt, Valentin Pratz, Ullrich K\xF6the, Paul-Christian B\xFC\
+    rkner, Stefan T Radev"
+  publication_info_summary: "M Schmitt, V Pratz, U K\xF6the, PC B\xFCrkner\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2312.05440
+  snippet: "\u2026 In this paper, we port consistency models to simulationbased inference\
+    \ (see Figure 1) to achieve an unprecedented combination of both scalable and\
+    \ fast neural posterior \u2026"
+  journal: arxiv.org
+  arxiv_id: '2312.05440'
+  arxiv_category_tag: cs.LG
+  category: Mathematics
+- id: 1079
+  created_at: 2023-12-14 12:10:37.055553
+  published_on: 2023-12-07
+  title: Simulation-Based Inference for Detecting Blending in Spectra
+  publication_info_summary: D McNamara, J Regier - Ann Arbor - ml4physicalsciences.github.io
+  link: https://ml4physicalsciences.github.io/2023/files/NeurIPS_ML4PS_2023_149.pdf
+  snippet: "\u2026 We present a simulation-based inference approach to identifying\
+    \ blended astronomical spectra. While blending in spectra has been examined previously\
+    \ (eg, [8]), it has \u2026"
+  journal: ml4physicalsciences.github.io
+  category: Astronomy
+  doi: https://ml4physicalsciences.github.io/2023/files/NeurIPS_ML4PS_2023_149.pdf
