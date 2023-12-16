@@ -13213,7 +13213,7 @@
     \ inference applied to different settings, including fluid dynamics, disease modeling\
     \ and \u2026"
   journal: search.proquest.com
-  category: Computer Science
+  category: Astrophysics
   doi: https://search.proquest.com/openview/f82d5730c0d1b7e82ba7dbe7f92e99e8/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 1021
   created_at: 2023-09-21 12:09:52.173335
@@ -13435,7 +13435,7 @@
   snippet: "\u2026 Recent work has demonstrated the efficacy of using neural networks\
     \ as estimators within simulation-based inference (SBI) routines; broadly, their\
     \ use has been shown to \u2026"
-  category: Computer Science
+  category: Physics
   doi: https://willwolf.io/images/nlp_for_sbi_proposal.pdf
 - id: 1036
   created_at: 2023-10-26 12:09:24.704106
@@ -13465,7 +13465,7 @@
     \ efficiently access marginal posteriors, PEREGRINE conducts a sequential simulation-based\
     \ inference \u2026"
   journal: ui.adsabs.harvard.edu
-  category: Computer Science
+  category: Physics
   doi: https://ui.adsabs.harvard.edu/abs/2023ascl.soft09016B/abstract
 - id: 1038
   created_at: 2023-11-01 12:09:53.289916
@@ -13624,7 +13624,7 @@
     \ popularity across \u2026 , including, but not limited to, simulation-based inference.\
     \ In this article, we summarize \u2026"
   journal: osf.io
-  category: Computer Science
+  category: Astronomy
   doi: https://osf.io/preprints/edarxiv/xyc63/
 - id: 1048
   created_at: 2023-11-07 12:09:44.818953
@@ -13964,13 +13964,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2024 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8po-Uu4&sig=qyhLF1Es_USbp7Kj4osQWAkNJyk
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8qnXXx6&sig=RxzliapMwy3tLebAk7uWA5ykcgw
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8po-Uu4&sig=qyhLF1Es_USbp7Kj4osQWAkNJyk
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh8qnXXx6&sig=RxzliapMwy3tLebAk7uWA5ykcgw
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14086,3 +14086,62 @@
   journal: ml4physicalsciences.github.io
   category: Astronomy
   doi: https://ml4physicalsciences.github.io/2023/files/NeurIPS_ML4PS_2023_149.pdf
+- id: 1080
+  created_at: 2023-12-16 12:08:59.988703
+  published_on: 2023-12-13
+  title: Inferring Atmospheric Properties of Exoplanets with Flow Matching and Neural
+    Importance Sampling
+  authors: "Timothy D. Gebhard, Jonas Wildberger, Maximilian Dax, Daniel Angerhausen,\
+    \ Sascha P. Quanz, Bernhard Sch\xF6lkopf"
+  publication_info_summary: "TD Gebhard, J Wildberger, M Dax\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2312.08295
+  snippet: "\u2026 Going forward, our analysis suggests that simulation-based inference\
+    \ with likelihood-based importance sampling provides a framework for accurate\
+    \ and efficient AR that \u2026"
+  journal: arxiv.org
+  arxiv_id: '2312.08295'
+  arxiv_category_tag: astro-ph.IM
+  category: Computer Science
+- id: 1081
+  created_at: 2023-12-16 12:09:03.521175
+  published_on: 2023-12-12
+  title: Genetics and population analysis link-ancestors fast simulation of local
+    ancestry with tree sequence software
+  publication_info_summary: G Tsambos, J Kelleher, P Ralph, S Leslie, D Vukcevic -
+    2023 - monash.edu
+  link: https://www.monash.edu/business/ebs/research/publications/ebs/2023/wp26-2023.pdf
+  snippet: "\u2026 Summary: It is challenging to simulate realistic tracts of genetic\
+    \ ancestry on a scale suitable for simulation-based inference. We present an algorithm\
+    \ that enables this \u2026"
+  journal: monash.edu
+  category: Genetics
+  doi: https://www.monash.edu/business/ebs/research/publications/ebs/2023/wp26-2023.pdf
+- id: 1082
+  created_at: 2023-12-16 12:10:51.516467
+  published_on: 2023-10-30
+  title: Characterization of Microservice Response Time in Kubernetes A Mixture Density
+    Network Approach
+  publication_info_summary: "L Manca, D Borsatti, F Poltronieri\u2026 - \u2026 on\
+    \ Network and \u2026, 2023 - ieeexplore.ieee.org"
+  link: https://ieeexplore.ieee.org/abstract/document/10327842/
+  snippet: "\u2026 We show the improvement in performance with respect to simulation-based\
+    \ inference procedures proposed in literature. Index Terms\u2014Service Management\
+    \ and \u2026"
+  journal: ieeexplore.ieee.org
+  category: Astronomy
+  doi: https://ieeexplore.ieee.org/abstract/document/10327842/
+- id: 1083
+  created_at: 2023-12-16 12:12:33.137186
+  published_on: 2023-09-30
+  title: ${rm S {scriptsize IM} BIG} $ Galaxy Clustering Analysis with the Wavelet
+    Scattering Transform
+  publication_info_summary: "B R\xE9galdo-Saint Blancard, CH Hahn, S Ho\u2026 - arXiv\
+    \ e \u2026, 2023 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2023arXiv231015250R/abstract
+  snippet: "\u2026 $\\Omega_b$, $h$, $n_s$, and $\\sigma_8$ from the BOSS CMASS galaxy\
+    \ sample by combining the wavelet scattering transform (WST) with a simulation-based\
+    \ inference \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Physics
+  doi: https://ui.adsabs.harvard.edu/abs/2023arXi31015250R/abstract
