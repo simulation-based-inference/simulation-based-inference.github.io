@@ -13886,8 +13886,8 @@
   published_on: 2023-11-21
   title: Deep Calibration of Market Simulations using Neural Density Estimators and
     Embedding Networks
-  publication_info_summary: "NR Stillman, R Baggott, J Lyon, J Zhang\u2026 - 4th ACM\
-    \ International \u2026, 2023 - dl.acm.org"
+  publication_info_summary: "NR Stillman, R Baggott, J Lyon, J Zhang\u2026 - Proceedings\
+    \ of the \u2026, 2023 - dl.acm.org"
   link: https://dl.acm.org/doi/abs/10.1145/3604237.3626881
   snippet: "\u2026 In this work, we show how simulation-based inference can be used\
     \ to calibrate an ABM market simulator. We demonstrate our approach using two\
@@ -13961,13 +13961,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2024 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh9rp-OD6&sig=ev5fM-hdYV4TEmBSzVDOVH5CvaQ
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhajnTXx0&sig=ebgtBamQHZAF7o5Xh6e1mtxKfhI
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzh9rp-OD6&sig=ev5fM-hdYV4TEmBSzVDOVH5CvaQ
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhajnTXx0&sig=ebgtBamQHZAF7o5Xh6e1mtxKfhI
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
