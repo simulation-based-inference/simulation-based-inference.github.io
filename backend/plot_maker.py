@@ -2,7 +2,12 @@ import yaml
 from pathlib import Path
 import pandas as pd
 import altair as alt
+import re
 
+def remove_latex_patterns(x: str) -> str:
+    # Define a regular expression pattern for matching LaTeX patterns
+    latex_pattern = re.compile(r'\$\S*?\$')
+    return re.sub(latex_pattern, '', x)
 
 def read_header(md_file: Path, output_keys: list = None) -> dict:
     """Load yaml header from a markdown file."""
@@ -18,8 +23,9 @@ def read_header(md_file: Path, output_keys: list = None) -> dict:
             elif yaml_delimiter_count > 0:
                 lines.append(line)
 
-        # Join the lines and parse the YAML
-        yaml_content = "".join(lines)
+    # Post-process the yaml content
+    yaml_content = "".join(lines)
+    yaml_content = remove_latex_patterns(yaml_content)
 
     output = yaml.safe_load(yaml_content)
     if output_keys is None:
@@ -34,7 +40,11 @@ def make_plot(post_dir: Path, save: Path | None = None) -> alt.Chart:
     rather than using the data from papers.yaml.
     """
 
-    data = [read_header(file, output_keys=["year"]) for file in post_dir.glob("*.md")]
+    data = []
+    for file in post_dir.glob("*.md"):
+        header = read_header(file, output_keys=["year"])
+        data.append(header)
+
     df = pd.DataFrame(data).groupby(["year"]).size().rename("count").reset_index()
 
     plot = (

@@ -13213,7 +13213,7 @@
     \ inference applied to different settings, including fluid dynamics, disease modeling\
     \ and \u2026"
   journal: search.proquest.com
-  category: Computer Science
+  category: Astrophysics
   doi: https://search.proquest.com/openview/f82d5730c0d1b7e82ba7dbe7f92e99e8/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 1021
   created_at: 2023-09-21 12:09:52.173335
@@ -13435,6 +13435,7 @@
   snippet: "\u2026 Recent work has demonstrated the efficacy of using neural networks\
     \ as estimators within simulation-based inference (SBI) routines; broadly, their\
     \ use has been shown to \u2026"
+  category: Astrophysics
   doi: https://willwolf.io/images/nlp_for_sbi_proposal.pdf
 - id: 1036
   created_at: 2023-10-26 12:09:24.704106
@@ -13464,6 +13465,7 @@
     \ efficiently access marginal posteriors, PEREGRINE conducts a sequential simulation-based\
     \ inference \u2026"
   journal: ui.adsabs.harvard.edu
+  category: Astrophysics
   doi: https://ui.adsabs.harvard.edu/abs/2023ascl.soft09016B/abstract
 - id: 1038
   created_at: 2023-11-01 12:09:53.289916
@@ -13622,6 +13624,7 @@
     \ popularity across \u2026 , including, but not limited to, simulation-based inference.\
     \ In this article, we summarize \u2026"
   journal: osf.io
+  category: Astrophysics
   doi: https://osf.io/preprints/edarxiv/xyc63/
 - id: 1048
   created_at: 2023-11-07 12:09:44.818953
@@ -13640,8 +13643,8 @@
   created_at: 2023-11-07 12:09:51.105113
   published_on: 2023-10-28
   title: CHARM Creating Halos with Auto-Regressive Multi-stage networks
-  publication_info_summary: "S Pandey, C Modi, B Wandelt\u2026 - NeurIPS 2023 AI for\
-    \ \u2026, 2023 - openreview.net"
+  publication_info_summary: "S Pandey, C Modi, BD Wandelt\u2026 - NeurIPS 2023 AI\
+    \ for \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=dz3O7M1QzA
   snippet: "\u2026 a major first step towards being able to analyze the non-Gaussian\
     \ and non-linear information from current-generation surveys using simulation-based\
@@ -13651,7 +13654,7 @@
   doi: https://openreview.net/forum?id=dz3O7M1QzA
 - id: 1050
   created_at: 2023-11-07 12:11:35.744177
-  published_on: 2023-10-01
+  published_on: 2023-09-30
   title: Meta-learning families of plasticity rules in recurrent spiking networks
     using simulation-based inference
   publication_info_summary: "B Confavreux, P Ramesh, PJ Goncalves\u2026 - \u2026 on\
@@ -13665,7 +13668,7 @@
   doi: https://openreview.net/forum?id=FLFasCFJNo
 - id: 1051
   created_at: 2023-11-09 12:10:33.077097
-  published_on: 2023-10-01
+  published_on: 2023-09-30
   title: Discriminative Calibration Check Bayesian Computation from Simulations and
     Flexible Classifier
   publication_info_summary: "Y Yao, J Domke - Thirty-seventh Conference on Neural\
@@ -13908,6 +13911,7 @@
     \ circumventing limitations inherent to summary statistics- as well as neural\
     \ simulation-based inference \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=12655627478696071573
   arxiv_id: '2311.17141'
   arxiv_category_tag: astro-ph.CO
   category: Education
@@ -13961,13 +13965,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2024 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhajv_RD6&sig=Cn-LmHB5Ex0ZYCxphJVaNyWaub0
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhbjsWWw7&sig=pbLYbUEq0U8t9j6gfxyz5Z2j7Gs
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhajv_RD6&sig=Cn-LmHB5Ex0ZYCxphJVaNyWaub0
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhbjsWWw7&sig=pbLYbUEq0U8t9j6gfxyz5Z2j7Gs
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14225,3 +14229,46 @@
   journal: osti.gov
   category: Genetics
   doi: https://www.osti.gov/biblio/2246748
+- id: 1090
+  created_at: 2024-01-12 16:59:26.155325
+  published_on: 2024-01-09
+  title: Simulation-Based Inference for Parameter Estimation of Complex Watershed
+    Simulators
+  publication_info_summary: "R Hull, E Leonarduzzi, L De La Fuente\u2026 - Hydrology\
+    \ and Earth \u2026, 2024 - hess.copernicus.org"
+  link: https://hess.copernicus.org/preprints/hess-2023-264/
+  snippet: "\u2026 Here we demonstrate how Simulation-Based Inference (SBI) can help\
+    \ address both these challenges for parameter estimation. SBI uses a learned mapping\
+    \ between \u2026"
+  journal: hess.copernicus.org
+  doi: https://hess.copernicus.org/preprints/hess-2023-264/
+- id: 1091
+  created_at: 2024-01-12 16:59:34.542422
+  published_on: 2024-01-04
+  title: Simulation-Based Inference with Quantile Regression
+  authors: He Jia
+  publication_info_summary: H Jia - arXiv preprint arXiv:2401.02413, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2401.02413
+  snippet: "We present Neural Quantile Estimation (NQE), a novel Simulation-Based\
+    \ Inference (SBI) method based on conditional quantile regression. NQE autoregressively\
+    \ learns \u2026"
+  journal: arxiv.org
+  arxiv_id: '2401.02413'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1092
+  created_at: 2024-01-12 16:59:43.124769
+  published_on: 2023-12-28
+  title: "$\u03BC$GUIDE a framework for microstructure imaging via generalized uncertainty-driven\
+    \ inference using deep learning"
+  authors: "Ma\xEBliss Jallais, Marco Palombo"
+  publication_info_summary: M Jallais, M Palombo - arXiv preprint arXiv:2312.17293,
+    2023 - arxiv.org
+  link: https://arxiv.org/abs/2312.17293
+  snippet: "\u2026 Harnessing a new deep learning architecture for automatic signal\
+    \ feature selection combined with simulationbased inference and efficient sampling\
+    \ of the posterior \u2026"
+  journal: arxiv.org
+  arxiv_id: '2312.17293'
+  arxiv_category_tag: eess.IV
+  category: Electrical Engineering and Systems Science
