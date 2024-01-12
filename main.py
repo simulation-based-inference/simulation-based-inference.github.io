@@ -94,6 +94,10 @@ if __name__ == "__main__":
     if args.crawl:
         crawl(SEARCH_TERM, stop_days=90)
 
-    update_manual_category_group()  # Make sure changes made to guess_category_group.json are reflected in the database
+    update_manual_category_group()  # Make sure manual changes made to guess_category_group.json are reflected in the database
     remake_all_posts()
-    make_plot(post_dir=Path("./_posts"), save=Path("assets/publication_by_year.json"))
+
+    try:
+        make_plot(post_dir=Path("./_posts"), save=Path("assets/publication_by_year.json"))
+    except Exception as e:
+        logging.error(e)
