@@ -13626,7 +13626,7 @@
     \ popularity across \u2026 , including, but not limited to, simulation-based inference.\
     \ In this article, we summarize \u2026"
   journal: osf.io
-  category: Astronomy
+  category: Environmental Science
   doi: https://osf.io/preprints/edarxiv/xyc63/
 - id: 1048
   created_at: 2023-11-07 12:09:44.818953
@@ -13962,18 +13962,18 @@
   doi: https://pubs.aip.org/asa/jasa/article/154/4_supplement/A98/2923924
 - id: 1071
   created_at: 2023-12-05 12:10:13.702830
-  published_on: 2023-12-02
+  published_on: 2023-11-30
   title: Approximate Bayesian Inference for Smoking Habit Dynamics in Tuscany Check
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
-    \ New \u2026, 2024 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhbquXTv2&sig=hd66zVw1H2s4NESA2X3AhQY2kNI
+    \ New \u2026, 2023 - books.google.com"
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhcmu0Pu3&sig=-3kDJdEgTlgHnvFqfSWaOI4FZHM
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhbquXT&sig=hd66zVw1H2s4NESA2X3AhQY2kNI
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhcmu0Pu3&sig=-3kDJdEgTlgHnvFqfSWaOI4FZHM
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14243,7 +14243,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Engineering
+  category: Environmental Science
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -14354,3 +14354,14 @@
   journal: osti.gov
   category: Engineering
   doi: https://www.osti.gov/biblio/2246728
+- id: 1098
+  created_at: 2024-01-28 00:43:39.022034
+  published_on: 2024-01-21
+  title: Bayesian Inference for Challenging Scientific Models
+  publication_info_summary: JA Ritchie - jmsrt.ch
+  link: https://jmsrt.ch/docs/thesis.pdf
+  snippet: "\u2026 We also compare it to neural SimulationBased Inference approaches,\
+    \ and find that they perform comparably to the MCMC-based approach whilst being\
+    \ able to scale to \u2026"
+  category: Astronomy
+  doi: https://jmsrt.ch/docs/thesis.pdf
