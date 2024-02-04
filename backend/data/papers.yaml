@@ -13845,19 +13845,17 @@
   category: Education
 - id: 1063
   created_at: 2023-11-23 12:10:00.563808
-  published_on: 2023-11-17
+  published_on: 2023-11-18
   title: Galaxy clustering multi-scale emulation
-  authors: Tyann Dumerchat, Julian Bautista
   publication_info_summary: T Dumerchat, J Bautista - arXiv preprint arXiv:2311.10425,
-    2023 - arxiv.org
-  link: https://arxiv.org/abs/2311.10425
-  snippet: "\u2026 Simulation based inference has seen increasing interest in the\
-    \ past few years as a promising approach to model the non linear scales of galaxy\
-    \ clustering. The common \u2026"
-  journal: arxiv.org
-  arxiv_id: '2311.10425'
-  arxiv_category_tag: astro-ph.CO
-  category: Astrophysics
+    2023 - aanda.org
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa48640-23.pdf
+  snippet: "\u2026 Simulation-based inference has seen increasing interest in the\
+    \ past few years as a promising approach to modelling the non-linear scales of\
+    \ galaxy clustering. The \u2026"
+  journal: aanda.org
+  category: Environmental Science
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa48640-23.pdf
 - id: 1064
   created_at: 2023-11-23 12:10:04.821431
   published_on: 2023-11-17
@@ -13967,13 +13965,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2023 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhcmu0Pu3&sig=-3kDJdEgTlgHnvFqfSWaOI4FZHM
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhdivWXA0&sig=jVQVXq_lZvDdACn53xFk4yTGWj0
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhcmu0Pu3&sig=-3kDJdEgTlgHnvFqfSWaOI4FZHM
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhdivWXA0&sig=jVQVXq_lZvDdACn53xFk4yTGWj0
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14365,3 +14363,76 @@
     \ able to scale to \u2026"
   category: Astronomy
   doi: https://jmsrt.ch/docs/thesis.pdf
+- id: 1099
+  created_at: 2024-02-04 00:44:38.746764
+  published_on: 2024-01-29
+  title: A field-level emulator for modeling baryonic effects across hydrodynamic
+    simulations
+  authors: Divij Sharma, Biwei Dai, Francisco Villaescusa-Navarro, Uros Seljak
+  publication_info_summary: "D Sharma, B Dai, F Villaescusa-Navarro\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2401.15891
+  snippet: "\u2026 This method and our emulator enable field-level simulation-based\
+    \ inference \u2026 For example, simulation-based inference methods (Cranmer et\
+    \ al. 2020) show great promise \u2026"
+  journal: arxiv.org
+  arxiv_id: '2401.15891'
+  arxiv_category_tag: astro-ph.CO
+  category: Environmental Science
+- id: 1100
+  created_at: 2024-02-04 00:44:42.289151
+  published_on: 2024-01-29
+  title: Simulation-based inference for reliability model selection and parameter
+    calibration An application to fatigue
+  publication_info_summary: AB Abdessalem - Quality and Reliability Engineering International,
+    2024 - researchgate.net
+  link: https://www.researchgate.net/profile/Anis-Ben-Abdessalem/publication/377775724_Simulation-based_inference_for_reliability_model_selection_and_parameter_calibration_An_application_to_fatigue/links/65b7e4431e1ec12eff6099dc/Simulation-based-inference-for-reliability-model-selection-and-parameter-calibration-An-application-to-fatigue.pdf
+  snippet: "\u2026 In this paper, a simulation-based inference algorithm called ABC-NS\
+    \ was adopted to \u2026 Some of the merits of the simulation-based inference method\
+    \ are give below: \u2026"
+  journal: researchgate.net
+  category: Engineering
+  doi: https://www.researchgate.net/profile/Anis-Ben-Abdessalem/publication/377775724_Simulation-based_inference_for_reliability_model_selection_and_parameter_calibration_An_application_to_fatigue/links/65b7e4431e1ec12eff6099dc/Simulation-based-inference-for-reliability-model-selection-and-parameter-calibration-An-application-to-fatigue.pdf
+- id: 1101
+  created_at: 2024-02-04 00:44:47.489209
+  published_on: 2024-01-26
+  title: SIMBIG Cosmological Constraints from the Redshift-Space Galaxy Skew Spectra
+  authors: "Jiamin Hou, Azadeh Moradinezhad Dizgah, ChangHoon Hahn, Michael Eickenberg,\
+    \ Shirley Ho, Pablo Lemos, Elena Massara, Chirag Modi, Liam Parker, Bruno R\xE9\
+    galdo-Saint Blancard"
+  publication_info_summary: "J Hou, AM Dizgah, CH Hahn, M Eickenberg\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2401.15074
+  snippet: "\u2026 Employing the SimBIG forward modeling framework and simulation-based\
+    \ inference via normalizing flows, we analyze the CMASS-SGC sub-sample, which\
+    \ constitute \u2026"
+  journal: arxiv.org
+  arxiv_id: '2401.15074'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1102
+  created_at: 2024-02-04 00:44:51.030932
+  published_on: 2024-01-21
+  title: Bayesian inference for challenging scientific models
+  publication_info_summary: JA Ritchie - 2024 - era.ed.ac.uk
+  link: https://era.ed.ac.uk/handle/1842/41392
+  snippet: "\u2026 We also compare it to neural SimulationBased Inference approaches,\
+    \ and find that they perform comparably to the MCMC-based approach whilst being\
+    \ able to scale to \u2026"
+  journal: era.ed.ac.uk
+  category: Statistics
+  doi: https://era.ed.ac.uk/handle/1842/41392
+- id: 1103
+  created_at: 2024-02-04 00:47:04.099870
+  published_on: 2023-11-15
+  title: Amortized Simulation-Based Frequentist Inference for Tractable and Intractable
+    Likelihoods
+  publication_info_summary: "A Al Kadhim, H Prosper, O Prosper - Machine Learning:\
+    \ Science \u2026, 2024 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/2632-2153/ad218e/meta
+  snippet: "High-fidelity simulators that connect theoretical models with observations\
+    \ are indispensable tools in many sciences. If the likelihood is known, inference\
+    \ can proceed using \u2026"
+  journal: iopscience.iop.org
+  category: Environmental Science
+  doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad218e/meta
