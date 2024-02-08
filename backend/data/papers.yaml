@@ -13854,7 +13854,6 @@
     \ past few years as a promising approach to modelling the non-linear scales of\
     \ galaxy clustering. The \u2026"
   journal: aanda.org
-  category: Environmental Science
   doi: https://www.aanda.org/articles/aa/pdf/forth/aa48640-23.pdf
 - id: 1064
   created_at: 2023-11-23 12:10:04.821431
@@ -13965,13 +13964,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2023 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhdivWXA0&sig=jVQVXq_lZvDdACn53xFk4yTGWj0
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhdmq-Sx2&sig=nKWfTKOx-e_H1eyVwOpqHC3eTn4
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhdivWXA0&sig=jVQVXq_lZvDdACn53xFk4yTGWj0
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhdmq-Sx2&sig=nKWfTKOx-e_H1eyVwOpqHC3eTn4
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14077,7 +14076,7 @@
   category: Mathematics
 - id: 1079
   created_at: 2023-12-14 12:10:37.055553
-  published_on: 2023-12-08
+  published_on: 2023-12-07
   title: Simulation-Based Inference for Detecting Blending in Spectra
   publication_info_summary: D McNamara, J Regier - Ann Arbor - ml4physicalsciences.github.io
   link: https://ml4physicalsciences.github.io/2023/files/NeurIPS_ML4PS_2023_149.pdf
@@ -14241,7 +14240,6 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Environmental Science
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -14436,3 +14434,73 @@
   journal: iopscience.iop.org
   category: Environmental Science
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad218e/meta
+- id: 1104
+  created_at: 2024-02-08 03:11:49.930092
+  published_on: 2024-02-02
+  title: Simultaneous Identification of Changepoints and Model Parameters in Switching
+    Dynamical Systems
+  authors: "Fu, X.; Fan, K.; Zozmann, H.; Schu\u0308ler, L.; Calabrese, J."
+  publication_info_summary: "X Fu, K Fan, H Zozmann, L Sch\xFCler, J Calabrese - bioRxiv,\
+    \ 2024 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2024.01.30.577909.abstract
+  snippet: "\u2026 Here, we introduce a rigorous, simulation-based inference framework\
+    \ that simultaneously estimates changepoints and model parameters from noisy data\
+    \ while admitting \u2026"
+  journal: biorxiv.org
+  category: Computer Science
+  doi: 10.1101/2024.01.30.577909
+- id: 1105
+  created_at: 2024-02-08 03:12:01.898191
+  published_on: 2024-01-29
+  title: "Simulation\u2010based inference for reliability model selection and parameter\
+    \ calibration An application to fatigue"
+  publication_info_summary: "A Ben Abdessalem - Quality and Reliability Engineering\
+    \ \u2026, 2024 - Wiley Online Library"
+  link: https://onlinelibrary.wiley.com/doi/abs/10.1002/qre.3497
+  snippet: "\u2026 In this paper, a simulation-based inference algorithm called ABC-NS\
+    \ was adopted to \u2026 Some of the merits of the simulation-based inference method\
+    \ are give below: \u2026"
+  journal: Wiley Online Library
+  category: Engineering
+  doi: https://onlinelibrary.wiley.com/doi/abs/10.1002/qre.3497
+- id: 1106
+  created_at: 2024-02-08 03:12:27.474392
+  published_on: 2024-01-18
+  title: Assessing and benchmarking the fidelity of posterior inference methods for
+    astrophysics data analysis
+  publication_info_summary: B Nevin - 2024 - osti.gov
+  link: https://www.osti.gov/biblio/2282454
+  snippet: "\u2026 This is particularly critical for emerging inference methods like\
+    \ Simulation-Based Inference (SBI), which offer significant speedup potential\
+    \ and posterior modeling flexibility\u2026"
+  journal: osti.gov
+  category: Mathematics
+  doi: https://www.osti.gov/biblio/2282454
+- id: 1107
+  created_at: 2024-02-08 03:15:36.569134
+  published_on: 2023-11-15
+  title: Amortized simulation-based frequentist inference for tractable and intractable
+    likelihoods
+  publication_info_summary: "A Al Kadhim, H Prosper, O Prosper - Machine Learning:\
+    \ Science \u2026, 2024 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/2632-2153/ad218e/meta
+  snippet: "High-fidelity simulators that connect theoretical models with observations\
+    \ are indispensable tools in many sciences. If the likelihood is known, inference\
+    \ can proceed using \u2026"
+  journal: iopscience.iop.org
+  doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad218e/meta
+- id: 1108
+  created_at: 2024-02-08 03:15:43.433402
+  published_on: 2023-11-12
+  title: Inference on spatiotemporal dynamics for networks of biological populations
+  authors: Jifan Li, Edward L. Ionides, Aaron A. King, Mercedes Pascual, Ning Ning
+  publication_info_summary: "J Li, EL Ionides, AA King, M Pascual, N Ning - arXiv\
+    \ preprint arXiv \u2026, 2023 - arxiv.org"
+  link: https://arxiv.org/abs/2311.06702
+  snippet: "\u2026 Progress in statistically efficient simulation-based inference\
+    \ for partially observed stochastic dynamic systems has enabled the development\
+    \ of statistically rigorous \u2026"
+  journal: arxiv.org
+  arxiv_id: '2311.06702'
+  arxiv_category_tag: stat.AP
+  category: Statistics
