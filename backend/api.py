@@ -52,12 +52,7 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
     url = f"https://arxiv.org/bibtex/{arxiv_id}"
     response = requests.get(url)
 
-    formatting = {
-        "<": "&lt;",
-        ">": "&gt;",
-        "\n": "<br>",
-        ":": "",
-    }
+    formatting = {"<": "&lt;", ">": "&gt;", "\n": "<br>", ":": "", "\\": ""}
 
     if response.status_code == 200:
         logging.debug(f"Fetched BibTeX for arXiv ID {arxiv_id}")
