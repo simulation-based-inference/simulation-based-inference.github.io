@@ -13854,6 +13854,7 @@
     \ past few years as a promising approach to modelling the non-linear scales of\
     \ galaxy clustering. The \u2026"
   journal: aanda.org
+  category: Engineering
   doi: https://www.aanda.org/articles/aa/pdf/forth/aa48640-23.pdf
 - id: 1064
   created_at: 2023-11-23 12:10:04.821431
@@ -13964,13 +13965,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2023 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhdmq-Sx2&sig=nKWfTKOx-e_H1eyVwOpqHC3eTn4
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhdov-Vy2&sig=RoSiteu_7K8uvarLsclUSxkg4iA
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhdmq-Sx2&sig=nKWfTKOx-e_H1eyVwOpqHC3eTn4
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhdov-Vy2&sig=RoSiteu_7K8uvarLsclUSxkg4iA
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14076,7 +14077,7 @@
   category: Mathematics
 - id: 1079
   created_at: 2023-12-14 12:10:37.055553
-  published_on: 2023-12-07
+  published_on: 2023-12-08
   title: Simulation-Based Inference for Detecting Blending in Spectra
   publication_info_summary: D McNamara, J Regier - Ann Arbor - ml4physicalsciences.github.io
   link: https://ml4physicalsciences.github.io/2023/files/NeurIPS_ML4PS_2023_149.pdf
@@ -14240,6 +14241,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
+  category: Engineering
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -14488,6 +14490,7 @@
     \ are indispensable tools in many sciences. If the likelihood is known, inference\
     \ can proceed using \u2026"
   journal: iopscience.iop.org
+  category: Engineering
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad218e/meta
 - id: 1108
   created_at: 2024-02-08 03:15:43.433402
@@ -14504,3 +14507,19 @@
   arxiv_id: '2311.06702'
   arxiv_category_tag: stat.AP
   category: Statistics
+- id: 1109
+  created_at: 2024-02-11 00:44:22.728653
+  published_on: 2024-02-07
+  title: Applying Simulation-Based Inference to Spectral and Spatial Information from
+    the Galactic Center Gamma-Ray Excess
+  authors: Katharena Christy, Eric J. Baxter, Jason Kumar
+  publication_info_summary: K Christy, EJ Baxter, J Kumar - arXiv preprint arXiv:2402.04549,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2402.04549
+  snippet: "\u2026 In \xA74, we describe our application of simulation-based inference\
+    \ to train a neural posterior model that relates data to posterior. We present\
+    \ our main results in \xA75, and \u2026"
+  journal: arxiv.org
+  arxiv_id: '2402.04549'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
