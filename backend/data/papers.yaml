@@ -13965,13 +13965,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2023 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhdov-Vy2&sig=RoSiteu_7K8uvarLsclUSxkg4iA
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhelmWTu1&sig=1zwBn6SFEQBx_djO5cjMXC1di9M
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzhdov-Vy2&sig=RoSiteu_7K8uvarLsclUSxkg4iA
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhelmWTu1&sig=1zwBn6SFEQBx_djO5cjMXC1di9M
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14523,3 +14523,30 @@
   arxiv_id: '2402.04549'
   arxiv_category_tag: astro-ph.HE
   category: Astrophysics
+- id: 1110
+  created_at: 2024-02-18 00:43:38.830698
+  published_on: 2024-02-09
+  title: Amortized identification of biomolecular conformations in Cryo-EM using simulation-based
+    inference
+  publication_info_summary: "L Dingeldein, D Silva-S\xE1nchez, E Dimprima\u2026 -\
+    \ Biophysical \u2026, 2024 - cell.com"
+  link: https://www.cell.com/biophysj/pdf/S0006-3495(23)02458-X.pdf
+  snippet: "\u2026 learningbased approaches called simulation-based inference have\
+    \ been developed, \u2026 Here, we introduce a new method (cryoSBI) using simulation-based\
+    \ inference to \u2026"
+  journal: cell.com
+  category: Engineering
+  doi: https://www.cell.com/biophysj/pdf/S0006-3495(23)02458-X.pdf
+- id: 1111
+  created_at: 2024-02-18 00:43:42.399910
+  published_on: 2024-02-09
+  title: Point cloud transformers for parameter inference of large-scale tissue simulations
+  publication_info_summary: JM Herold, AH Schug, E Behle - Biophysical Journal, 2024
+    - cell.com
+  link: https://www.cell.com/biophysj/pdf/S0006-3495(23)02688-7.pdf
+  snippet: "\u2026 To surmount these issues, we advocate for the adoption of simulation-based\
+    \ inference (SBI), harnessing the power of deep learning techniques to navigate\
+    \ these \u2026"
+  journal: cell.com
+  category: Computer Science
+  doi: https://www.cell.com/biophysj/pdf/S0006-3495(23)02688-7.pdf
