@@ -13539,20 +13539,18 @@
   category: Astrophysics
 - id: 1042
   created_at: 2023-11-02 12:09:24.325891
-  published_on: 2023-12-04
+  published_on: 2023-10-28
   title: Approximation of Intractable Likelihood Functions in Systems Biology via
     Normalizing Flows
-  authors: Vincent D. Zaballa, Elliot E. Hui
-  publication_info_summary: VD Zaballa, EE Hui - arXiv preprint arXiv:2312.02391,
-    2023 - arxiv.org
-  link: https://arxiv.org/abs/2312.02391
+  publication_info_summary: "V Zaballa, E Hui - NeurIPS 2023 Generative AI and Biology\
+    \ (GenBio \u2026, 2023 - openreview.net"
+  link: https://openreview.net/forum?id=FpUqHQSmqC
   snippet: "\u2026 By using normalizing flows in the Simulation-based inference setting,\
     \ we demonstrate a method that not only approximates a likelihood function but\
     \ also allows for model \u2026"
-  journal: arxiv.org
-  arxiv_id: '2312.02391'
-  arxiv_category_tag: q-bio.QM
+  journal: openreview.net
   category: Quantitative Biology
+  doi: https://openreview.net/forum?id=FpUqHQSmqC
 - id: 1043
   created_at: 2023-11-02 12:09:50.573809
   published_on: 2023-10-23
@@ -13635,9 +13633,9 @@
   publication_info_summary: "S Pandey, C Modi, BD Wandelt, M Ho\u2026 - NeurIPS 2023\
     \ AI for \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=VM7CdbDkQt
-  snippet: "Simulation-based inference (SBI) is a promising approach to leverage high\
-    \ fidelity cosmological simulations and extract information from the non-Gaussian,\
-    \ non-linear \u2026"
+  snippet: "\u2026 4 Simulation-based Inference Next, we outline the details of our\
+    \ simulation-based inference pipeline using the Latin-hypercubes generated in\
+    \ the previous section as the \u2026"
   journal: openreview.net
   category: Physics
   doi: https://openreview.net/forum?id=VM7CdbDkQt
@@ -13648,9 +13646,9 @@
   publication_info_summary: "S Pandey, C Modi, BD Wandelt\u2026 - NeurIPS 2023 AI\
     \ for \u2026, 2023 - openreview.net"
   link: https://openreview.net/forum?id=dz3O7M1QzA
-  snippet: "\u2026 a major first step towards being able to analyze the non-Gaussian\
-    \ and non-linear information from current-generation surveys using simulation-based\
-    \ inference \u2026"
+  snippet: "\u2026 To extract this information, we need to rely on accurate N-body\
+    \ simulations and employ simulationbased inference (SBI) techniques [9, 10]. SBI\
+    \ involves using \u2026"
   journal: openreview.net
   category: Computer Science
   doi: https://openreview.net/forum?id=dz3O7M1QzA
@@ -13854,7 +13852,7 @@
     \ past few years as a promising approach to modelling the non-linear scales of\
     \ galaxy clustering. The \u2026"
   journal: aanda.org
-  category: Engineering
+  category: Medicine
   doi: https://www.aanda.org/articles/aa/pdf/forth/aa48640-23.pdf
 - id: 1064
   created_at: 2023-11-23 12:10:04.821431
@@ -13965,13 +13963,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2023 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhelmWTu1&sig=1zwBn6SFEQBx_djO5cjMXC1di9M
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzherm-Rw3&sig=IFfkg6IPNX7yzlcgiv2TnaCR2UM
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhelmWTu1&sig=1zwBn6SFEQBx_djO5cjMXC1di9M
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzherm-Rw3&sig=IFfkg6IPNX7yzlcgiTnaCR2UM
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14241,7 +14239,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Engineering
+  category: Astrophysics
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -14340,7 +14338,7 @@
   category: Astrophysics
 - id: 1097
   created_at: 2024-01-21 00:49:10.367247
-  published_on: 2023-12-16
+  published_on: 2023-12-17
   title: Cosmology constraints from Strong Gravitational Lensing using Simulation-Based
     Inference
   publication_info_summary: S Jarugula, B Nord, J Poh, A Ciprijanovic, B Nevin - 2023
@@ -14490,7 +14488,7 @@
     \ are indispensable tools in many sciences. If the likelihood is known, inference\
     \ can proceed using \u2026"
   journal: iopscience.iop.org
-  category: Engineering
+  category: Medicine
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad218e/meta
 - id: 1108
   created_at: 2024-02-08 03:15:43.433402
@@ -14550,3 +14548,97 @@
   journal: cell.com
   category: Computer Science
   doi: https://www.cell.com/biophysj/pdf/S0006-3495(23)02688-7.pdf
+- id: 1112
+  created_at: 2024-02-25 00:44:03.401475
+  published_on: 2024-02-18
+  title: Inferring Binary Properties from Gravitational Wave Signals
+  authors: Javier Roulet, Tejaswi Venumadhav
+  publication_info_summary: J Roulet, T Venumadhav - arXiv preprint arXiv:2402.11439,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2402.11439
+  snippet: "This review provides a conceptual and technical survey of methods for\
+    \ parameter estimation of gravitational wave signals in ground-based interferometers\
+    \ such as LIGO \u2026"
+  journal: arxiv.org
+  arxiv_id: '2402.11439'
+  arxiv_category_tag: gr-qc
+  category: Engineering
+  doi: 10.1146/annurev-nucl-121423-100725
+- id: 1113
+  created_at: 2024-02-25 00:44:07.056116
+  published_on: 2024-02-16
+  title: Diffusion posterior sampling for simulation-based inference in tall data
+    settings
+  publication_info_summary: "J Linhart, GV Cardoso, A Gramfort, S Le Corff\u2026 -\
+    \ 2024 - hal.science"
+  link: https://hal.science/hal-04459545/
+  snippet: "\u2026 Simulation-based inference (SBI) stands out in this context by\
+    \ only requiring a dataset of simulations to train deep generative models capable\
+    \ of approximating the \u2026"
+  journal: hal.science
+  category: Computer Science
+  doi: https://hal.science/hal-04459545/
+- id: 1114
+  created_at: 2024-02-25 00:44:11.590661
+  published_on: 2024-02-15
+  title: Field Level Inference of Cosmological Large Scale Structure with Neural Quantile
+    Estimation
+  publication_info_summary: H Jia - Bulletin of the American Physical Society, 2024
+    - APS
+  link: https://meetings.aps.org/Meeting/APR24/Session/E00.18
+  snippet: "\u2026 We introduce Neural Quantile Estimation (NQE), a novel Simulation-Based\
+    \ Inference method based on conditional quantile regression, and its application\
+    \ to the field level \u2026"
+  journal: APS
+  category: Physics
+  doi: https://meetings.aps.org/Meeting/APR24/Session/E00.18
+- id: 1115
+  created_at: 2024-02-25 00:44:15.513095
+  published_on: 2024-02-15
+  title: Parameter Estimation at the LHC with Neural Simulation-Based Inference
+  publication_info_summary: A Ghosh - Bulletin of the American Physical Society, 2024
+    - APS
+  link: https://meetings.aps.org/Meeting/APR24/Session/F14.7
+  snippet: "Neural Simulation-Based Inference (NSBI) is a powerful class of machine\
+    \ learning (ML)-based methods for statistical inference that naturally handles\
+    \ high-dimensional \u2026"
+  journal: APS
+  category: Physics
+  doi: https://meetings.aps.org/Meeting/APR24/Session/F14.7
+- id: 1116
+  created_at: 2024-02-25 00:44:19.466157
+  published_on: 2024-02-15
+  title: Evolution of Analysis Techniques and Statistical Treatment
+  publication_info_summary: A Held - Bulletin of the American Physical Society, 2024
+    - APS
+  link: https://meetings.aps.org/Meeting/APR24/Session/C11.1
+  snippet: "\u2026 Simulation-based inference techniques take advantage of the typical\
+    \ HEP problem structure to allow for powerful statistical inference via machine\
+    \ learning. The possibility \u2026"
+  journal: APS
+  category: Statistics
+  doi: https://meetings.aps.org/Meeting/APR24/Session/C11.1
+- id: 1117
+  created_at: 2024-02-25 00:45:00.443016
+  published_on: 2024-01-18
+  title: Simulation-based Inference Cosmology from Strong Lensing
+  publication_info_summary: B Nevin - 2024 - osti.gov
+  link: https://www.osti.gov/servlets/purl/2282440
+  snippet: "\u2026 Simulation-based Inference Cosmology from Strong Lensing \u2026\
+    \ Simulation Based Inference (SBI) \u2026 \u2022 Simulation Based Inference \u2026"
+  journal: osti.gov
+  category: biophysics
+  doi: https://www.osti.gov/servlets/purl/2282440
+- id: 1118
+  created_at: 2024-02-25 00:46:18.240968
+  published_on: 2023-12-06
+  title: "\xC9tude de l'assemblage dynamique des grands halos de mati\xE8re dans l'Univers\
+    \ observation des turbulences du milieu intra-amas"
+  publication_info_summary: "S Dupourqu\xE9 - 2023 - theses.hal.science"
+  link: https://theses.hal.science/tel-04470998/
+  snippet: "La formation des structures de l'Univers culmine avec les amas de galaxies.\
+    \ Ce sont des objets dynamiques, au sens o\xF9 ils sont sujets \xE0 de nombreux\
+    \ processus \u2026"
+  journal: theses.hal.science
+  category: Astrophysics
+  doi: https://theses.hal.science/tel-04470998/
