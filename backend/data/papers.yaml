@@ -14070,6 +14070,7 @@
     \ (see Figure 1) to achieve an unprecedented combination of both scalable and\
     \ fast neural posterior \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=10625256466693540427
   arxiv_id: '2312.05440'
   arxiv_category_tag: cs.LG
   category: Mathematics
@@ -14197,6 +14198,7 @@
     \ inference to \u2026 We then follow a simulation-based inference approach that\
     \ focuses on neural \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=13386293224819808833
   arxiv_id: '2312.14848'
   arxiv_category_tag: astro-ph.HE
   category: Computer Science
@@ -14239,7 +14241,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Statistics
+  category: Computer Science
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -14252,6 +14254,7 @@
     \ Inference (SBI) method based on conditional quantile regression. NQE autoregressively\
     \ learns \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=4549921219416747862
   arxiv_id: '2401.02413'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -14672,3 +14675,111 @@
   arxiv_id: '2402.15330'
   arxiv_category_tag: physics.bio-ph
   category: Physics
+- id: 1121
+  created_at: 2024-03-10 00:43:59.347664
+  published_on: 2024-03-05
+  title: How much information can be extracted from galaxy clustering at the field
+    level?
+  authors: "Nhat-Minh Nguyen, Fabian Schmidt, Beatriz Tucci, Martin Reinecke, Andrija\
+    \ Kosti\u0107"
+  publication_info_summary: "NM Nguyen, F Schmidt, B Tucci, M Reinecke\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.03220
+  snippet: "\u2026 We compare these with a simulation-based inference based on summary\
+    \ statistics, namely the power spectrum and bispectrum. Using the same field-level\
+    \ forward model \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.03220'
+  arxiv_category_tag: astro-ph.CO
+  category: Statistics
+- id: 1122
+  created_at: 2024-03-10 00:44:04.009488
+  published_on: 2024-03-04
+  title: Tuning neural posterior estimation for gravitational wave inference
+  authors: Alex Kolmus, Justin Janquart, Tomasz Baka, Twan van Laarhoven, Chris Van
+    Den Broeck, Tom Heskes
+  publication_info_summary: "A Kolmus, J Janquart, T Baka, T van Laarhoven\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.02443
+  snippet: "\u2026 Modern simulation-based inference techniques use neural networks\
+    \ to solve inverse problems efficiently. One notable strategy is neural posterior\
+    \ estimation (NPE), \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.02443'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1123
+  created_at: 2024-03-10 00:44:08.565710
+  published_on: 2024-03-04
+  title: Dark Energy Survey Year 3 results likelihood-free, simulation-based $w$CDM
+    inference with neural compression of weak-lensing map statistics
+  authors: "N. Jeffrey, L. Whiteway, M. Gatti, J. Williamson, J. Alsing, A. Porredon,\
+    \ J. Prat, C. Doux, B. Jain, C. Chang, T. -Y. Cheng, T. Kacprzak, P. Lemos, A.\
+    \ Alarcon, A. Amon, K. Bechtol, M. R. Becker, G. M. Bernstein, A. Campos, A. Carnero\
+    \ Rosell, R. Chen, A. Choi, J. DeRose, A. Drlica-Wagner, K. Eckert, S. Everett,\
+    \ A. Fert\xE9, D. Gruen, R. A. Gruendl, K. Herner, M. Jarvis, J. McCullough, J.\
+    \ Myles, A. Navarro-Alsina, S. Pandey, M. Raveri, R. P. Rollins, E. S. Rykoff,\
+    \ C. S\xE1nchez, L. F. Secco, I. Sevilla-Noarbe, E. Sheldon, T. Shin, M. A. Troxel,\
+    \ I. Tutusaus, T. N. Varga, B. Yanny, B. Yin, J. Zuntz, M. Aguena, S. S. Allam,\
+    \ O. Alves, D. Bacon, S. Bocquet, D. Brooks, L. N. da Costa, T. M. Davis, J. De\
+    \ Vicente, S. Desai, H. T. Diehl, I. Ferrero, J. Frieman, J. Garc\xEDa-Bellido,\
+    \ E. Gaztanaga, G. Giannini, G. Gutierrez, S. R. Hinton, D. L. Hollowood, K. Honscheid,\
+    \ D. Huterer, D. J. James, O. Lahav, S. Lee, J. L. Marshall, J. Mena-Fern\xE1\
+    ndez, R. Miquel, A. Pieres, A. A. Plazas Malag\xF3n, A. Roodman, M. Sako, E. Sanchez,\
+    \ D. Sanchez Cid, M. Smith, E. Suchyta, M. E. C. Swanson, G. Tarle, D. L. Tucker,\
+    \ N. Weaverdyck, J. Weller, P. Wiseman, M. Yamamoto"
+  publication_info_summary: "N Jeffrey, L Whiteway, M Gatti, J Williamson\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.02314
+  snippet: "\u2026 (2021a) used both simulation-based inference and \u2026 are developing\
+    \ a simulationbased inference pipeline that uses \u2026 In section 2 we introduce\
+    \ simulation-based \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.02314'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1124
+  created_at: 2024-03-10 00:44:13.178997
+  published_on: 2024-03-03
+  title: Improving Convolutional Neural Networks for Cosmological Fields with Random
+    Permutation
+  authors: Kunhao Zhong, Marco Gatti, Bhuvnesh Jain
+  publication_info_summary: K Zhong, M Gatti, B Jain - arXiv preprint arXiv:2403.01368,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2403.01368
+  snippet: "\u2026 We use simulation-based inference (SBI) to show that the model\
+    \ outperforms CNN designs in the literature. We find a 30% improvement in the\
+    \ constraints of the \U0001D4468 \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.01368'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1125
+  created_at: 2024-03-10 00:44:17.776841
+  published_on: 2024-03-01
+  title: Neural Simulation-Based Inference of the Neutron Star Equation of State directly
+    from Telescope Spectra
+  authors: Len Brandes, Chirag Modi, Aishik Ghosh, Delaney Farrell, Lee Lindblom,
+    Lukas Heinrich, Andrew W. Steiner, Fridolin Weber, Daniel Whiteson
+  publication_info_summary: "L Brandes, C Modi, A Ghosh, D Farrell\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.00287
+  snippet: "\u2026 In simulation-based inference (SBI), our goal is to train a conditional\
+    \ normalizing flow to learn the likelihood distribution, p(s|\u03BB, \u03BD).\
+    \ This is achieved my minimizing the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.00287'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1126
+  created_at: 2024-03-10 00:44:21.533166
+  published_on: 2024-03-01
+  title: Surjectors surjection layers for density estimation with normalizing flows
+  publication_info_summary: S Dirmeier - Journal of Open Source Software, 2024 - joss.theoj.org
+  link: https://joss.theoj.org/papers/10.21105/joss.06188.pdf
+  snippet: "\u2026 (2023) have proposed a novel method for simulation-based inference\
+    \ where they make use autoregressive inference surjections for density estimation\
+    \ and where they are \u2026"
+  journal: joss.theoj.org
+  category: Mathematics
+  doi: https://joss.theoj.org/papers/10.21105/joss.06188.pdf
