@@ -13963,13 +13963,13 @@
     for updates
   publication_info_summary: "A Lachi, C Viscardi, M Baccini - Bayesian Statistics,\
     \ New \u2026, 2023 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhfnnWOB0&sig=g4CbyGZs-Z8KoLW2W6hLIF31yts
+  link: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzi6poVWu6&sig=3ylscXAev4-zfdxd8iTJXf3djWc
   snippet: "\u2026 The resulting model has an intractable likelihood function, so\
     \ we used Approximate Bayesian Computation, a powerful simulation-based inference\
     \ method, to provide \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=RzhfnnWOB0&sig=g4CbyGZs-Z8KoLW2W6hLIF31yts
+  doi: https://books.google.com/books?hl=en&lr=&id=pLnmEAAAQBAJ&oi=fnd&pg=PA57&dq=%22simulation-based%2Binference%22&ots=Rzi6poVWu6&sig=3ylscXAev4-zfdxd8iTJXf3djWc
 - id: 1072
   created_at: 2023-12-05 12:10:18.288136
   published_on: 2023-11-29
@@ -14241,7 +14241,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Computer Science
+  category: Statistics
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -14783,3 +14783,185 @@
   journal: joss.theoj.org
   category: Mathematics
   doi: https://joss.theoj.org/papers/10.21105/joss.06188.pdf
+- id: 1127
+  created_at: 2024-03-17 00:43:52.085211
+  published_on: 2024-03-12
+  title: Fast, accurate and lightweight sequential simulation-based inference using
+    Gaussian locally linear mappings
+  authors: "Henrik H\xE4ggstr\xF6m, Pedro L. C. Rodrigues, Geoffroy Oudoumanessah,\
+    \ Florence Forbes, Umberto Picchini"
+  publication_info_summary: "H H\xE4ggstr\xF6m, PLC Rodrigues\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.07454
+  snippet: "\u2026 We consider simulation-based inference (SBI) for model parameters\
+    \ \u03B8 in stochastic modelling. SBI refers to approaches that bypass the need\
+    \ to have a likelihood function p\u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.07454'
+  arxiv_category_tag: stat.ML
+  category: Computer Science
+- id: 1128
+  created_at: 2024-03-17 00:43:56.711814
+  published_on: 2024-03-12
+  title: SIDE-real Truncated marginal neural ratio estimation for Supernova Ia Dust
+    Extinction with real data
+  authors: Konstantin Karchev, Matthew Grayling, Benjamin M. Boyd, Roberto Trotta,
+    Kaisey S. Mandel, Christoph Weniger
+  publication_info_summary: "K Karchev, M Grayling, BM Boyd, R Trotta\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.07871
+  snippet: "\u2026 By utilising truncated marginal neural ratio estimation (TMNRE),\
+    \ a neural network-enabled simulation-based inference technique, we implicitly\
+    \ marginalise over 4000 \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.07871'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1129
+  created_at: 2024-03-17 00:44:00.447083
+  published_on: 2024-03-08
+  title: Simulation-based inference as a paradigm for scientific machine learning
+    in the cryosphere and beyond
+  publication_info_summary: "B Groenke, K Aalstad, N Pirk, S Westermann\u2026 - 2024\
+    \ - meetingorganizer.copernicus.org"
+  link: https://meetingorganizer.copernicus.org/EGU24/EGU24-16847.html
+  snippet: "\u2026 The burgeoning field of \u201Csimulation-based inference\u201D\
+    (SBI) aims to leverage modern computational methods from machine learning (ML)\
+    \ and data assimilation (DA) to \u2026"
+  journal: meetingorganizer.copernicus.org
+  category: Computer Science
+  doi: https://meetingorganizer.copernicus.org/EGU24/EGU24-16847.html
+- id: 1130
+  created_at: 2024-03-17 00:44:04.883759
+  published_on: 2024-03-08
+  title: Simulation-Based Inference of Surface Mass Balance of Antarctic Ice Sheets
+  publication_info_summary: A Hermann, C Henry, G Moss, R Drews - 2024 - meetingorganizer.copernicus.org
+  link: https://meetingorganizer.copernicus.org/EGU24/EGU24-17119.html
+  snippet: "Uncertainties in surface mass balance (SMB) have the potential to significantly\
+    \ impact modelled ice thickness and ice-flow dynamics. A common approach is to\
+    \ reconstruct \u2026"
+  journal: meetingorganizer.copernicus.org
+  category: Geology
+  doi: https://meetingorganizer.copernicus.org/EGU24/EGU24-17119.html
+- id: 1131
+  created_at: 2024-03-17 00:44:09.141190
+  published_on: 2024-03-08
+  title: Erosion rate estimation across a large-scale domain from surface analyses,
+    thermochronology and cosmogenic nuclide concentrations A case study from Germany.
+  publication_info_summary: "T Bernard, C Glotzbach, A Neely, D Peifer, A Beer\u2026\
+    \ - 2024 - meetingorganizer.copernicus.org"
+  link: https://meetingorganizer.copernicus.org/EGU24/EGU24-20146.html
+  snippet: "\u2026 The model algorithm utilizes the efficient inverse modelling scheme\
+    \ \u201CSimulation-Based Inference\u201D. Simulations of the inverse modelling\
+    \ use neural networks to learn the \u2026"
+  journal: meetingorganizer.copernicus.org
+  category: Geology
+  doi: https://meetingorganizer.copernicus.org/EGU24/EGU24-20146.html
+- id: 1132
+  created_at: 2024-03-17 00:44:32.008971
+  published_on: 2024-03-04
+  title: Optimal Experimental Design for Bayesian Inverse Problems using Energy-Based
+    Couplings
+  publication_info_summary: "PC Encinar, T Schr\xF6der, AB Duncan - ICLR 2024 Workshop\
+    \ on \u2026, 2024 - openreview.net"
+  link: https://openreview.net/forum?id=N3WxA8AK9c
+  snippet: "\u2026 Unlike existing simulationbased inference approaches, we leverage\
+    \ implicit neural representations to learn a functional representation of parameters\
+    \ and data. This is \u2026"
+  journal: openreview.net
+  category: Mathematics
+  doi: https://openreview.net/forum?id=N3WxA8AK9c
+- id: 1133
+  created_at: 2024-03-17 00:45:34.312434
+  published_on: 2024-02-01
+  title: DeepSZSim Fast Simulations of the Thermal Sunyaev-Zel'dovich Effect in Galaxy
+    Clusters for Simulation-based Inference
+  publication_info_summary: "E Vavagiakis, K Banker, B Zhang\u2026 - American \u2026\
+    , 2024 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2024AAS...24311104V/abstract
+  snippet: "\u2026 methods like machine learning and simulation-based inference. We\
+    \ present these simulations \u2026 for machine learning, including simulation-based\
+    \ inference of cluster mass. \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Computer Science
+  doi: https://ui.adsabs.harvard.edu/abs/2024AAS...24311104V/abstract
+- id: 1134
+  created_at: 2024-03-17 00:45:38.060125
+  published_on: 2024-02-01
+  title: Accelerating the Next Generation of Strong Gravitational Lensing Science
+    using Machine Learning
+  publication_info_summary: "R Legin, A Adam, C Stone, Y Hezaveh\u2026 - American\
+    \ \u2026, 2024 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2024AAS...24326119L/abstract
+  snippet: "\u2026 In this work, we delve into the critical role of simulation-based\
+    \ inference (SBI) in strong gravitational lensing analysis for these surveys.\
+    \ Our proposed approach involves \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Physics
+  doi: https://ui.adsabs.harvard.edu/abs/2024AAS...24326119L/abstract
+- id: 1135
+  created_at: 2024-03-17 00:45:42.296484
+  published_on: 2024-02-01
+  title: Rapid Supernova Model Inference using Amortized Posterior Estimation
+  publication_info_summary: "B Garretson, D Milisavljevic\u2026 - American \u2026\
+    , 2024 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2024AAS...24326038G/abstract
+  snippet: "\u2026 In this work, we use Amortized Neural Posterior Estimation (ANPE),\
+    \ which is a simulation-based inference method that uses neural networks to estimate\
+    \ posterior \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astrophysics
+  doi: https://ui.adsabs.harvard.edu/abs/2024AAS...24326038G/abstract
+- id: 1136
+  created_at: 2024-03-17 00:45:46.428093
+  published_on: 2024-02-01
+  title: Simulation-Based Inference For Pulsar Timing Arrays
+  publication_info_summary: J Simon - American Astronomical Society Meeting Abstracts,
+    2024 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2024AAS...24322603S/abstract
+  snippet: "\u2026 has been done with Gaussian process interpolation and Monte Carlo\
+    \ Markov Chain algorithms, however machine learning techniques, like simulation-based\
+    \ inference (\u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Physics
+  doi: https://ui.adsabs.harvard.edu/abs/2024AAS...24322603S/abstract
+- id: 1137
+  created_at: 2024-03-17 00:45:59.396736
+  published_on: 2024-01-29
+  title: Simulation-based inference and data compression applied to cosmological problems
+  publication_info_summary: F Gerardi - 2024 - discovery.ucl.ac.uk
+  link: https://discovery.ucl.ac.uk/id/eprint/10186141/
+  snippet: "\u2026 The first part aims at addressing whether density estimation simulation-based\
+    \ inference yields unbiased estimates of cosmological parameters in the presence\
+    \ of selection \u2026"
+  journal: discovery.ucl.ac.uk
+  category: Engineering
+  doi: https://discovery.ucl.ac.uk/id/eprint/10186141/
+- id: 1138
+  created_at: 2024-03-17 00:46:03.125295
+  published_on: 2024-01-29
+  title: Forward-Simulations of Large-Scale Structure for Cosmological Inference
+  publication_info_summary: V Wietersheim-Kramsta - 2024 - discovery.ucl.ac.uk
+  link: https://discovery.ucl.ac.uk/id/eprint/10185306/
+  snippet: "\u2026 Next, I describe how these simulations are used to conduct the\
+    \ first Bayesian simulation-based inference (SBI) of cosmological parameters from\
+    \ weak lensing data from \u2026"
+  journal: discovery.ucl.ac.uk
+  category: Astrophysics
+  doi: https://discovery.ucl.ac.uk/id/eprint/10185306/
+- id: 1139
+  created_at: 2024-03-17 00:46:55.175882
+  published_on: 2024-01-02
+  title: Increased perceptual reliability reduces membrane potential variability in
+    cortical neurons
+  authors: "von Hu\u0308nerbein, B.; Jordan, J.; Oude Lohuis, M.; Marchesi, P.; Olcese,\
+    \ U.; Pennartz, C. M. A.; Senn, W.; Petrovici, M. A."
+  publication_info_summary: "B von H\xFCnerbein, J Jordan, MO Lohuis, P Marchesi\u2026\
+    \ - bioRxiv, 2024 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2024.03.13.584630
+  snippet: "\u2026 We further used simulation-based inference (SBI) to infer membrane\
+    \ potential statistics underlying the spiking ac- tivity. Our analysis shows that\
+    \ stimulus changes increase \u2026"
+  journal: biorxiv.org
+  category: Statistics
+  doi: 10.1101/2024.03.13.584630
