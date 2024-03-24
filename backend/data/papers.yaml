@@ -14241,7 +14241,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Statistics
+  category: Computer Science
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -14951,17 +14951,96 @@
   doi: https://discovery.ucl.ac.uk/id/eprint/10185306/
 - id: 1139
   created_at: 2024-03-17 00:46:55.175882
-  published_on: 2024-01-02
+  published_on: 2024-03-15
   title: Increased perceptual reliability reduces membrane potential variability in
     cortical neurons
   authors: "von Hu\u0308nerbein, B.; Jordan, J.; Oude Lohuis, M.; Marchesi, P.; Olcese,\
     \ U.; Pennartz, C. M. A.; Senn, W.; Petrovici, M. A."
-  publication_info_summary: "B von H\xFCnerbein, J Jordan, MO Lohuis, P Marchesi\u2026\
-    \ - bioRxiv, 2024 - biorxiv.org"
-  link: https://www.biorxiv.org/content/10.1101/2024.03.13.584630
+  publication_info_summary: "B von H\xFCnerbein, J Jordan, M Oude Lohuis\u2026 - bioRxiv,\
+    \ 2024 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2024.03.13.584630.abstract
   snippet: "\u2026 We further used simulation-based inference (SBI) to infer membrane\
-    \ potential statistics underlying the spiking ac- tivity. Our analysis shows that\
+    \ potential statistics underlying the spiking activity. Our analysis shows that\
     \ stimulus changes increase \u2026"
   journal: biorxiv.org
   category: Statistics
   doi: 10.1101/2024.03.13.584630
+- id: 1140
+  created_at: 2024-03-24 00:46:05.736692
+  published_on: 2024-03-21
+  title: Inferring astrophysical parameters using the 2D cylindrical power spectrum
+    from reionisation
+  authors: "Bradley Greig, David Prelogovi\u0107, Yuxiang Qin, Yuan-Sen Ting, Andrei\
+    \ Mesinger"
+  publication_info_summary: "B Greig, D Prelogovi\u0107, Y Qin, YS Ting\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.14060
+  snippet: "1 day ago - \u2026 However, in recent years, simulation-based inference\
+    \ (SBI) has become feasible which removes the necessity of having an analytic\
+    \ likelihood, enabling more complex \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.14060'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1141
+  created_at: 2024-03-24 00:46:10.274826
+  published_on: 2024-03-21
+  title: Exploring the role of the halo mass function for inferring astrophysical
+    parameters during reionisation
+  authors: "Bradley Greig, David Prelogovi\u0107, Jordan Mirocha, Yuxiang Qin, Yuan-Sen\
+    \ Ting, Andrei Mesinger"
+  publication_info_summary: "B Greig, D Prelogovi\u0107, J Mirocha, Y Qin, YS Ting\u2026\
+    \ - arXiv preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.14061
+  snippet: "1 day ago - \u2026 For this analysis, we use 21CMFAST and perform Simulation-Based\
+    \ Inference by applying marginal neural ratio estimation to learn the likelihood-to-evidence\
+    \ ratio using \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.14061'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1142
+  created_at: 2024-03-24 00:46:14.862538
+  published_on: 2024-03-21
+  title: Simulation-Based Inference of the sky-averaged 21-cm signal from CD-EoR with
+    REACH
+  authors: Anchal Saxena, P. Daniel Meerburg, Christoph Weniger, Eloy de Lera Acedo,
+    Will Handley
+  publication_info_summary: "A Saxena, PD Meerburg, C Weniger, EL Acedo\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.14618
+  snippet: "1 day ago - \u2026 S., Wandelt B., 2019, Monthly Notices of the Royal\
+    \ Astronomical Society Alvey J., Bhardwaj U., Domcke V., Pieroni M., Weniger C.,\
+    \ 2023a, Simulation-based inference for \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.14618'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1143
+  created_at: 2024-03-24 00:46:18.523217
+  published_on: 2024-03-19
+  title: Simulation-based inference for robotic grasping
+  publication_info_summary: N Marlier - 2024 - orbi.uliege.be
+  link: https://orbi.uliege.be/handle/2268/314399
+  snippet: "\u2026 Due to the intractability of the likelihood function, we use a\
+    \ family of methods known as simulation-based inference. These methods learn a\
+    \ part of the Bayes' rule using \u2026"
+  journal: orbi.uliege.be
+  category: Computer Science
+  doi: https://orbi.uliege.be/handle/2268/314399
+- id: 1144
+  created_at: 2024-03-24 00:46:23.743294
+  published_on: 2024-03-15
+  title: Constraining Protoplanetary Disk Winds from Forbidden Line Profiles with
+    Simulation-based Inference
+  authors: Ahmad Nemer, ChangHoon Hahn, Jiaxuan Li, Peter Melchior, Jeremy Goodman
+  publication_info_summary: "A Nemer, CH Hahn, J Li, P Melchior\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.10243
+  snippet: "\u2026 In this paper, we introduce a Simulation-based Inference (SBI)\
+    \ approach to extract spectrum information on the basis of state-of-the-art wind\
+    \ models. With an innovative \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.10243'
+  arxiv_category_tag: astro-ph.SR
+  category: Astrophysics
