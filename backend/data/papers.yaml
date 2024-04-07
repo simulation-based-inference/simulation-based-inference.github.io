@@ -14241,7 +14241,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Computer Science
+  category: Education
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -15074,3 +15074,44 @@
   arxiv_id: '2403.14750'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
+- id: 1147
+  created_at: 2024-04-07 00:46:08.103230
+  published_on: 2024-04-02
+  title: Adaptive importance sampling of stochastic processes with graph-based mean
+    hitting times
+  publication_info_summary: G Chennetier, H Chraibi, A Dutfoy, J Garnier - project.inria.fr
+  link: https://project.inria.fr/mascotnum2024/files/2024/03/mascotnum24_G_CHENNETIER_3.pdf
+  snippet: "\u2026 Importance sampling is one of the most famous and perhaps the most\
+    \ direct method of variance reduction in simulation-based inference when estimating\
+    \ quantities of the \u2026"
+  category: Computer Science
+  doi: https://project.inria.fr/mascotnum2024/files/2024/03/mascotnum24_G_CHENNETIER_3.pdf
+- id: 1148
+  created_at: 2024-04-07 00:46:11.859755
+  published_on: 2024-04-01
+  title: Structural Model Updating and Model Selection Bayesian Inference Approach
+    Based on Simulation
+  publication_info_summary: "A Ben Abdessalem - International Conference of Steel\
+    \ and Composite for \u2026, 2024 - Springer"
+  link: https://link.springer.com/chapter/10.1007/978-3-031-57224-1_22
+  snippet: "\u2026 The performance and the robustness of the simulation-based inference\
+    \ procedure in structural dynamics are demonstrated through two numerical studies\
+    \ using modal data\u2026"
+  journal: Springer
+  category: Engineering
+  doi: https://link.springer.com/chapter/10.1007/978-3-031-57224-1_22
+- id: 1149
+  created_at: 2024-04-07 00:46:17.226896
+  published_on: 2024-03-28
+  title: A Digital Twin for Geological Carbon Storage with Controlled Injectivity
+  authors: Abhinav Prakash Gahlot, Haoyun Li, Ziyi Yin, Rafael Orozco, Felix J. Herrmann
+  publication_info_summary: "AP Gahlot, H Li, Z Yin, R Orozco\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.19819
+  snippet: "\u2026 incorporate real-time data and advanced generative Artificial Intelligence\
+    \ (genAI) techniques, including neural posterior density estimation via simulation-based\
+    \ inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.19819'
+  arxiv_category_tag: physics.geo-ph
+  category: Physics
