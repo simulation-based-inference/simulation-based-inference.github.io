@@ -14241,7 +14241,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Education
+  category: Mathematics
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -15115,3 +15115,35 @@
   arxiv_id: '2403.19819'
   arxiv_category_tag: physics.geo-ph
   category: Physics
+- id: 1150
+  created_at: 2024-04-14 00:35:38.983319
+  published_on: 2024-04-11
+  title: SIDE-real Supernova Ia Dust Extinction with truncated marginal neural ratio
+    estimation applied to real data
+  publication_info_summary: "K Karchev, M Grayling, BM Boyd\u2026 - Monthly Notices\
+    \ of \u2026, 2024 - academic.oup.com"
+  link: https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae995/7643658
+  snippet: "\u2026 By utilising truncated marginal neural ratio estimation (TMNRE),\
+    \ a neural network-enabled simulation-based inference technique, we implicitly\
+    \ marginalise over 4000 \u2026"
+  journal: academic.oup.com
+  category: Education
+  doi: https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae995/7643658
+- id: 1151
+  created_at: 2024-04-14 00:35:43.618490
+  published_on: 2024-04-05
+  title: '{sc SimBIG} Cosmological Constraints using Simulation-Based Inference of
+    Galaxy Clustering with Marked Power Spectra'
+  authors: "Elena Massara, ChangHoon Hahn, Michael Eickenberg, Shirley Ho, Jiamin\
+    \ Hou, Pablo Lemos, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker, Bruno\
+    \ R\xE9galdo-Saint Blancard"
+  publication_info_summary: "E Massara, CH Hahn, M Eickenberg, S Ho\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2404.04228
+  snippet: "\u2026 In this work we make use of SimBIG, a forward modeling framework\
+    \ for galaxy clustering analyses, and perform simulation-based inference using\
+    \ normalizing flows to infer \u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.04228'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
