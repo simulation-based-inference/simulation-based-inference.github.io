@@ -14241,7 +14241,7 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Mathematics
+  category: Astronomy
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -14569,18 +14569,21 @@
   doi: 10.1146/annurev-nucl-121423-100725
 - id: 1113
   created_at: 2024-02-25 00:44:07.056116
-  published_on: 2024-02-16
+  published_on: 2024-04-11
   title: Diffusion posterior sampling for simulation-based inference in tall data
     settings
-  publication_info_summary: "J Linhart, GV Cardoso, A Gramfort, S Le Corff\u2026 -\
-    \ 2024 - hal.science"
-  link: https://hal.science/hal-04459545/
+  authors: Julia Linhart, Gabriel Victorino Cardoso, Alexandre Gramfort, Sylvain Le
+    Corff, Pedro L. C. Rodrigues
+  publication_info_summary: "J Linhart, GV Cardoso, A Gramfort, SL Corff\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2404.07593
   snippet: "\u2026 Simulation-based inference (SBI) stands out in this context by\
     \ only requiring a dataset of simulations to train deep generative models capable\
     \ of approximating the \u2026"
-  journal: hal.science
+  journal: arxiv.org
+  arxiv_id: '2404.07593'
+  arxiv_category_tag: stat.ML
   category: Computer Science
-  doi: https://hal.science/hal-04459545/
 - id: 1114
   created_at: 2024-02-25 00:44:11.590661
   published_on: 2024-02-15
@@ -15030,20 +15033,18 @@
   doi: https://orbi.uliege.be/handle/2268/314399
 - id: 1144
   created_at: 2024-03-24 00:46:23.743294
-  published_on: 2024-03-15
+  published_on: 2024-03-19
   title: Constraining Protoplanetary Disk Winds from Forbidden Line Profiles with
     Simulation-based Inference
-  authors: Ahmad Nemer, ChangHoon Hahn, Jiaxuan Li, Peter Melchior, Jeremy Goodman
-  publication_info_summary: "A Nemer, CH Hahn, J Li, P Melchior\u2026 - arXiv preprint\
-    \ arXiv \u2026, 2024 - arxiv.org"
-  link: https://arxiv.org/abs/2403.10243
-  snippet: "\u2026 In this paper, we introduce a Simulation-based Inference (SBI)\
+  publication_info_summary: "A Nemer, CH Hahn, J Li, P Melchior\u2026 - The Astrophysical\
+    \ \u2026, 2024 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
+  snippet: "\u2026 In this paper, we introduce a simulation-based Inference (SBI)\
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
-  journal: arxiv.org
-  arxiv_id: '2403.10243'
-  arxiv_category_tag: astro-ph.SR
-  category: Astrophysics
+  journal: iopscience.iop.org
+  category: Astronomy
+  doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
   published_on: 2024-03-23
@@ -15122,13 +15123,13 @@
     estimation applied to real data
   publication_info_summary: "K Karchev, M Grayling, BM Boyd\u2026 - Monthly Notices\
     \ of \u2026, 2024 - academic.oup.com"
-  link: https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae995/7643658
+  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae995/7643658
   snippet: "\u2026 By utilising truncated marginal neural ratio estimation (TMNRE),\
     \ a neural network-enabled simulation-based inference technique, we implicitly\
     \ marginalise over 4000 \u2026"
   journal: academic.oup.com
   category: Education
-  doi: https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae995/7643658
+  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae995/7643658
 - id: 1151
   created_at: 2024-04-14 00:35:43.618490
   published_on: 2024-04-05
@@ -15147,3 +15148,50 @@
   arxiv_id: '2404.04228'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
+- id: 1152
+  created_at: 2024-04-21 00:45:49.980968
+  published_on: 2024-04-17
+  title: Simulation-based inference of black hole ringdowns in the time domain
+  authors: Costantino Pacilio, Swetha Bhagwat, Roberto Cotesta
+  publication_info_summary: C Pacilio, S Bhagwat, R Cotesta - arXiv preprint arXiv:2404.11373,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2404.11373
+  snippet: "\u2026 In this work, we present a proof-of-concept strategy to perform\
+    \ likelihood-free Bayesian inference on ringdown gravitational waves using simulation\
+    \ based inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.11373'
+  arxiv_category_tag: gr-qc
+  category: Mathematics
+- id: 1153
+  created_at: 2024-04-21 00:45:54.580636
+  published_on: 2024-04-16
+  title: A variational neural Bayes framework for inference on intractable posterior
+    distributions
+  authors: Elliot Maceda, Emily C. Hector, Amanda Lenzi, Brian J. Reich
+  publication_info_summary: E Maceda, EC Hector, A Lenzi, BJ Reich - arXiv preprint
+    arXiv:2404.10899, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2404.10899
+  snippet: "Classic Bayesian methods with complex models are frequently infeasible\
+    \ due to an intractable likelihood. Simulation-based inference methods, such as\
+    \ Approximate \u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.10899'
+  arxiv_category_tag: stat.CO
+  category: Statistics
+- id: 1154
+  created_at: 2024-04-21 00:45:59.113882
+  published_on: 2024-04-15
+  title: All-in-one simulation-based inference
+  authors: Manuel Gloeckler, Michael Deistler, Christian Weilbach, Frank Wood, Jakob
+    H. Macke
+  publication_info_summary: "M Gloeckler, M Deistler, C Weilbach, F Wood\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2404.09636
+  snippet: "\u2026 Conclusion We developed the Simformer, a new method for amortized\
+    \ simulation-based inference. On benchmark tasks, it performs at least as well\
+    \ as existing methods \u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.09636'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
