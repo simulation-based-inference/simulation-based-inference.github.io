@@ -14241,7 +14241,6 @@
     \ address both these challenges for parameter estimation. SBI uses a learned mapping\
     \ between \u2026"
   journal: hess.copernicus.org
-  category: Astronomy
   doi: https://hess.copernicus.org/preprints/hess-2023-264/
 - id: 1091
   created_at: 2024-01-12 16:59:34.542422
@@ -15043,7 +15042,6 @@
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
   journal: iopscience.iop.org
-  category: Astronomy
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
@@ -15195,3 +15193,93 @@
   arxiv_id: '2404.09636'
   arxiv_category_tag: cs.LG
   category: Computer Science
+- id: 1155
+  created_at: 2024-04-28 00:46:37.894783
+  published_on: 2024-04-25
+  title: SB-ETAS using simulation based inference for scalable, likelihood-free inference
+    for the ETAS model of earthquake occurrences
+  authors: Samuel Stockman, Daniel J. Lawson, Maximilian J. Werner
+  publication_info_summary: S Stockman, DJ Lawson, MJ Werner - arXiv preprint arXiv:2404.16590,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2404.16590
+  snippet: "1 day ago - \u2026 We present SB-ETAS: simulation-based inference for\
+    \ the ETAS model. This is an approximate Bayesian method which uses Sequential\
+    \ Neural Posterior Estimation (SNPE\u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.16590'
+  arxiv_category_tag: stat.AP
+  category: Astronomy
+- id: 1156
+  created_at: 2024-04-28 00:46:42.622220
+  published_on: 2024-04-24
+  title: Population synthesis of Galactic pulsars with machine learning
+  authors: Michele Ronchi
+  publication_info_summary: M Ronchi - arXiv preprint arXiv:2404.15953, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2404.15953
+  snippet: "\u2026 We first study the feasibility of using deep neural networks to\
+    \ infer the dynamical properties at birth and then explore a simulation-based\
+    \ inference approach to predict the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.15953'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1157
+  created_at: 2024-04-28 00:46:47.200976
+  published_on: 2024-04-23
+  title: KiDS-SBI Simulation-Based Inference Analysis of KiDS-1000 Cosmic Shear
+  authors: Maximilian von Wietersheim-Kramsta, Kiyam Lin, Nicolas Tessore, Benjamin
+    Joachimi, Arthur Loureiro, Robert Reischke, Angus H. Wright
+  publication_info_summary: "M von Wietersheim-Kramsta, K Lin, N Tessore\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2404.15402
+  snippet: "\u2026 We present a simulation-based inference (SBI) cosmological analysis\
+    \ of cosmic shear two-point statistics from the fourth weak gravitational lensing\
+    \ data release of the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.15402'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1158
+  created_at: 2024-04-28 00:46:51.877172
+  published_on: 2024-04-22
+  title: A Strong Gravitational Lens Is Worth a Thousand Dark Matter Halos Inference
+    on Small-Scale Structure Using Sequential Methods
+  authors: Sebastian Wagner-Carena, Jaehoon Lee, Jeffrey Pennington, Jelle Aalbers,
+    Simon Birrer, Risa H. Wechsler
+  publication_info_summary: "S Wagner-Carena, J Lee, J Pennington\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2404.14487
+  snippet: "\u2026 Section 3 introduces the simulationbased inference techniques we\
+    \ use throughout the paper, including neural posterior estimation (NPE), our hierarchical\
+    \ inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.14487'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1159
+  created_at: 2024-04-28 00:46:56.613386
+  published_on: 2024-04-21
+  title: Preconditioned Neural Posterior Estimation for Likelihood-free Inference
+  authors: Xiaoyu Wang, Ryan P. Kelly, David J. Warne, Christopher Drovandi
+  publication_info_summary: "X Wang, RP Kelly, DJ Warne, C Drovandi - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2404.13557
+  snippet: "\u2026 Simulation based inference (SBI) methods enable the estimation\
+    \ of posterior distributions when the likelihood function is intractable, but\
+    \ where model simulation is feasible\u2026"
+  journal: arxiv.org
+  arxiv_id: '2404.13557'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1160
+  created_at: 2024-04-28 00:47:19.512426
+  published_on: 2024-04-11
+  title: Neural Amortization of Bayesian Point Estimation
+  publication_info_summary: "Y Li, G Clart\xE9 - 2024 - helda.helsinki.fi"
+  link: https://helda.helsinki.fi/server/api/core/bitstreams/6b4ec2dd-7a6c-4d16-8cc1-0d2aa0ff89a4/content
+  snippet: "\u2026 These limitations have motivated the development of simulation-based\
+    \ inference (SBI\u2026 we will introduce some typical methods in simulation-based\
+    \ inference, also known as \u2026"
+  journal: helda.helsinki.fi
+  category: Physics
+  doi: https://helda.helsinki.fi/server/api/core/bitstreams/6b4ec2dd-7a6c-4d16-8cc1-0d2aa0ff89a4/content
