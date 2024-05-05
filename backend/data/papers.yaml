@@ -15042,6 +15042,7 @@
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
   journal: iopscience.iop.org
+  category: Astrophysics
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
@@ -15202,9 +15203,9 @@
   publication_info_summary: S Stockman, DJ Lawson, MJ Werner - arXiv preprint arXiv:2404.16590,
     2024 - arxiv.org
   link: https://arxiv.org/abs/2404.16590
-  snippet: "1 day ago - \u2026 We present SB-ETAS: simulation-based inference for\
-    \ the ETAS model. This is an approximate Bayesian method which uses Sequential\
-    \ Neural Posterior Estimation (SNPE\u2026"
+  snippet: "\u2026 We present SB-ETAS: simulation-based inference for the ETAS model.\
+    \ This is an approximate Bayesian method which uses Sequential Neural Posterior\
+    \ Estimation (SNPE\u2026"
   journal: arxiv.org
   arxiv_id: '2404.16590'
   arxiv_category_tag: stat.AP
@@ -15283,3 +15284,45 @@
   journal: helda.helsinki.fi
   category: Physics
   doi: https://helda.helsinki.fi/server/api/core/bitstreams/6b4ec2dd-7a6c-4d16-8cc1-0d2aa0ff89a4/content
+- id: 1161
+  created_at: 2024-05-05 00:46:16.591762
+  published_on: 2024-05-01
+  title: Cosmological constraints from the nonlinear galaxy bispectrum
+  publication_info_summary: "CH Hahn, M Eickenberg, S Ho, J Hou, P Lemos\u2026 - Physical\
+    \ Review D, 2024 - APS"
+  link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
+  snippet: "\u2026 We use SimBIG, a forward modeling framework for galaxy clustering\
+    \ analyses that employs simulation-based inference to perform highly efficient\
+    \ cosmological inference \u2026"
+  journal: APS
+  citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
+  doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
+- id: 1162
+  created_at: 2024-05-05 00:46:20.487535
+  published_on: 2024-05-01
+  title: Galaxy clustering analysis with SimBIG and the wavelet scattering transform
+  publication_info_summary: "B R\xE9galdo-Saint Blancard, CH Hahn, S Ho, J Hou\u2026\
+    \ - Physical Review D, 2024 - APS"
+  link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083535
+  snippet: "\u2026 , and \u03C38 from the Baryon Oscillation Spectroscopic Survey\
+    \ CMASS galaxy sample by combining the wavelet scattering transform (WST) with\
+    \ a simulationbased inference \u2026"
+  journal: APS
+  citation_backlink: https://scholar.google.com/scholar?cites=10231558436393777609
+  category: Astrophysics
+  doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083535
+- id: 1163
+  created_at: 2024-05-05 00:46:24.811575
+  published_on: 2024-05-01
+  title: Field-level simulation-based inference of galaxy clustering with convolutional
+    neural networks
+  publication_info_summary: "P Lemos, L Parker, CH Hahn, S Ho, M Eickenberg\u2026\
+    \ - Physical Review D, 2024 - APS"
+  link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083536
+  snippet: "\u2026 We present the first simulation-based inference (SBI) of cosmological\
+    \ parameters from field-level analysis of galaxy clustering. Standard galaxy clustering\
+    \ analyses rely on \u2026"
+  journal: APS
+  citation_backlink: https://scholar.google.com/scholar?cites=15963401114773400967
+  category: Physics
+  doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083536
