@@ -14819,6 +14819,7 @@
   arxiv_id: '2403.07871'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
+  doi: 10.1093/mnras/stae995
 - id: 1129
   created_at: 2024-03-17 00:44:00.447083
   published_on: 2024-03-08
@@ -15123,9 +15124,9 @@
   publication_info_summary: "K Karchev, M Grayling, BM Boyd\u2026 - Monthly Notices\
     \ of \u2026, 2024 - academic.oup.com"
   link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae995/7643658
-  snippet: "\u2026 By utilising truncated marginal neural ratio estimation (TMNRE),\
+  snippet: "\u2026 By utilizing truncated marginal neural ratio estimation (TMNRE),\
     \ a neural network-enabled simulation-based inference technique, we implicitly\
-    \ marginalise over 4000 \u2026"
+    \ marginalize over 4000 \u2026"
   journal: academic.oup.com
   category: Education
   doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae995/7643658
@@ -15286,7 +15287,7 @@
   doi: https://helda.helsinki.fi/server/api/core/bitstreams/6b4ec2dd-7a6c-4d16-8cc1-0d2aa0ff89a4/content
 - id: 1161
   created_at: 2024-05-05 00:46:16.591762
-  published_on: 2024-05-01
+  published_on: 2024-04-16
   title: Cosmological constraints from the nonlinear galaxy bispectrum
   publication_info_summary: "CH Hahn, M Eickenberg, S Ho, J Hou, P Lemos\u2026 - Physical\
     \ Review D, 2024 - APS"
@@ -15296,6 +15297,7 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
+  category: Astrophysics
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
@@ -15313,7 +15315,7 @@
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083535
 - id: 1163
   created_at: 2024-05-05 00:46:24.811575
-  published_on: 2024-05-01
+  published_on: 2024-04-16
   title: Field-level simulation-based inference of galaxy clustering with convolutional
     neural networks
   publication_info_summary: "P Lemos, L Parker, CH Hahn, S Ho, M Eickenberg\u2026\
@@ -15326,3 +15328,99 @@
   citation_backlink: https://scholar.google.com/scholar?cites=15963401114773400967
   category: Physics
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083536
+- id: 1164
+  created_at: 2024-05-12 00:47:53.351123
+  published_on: 2024-05-07
+  title: DNA replication errors are a major source of adaptive gene amplification
+  authors: Chuong, J.; Ben Nun, N.; Suresh, I.; Matthews, J.; De, T.; Avecilla, G.;
+    Abdul-Rahman, F.; Brandt, N.; Ram, Y.; Gresham, D.
+  publication_info_summary: "J Chuong, N Ben Nun, I Suresh, J Matthews, T De\u2026\
+    \ - bioRxiv, 2024 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2024.05.03.589936.abstract
+  snippet: "\u2026 Using a CNV reporter system and neural network simulation-based\
+    \ inference (nnSBI) we quantified the formation rate and fitness effect of CNVs\
+    \ for each strain. We find \u2026"
+  journal: biorxiv.org
+  category: Astrophysics
+  doi: 10.1101/2024.05.03.589936
+- id: 1165
+  created_at: 2024-05-12 00:47:57.222831
+  published_on: 2024-05-07
+  title: ATLAS Data Analysis using a Parallel Workflow on Distributed Cloud-based
+    Services with GPUs
+  publication_info_summary: "J Sandesara, RCL de Sa, VM Outschoorn\u2026 - EPJ Web\
+    \ of \u2026, 2024 - epj-conferences.org"
+  link: https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_04007/epjconf_chep2024_04007.html
+  snippet: "\u2026 This has been developed for a specific type of analysis using ATLAS\
+    \ data, one popularly referred to as Simulation-Based Inference (SBI). The JAX\
+    \ library is used for the \u2026"
+  journal: epj-conferences.org
+  category: Computer Science
+  doi: https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_04007/epjconf_chep2024_04007.html
+- id: 1166
+  created_at: 2024-05-12 00:48:02.704083
+  published_on: 2024-05-03
+  title: A Parameter-Masked Mock Data Challenge for Beyond-Two-Point Galaxy Clustering
+    Statistics
+  authors: "Beyond-2pt Collaboration, :, Elisabeth Krause, Yosuke Kobayashi, Andr\xE9\
+    s N. Salcedo, Mikhail M. Ivanov, Tom Abel, Kazuyuki Akitsu, Raul E. Angulo, Giovanni\
+    \ Cabass, Sofia Contarini, Carolina Cuesta-Lazaro, ChangHoon Hahn, Nico Hamaus,\
+    \ Donghui Jeong, Chirag Modi, Nhat-Minh Nguyen, Takahiro Nishimichi, Enrique Paillas,\
+    \ Marcos Pellejero Iba\xF1ez, Oliver H. E. Philcox, Alice Pisani, Fabian Schmidt,\
+    \ Satoshi Tanaka, Giovanni Verza, Sihan Yuan, Matteo Zennaro"
+  publication_info_summary: "E Krause, Y Kobayashi, AN Salcedo, MM Ivanov\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2405.02252
+  snippet: "\u2026 , LEFTfield field-level inference using effective field theory\
+    \ (EFT), and joint power spectrum and bispectrum analyses using both EFT and simulation-based\
+    \ inference. In \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.02252'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1167
+  created_at: 2024-05-12 00:48:09.161909
+  published_on: 2024-05-03
+  title: Simulation-based Inference of Developmental EEG Maturation with the Spectral
+    Graph Model
+  authors: Danilo Bernardo, Xihe Xie, Parul Verma, Jonathan Kim, Virginia Liu, Ye
+    Wu, Pew-Thian Yap, Srikantan Nagarajan, Ashish Raj
+  publication_info_summary: "D Bernardo, X Xie, P Verma, J Kim, V Liu, Y Wu\u2026\
+    \ - arXiv preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2405.02524
+  snippet: "\u2026 In this study, we utilize simulation-based inference with the spectral\
+    \ graph model (SBI-SGM) to model EEG spectral maturation and infer population-based\
+    \ trajectories of \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.02524'
+  arxiv_category_tag: q-bio.NC
+  category: Quantitative Biology
+- id: 1168
+  created_at: 2024-05-12 00:48:13.905919
+  published_on: 2024-05-03
+  title: Modelling Sampling Distributions of Test Statistics with Autograd
+  authors: Ali Al Kadhim, Harrison B. Prosper
+  publication_info_summary: AA Kadhim, HB Prosper - arXiv preprint arXiv:2405.02488,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2405.02488
+  snippet: "\u2026 This is the issue we explore in this paper where the focus is on\
+    \ test statistics that arise in simulation-based inference. We consider the classic\
+    \ ON/OFF problem of \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.02488'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1169
+  created_at: 2024-05-12 00:48:36.054269
+  published_on: 2024-04-23
+  title: Simultaneous Identification of Changepoints and Model Parameters in Switching
+    Dynamical Systems (preprint)
+  publication_info_summary: "X Fu, K Fan, H Zozmann, L Sch\xFCler, J Calabrese - 2024\
+    \ - pesquisa.bvsalud.org"
+  link: https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/ppzbmed-10.1101.2024.01.30.577909
+  snippet: "\u2026 Here, we introduce a rigorous, simulation-based inference framework\
+    \ that simultaneously estimates changepoints and model parameters from noisy data\
+    \ while admitting \u2026"
+  journal: pesquisa.bvsalud.org
+  category: Astrophysics
+  doi: https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/ppzbmed-10.1101.2024.01.30.577909
