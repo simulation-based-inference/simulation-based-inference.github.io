@@ -15043,7 +15043,7 @@
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
   journal: iopscience.iop.org
-  category: Astrophysics
+  category: Computer Science
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
@@ -15118,18 +15118,22 @@
   category: Physics
 - id: 1150
   created_at: 2024-04-14 00:35:38.983319
-  published_on: 2024-04-11
+  published_on: 2024-03-12
   title: SIDE-real Supernova Ia Dust Extinction with truncated marginal neural ratio
     estimation applied to real data
-  publication_info_summary: "K Karchev, M Grayling, BM Boyd\u2026 - Monthly Notices\
-    \ of \u2026, 2024 - academic.oup.com"
-  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae995/7643658
-  snippet: "\u2026 By utilizing truncated marginal neural ratio estimation (TMNRE),\
+  authors: Konstantin Karchev, Matthew Grayling, Benjamin M. Boyd, Roberto Trotta,
+    Kaisey S. Mandel, Christoph Weniger
+  publication_info_summary: "K Karchev, M Grayling, BM Boyd, R Trotta\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2403.07871
+  snippet: "\u2026 By utilising truncated marginal neural ratio estimation (TMNRE),\
     \ a neural network-enabled simulation-based inference technique, we implicitly\
-    \ marginalize over 4000 \u2026"
-  journal: academic.oup.com
+    \ marginalise over 4000 \u2026"
+  journal: arxiv.org
+  arxiv_id: '2403.07871'
+  arxiv_category_tag: astro-ph.CO
   category: Education
-  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae995/7643658
+  doi: 10.1093/mnras/stae995
 - id: 1151
   created_at: 2024-04-14 00:35:43.618490
   published_on: 2024-04-05
@@ -15297,11 +15301,11 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
-  category: Astrophysics
+  category: Computer Science
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
-  published_on: 2024-05-01
+  published_on: 2024-04-16
   title: Galaxy clustering analysis with SimBIG and the wavelet scattering transform
   publication_info_summary: "B R\xE9galdo-Saint Blancard, CH Hahn, S Ho, J Hou\u2026\
     \ - Physical Review D, 2024 - APS"
@@ -15424,3 +15428,78 @@
   journal: pesquisa.bvsalud.org
   category: Astrophysics
   doi: https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/ppzbmed-10.1101.2024.01.30.577909
+- id: 1170
+  created_at: 2024-05-19 00:48:09.004640
+  published_on: 2024-05-16
+  title: KiDS-1000 and DES-Y1 combined Cosmology from peak count statistics
+  authors: Joachim Harnois-Deraps, Sven Heydenreich, Benjamin Giblin, Nicolas Martinet,
+    Tilman Troester, Marika Asgari, Pierre Burger, Tiago Castro, Klaus Dolag, Catherine
+    Heymans, Hendrik Hildebrandt, Benjamin Joachimi, Angus H. Wright
+  publication_info_summary: "J Harnois-Deraps, S Heydenreich, B Giblin\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2405.10312
+  snippet: "1 day ago - \u2026 We interpret our results with a simulation-based inference\
+    \ pipeline, sampling over a broad wCDM prior volume and marginalising over uncertainties\
+    \ on shape calibration, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.10312'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1171
+  created_at: 2024-05-19 00:48:12.841396
+  published_on: 2024-05-16
+  title: Pathological cell assembly dynamics in a striatal MSN network model
+  publication_info_summary: "A Correa, A Ponzi, VM Calder\xF3n, R Migliore - Frontiers\
+    \ in Computational \u2026 - frontiersin.org"
+  link: https://www.frontiersin.org/articles/10.3389/fncom.2024.1410335/full
+  snippet: "\u2026 Next we used Simulation Based Inference (SBI) to train a deep net\
+    \ to map features of the MSN network generated cell assembly activity to MSN network\
+    \ parameters. We \u2026"
+  journal: frontiersin.org
+  category: Neuroscience
+  doi: https://www.frontiersin.org/articles/10.3389/fncom.2024.1410335/full
+- id: 1172
+  created_at: 2024-05-19 00:48:17.892881
+  published_on: 2024-05-14
+  title: Addressing Misspecification in Simulation-based Inference through Data-driven
+    Calibration
+  authors: "Antoine Wehenkel, Juan L. Gamella, Ozan Sener, Jens Behrmann, Guillermo\
+    \ Sapiro, Marco Cuturi, J\xF6rn-Henrik Jacobsen"
+  publication_info_summary: "A Wehenkel, JL Gamella, O Sener, J Behrmann\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2405.08719
+  snippet: "Driven by steady progress in generative modeling, simulation-based inference\
+    \ (SBI) has enabled inference over stochastic simulators. However, recent work\
+    \ has \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.08719'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1173
+  created_at: 2024-05-19 00:48:22.419064
+  published_on: 2024-05-14
+  title: Rapid parameter estimation for pulsar-timing-array datasets with variational
+    inference and normalizing flows
+  authors: Michele Vallisneri, Marco Crisostomi, Aaron D. Johnson, Patrick M. Meyers
+  publication_info_summary: "M Vallisneri, M Crisostomi, AD Johnson\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2405.08857
+  snippet: "\u2026 This technique is distinct from simulation-based inference with\
+    \ normalizing flows, since we train the network for a single dataset, rather than\
+    \ the population of all possible \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.08857'
+  arxiv_category_tag: gr-qc
+  category: Physics
+- id: 1174
+  created_at: 2024-05-19 00:48:26.241948
+  published_on: 2024-05-14
+  title: Non-Parameteric Conformal Distributionally Robust Optimization
+  publication_info_summary: GK Cao - 2024 - ambujtewari.com
+  link: https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf
+  snippet: "\u2026 To demonstrate the versatility and power of the CRDO framework,\
+    \ we apply it to a series of benchmark tasks within the realm of simulation-based\
+    \ inference to showcase \u2026"
+  journal: ambujtewari.com
+  category: Mathematics
+  doi: https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf
