@@ -14562,6 +14562,7 @@
     \ parameter estimation of gravitational wave signals in ground-based interferometers\
     \ such as LIGO \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=14688258010608356408
   arxiv_id: '2402.11439'
   arxiv_category_tag: gr-qc
   category: Engineering
@@ -14866,7 +14867,7 @@
   title: Optimal Experimental Design for Bayesian Inverse Problems using Energy-Based
     Couplings
   publication_info_summary: "PC Encinar, T Schr\xF6der, AB Duncan - ICLR 2024 Workshop\
-    \ on \u2026, 2024 - openreview.net"
+    \ on \u2026 - openreview.net"
   link: https://openreview.net/forum?id=N3WxA8AK9c
   snippet: "\u2026 Unlike existing simulation-based inference approaches, we leverage\
     \ implicit neural representations to learn a functional representation of parameters\
@@ -15043,7 +15044,7 @@
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
   journal: iopscience.iop.org
-  category: Computer Science
+  category: Mathematics
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
@@ -15301,7 +15302,7 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
-  category: Computer Science
+  category: Mathematics
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
@@ -15438,8 +15439,8 @@
   publication_info_summary: "J Harnois-Deraps, S Heydenreich, B Giblin\u2026 - arXiv\
     \ preprint arXiv \u2026, 2024 - arxiv.org"
   link: https://arxiv.org/abs/2405.10312
-  snippet: "1 day ago - \u2026 We interpret our results with a simulation-based inference\
-    \ pipeline, sampling over a broad wCDM prior volume and marginalising over uncertainties\
+  snippet: "\u2026 We interpret our results with a simulation-based inference pipeline,\
+    \ sampling over a broad wCDM prior volume and marginalising over uncertainties\
     \ on shape calibration, \u2026"
   journal: arxiv.org
   arxiv_id: '2405.10312'
@@ -15468,9 +15469,9 @@
   publication_info_summary: "A Wehenkel, JL Gamella, O Sener, J Behrmann\u2026 - arXiv\
     \ preprint arXiv \u2026, 2024 - arxiv.org"
   link: https://arxiv.org/abs/2405.08719
-  snippet: "Driven by steady progress in generative modeling, simulation-based inference\
-    \ (SBI) has enabled inference over stochastic simulators. However, recent work\
-    \ has \u2026"
+  snippet: "\u2026 Broader Impact This paper presents a framework and an algorithm\
+    \ to address model misspecification in simulation-based inference (SBI). SBI is\
+    \ predominantly applied in \u2026"
   journal: arxiv.org
   arxiv_id: '2405.08719'
   arxiv_category_tag: stat.ML
@@ -15503,3 +15504,30 @@
   journal: ambujtewari.com
   category: Mathematics
   doi: https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf
+- id: 1175
+  created_at: 2024-05-26 00:48:58.156849
+  published_on: 2024-05-21
+  title: Competition between physical search and a weak-to-strong transition rate-limits
+    kinesin binding times
+  publication_info_summary: "T Nguyen, BRJ Narayanareddy\u2026 - PLOS Computational\
+    \ \u2026, 2024 - journals.plos.org"
+  link: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012158
+  snippet: "\u2026 Through Brownian dynamics simulations and simulation-based inference,\
+    \ we find this simple diffusion model fails to explain the experimental binding\
+    \ times, but an \u2026"
+  journal: journals.plos.org
+  category: Computer Science
+  doi: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012158
+- id: 1176
+  created_at: 2024-05-26 00:49:11.673323
+  published_on: 2024-05-16
+  title: Cosmological constraints from the redshift-space galaxy skew spectra
+  publication_info_summary: "J Hou, AM Dizgah, CH Hahn, M Eickenberg, S Ho\u2026 -\
+    \ Physical Review D, 2024 - APS"
+  link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.103528
+  snippet: "\u2026 Employing the SIMBIG forward modeling framework and simulation-based\
+    \ inference via normalizing flows, we analyze the CMASS-SGC subsample, which constitute\
+    \ \u2026"
+  journal: APS
+  category: Neuroscience
+  doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.103528
