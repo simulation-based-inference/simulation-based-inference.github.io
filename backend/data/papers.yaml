@@ -14869,7 +14869,7 @@
   publication_info_summary: "PC Encinar, T Schr\xF6der, AB Duncan - ICLR 2024 Workshop\
     \ on \u2026 - openreview.net"
   link: https://openreview.net/forum?id=N3WxA8AK9c
-  snippet: "\u2026 Unlike existing simulation-based inference approaches, we leverage\
+  snippet: "\u2026 Unlike existing simulationbased inference approaches, we leverage\
     \ implicit neural representations to learn a functional representation of parameters\
     \ and data. This is \u2026"
   journal: openreview.net
@@ -15044,7 +15044,7 @@
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
   journal: iopscience.iop.org
-  category: Mathematics
+  category: Physics
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
@@ -15302,7 +15302,7 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
-  category: Mathematics
+  category: Physics
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
@@ -15531,3 +15531,64 @@
   journal: APS
   category: Neuroscience
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.103528
+- id: 1177
+  created_at: 2024-06-02 00:49:27.773097
+  published_on: 2024-05-24
+  title: Constraining the Higgs Potential with Neural Simulation-based Inference for
+    Di-Higgs Production
+  authors: Radha Mastandrea, Benjamin Nachman, Tilman Plehn
+  publication_info_summary: R Mastandrea, B Nachman, T Plehn - arXiv preprint arXiv:2405.15847,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2405.15847
+  snippet: "\u2026 In this work, we have explored the use of neural simulation-based\
+    \ inference (nSBI) to enhance the sensitivity to searches for pair production\
+    \ of Higgs bosons. As our \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.15847'
+  arxiv_category_tag: hep-ph
+  category: Mathematics
+- id: 1178
+  created_at: 2024-06-02 00:49:32.372063
+  published_on: 2024-05-24
+  title: Simulation-based inference of radio millisecond pulsars in globular clusters
+  authors: "Joanna Berteaud, Christopher Eckner, Francesca Calore, Ma\xEFca Clavel,\
+    \ Daryl Haggard"
+  publication_info_summary: "J Berteaud, C Eckner, F Calore, M Clavel\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2405.15691
+  snippet: "\u2026 In this work, we tackled this problem through an analysis framework\
+    \ which quickly developed in the last decade: likelihood-free/simulation-based\
+    \ inference. Our method \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.15691'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1179
+  created_at: 2024-06-02 00:49:37.051527
+  published_on: 2024-05-25
+  title: Automated inference of disease mechanisms in patient-hiPSC-derived neuronal
+    networks
+  authors: Doorn, N.; van Putten, M. J. A. M.; Frega, M.
+  publication_info_summary: N Doorn, MJAM van Putten, M Frega - bioRxiv, 2024 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2024.05.23.595522.abstract
+  snippet: "\u2026 Here, we address this challenge by using simulation-based inference\
+    \ (SBI), a machine-learning approach, to automatically identify the full range\
+    \ of model parameters able \u2026"
+  journal: biorxiv.org
+  category: Neuroscience
+  doi: 10.1101/2024.05.23.595522
+- id: 1180
+  created_at: 2024-06-02 00:49:41.597609
+  published_on: 2024-05-23
+  title: FUSE Fast Unified Simulation and Estimation for PDEs
+  authors: Levi E. Lingsch, Dana Grund, Siddhartha Mishra, Georgios Kissas
+  publication_info_summary: LE Lingsch, D Grund, S Mishra, G Kissas - arXiv preprint
+    arXiv:2405.14558, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2405.14558
+  snippet: "\u2026 Hitherto, it has been separately addressed by employing operator\
+    \ learning surrogates for field prediction while using simulation-based inference\
+    \ (and its variants) for \u2026"
+  journal: arxiv.org
+  arxiv_id: '2405.14558'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
