@@ -14692,6 +14692,7 @@
     \ statistics, namely the power spectrum and bispectrum. Using the same field-level\
     \ forward model \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=10994450182918203624
   arxiv_id: '2403.03220'
   arxiv_category_tag: astro-ph.CO
   category: Statistics
@@ -15592,3 +15593,19 @@
   arxiv_id: '2405.14558'
   arxiv_category_tag: cs.LG
   category: Computer Science
+- id: 1181
+  created_at: 2024-06-09 00:51:17.278481
+  published_on: 2024-06-01
+  title: Efficient Massive Black Hole Binary parameter estimation for LISA using Sequential
+    Neural Likelihood
+  authors: "Iv\xE1n Mart\xEDn V\xEDlchez, Carlos F. Sopuerta"
+  publication_info_summary: "IM V\xEDlchez, CF Sopuerta - arXiv preprint arXiv:2406.00565,\
+    \ 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2406.00565
+  snippet: "\u2026 In this work, we explore the application of Sequential Neural Likelihood,\
+    \ a simulation-based inference algorithm, to the detection and parameter estimation\
+    \ of MBHBs \u2026"
+  journal: arxiv.org
+  arxiv_id: '2406.00565'
+  arxiv_category_tag: gr-qc
+  category: Physics
