@@ -15045,7 +15045,7 @@
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
   journal: iopscience.iop.org
-  category: Physics
+  category: Astrophysics
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
@@ -15059,6 +15059,7 @@
     \ strategy for helping \u2026 We also highlight some possible extensions that\
     \ simulation-based inference easily \u2026"
   journal: Taylor & Francis
+  citation_backlink: https://scholar.google.com/scholar?cites=15321038688744528283
   category: Computer Science
   doi: https://www.tandfonline.com/doi/abs/10.1080/26939169.2024.2333736
 - id: 1146
@@ -15198,6 +15199,7 @@
     \ simulation-based inference. On benchmark tasks, it performs at least as well\
     \ as existing methods \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=6918443150215659579
   arxiv_id: '2404.09636'
   arxiv_category_tag: cs.LG
   category: Computer Science
@@ -15303,7 +15305,7 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
-  category: Physics
+  category: Astrophysics
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
@@ -15451,12 +15453,12 @@
   created_at: 2024-05-19 00:48:12.841396
   published_on: 2024-05-16
   title: Pathological cell assembly dynamics in a striatal MSN network model
-  publication_info_summary: "A Correa, A Ponzi, VM Calder\xF3n, R Migliore - Frontiers\
-    \ in Computational \u2026 - frontiersin.org"
+  publication_info_summary: "A Correa, A Ponzi, VM Calder\xF3n\u2026 - Frontiers in\
+    \ Computational \u2026, 2024 - frontiersin.org"
   link: https://www.frontiersin.org/articles/10.3389/fncom.2024.1410335/full
-  snippet: "\u2026 Next we used Simulation Based Inference (SBI) to train a deep net\
-    \ to map features of the MSN network generated cell assembly activity to MSN network\
-    \ parameters. We \u2026"
+  snippet: "\u2026 Simulation Based Inference We used Simulation Based Inference to\
+    \ estimate network parameters from slice data. From each of the 200 ten minute\
+    \ simulations we \u2026"
   journal: frontiersin.org
   category: Neuroscience
   doi: https://www.frontiersin.org/articles/10.3389/fncom.2024.1410335/full
@@ -15609,3 +15611,65 @@
   arxiv_id: '2406.00565'
   arxiv_category_tag: gr-qc
   category: Physics
+- id: 1182
+  created_at: 2024-06-16 00:51:19.233711
+  published_on: 2024-06-10
+  title: Fisher's Mirage Noise Tightening of Cosmological Constraints in Simulation-Based
+    Inference
+  authors: Christopher Wilson, Rachel bean
+  publication_info_summary: C Wilson - arXiv preprint arXiv:2406.06067, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2406.06067
+  snippet: "We systematically analyze the implications of statistical noise within\
+    \ numerical derivatives on simulation-based Fisher forecasts for large scale structure\
+    \ surveys. Noisy \u2026"
+  journal: arxiv.org
+  arxiv_id: '2406.06067'
+  arxiv_category_tag: astro-ph.CO
+  category: Physics
+- id: 1183
+  created_at: 2024-06-16 00:51:23.111178
+  published_on: 2024-06-09
+  title: Ultra-high-granularity detector simulation with intra-event aware generative
+    adversarial network and self-supervised relational reasoning
+  publication_info_summary: "B Hashemi, N Hartmann, S Sharifzadeh, J Kahn\u2026 -\
+    \ Nature \u2026, 2024 - nature.com"
+  link: https://www.nature.com/articles/s41467-024-49104-4
+  snippet: "\u2026 of this work span from Foundation Models for high-granularity detector\
+    \ simulation, such as at the HL-LHC (High Luminosity LHC), to simulation-based\
+    \ inference and fine-\u2026"
+  journal: nature.com
+  category: Physics
+  doi: https://www.nature.com/articles/s41467-024-49104-4
+- id: 1184
+  created_at: 2024-06-16 00:51:28.556780
+  published_on: 2024-06-06
+  title: Simulation-based Inference for Gravitational-waves from Intermediate-Mass
+    Binary Black Holes in Real Noise
+  authors: "Vivien Raymond, Sama Al-Shammari, Alexandre G\xF6ttel"
+  publication_info_summary: "V Raymond, S Al-Shammari, A G\xF6ttel - arXiv preprint\
+    \ arXiv:2406.03935, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2406.03935
+  snippet: "\u2026 Our results thus represent a first look at how simulation-based\
+    \ inference may be able to perform optimal parameter estimation using real detector\
+    \ noise. Current limitations \u2026"
+  journal: arxiv.org
+  arxiv_id: '2406.03935'
+  arxiv_category_tag: gr-qc
+  category: Physics
+- id: 1185
+  created_at: 2024-06-16 00:51:33.217786
+  published_on: 2024-06-05
+  title: Detecting Model Misspecification in Amortized Bayesian Inference with Neural
+    Networks An Extended Investigation
+  authors: "Marvin Schmitt, Paul-Christian B\xFCrkner, Ullrich K\xF6the, Stefan T.\
+    \ Radev"
+  publication_info_summary: "M Schmitt, PC B\xFCrkner, U K\xF6the, ST Radev - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2406.03154
+  snippet: "\u2026 enable efficient amortized Bayesian inference in settings where\
+    \ the likelihood function is only implicitly defined by a simulation program (simulation-based\
+    \ inference; SBI). \u2026"
+  journal: arxiv.org
+  arxiv_id: '2406.03154'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
