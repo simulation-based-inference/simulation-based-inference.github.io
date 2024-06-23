@@ -15045,7 +15045,7 @@
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
   journal: iopscience.iop.org
-  category: Astrophysics
+  category: Physics
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
@@ -15305,7 +15305,7 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
-  category: Astrophysics
+  category: Physics
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
@@ -15446,6 +15446,7 @@
     \ sampling over a broad wCDM prior volume and marginalising over uncertainties\
     \ on shape calibration, \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=17899039435843921984
   arxiv_id: '2405.10312'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -15673,3 +15674,98 @@
   arxiv_id: '2406.03154'
   arxiv_category_tag: cs.LG
   category: Computer Science
+- id: 1186
+  created_at: 2024-06-23 00:50:27.971607
+  published_on: 2024-06-17
+  title: Strong Gravitational Lensing Science in the Era of Large Astronomical Surveys
+  publication_info_summary: WJJ Poh - 2024 - knowledge.uchicago.edu
+  link: https://knowledge.uchicago.edu/record/12362
+  snippet: "Strong gravitational lensing occurs when light from a distant source is\
+    \ deflected by a massive object along its line of sight to an observer, causing\
+    \ the source image to \u2026"
+  journal: knowledge.uchicago.edu
+  category: Astrophysics
+  doi: https://knowledge.uchicago.edu/record/12362
+- id: 1187
+  created_at: 2024-06-23 00:50:31.915557
+  published_on: 2024-06-15
+  title: HaloFlow. I. Neural Inference of Halo Mass from Galaxy Photometry and Morphology
+  publication_info_summary: CH Hahn, C Bottrell, KG Lee - The Astrophysical Journal,
+    2024 - iopscience.iop.org
+  link: https://iopscience.iop.org/article/10.3847/1538-4357/ad4344/meta
+  snippet: "\u2026 HaloFlow uses simulation-based inference with normalizing flows\
+    \ to conduct rigorous Bayesian inference. It is trained on state-of-the-art synthetic\
+    \ galaxy images from \u2026"
+  journal: iopscience.iop.org
+  category: Astrophysics
+  doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad4344/meta
+- id: 1188
+  created_at: 2024-06-23 00:50:42.781106
+  published_on: 2024-06-09
+  title: GANSky -- fast curved sky weak lensing simulations using Generative Adversarial
+    Networks
+  authors: Supranta S. Boruah, Pier Fiedorowicz, Rafael Garcia, William R. Coulton,
+    Eduardo Rozo, Giulio Fabbian
+  publication_info_summary: "SS Boruah, P Fiedorowicz, R Garcia\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2406.05867
+  snippet: "\u2026 large ensembles of artificial data sets, our method can be used\
+    \ to extract non-Gaussian information from weak lensing data with field-level\
+    \ or simulation-based inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2406.05867'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1189
+  created_at: 2024-06-23 00:50:55.944284
+  published_on: 2024-06-07
+  title: Variational Inference with Coverage Guarantees in Simulation-Based Inference
+  publication_info_summary: "Y Patel, D McNamara, J Loper, J Regier\u2026 - Forty-first\
+    \ International \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=Wn4QwCrDvH
+  snippet: "\u2026 Finally, in Section 4, we show calibration and predictive efficiency\
+    \ across simulationbased inference benchmark tasks and an important scientific\
+    \ task: analyzing galaxy \u2026"
+  journal: openreview.net
+  category: Physics
+  doi: https://openreview.net/forum?id=Wn4QwCrDvH
+- id: 1190
+  created_at: 2024-06-23 00:51:46.301190
+  published_on: 2024-05-16
+  title: The frontiers of simulation-based inference (Part 1 of 2)
+  publication_info_summary: "G Louppe - PHYSTAT-SBI 2024-Simulation-based inference\
+    \ in \u2026, 2024 - orbi.uliege.be"
+  link: https://orbi.uliege.be/bitstream/2268/319774/2/talk-louppe-phystat2024.pdf
+  snippet: "Rouillard et al (2024):\" We demonstrate the ability of PAVI to tackle\
+    \ large neuroimaging hierarchical inference problems. For each of the 59000 vertices\
+    \ of every of the \u2026"
+  journal: orbi.uliege.be
+  category: Physics
+  doi: https://orbi.uliege.be/bitstream/2268/319774/2/talk-louppe-phystat2024.pdf
+- id: 1191
+  created_at: 2024-06-23 00:52:30.339173
+  published_on: 2024-05-04
+  title: Bridging Simulation-based Inference and Hierarchical Modeling Applications
+    in Neuroscience
+  publication_info_summary: L Rouillard - 2024 - theses.hal.science
+  link: https://theses.hal.science/tel-04612209/
+  snippet: "Neuroimaging investigates the brain's architecture and function using\
+    \ magnetic resonance (MRI). To make sense of the complex observed signal, Neuroscientists\
+    \ posit \u2026"
+  journal: theses.hal.science
+  category: Mathematics
+  doi: https://theses.hal.science/tel-04612209/
+- id: 1192
+  created_at: 2024-06-23 00:54:35.960018
+  published_on: 2024-03-12
+  title: Misspecification-robust Sequential Neural Likelihood for Simulation-based
+    Inference
+  publication_info_summary: "RP Kelly, DJ Nott, DT Frazier, DJ Warne\u2026 - Transactions\
+    \ on Machine \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=tbOYJwXhcY
+  snippet: "\u2026 Simulation-based inference techniques are indispensable for parameter\
+    \ estimation of mechanistic and simulable models with intractable likelihoods.\
+    \ While traditional \u2026"
+  journal: openreview.net
+  category: Physics
+  doi: https://openreview.net/forum?id=tbOYJwXhcY
