@@ -15045,7 +15045,7 @@
     \ approach to extract spectrum information on the basis of state-of-the-art wind\
     \ models. With an innovative \u2026"
   journal: iopscience.iop.org
-  category: Physics
+  category: Computer Science
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad34b3/meta
 - id: 1145
   created_at: 2024-03-31 00:45:54.718007
@@ -15246,6 +15246,7 @@
     \ of cosmic shear two-point statistics from the fourth weak gravitational lensing\
     \ data release of the \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=17753218698546125669
   arxiv_id: '2404.15402'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -15263,6 +15264,7 @@
     \ use throughout the paper, including neural posterior estimation (NPE), our hierarchical\
     \ inference \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=8318691811634515263
   arxiv_id: '2404.14487'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -15305,7 +15307,7 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
-  category: Physics
+  category: Computer Science
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
@@ -15769,3 +15771,70 @@
   journal: openreview.net
   category: Physics
   doi: https://openreview.net/forum?id=tbOYJwXhcY
+- id: 1193
+  created_at: 2024-06-30 00:52:01.488310
+  published_on: 2024-06-20
+  title: Latent Variable Sequence Identification for Cognitive Models with Neural
+    Bayes Estimation
+  authors: Ti-Fen Pan, Jing-Jing Li, Bill Thompson, Anne Collins
+  publication_info_summary: TF Pan, JJ Li, B Thompson, A Collins - arXiv preprint
+    arXiv:2406.14742, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2406.14742
+  snippet: "\u2026 Our work underscores that combining recurrent neural networks and\
+    \ simulation-based inference to identify latent variable sequences can enable\
+    \ researchers to access a \u2026"
+  journal: arxiv.org
+  arxiv_id: '2406.14742'
+  arxiv_category_tag: cs.LG
+  category: Geology
+- id: 1194
+  created_at: 2024-06-30 00:52:05.310960
+  published_on: 2024-06-20
+  title: Grasping under Uncertainties Sequential Neural Ratio Estimation for 6-DoF
+    Robotic Grasping
+  publication_info_summary: "N Marlier, O Br\xFCls, G Louppe - IEEE Robotics and Automation\
+    \ \u2026, 2024 - ieeexplore.ieee.org"
+  link: https://ieeexplore.ieee.org/abstract/document/10564008/
+  snippet: "\u2026 robotic grasping based on simulation-based inference. Our approach\
+    \ combines sequential neural ratio estimation with a neural implicit representation\
+    \ for the Bayesian \u2026"
+  journal: ieeexplore.ieee.org
+  category: Engineering
+  doi: https://ieeexplore.ieee.org/abstract/document/10564008/
+- id: 1195
+  created_at: 2024-06-30 00:52:17.776100
+  published_on: 2024-06-13
+  title: "V\xFDpo\u010Det aposteriorn\xED distribuce Bayesovskou optimalizac\xED"
+  publication_info_summary: "S \u0160imon - 2024 - dspace.cvut.cz"
+  link: https://dspace.cvut.cz/handle/10467/114905
+  snippet: "\u2026 We extend the method by extracting confidence regions to solve\
+    \ the simulation-based inference problem, and by designing a methodology to train\
+    \ multiple posteriors \u2026"
+  journal: dspace.cvut.cz
+  category: Astrophysics
+  doi: https://dspace.cvut.cz/handle/10467/114905
+- id: 1196
+  created_at: 2024-06-30 00:52:56.604095
+  published_on: 2024-05-30
+  title: Simulation-based inference for the physical sciences
+  publication_info_summary: G Louppe - Grenoble Artificial Intelligence for Physical
+    Sciences, 2024 - orbi.uliege.be
+  link: https://orbi.uliege.be/bitstream/2268/319773/2/talk-louppe-gap2024.pdf
+  snippet: "\u2026 Simulation-based inference \u2026 Simulation-based inference algorithms\
+    \ are needed. \u2026 Simulation-based inference is a major evolution in the statistical\
+    \ capabilities for \u2026"
+  journal: orbi.uliege.be
+  category: Physics
+  doi: https://orbi.uliege.be/bitstream/2268/319773/2/talk-louppe-gap2024.pdf
+- id: 1197
+  created_at: 2024-06-30 00:54:14.470711
+  published_on: 2024-04-30
+  title: MODELING CHOLERA TRANSMISSION DYNAMICS IN UVIRA, DEMOCRATIC REPUBLIC OF CONGO
+  publication_info_summary: M Shafquat - 2024 - jscholarship.library.jhu.edu
+  link: https://jscholarship.library.jhu.edu/items/7c73b1ba-a5db-4656-9ddf-12c4a8e740d3
+  snippet: "\u2026 Components of \U0001D6FD(\U0001D461) and the initial proportion\
+    \ in the R compartment were fit for each model using simulation-based inference.\
+    \ Fits were assessed by comparing simulated \u2026"
+  journal: jscholarship.library.jhu.edu
+  category: biophysics
+  doi: https://jscholarship.library.jhu.edu/items/7c73b1ba-a5db-4656-9ddf-12c4a8e740d3
