@@ -15838,3 +15838,17 @@
   journal: jscholarship.library.jhu.edu
   category: biophysics
   doi: https://jscholarship.library.jhu.edu/items/7c73b1ba-a5db-4656-9ddf-12c4a8e740d3
+- id: 1198
+  created_at: 2024-07-07 00:52:24.843444
+  published_on: 2024-06-27
+  title: Deriving the star formation histories of galaxies from spectra with simulation-based
+    inference
+  publication_info_summary: "P Iglesias-Navarro, M Huertas-Company\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - aanda.org"
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa49909-24.pdf
+  snippet: "\u2026 We explore a simulation-based inference (SBI) workflow to infer\
+    \ from optical absorption spectra the posterior distributions of metallicities\
+    \ and the star formation histories (\u2026"
+  journal: aanda.org
+  category: Computer Science
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa49909-24.pdf
