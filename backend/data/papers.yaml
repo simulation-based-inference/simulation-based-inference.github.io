@@ -15304,7 +15304,7 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
-  category: Robotics
+  category: Astronomy
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
@@ -15390,8 +15390,8 @@
   published_on: 2024-05-03
   title: Simulation-based Inference of Developmental EEG Maturation with the Spectral
     Graph Model
-  authors: Danilo Bernardo, Xihe Xie, Parul Verma, Jonathan Kim, Virginia Liu, Ye
-    Wu, Pew-Thian Yap, Srikantan Nagarajan, Ashish Raj
+  authors: Danilo Bernardo, Xihe Xie, Parul Verma, Jonathan Kim, Virginia Liu, Adam
+    Numis, Ye Wu, Hannah C. Glass, Pew-Thian Yap, Srikantan Nagarajan, Ashish Raj
   publication_info_summary: "D Bernardo, X Xie, P Verma, J Kim, V Liu, Y Wu\u2026\
     \ - arXiv preprint arXiv \u2026, 2024 - arxiv.org"
   link: https://arxiv.org/abs/2405.02524
@@ -15890,3 +15890,113 @@
   journal: matheo.uliege.be
   category: Physics
   doi: https://matheo.uliege.be/handle/2268.2/20393
+- id: 1202
+  created_at: 2024-07-21 00:53:00.676470
+  published_on: 2024-07-17
+  title: Biophysical Modeling and Experimental Analysis of the Dynamics of C. elegans
+    Body-Wall Muscle Cells
+  authors: Du, X.; Crodelle, J.; Barranca, V. J.; Li, S.; Shi, Y.; Gao, S.; Zhou,
+    D.
+  publication_info_summary: "X Du, J Crodelle, VJ Barranca, S Li, Y Shi, S Gao\u2026\
+    \ - bioRxiv, 2024 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2024.07.15.603498.abstract
+  snippet: "\u2026 To determine the free parameters of the model, we develop a simulation-based\
+    \ inference method with parallel sampling that aligns the model with the muscle\
+    \ cells\u2019 \u2026"
+  journal: biorxiv.org
+  category: Robotics
+  doi: 10.1101/2024.07.15.603498
+- id: 1203
+  created_at: 2024-07-21 00:53:06.060197
+  published_on: 2024-07-15
+  title: Optimal Neural Summarisation for Full-Field Weak Lensing Cosmological Implicit
+    Inference
+  authors: "Denise Lanzieri, Justine Zeghal, T. Lucas Makinen, Alexandre Boucaud,\
+    \ Jean-Luc Starck, Fran\xE7ois Lanusse"
+  publication_info_summary: "D Lanzieri, J Zeghal, TL Makinen, A Boucaud\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2407.10877
+  snippet: "\u2026 case at the cost of requiring a Simulation-Based Inference approach.\
+    \ In both cases, \u2026 , at fixed neural architecture and Simulation-Based Inference\
+    \ pipeline. To achieve this, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2407.10877'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1204
+  created_at: 2024-07-21 00:53:10.795930
+  published_on: 2024-07-15
+  title: Comparing AI versus Optimization Workflows for Simulation-Based Inference
+    of Spatial-Stochastic Systems
+  authors: Michael A. Ramirez-Sierra, Thomas R. Sokolowski
+  publication_info_summary: MA Ramirez-Sierra, TR Sokolowski - arXiv preprint arXiv:2407.10938,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2407.10938
+  snippet: "\u2026 Recently, modern deep-learning techniques have been integrated\
+    \ with simulation-based inference, creating an exciting new approach for estimating\
+    \ parameters of such \u2026"
+  journal: arxiv.org
+  arxiv_id: '2407.10938'
+  arxiv_category_tag: physics.bio-ph
+  category: Physics
+- id: 1205
+  created_at: 2024-07-21 00:53:14.730141
+  published_on: 2024-07-12
+  title: Simulation-based Inference on Virtual Brain Models of Disorders
+  publication_info_summary: "M Hashemi, A Ziaeemehr, MM Woodman\u2026 - Machine Learning\
+    \ \u2026, 2024 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
+  snippet: "\u2026 Simulation-based inference 207 The key challenge to perform an\
+    \ efficient Bayesian \u2026 Simulation-based Inference (SBI) 216 or likelihood-free\
+    \ inference performs efficient \u2026"
+  journal: iopscience.iop.org
+  category: Neuroscience
+  doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
+- id: 1206
+  created_at: 2024-07-21 00:53:19.280464
+  published_on: 2024-07-10
+  title: Modeling the Dynamics of the Mixture Effects of Organic Micropollutants in
+    Rivers
+  publication_info_summary: R Wei - 2024 - tobias-lib.ub.uni-tuebingen.de
+  link: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/154849
+  snippet: "\u2026 the ADR and estimate parameter values for the mixture effects,\
+    \ for which I applied the deep learning-based Bayesian optimization method, simulation-based\
+    \ inference (SBI\u2026"
+  journal: tobias-lib.ub.uni-tuebingen.de
+  category: Environmental Science
+  doi: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/154849
+- id: 1207
+  created_at: 2024-07-21 00:53:23.731515
+  published_on: 2024-07-10
+  title: Simulation-Based Inference with Bayesian Deep Learning
+  publication_info_summary: M de la Brassinne Bonardeaux - matheo.uliege.be
+  link: https://matheo.uliege.be/zip/2268.2/20480
+  snippet: "Simulation-Based Inference (SBI) involves estimating parameters \u03B8\
+    \ of a simulator that are compatible with the observations x without evaluating\
+    \ the likelihood of the data. \u2026"
+  category: Computer Science
+  doi: https://matheo.uliege.be/zip/2268.2/20480
+- id: 1208
+  created_at: 2024-07-21 00:53:27.957965
+  published_on: 2024-07-09
+  title: Exoplanet Orbital Characterization Using Simulation-Based Inference
+  publication_info_summary: M Ruth, PO Absil, PG Louppe - matheo.uliege.be
+  link: https://matheo.uliege.be/zip/2268.2/20393
+  snippet: "\u2026 This thesis aims at leveraging advances in deep learning, particularly\
+    \ simulation-based inference, to enhance the orbital parameter characterization\
+    \ of exoplanets. The \u2026"
+  category: Physics
+  doi: https://matheo.uliege.be/zip/2268.2/20393
+- id: 1209
+  created_at: 2024-07-21 00:53:49.343040
+  published_on: 2024-06-24
+  title: Master thesis Conservative Simulation-Based Inference with Bayesian Deep
+    Learning
+  publication_info_summary: M de la Brassinne Bonardeaux - 2024 - matheo.uliege.be
+  link: https://matheo.uliege.be/bitstream/2268.2/20480/7/resume.pdf
+  snippet: "Simulation-Based Inference (SBI) involves estimating parameters \u03B8\
+    \ of a simulator that are compatible with the observations x without evaluating\
+    \ the likelihood of the data. \u2026"
+  journal: matheo.uliege.be
+  category: Mathematics
+  doi: https://matheo.uliege.be/bitstream/2268.2/20480/7/resume.pdf
