@@ -15304,7 +15304,7 @@
     \ cosmological inference \u2026"
   journal: APS
   citation_backlink: https://scholar.google.com/scholar?cites=9861846342323843435
-  category: Astronomy
+  category: Neuroscience
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.083534
 - id: 1162
   created_at: 2024-05-05 00:46:20.487535
@@ -16000,3 +16000,69 @@
   journal: matheo.uliege.be
   category: Mathematics
   doi: https://matheo.uliege.be/bitstream/2268.2/20480/7/resume.pdf
+- id: 1210
+  created_at: 2024-07-28 00:53:22.617561
+  published_on: 2024-07-24
+  title: Population-level Dark Energy Constraints from Strong Gravitational Lensing
+    using Simulation-Based Inference
+  authors: "Sreevani Jarugula, Brian Nord, Abhijith Gandrakota, Aleksandra \u0106\
+    iprijanovi\u0107"
+  publication_info_summary: "S Jarugula, B Nord, A Gandrakota\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2407.17292
+  snippet: "\u2026 a scalable approach for inferring the dark energy equation-of-state\
+    \ parameter (w) from a population of strong gravitational lens images using Simulation-Based\
+    \ Inference (\u2026"
+  journal: arxiv.org
+  arxiv_id: '2407.17292'
+  arxiv_category_tag: astro-ph.IM
+  category: Astronomy
+- id: 1211
+  created_at: 2024-07-28 00:53:27.447694
+  published_on: 2024-07-23
+  title: A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors (with
+    Applications to Calibration, Regression Curves, and Simulation-Based Inference)
+  authors: Anirban Chatterjee, Ziang Niu, Bhaswar B. Bhattacharya
+  publication_info_summary: A Chatterjee, Z Niu, BB Bhattacharya - arXiv preprint
+    arXiv:2407.16550, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2407.16550
+  snippet: "\u2026 Specifically, we explore three applications: testing model calibration,\
+    \ regression curve evaluation, and validation of emulator models in simulation-based\
+    \ inference. We \u2026"
+  journal: arxiv.org
+  arxiv_id: '2407.16550'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1212
+  created_at: 2024-07-28 00:53:32.071603
+  published_on: 2024-07-22
+  title: Accounting for Selection Effects in Supernova Cosmology with Simulation-Based
+    Inference and Hierarchical Bayesian Modelling
+  authors: Benjamin M. Boyd, Matthew Grayling, Stephen Thorp, Kaisey S. Mandel
+  publication_info_summary: "BM Boyd, M Grayling, S Thorp, KS Mandel - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2407.15923
+  snippet: "\u2026 The auxiliary density can be learnt with simulation-based inference\
+    \ as we describe in Section 2.2 or for some special cases derive it analytically\
+    \ as we do in Section 2.3\u2026"
+  journal: arxiv.org
+  arxiv_id: '2407.15923'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1213
+  created_at: 2024-07-28 00:53:36.821034
+  published_on: 2024-07-19
+  title: Fast and Flexible Inference Framework for Continuum Reverberation Mapping
+    using Simulation-based Inference with Deep Learning
+  authors: Jennifer I-Hsiu Li, Sean D. Johnson, Camille Avestruz, Sreevani Jarugula,
+    Yue Shen, Elise Kesler, Zhuoqi Will Liu, Nishant Mishra
+  publication_info_summary: "JI Li, SD Johnson, C Avestruz, S Jarugula\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2407.14621
+  snippet: "\u2026 In this paper, we present a fast and flexible inference framework\
+    \ for CRM using simulation-based inference (SBI) with deep learning to estimate\
+    \ SMBH properties from \u2026"
+  journal: arxiv.org
+  arxiv_id: '2407.14621'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
