@@ -16066,3 +16066,103 @@
   arxiv_id: '2407.14621'
   arxiv_category_tag: astro-ph.GA
   category: Astrophysics
+- id: 1214
+  created_at: 2024-08-04 00:54:00.626636
+  published_on: 2024-07-29
+  title: Finding excesses in model parameter space
+  authors: Kierthika Chathirathas, Torben Ferber, Felix Kahlhoefer, Alessandro Morandini
+  publication_info_summary: "K Chathirathas, T Ferber, F Kahlhoefer\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2407.20329
+  snippet: "\u2026 , the optimal sensitivity to new physics may be obtained by directly\
+    \ analysing the low-level features of individual events using the methods of simulationbased\
+    \ inference (\u2026"
+  journal: arxiv.org
+  arxiv_id: '2407.20329'
+  arxiv_category_tag: hep-ph
+  category: Neuroscience
+- id: 1215
+  created_at: 2024-08-04 00:54:04.548948
+  published_on: 2024-07-27
+  title: Inferring the assembly and merger histories of galaxies with the IllustrisTNG
+    simulations and machine learning
+  publication_info_summary: L Eisert - 2024 - archiv.ub.uni-heidelberg.de
+  link: https://archiv.ub.uni-heidelberg.de/volltextserver/35162/
+  snippet: "\u2026 Remarkably, our findings demonstrate sufficient similarity between\
+    \ the simulated and observed images to justify the idea of simulation-based inference\
+    \ with images. \u2026"
+  journal: archiv.ub.uni-heidelberg.de
+  category: Astrophysics
+  doi: https://archiv.ub.uni-heidelberg.de/volltextserver/35162/
+- id: 1216
+  created_at: 2024-08-04 00:54:10.245721
+  published_on: 2024-07-26
+  title: Fast and Reliable Probabilistic Reflectometry Inversion with Prior-Amortized
+    Neural Posterior Estimation
+  authors: "Vladimir Starostin, Maximilian Dax, Alexander Gerlach, Alexander Hinderhofer,\
+    \ \xC1lvaro Tejero-Cantero, Frank Schreiber"
+  publication_info_summary: "V Starostin, M Dax, A Gerlach, A Hinderhofer\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2407.18648
+  snippet: "\u2026 Our method, Prior-Amortized Neural Posterior Estimation (PANPE),\
+    \ combines simulation-based inference with novel adaptive priors that inform the\
+    \ inference network \u2026"
+  journal: arxiv.org
+  arxiv_id: '2407.18648'
+  arxiv_category_tag: physics.app-ph
+  category: Physics
+- id: 1217
+  created_at: 2024-08-04 00:54:15.247184
+  published_on: 2024-07-25
+  title: Amortized template-matching of molecular conformations from cryo-electron
+    microscopy images using simulation-based inference
+  authors: Dingeldein, L.; Silva-Sanchez, D.; Evans, L.; D'Imprima, E.; Grigorieff,
+    N.; Covino, R.; Cossio, P.
+  publication_info_summary: "L Dingeldein, D Silva-Sanchez, L Evans, E D'Imprima\u2026\
+    \ - bioRxiv, 2024 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2024.07.23.604154.abstract
+  snippet: "\u2026 Here, we introduce cryo-EM simulation-based inference (cryoSBI)\
+    \ to infer the \u2026 CryoSBI builds on simulation-based inference, a combination\
+    \ of physics-based \u2026"
+  journal: biorxiv.org
+  category: Biophysics
+  doi: 10.1101/2024.07.23.604154
+- id: 1218
+  created_at: 2024-08-04 00:54:43.429524
+  published_on: 2024-07-12
+  title: Simulation-based inference on virtual brain models of disorders
+  publication_info_summary: "M Hashemi, A Ziaeemehr, MM Woodman\u2026 - Machine Learning\
+    \ \u2026, 2024 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
+  snippet: "\u2026 Simulation-based inference 207 The key challenge to perform an\
+    \ efficient Bayesian \u2026 Simulation-based Inference (SBI) 216 or likelihood-free\
+    \ inference performs efficient \u2026"
+  journal: iopscience.iop.org
+  category: Neuroscience
+  doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
+- id: 1219
+  created_at: 2024-08-04 00:56:33.682768
+  published_on: 2024-06-01
+  title: Exploration of the AdEx parameter space through simulation and simulation-based-inference
+  publication_info_summary: J Huhle - 2024 - kip.uni-heidelberg.de
+  link: https://www.kip.uni-heidelberg.de/vision/publications/reports/report_jhuhle.pdf
+  snippet: "\u2026 To achieve this, we leverage simulation-based inference, specifically\
+    \ the Sequential Neural Posterior Estimation (SNPE) algorithm (Greenberg, Nonnenmacher,\
+    \ and \u2026"
+  journal: kip.uni-heidelberg.de
+  category: Environmental Science
+  doi: https://www.kip.uni-heidelberg.de/vision/publications/reports/report_jhuhle.pdf
+- id: 1220
+  created_at: 2024-08-04 00:57:38.401861
+  published_on: 2024-05-04
+  title: Simulation-based inference of developmental EEG maturation with the spectral
+    graph model
+  publication_info_summary: "D Bernardo, X Xie, P Verma, J Kim, V Liu\u2026 - Communications\
+    \ \u2026, 2024 - nature.com"
+  link: https://www.nature.com/articles/s42005-024-01748-w
+  snippet: "\u2026 We utilize simulation-based inference (SBI) with neural density\
+    \ estimation to approximate age-varying Spectral Graph Model (SGM) parameter posterior\
+    \ distributions from \u2026"
+  journal: nature.com
+  category: Computer Science
+  doi: https://www.nature.com/articles/s42005-024-01748-w
