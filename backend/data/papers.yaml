@@ -15638,6 +15638,7 @@
     \ simulation, such as at the HL-LHC (High Luminosity LHC), to simulation-based\
     \ inference and fine-\u2026"
   journal: nature.com
+  citation_backlink: https://scholar.google.com/scholar?cites=18294250172985470118
   category: Physics
   doi: https://www.nature.com/articles/s41467-024-49104-4
 - id: 1184
@@ -16118,7 +16119,7 @@
     microscopy images using simulation-based inference
   authors: Dingeldein, L.; Silva-Sanchez, D.; Evans, L.; D'Imprima, E.; Grigorieff,
     N.; Covino, R.; Cossio, P.
-  publication_info_summary: "L Dingeldein, D Silva-Sanchez, L Evans, E D'Imprima\u2026\
+  publication_info_summary: "L Dingeldein, D Silva-S\xE1nchez, L Evans, E D'Imprima\u2026\
     \ - bioRxiv, 2024 - biorxiv.org"
   link: https://www.biorxiv.org/content/10.1101/2024.07.23.604154.abstract
   snippet: "\u2026 Here, we introduce cryo-EM simulation-based inference (cryoSBI)\
@@ -16166,3 +16167,163 @@
   journal: nature.com
   category: Computer Science
   doi: https://www.nature.com/articles/s42005-024-01748-w
+- id: 1221
+  created_at: 2024-08-11 00:54:15.489956
+  published_on: 2024-08-08
+  title: Understanding Evolution with Simulations Three Tales about Trees
+  publication_info_summary: M Rodrigues - 2024 - scholarsbank.uoregon.edu
+  link: https://scholarsbank.uoregon.edu/xmlui/handle/1794/29708
+  snippet: "\u2026 In this dissertation, I pushed the boundaries on how simulation-based\
+    \ inference can be applied in evolutionary genetics. To mitigate the costs associated\
+    \ with simulations, \u2026"
+  journal: scholarsbank.uoregon.edu
+  category: Neuroscience
+  doi: https://scholarsbank.uoregon.edu/xmlui/handle/1794/29708
+- id: 1222
+  created_at: 2024-08-11 00:54:19.560789
+  published_on: 2024-08-08
+  title: Kilonova Spectral Inverse Modelling with Simulation-based Inference An Amortized
+    Neural Posterior Estimation Analysis
+  publication_info_summary: "P Darc, CR Bom, B Fraga\u2026 - The Astrophysical \u2026\
+    , 2024 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.3847/1538-4357/ad53c7/meta
+  snippet: "\u2026 We argue that simulation-based inference should rather produce\
+    \ conservative posterior distributions to guarantee a reliable and meaningful\
+    \ inference. An overconfident \u2026"
+  journal: iopscience.iop.org
+  citation_backlink: https://scholar.google.com/scholar?cites=676186540980037480
+  category: Physics
+  doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad53c7/meta
+- id: 1223
+  created_at: 2024-08-11 00:54:24.451365
+  published_on: 2024-08-06
+  title: An Introduction to Bayesian Simulation-Based Inference for Quantum Machine
+    Learning with Examples
+  publication_info_summary: I Nikoloska, O Simeone - Frontiers in Quantum Science
+    and Technology - frontiersin.org
+  link: https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2024.1394533/abstract
+  snippet: "\u2026 The problem of designing algorithms that optimize the simulator\
+    \ parameters is the focus of the emerging field of simulation-based inference\
+    \ (SBI), which is often formulated \u2026"
+  journal: frontiersin.org
+  category: quantum computing
+  doi: https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2024.1394533/abstract
+- id: 1224
+  created_at: 2024-08-11 00:54:30.131991
+  published_on: 2024-08-01
+  title: Leveraging Time-Dependent Instrumental Noise for LISA SGWB Analysis
+  authors: James Alvey, Uddipta Bhardwaj, Valerie Domcke, Mauro Pieroni, Christoph
+    Weniger
+  publication_info_summary: "J Alvey, U Bhardwaj, V Domcke, M Pieroni\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2408.00832
+  snippet: "\u2026 We propose that simulation based inference is well suited for this\
+    \ challenge. In an approximate, but state-of-the-art, modeling setup, we show\
+    \ by comparison with Fisher \u2026"
+  journal: arxiv.org
+  arxiv_id: '2408.00832'
+  arxiv_category_tag: gr-qc
+  category: Physics
+- id: 1225
+  created_at: 2024-08-11 00:55:51.875397
+  published_on: 2024-07-01
+  title: DBNets simulation-based inference of young planets' masses in dusty discs
+    with deep learning
+  publication_info_summary: A Ruzza, G Lodato, G Rosotti - EAS2024, 2024 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2024eas..conf.1129R/abstract
+  snippet: "\u2026 In our recently developed tool DBNets, now publicly available,\
+    \ we implemented a simulation-based-inference pipeline that exploits state-of-the-art\
+    \ deep learning \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astrophysics
+  doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf.1129R/abstract
+- id: 1226
+  created_at: 2024-08-11 00:55:55.914590
+  published_on: 2024-07-01
+  title: AI-enabled Insights into Galaxy Evolution
+  publication_info_summary: "S Deger, J Alsing, H Peiris, S Thorp, B Leistedt\u2026\
+    \ - \u2026, 2024 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2024eas..conf..520D/abstract
+  snippet: "\u2026 This high-dimensional fitting, complete with data-driven noise\
+    \ modeling and flexible selection effects, is achieved via a novel use of simulation-based\
+    \ inference. Sampling \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astronomy
+  doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf..520D/abstract
+- id: 1227
+  created_at: 2024-08-11 00:56:00.586920
+  published_on: 2024-07-01
+  title: Pop-cosmos comprehensive forward modelling of photometric galaxy survey data
+  publication_info_summary: "S Thorp, J Alsing, S Deger, H Peiris, B Leistedt\u2026\
+    \ - \u2026, 2024 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2024eas..conf...47T/abstract
+  snippet: "\u2026 This naturally enables us to use simulation-based inference to\
+    \ solve the inverse problem of calibrating the population-level prior on physical\
+    \ parameters from a deep \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astrophysics
+  doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf...47T/abstract
+- id: 1228
+  created_at: 2024-08-11 00:56:05.204821
+  published_on: 2024-07-01
+  title: Correcting for Malmquist Bias in Type Ia Supernova Cosmology Using Simulation
+    Based Inference and Hierarchical Bayesian Modelling
+  publication_info_summary: B Boyd, K Mandel, M Grayling - EAS2024, 2024 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2024eas..conf..696B/abstract
+  snippet: "\u2026 I will then outline our own method that combines simulation-based\
+    \ inference and hierarchical Bayesian modelling. The method involves using a flexible\
+    \ normalising flow to \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astrophysics
+  doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf..696B/abstract
+- id: 1229
+  created_at: 2024-08-11 00:56:09.853671
+  published_on: 2024-07-01
+  title: ERGO-ML Uncovering the assembly histories of HSC galaxies directly from images
+    via simulation-based inference and cosmological simulations
+  publication_info_summary: L Eisert, A Pillepich, C Bottrell - EAS2024, 2024 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2024eas..conf.2132E/abstract
+  snippet: "A fundamental prediction of the LambdaCDM cosmology is the hierarchical\
+    \ build-up of structure and therefore the successive merging of galaxies into\
+    \ more massive ones. \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astronomy
+  doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf.2132E/abstract
+- id: 1230
+  created_at: 2024-08-11 00:56:14.489228
+  published_on: 2024-07-01
+  title: Simulation-based inference for astrophysical data
+  publication_info_summary: N Anau Montel - EAS2024, 2024 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2024eas..conf.2620A/abstract
+  snippet: "\u2026 In recent years, there has been a remarkable development of simulation-based\
+    \ inference (SBI) algorithms, now applied across a wide range of astrophysical\
+    \ problems. \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astrophysics
+  doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf.2620A/abstract
+- id: 1231
+  created_at: 2024-08-11 00:56:19.154210
+  published_on: 2024-07-01
+  title: Constraining in-situ vs. ex-situ stellar mass in nearby galaxies with simulation-based
+    inference
+  publication_info_summary: "E Angeloudi, J Falc\xF3n-Barroso, A Boecker\u2026 - \u2026\
+    , 2024 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2024eas..conf.1948A/abstract
+  snippet: "\u2026 Simulation-based inference (SBI), when approached with care, offers\
+    \ a promising avenue for bridging this gap by leveraging simulations to predict\
+    \ unobservable \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astrophysics
+  doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf.1948A/abstract
+- id: 1232
+  created_at: 2024-08-11 00:56:23.904357
+  published_on: 2024-07-01
+  title: Fast, robust and optimal inference for 21cm cosmology with the SKA
+  publication_info_summary: C Heneka - EAS2024, 2024 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2024eas..conf..612H/abstract
+  snippet: "\u2026 I will then introduce our simulation-based inference framework\
+    \ based on a specific \u2026 In the case of simulation-based inference from 21cm\
+    \ maps, the method presented is \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astronomy
+  doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf..612H/abstract
