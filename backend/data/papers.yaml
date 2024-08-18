@@ -16130,14 +16130,14 @@
   doi: 10.1101/2024.07.23.604154
 - id: 1218
   created_at: 2024-08-04 00:54:43.429524
-  published_on: 2024-07-12
+  published_on: 2024-07-13
   title: Simulation-based inference on virtual brain models of disorders
   publication_info_summary: "M Hashemi, A Ziaeemehr, MM Woodman\u2026 - Machine Learning\
     \ \u2026, 2024 - iopscience.iop.org"
   link: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
-  snippet: "\u2026 Simulation-based inference 207 The key challenge to perform an\
-    \ efficient Bayesian \u2026 Simulation-based Inference (SBI) 216 or likelihood-free\
-    \ inference performs efficient \u2026"
+  snippet: "\u2026 Here we present simulation-based inference on VBMs (SBI-VBMs),\
+    \ and demonstrate that training deep neural networks on both spatio-temporal and\
+    \ functional features \u2026"
   journal: iopscience.iop.org
   category: Neuroscience
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
@@ -16327,3 +16327,16 @@
   journal: ui.adsabs.harvard.edu
   category: Astronomy
   doi: https://ui.adsabs.harvard.edu/abs/2024eas..conf..612H/abstract
+- id: 1233
+  created_at: 2024-08-18 00:53:43.613331
+  published_on: 2024-08-02
+  title: arXiv Leveraging Time-Dependent Instrumental Noise for LISA SGWB Analysis
+  publication_info_summary: J Alvey, V Domcke, U Bhardwaj, M Pieroni, C Weniger -
+    2024 - cds.cern.ch
+  link: https://cds.cern.ch/record/2906389
+  snippet: "\u2026 We propose that simulation based inference is well suited for this\
+    \ challenge. In an approximate, but state-of-the-art, modeling setup, we show\
+    \ by comparison with Fisher \u2026"
+  journal: cds.cern.ch
+  category: Physics
+  doi: https://cds.cern.ch/record/2906389
