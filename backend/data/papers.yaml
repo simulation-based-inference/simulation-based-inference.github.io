@@ -15497,16 +15497,17 @@
   category: Physics
 - id: 1174
   created_at: 2024-05-19 00:48:26.241948
-  published_on: 2024-05-14
+  published_on: 2024-07-03
   title: Non-Parameteric Conformal Distributionally Robust Optimization
-  publication_info_summary: GK Cao - 2024 - ambujtewari.com
-  link: https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf
-  snippet: "\u2026 To demonstrate the versatility and power of the CRDO framework,\
-    \ we apply it to a series of benchmark tasks within the realm of simulation-based\
-    \ inference to showcase \u2026"
-  journal: ambujtewari.com
+  publication_info_summary: "Y Patel, G Cao, A Tewari - ICML 2024 Workshop on Structured\
+    \ Probabilistic \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=WavglEUVTR
+  snippet: "\u2026 Simulation-based inference leverages amortized variational inference\
+    \ algorithms to perform posterior estimation in scientific domains, often over\
+    \ hundreds or thousands of \u2026"
+  journal: openreview.net
   category: Mathematics
-  doi: https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf
+  doi: https://openreview.net/forum?id=WavglEUVTR
 - id: 1175
   created_at: 2024-05-26 00:48:58.156849
   published_on: 2024-05-21
@@ -16340,3 +16341,17 @@
   journal: cds.cern.ch
   category: Physics
   doi: https://cds.cern.ch/record/2906389
+- id: 1234
+  created_at: 2024-08-25 00:54:47.179223
+  published_on: 2024-08-22
+  title: Cosmological constraints from non-Gaussian and nonlinear galaxy clustering
+    using the SimBIG inference framework
+  publication_info_summary: "CH Hahn, P Lemos, L Parker\u2026 - Nature \u2026, 2024\
+    \ - nature.com"
+  link: https://www.nature.com/articles/s41550-024-02344-2
+  snippet: "\u2026 Here we present a set of cosmological constraints using simulation-based\
+    \ inference that exploits additional non-Gaussian information on nonlinear scales\
+    \ from galaxy \u2026"
+  journal: nature.com
+  category: Astrophysics
+  doi: https://www.nature.com/articles/s41550-024-02344-2
