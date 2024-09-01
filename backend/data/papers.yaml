@@ -16355,3 +16355,63 @@
   journal: nature.com
   category: Astrophysics
   doi: https://www.nature.com/articles/s41550-024-02344-2
+- id: 1235
+  created_at: 2024-09-01 01:00:52.583435
+  published_on: 2024-08-27
+  title: Low-Budget Simulation-Based Inference with Bayesian Neural Networks
+  authors: Arnaud Delaunoy, Maxence de la Brassinne Bonardeaux, Siddharth Mishra-Sharma,
+    Gilles Louppe
+  publication_info_summary: "A Delaunoy, MB Bonardeaux, S Mishra-Sharma\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2408.15136
+  snippet: "\u2026 Simulation-based inference methods have been shown \u2026 low-budget\
+    \ simulation-based inference, thereby explicitly \u2026 of performing reliable\
+    \ simulation-based inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2408.15136'
+  arxiv_category_tag: stat.ML
+  category: life sciences
+- id: 1236
+  created_at: 2024-09-01 01:00:56.595303
+  published_on: 2024-08-28
+  title: Simulation-Based Inference of High Field Side Scrape-Off Layer Filament Characteristics
+    using Profile Reflectometry
+  publication_info_summary: E Leppink, S Wukitch - Bulletin of the American Physical
+    Society, 2024 - APS
+  link: https://meetings.aps.org/Meeting/DPP24/Session/TO07.5
+  snippet: "APS -66th Annual Meeting of the APS Division of Plasma Physics - Event\
+    \ - Simulation-Based Inference of High Field Side Scrape-Off Layer Filament Characteristics\
+    \ \u2026"
+  journal: APS
+  category: Physics
+  doi: https://meetings.aps.org/Meeting/DPP24/Session/TO07.5
+- id: 1237
+  created_at: 2024-09-01 01:01:02.082193
+  published_on: 2024-08-23
+  title: Amortized Bayesian Multilevel Models
+  authors: "Daniel Habermann, Marvin Schmitt, Lars K\xFChmichel, Andreas Bulling,\
+    \ Stefan T. Radev, Paul-Christian B\xFCrkner"
+  publication_info_summary: "D Habermann, M Schmitt, L K\xFChmichel\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2408.13230
+  snippet: "\u2026 Recent advances in simulation-based inference offer promising solutions\
+    \ for addressing complex probabilistic models using deep generative networks.\
+    \ However, the utility \u2026"
+  journal: arxiv.org
+  arxiv_id: '2408.13230'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1238
+  created_at: 2024-09-01 01:04:43.624898
+  published_on: 2024-06-01
+  title: Overlapping E/I neuronal assemblies generate rich network dynamics and enable
+    complex computations
+  publication_info_summary: "E Giannakakis, V Buendia, O Vinogradov\u2026 - Research\
+    \ in Encoding \u2026, 2024 - pure.mpg.de"
+  link: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_3608469
+  snippet: "\u2026 Finally, we use simulation-based inference [2] to evaluate the\
+    \ interaction between the speci- ficity of E and I input, the relative strength\
+    \ of E and I assemblies, and the \u2026"
+  journal: pure.mpg.de
+  category: Physics
+  doi: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_3608469
