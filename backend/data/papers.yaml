@@ -15839,18 +15839,18 @@
   doi: https://jscholarship.library.jhu.edu/items/7c73b1ba-a5db-4656-9ddf-12c4a8e740d3
 - id: 1198
   created_at: 2024-07-07 00:52:24.843444
-  published_on: 2024-06-27
+  published_on: 2024-06-29
   title: Deriving the star formation histories of galaxies from spectra with simulation-based
     inference
-  publication_info_summary: "P Iglesias-Navarro, M Huertas-Company\u2026 - arXiv preprint\
-    \ arXiv \u2026, 2024 - aanda.org"
-  link: https://www.aanda.org/articles/aa/pdf/forth/aa49909-24.pdf
+  publication_info_summary: "P Iglesias-Navarro, I Mart\xEDn-Navarro\u2026 - Astronomy\
+    \ & \u2026, 2024 - aanda.org"
+  link: https://www.aanda.org/articles/aa/abs/2024/09/aa49909-24/aa49909-24.html
   snippet: "\u2026 We explore a simulation-based inference (SBI) workflow to infer\
     \ from optical absorption spectra the posterior distributions of metallicities\
     \ and the star formation histories (\u2026"
   journal: aanda.org
   category: Computer Science
-  doi: https://www.aanda.org/articles/aa/pdf/forth/aa49909-24.pdf
+  doi: https://www.aanda.org/articles/aa/abs/2024/09/aa49909-24/aa49909-24.html
 - id: 1199
   created_at: 2024-07-14 00:53:10.382102
   published_on: 2024-07-04
@@ -16373,7 +16373,7 @@
   category: life sciences
 - id: 1236
   created_at: 2024-09-01 01:00:56.595303
-  published_on: 2024-08-28
+  published_on: 2024-08-27
   title: Simulation-Based Inference of High Field Side Scrape-Off Layer Filament Characteristics
     using Profile Reflectometry
   publication_info_summary: E Leppink, S Wukitch - Bulletin of the American Physical
@@ -16415,3 +16415,109 @@
   journal: pure.mpg.de
   category: Physics
   doi: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_3608469
+- id: 1239
+  created_at: 2024-09-08 00:57:12.599903
+  published_on: 2024-09-03
+  title: Dimensionality Reduction Techniques for Statistical Inference in Cosmology
+  authors: Minsu Park, Marco Gatti, Bhuvnesh Jain
+  publication_info_summary: M Park, M Gatti, B Jain - arXiv preprint arXiv:2409.02102,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2409.02102
+  snippet: "\u2026 we obtain are significant compared to compression methods used\
+    \ in the literature: up to 30% in the Figure of Merit for \u2126m and S8 in a\
+    \ realistic Simulation Based Inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.02102'
+  arxiv_category_tag: astro-ph.CO
+  category: Physics
+- id: 1240
+  created_at: 2024-09-08 00:57:17.412544
+  published_on: 2024-09-03
+  title: Inferring Cosmological Parameters on SDSS via Domain-Generalized Neural Networks
+    and Lightcone Simulations
+  authors: Jun-Young Lee, Ji-hoon Kim, Minyong Jung, Boon Kiat Oh, Yongseok Jo, Songyoun
+    Park, Jaehyun Lee, Yuan-Sen Ting, Ho Seong Hwang
+  publication_info_summary: "JY Lee, J Kim, M Jung, BK Oh, Y Jo, S Park\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2409.02256
+  snippet: "\u2026 ABSTRACT We present a proof-of-concept simulation-based inference\
+    \ on \u03A9m and \u03C38 from the SDSS BOSS LOWZ NGC catalog using neural networks\
+    \ and domain \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.02256'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+  doi: 10.3847/1538-4357/ad73d4
+- id: 1241
+  created_at: 2024-09-08 00:57:22.285503
+  published_on: 2024-09-02
+  title: Cosmology from HSC Y1 Weak Lensing with Combined Higher-Order Statistics
+    and Simulation-based Inference
+  authors: Camila P. Novaes, Leander Thiele, Joaquin Armijo, Sihao Cheng, Jessica
+    A. Cowell, Gabriela A. Marques, Elisa G. M. Ferreira, Masato Shirasaki, Ken Osato,
+    Jia Liu
+  publication_info_summary: "CP Novaes, L Thiele, J Armijo, S Cheng\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2409.01301
+  snippet: "\u2026 Here, instead, we forward model the summary statistics of HSC Y1\
+    \ and perform a simulationbased inference (SBI) [17], also known as likelihood-free\
+    \ or implicit-likelihood \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.01301'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1242
+  created_at: 2024-09-08 00:57:26.310956
+  published_on: 2024-08-31
+  title: Model-based inference of a dual role for HOPS in regulating guard cell vacuole
+    fusion
+  publication_info_summary: "C Hodgens, DT Flaherty, AM Pullen, I Khan\u2026 - in\
+    \ silico \u2026, 2024 - academic.oup.com"
+  link: https://academic.oup.com/insilicoplants/advance-article-abstract/doi/10.1093/insilicoplants/diae015/7745613
+  snippet: "\u2026 In lieu of immediately committing significant resources to gather\
+    \ quantitative data, we sought to inform the kinetics of molecular events by simulation-based\
+    \ inference (\u2026"
+  journal: academic.oup.com
+  category: cell biology
+  doi: https://academic.oup.com/insilicoplants/advance-article-abstract/doi/10.1093/insilicoplants/diae015/7745613
+- id: 1243
+  created_at: 2024-09-08 00:57:30.973197
+  published_on: 2024-08-30
+  title: Building Virtual Patients Using Simulation-Based Inference
+  publication_info_summary: "N Paul, V Karamitsou, C Giegerich, A Sadeghi\u2026 -\
+    \ Frontiers in Systems \u2026 - frontiersin.org"
+  link: https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2024.1444912/full
+  snippet: "\u2026 In this work, we investigate the applicability of simulation-based\
+    \ inference (SBI), an advanced probabilistic machine learning approach, for virtual\
+    \ patient generation from \u2026"
+  journal: frontiersin.org
+  category: Computer Science
+  doi: https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2024.1444912/full
+- id: 1244
+  created_at: 2024-09-08 00:57:49.422402
+  published_on: 2024-08-22
+  title: Teaching Materials and Classroom Practices for Simulation-Based Statistical
+    Inference
+  publication_info_summary: "J DOI, M HASHIMOTO, Y NAKAJIMA\u2026 - Journal of Japan\
+    \ \u2026, 2024 - jimmydoi.github.io"
+  link: https://jimmydoi.github.io/files/2024_SBI_STUB_ENG.pdf
+  snippet: "\u2026 In this paper we introduce two newly translated statistics lessons\
+    \ that use the simulation-based inference (SBI) approach for hypothesis testing.\
+    \ The first SBI lesson focuses \u2026"
+  journal: jimmydoi.github.io
+  category: Physics
+  doi: https://jimmydoi.github.io/files/2024_SBI_STUB_ENG.pdf
+- id: 1245
+  created_at: 2024-09-08 00:58:05.861867
+  published_on: 2024-08-06
+  title: An introduction to Bayesian simulation-based inference for quantum machine
+    learning with examples
+  publication_info_summary: "I Nikoloska, O Simeone - Frontiers in Quantum Science\
+    \ and \u2026, 2024 - frontiersin.org"
+  link: https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2024.1394533/full
+  snippet: "\u2026 The problem of designing algorithms that optimize the simulator\
+    \ parameters is the focus of the emerging field of simulation-based inference\
+    \ (SBI), which is often formulated \u2026"
+  journal: frontiersin.org
+  category: Astrophysics
+  doi: https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2024.1394533/full
