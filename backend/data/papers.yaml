@@ -15598,20 +15598,18 @@
   category: Computer Science
 - id: 1181
   created_at: 2024-06-09 00:51:17.278481
-  published_on: 2024-06-01
+  published_on: 2024-06-06
   title: Efficient Massive Black Hole Binary parameter estimation for LISA using Sequential
     Neural Likelihood
-  authors: "Iv\xE1n Mart\xEDn V\xEDlchez, Carlos F. Sopuerta"
-  publication_info_summary: "IM V\xEDlchez, CF Sopuerta - arXiv preprint arXiv:2406.00565,\
-    \ 2024 - arxiv.org"
-  link: https://arxiv.org/abs/2406.00565
+  publication_info_summary: "I Mart\xEDn V\xEDlchez, CF Sopuerta - arXiv e-prints,\
+    \ 2024 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2024arXiv240600565M/abstract
   snippet: "\u2026 In this work, we explore the application of Sequential Neural Likelihood,\
     \ a simulation-based inference algorithm, to the detection and parameter estimation\
     \ of MBHBs \u2026"
-  journal: arxiv.org
-  arxiv_id: '2406.00565'
-  arxiv_category_tag: gr-qc
+  journal: ui.adsabs.harvard.edu
   category: Physics
+  doi: https://ui.adsabs.harvard.edu/abs/2024arXi40600565M/abstract
 - id: 1182
   created_at: 2024-06-16 00:51:19.233711
   published_on: 2024-06-10
@@ -15839,7 +15837,7 @@
   doi: https://jscholarship.library.jhu.edu/items/7c73b1ba-a5db-4656-9ddf-12c4a8e740d3
 - id: 1198
   created_at: 2024-07-07 00:52:24.843444
-  published_on: 2024-06-29
+  published_on: 2024-06-28
   title: Deriving the star formation histories of galaxies from spectra with simulation-based
     inference
   publication_info_summary: "P Iglesias-Navarro, I Mart\xEDn-Navarro\u2026 - Astronomy\
@@ -16521,3 +16519,64 @@
   journal: frontiersin.org
   category: Astrophysics
   doi: https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2024.1394533/full
+- id: 1246
+  created_at: 2024-09-15 00:59:06.600630
+  published_on: 2024-09-09
+  title: The cosmological analysis of X-ray cluster surveys VI. Inference based on
+    analytically simulated observable diagrams
+  authors: M. Kosiba, N. Cerardi, M. Pierre, F. Lanusse, C. Garrel, N. Werner, M.
+    Shalak
+  publication_info_summary: "M Kosiba, N Cerardi, M Pierre, F Lanusse\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2409.06001
+  snippet: "\u2026 In this paper, we use a simulation-based inference method utilizing\
+    \ artificial neural networks to optimally extract cosmological information from\
+    \ a shallow X-ray survey, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.06001'
+  arxiv_category_tag: astro-ph.CO
+  category: Physics
+- id: 1247
+  created_at: 2024-09-15 00:59:11.457551
+  published_on: 2024-09-10
+  title: Cell-mechanical parameter estimation from 1D cell trajectories using simulation-based
+    inference
+  authors: Heyn, J.; Atienza Juanatey, M.; Falcke, M.; Raedler, J.
+  publication_info_summary: J Heyn, M Atienza Juanatey, M Falcke, J Raedler - bioRxiv,
+    2024 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2024.09.06.611766.abstract
+  snippet: "\u2026 employ simulation-based inference (SBI) to estimate cell specific\
+    \ model parameters from \u2026 In this paper we studied the application of simulation-based\
+    \ inference (SBI ) to \u2026"
+  journal: biorxiv.org
+  category: Biophysics
+  doi: 10.1101/2024.09.06.611766
+- id: 1248
+  created_at: 2024-09-15 00:59:15.507116
+  published_on: 2024-09-08
+  title: Ensemble surrogate modeling of advective-dispersive transport with intraparticle
+    diffusion model for column-leaching test
+  publication_info_summary: "A Ershadi, M Finkel, B Liu, OA Cirpka\u2026 - Journal\
+    \ of Contaminant \u2026, 2024 - Elsevier"
+  link: https://www.sciencedirect.com/science/article/pii/S016977222400127X
+  snippet: "\u2026 We applied our proposed ensemble surrogate model to estimate the\
+    \ complete posterior parameter distribution using Simulation-Based Inference,\
+    \ specifically Neural \u2026"
+  journal: Elsevier
+  category: environmental sciences
+  doi: https://www.sciencedirect.com/science/article/pii/S016977222400127X
+- id: 1249
+  created_at: 2024-09-15 00:59:20.808353
+  published_on: 2024-09-05
+  title: Costs Estimation in Unit Commitment Problems using Simulation-Based Inference
+  authors: Matthias Pirlet, Adrien Bolland, Gilles Louppe, Damien Ernst
+  publication_info_summary: M Pirlet, A Bolland, G Louppe, D Ernst - arXiv preprint
+    arXiv:2409.03588, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2409.03588
+  snippet: "\u2026 In this paper, we present an illustrative UC problem and apply\
+    \ simulation-based inference (SBI) [3] to estimate unknown cost parameters. SBI,\
+    \ widely applied in fields such \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.03588'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
