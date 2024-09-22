@@ -16171,13 +16171,13 @@
   published_on: 2024-08-08
   title: Understanding Evolution with Simulations Three Tales about Trees
   publication_info_summary: M Rodrigues - 2024 - scholarsbank.uoregon.edu
-  link: https://scholarsbank.uoregon.edu/xmlui/handle/1794/29708
+  link: https://scholarsbank.uoregon.edu/items/0ae311e4-3170-407a-b1dc-b05e32c56aec
   snippet: "\u2026 In this dissertation, I pushed the boundaries on how simulation-based\
     \ inference can be applied in evolutionary genetics. To mitigate the costs associated\
     \ with simulations, \u2026"
   journal: scholarsbank.uoregon.edu
   category: Neuroscience
-  doi: https://scholarsbank.uoregon.edu/xmlui/handle/1794/29708
+  doi: https://scholarsbank.uoregon.edu/items/0ae311e4-3170-407a-b1dc-b05e32c56aec
 - id: 1222
   created_at: 2024-08-11 00:54:19.560789
   published_on: 2024-08-08
@@ -16220,6 +16220,7 @@
     \ challenge. In an approximate, but state-of-the-art, modeling setup, we show\
     \ by comparison with Fisher \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=11684269648707125307
   arxiv_id: '2408.00832'
   arxiv_category_tag: gr-qc
   category: Physics
@@ -16538,7 +16539,7 @@
   category: Physics
 - id: 1247
   created_at: 2024-09-15 00:59:11.457551
-  published_on: 2024-09-10
+  published_on: 2024-09-09
   title: Cell-mechanical parameter estimation from 1D cell trajectories using simulation-based
     inference
   authors: Heyn, J.; Atienza Juanatey, M.; Falcke, M.; Raedler, J.
@@ -16580,3 +16581,19 @@
   arxiv_id: '2409.03588'
   arxiv_category_tag: cs.LG
   category: Computer Science
+- id: 1250
+  created_at: 2024-09-22 00:59:18.266186
+  published_on: 2024-09-17
+  title: Fast, Accurate and Perturbative Forward Modeling of Galaxy Clustering Part
+    I Galaxies in the Restframe
+  authors: Julia Stadler, Fabian Schmidt, Martin Reinecke
+  publication_info_summary: J Stadler, F Schmidt, M Reinecke - arXiv preprint arXiv:2409.10937,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2409.10937
+  snippet: "\u2026 Forward models of the galaxy density field enable simulation based\
+    \ inference as well as field level inference of galaxy clustering. However, these\
+    \ analysis techniques \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.10937'
+  arxiv_category_tag: astro-ph.CO
+  category: cell biology
