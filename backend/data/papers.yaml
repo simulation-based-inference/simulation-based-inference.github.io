@@ -16638,3 +16638,194 @@
   journal: ui.adsabs.harvard.edu
   category: cell biology
   doi: https://ui.adsabs.harvard.edu/abs/2024ascl.soft08015A/abstract
+- id: 1254
+  created_at: 2024-10-13 00:59:36.110141
+  published_on: 2024-10-10
+  title: Inference of cortical circuit parameters based on simulation of biophysically
+    complex brain models
+  publication_info_summary: A SANDRON - thesis.unipd.it
+  link: https://thesis.unipd.it/handle/20.500.12608/72881
+  snippet: "\u2026 Mechanistic models combined with simulation-based inference (SBI)\
+    \ algorithms \u2026 Mechanistic models combined with simulation-based inference\
+    \ (SBI) algorithms have \u2026"
+  category: Astrophysics
+  doi: https://thesis.unipd.it/handle/20.500.12608/72881
+- id: 1255
+  created_at: 2024-10-13 00:59:40.956316
+  published_on: 2024-10-02
+  title: An uncertainty-aware Digital Shadow for underground multimodal CO2 storage
+    monitoring
+  authors: Abhinav Prakash Gahlot, Rafael Orozco, Ziyi Yin, Felix J. Herrmann
+  publication_info_summary: "AP Gahlot, R Orozco, Z Yin, FJ Herrmann - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2410.01218
+  snippet: "\u2026 m=1, simulation-based inference with CNFs proceeds by training\
+    \ an invertible neural network to approximate the posterior distribution, p(x\
+    \ | y), by minimizing the forward \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.01218'
+  arxiv_category_tag: physics.geo-ph
+  category: Physics
+- id: 1256
+  created_at: 2024-10-13 00:59:45.801152
+  published_on: 2024-10-04
+  title: Better confidence intervals in simulation-based inference
+  authors: Rousset, F.; Leblois, R.; Estoup, A.; Marin, J.-M.
+  publication_info_summary: F Rousset, R Leblois, A Estoup, JM Marin - bioRxiv, 2024
+    - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2024.09.30.615940.abstract
+  snippet: "We describe and evaluate a method of statistical inference of model parameters,\
+    \ which revisits the idea of inferring a likelihood surface using simulation when\
+    \ the \u2026"
+  journal: biorxiv.org
+  category: Bioinformatics
+  doi: 10.1101/2024.09.30.615940
+- id: 1257
+  created_at: 2024-10-13 00:59:49.790744
+  published_on: 2024-10-03
+  title: Simulation Based Inference for PET Iterative Reconstruction
+  publication_info_summary: "B Bergere, T Dautremer, C Comtat - International Conference\
+    \ on Medical \u2026, 2024 - Springer"
+  link: https://link.springer.com/chapter/10.1007/978-3-031-72104-5_60
+  snippet: "\u2026 Our work is in line with this general idea, called simulation-based\
+    \ inference [3] (SBI), which has been growing due to the advent of high-fidelity\
+    \ simulators as well as the \u2026"
+  journal: Springer
+  category: Computer Science
+  doi: https://link.springer.com/chapter/10.1007/978-3-031-72104-5_60
+- id: 1258
+  created_at: 2024-10-13 00:59:55.453866
+  published_on: 2024-10-01
+  title: Reconstructing galaxy star formation histories from COSMOS2020 photometry
+    using simulation-based inference
+  authors: G. Aufort, C. Laigle, H. J. McCracken, D. Le Borgne, R. Arango-Toro, L.
+    Ciesla, O. Ilbert, L. Tresse, Y. Dubois
+  publication_info_summary: "G Aufort, C Laigle, HJ McCracken, DL Borgne\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2410.00795
+  snippet: "\u2026 Our method combines the simulation-based inference (SBI) framework\
+    \ using a neural network trained with SFHs and photometry from the Horizon-AGN\
+    \ hydrodynamical \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.00795'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1259
+  created_at: 2024-10-13 01:00:00.285241
+  published_on: 2024-09-30
+  title: Constraining Cosmology with Simulation-based inference and Optical Galaxy
+    Cluster Abundance
+  authors: Moonzarin Reza, Yuanyuan Zhang, Camille Avestruz, Louis E. Strigari, Simone
+    Shevchuk, Francisco Villaescusa-Navarro
+  publication_info_summary: "M Reza, Y Zhang, C Avestruz, LE Strigari\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2409.20507
+  snippet: "\u2026 ABSTRACT We test the robustness of simulation-based inference (SBI)\
+    \ in the context of cosmological parameter estimation from galaxy cluster counts\
+    \ and masses in \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.20507'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1260
+  created_at: 2024-10-13 01:00:04.351313
+  published_on: 2024-10-01
+  title: Towards Optimal Cosmological Analysis with Simulation-Based Inference
+  publication_info_summary: B Dai - 2024 - search.proquest.com
+  link: https://search.proquest.com/openview/a2bd07d1427d41e4a80d7dab304ff231/1?pq-origsite=gscholar&cbl=18750&diss=y
+  snippet: "\u2026 Simulation-based inference (SBI) leverages high-fidelity cosmological\
+    \ simulations for inference and holds promise for extracting rich non-Gaussian\
+    \ information from these \u2026"
+  journal: search.proquest.com
+  category: Astrophysics
+  doi: https://search.proquest.com/openview/a2bd07d1427d41e4a80d7dab304ff231/1?pq-origsite=gscholar&cbl=18750&diss=y
+- id: 1261
+  created_at: 2024-10-13 01:00:09.493664
+  published_on: 2024-09-29
+  title: A Comprehensive Guide to Simulation-based Inference in Computational Biology
+  authors: Xiaoyu Wang, Ryan P. Kelly, Adrianne L. Jenner, David J. Warne, Christopher
+    Drovandi
+  publication_info_summary: "X Wang, RP Kelly, AL Jenner, DJ Warne\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2409.19675
+  snippet: "\u2026 2.2 Simulation-based Inference We define Simulation-Based Inference\
+    \ (SBI) as an inference technique that does not explicitly evaluate the likelihood\
+    \ function, but rather \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.19675'
+  arxiv_category_tag: stat.AP
+  category: Statistics
+- id: 1262
+  created_at: 2024-10-13 01:00:14.248217
+  published_on: 2024-09-28
+  title: Simulation-based inference with the Python Package sbijax
+  authors: Simon Dirmeier, Simone Ulzega, Antonietta Mira, Carlo Albert
+  publication_info_summary: S Dirmeier, S Ulzega, A Mira, C Albert - arXiv preprint
+    arXiv:2409.19435, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2409.19435
+  snippet: "\u2026 In the following, we will refer to the family of ABC methods and\
+    \ neural SBI methods as simulation-based inference. SBI methods can generally\
+    \ be divided into four classes \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.19435'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1263
+  created_at: 2024-10-13 01:00:19.013982
+  published_on: 2024-09-27
+  title: Embed and Emulate Contrastive representations for simulation-based inference
+  authors: Ruoxi Jiang, Peter Y. Lu, Rebecca Willett
+  publication_info_summary: R Jiang, PY Lu, R Willett - arXiv preprint arXiv:2409.18402,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2409.18402
+  snippet: "\u2026 We propose a new method for simulation-based inference with a focus\
+    \ on high-dimensional data. Inspired by contrastive representation learning, our\
+    \ approach \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.18402'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1264
+  created_at: 2024-10-13 01:00:23.782378
+  published_on: 2024-09-26
+  title: Simulation-Based Inference Benchmark for LSST Weak Lensing Cosmology
+  authors: "Justine Zeghal, Denise Lanzieri, Fran\xE7ois Lanusse, Alexandre Boucaud,\
+    \ Gilles Louppe, Eric Aubourg, Adrian E. Bayer, The LSST Dark Energy Science Collaboration"
+  publication_info_summary: "J Zeghal, D Lanzieri, F Lanusse, A Boucaud\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2409.17975
+  snippet: "\u2026 analysis techniques to match the power of upcoming telescopes,\
+    \ recent years have seen a paradigm shift from analytical likelihoodbased to simulation-based\
+    \ inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.17975'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1265
+  created_at: 2024-10-13 01:00:51.977043
+  published_on: 2024-09-05
+  title: Cost Estimation in Unit Commitment Problems Using Simulation-Based Inference
+  authors: Matthias Pirlet, Adrien Bolland, Gilles Louppe, Damien Ernst
+  publication_info_summary: M Pirlet, A Bolland, G Louppe, D Ernst - arXiv preprint
+    arXiv:2409.03588, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2409.03588
+  snippet: "\u2026 In this paper, we present an illustrative UC problem and apply\
+    \ simulation-based inference (SBI) [3] to estimate unknown cost parameters. SBI,\
+    \ widely applied in fields such \u2026"
+  journal: arxiv.org
+  arxiv_id: '2409.03588'
+  arxiv_category_tag: cs.LG
+  category: Neuroscience
+- id: 1266
+  created_at: 2024-10-13 01:01:19.908443
+  published_on: 2024-08-30
+  title: Building virtual patients using simulation-based inference
+  publication_info_summary: "N Paul, V Karamitsou, C Giegerich\u2026 - Frontiers in\
+    \ Systems \u2026, 2024 - frontiersin.org"
+  link: https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2024.1444912/full
+  snippet: "\u2026 In this work, we investigate the applicability of simulation-based\
+    \ inference (SBI), an advanced probabilistic machine learning approach, for virtual\
+    \ patient generation from \u2026"
+  journal: frontiersin.org
+  category: Astrophysics
+  doi: https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2024.1444912/full
