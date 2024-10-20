@@ -15920,6 +15920,7 @@
     \ In both cases, \u2026 , at fixed neural architecture and Simulation-Based Inference\
     \ pipeline. To achieve this, \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=4454588093238633645
   arxiv_id: '2407.10877'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -16132,15 +16133,15 @@
   created_at: 2024-08-04 00:54:43.429524
   published_on: 2024-07-13
   title: Simulation-based inference on virtual brain models of disorders
-  publication_info_summary: "M Hashemi, A Ziaeemehr, MM Woodman\u2026 - Machine Learning\
-    \ \u2026, 2024 - iopscience.iop.org"
-  link: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
+  publication_info_summary: "M Hashemi, A Ziaeemehr\u2026 - Machine \u2026, 2024 -\
+    \ pubishingsupport.iopscience.iop.org"
+  link: https://pubishingsupport.iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
   snippet: "\u2026 Here we present simulation-based inference on VBMs (SBI-VBMs),\
     \ and demonstrate that training deep neural networks on both spatio-temporal and\
     \ functional features \u2026"
-  journal: iopscience.iop.org
+  journal: pubishingsupport.iopscience.iop.org
   category: Neuroscience
-  doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
+  doi: https://pubishingsupport.iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
 - id: 1219
   created_at: 2024-08-04 00:56:33.682768
   published_on: 2024-06-01
@@ -16184,16 +16185,15 @@
   published_on: 2024-08-08
   title: Kilonova Spectral Inverse Modelling with Simulation-based Inference An Amortized
     Neural Posterior Estimation Analysis
-  publication_info_summary: "P Darc, CR Bom, B Fraga\u2026 - The Astrophysical \u2026\
-    , 2024 - iopscience.iop.org"
-  link: https://iopscience.iop.org/article/10.3847/1538-4357/ad53c7/meta
+  publication_info_summary: "P Darc, CR Bom, B Fraga\u2026 - The \u2026, 2024 - pubishingsupport.iopscience.iop.org"
+  link: https://pubishingsupport.iopscience.iop.org/article/10.3847/1538-4357/ad53c7
   snippet: "\u2026 We argue that simulation-based inference should rather produce\
     \ conservative posterior distributions to guarantee a reliable and meaningful\
     \ inference. An overconfident \u2026"
-  journal: iopscience.iop.org
+  journal: pubishingsupport.iopscience.iop.org
   citation_backlink: https://scholar.google.com/scholar?cites=676186540980037480
   category: Physics
-  doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad53c7/meta
+  doi: https://pubishingsupport.iopscience.iop.org/article/10.3847/1538-4357/ad53c7
 - id: 1223
   created_at: 2024-08-11 00:54:24.451365
   published_on: 2024-08-06
@@ -16606,9 +16606,9 @@
   publication_info_summary: "H Jin, F Abdelnour, P Verma, BS Sipes\u2026 - Imaging\
     \ \u2026, 2024 - direct.mit.edu"
   link: https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00307/124485
-  snippet: "\u2026 To enable efficient model inference we adopted a deep neural network-based\
-    \ Bayesian procedure called simulation-based inference. Using this tool we were\
-    \ able to \u2026"
+  snippet: "\u2026 To enable efficient model inference, we adopted a deep neural network-\
+    \ based Bayesian procedure called simulation- based inference. Using this tool,\
+    \ we were able to \u2026"
   journal: direct.mit.edu
   category: Mathematics
   doi: https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00307/124485
@@ -16668,7 +16668,7 @@
   category: Physics
 - id: 1256
   created_at: 2024-10-13 00:59:45.801152
-  published_on: 2024-10-04
+  published_on: 2024-10-03
   title: Better confidence intervals in simulation-based inference
   authors: Rousset, F.; Leblois, R.; Estoup, A.; Marin, J.-M.
   publication_info_summary: F Rousset, R Leblois, A Estoup, JM Marin - bioRxiv, 2024
@@ -16798,6 +16798,7 @@
     \ recent years have seen a paradigm shift from analytical likelihoodbased to simulation-based\
     \ inference. \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=690973286994277479
   arxiv_id: '2409.17975'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -16829,3 +16830,172 @@
   journal: frontiersin.org
   category: Astrophysics
   doi: https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2024.1444912/full
+- id: 1267
+  created_at: 2024-10-20 01:00:45.329705
+  published_on: 2024-10-18
+  title: Likelihood-Free Inference and Hierarchical Data Assimilation for Geological
+    Carbon Storage
+  publication_info_summary: W Teng, LJ Durlofsky - Available at SSRN 4990538 - papers.ssrn.com
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4990538
+  snippet: "Data assimilation will be essential for the management and expansion of\
+    \ geological carbon storage operations. In traditional data assimilation approaches\
+    \ a fixed set of \u2026"
+  journal: papers.ssrn.com
+  category: Engineering
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4990538
+- id: 1268
+  created_at: 2024-10-20 01:00:50.362303
+  published_on: 2024-10-15
+  title: Deep Optimal Sensor Placement for Black Box Stochastic Simulations
+  authors: "Paula Cordero-Encinar, Tobias Schr\xF6der, Peter Yatsyshin, Andrew Duncan"
+  publication_info_summary: "P Cordero-Encinar, T Schr\xF6der, P Yatsyshin\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2410.12036
+  snippet: "\u2026 Unlike existing simulation-based inference approaches, which must\
+    \ be tied to a specific set of point evaluations, we learn a functional representation\
+    \ of parameters and \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.12036'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1269
+  created_at: 2024-10-20 01:00:55.093885
+  published_on: 2024-10-14
+  title: Field-level cosmological model selection field-level simulation-based inference
+    for Stage IV cosmic shear can distinguish dynamical dark energy
+  authors: A. Spurio Mancini, K. Lin, J. D. McEwen
+  publication_info_summary: AS Mancini, K Lin, JD McEwen - arXiv preprint arXiv:2410.10616,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2410.10616
+  snippet: "\u2026 We achieve this by taking a simulation-based inference (SBI) approach\
+    \ using neural likelihood estimation, which we couple with the learned harmonic\
+    \ mean estimator in \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.10616'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1270
+  created_at: 2024-10-20 01:00:59.796483
+  published_on: 2024-10-11
+  title: Simulation-based inference with scattering representations scattering is
+    all you need
+  authors: Kiyam Lin, Benjamin Joachimi, Jason D. McEwen
+  publication_info_summary: K Lin, B Joachimi, JD McEwen - arXiv preprint arXiv:2410.11883,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2410.11883
+  snippet: "\u2026 We demonstrate the first successful use of scattering representations\
+    \ without further compression for simulation-based inference (SBI) with images\
+    \ (ie field-level), \u2026"
+  journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=12228100141319191706
+  arxiv_id: '2410.11883'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1271
+  created_at: 2024-10-20 01:01:04.583236
+  published_on: 2024-10-11
+  title: Path-minimizing Latent ODEs for improved extrapolation and inference
+  authors: Matt L. Sampson, Peter Melchior
+  publication_info_summary: ML Sampson, P Melchior - arXiv preprint arXiv:2410.08923,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2410.08923
+  snippet: "\u2026 We also demonstrate superior results for simulation-based inference\
+    \ of the Lotka-Volterra parameters and initial conditions by using the latents\
+    \ as data summaries for a \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.08923'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1272
+  created_at: 2024-10-20 01:01:09.433694
+  published_on: 2024-10-10
+  title: Cost-aware Simulation-based Inference
+  authors: "Ayush Bharti, Daolang Huang, Samuel Kaski, Fran\xE7ois-Xavier Briol"
+  publication_info_summary: A Bharti, D Huang, S Kaski, FX Briol - arXiv preprint
+    arXiv:2410.07930, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2410.07930
+  snippet: "Simulation-based inference (SBI) is the preferred framework for estimating\
+    \ parameters of intractable models in science and engineering. A significant challenge\
+    \ in this \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.07930'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1273
+  created_at: 2024-10-20 01:01:14.220085
+  published_on: 2024-10-10
+  title: Hybrid Summary Statistics
+  authors: T. Lucas Makinen, Ce Sui, Benjamin D. Wandelt, Natalia Porqueres, Alan
+    Heavens
+  publication_info_summary: "TL Makinen, C Sui, BD Wandelt, N Porqueres\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2410.07548
+  snippet: "\u2026 We present a way to capture high-information posteriors from training\
+    \ sets that are sparsely sampled over the parameter space for robust simulation-based\
+    \ inference. In \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.07548'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1274
+  created_at: 2024-10-20 01:01:19.026037
+  published_on: 2024-10-09
+  title: Constraining the dispersion measure redshift relation with simulation-based
+    inference
+  authors: Koustav Konar, Robert Reischke, Steffen Hagstotz, Andrina Nicola, Hendrik
+    Hildebrandt
+  publication_info_summary: "K Konar, R Reischke, S Hagstotz, A Nicola\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2410.07084
+  snippet: "\u2026 In this paper, we want to tackle these issues and present simulation-based\
+    \ inference (SBI) of cosmological and astrophysical models via the DM-\U0001D467\
+    \ relation of FRBs. SBI, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.07084'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1275
+  created_at: 2024-10-20 01:01:28.744078
+  published_on: 2024-10-09
+  title: Advancing Tools for Simulation-Based Inference
+  authors: "Henning Bahl, Victor Bres\xF3, Giovanni De Crescenzo, Tilman Plehn"
+  publication_info_summary: "H Bahl, V Bres\xF3, G De Crescenzo, T Plehn - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2410.07315
+  snippet: "\u2026 We study the benefit of modern simulation-based inference to constrain\
+    \ particle interactions at the LHC. We explore ways to incorporate known physics\
+    \ structures into \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.07315'
+  arxiv_category_tag: hep-ph
+  category: Neuroscience
+- id: 1276
+  created_at: 2024-10-20 01:01:33.480271
+  published_on: 2024-10-09
+  title: Psi-GAN A power-spectrum-informed generative adversarial network for the
+    emulation of large-scale structure maps across cosmologies and redshifts
+  authors: Prabh Bhambra, Benjamin Joachimi, Ofer Lahav
+  publication_info_summary: P Bhambra, B Joachimi, O Lahav - arXiv preprint arXiv:2410.07349,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2410.07349
+  snippet: "\u2026 improved ability to model non-linear structure should allow tighter\
+    \ constraints on cosmological parameters when used in techniques such as simulation-based\
+    \ inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.07349'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1277
+  created_at: 2024-10-20 01:04:09.744101
+  published_on: 2024-08-01
+  title: From optical imaging to dark matter halo masses with simulation-based inference
+    models
+  publication_info_summary: C Bottrell, C Hahn, KG Lee - IAU General Assembly, 2024
+    - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2024IAUGA..32P2133B/abstract
+  snippet: "\u2026 Using a simulation-based inference model, HALOFLOW, trained on\
+    \ a large sample of mock Subaru HSC images of galaxies formed in cosmological\
+    \ simulations, we find \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Computer Science
+  doi: https://ui.adsabs.harvard.edu/abs/2024IAUGA..32P2133B/abstract
