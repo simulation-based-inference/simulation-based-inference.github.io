@@ -16568,6 +16568,7 @@
     \ complete posterior parameter distribution using Simulation-Based Inference,\
     \ specifically Neural \u2026"
   journal: Elsevier
+  citation_backlink: https://scholar.google.com/scholar?cites=12759609942307542609
   category: environmental sciences
   doi: https://www.sciencedirect.com/science/article/pii/S016977222400127X
 - id: 1249
@@ -16940,6 +16941,7 @@
     \ sets that are sparsely sampled over the parameter space for robust simulation-based\
     \ inference. In \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=18260576557817042141
   arxiv_id: '2410.07548'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -17153,3 +17155,74 @@
   journal: iopscience.iop.org
   category: Environmental Science
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad73d4/meta
+- id: 1288
+  created_at: 2024-11-03 01:00:16.288261
+  published_on: 2024-10-30
+  title: Full-waveform earthquake source inversion using simulation-based inference
+  authors: A. A. Saoulis, D. Piras, A. Spurio Mancini, B. Joachimi, A. M. G. Ferreira
+  publication_info_summary: "AA Saoulis, D Piras, AS Mancini, B Joachimi\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2410.23238
+  snippet: "\u2026 3 SIMULATION-BASED INFERENCE Simulation-based inference has emerged\
+    \ across a variety of the physical sciences as a way of incorporating complex,\
+    \ nonGaussian \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.23238'
+  arxiv_category_tag: physics.geo-ph
+  category: Astrophysics
+- id: 1289
+  created_at: 2024-11-03 01:00:21.353355
+  published_on: 2024-10-29
+  title: Flow Matching for Posterior Inference with Simulator Feedback
+  authors: Benjamin Holzschuh, Nils Thuerey
+  publication_info_summary: B Holzschuh, N Thuerey - arXiv preprint arXiv:2410.22573,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2410.22573
+  snippet: "\u2026 for simulation-based inference and \u2026 Simulation-based inference\
+    \ Our work directly compares to neural posterior estimation approaches for simulation-based\
+    \ inference (\u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.22573'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1290
+  created_at: 2024-11-03 01:00:25.601522
+  published_on: 2024-10-29
+  title: Parameter Estimation in ATLAS with Neural Simulation-Based Inference
+  publication_info_summary: A Ghosh - 2024 - cds.cern.ch
+  link: https://cds.cern.ch/record/2915357
+  snippet: "Neural Simulation-Based Inference (NSBI) is a powerful class of machine\
+    \ learning (ML)-based methods for statistical inference that naturally handle\
+    \ high dimensional \u2026"
+  journal: cds.cern.ch
+  category: Quantitative Biology
+  doi: https://cds.cern.ch/record/2915357
+- id: 1291
+  created_at: 2024-11-03 01:00:31.471562
+  published_on: 2024-10-25
+  title: Dimension reduction via score ratio matching
+  authors: Ricardo Baptista, Michael Brennan, Youssef Marzouk
+  publication_info_summary: R Baptista, M Brennan, Y Marzouk - arXiv preprint arXiv:2410.19990,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2410.19990
+  snippet: "\u2026 In this example, we consider a simulation-based inference problem\
+    \ related to the Darcy flow problem of Section 6.2. The observation model is the\
+    \ same, and though the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2410.19990'
+  arxiv_category_tag: stat.CO
+  category: Statistics
+- id: 1292
+  created_at: 2024-11-03 01:01:25.327120
+  published_on: 2024-10-16
+  title: Template switching during DNA replication is a prevalent source of adaptive
+    gene amplification
+  publication_info_summary: "JN Chuong, NB Nun, I Suresh, JC Matthews, T De\u2026\
+    \ - \u2026, 2024 - pmc.ncbi.nlm.nih.gov"
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC11507740/
+  snippet: "\u2026 Using a CNV reporter system and neural network simulation-based\
+    \ inference (nnSBI) we quantified the formation rate and fitness effect of CNVs\
+    \ for each strain. We find \u2026"
+  journal: pmc.ncbi.nlm.nih.gov
+  category: Astrophysics
+  doi: https://pmc.ncbi.nlm.nih.gov/articles/PMC11507740/
