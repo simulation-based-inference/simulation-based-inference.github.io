@@ -17086,6 +17086,7 @@
     \ where ACE unifies the SBI problem into a single framework, treating parameters\
     \ as latent variables and \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=6855003401449281174
   arxiv_id: '2410.15320'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -17226,3 +17227,66 @@
   journal: pmc.ncbi.nlm.nih.gov
   category: Astrophysics
   doi: https://pmc.ncbi.nlm.nih.gov/articles/PMC11507740/
+- id: 1293
+  created_at: 2024-11-10 00:58:45.700067
+  published_on: 2024-11-05
+  title: Compositional simulation-based inference for time series
+  authors: Manuel Gloeckler, Shoji Toyota, Kenji Fukumizu, Jakob H. Macke
+  publication_info_summary: "M Gloeckler, S Toyota, K Fukumizu\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2411.02728
+  snippet: "\u2026 In this work, we propose a framework for efficient simulation-based\
+    \ inference for Markovian time series simulators. Unlike other neural SBI methods\
+    \ that require long \u2026"
+  journal: arxiv.org
+  arxiv_id: '2411.02728'
+  arxiv_category_tag: cs.LG
+  category: Neuroscience
+- id: 1294
+  created_at: 2024-11-10 00:58:49.837951
+  published_on: 2024-11-05
+  title: Neural Conformal Inference for Jump Diffusion Processes
+  publication_info_summary: X Wang, HJ Hyun - Available at SSRN 5008097 - papers.ssrn.com
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5008097
+  snippet: "\u2026 Our work aligns with the principles of simulation-based inference.\
+    \ The approximate \u2026 For a brief introduction and a more detailed history\
+    \ of simulation-based inference, we \u2026"
+  journal: papers.ssrn.com
+  category: Mathematics
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5008097
+- id: 1295
+  created_at: 2024-11-10 00:58:54.819101
+  published_on: 2024-11-02
+  title: Simulation-Based Inference for the Synchronization of Business Cycles
+  publication_info_summary: G Rodriguez-Rondon, JM Dufour - grodriguezrondon.com
+  link: https://grodriguezrondon.com/files/RodriguezRondon_Dufour_2023_JSM_Proceedings.pdf
+  snippet: "The synchronization of business cycles has again become a topic of interest\
+    \ after restrictions due to the global pandemic and supply-chain issues have highlighted\
+    \ some \u2026"
+  category: Economics
+  doi: https://grodriguezrondon.com/files/RodriguezRondon_Dufour_2023_JSM_Proceedings.pdf
+- id: 1296
+  created_at: 2024-11-10 00:58:59.359668
+  published_on: 2024-11-01
+  title: "L\xE9vy Versus Wiener Assessing the Effects of Model Misspecification on\
+    \ Diffusion Model Parameters"
+  publication_info_summary: T Hato, L Schumacher, ST Radev, A Voss - 2024 - researchsquare.com
+  link: https://www.researchsquare.com/article/rs-5276939/latest
+  snippet: "\u2026 To this end, we conducted extensive simulations using both basic\
+    \ and full versions of the DDM and the LFM, employing cross-fitting through simulation-based\
+    \ inference \u2026"
+  journal: researchsquare.com
+  category: Mathematics
+  doi: https://www.researchsquare.com/article/rs-5276939/latest
+- id: 1297
+  created_at: 2024-11-10 01:01:01.637241
+  published_on: 2024-10-08
+  title: ournal of Cosmology and Astroparticle Physics
+  publication_info_summary: EJ Baxter, S Pandey - 2024 - inspirehep.net
+  link: https://inspirehep.net/files/d12e6f39376ca8a6f936a95aaaff7f9b
+  snippet: "\u2026 We apply simulation based inference (SBI) using neural likelihood\
+    \ models to the problem. We show that in circumstances where the exact likelihood\
+    \ can be computed, the \u2026"
+  journal: inspirehep.net
+  category: Physics
+  doi: https://inspirehep.net/files/d12e6f39376ca8a6f936a95aaaff7f9b
