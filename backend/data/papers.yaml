@@ -16030,7 +16030,7 @@
   link: https://arxiv.org/abs/2407.16550
   snippet: "\u2026 Specifically, we explore three applications: testing model calibration,\
     \ regression curve evaluation, and validation of emulator models in simulation-based\
-    \ inference. We \u2026"
+    \ inference. We il\u2026"
   journal: arxiv.org
   citation_backlink: https://scholar.google.com/scholar?cites=11086473250801201043
   arxiv_id: '2407.16550'
@@ -16135,15 +16135,15 @@
   created_at: 2024-08-04 00:54:43.429524
   published_on: 2024-07-13
   title: Simulation-based inference on virtual brain models of disorders
-  publication_info_summary: "M Hashemi, A Ziaeemehr\u2026 - Machine \u2026, 2024 -\
-    \ pubishingsupport.iopscience.iop.org"
-  link: https://pubishingsupport.iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
+  publication_info_summary: "M Hashemi, A Ziaeemehr, MM Woodman\u2026 - Machine Learning\
+    \ \u2026, 2024 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
   snippet: "\u2026 Here we present simulation-based inference on VBMs (SBI-VBMs),\
     \ and demonstrate that training deep neural networks on both spatio-temporal and\
     \ functional features \u2026"
-  journal: pubishingsupport.iopscience.iop.org
+  journal: iopscience.iop.org
   category: Neuroscience
-  doi: https://pubishingsupport.iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
+  doi: https://iopscience.iop.org/article/10.1088/2632-2153/ad6230/meta
 - id: 1219
   created_at: 2024-08-04 00:56:33.682768
   published_on: 2024-06-01
@@ -16756,6 +16756,7 @@
     \ (SBI) as an inference technique that does not explicitly evaluate the likelihood\
     \ function, but rather \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=14339314979432991835
   arxiv_id: '2409.19675'
   arxiv_category_tag: stat.AP
   category: Statistics
@@ -17188,7 +17189,7 @@
   category: Computer Science
 - id: 1290
   created_at: 2024-11-03 01:00:25.601522
-  published_on: 2024-10-29
+  published_on: 2024-10-30
   title: Parameter Estimation in ATLAS with Neural Simulation-Based Inference
   publication_info_summary: A Ghosh - 2024 - cds.cern.ch
   link: https://cds.cern.ch/record/2915357
@@ -17290,3 +17291,95 @@
   journal: inspirehep.net
   category: Physics
   doi: https://inspirehep.net/files/d12e6f39376ca8a6f936a95aaaff7f9b
+- id: 1298
+  created_at: 2024-11-17 01:02:11.605412
+  published_on: 2024-11-12
+  title: More with less Simulation-based inference enables accurate diffusion-weighted
+    MRI with minimal acquisition time
+  authors: Eggl, M. F.; De Santis, S.
+  publication_info_summary: MF Eggl, S De Santis - bioRxiv, 2024 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2024.11.11.622925.abstract
+  snippet: "\u2026 c) In this work we utilize a simulation-based inference approach\
+    \ to fit DTI and DKI tensors. Here, an artificial neural network is trained with\
+    \ an initial prior belief of the \u2026"
+  journal: biorxiv.org
+  category: Computer Science
+  doi: 10.1101/2024.11.11.622925
+- id: 1299
+  created_at: 2024-11-17 01:02:15.806427
+  published_on: 2024-11-09
+  title: Modeling population dynamics of neural circuits from in vitro neural systems
+    to structured cortical networks
+  publication_info_summary: O Vinogradov - 2026 - ub01.uni-tuebingen.de
+  link: https://ub01.uni-tuebingen.de/xmlui/handle/10900/158767
+  snippet: "\u2026 Chapter 2 leverages simulation-based inference (SBI) to integrate\
+    \ single-cell properties, network structure, and population dynamics in a model\
+    \ of networks of dissociated \u2026"
+  journal: ub01.uni-tuebingen.de
+  category: Neuroscience
+  doi: https://ub01.uni-tuebingen.de/xmlui/handle/10900/158767
+- id: 1300
+  created_at: 2024-11-17 01:02:20.903776
+  published_on: 2024-11-09
+  title: Parameter Estimation with Neural Simulation-Based Inference in ATLAS
+  publication_info_summary: "R Coelho Lopes De Sa, VI Martinez Outschoorn\u2026 -\
+    \ 2024 - cds.cern.ch"
+  link: https://cds.cern.ch/record/2916558
+  snippet: "Neural Simulation-Based Inference (NSBI) is a powerful class of machine\
+    \ learning (ML)-based methods for statistical inference that naturally handle\
+    \ high dimensional \u2026"
+  journal: cds.cern.ch
+  doi: https://cds.cern.ch/record/2916558
+- id: 1301
+  created_at: 2024-11-17 01:02:25.487604
+  published_on: 2024-11-07
+  title: Active Sequential Posterior Estimation for Sample-Efficient Simulation-Based
+    Inference
+  publication_info_summary: "S Griesemer, D Cao, Z Cui, C Osorio, Y Liu - The Thirty-eighth\
+    \ Annual \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=fkuseU0nJs
+  snippet: "\u2026 This has led to the rise of simulation-based inference (SBI), a\
+    \ class of machine learning-enabled techniques for approaching inverse problems\
+    \ with stochastic simulators. \u2026"
+  journal: openreview.net
+  category: Computer Science
+  doi: https://openreview.net/forum?id=fkuseU0nJs
+- id: 1302
+  created_at: 2024-11-17 01:02:35.602500
+  published_on: 2024-11-06
+  title: sbi reloaded a toolkit for simulation-based inference
+  publication_info_summary: "MP Ziaeemehr13, T Gruner14, S Bischoff\u2026 - raw.githubusercontent.com"
+  link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07428/joss.07428/10.21105.joss.07428.pdf
+  snippet: "\u2026 Simulation-based inference (SBI) addresses this by enabling Bayesian\
+    \ 30 inference for simulators, identifying parameters that match observed data\
+    \ and align with 31 \u2026"
+  category: Computer Science
+  doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07428/joss.07428/10.21105.joss.07428.pdf
+- id: 1303
+  created_at: 2024-11-17 01:05:46.427711
+  published_on: 2024-09-25
+  title: Can the Effects of Internet Shutdowns be Estimated Separately from Their
+    Causes? Simulation-Based Inference in the Context of Difference-in-Differences
+    Models
+  publication_info_summary: "V Belenkov, V Koncha\u2026 - 2024 17th International\
+    \ \u2026, 2024 - ieeexplore.ieee.org"
+  link: https://ieeexplore.ieee.org/abstract/document/10739449/
+  snippet: "We propose a simulation-based approach based on the difference-in-differences\
+    \ model for estimating the causal effects of Internet shutdowns. Using synthetic\
+    \ data, we \u2026"
+  journal: ieeexplore.ieee.org
+  category: Mathematics
+  doi: https://ieeexplore.ieee.org/abstract/document/10739449/
+- id: 1304
+  created_at: 2024-11-17 01:08:40.134732
+  published_on: 2024-07-10
+  title: Modeling the dynamics of the mixture effects of organic micropollutants in
+    rivers
+  publication_info_summary: R Wei - 2024 - tobias-lib.ub.uni-tuebingen.de
+  link: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/154849
+  snippet: "\u2026 the ADR and estimate parameter values for the mixture effects,\
+    \ for which I applied the deep learning-based Bayesian optimization method, simulation-based\
+    \ inference (SBI\u2026"
+  journal: tobias-lib.ub.uni-tuebingen.de
+  category: Neuroscience
+  doi: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/154849
