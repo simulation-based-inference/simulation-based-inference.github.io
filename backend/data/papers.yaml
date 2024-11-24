@@ -16526,21 +16526,18 @@
   doi: https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2024.1394533/full
 - id: 1246
   created_at: 2024-09-15 00:59:06.600630
-  published_on: 2024-09-09
+  published_on: 2024-09-10
   title: The cosmological analysis of X-ray cluster surveys VI. Inference based on
     analytically simulated observable diagrams
-  authors: M. Kosiba, N. Cerardi, M. Pierre, F. Lanusse, C. Garrel, N. Werner, M.
-    Shalak
   publication_info_summary: "M Kosiba, N Cerardi, M Pierre, F Lanusse\u2026 - arXiv\
-    \ preprint arXiv \u2026, 2024 - arxiv.org"
-  link: https://arxiv.org/abs/2409.06001
-  snippet: "\u2026 In this paper, we use a simulation-based inference method utilizing\
+    \ preprint arXiv \u2026, 2024 - aanda.org"
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa50499-24.pdf
+  snippet: "\u2026 For this paper, we used a simulation-based inference method utilizing\
     \ artificial neural networks to optimally extract cosmological information from\
     \ a shallow X-ray survey, \u2026"
-  journal: arxiv.org
-  arxiv_id: '2409.06001'
-  arxiv_category_tag: astro-ph.CO
+  journal: aanda.org
   category: Physics
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa50499-24.pdf
 - id: 1247
   created_at: 2024-09-15 00:59:11.457551
   published_on: 2024-09-09
@@ -16817,7 +16814,7 @@
   link: https://arxiv.org/abs/2409.03588
   snippet: "\u2026 In this paper, we present an illustrative UC problem and apply\
     \ simulation-based inference (SBI) [3] to estimate unknown cost parameters. SBI,\
-    \ widely applied in fields such \u2026"
+    \ which has been widely \u2026"
   journal: arxiv.org
   arxiv_id: '2409.03588'
   arxiv_category_tag: cs.LG
@@ -16984,10 +16981,10 @@
   title: Psi-GAN A power-spectrum-informed generative adversarial network for the
     emulation of large-scale structure maps across cosmologies and redshifts
   authors: Prabh Bhambra, Benjamin Joachimi, Ofer Lahav, Davide Piras
-  publication_info_summary: P Bhambra, B Joachimi, O Lahav - arXiv preprint arXiv:2410.07349,
-    2024 - arxiv.org
+  publication_info_summary: "P Bhambra, B Joachimi, O Lahav, D Piras - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
   link: https://arxiv.org/abs/2410.07349
-  snippet: "\u2026 improved ability to model non-linear structure should allow tighter\
+  snippet: "\u2026 ability to model non-linear structure should allow more robust\
     \ constraints on cosmological parameters when used in techniques such as simulation-based\
     \ inference. \u2026"
   journal: arxiv.org
@@ -17329,6 +17326,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
+  category: Neuroscience
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17383,3 +17381,99 @@
   journal: tobias-lib.ub.uni-tuebingen.de
   category: Neuroscience
   doi: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/154849
+- id: 1305
+  created_at: 2024-11-24 01:02:37.759455
+  published_on: 2024-11-21
+  title: Uncertainty mapping and probabilistic tractography using Simulation-Based
+    Inference in diffusion MRI A comparison with classical Bayes
+  authors: "Manzano-Patron, J. P.; Deistler, M.; Schro\u0308der, C.; Kypraios, T.;\
+    \ Goncalves, P. J.; Macke, J. H.; Sotiropoulos, S. S. N."
+  publication_info_summary: "JP Manzano-Patr\xF3n, M Deistler, C Schr\xF6der\u2026\
+    \ - bioRxiv, 2024 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2024.11.19.624267.abstract
+  snippet: "\u2026 In this work, we have presented a Simulation-Based Inference framework\
+    \ for Bayesian fitting of multi-compartment fibre orientation models in diffusion\
+    \ MRI data, mapping \u2026"
+  journal: biorxiv.org
+  category: Neuroscience
+  doi: 10.1101/2024.11.19.624267
+- id: 1306
+  created_at: 2024-11-24 01:02:41.957490
+  published_on: 2024-11-20
+  title: Decoding Dark Matter Halos through the Lens of Machine Learning
+  publication_info_summary: TV Nguyen - 2024 - dspace.mit.edu
+  link: https://dspace.mit.edu/handle/1721.1/157579
+  snippet: "\u2026 First, I employ simulation-based inference and graph neural networks\
+    \ to infer the mass density profiles of DM halos in dwarf galaxies from their\
+    \ stellar kinematics. Next, I \u2026"
+  journal: dspace.mit.edu
+  category: Physics
+  doi: https://dspace.mit.edu/handle/1721.1/157579
+- id: 1307
+  created_at: 2024-11-24 01:02:46.979264
+  published_on: 2024-11-15
+  title: AI-powered simulation-based inference of a genuinely spatial-stochastic gene
+    regulation model of early mouse embryogenesis
+  publication_info_summary: MA Ramirez Sierra, TR Sokolowski - PLOS Computational
+    Biology, 2024 - journals.plos.org
+  link: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012473
+  snippet: "\u2026 Our approach leverages the Simulation-Based Inference (SBI) framework,\
+    \ combining our spatial-stochastic simulator with an advanced AI-based inference\
+    \ technique: the \u2026"
+  journal: journals.plos.org
+  category: Quantitative Biology
+  doi: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012473
+- id: 1308
+  created_at: 2024-11-24 01:02:52.220812
+  published_on: 2024-11-13
+  title: Learning Optimal and Interpretable Summary Statistics of Galaxy Catalogs
+    with SBI
+  authors: Kai Lehman, Sven Krippendorf, Jochen Weller, Klaus Dolag
+  publication_info_summary: "K Lehman, S Krippendorf, J Weller, K Dolag - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2411.08957
+  snippet: "\u2026 The compressed data vector is then directly fed into a simulation-based\
+    \ inference pipeline which computes the variational mutual information by means\
+    \ of the expected \u2026"
+  journal: arxiv.org
+  arxiv_id: '2411.08957'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1309
+  created_at: 2024-11-24 01:02:56.376883
+  published_on: 2024-11-13
+  title: Measurement of off-shell Higgs boson production in the decay channel
+  publication_info_summary: JA Sandesara - 2024 - cds.cern.ch
+  link: https://cds.cern.ch/record/2916831
+  snippet: "\u2026 The data analysis is performed using a neural simulation based-inference\
+    \ method, which builds per-event likelihood ratios using neural networks. The\
+    \ significance of the \u2026"
+  journal: cds.cern.ch
+  category: Physics
+  doi: https://cds.cern.ch/record/2916831
+- id: 1310
+  created_at: 2024-11-24 01:03:05.877372
+  published_on: 2024-11-11
+  title: Low signal to noise state space modelling using simulation based inference
+  publication_info_summary: IP Waldmann, M Rocchetto, M Debczynski, J Ferguson - 2024
+    - amostech.com
+  link: https://amostech.com/TechnicalPapers/2024/Poster/Waldmann.pdf
+  snippet: "\u2026 This paper focuses on a recent development in sampling theory,\
+    \ simulation-based inference (SBI). We show that SBI techniques, in particular\
+    \ neural posterior estimation, \u2026"
+  journal: amostech.com
+  category: Mathematics
+  doi: https://amostech.com/TechnicalPapers/2024/Poster/Waldmann.pdf
+- id: 1311
+  created_at: 2024-11-24 01:07:25.229307
+  published_on: 2024-09-01
+  title: Low Signal to Noise State Space Modelling Using Simulation Based Inference
+  publication_info_summary: "T Smith, Z Folcik, R Linares - \u2026 of the< a href=\
+    \ https://www \u2026, 2024 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2024amos.conf..145S/abstract
+  snippet: "\u2026 This paper focuses on a recent development in sampling theory,\
+    \ simulation-based inference (SBI). We show that SBI techniques, in particular\
+    \ neural posterior estimation, \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Neuroscience
+  doi: https://ui.adsabs.harvard.edu/abs/2024amos.conf..145S/abstract
