@@ -15064,20 +15064,17 @@
   doi: https://www.tandfonline.com/doi/abs/10.1080/26939169.2024.2333736
 - id: 1146
   created_at: 2024-03-31 00:46:13.265445
-  published_on: 2024-03-21
+  published_on: 2024-11-28
   title: Fast likelihood-free inference in the LSS Stage IV era
-  authors: "Guillermo Franco Abell\xE1n, Guadalupe Ca\xF1as Herrera, Matteo Martinelli,\
-    \ Oleg Savchenko, Davide Sciotti, Christoph Weniger"
-  publication_info_summary: "GF Abell\xE1n, GC Herrera, M Martinelli\u2026 - arXiv\
-    \ preprint arXiv \u2026, 2024 - arxiv.org"
-  link: https://arxiv.org/abs/2403.14750
-  snippet: "\u2026 Alternatively, novel approaches in simulation-based inference (SBI)\
-    \ allow to perform fast parameter inference without explicitly calculating the\
-    \ likelihood function (see [19] \u2026"
-  journal: arxiv.org
-  arxiv_id: '2403.14750'
-  arxiv_category_tag: astro-ph.CO
-  category: Astrophysics
+  publication_info_summary: "G Franco-Abell\xE1n, G Ca\xF1as-Herrera\u2026 - \u2026\
+    \ of Cosmology and \u2026, 2024 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/057/meta
+  snippet: "\u2026 In light of this, we present the first application of Marginal\
+    \ Neural Ratio Estimation (MNRE) (a recent approach in simulation-based inference)\
+    \ to LSS photometric probes: \u2026"
+  journal: iopscience.iop.org
+  category: cell biology
+  doi: https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/057/meta
 - id: 1147
   created_at: 2024-04-07 00:46:08.103230
   published_on: 2024-04-02
@@ -17152,6 +17149,7 @@
     \ m and \u03C3 8 from the Sloan Digital Sky Survey (SDSS) Baryon Oscillation Spectroscopic\
     \ Survey (BOSS) \u2026"
   journal: iopscience.iop.org
+  citation_backlink: https://scholar.google.com/scholar?cites=1491582741691470856
   category: Environmental Science
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/ad73d4/meta
 - id: 1288
@@ -17326,7 +17324,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Neuroscience
+  category: Astrophysics
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17477,3 +17475,142 @@
   journal: ui.adsabs.harvard.edu
   category: Neuroscience
   doi: https://ui.adsabs.harvard.edu/abs/2024amos.conf..145S/abstract
+- id: 1312
+  created_at: 2024-12-01 01:10:26.695427
+  published_on: 2024-11-26
+  title: CASBI -- Chemical Abundance Simulation-Based Inference for Galactic Archeology
+  authors: Giuseppe Viterbo, Tobias Buck
+  publication_info_summary: G Viterbo, T Buck - arXiv preprint arXiv:2411.17269, 2024
+    - arxiv.org
+  link: https://arxiv.org/abs/2411.17269
+  snippet: "\u2026 Here we introduce CASBI (Chemical Abundance Simulation Based Inference),\
+    \ a novel inference pipeline for Galactic Archeology based on Simulation-based\
+    \ Inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2411.17269'
+  arxiv_category_tag: astro-ph.GA
+  category: cell biology
+- id: 1313
+  created_at: 2024-12-01 01:10:31.758587
+  published_on: 2024-11-26
+  title: sbi reloaded a toolkit for simulation-based inference workflows
+  authors: "Jan Boelts, Michael Deistler, Manuel Gloeckler, \xC1lvaro Tejero-Cantero,\
+    \ Jan-Matthis Lueckmann, Guy Moss, Peter Steinbach, Thomas Moreau, Fabio Muratore,\
+    \ Julia Linhart, Conor Durkan, Julius Vetter, Benjamin Kurt Miller, Maternus Herold,\
+    \ Abolfazl Ziaeemehr, Matthijs Pals, Theo Gruner, Sebastian Bischoff, Nastya Krouglova,\
+    \ Richard Gao, Janne K. Lappalainen, B\xE1lint Mucs\xE1nyi, Felix Pei, Auguste\
+    \ Schulz, Zinovia Stefanidi, Pedro Rodrigues, Cornelius Schr\xF6der, Faried Abu\
+    \ Zaid, Jonas Beck, Jaivardhan Kapoor, David S. Greenberg, Pedro J. Gon\xE7alves,\
+    \ Jakob H. Macke"
+  publication_info_summary: "J Boelts, M Deistler, M Gloeckler\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2411.17337
+  snippet: "\u2026 Simulation-based inference (SBI) addresses this by enabling Bayesian\
+    \ inference for \u2026 fully customize every step of the simulation-based inference\
+    \ workflow. Taken together, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2411.17337'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1314
+  created_at: 2024-12-01 01:10:35.957984
+  published_on: 2024-11-27
+  title: "Introducing \xB5GUIDE for quantitative imaging via generalized uncertainty-driven\
+    \ inference using deep learning"
+  publication_info_summary: M Jallais, M Palombo - eLife, 2024 - elifesciences.org
+  link: https://elifesciences.org/articles/101069
+  snippet: "\u2026 Harnessing a new deep learning architecture for automatic signal\
+    \ feature selection combined with simulation-based inference and efficient sampling\
+    \ of the posterior \u2026"
+  journal: elifesciences.org
+  category: Computer Science
+  doi: https://elifesciences.org/articles/101069
+- id: 1315
+  created_at: 2024-12-01 01:10:42.054333
+  published_on: 2024-11-22
+  title: Cosmological Analysis with Calibrated Neural Quantile Estimation and Approximate
+    Simulators
+  authors: He Jia
+  publication_info_summary: H Jia - arXiv preprint arXiv:2411.14748, 2024 - arxiv.org
+  link: https://arxiv.org/abs/2411.14748
+  snippet: "\u2026 We introduce Neural Quantile Estimation (NQE), a new Simulation-Based\
+    \ Inference (SBI) method that leverages a large number of approximate simulations\
+    \ for training \u2026"
+  journal: arxiv.org
+  arxiv_id: '2411.14748'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1316
+  created_at: 2024-12-01 01:10:47.004873
+  published_on: 2024-11-21
+  title: Learning the Universe Cosmological and Astrophysical Parameter Inference
+    with Galaxy Luminosity Functions and Colours
+  authors: "Christopher C. Lovell, Tjitske Starkenburg, Matthew Ho, Daniel Angl\xE9\
+    s-Alc\xE1zar, Romeel Dav\xE9, Austen Gabrielpillai, Kartheik Iyer, Alice E. Matthews,\
+    \ William J. Roper, Rachel Somerville, Laura Sommovigo, Francisco Villaescusa-Navarro"
+  publication_info_summary: "CC Lovell, T Starkenburg, M Ho\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2411.13960
+  snippet: "\u2026 the first direct cosmological and astrophysical parameter inference\
+    \ from the combination of galaxy luminosity functions and colours using a simulation\
+    \ based inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2411.13960'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1317
+  created_at: 2024-12-01 01:10:51.951782
+  published_on: 2024-11-21
+  title: Combining summary statistics with simulation-based inference for the 21 cm
+    signal from the Epoch of Reionization
+  authors: "Benoit Semelin, Romain M\xE9riot, Ashutosh Mishra, David Cornu"
+  publication_info_summary: "B Semelin, R M\xE9riot, A Mishra, D Cornu - arXiv preprint\
+    \ arXiv:2411.14419, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2411.14419
+  snippet: "\u2026 of looking for the most informative summary statistics, we investigate\
+    \ how to combine the information from two sets of summary statistics using simulation-based\
+    \ inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2411.14419'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1318
+  created_at: 2024-12-01 01:10:56.970849
+  published_on: 2024-11-21
+  title: Variational Autoencoders for Efficient Simulation-Based Inference
+  authors: Mayank Nautiyal, Andrey Shternshis, Andreas Hellander, Prashant Singh
+  publication_info_summary: "M Nautiyal, A Shternshis, A Hellander\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2411.14511
+  snippet: "\u2026 Contribution: We propose a variational inference approach for simulation-based\
+    \ inference, utilizing a Conditional Variational Autoencoder (C-VAE) architecture\
+    \ [Kingma \u2026"
+  journal: arxiv.org
+  arxiv_id: '2411.14511'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1319
+  created_at: 2024-12-01 01:12:19.134327
+  published_on: 2024-10-29
+  title: Simulation-Based Inference of Large Scale Structure
+  publication_info_summary: K Lin - 2024 - discovery.ucl.ac.uk
+  link: https://discovery.ucl.ac.uk/id/eprint/10198087/
+  snippet: "\u2026 This has given rise to the class of methods known as simulation-based\
+    \ inference (SBI). In chapter 3 we present work that makes use of simplified simulations\
+    \ to test the SBI \u2026"
+  journal: discovery.ucl.ac.uk
+  category: Astrophysics
+  doi: https://discovery.ucl.ac.uk/id/eprint/10198087/
+- id: 1320
+  created_at: 2024-12-01 01:14:07.475255
+  published_on: 2024-10-05
+  title: Simulation-Based Inference with Uncertainty Quantification using Generative
+    Models in Quantum Chromodynamics
+  publication_info_summary: "K Keegan, E Vatai, A Drozd, PY Chuang, X Wu, J Rudi\u2026\
+    \ - openreview.net"
+  link: https://openreview.net/forum?id=Zy7zGe5YfE
+  snippet: "\u2026 has been applied in simulation-based inference in high-\u2026 challenging\
+    \ for simulation-based inference, which \u2026 generative ML in simulation-based\
+    \ inference with uncertainty \u2026"
+  category: Astrophysics
+  doi: https://openreview.net/forum?id=Zy7zGe5YfE
