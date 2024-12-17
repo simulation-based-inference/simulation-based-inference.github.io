@@ -67,7 +67,7 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
         return None
 
 
-def to_category(arxiv_category: Optional[str]) -> str:
+def to_category(arxiv_category: Optional[str]) -> str | None:
     """Convert arxiv category to arxiv group (aka category in frontend)."""
 
     if arxiv_category is None:
@@ -88,14 +88,18 @@ def to_doi(biorxiv_link: str) -> str:
 
 
 @timeout
-def query_biorxiv(doi: str) -> dict:
+def query_biorxiv(doi: str) -> dict | None:
     """Query biorxiv for a paper with the given doi."""
 
     url = f"https://api.biorxiv.org/details/biorxiv/{doi}"
     response = requests.get(url)
 
     if response.status_code == 200:
-        data = response.json()["collection"][0]
+        try:
+            data = response.json()["collection"][0]
+        except KeyError or IndexError:
+            logging.info(f"Failed to fetch biorxiv data for DOI {doi}")
+            return None
         return {
             "authors": data["authors"],
             "doi": data["doi"],
@@ -123,7 +127,7 @@ def query_arxiv(arxiv_id: str) -> arxiv.Result:
     }
 
 
-def format_backlink(url: str) -> str:
+def format_backlink(url: str) -> str | None:
     """Format citation backlink obtained from SERP API."""
 
     if not url:
