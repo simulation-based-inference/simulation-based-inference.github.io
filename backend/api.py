@@ -97,7 +97,7 @@ def query_biorxiv(doi: str) -> dict | None:
     if response.status_code == 200:
         try:
             data = response.json()["collection"][0]
-        except KeyError or IndexError:
+        except (KeyError, IndexError):
             logging.info(f"Failed to fetch biorxiv data for DOI {doi}")
             return None
         return {
