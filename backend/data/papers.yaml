@@ -15064,7 +15064,7 @@
   doi: https://www.tandfonline.com/doi/abs/10.1080/26939169.2024.2333736
 - id: 1146
   created_at: 2024-03-31 00:46:13.265445
-  published_on: 2024-11-27
+  published_on: 2024-11-28
   title: Fast likelihood-free inference in the LSS Stage IV era
   publication_info_summary: "G Franco-Abell\xE1n, G Ca\xF1as-Herrera\u2026 - \u2026\
     \ of Cosmology and \u2026, 2024 - iopscience.iop.org"
@@ -16373,7 +16373,7 @@
   category: life sciences
 - id: 1236
   created_at: 2024-09-01 01:00:56.595303
-  published_on: 2024-08-26
+  published_on: 2024-08-27
   title: Simulation-Based Inference of High Field Side Scrape-Off Layer Filament Characteristics
     using Profile Reflectometry
   publication_info_summary: E Leppink, S Wukitch - Bulletin of the American Physical
@@ -16523,7 +16523,7 @@
   doi: https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2024.1394533/full
 - id: 1246
   created_at: 2024-09-15 00:59:06.600630
-  published_on: 2024-09-09
+  published_on: 2024-09-10
   title: The cosmological analysis of X-ray cluster surveys VI. Inference based on
     analytically simulated observable diagrams
   publication_info_summary: "M Kosiba, N Cerardi, M Pierre, F Lanusse\u2026 - arXiv\
@@ -16552,7 +16552,7 @@
   doi: 10.1101/2024.09.06.611766
 - id: 1248
   created_at: 2024-09-15 00:59:15.507116
-  published_on: 2024-09-07
+  published_on: 2024-09-08
   title: Ensemble surrogate modeling of advective-dispersive transport with intraparticle
     diffusion model for column-leaching test
   publication_info_summary: "A Ershadi, M Finkel, B Liu, OA Cirpka\u2026 - Journal\
@@ -16612,7 +16612,7 @@
   doi: https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00307/124485
 - id: 1252
   created_at: 2024-09-29 01:01:36.983414
-  published_on: 2024-09-01
+  published_on: 2024-09-02
   title: HaloFlow Simulation-Based Inference (SBI) using forward modeled galaxy photometry
   publication_info_summary: "CH Hahn, C Bottrell, KG Lee - Astrophysics Source Code\
     \ \u2026, 2024 - ui.adsabs.harvard.edu"
@@ -16638,7 +16638,7 @@
   doi: https://ui.adsabs.harvard.edu/abs/2024ascl.soft08015A/abstract
 - id: 1254
   created_at: 2024-10-13 00:59:36.110141
-  published_on: 2024-10-09
+  published_on: 2024-10-10
   title: Inference of cortical circuit parameters based on simulation of biophysically
     complex brain models
   publication_info_summary: A SANDRON - thesis.unipd.it
@@ -16667,7 +16667,7 @@
   category: Physics
 - id: 1256
   created_at: 2024-10-13 00:59:45.801152
-  published_on: 2024-10-01
+  published_on: 2024-10-02
   title: Better confidence intervals in simulation-based inference
   publication_info_summary: F Rousset, R Leblois, A Estoup, JM Marin - 2024 - biorxiv.org
   link: https://www.biorxiv.org/content/10.1101/2024.09.30.615940.pdf
@@ -16675,11 +16675,11 @@
     \ which revisits the idea of inferring a likelihood surface using simulation when\
     \ the \u2026"
   journal: biorxiv.org
-  category: Computer Science
+  category: Astrophysics
   doi: 10.1101/2024.09.30.615940.pdf
 - id: 1257
   created_at: 2024-10-13 00:59:49.790744
-  published_on: 2024-10-02
+  published_on: 2024-10-03
   title: Simulation Based Inference for PET Iterative Reconstruction
   publication_info_summary: "B Bergere, T Dautremer, C Comtat - International Conference\
     \ on Medical \u2026, 2024 - Springer"
@@ -16817,7 +16817,7 @@
   category: Neuroscience
 - id: 1266
   created_at: 2024-10-13 01:01:19.908443
-  published_on: 2024-08-29
+  published_on: 2024-08-30
   title: Building virtual patients using simulation-based inference
   publication_info_summary: "N Paul, V Karamitsou, C Giegerich\u2026 - Frontiers in\
     \ Systems \u2026, 2024 - frontiersin.org"
@@ -16968,6 +16968,7 @@
     \ particle interactions at the LHC. We explore ways to incorporate known physics\
     \ structures into \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=511973090434063695
   arxiv_id: '2410.07315'
   arxiv_category_tag: hep-ph
   category: Neuroscience
@@ -17086,7 +17087,7 @@
   category: Statistics
 - id: 1283
   created_at: 2024-10-27 01:00:53.867132
-  published_on: 2024-10-18
+  published_on: 2024-10-19
   title: CASBI Chemical Abundance Simulation Based Inference
   publication_info_summary: G VITERBO - thesis.unipd.it
   link: https://thesis.unipd.it/handle/20.500.12608/73801
@@ -17097,7 +17098,7 @@
   doi: https://thesis.unipd.it/handle/20.500.12608/73801
 - id: 1284
   created_at: 2024-10-27 01:00:58.904245
-  published_on: 2024-10-18
+  published_on: 2024-10-19
   title: From Simulations to Inference Using Machine Learning to Tune Patient-Specific
     Finite-Element Models of the Middle Ear Towards Objective Diagnosis
   authors: Motallebzadeh, H.; Deistler, M.; Schonleitner, F. M.; Macke, J. H.; Puria,
@@ -17127,7 +17128,7 @@
   doi: https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00307/124485
 - id: 1286
   created_at: 2024-10-27 01:02:53.324792
-  published_on: 2024-09-12
+  published_on: 2024-09-13
   title: PHYSTAT Highlights on Simulation-based Inference
   publication_info_summary: G Louppe - PHYSTAT Statistics meets ML, 2024 - orbi.uliege.be
   link: https://orbi.uliege.be/bitstream/2268/323568/1/talk-louppe-phystat-london-2024.pdf
@@ -17138,7 +17139,7 @@
   doi: https://orbi.uliege.be/bitstream/2268/323568/1/talk-louppe-phystat-london-2024.pdf
 - id: 1287
   created_at: 2024-10-27 01:03:17.239287
-  published_on: 2024-09-05
+  published_on: 2024-09-06
   title: Inferring Cosmological Parameters on SDSS via Domain-generalized Neural Networks
     and Light-cone Simulations
   publication_info_summary: "JY Lee, J Kim, M Jung, BK Oh, Y Jo\u2026 - The Astrophysical\
@@ -17183,7 +17184,7 @@
   category: Computer Science
 - id: 1290
   created_at: 2024-11-03 01:00:25.601522
-  published_on: 2024-10-29
+  published_on: 2024-10-30
   title: Parameter Estimation in ATLAS with Neural Simulation-Based Inference
   publication_info_summary: A Ghosh - 2024 - cds.cern.ch
   link: https://cds.cern.ch/record/2915357
@@ -17210,7 +17211,7 @@
   category: Statistics
 - id: 1292
   created_at: 2024-11-03 01:01:25.327120
-  published_on: 2024-10-15
+  published_on: 2024-10-16
   title: Template switching during DNA replication is a prevalent source of adaptive
     gene amplification
   publication_info_summary: "JN Chuong, NB Nun, I Suresh, JC Matthews, T De\u2026\
@@ -17251,7 +17252,7 @@
   doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5008097
 - id: 1295
   created_at: 2024-11-10 00:58:54.819101
-  published_on: 2024-11-01
+  published_on: 2024-11-02
   title: Simulation-Based Inference for the Synchronization of Business Cycles
   publication_info_summary: G Rodriguez-Rondon, JM Dufour - grodriguezrondon.com
   link: https://grodriguezrondon.com/files/RodriguezRondon_Dufour_2023_JSM_Proceedings.pdf
@@ -17262,7 +17263,7 @@
   doi: https://grodriguezrondon.com/files/RodriguezRondon_Dufour_2023_JSM_Proceedings.pdf
 - id: 1296
   created_at: 2024-11-10 00:58:59.359668
-  published_on: 2024-10-31
+  published_on: 2024-11-01
   title: "L\xE9vy Versus Wiener Assessing the Effects of Model Misspecification on\
     \ Diffusion Model Parameters"
   publication_info_summary: T Hato, L Schumacher, ST Radev, A Voss - 2024 - researchsquare.com
@@ -17301,7 +17302,7 @@
   doi: 10.1101/2024.11.11.622925
 - id: 1299
   created_at: 2024-11-17 01:02:15.806427
-  published_on: 2024-11-08
+  published_on: 2024-11-09
   title: Modeling population dynamics of neural circuits from in vitro neural systems
     to structured cortical networks
   publication_info_summary: O Vinogradov - 2026 - ub01.uni-tuebingen.de
@@ -17314,7 +17315,7 @@
   doi: https://ub01.uni-tuebingen.de/xmlui/handle/10900/158767
 - id: 1300
   created_at: 2024-11-17 01:02:20.903776
-  published_on: 2024-11-08
+  published_on: 2024-11-09
   title: Parameter Estimation with Neural Simulation-Based Inference in ATLAS
   publication_info_summary: "R Coelho Lopes De Sa, VI Martinez Outschoorn\u2026 -\
     \ 2024 - cds.cern.ch"
@@ -17323,7 +17324,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Physics
+  category: Astrophysics
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17344,7 +17345,7 @@
   category: Computer Science
 - id: 1302
   created_at: 2024-11-17 01:02:35.602500
-  published_on: 2024-11-05
+  published_on: 2024-11-06
   title: sbi reloaded a toolkit for simulation-based inference
   publication_info_summary: "MP Ziaeemehr13, T Gruner14, S Bischoff\u2026 - raw.githubusercontent.com"
   link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07428/joss.07428/10.21105.joss.07428.pdf
@@ -17355,7 +17356,7 @@
   doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07428/joss.07428/10.21105.joss.07428.pdf
 - id: 1303
   created_at: 2024-11-17 01:05:46.427711
-  published_on: 2024-09-24
+  published_on: 2024-09-25
   title: Can the Effects of Internet Shutdowns be Estimated Separately from Their
     Causes? Simulation-Based Inference in the Context of Difference-in-Differences
     Models
@@ -17383,7 +17384,7 @@
   doi: https://tobias-lib.ub.uni-tuebingen.de/xmlui/handle/10900/154849
 - id: 1305
   created_at: 2024-11-24 01:02:37.759455
-  published_on: 2024-11-20
+  published_on: 2024-11-21
   title: Uncertainty mapping and probabilistic tractography using Simulation-Based
     Inference in diffusion MRI A comparison with classical Bayes
   authors: "Manzano-Patron, J. P.; Deistler, M.; Schro\u0308der, C.; Kypraios, T.;\
@@ -17399,7 +17400,7 @@
   doi: 10.1101/2024.11.19.624267
 - id: 1306
   created_at: 2024-11-24 01:02:41.957490
-  published_on: 2024-11-19
+  published_on: 2024-11-20
   title: Decoding Dark Matter Halos through the Lens of Machine Learning
   publication_info_summary: TV Nguyen - 2024 - dspace.mit.edu
   link: https://dspace.mit.edu/handle/1721.1/157579
@@ -17441,7 +17442,7 @@
   category: Astrophysics
 - id: 1309
   created_at: 2024-11-24 01:02:56.376883
-  published_on: 2024-11-12
+  published_on: 2024-11-13
   title: Measurement of off-shell Higgs boson production in the decay channel
   publication_info_summary: JA Sandesara - 2024 - cds.cern.ch
   link: https://cds.cern.ch/record/2916831
@@ -17466,7 +17467,7 @@
   doi: https://amostech.com/TechnicalPapers/2024/Poster/Waldmann.pdf
 - id: 1311
   created_at: 2024-11-24 01:07:25.229307
-  published_on: 2024-08-31
+  published_on: 2024-09-01
   title: Low Signal to Noise State Space Modelling Using Simulation Based Inference
   publication_info_summary: "T Smith, Z Folcik, R Linares - \u2026 of the< a href=\
     \ https://www \u2026, 2024 - ui.adsabs.harvard.edu"
@@ -17516,7 +17517,7 @@
   category: Computer Science
 - id: 1314
   created_at: 2024-12-01 01:10:35.957984
-  published_on: 2024-11-26
+  published_on: 2024-11-27
   title: "Introducing \xB5GUIDE for quantitative imaging via generalized uncertainty-driven\
     \ inference using deep learning"
   publication_info_summary: M Jallais, M Palombo - eLife, 2024 - elifesciences.org
@@ -17593,7 +17594,7 @@
   category: Computer Science
 - id: 1319
   created_at: 2024-12-01 01:12:19.134327
-  published_on: 2024-10-28
+  published_on: 2024-10-29
   title: Simulation-Based Inference of Large Scale Structure
   publication_info_summary: K Lin - 2024 - discovery.ucl.ac.uk
   link: https://discovery.ucl.ac.uk/id/eprint/10198087/
@@ -17605,7 +17606,7 @@
   doi: https://discovery.ucl.ac.uk/id/eprint/10198087/
 - id: 1320
   created_at: 2024-12-01 01:14:07.475255
-  published_on: 2024-10-04
+  published_on: 2024-10-05
   title: Simulation-Based Inference with Uncertainty Quantification using Generative
     Models in Quantum Chromodynamics
   publication_info_summary: "K Keegan, E Vatai, A Drozd, PY Chuang, X Wu, J Rudi\u2026\
@@ -17684,7 +17685,7 @@
   category: Physics
 - id: 1325
   created_at: 2024-12-17 16:59:23.961918
-  published_on: 2024-12-07
+  published_on: 2024-12-08
   title: Simulation-based inference with deep learning shows speed climbers combine
     innovation and copying to improve performance
   publication_info_summary: M Youngblood, S Passmore - osf.io
@@ -17714,6 +17715,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
+  category: Astrophysics
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17728,7 +17730,7 @@
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_26.pdf
 - id: 1329
   created_at: 2024-12-17 16:59:48.196857
-  published_on: 2024-12-05
+  published_on: 2024-12-06
   title: Cointegrating polynomial regressions with power law trends
   publication_info_summary: Y Lin, H Reuvers - Journal of Time Series Analysis, 2024
     - Wiley Online Library
@@ -17742,7 +17744,7 @@
   doi: https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12805
 - id: 1330
   created_at: 2024-12-17 16:59:52.883976
-  published_on: 2024-12-04
+  published_on: 2024-12-05
   title: Overcoming challenges of quantum interference at LHC with neural simulation-based
     inference and a full implementation in ATLAS
   publication_info_summary: A Ghosh - 2024 - cds.cern.ch
@@ -17814,7 +17816,7 @@
     \ \u2026 This work develops a neural simulation-based inference framework for\
     \ statistical \u2026"
   journal: hal.science
-  category: Computer Science
+  category: Astrophysics
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -17832,7 +17834,7 @@
   doi: https://hal.science/hal-04833875/
 - id: 1336
   created_at: 2024-12-17 17:00:27.609764
-  published_on: 2024-11-28
+  published_on: 2024-11-29
   title: Hierarchical-uGUIDE fast and robust Bayesian hierarchical modelling using
     deep learning simulation-based inference
   publication_info_summary: L Rouillard, D Wassermann, M Palombo, M Jallais - cit.
@@ -17846,7 +17848,7 @@
   doi: https://archive.ismrm.org/2024/1135_P8ql0yRHO.html
 - id: 1337
   created_at: 2024-12-17 17:00:51.420228
-  published_on: 2024-11-25
+  published_on: 2024-11-26
   title: SBIAX Density-estimation simulation-based inference
   publication_info_summary: J Homer - raw.githubusercontent.com
   link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07429/joss.07429/10.21105.joss.07429.pdf
@@ -17870,3 +17872,60 @@
   journal: biorxiv.org
   category: Physics
   doi: 10.1101/2024.09.30.615940
+- id: 1339
+  created_at: 2024-12-22 01:00:54.607172
+  published_on: 2024-12-20
+  title: Approximate Bayesian inference in and for computational models of cognition
+    a simulation-based perspective
+  publication_info_summary: S Valentin - 2024 - era.ed.ac.uk
+  link: https://era.ed.ac.uk/handle/1842/42920
+  snippet: "\u2026 Both themes are examined through the lens of simulation-based inference,\
+    \ which can benefit computational models of cognition. The first theme addresses\
+    \ a fundamental \u2026"
+  journal: era.ed.ac.uk
+  category: Computer Science
+  doi: https://era.ed.ac.uk/handle/1842/42920
+- id: 1340
+  created_at: 2024-12-22 01:00:59.989600
+  published_on: 2024-12-17
+  title: Neural Posterior Estimation for Stochastic Epidemic Modeling
+  authors: Prayag Chatha, Fan Bu, Jeffrey Regier, Evan Snitkin, Jon Zelner
+  publication_info_summary: "P Chatha, F Bu, J Regier, E Snitkin, J Zelner - arXiv\
+    \ preprint arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2412.12967
+  snippet: "\u2026 NPE algorithm for Bayesian simulation based inference. In \u2026\
+    \ for a simulation-based inference workflow in Section 5 \u2026 simulation-based\
+    \ inference is a effective methodology \u2026"
+  journal: arxiv.org
+  arxiv_id: '2412.12967'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1341
+  created_at: 2024-12-22 01:01:04.458496
+  published_on: 2024-12-17
+  title: "\u6DF1\u5C64\u5B66\u7FD2\u306B\u3088\u308B\u4EBA\u5DE5\u885B\u661F\u71B1\
+    \u6570\u5B66\u30E2\u30C7\u30EB\u306E\u30D1\u30E9\u30E1\u30FC\u30BF\u63A8\u8AD6"
+  publication_info_summary: "\u6E21\u9089\u7531\u7FBD - \u4EBA\u5DE5\u77E5\u80FD\u5B66\
+    \u4F1A\u7B2C\u4E8C\u7A2E\u7814\u7A76\u4F1A\u8CC7\u6599, 2024 - jstage.jst.go.jp"
+  link: https://www.jstage.jst.go.jp/article/jsaisigtwo/2024/SMSHM-002/2024_03/_article/-char/ja/
+  snippet: "\u2026 This study proposes the use of simulation-based inference (SBI)\
+    \ for estimating the parameters. SBI offers the flexibility to handle complex\
+    \ and nonlinear models. \u2026"
+  journal: jstage.jst.go.jp
+  category: Engineering
+  doi: https://www.jstage.jst.go.jp/article/jsaisigtwo/2024/SMSHM-002/2024_03/_article/-char/ja/
+- id: 1342
+  created_at: 2024-12-22 01:01:10.507388
+  published_on: 2024-12-13
+  title: Simulation-based inference on warm dark matter from HERA forecasts
+  authors: Quentin Decant, Androniki Dimitriou, Laura Lopez Honorez, Bryan Zaldivar
+  publication_info_summary: "Q Decant, A Dimitriou, LL Honorez\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2412.10310
+  snippet: "\u2026 Consequently, here we address these problems by making use of a\
+    \ Simulation-based Inference (SBI) analysis, which does not rely on a likelihood\
+    \ specification, while \u2026"
+  journal: arxiv.org
+  arxiv_id: '2412.10310'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
