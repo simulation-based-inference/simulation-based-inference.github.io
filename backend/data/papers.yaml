@@ -15073,7 +15073,7 @@
     \ Neural Ratio Estimation (MNRE) (a recent approach in simulation-based inference)\
     \ to LSS photometric probes: \u2026"
   journal: iopscience.iop.org
-  category: Astrophysics
+  category: Computer Science
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/057/meta
 - id: 1147
   created_at: 2024-04-07 00:46:08.103230
@@ -16675,7 +16675,7 @@
     \ which revisits the idea of inferring a likelihood surface using simulation when\
     \ the \u2026"
   journal: biorxiv.org
-  category: Astrophysics
+  category: Computer Science
   doi: 10.1101/2024.09.30.615940.pdf
 - id: 1257
   created_at: 2024-10-13 00:59:49.790744
@@ -16974,20 +16974,18 @@
   category: Neuroscience
 - id: 1276
   created_at: 2024-10-20 01:01:33.480271
-  published_on: 2024-10-09
+  published_on: 2024-10-12
   title: Psi-GAN A power-spectrum-informed generative adversarial network for the
     emulation of large-scale structure maps across cosmologies and redshifts
-  authors: Prabh Bhambra, Benjamin Joachimi, Ofer Lahav, Davide Piras
-  publication_info_summary: "P Bhambra, B Joachimi, O Lahav, D Piras - arXiv preprint\
-    \ arXiv \u2026, 2024 - arxiv.org"
-  link: https://arxiv.org/abs/2410.07349
+  publication_info_summary: "P Bhambra, B Joachimi, O Lahav\u2026 - Monthly Notices\
+    \ of the \u2026, 2024 - academic.oup.com"
+  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae2810/7932038
   snippet: "\u2026 ability to model non-linear structure should allow more robust\
     \ constraints on cosmological parameters when used in techniques such as simulation-based\
     \ inference. \u2026"
-  journal: arxiv.org
-  arxiv_id: '2410.07349'
-  arxiv_category_tag: astro-ph.CO
-  category: Astrophysics
+  journal: academic.oup.com
+  category: Computer Science
+  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae2810/7932038
 - id: 1277
   created_at: 2024-10-20 01:04:09.744101
   published_on: 2024-08-01
@@ -17065,6 +17063,7 @@
     \ neural network regression and the recently reinvigorated simulation-based inference\
     \ (SBI) [20\u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=928422443542187119
   arxiv_id: '2410.16347'
   arxiv_category_tag: astro-ph.IM
   category: Astrophysics
@@ -17211,18 +17210,18 @@
   category: Statistics
 - id: 1292
   created_at: 2024-11-03 01:01:25.327120
-  published_on: 2024-10-16
+  published_on: 2024-10-27
   title: Template switching during DNA replication is a prevalent source of adaptive
     gene amplification
   publication_info_summary: "JN Chuong, NB Nun, I Suresh, JC Matthews, T De\u2026\
-    \ - \u2026, 2024 - pmc.ncbi.nlm.nih.gov"
-  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC11507740/
+    \ - eLife, 2024 - elifesciences.org"
+  link: https://elifesciences.org/reviewed-preprints/98934v2
   snippet: "\u2026 Using a CNV reporter system and neural network simulation-based\
     \ inference (nnSBI) we quantified the formation rate and fitness effect of CNVs\
     \ for each strain. We find \u2026"
-  journal: pmc.ncbi.nlm.nih.gov
+  journal: elifesciences.org
   category: Astrophysics
-  doi: https://pmc.ncbi.nlm.nih.gov/articles/PMC11507740/
+  doi: https://elifesciences.org/reviewed-preprints/98934
 - id: 1293
   created_at: 2024-11-10 00:58:45.700067
   published_on: 2024-11-05
@@ -17324,7 +17323,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Astrophysics
+  category: Computer Science
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17540,6 +17539,7 @@
     \ Inference (SBI) method that leverages a large number of approximate simulations\
     \ for training \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=10152101082235057600
   arxiv_id: '2411.14748'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -17715,7 +17715,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Astrophysics
+  category: Computer Science
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17816,7 +17816,7 @@
     \ \u2026 This work develops a neural simulation-based inference framework for\
     \ statistical \u2026"
   journal: hal.science
-  category: Astrophysics
+  category: Computer Science
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -17851,12 +17851,12 @@
   published_on: 2024-11-26
   title: SBIAX Density-estimation simulation-based inference
   publication_info_summary: J Homer - raw.githubusercontent.com
-  link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07429/joss.07429/10.21105.joss.07429.pdf
+  link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07606/joss.07606/10.21105.joss.07606.pdf
   snippet: "\u2026 Simulation-based inference (SBI) covers a broad class of statistical\
     \ techniques such as Ap31 proximate Bayesian Computation (ABC), Neural Ratio Estimation\
     \ (NRE), \u2026"
   category: Astrophysics
-  doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07429/joss.07429/10.21105.joss.07429.pdf
+  doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07606/joss.07606/10.21105.joss.07606.pdf
 - id: 1338
   created_at: 2024-12-17 17:04:40.078718
   published_on: 2024-10-03
@@ -17929,3 +17929,79 @@
   arxiv_id: '2412.10310'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
+- id: 1343
+  created_at: 2024-12-29 01:01:48.431396
+  published_on: 2024-12-23
+  title: Leveraging Cardiovascular Simulations for In-Vivo Prediction of Cardiac Biomarkers
+  authors: "Laura Manduchi, Antoine Wehenkel, Jens Behrmann, Luca Pegolotti, Andy\
+    \ C. Miller, Ozan Sener, Marco Cuturi, Guillermo Sapiro, J\xF6rn-Henrik Jacobsen"
+  publication_info_summary: "L Manduchi, A Wehenkel, J Behrmann\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2024 - arxiv.org"
+  link: https://arxiv.org/abs/2412.17542
+  snippet: "\u2026 Leveraging recent advances in simulation-based inference, we cast\
+    \ this problem as statistical inference by training an amortized neural posterior\
+    \ estimator on a newly built \u2026"
+  journal: arxiv.org
+  arxiv_id: '2412.17542'
+  arxiv_category_tag: cs.LG
+  category: Astrophysics
+- id: 1344
+  created_at: 2024-12-29 01:01:52.900598
+  published_on: 2024-12-24
+  title: Optimizing Transport Predictive Modeling with Simulation-Based Statistical
+    Inference
+  publication_info_summary: Q Tran, M Rashid - International Journal of Statistical
+    Sciences, 2024 - banglajol.info
+  link: https://banglajol.info/index.php/ijss/article/view/78222
+  snippet: "\u2026 Our research shows the significant potential of Simulation-Based\
+    \ Inference techniques in enhancing predictive modeling and decision-making within\
+    \ the transportation \u2026"
+  journal: banglajol.info
+  category: Computer Science
+  doi: https://banglajol.info/index.php/ijss/article/view/78222
+- id: 1345
+  created_at: 2024-12-29 01:01:58.091063
+  published_on: 2024-12-19
+  title: Tests for model misspecification in simulation-based inference from local
+    distortions to global model checks
+  authors: Noemi Anau Montel, James Alvey, Christoph Weniger
+  publication_info_summary: NA Montel, J Alvey, C Weniger - arXiv preprint arXiv:2412.15100,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2412.15100
+  snippet: "\u2026 Over the last few years, there has been a rapid rise in the use\
+    \ of simulation-based inference (SBI) techniques for Bayesian parameter estimation,\
+    \ applied to increasingly \u2026"
+  journal: arxiv.org
+  arxiv_id: '2412.15100'
+  arxiv_category_tag: astro-ph.IM
+  category: Statistics
+- id: 1346
+  created_at: 2024-12-29 01:02:03.675665
+  published_on: 2024-12-21
+  title: Amortising Variational Bayesian Inference over prior hyperparameters with
+    a Normalising Flow
+  authors: Laura Battaglia, Geoff Nicholls
+  publication_info_summary: L Battaglia, G Nicholls - arXiv preprint arXiv:2412.16419,
+    2024 - arxiv.org
+  link: https://arxiv.org/abs/2412.16419
+  snippet: "\u2026 Simulation Based Inference has been used to amortise \u2026 However,\
+    \ there is no Simulation Based Inference for \u2026 They are interested in simulation-based\
+    \ inference, where the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2412.16419'
+  arxiv_category_tag: stat.CO
+  category: Statistics
+- id: 1347
+  created_at: 2024-12-29 01:02:09.157028
+  published_on: 2024-12-21
+  title: Simulation-based inference for close-kin mark-recapture implications for
+    small populations and nonrandom mating
+  authors: Conn, P. B.
+  publication_info_summary: PB Conn - bioRxiv, 2024 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2024.12.16.628779.abstract
+  snippet: "\u2026 The relative ease of simulating data suggests that simulation-based\
+    \ inference (ie, \u2026 In this paper, I explore the use of simulation-based inference\
+    \ to (1) more accurately char\u2026"
+  journal: biorxiv.org
+  category: Ecology
+  doi: 10.1101/2024.12.16.628779
