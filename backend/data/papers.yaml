@@ -15073,7 +15073,6 @@
     \ Neural Ratio Estimation (MNRE) (a recent approach in simulation-based inference)\
     \ to LSS photometric probes: \u2026"
   journal: iopscience.iop.org
-  category: Computer Science
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/057/meta
 - id: 1147
   created_at: 2024-04-07 00:46:08.103230
@@ -16675,7 +16674,6 @@
     \ which revisits the idea of inferring a likelihood surface using simulation when\
     \ the \u2026"
   journal: biorxiv.org
-  category: Computer Science
   doi: 10.1101/2024.09.30.615940.pdf
 - id: 1257
   created_at: 2024-10-13 00:59:49.790744
@@ -16721,6 +16719,7 @@
     \ in the context of cosmological parameter estimation from galaxy cluster counts\
     \ and masses in \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=2725011623343054312
   arxiv_id: '2409.20507'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -16984,7 +16983,6 @@
     \ constraints on cosmological parameters when used in techniques such as simulation-based\
     \ inference. \u2026"
   journal: academic.oup.com
-  category: Computer Science
   doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stae2810/7932038
 - id: 1277
   created_at: 2024-10-20 01:04:09.744101
@@ -17234,6 +17232,7 @@
     \ inference for Markovian time series simulators. Unlike other neural SBI methods\
     \ that require long \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=2510849660333904750
   arxiv_id: '2411.02728'
   arxiv_category_tag: cs.LG
   category: Neuroscience
@@ -17323,7 +17322,6 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Computer Science
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17715,7 +17713,6 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Computer Science
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17816,7 +17813,7 @@
     \ \u2026 This work develops a neural simulation-based inference framework for\
     \ statistical \u2026"
   journal: hal.science
-  category: Computer Science
+  citation_backlink: https://scholar.google.com/scholar?cites=5412958338412263905
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -18005,3 +18002,15 @@
   journal: biorxiv.org
   category: Ecology
   doi: 10.1101/2024.12.16.628779
+- id: 1348
+  created_at: 2025-01-05 01:01:04.940458
+  published_on: 2024-12-29
+  title: Towards Reliable Simulation-based Inference
+  publication_info_summary: A Delaunoy - 2025 - orbi.uliege.be
+  link: https://orbi.uliege.be/bitstream/2268/325940/1/these.pdf
+  snippet: "\u2026 simulation-based inference, respectively. In Chapter 4, we showcase\
+    \ how simulation-based inference \u2026 the first improvement of simulation-based\
+    \ inference methods toward \u2026"
+  journal: orbi.uliege.be
+  category: Computer Science
+  doi: https://orbi.uliege.be/bitstream/2268/325940/1/these.pdf
