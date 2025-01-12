@@ -15073,6 +15073,7 @@
     \ Neural Ratio Estimation (MNRE) (a recent approach in simulation-based inference)\
     \ to LSS photometric probes: \u2026"
   journal: iopscience.iop.org
+  category: Computer Science
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/057/meta
 - id: 1147
   created_at: 2024-04-07 00:46:08.103230
@@ -17322,6 +17323,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
+  category: Computer Science
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17713,6 +17715,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
+  category: Computer Science
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17814,6 +17817,7 @@
     \ statistical \u2026"
   journal: hal.science
   citation_backlink: https://scholar.google.com/scholar?cites=5412958338412263905
+  category: Computer Science
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -17894,6 +17898,7 @@
     \ for a simulation-based inference workflow in Section 5 \u2026 simulation-based\
     \ inference is a effective methodology \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=12564636255979122120
   arxiv_id: '2412.12967'
   arxiv_category_tag: stat.ME
   category: Statistics
@@ -18014,3 +18019,75 @@
   journal: orbi.uliege.be
   category: Computer Science
   doi: https://orbi.uliege.be/bitstream/2268/325940/1/these.pdf
+- id: 1349
+  created_at: 2025-01-12 01:02:05.067242
+  published_on: 2025-01-07
+  title: Cosmological Parameter Estimation with Sequential Linear Simulation-based
+    Inference
+  authors: Nicolas Mediato-Diaz, Will Handley
+  publication_info_summary: N Mediato-Diaz, W Handley - arXiv preprint arXiv:2501.03921,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2501.03921
+  snippet: "\u2026 We develop the framework of Linear Simulation-based Inference (LSBI),\
+    \ an application of simulation-based inference where the likelihood is approximated\
+    \ by a Gaussian \u2026"
+  journal: arxiv.org
+  arxiv_id: '2501.03921'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1350
+  created_at: 2025-01-12 01:02:10.515022
+  published_on: 2025-01-07
+  title: Galaxy cluster characterization with machine learning techniques
+  authors: Maria Sadikov, Julie Hlavacek-Larrondo, Laurence Perreault Levasseur, Carter
+    Lee Rhea, Michael McDonald, Michelle Ntampaka, John ZuHone
+  publication_info_summary: "M Sadikov, J Hlavacek-Larrondo, LP Levasseur\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2501.04081
+  snippet: "\u2026 then analyze the predictions using simulation-based inference.\
+    \ The paper is structured \u2026 In Section 5, we present our simulation-based\
+    \ inference (SBI) approach to obtain \u2026"
+  journal: arxiv.org
+  arxiv_id: '2501.04081'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1351
+  created_at: 2025-01-12 01:02:14.906689
+  published_on: 2025-01-05
+  title: Efficient Hypersonic Signature Analysis Through Simulation-Based Inference
+  publication_info_summary: O Tumuklu, ST Radev - AIAA SCITECH 2025 Forum, 2025 -
+    arc.aiaa.org
+  link: https://arc.aiaa.org/doi/abs/10.2514/6.2025-2157
+  snippet: "The goal of this work is to validate an efficient simulation-based approach\
+    \ to analyzing hypersonic signatures. Hypersonic flows over a cylinder are simulated\
+    \ with the \u2026"
+  journal: arc.aiaa.org
+  category: Engineering
+  doi: https://arc.aiaa.org/doi/abs/10.2514/6.2025-2157
+- id: 1352
+  created_at: 2025-01-12 01:02:49.969463
+  published_on: 2024-12-20
+  title: Parameter Identifiability Analysis and Calibration for Power System Dynamic
+    Models
+  publication_info_summary: L Wang - 2024 - search.proquest.com
+  link: https://search.proquest.com/openview/cf376ff7fcd3a9416c5c984db43762f0/1?pq-origsite=gscholar&cbl=18750&diss=y
+  snippet: "\u2026 the most identifiable ones when selecting parameters for calibration,\
+    \ and 3) the need for a better trade-off between accuracy and efficiency for simulation-based\
+    \ inference (\u2026"
+  journal: search.proquest.com
+  category: Computer Science
+  doi: https://search.proquest.com/openview/cf376ff7fcd3a9416c5c984db43762f0/1?pq-origsite=gscholar&cbl=18750&diss=y
+- id: 1353
+  created_at: 2025-01-12 01:07:53.627876
+  published_on: 2024-10-12
+  title: Psi-GAN a power-spectrum-informed generative adversarial network for the
+    emulation of large-scale structure maps across cosmologies and redshifts
+  publication_info_summary: "P Bhambra, B Joachimi, O Lahav\u2026 - Monthly Notices\
+    \ of the \u2026, 2025 - academic.oup.com"
+  link: https://academic.oup.com/mnras/article-abstract/536/3/3138/7932038
+  snippet: "\u2026 ability to model non-linear structure should allow more robust\
+    \ constraints on cosmological parameters when used in techniques such as simulation-based\
+    \ inference. \u2026"
+  journal: academic.oup.com
+  category: Computer Science
+  doi: https://academic.oup.com/mnras/article-abstract/536/3/3138/7932038
