@@ -15073,7 +15073,7 @@
     \ Neural Ratio Estimation (MNRE) (a recent approach in simulation-based inference)\
     \ to LSS photometric probes: \u2026"
   journal: iopscience.iop.org
-  category: Computer Science
+  category: Engineering
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/057/meta
 - id: 1147
   created_at: 2024-04-07 00:46:08.103230
@@ -17323,7 +17323,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Computer Science
+  category: Engineering
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17715,7 +17715,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Computer Science
+  category: Engineering
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17817,7 +17817,7 @@
     \ statistical \u2026"
   journal: hal.science
   citation_backlink: https://scholar.google.com/scholar?cites=5412958338412263905
-  category: Computer Science
+  category: Engineering
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -18091,3 +18091,62 @@
   journal: academic.oup.com
   category: Computer Science
   doi: https://academic.oup.com/mnras/article-abstract/536/3/3138/7932038
+- id: 1354
+  created_at: 2025-01-19 00:59:04.307681
+  published_on: 2025-01-15
+  title: Feldman-Cousins' ML Cousin Sterile Neutrino Global Fits using Simulation-Based
+    Inference
+  authors: Joshua Villarreal, John M. Hardin, Janet M. Conrad
+  publication_info_summary: J Villarreal, JM Hardin, JM Conrad - arXiv preprint arXiv:2501.08988,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2501.08988
+  snippet: "\u2026 Although we present a prototypical simulation-based inference method\
+    \ for a sterile neutrino global fit, we anticipate that similar procedures will\
+    \ be useful for global fits of all \u2026"
+  journal: arxiv.org
+  arxiv_id: '2501.08988'
+  arxiv_category_tag: hep-ex
+  category: Neuroscience
+- id: 1355
+  created_at: 2025-01-19 00:59:09.765854
+  published_on: 2025-01-15
+  title: Deep inference of simulated strong lenses in ground-based surveys
+  authors: "Jason Poh, Ashwin Samudre, Aleksandra \u0106iprijanovi\u0107, Joshua Frieman,\
+    \ Gourav Khullar, Brian D. Nord"
+  publication_info_summary: "J Poh, A Samudre, A \u0106iprijanovi\u0107, J Frieman\u2026\
+    \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2501.08524
+  snippet: "\u2026 We show that deep learning and simulationbased inference (SBI)\
+    \ methods produce informative and reliable estimates of parameter posteriors for\
+    \ strong lensing systems in \u2026"
+  journal: arxiv.org
+  arxiv_id: '2501.08524'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1356
+  created_at: 2025-01-19 00:59:14.295001
+  published_on: 2025-01-14
+  title: Role of denoisers in simulation-based inference from graph-structured data
+    a case study for position inference in an astroparticle detector
+  publication_info_summary: "V Roy, A Higuera, S Liang, C Peters, WU Bajwa\u2026 -\
+    \ EURASIP Journal on \u2026, 2025 - Springer"
+  link: https://link.springer.com/article/10.1186/s13634-024-01201-8
+  snippet: "\u2026 The focus of this paper is to improve simulation-based inference\
+    \ through improved denoising of experimental data. Statistical inference of parameters\
+    \ governing a complex \u2026"
+  journal: Springer
+  category: Astrophysics
+  doi: https://link.springer.com/article/10.1186/s13634-024-01201-8
+- id: 1357
+  created_at: 2025-01-19 00:59:20.436673
+  published_on: 2025-01-11
+  title: Compensation of Hyperexcitability with Simulation-Based Inference
+  authors: Mueller-Komorowska, D.; Fukai, T.
+  publication_info_summary: D Mueller-Komorowska, T Fukai - bioRxiv, 2025 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2025.01.07.631838.abstract
+  snippet: "\u2026 We use simulation-based inference to quantify the interactions\
+    \ of compensatory mechanisms in a spiking neuronal network model. Various parameters\
+    \ of the model can \u2026"
+  journal: biorxiv.org
+  category: Neuroscience
+  doi: 10.1101/2025.01.07.631838
