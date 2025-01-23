@@ -6,6 +6,7 @@ url: http://simulation-based-inference.org/
 favicon: favicon.png
 permalink: pretty
 footer_menu: example_footer_menu
+google_analytics: G-5ZXJGRTP48
 
 sass:
   style: compressed
