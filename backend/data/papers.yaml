@@ -15073,7 +15073,7 @@
     \ Neural Ratio Estimation (MNRE) (a recent approach in simulation-based inference)\
     \ to LSS photometric probes: \u2026"
   journal: iopscience.iop.org
-  category: Engineering
+  category: Computer Science
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/057/meta
 - id: 1147
   created_at: 2024-04-07 00:46:08.103230
@@ -17323,7 +17323,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Engineering
+  category: Computer Science
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17715,7 +17715,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Engineering
+  category: Computer Science
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17768,6 +17768,7 @@
     \ Simulation-Based Inference (SBI). It is often implicitly assumed that parameter\
     \ constraints from SBI \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=5877131678294540013
   arxiv_id: '2412.02311'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -17817,7 +17818,7 @@
     \ statistical \u2026"
   journal: hal.science
   citation_backlink: https://scholar.google.com/scholar?cites=5412958338412263905
-  category: Engineering
+  category: Computer Science
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -18150,3 +18151,57 @@
   journal: biorxiv.org
   category: Neuroscience
   doi: 10.1101/2025.01.07.631838
+- id: 1358
+  created_at: 2025-01-26 00:56:54.534359
+  published_on: 2025-01-22
+  title: Hybrid summary statistics neural weak lensing inference beyond the power
+    spectrum
+  publication_info_summary: "TL Makinen, A Heavens, N Porqueres\u2026 - \u2026 of\
+    \ Cosmology and \u2026, 2025 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/1475-7516/2025/01/095/meta
+  snippet: "\u2026 approach is to ask a neural network to find a set of informative\
+    \ summary statistics from data, which can then be analysed either by likelihood-\
+    \ or simulation-based inference\u2026"
+  journal: iopscience.iop.org
+  category: Engineering
+  doi: https://iopscience.iop.org/article/10.1088/1475-7516/2025/01/095/meta
+- id: 1359
+  created_at: 2025-01-26 00:56:58.937580
+  published_on: 2025-01-22
+  title: Probing CNT network conductivity with Simulation-based Inference
+  publication_info_summary: S Tan - researchgate.net
+  link: https://www.researchgate.net/profile/Shulin_Tan/publication/388162453_Probing_CNT_network_conductivity_with_Simulation-based_Inference_Introduction_Experiment_Setup/links/678c75a6ec3ae3435a6df6b4/Probing-CNT-network-conductivity-with-Simulation-based-Inference-Introduction-Experiment-Setup.pdf
+  snippet: "\u2026 We use Simulation-based Inference (SBI) to testify our \u2026 The\
+    \ frontier of simulation-based inference.\" Proceedings of the \u2026 SBI--A toolkit\
+    \ for simulation-based inference.\" \u2026"
+  category: Physics
+  doi: https://www.researchgate.net/profile/Shulin_Tan/publication/388162453_Probing_CNT_network_conductivity_with_Simulation-based_Inference_Introduction_Experiment_Setup/links/678c75a6ec3ae3435a6df6b4/Probing-CNT-network-conductivity-with-Simulation-based-Inference-Introduction-Experiment-Setup.pdf
+- id: 1360
+  created_at: 2025-01-26 00:57:04.399138
+  published_on: 2025-01-19
+  title: SBIAX Density-estimation simulation-based inference in JAX
+  publication_info_summary: J Homer, O Friedrich - Journal of Open Source Software,
+    2025 - joss.theoj.org
+  link: https://joss.theoj.org/papers/10.21105/joss.07606.pdf
+  snippet: "\u2026 many available tools for Simulation Based Inference (SBI),(Cranmer\
+    \ et al., 2020). In such analyses, density-estimation simulation-based inference\
+    \ methods can derive a \u2026"
+  journal: joss.theoj.org
+  category: Computer Science
+  doi: https://joss.theoj.org/papers/10.21105/joss.07606.pdf
+- id: 1361
+  created_at: 2025-01-26 00:57:21.599622
+  published_on: 2025-01-15
+  title: JERALD high-fidelity dark matter, stellar mass and neutral hydrogen maps
+    from fast N-body simulations
+  authors: Mauro Rigo, Roberto Trotta, Matteo Viel
+  publication_info_summary: M Rigo, R Trotta, M Viel - arXiv preprint arXiv:2501.09168,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2501.09168
+  snippet: "\u2026 JERALD provides a fast, accurate and physically motivated approach\
+    \ that we plan to embed in a statistical inference pipeline, such as Simulation-Based\
+    \ Inference, to \u2026"
+  journal: arxiv.org
+  arxiv_id: '2501.09168'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
