@@ -18028,7 +18028,7 @@
   authors: Nicolas Mediato-Diaz, Will Handley
   publication_info_summary: N Mediato-Diaz, W Handley - arXiv preprint arXiv:2501.03921,
     2025 - arxiv.org
-  link: https://arxiv.org/abs/2501.03921
+  link: https://arxiv.org/pdf/2501.03921
   snippet: "\u2026 We develop the framework of Linear Simulation-based Inference (LSBI),\
     \ an application of simulation-based inference where the likelihood is approximated\
     \ by a Gaussian \u2026"
@@ -18094,20 +18094,18 @@
   doi: https://academic.oup.com/mnras/article-abstract/536/3/3138/7932038
 - id: 1354
   created_at: 2025-01-19 00:59:04.307681
-  published_on: 2025-01-15
+  published_on: 2025-01-17
   title: Feldman-Cousins' ML Cousin Sterile Neutrino Global Fits using Simulation-Based
     Inference
-  authors: Joshua Villarreal, John M. Hardin, Janet M. Conrad
-  publication_info_summary: J Villarreal, JM Hardin, JM Conrad - arXiv preprint arXiv:2501.08988,
-    2025 - arxiv.org
-  link: https://arxiv.org/abs/2501.08988
+  publication_info_summary: J Villarreal, JM Hardin, JM Conrad - arXiv e-prints, 2025
+    - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2025arXiv250108988V/abstract
   snippet: "\u2026 Although we present a prototypical simulation-based inference method\
     \ for a sterile neutrino global fit, we anticipate that similar procedures will\
     \ be useful for global fits of all \u2026"
-  journal: arxiv.org
-  arxiv_id: '2501.08988'
-  arxiv_category_tag: hep-ex
+  journal: ui.adsabs.harvard.edu
   category: Neuroscience
+  doi: https://ui.adsabs.harvard.edu/abs/2025arXi50108988V/abstract
 - id: 1355
   created_at: 2025-01-19 00:59:09.765854
   published_on: 2025-01-15
@@ -18117,9 +18115,9 @@
   publication_info_summary: "J Poh, A Samudre, A \u0106iprijanovi\u0107, J Frieman\u2026\
     \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
   link: https://arxiv.org/abs/2501.08524
-  snippet: "\u2026 We show that deep learning and simulationbased inference (SBI)\
+  snippet: "\u2026 We show that deep learning and simulation-based inference (SBI)\
     \ methods produce informative and reliable estimates of parameter posteriors for\
-    \ strong lensing systems in \u2026"
+    \ strong lensing systems \u2026"
   journal: arxiv.org
   arxiv_id: '2501.08524'
   arxiv_category_tag: astro-ph.IM
@@ -18191,17 +18189,88 @@
   doi: https://joss.theoj.org/papers/10.21105/joss.07606.pdf
 - id: 1361
   created_at: 2025-01-26 00:57:21.599622
-  published_on: 2025-01-15
+  published_on: 2025-01-16
   title: JERALD high-fidelity dark matter, stellar mass and neutral hydrogen maps
     from fast N-body simulations
-  authors: Mauro Rigo, Roberto Trotta, Matteo Viel
-  publication_info_summary: M Rigo, R Trotta, M Viel - arXiv preprint arXiv:2501.09168,
-    2025 - arxiv.org
-  link: https://arxiv.org/abs/2501.09168
+  publication_info_summary: M Rigo, R Trotta, M Viel - arXiv e-prints, 2025 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2025arXiv250109168R/abstract
   snippet: "\u2026 JERALD provides a fast, accurate and physically motivated approach\
     \ that we plan to embed in a statistical inference pipeline, such as Simulation-Based\
     \ Inference, to \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Computer Science
+  doi: https://ui.adsabs.harvard.edu/abs/2025arXi50109168R/abstract
+- id: 1362
+  created_at: 2025-02-02 00:58:03.709827
+  published_on: 2025-01-28
+  title: Goodness of Fit for Bayesian Generative Models with Applications in Population
+    Genetics
+  authors: Guillaume Le Mailloux, Paul Bastide, Jean-Michel Marin, Arnaud Estoup
+  publication_info_summary: "GL Mailloux, P Bastide, JM Marin, A Estoup - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2501.17107
+  snippet: "\u2026 fields, inferences about models with intractable likelihoods rely\
+    \ on simulation-based methods, such as Approximate Bayesian Computation and SimulationBased\
+    \ Inference\u2026"
   journal: arxiv.org
-  arxiv_id: '2501.09168'
-  arxiv_category_tag: astro-ph.CO
+  arxiv_id: '2501.17107'
+  arxiv_category_tag: stat.ME
+  category: Computer Science
+- id: 1363
+  created_at: 2025-02-02 00:58:08.886396
+  published_on: 2025-01-22
+  title: Using simulation based inference on tidally perturbed dwarf galaxies the
+    dynamics of NGC205
+  authors: Axel Widmark, Kathryn V. Johnston
+  publication_info_summary: A Widmark, KV Johnston - arXiv preprint arXiv:2501.13148,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2501.13148?utm_referrer=https%3A%2F%2Fdzen.ru%2Fmedia%2Fid%2F676687f640342b59d37f5f1d%2F67933795e0a64f30881ac7d2
+  snippet: "We develop a novel approach to performing precision inference on tidally\
+    \ perturbed dwarf galaxies. We use a Bayesian inference framework of implicit\
+    \ likelihood inference\u2026"
+  journal: arxiv.org
+  arxiv_id: '2501.13148'
+  arxiv_category_tag: astro-ph.GA
   category: Astrophysics
+- id: 1364
+  created_at: 2025-02-02 00:58:13.342948
+  published_on: 2025-01-23
+  title: Possible explanations for the formation of ear-like structures in young Type
+    Ia supernova remnants
+  publication_info_summary: B Biwen, W Yueyang, Y Chuyuan, Z Li - 2025 - aanda.org
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa49381-24.pdf
+  snippet: "\u2026 1), it is apparent that our simple simulation-based inference does\
+    \ not agree well with the observed X-ray morphologies of Kepler\u2019s SNR and\
+    \ SNR G1.9+0.3, as they \u2026"
+  journal: aanda.org
+  category: Physics
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa49381-24.pdf
+- id: 1365
+  created_at: 2025-02-02 00:58:29.880076
+  published_on: 2025-01-19
+  title: Dissertation Machine Learning in Materials Science -- A case study in Carbon
+    Nanotube field effect transistors
+  authors: Shulin Tan
+  publication_info_summary: S Tan - arXiv preprint arXiv:2501.14813, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2501.14813
+  snippet: "\u2026 aligned CNT networks and used simulation-based inference to extract\
+    \ key parameters \u2026 We show that simulation-based inference can be a powerful\
+    \ tool for building models \u2026"
+  journal: arxiv.org
+  arxiv_id: '2501.14813'
+  arxiv_category_tag: physics.app-ph
+  category: Physics
+- id: 1366
+  created_at: 2025-02-02 00:59:18.911699
+  published_on: 2025-01-03
+  title: Combined statistical-biophysical modeling links ion channel genes to physiology
+    of cortical neuron types
+  publication_info_summary: "Y Bernaerts, M Deistler, PJ Gon\xE7alves, J Beck\u2026\
+    \ - \u2026, 2025 - pmc.ncbi.nlm.nih.gov"
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC11722265/
+  snippet: "\u2026 To this end, we fit biophysical Hodgkin-Huxley-based models for\
+    \ a wide variety of cortical cell types using simulation-based inference, while\
+    \ overcoming the challenge \u2026"
+  journal: pmc.ncbi.nlm.nih.gov
+  category: Computer Science
+  doi: https://pmc.ncbi.nlm.nih.gov/articles/PMC11722265/
