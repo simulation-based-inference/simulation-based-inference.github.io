@@ -15073,7 +15073,7 @@
     \ Neural Ratio Estimation (MNRE) (a recent approach in simulation-based inference)\
     \ to LSS photometric probes: \u2026"
   journal: iopscience.iop.org
-  category: Physics
+  category: Computer Science
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/057/meta
 - id: 1147
   created_at: 2024-04-07 00:46:08.103230
@@ -16846,19 +16846,17 @@
   category: Engineering
 - id: 1268
   created_at: 2024-10-20 01:00:50.362303
-  published_on: 2024-10-15
+  published_on: 2025-02-08
   title: Deep Optimal Sensor Placement for Black Box Stochastic Simulations
-  authors: "Paula Cordero-Encinar, Tobias Schr\xF6der, Peter Yatsyshin, Andrew Duncan"
-  publication_info_summary: "P Cordero-Encinar, T Schr\xF6der, P Yatsyshin\u2026 -\
-    \ arXiv preprint arXiv \u2026, 2024 - arxiv.org"
-  link: https://arxiv.org/abs/2410.12036
+  publication_info_summary: "PC Encinar, T Schr\xF6der, P Yatsyshin\u2026 - The 28th\
+    \ International \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=446GZolzar
   snippet: "\u2026 Unlike existing simulation-based inference approaches, which must\
     \ be tied to a specific set of point evaluations, we learn a functional representation\
     \ of parameters and \u2026"
-  journal: arxiv.org
-  arxiv_id: '2410.12036'
-  arxiv_category_tag: stat.ML
-  category: Statistics
+  journal: openreview.net
+  category: Computer Science
+  doi: https://openreview.net/forum?id=446GZolzar
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
   published_on: 2024-10-14
@@ -17035,19 +17033,17 @@
   category: Astrophysics
 - id: 1280
   created_at: 2024-10-27 01:00:34.919316
-  published_on: 2024-10-21
+  published_on: 2024-10-23
   title: Simulation-based inference of single-molecule experiments
-  authors: Lars Dingeldein, Pilar Cossio, Roberto Covino
-  publication_info_summary: L Dingeldein, P Cossio, R Covino - arXiv preprint arXiv:2410.15896,
-    2024 - arxiv.org
-  link: https://arxiv.org/abs/2410.15896
-  snippet: "\u2026 Here, we will review simulation-based inference (SBI) [6], an innovative\
-    \ merger of machine learning, statistical inference, and physics-based simulators.\
-    \ SBI is already a \u2026"
-  journal: arxiv.org
-  arxiv_id: '2410.15896'
-  arxiv_category_tag: physics.chem-ph
-  category: Physics
+  publication_info_summary: L Dingeldein, P Cossio, R Covino - Current Opinion in
+    Structural Biology, 2025 - Elsevier
+  link: https://www.sciencedirect.com/science/article/pii/S0959440X25000065
+  snippet: "\u2026 Simulation-based inference allows Bayesian inference on single-molecule\
+    \ data \u2026 Simulation-based inference (SBI) is a powerful framework for analyzing\
+    \ complex \u2026"
+  journal: Elsevier
+  category: Computer Science
+  doi: https://www.sciencedirect.com/science/article/pii/S0959440X25000065
 - id: 1281
   created_at: 2024-10-27 01:00:39.755133
   published_on: 2024-10-21
@@ -17323,7 +17319,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Physics
+  category: Computer Science
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17715,7 +17711,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Astronomy
+  category: Computer Science
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17818,7 +17814,7 @@
     \ statistical \u2026"
   journal: hal.science
   citation_backlink: https://scholar.google.com/scholar?cites=5412958338412263905
-  category: Physics
+  category: Computer Science
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -18326,3 +18322,68 @@
   journal: theses.hal.science
   category: Astronomy
   doi: https://theses.hal.science/tel-04920410/
+- id: 1370
+  created_at: 2025-02-16 01:00:47.158621
+  published_on: 2025-02-12
+  title: Multifidelity Simulation-based Inference for Computationally Expensive Simulators
+  authors: "Anastasia N. Krouglova, Hayden R. Johnson, Basile Confavreux, Michael\
+    \ Deistler, Pedro J. Gon\xE7alves"
+  publication_info_summary: "AN Krouglova, HR Johnson, B Confavreux\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2502.08416
+  snippet: "\u2026 We evaluate the performance of our multifidelity approach to simulation-based\
+    \ inference on three tasks. We start with the Ornstein-Uhlenbeck process, for\
+    \ which the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2502.08416'
+  arxiv_category_tag: stat.ML
+  category: Physics
+- id: 1371
+  created_at: 2025-02-16 01:00:52.504356
+  published_on: 2025-02-11
+  title: Optimizing Likelihoods via Mutual Information Bridging Simulation-Based Inference
+    and Bayesian Optimal Experimental Design
+  authors: Vincent D. Zaballa, Elliot E. Hui
+  publication_info_summary: VD Zaballa, EE Hui - arXiv preprint arXiv:2502.08004,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2502.08004
+  snippet: "Simulation-based inference (SBI) is a method to perform inference on a\
+    \ variety of complex scientific models with challenging inference (inverse) problems.\
+    \ Bayesian \u2026"
+  journal: arxiv.org
+  arxiv_id: '2502.08004'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1372
+  created_at: 2025-02-16 01:00:57.989934
+  published_on: 2025-02-10
+  title: Amortized In-Context Bayesian Posterior Estimation
+  authors: Sarthak Mittal, Niels Leif Bracher, Guillaume Lajoie, Priyank Jaini, Marcus
+    Brubaker
+  publication_info_summary: "S Mittal, NL Bracher, G Lajoie, P Jaini\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2502.06601
+  snippet: "\u2026 to neural posterior estimation in simulation-based inference (Cranmer\
+    \ et al.\u2026 simulation-based inference (SBI-NPE) as long as an additional constraint\
+    \ is satisfied, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2502.06601'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1373
+  created_at: 2025-02-16 01:01:09.116132
+  published_on: 2025-02-07
+  title: Does Unsupervised Domain Adaptation Improve the Robustness of Amortized Bayesian
+    Inference? A Systematic Evaluation
+  authors: "Lasse Elsem\xFCller, Valentin Pratz, Mischa von Krause, Andreas Voss,\
+    \ Paul-Christian B\xFCrkner, Stefan T. Radev"
+  publication_info_summary: "L Elsem\xFCller, V Pratz, M von Krause, A Voss\u2026\
+    \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2502.04949
+  snippet: "\u2026 2024) have explored the potential of UDA methods for robustifying\
+    \ simulation-based inference. Both approaches align the embedding spaces by minimizing\
+    \ the maximum \u2026"
+  journal: arxiv.org
+  arxiv_id: '2502.04949'
+  arxiv_category_tag: stat.ML
+  category: Astrophysics
