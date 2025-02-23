@@ -16855,7 +16855,7 @@
     \ be tied to a specific set of point evaluations, we learn a functional representation\
     \ of parameters and \u2026"
   journal: openreview.net
-  category: Computer Science
+  category: Astrophysics
   doi: https://openreview.net/forum?id=446GZolzar
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
@@ -17271,16 +17271,17 @@
   doi: https://www.researchsquare.com/article/rs-5276939/latest
 - id: 1297
   created_at: 2024-11-10 01:01:01.637241
-  published_on: 2024-10-08
+  published_on: 2025-02-09
   title: ournal of Cosmology and Astroparticle Physics
-  publication_info_summary: EJ Baxter, S Pandey - 2024 - inspirehep.net
-  link: https://inspirehep.net/files/d12e6f39376ca8a6f936a95aaaff7f9b
-  snippet: "\u2026 We apply simulation based inference (SBI) using neural likelihood\
-    \ models to the problem. We show that in circumstances where the exact likelihood\
-    \ can be computed, the \u2026"
+  publication_info_summary: "TL Makinen, A Heavens, N Porqueres, T Charnock\u2026\
+    \ - 2025 - inspirehep.net"
+  link: https://inspirehep.net/files/230af5a01f03c61ae04185525218bc39
+  snippet: "\u2026 approach is to ask a neural network to find a set of informative\
+    \ summary statistics from data, which can then be analysed either by likelihood-\
+    \ or simulation-based inference\u2026"
   journal: inspirehep.net
   category: Physics
-  doi: https://inspirehep.net/files/d12e6f39376ca8a6f936a95aaaff7f9b
+  doi: https://inspirehep.net/files/230af5a01f03c61ae04185525218bc39
 - id: 1298
   created_at: 2024-11-17 01:02:11.605412
   published_on: 2024-11-12
@@ -17319,7 +17320,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Computer Science
+  category: Physics
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17343,12 +17344,12 @@
   published_on: 2024-11-06
   title: sbi reloaded a toolkit for simulation-based inference
   publication_info_summary: "MP Ziaeemehr13, T Gruner14, S Bischoff\u2026 - raw.githubusercontent.com"
-  link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07428/joss.07428/10.21105.joss.07428.pdf
+  link: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07754/joss.07754/10.21105.joss.07754.pdf
   snippet: "\u2026 Simulation-based inference (SBI) addresses this by enabling Bayesian\
     \ 30 inference for simulators, identifying parameters that match observed data\
     \ and align with 31 \u2026"
   category: Computer Science
-  doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07428/joss.07428/10.21105.joss.07428.pdf
+  doi: https://raw.githubusercontent.com/openjournals/joss-papers/joss.07754/joss.07754/10.21105.joss.07754.pdf
 - id: 1303
   created_at: 2024-11-17 01:05:46.427711
   published_on: 2024-09-25
@@ -17711,7 +17712,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Computer Science
+  category: Physics
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17814,7 +17815,7 @@
     \ statistical \u2026"
   journal: hal.science
   citation_backlink: https://scholar.google.com/scholar?cites=5412958338412263905
-  category: Computer Science
+  category: Physics
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -17842,6 +17843,7 @@
     \ cost of conventional Bayesian approaches. Sharper microstructure parameter maps\
     \ that preserve \u2026"
   journal: archive.ismrm.org
+  citation_backlink: https://scholar.google.com/scholar?cites=3074835348296265382
   category: Computer Science
   doi: https://archive.ismrm.org/2024/1135_P8ql0yRHO.html
 - id: 1337
@@ -18387,3 +18389,49 @@
   arxiv_id: '2502.04949'
   arxiv_category_tag: stat.ML
   category: Astrophysics
+- id: 1374
+  created_at: 2025-02-23 01:00:59.114212
+  published_on: 2025-02-17
+  title: Exploring the BSM parameter space with Neural Network aided Simulation-Based
+    Inference
+  authors: Atrideb Chatterjee, Arghya Choudhury, Sourav Mitra, Arpita Mondal, Subhadeep
+    Mondal
+  publication_info_summary: "A Chatterjee, A Choudhury, S Mitra, A Mondal\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2502.11928
+  snippet: "\u2026 These likelihood-free inferences are often called Simulation-Based\
+    \ Inference (SBI) as it requires a simulator for calculating observables from\
+    \ parameters (discussed in \u2026"
+  journal: arxiv.org
+  arxiv_id: '2502.11928'
+  arxiv_category_tag: hep-ph
+  category: Computer Science
+- id: 1375
+  created_at: 2025-02-23 01:01:04.356982
+  published_on: 2025-02-16
+  title: Box Confidence Depth simulation-based inference with hyper-rectangles
+  authors: Elena Bortolato, Laura Ventura
+  publication_info_summary: E Bortolato, L Ventura - arXiv preprint arXiv:2502.11072,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2502.11072
+  snippet: "This work presents a novel simulation-based approach for constructing\
+    \ confidence regions in parametric models, which is particularly suited for generative\
+    \ models and \u2026"
+  journal: arxiv.org
+  arxiv_id: '2502.11072'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1376
+  created_at: 2025-02-23 01:01:44.611792
+  published_on: 2025-02-07
+  title: Integrating the curriculum Mathematics, statistics, data literacy, and data
+    science
+  publication_info_summary: G Burrill - IASE Conference Proceedings Series, 2025 -
+    iase-pub.org
+  link: https://iase-pub.org/conference_proceedings/IASECP/article/view/112
+  snippet: "\u2026 , the content in curricular documents at the secondary level related\
+    \ to these topics varies greatly from very little to some data analysis to simulation-based\
+    \ inference. In \u2026"
+  journal: iase-pub.org
+  category: Astrophysics
+  doi: https://iase-pub.org/conference_proceedings/IASECP/article/view/112
