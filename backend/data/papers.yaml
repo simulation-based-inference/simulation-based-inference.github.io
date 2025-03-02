@@ -17320,7 +17320,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Physics
+  category: Computer Science
   doi: https://cds.cern.ch/record/2916558
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17712,7 +17712,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Physics
+  category: Computer Science
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -17815,7 +17815,7 @@
     \ statistical \u2026"
   journal: hal.science
   citation_backlink: https://scholar.google.com/scholar?cites=5412958338412263905
-  category: Physics
+  category: Computer Science
   doi: https://hal.science/hal-04833851/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -18435,3 +18435,115 @@
   journal: iase-pub.org
   category: Astrophysics
   doi: https://iase-pub.org/conference_proceedings/IASECP/article/view/112
+- id: 1377
+  created_at: 2025-03-02 01:01:20.079740
+  published_on: 2025-02-22
+  title: Simulation-based inference of the time-dependent reproduction number from
+    temporally aggregated and under-reported disease incidence time series data
+  publication_info_summary: "Z Ogi-Gittins, N Steyn, J Polonsky, W Hart\u2026 - \u2026\
+    \ Transactions of the \u2026, 2025 - ora.ox.ac.uk"
+  link: https://ora.ox.ac.uk/objects/uuid:fab70b29-3518-4575-bcf1-8f59bdfa8ddf
+  snippet: "During infectious disease outbreaks, the time-dependent reproduction number\
+    \ (R_t) can be estimated to monitor pathogen transmission. In previous work, we\
+    \ developed a \u2026"
+  journal: ora.ox.ac.uk
+  category: Physics
+  doi: https://ora.ox.ac.uk/objects/uuid:fab70b29-3518-4575-bcf1-8f59bdfa8ddf
+- id: 1378
+  created_at: 2025-03-02 01:01:25.721613
+  published_on: 2025-02-20
+  title: GalactiKit reconstructing mergers from $z=0$ debris using simulation-based
+    inference in Auriga
+  authors: Andrea Sante, Daisuke Kawata, Andreea S. Font, Robert J. J. Grand
+  publication_info_summary: A Sante, D Kawata, AS Font, RJJ Grand - arXiv preprint
+    arXiv:2502.14972, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2502.14972
+  snippet: "\u2026 GalactiKit uses simulation-based inference to extract the information\
+    \ on galaxy formation processes encoded in the Auriga cosmological MHD simulations\
+    \ of Milky Way-\u2026"
+  journal: arxiv.org
+  arxiv_id: '2502.14972'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1379
+  created_at: 2025-03-02 01:01:30.360883
+  published_on: 2025-02-21
+  title: "A capture\u2013recapture activity to introduce sampling and bootstrap distributions"
+  publication_info_summary: "A Davidson - International Journal of Mathematical Education\
+    \ in \u2026, 2025 - Taylor & Francis"
+  link: https://www.tandfonline.com/doi/abs/10.1080/0020739X.2025.2464569
+  snippet: "\u2026 The activity is ideal for courses using simulation-based inference,\
+    \ can be completed in a single class period, involves group & class collaboration,\
+    \ and adheres to the \u2026"
+  journal: Taylor & Francis
+  category: Education
+  doi: https://www.tandfonline.com/doi/abs/10.1080/0020739X.2025.2464569
+- id: 1380
+  created_at: 2025-03-02 01:03:57.597812
+  published_on: 2025-01-01
+  title: Fast and Reliable Cosmological Analysis with Calibrated Neural Quantile Estimation
+  publication_info_summary: H Jia - American Astronomical Society Meeting Abstracts,
+    2025 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2025AAS...24513305J/abstract
+  snippet: "\u2026 We present Neural Quantile Estimation (NQE), a novel Simulation-Based\
+    \ Inference (SBI) algorithm that can be trained on numerous inexpensive, approximate\
+    \ simulations \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astrophysics
+  doi: https://ui.adsabs.harvard.edu/abs/2025AAS...24513305J/abstract
+- id: 1381
+  created_at: 2025-03-02 01:04:02.044946
+  published_on: 2025-01-01
+  title: Disentangling Star Formation and Active Galactic Nuclei Emission in Nearby
+    Galaxies with Supervised Machine Learning Algorithm
+  publication_info_summary: "J Yuan, I Zaw, A Nemer, Y Chen - \u2026 Society Meeting\
+    \ Abstracts, 2025 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2025AAS...24535902Y/abstract
+  snippet: "\u2026 , we aim to disentangle SF and AGN emission in Nearby Galaxies\
+    \ with a supervised machine learning algorithm using the Python library sbi (simulation-based\
+    \ inference \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astrophysics
+  doi: https://ui.adsabs.harvard.edu/abs/2025AAS...24535902Y/abstract
+- id: 1382
+  created_at: 2025-03-02 01:04:06.992723
+  published_on: 2025-01-01
+  title: Simulation-based Inference for Astronomical Applications
+  publication_info_summary: B Wang - American Astronomical Society Meeting Abstracts,
+    2025 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2025AAS...24513302W/abstract
+  snippet: "\u2026 Simulation-based inference (SBI), also known as likelihood-free\
+    \ inference, offers a promising solution. In this talk, I will discuss its applications\
+    \ to astronomical data, where \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astronomy
+  doi: https://ui.adsabs.harvard.edu/abs/2025AAS...24513302W/abstract
+- id: 1383
+  created_at: 2025-03-02 01:04:11.872433
+  published_on: 2025-01-01
+  title: TDAstro-A LINCC Frameworks Time-Domain Forward-Modeling Package for the Rubin
+    Era
+  publication_info_summary: "M Dai, M Delucchi, J Kubica, O Lynn\u2026 - American\
+    \ \u2026, 2025 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2025AAS...24535402D/abstract
+  snippet: "\u2026 upcoming surveys, developing and testing detection and classification\
+    \ algorithms, quantifying and mitigating bias in analyses, and performing simulation-based\
+    \ inference (\u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Astronomy
+  doi: https://ui.adsabs.harvard.edu/abs/2025AAS...24535402D/abstract
+- id: 1384
+  created_at: 2025-03-02 01:07:49.770330
+  published_on: 2024-11-07
+  title: Active sequential posterior estimation for sample-efficient simulation-based
+    inference
+  publication_info_summary: "S Griesemer, D Cao, Z Cui\u2026 - Advances in Neural\
+    \ \u2026, 2025 - proceedings.neurips.cc"
+  link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/e6da278cdd692077b7e4a99d55573d9c-Abstract-Conference.html
+  snippet: "\u2026 This has led to the rise of simulation-based inference (SBI), a\
+    \ class of machine learning-enabled techniques for approaching inverse problems\
+    \ with stochastic simulators. \u2026"
+  journal: proceedings.neurips.cc
+  citation_backlink: https://scholar.google.com/scholar?cites=10189814048571382538
+  category: Computer Science
+  doi: https://proceedings.neurips.cc/paper_files/paper/2024/hash/e6da278cdd692077b7e4a99d55573d9c-Abstract-Conference.html
