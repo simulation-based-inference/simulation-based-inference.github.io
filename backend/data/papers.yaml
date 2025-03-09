@@ -17712,7 +17712,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Computer Science
+  category: Astrophysics
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -18124,7 +18124,7 @@
   category: Astrophysics
 - id: 1356
   created_at: 2025-01-19 00:59:14.295001
-  published_on: 2025-01-14
+  published_on: 2025-01-15
   title: Role of denoisers in simulation-based inference from graph-structured data
     a case study for position inference in an astroparticle detector
   publication_info_summary: "V Roy, A Higuera, S Liang, C Peters, WU Bajwa\u2026 -\
@@ -18547,3 +18547,61 @@
   citation_backlink: https://scholar.google.com/scholar?cites=10189814048571382538
   category: Computer Science
   doi: https://proceedings.neurips.cc/paper_files/paper/2024/hash/e6da278cdd692077b7e4a99d55573d9c-Abstract-Conference.html
+- id: 1385
+  created_at: 2025-03-09 00:51:22.469657
+  published_on: 2025-03-04
+  title: Inferring Galactic Parameters from Chemical Abundances with Simulation-Based
+    Inference
+  authors: "Tobias Buck, Berkay G\xFCnes, Giuseppe Viterbo, William H. Oliver, Sven\
+    \ Buder"
+  publication_info_summary: "T Buck, B G\xFCnes, G Viterbo, WH Oliver\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2503.02456
+  snippet: "\u2026 Our study demonstrates that simulation-based inference (SBI) provides\
+    \ a powerful and efficient alternative to conventional methods such as Hamiltonian\
+    \ Monte Carlo (\u2026"
+  journal: arxiv.org
+  arxiv_id: '2503.02456'
+  arxiv_category_tag: astro-ph.GA
+  category: Mathematics
+- id: 1386
+  created_at: 2025-03-09 00:51:27.745399
+  published_on: 2025-03-03
+  title: Robust Simulation-Based Inference under Missing Data via Neural Processes
+  authors: Yogesh Verma, Ayush Bharti, Vikas Garg
+  publication_info_summary: Y Verma, A Bharti, V Garg - arXiv preprint arXiv:2503.01287,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2503.01287
+  snippet: "Simulation-based inference (SBI) methods typically require fully observed\
+    \ data to infer parameters of models with intractable likelihood functions. However,\
+    \ datasets often \u2026"
+  journal: arxiv.org
+  arxiv_id: '2503.01287'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1387
+  created_at: 2025-03-09 00:51:47.768751
+  published_on: 2025-02-20
+  title: Towards the virtual twin of epileptic patients with DBS Modelling personalised
+    epileptiform dynamics in The Virtual Brain framework using simulation-based inference
+  publication_info_summary: E Morsink - 2025 - essay.utwente.nl
+  link: http://essay.utwente.nl/105340/
+  snippet: "\u2026 With simulation-based inference (SBI), we applied a data-fitting\
+    \ method based on neural network training to detect parameter configurations that\
+    \ allowed patient-specific \u2026"
+  journal: essay.utwente.nl
+  category: Statistics
+  doi: http://essay.utwente.nl/105340/
+- id: 1388
+  created_at: 2025-03-09 00:52:58.204177
+  published_on: 2025-02-01
+  title: Evidence of novelty and specialization behavior in participatory science
+    reporting
+  publication_info_summary: BR Goldstein, S Stoudt - Oikos, 2025 - Wiley Online Library
+  link: https://nsojournals.onlinelibrary.wiley.com/doi/abs/10.1111/oik.10938
+  snippet: "Participatory science (or \u2018citizen science') records are becoming\
+    \ increasingly useful for wildlife monitoring due to their volume and spatiotemporal\
+    \ coverage. Statistical \u2026"
+  journal: Wiley Online Library
+  category: Astrophysics
+  doi: https://nsojournals.onlinelibrary.wiley.com/doi/abs/10.1111/oik.10938
