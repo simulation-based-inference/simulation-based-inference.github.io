@@ -16855,7 +16855,7 @@
     \ be tied to a specific set of point evaluations, we learn a functional representation\
     \ of parameters and \u2026"
   journal: openreview.net
-  category: Astrophysics
+  category: Mathematics
   doi: https://openreview.net/forum?id=446GZolzar
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
@@ -17628,6 +17628,7 @@
     \ for cosmological applications using simulation-based inference. The model is\
     \ based on analytical \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=3214234506360760096
   arxiv_id: '2412.08701'
   arxiv_category_tag: astro-ph.CO
   category: Computer Science
@@ -17666,20 +17667,18 @@
   category: Astrophysics
 - id: 1324
   created_at: 2024-12-17 16:59:19.295259
-  published_on: 2024-12-05
+  published_on: 2024-12-08
   title: Radio pulsar population synthesis with consistent flux measurements using
     simulation-based inference
-  authors: Celsa Pardo Araujo, Michele Ronchi, Vanessa Graber, Nanda Rea
-  publication_info_summary: CP Araujo, M Ronchi, V Graber, N Rea - arXiv preprint
-    arXiv:2412.04070, 2024 - arxiv.org
-  link: https://arxiv.org/abs/2412.04070
+  publication_info_summary: C Pardo Araujo, M Ronchi, V Graber, N Rea - arXiv e-prints,
+    2024 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2024arXiv241204070P/abstract
   snippet: "\u2026 Galactic isolated neutron stars and provide new insights into the\
     \ intrinsic radio luminosity law by combining pulsar population synthesis with\
     \ a simulation-based inference (\u2026"
-  journal: arxiv.org
-  arxiv_id: '2412.04070'
-  arxiv_category_tag: astro-ph.HE
+  journal: ui.adsabs.harvard.edu
   category: Physics
+  doi: https://ui.adsabs.harvard.edu/abs/2024arXi41204070P/abstract
 - id: 1325
   created_at: 2024-12-17 16:59:23.961918
   published_on: 2024-12-08
@@ -17712,7 +17711,7 @@
   snippet: "\u2026 We demonstrate superior results for simulation-based inference\
     \ of the Lotka-Volterra parameters and initial conditions by using the latents\
     \ as data summaries for a \u2026"
-  category: Astrophysics
+  category: Mathematics
   doi: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_13.pdf
 - id: 1328
   created_at: 2024-12-17 16:59:38.398407
@@ -18124,7 +18123,7 @@
   category: Astrophysics
 - id: 1356
   created_at: 2025-01-19 00:59:14.295001
-  published_on: 2025-01-15
+  published_on: 2025-01-14
   title: Role of denoisers in simulation-based inference from graph-structured data
     a case study for position inference in an astroparticle detector
   publication_info_summary: "V Roy, A Higuera, S Liang, C Peters, WU Bajwa\u2026 -\
@@ -18605,3 +18604,43 @@
   journal: Wiley Online Library
   category: Astrophysics
   doi: https://nsojournals.onlinelibrary.wiley.com/doi/abs/10.1111/oik.10938
+- id: 1389
+  created_at: 2025-03-16 01:03:32.932900
+  published_on: 2025-03-11
+  title: Carbon Nanotube Field Effect Transistor Model Development by Machine Learning
+  publication_info_summary: S Tan - 2025 - escholarship.org
+  link: https://escholarship.org/uc/item/24f095kv
+  snippet: "\u2026 aligned CNT networks and used simulation-based inference to extract\
+    \ key parameters \u2026 We show that simulation-based inference can be a powerful\
+    \ tool for building models \u2026"
+  journal: escholarship.org
+  category: Astrophysics
+  doi: https://escholarship.org/uc/item/24f095kv
+- id: 1390
+  created_at: 2025-03-16 01:03:38.737091
+  published_on: 2025-03-05
+  title: Trial by FIRE Probing the dark matter density profile of dwarf galaxies with
+    GraphNPE
+  authors: "Tri Nguyen, Justin Read, Lina Necib, Siddharth Mishra-Sharma, Claude-Andr\xE9\
+    \ Faucher-Gigu\xE8re, Andrew Wetzel"
+  publication_info_summary: "T Nguyen, J Read, L Necib, S Mishra-Sharma\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2503.03812
+  snippet: "\u2026 In this paper, we further improve and test a new method, GraphNPE,\
+    \ a simulation-based inference (SBI) framework that can massively accelerate distribution\
+    \ function \u2026"
+  journal: arxiv.org
+  arxiv_id: '2503.03812'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1391
+  created_at: 2025-03-16 01:03:43.375462
+  published_on: 2025-03-06
+  title: Searching for HWW Anomalous Couplings with Simulation-Based Inference
+  publication_info_summary: M Silva - cds.cern.ch
+  link: https://cds.cern.ch/record/2925946
+  snippet: "\u2026 ALICES, a cross-entropy estimator functioning as an unbinned, high-dimensional\
+    \ surrogate model for simulation-based inference, is benchmarked against SALLY,\
+    \ a \u2026"
+  category: Physics
+  doi: https://cds.cern.ch/record/2925946
