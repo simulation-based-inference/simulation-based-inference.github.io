@@ -16855,7 +16855,7 @@
     \ be tied to a specific set of point evaluations, we learn a functional representation\
     \ of parameters and \u2026"
   journal: openreview.net
-  category: Mathematics
+  category: Physics
   doi: https://openreview.net/forum?id=446GZolzar
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
@@ -18608,14 +18608,14 @@
   created_at: 2025-03-16 01:03:32.932900
   published_on: 2025-03-11
   title: Carbon Nanotube Field Effect Transistor Model Development by Machine Learning
-  publication_info_summary: S Tan - 2025 - escholarship.org
-  link: https://escholarship.org/uc/item/24f095kv
+  publication_info_summary: S Tan - 2025 - search.proquest.com
+  link: https://search.proquest.com/openview/e3bfa05dfb2c4bf295dfb5355e3cd371/1?pq-origsite=gscholar&cbl=18750&diss=y
   snippet: "\u2026 aligned CNT networks and used simulation-based inference to extract\
     \ key parameters \u2026 We show that simulation-based inference can be a powerful\
     \ tool for building models \u2026"
-  journal: escholarship.org
+  journal: search.proquest.com
   category: Astrophysics
-  doi: https://escholarship.org/uc/item/24f095kv
+  doi: https://search.proquest.com/openview/e3bfa05dfb2c4bf295dfb5355e3cd371/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 1390
   created_at: 2025-03-16 01:03:38.737091
   published_on: 2025-03-05
@@ -18644,3 +18644,76 @@
     \ a \u2026"
   category: Physics
   doi: https://cds.cern.ch/record/2925946
+- id: 1392
+  created_at: 2025-03-23 01:04:08.340012
+  published_on: 2025-03-21
+  title: Full-head fNIRS data generator calibrated via simulation-based inference
+  publication_info_summary: "C Eastmond, X Intes, ST Radev\u2026 - Clinical and Translational\
+    \ \u2026, 2025 - spiedigitallibrary.org"
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC13302/PC133020I/Full-head-fNIRS-data-generator-calibrated-via-simulation-based-inference/10.1117/12.3043725.short
+  snippet: "\u2026 To increase fidelity of the synthetic data, amortized simulation-based\
+    \ inference is used to further calibrate the data generator parameters to the\
+    \ experimental data being \u2026"
+  journal: spiedigitallibrary.org
+  category: Mathematics
+  doi: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC13302/PC133020I/Full-head-fNIRS-data-generator-calibrated-via-simulation-based-inference/10.1117/12.3043725
+- id: 1393
+  created_at: 2025-03-23 01:04:19.903996
+  published_on: 2025-03-17
+  title: How many simulations do we need for simulation-based inference in cosmology?
+  authors: Anirban Bairagi, Benjamin Wandelt, Francisco Villaescusa-Navarro
+  publication_info_summary: "A Bairagi, B Wandelt, F Villaescusa-Navarro - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2503.13755
+  snippet: "How many simulations do we need to train machine learning methods to extract\
+    \ information available from summary statistics of the cosmological density field?\
+    \ Neural \u2026"
+  journal: arxiv.org
+  arxiv_id: '2503.13755'
+  arxiv_category_tag: astro-ph.CO
+  category: Statistics
+- id: 1394
+  created_at: 2025-03-23 01:04:24.530817
+  published_on: 2025-03-16
+  title: Can you trust your uncertainties? Improving Bayesian earthquake source inversions
+    using simulation-based inference
+  publication_info_summary: "A Saoulis, D Piras, AS Mancini, B Joachimi\u2026 - 2025\
+    \ - meetingorganizer.copernicus.org"
+  link: https://meetingorganizer.copernicus.org/EGU25/EGU25-6145.html
+  snippet: "\u2026 This work introduces a novel framework for full-waveform seismic\
+    \ source inversion using simulation-based inference (SBI). Traditional probabilistic\
+    \ approaches often rely \u2026"
+  journal: meetingorganizer.copernicus.org
+  category: earth science
+  doi: https://meetingorganizer.copernicus.org/EGU25/EGU25-6145.html
+- id: 1395
+  created_at: 2025-03-23 01:04:30.438766
+  published_on: 2025-03-14
+  title: The Galactic population of magnetars  a simulation-based inference study
+  authors: "Matt\xE9o Sautron, Alexander Eli McEwen, George Younes, J\xE9r\xF4me P\xE9\
+    tri, Paz Beniamini, Daniela Huppenkothen"
+  publication_info_summary: "M Sautron, AE McEwen, G Younes, J P\xE9tri\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2503.11875
+  snippet: "\u2026 We utilize simulation-based inference to reproduce the observed\
+    \ magnetar population with a model which takes into account the secular evolution\
+    \ of the force-free \u2026"
+  journal: arxiv.org
+  arxiv_id: '2503.11875'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1396
+  created_at: 2025-03-23 01:04:35.977006
+  published_on: 2025-03-11
+  title: Discriminative versus Generative Approaches to Simulation-based Inference
+  authors: Benjamin Sluijter, Sascha Diefenbacher, Wahid Bhimji, Benjamin Nachman
+  publication_info_summary: "B Sluijter, S Diefenbacher, W Bhimji\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2503.07962
+  snippet: "\u2026 We compare two approaches for neural simulation-based inference\
+    \ (NSBI): one based on discriminative learning (classification) and one based\
+    \ on generative modeling. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2503.07962'
+  arxiv_category_tag: hep-ph
+  category: Physics
