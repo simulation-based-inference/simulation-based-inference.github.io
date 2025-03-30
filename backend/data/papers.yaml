@@ -16855,7 +16855,7 @@
     \ be tied to a specific set of point evaluations, we learn a functional representation\
     \ of parameters and \u2026"
   journal: openreview.net
-  category: Physics
+  category: Statistics
   doi: https://openreview.net/forum?id=446GZolzar
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
@@ -18665,9 +18665,9 @@
   publication_info_summary: "A Bairagi, B Wandelt, F Villaescusa-Navarro - arXiv preprint\
     \ arXiv \u2026, 2025 - arxiv.org"
   link: https://arxiv.org/abs/2503.13755
-  snippet: "How many simulations do we need to train machine learning methods to extract\
-    \ information available from summary statistics of the cosmological density field?\
-    \ Neural \u2026"
+  snippet: "\u2026 This paper addresses a fundamental question in simulation-based\
+    \ inference for cosmology: How many simulations are required for neural networks\
+    \ to achieve optimal \u2026"
   journal: arxiv.org
   arxiv_id: '2503.13755'
   arxiv_category_tag: astro-ph.CO
@@ -18717,3 +18717,60 @@
   arxiv_id: '2503.07962'
   arxiv_category_tag: hep-ph
   category: Physics
+- id: 1397
+  created_at: 2025-03-30 01:05:09.179638
+  published_on: 2025-03-24
+  title: The impact of assembly history on the X-ray detectability of halos. From
+    galaxy groups to galaxy clusters
+  authors: "I. Marini, P. Popesso, K. Dolag, V. Biffi, S. Vladutescu-Zopp, T. Castro,\
+    \ V. Toptun, N. de Is\xEDdio, A. Dev, D. Mazengo, J. Comparat, C. Gouin, N. Malavasi,\
+    \ A. Merloni, T. Mroczkowski, G. Ponti, S. Shreeram, Y. Zhang"
+  publication_info_summary: "I Marini, P Popesso, K Dolag, V Biffi\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2503.19121
+  snippet: "\u2026 These findings will aid the interpretation of future X-ray surveys,\
+    \ demonstrating the power of simulation-based inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2503.19121'
+  arxiv_category_tag: astro-ph.GA
+  category: Physics
+- id: 1398
+  created_at: 2025-03-30 01:05:19.663098
+  published_on: 2025-03-20
+  title: Learning Likelihood-Free Reference Priors
+  publication_info_summary: "NG Bishop, J Dyer, DJ Ornia, A Calinescu\u2026 - 7th\
+    \ Symposium on \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=Xxf61efDob
+  snippet: "\u2026 In response to this challenge, a variety of inference procedures\
+    \ have been developed by the simulationbased inference (sbi) community, ranging\
+    \ from classical \u2026"
+  journal: openreview.net
+  category: Neuroscience
+  doi: https://openreview.net/forum?id=Xxf61efDob
+- id: 1399
+  created_at: 2025-03-30 01:05:24.254217
+  published_on: 2025-03-20
+  title: Inference-Time Prior Adaptation in Simulation Based Inference via Guided
+    Diffusion Models
+  publication_info_summary: "PE Chang, S Rissanen, NRBS Loka, D Huang\u2026 - 7th\
+    \ Symposium on \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=WMOsDItRu4
+  snippet: "\u2026 The two moons example is a common benchmark for simulation-based\
+    \ inference. \u2026 Finally, we evaluate PriorGuide on two simulation-based inference\
+    \ tasks of increasing \u2026"
+  journal: openreview.net
+  category: Computer Science
+  doi: https://openreview.net/forum?id=WMOsDItRu4
+- id: 1400
+  created_at: 2025-03-30 01:05:29.172010
+  published_on: 2025-03-20
+  title: Simulation-based inference with diffusion models for spatial statistics
+  publication_info_summary: "H Tesso, A Bharti, E Semenova - 7th Symposium on Advances\
+    \ in \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=Ki32uaK9hZ
+  snippet: "\u2026 We propose a simulation-based inference (SBI) method using a transformer-enhanced\
+    \ diffusion model tailored for spatial models with latent GP priors. By leveraging\
+    \ \u2026"
+  journal: openreview.net
+  category: Mathematics
+  doi: https://openreview.net/forum?id=Ki32uaK9hZ
