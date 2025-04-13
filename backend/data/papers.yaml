@@ -18010,14 +18010,14 @@
   created_at: 2025-01-05 01:01:04.940458
   published_on: 2024-12-29
   title: Towards Reliable Simulation-based Inference
-  publication_info_summary: A Delaunoy - 2025 - orbi.uliege.be
-  link: https://orbi.uliege.be/bitstream/2268/325940/1/these.pdf
+  publication_info_summary: A Delaunoy - 2024 - search.proquest.com
+  link: https://search.proquest.com/openview/71aad88ffafdd7525c3bf530bc29bddf/1?pq-origsite=gscholar&cbl=2026366&diss=y
   snippet: "\u2026 simulation-based inference, respectively. In Chapter 4, we showcase\
     \ how simulation-based inference \u2026 the first improvement of simulation-based\
     \ inference methods toward \u2026"
-  journal: orbi.uliege.be
+  journal: search.proquest.com
   category: Computer Science
-  doi: https://orbi.uliege.be/bitstream/2268/325940/1/these.pdf
+  doi: https://search.proquest.com/openview/71aad88ffafdd7525c3bf530bc29bddf/1?pq-origsite=gscholar&cbl=2026366&diss=y
 - id: 1349
   created_at: 2025-01-12 01:02:05.067242
   published_on: 2025-01-07
@@ -18165,7 +18165,7 @@
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2025/01/095/meta
 - id: 1359
   created_at: 2025-01-26 00:56:58.937580
-  published_on: 2025-01-22
+  published_on: 2025-01-21
   title: Probing CNT network conductivity with Simulation-based Inference
   publication_info_summary: S Tan - researchgate.net
   link: https://www.researchgate.net/profile/Shulin_Tan/publication/388162453_Probing_CNT_network_conductivity_with_Simulation-based_Inference_Introduction_Experiment_Setup/links/678c75a6ec3ae3435a6df6b4/Probing-CNT-network-conductivity-with-Simulation-based-Inference-Introduction-Experiment-Setup.pdf
@@ -18648,7 +18648,7 @@
   doi: https://cds.cern.ch/record/2925946
 - id: 1392
   created_at: 2025-03-23 01:04:08.340012
-  published_on: 2025-03-21
+  published_on: 2025-03-20
   title: Full-head fNIRS data generator calibrated via simulation-based inference
   publication_info_summary: "C Eastmond, X Intes, ST Radev\u2026 - Clinical and Translational\
     \ \u2026, 2025 - spiedigitallibrary.org"
@@ -18791,3 +18791,44 @@
   arxiv_id: '2504.01827'
   arxiv_category_tag: physics.soc-ph
   category: Statistics
+- id: 1402
+  created_at: 2025-04-13 02:30:24.014064
+  published_on: 2025-04-10
+  title: Parameter Inference at the Large Hadron Collider using Neural Likelihood
+    Ratios, and a Measurement of the Higgs Boson Decay Width using the ATLAS Experiment
+  publication_info_summary: J Sandesara - 2025 - scholarworks.umass.edu
+  link: https://scholarworks.umass.edu/entities/publication/a9e999c7-7a76-4f5f-8bf4-2bb4eb3f5ee1
+  snippet: "\u2026 Coming under the general umbrella of Neural Simulation-Based Inference\
+    \ (NSBI) \u2026 of Neural Simulation-Based Inference techniques presented in the\
+    \ rest of the thesis. \u2026"
+  journal: scholarworks.umass.edu
+  category: Neuroscience
+  doi: https://scholarworks.umass.edu/entities/publication/a9e999c7-7a76-4f5f-8bf4-2bb4eb3f5ee1
+- id: 1403
+  created_at: 2025-04-13 02:30:28.648475
+  published_on: 2025-04-08
+  title: Cosmology from HSC Y1 weak lensing data with combined higher-order statistics
+    and simulation-based inference
+  publication_info_summary: "CP Novaes, L Thiele, J Armijo, S Cheng, JA Cowell\u2026\
+    \ - Physical Review D, 2025 - APS"
+  link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.083510
+  snippet: "\u2026 Here, instead, we forward model the summary statistics of HSC Y1\
+    \ and perform a simulation-based inference (SBI) [32], also known as likelihood-free\
+    \ or implicit-likelihood \u2026"
+  journal: APS
+  category: Astronomy
+  doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.083510
+- id: 1404
+  created_at: 2025-04-13 02:35:22.603188
+  published_on: 2024-12-22
+  title: Tests for model misspecification in simulation-based inference From local
+    distortions to global model checks
+  publication_info_summary: N Anau Montel, J Alvey, C Weniger - Physical Review D,
+    2025 - APS
+  link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.083013
+  snippet: "\u2026 Over the last few years, there has been a rapid rise in the use\
+    \ of simulation-based inference (SBI) techniques for Bayesian parameter estimation,\
+    \ applied to increasingly \u2026"
+  journal: APS
+  category: Neuroscience
+  doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.083013
