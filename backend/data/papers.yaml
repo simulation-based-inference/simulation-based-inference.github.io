@@ -17962,20 +17962,17 @@
   doi: https://banglajol.info/index.php/ijss/article/view/78222
 - id: 1345
   created_at: 2024-12-29 01:01:58.091063
-  published_on: 2024-12-19
+  published_on: 2025-03-19
   title: Tests for model misspecification in simulation-based inference from local
     distortions to global model checks
-  authors: Noemi Anau Montel, James Alvey, Christoph Weniger
-  publication_info_summary: NA Montel, J Alvey, C Weniger - arXiv preprint arXiv:2412.15100,
-    2024 - arxiv.org
-  link: https://arxiv.org/abs/2412.15100
+  publication_info_summary: J Alvey - 2025 - repository.cam.ac.uk
+  link: https://www.repository.cam.ac.uk/items/58269f1c-f230-43b3-8943-675a121c5ece
   snippet: "\u2026 Over the last few years, there has been a rapid rise in the use\
     \ of simulation-based inference (SBI) techniques for Bayesian parameter estimation,\
     \ applied to increasingly \u2026"
-  journal: arxiv.org
-  arxiv_id: '2412.15100'
-  arxiv_category_tag: astro-ph.IM
+  journal: repository.cam.ac.uk
   category: Statistics
+  doi: https://www.repository.cam.ac.uk/items/58269f1c-f230-43b3-8943-675a121c5ece
 - id: 1346
   created_at: 2024-12-29 01:02:03.675665
   published_on: 2024-12-21
@@ -18165,7 +18162,7 @@
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2025/01/095/meta
 - id: 1359
   created_at: 2025-01-26 00:56:58.937580
-  published_on: 2025-01-21
+  published_on: 2025-01-22
   title: Probing CNT network conductivity with Simulation-based Inference
   publication_info_summary: S Tan - researchgate.net
   link: https://www.researchgate.net/profile/Shulin_Tan/publication/388162453_Probing_CNT_network_conductivity_with_Simulation-based_Inference_Introduction_Experiment_Setup/links/678c75a6ec3ae3435a6df6b4/Probing-CNT-network-conductivity-with-Simulation-based-Inference-Introduction-Experiment-Setup.pdf
@@ -18648,7 +18645,7 @@
   doi: https://cds.cern.ch/record/2925946
 - id: 1392
   created_at: 2025-03-23 01:04:08.340012
-  published_on: 2025-03-20
+  published_on: 2025-03-21
   title: Full-head fNIRS data generator calibrated via simulation-based inference
   publication_info_summary: "C Eastmond, X Intes, ST Radev\u2026 - Clinical and Translational\
     \ \u2026, 2025 - spiedigitallibrary.org"
@@ -18832,3 +18829,179 @@
   journal: APS
   category: Neuroscience
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.083013
+- id: 1405
+  created_at: 2025-04-20 01:06:32.719516
+  published_on: 2025-04-18
+  title: "Measurement of off-shell Higgs boson production in the H*\u2192ZZ\u2192\
+    \ 4l decay channel using a neural simulation-based inference technique in 13 TeV\
+    \ pp collisions with \u2026"
+  publication_info_summary: A Collaboration - Reports on Progress in Physics, 2025
+    - iopscience.iop.org
+  link: https://iopscience.iop.org/article/10.1088/1361-6633/adcd9a/meta
+  snippet: "\u2026 The data analysis is performed using a neural simulation-based\
+    \ inference method, which builds per-event likelihood ratios using neural networks.\
+    \ The observed (expected\u2026"
+  journal: iopscience.iop.org
+  category: Engineering
+  doi: https://iopscience.iop.org/article/10.1088/1361-6633/adcd9a/meta
+- id: 1406
+  created_at: 2025-04-20 01:06:38.844798
+  published_on: 2025-04-16
+  title: Reducing Calls to the Simulator in Simulation Based Inference (SBI)
+  authors: David Refaeli, Mira Marcus-Kalish, David M. Steinberg
+  publication_info_summary: "D Refaeli, M Marcus-Kalish, DM Steinberg - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2504.11925
+  snippet: "\u2026 Simulation-based inference (SBI) is employed to estimate parameters\
+    \ \u03B8 when we have a generating model with built-in randomness, but are unable\
+    \ to write down a \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.11925'
+  arxiv_category_tag: stat.CO
+  category: Statistics
+- id: 1407
+  created_at: 2025-04-20 01:06:44.192529
+  published_on: 2025-04-15
+  title: Simulation-based inference for stochastic nonlinear mixed-effects models
+    with applications in systems biology
+  authors: "Henrik H\xE4ggstr\xF6m, Sebastian Persson, Marija Cvijovic, Umberto Picchini"
+  publication_info_summary: "H H\xE4ggstr\xF6m, S Persson, M Cvijovic\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2504.11279
+  snippet: "The analysis of data from multiple experiments, such as observations of\
+    \ several individuals, is commonly approached using mixed-effects models, which\
+    \ account for \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.11279'
+  arxiv_category_tag: stat.CO
+  category: Statistics
+- id: 1408
+  created_at: 2025-04-20 01:06:49.909414
+  published_on: 2025-04-15
+  title: Cryo-em images are intrinsically low dimensional
+  authors: Luke Evans, Octavian-Vlad Murad, Lars Dingeldein, Pilar Cossio, Roberto
+    Covino, Marina Meila
+  publication_info_summary: "L Evans, OV Murad, L Dingeldein, P Cossio\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2504.11249
+  snippet: "\u2026 Simulation-based inference provides a powerful framework for cryo-electron\
+    \ microscopy, employing neural networks in methods like CryoSBI to infer biomolecular\
+    \ \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.11249'
+  arxiv_category_tag: q-bio.QM
+  category: Quantitative Biology
+- id: 1409
+  created_at: 2025-04-20 01:06:55.359441
+  published_on: 2025-04-14
+  title: Extracting cosmological information from the abundance of galaxy clusters
+    with simulation-based inference
+  authors: "\xCD\xF1igo Zubeldia, Boris Bolliet, Anthony Challinor, William Handley"
+  publication_info_summary: "\xCD Zubeldia, B Bolliet, A Challinor, W Handley - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2504.10230
+  snippet: "\u2026 In this work, we implement an alternative approach based on simulation-based\
+    \ inference (SBI) methods that relies solely on synthetic galaxy cluster catalogues\
+    \ generated \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.10230'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1410
+  created_at: 2025-04-20 01:07:01.135097
+  published_on: 2025-04-14
+  title: Inferring the Hubble Constant Using Simulated Strongly Lensed Supernovae
+    and Neural Network Ensembles
+  authors: "Gon\xE7alo Gon\xE7alves, Nikki Arendse, Doogesh Kodi Ramanah, Rados\u0142\
+    aw Wojtak"
+  publication_info_summary: "G Gon\xE7alves, N Arendse, DK Ramanah\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2504.10553
+  snippet: "\u2026 The outputs of this ensemble network are combined with a simulation-based\
+    \ inference (SBI) framework to quantify the uncertainties on the network predictions\
+    \ and infer \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.10553'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1411
+  created_at: 2025-04-20 01:07:06.903738
+  published_on: 2025-04-13
+  title: Robust Bayesian methods using amortized simulation-based inference
+  authors: Wang Yuyan, Michael Evans, David J. Nott
+  publication_info_summary: W Yuyan, M Evans, DJ Nott - arXiv preprint arXiv:2504.09475,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2504.09475
+  snippet: "Bayesian simulation-based inference (SBI) methods are used in statistical\
+    \ models where simulation is feasible but the likelihood is intractable. Standard\
+    \ SBI methods can \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.09475'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1412
+  created_at: 2025-04-20 01:07:12.477718
+  published_on: 2025-04-12
+  title: Neural Posterior Estimation on Exponential Random Graph Models Evaluating
+    Bias and Implementation Challenges
+  authors: Yefeng Fan, Simon White
+  publication_info_summary: Y Fan, S White - arXiv preprint arXiv:2504.09349, 2025
+    - arxiv.org
+  link: https://arxiv.org/abs/2504.09349
+  snippet: "\u2026 Neural posterior estimation (NPE) is a recent advancement in simulation-based\
+    \ inference, using a neural network based density estimator to infer the posterior\
+    \ for models \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.09349'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1413
+  created_at: 2025-04-20 01:07:22.823881
+  published_on: 2025-04-09
+  title: Deep Jansen-Rit Parameter Inference for Model-driven Analysis of Brain Activity
+  publication_info_summary: "D Tilwani, C O'Reilly - Advances in Signal Processing\
+    \ and \u2026, 2025 - researchgate.net"
+  link: https://www.researchgate.net/profile/Sergey-Yurish/publication/390829629_Advances_in_Signal_Processing_and_Artificial_Intelligence_Proceedings_of_the_7th_International_Conference_on_Advances_in_Signal_Processing_and_Artificial_Intelligence_8-10_April_2025_Innsbruck_Austria/links/67ff7640bfbe974b23aabbd6/Advances-in-Signal-Processing-and-Artificial-Intelligence-Proceedings-of-the-7th-International-Conference-on-Advances-in-Signal-Processing-and-Artificial-Intelligence-8-10-April-2025-Innsbruck-Austri.pdf#page=93
+  snippet: "\u2026 a convolutional neural network and bidirectional LSTM (CNN-BiLSTM)\
+    \ network\u2014for inverse modeling and compare their performance with simulation-based\
+    \ inference in \u2026"
+  journal: researchgate.net
+  category: Physics
+  doi: https://www.researchgate.net/profile/Sergey-Yurish/publication/390829629_Advances_in_Signal_Processing_and_Artificial_Intelligence_Proceedings_of_the_7th_International_Conference_on_Advances_in_Signal_Processing_and_Artificial_Intelligence_8-10_April_2025_Innsbruck_Austria/links/67ff7640bfbe974b23aabbd6/Advances-in-Signal-Processing-and-Artificial-Intelligence-Proceedings-of-the-7th-International-Conference-on-Advances-in-Signal-Processing-and-Artificial-Intelligence-8-10-April-2025-Innsbruck-Austri.pdf#page=93
+- id: 1414
+  created_at: 2025-04-20 01:07:32.331890
+  published_on: 2025-04-05
+  title: Efficient and scalable posterior surrogate for seismic inversion via wavelet
+    score-based generative models
+  publication_info_summary: E Cirakman, HT Erdinc, FJ Herrmann - slim.gatech.edu
+  link: https://slim.gatech.edu/Publications/Public/Submitted/2025/cirakman2025IMAGEesp/IMAGE_Ege.pdf
+  snippet: "Seismic inversion poses significant computational challenges due to its\
+    \ high dimensionality and non-unique solutions. We propose a novel method integrating\
+    \ the Wavelet \u2026"
+  category: Astrophysics
+  doi: https://slim.gatech.edu/Publications/Public/Submitted/2025/cirakman2025IMAGEesp/IMAGE_Ege.pdf
+- id: 1415
+  created_at: 2025-04-20 01:07:36.914348
+  published_on: 2025-04-05
+  title: Full-waveform variational inference with full common-image gathers and diffusion
+    network
+  publication_info_summary: Y Zeng, HT Erdinc, R Orozco, FJ Herrmann - slim.gatech.edu
+  link: https://slim.gatech.edu/Publications/Public/Submitted/2025/zeng2025IMAGEfwi/IMAGE_Yunlin.pdf
+  snippet: "\u2026 To address these challenges, we propose a simulation-based inference\
+    \ framework with conditional elucidated diffusion models for posterior velocity-model\
+    \ sampling. Our \u2026"
+  doi: https://slim.gatech.edu/Publications/Public/Submitted/2025/zeng2025IMAGEfwi/IMAGE_Yunlin.pdf
+- id: 1416
+  created_at: 2025-04-20 01:11:30.641185
+  published_on: 2025-01-14
+  title: Accelerating Continental-Scale Groundwater Simulation with a Fusion of Machine
+    Learning, Integrated Hydrologic Models and Community Platforms
+  publication_info_summary: RM Maxwell, L Condon - 105th AMS Annual Meeting, 2025
+    - congressarchive.cimne.com
+  link: https://congressarchive.cimne.com/coupled_2025/assets/rmaxwell_coupled2025_templateabstract.pdf
+  snippet: "\u2026 We combine these emulator approaches with both purely data-driven\
+    \ approaches and Simulation-Based Inference, to generate seasonal to annual hydrologic\
+    \ scenarios \u2026"
+  journal: congressarchive.cimne.com
+  category: Neuroscience
+  doi: https://congressarchive.cimne.com/coupled_2025/assets/rmaxwell_coupled2025_templateabstract.pdf
