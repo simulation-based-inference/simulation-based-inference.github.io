@@ -16856,7 +16856,7 @@
     \ of parameters and \u2026"
   journal: openreview.net
   citation_backlink: https://scholar.google.com/scholar?cites=6339789672653538507
-  category: Neuroscience
+  category: Physics
   doi: https://openreview.net/forum?id=446GZolzar
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
@@ -18766,13 +18766,13 @@
   title: Simulation-based inference with diffusion models for spatial statistics
   publication_info_summary: "H Tesso, A Bharti, E Semenova - 7th Symposium on Advances\
     \ in \u2026 - openreview.net"
-  link: https://openreview.net/forum?id=Ki32uaK9hZ
+  link: https://openreview.net/pdf?id=Ki32uaK9hZ
   snippet: "\u2026 We propose a simulation-based inference (SBI) method using a transformer-enhanced\
     \ diffusion model tailored for spatial models with latent GP priors. By leveraging\
     \ \u2026"
   journal: openreview.net
   category: Mathematics
-  doi: https://openreview.net/forum?id=Ki32uaK9hZ
+  doi: https://openreview.net/pdf?id=Ki32uaK9hZ
 - id: 1401
   created_at: 2025-04-06 01:04:45.905223
   published_on: 2025-04-02
@@ -18790,7 +18790,7 @@
   category: Statistics
 - id: 1402
   created_at: 2025-04-13 02:30:24.014064
-  published_on: 2025-04-10
+  published_on: 2025-04-09
   title: Parameter Inference at the Large Hadron Collider using Neural Likelihood
     Ratios, and a Measurement of the Higgs Boson Decay Width using the ATLAS Experiment
   publication_info_summary: J Sandesara - 2025 - scholarworks.umass.edu
@@ -18982,15 +18982,20 @@
   doi: https://slim.gatech.edu/Publications/Public/Submitted/2025/cirakman2025IMAGEesp/IMAGE_Ege.pdf
 - id: 1415
   created_at: 2025-04-20 01:07:36.914348
-  published_on: 2025-04-05
+  published_on: 2025-04-06
   title: Full-waveform variational inference with full common-image gathers and diffusion
     network
-  publication_info_summary: Y Zeng, HT Erdinc, R Orozco, FJ Herrmann - slim.gatech.edu
-  link: https://slim.gatech.edu/Publications/Public/Submitted/2025/zeng2025IMAGEfwi/IMAGE_Yunlin.pdf
+  authors: Yunlin Zeng, Huseyin Tuna Erdinc, Rafael Orozco, Felix Herrmann
+  publication_info_summary: "Y Zeng, HT Erdinc, R Orozco, F Herrmann - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2504.15289
   snippet: "\u2026 To address these challenges, we propose a simulation-based inference\
     \ framework with conditional elucidated diffusion models for posterior velocity-model\
     \ sampling. Our \u2026"
-  doi: https://slim.gatech.edu/Publications/Public/Submitted/2025/zeng2025IMAGEfwi/IMAGE_Yunlin.pdf
+  journal: arxiv.org
+  arxiv_id: '2504.15289'
+  arxiv_category_tag: physics.geo-ph
+  category: Physics
 - id: 1416
   created_at: 2025-04-20 01:11:30.641185
   published_on: 2025-01-14
@@ -19005,3 +19010,44 @@
   journal: congressarchive.cimne.com
   category: Neuroscience
   doi: https://congressarchive.cimne.com/coupled_2025/assets/rmaxwell_coupled2025_templateabstract.pdf
+- id: 1417
+  created_at: 2025-04-27 01:06:31.878584
+  published_on: 2025-04-24
+  title: Advancing towards personalized medicine probabilistic machine learning and
+    deep learning for health and genetics
+  publication_info_summary: S Wharrie - 2025 - aaltodoc.aalto.fi
+  link: https://aaltodoc.aalto.fi/items/a5e9c832-2f93-45cf-b5c9-97420596534b
+  snippet: "\u2026 new probabilistic machine learning approach and software tool that\
+    \ implements statistical models of the underlying generative processes and simulation-based\
+    \ inference \u2026"
+  journal: aaltodoc.aalto.fi
+  category: healthinformatics
+  doi: https://aaltodoc.aalto.fi/items/a5e9c832-2f93-45cf-b5c9-97420596534b
+- id: 1418
+  created_at: 2025-04-27 01:06:38.796909
+  published_on: 2025-04-21
+  title: Cosmological Constraints with Void Lensing I the Simulation-Based Inference
+    Framework
+  authors: Chen Su, Huanyuan Shan, Cheng Zhao, Wenshuo Xu, Jiajun Zhang
+  publication_info_summary: C Su, H Shan, C Zhao, W Xu, J Zhang - arXiv preprint arXiv:2504.15149,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2504.15149
+  snippet: "\u2026 We present a Simulation-Based Inference (SBI) framework for cosmological\
+    \ parameter estimation via void lensing analysis. Despite the absence of an analytical\
+    \ model of \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.15149'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1419
+  created_at: 2025-04-27 01:06:43.490141
+  published_on: 2025-04-18
+  title: Deep Jansen-Rit Parameter Inference for Model-Driven Analysis of Brain Activity
+  publication_info_summary: D Tilwani, C O'Reilly - 2025 - scholarcommons.sc.edu
+  link: https://scholarcommons.sc.edu/csce_facpub/324/
+  snippet: "\u2026 a convolutional neural network and bidirectional LSTM (CNN-BiLSTM)\
+    \ network\u2014for inverse modeling and compare their performance with simulation-based\
+    \ inference in \u2026"
+  journal: scholarcommons.sc.edu
+  category: Neuroscience
+  doi: https://scholarcommons.sc.edu/csce_facpub/324/
