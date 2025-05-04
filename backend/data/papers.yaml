@@ -16846,18 +16846,18 @@
   category: Engineering
 - id: 1268
   created_at: 2024-10-20 01:00:50.362303
-  published_on: 2025-02-08
+  published_on: 2025-02-09
   title: Deep Optimal Sensor Placement for Black Box Stochastic Simulations
-  publication_info_summary: "PC Encinar, T Schr\xF6der, P Yatsyshin\u2026 - The 28th\
-    \ International \u2026 - openreview.net"
-  link: https://openreview.net/forum?id=446GZolzar
+  publication_info_summary: "PC Encinar, T Schr\xF6der, P Yatsyshin\u2026 - Frontiers\
+    \ in \u2026, 2025 - openreview.net"
+  link: https://openreview.net/forum?id=PW4aJFzGnT
   snippet: "\u2026 Unlike existing simulation-based inference approaches, which must\
     \ be tied to a specific set of point evaluations, we learn a functional representation\
     \ of parameters and \u2026"
   journal: openreview.net
   citation_backlink: https://scholar.google.com/scholar?cites=6339789672653538507
-  category: Physics
-  doi: https://openreview.net/forum?id=446GZolzar
+  category: biomedical engineering
+  doi: https://openreview.net/forum?id=PW4aJFzGnT
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
   published_on: 2024-10-14
@@ -18334,6 +18334,7 @@
     \ inference on three tasks. We start with the Ornstein-Uhlenbeck process, for\
     \ which the \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=11330311695151690727
   arxiv_id: '2502.08416'
   arxiv_category_tag: stat.ML
   category: Physics
@@ -18366,6 +18367,7 @@
     \ et al.\u2026 simulation-based inference (SBI-NPE) as long as an additional constraint\
     \ is satisfied, \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=14466859591705326460
   arxiv_id: '2502.06601'
   arxiv_category_tag: cs.LG
   category: Computer Science
@@ -18831,7 +18833,7 @@
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.083013
 - id: 1405
   created_at: 2025-04-20 01:06:32.719516
-  published_on: 2025-04-18
+  published_on: 2025-04-17
   title: "Measurement of off-shell Higgs boson production in the H*\u2192ZZ\u2192\
     \ 4l decay channel using a neural simulation-based inference technique in 13 TeV\
     \ pp collisions with \u2026"
@@ -19012,7 +19014,7 @@
   doi: https://congressarchive.cimne.com/coupled_2025/assets/rmaxwell_coupled2025_templateabstract.pdf
 - id: 1417
   created_at: 2025-04-27 01:06:31.878584
-  published_on: 2025-04-24
+  published_on: 2025-04-23
   title: Advancing towards personalized medicine probabilistic machine learning and
     deep learning for health and genetics
   publication_info_summary: S Wharrie - 2025 - aaltodoc.aalto.fi
@@ -19051,3 +19053,84 @@
   journal: scholarcommons.sc.edu
   category: Neuroscience
   doi: https://scholarcommons.sc.edu/csce_facpub/324/
+- id: 1420
+  created_at: 2025-05-04 01:09:47.244825
+  published_on: 2025-04-28
+  title: Surrogate-Model-Based Calibration of Effective Transport Parameters from
+    Push-Pull Tests in the Horonobe Aquifer (Japan)
+  publication_info_summary: "E Petrova, P Selzer, S Kranz, S Zeilfelder\u2026 - Available\
+    \ at SSRN \u2026 - papers.ssrn.com"
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5232178
+  snippet: "Aquifer characterization is essential for optimizing Aquifer Thermal Energy\
+    \ Storage (ATES) systems. Single well tests, also known as push-pull tests, are\
+    \ a common \u2026"
+  journal: papers.ssrn.com
+  category: Physics
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5232178
+- id: 1421
+  created_at: 2025-05-04 01:09:52.798068
+  published_on: 2025-04-24
+  title: Effortless, Simulation-Efficient Bayesian Inference using Tabular Foundation
+    Models
+  authors: Julius Vetter, Manuel Gloeckler, Daniel Gedon, Jakob H. Macke
+  publication_info_summary: "J Vetter, M Gloeckler, D Gedon, JH Macke - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2504.17660
+  snippet: "\u2026 2.2 TabPFN for simulation-based inference To perform simulation-based\
+    \ inference with TabPFN, we repurpose it as a general conditional density estimator.\
+    \ The key to \u2026"
+  journal: arxiv.org
+  arxiv_id: '2504.17660'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1422
+  created_at: 2025-05-04 01:09:57.294719
+  published_on: 2025-04-25
+  title: Atomic Posterior Ensembles for Simulation-Based Inference
+  publication_info_summary: "S Griesemer, W Neiswanger, Y Liu - Frontiers in Probabilistic\
+    \ Inference \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=aI8GYg4a2T
+  snippet: "\u2026 We demonstrate the potential of this method on several common simulation-based\
+    \ inference (SBI) benchmark tasks, and observe performance advantages over non-\u2026"
+  journal: openreview.net
+  category: Computer Science
+  doi: https://openreview.net/forum?id=aI8GYg4a2T
+- id: 1423
+  created_at: 2025-05-04 01:10:02.870017
+  published_on: 2025-04-23
+  title: Novel Calibration and Inference Techniques for a Liquid Xenon Dark Matter
+    Detector
+  publication_info_summary: H Guan - 2025 - hammer.purdue.edu
+  link: https://hammer.purdue.edu/articles/thesis/Novel_Calibration_and_Inference_Techniques_for_a_Liquid_Xenon_Dark_Matter_Detector/28836128
+  snippet: "\u2026 I also wish to thank Juehang for the insightful discussions on\
+    \ simulation-based inference. I also extend my thanks to Dacheng, Lanqing, and\
+    \ Zihao for their generous \u2026"
+  journal: hammer.purdue.edu
+  category: Physics
+  doi: https://hammer.purdue.edu/articles/thesis/Novel_Calibration_and_Inference_Techniques_for_a_Liquid_Xenon_Dark_Matter_Detector/28836128
+- id: 1424
+  created_at: 2025-05-04 01:10:07.701579
+  published_on: 2025-04-23
+  title: Higgs Measurements using Simulation Based Inference Techniques (ATLAS+ CMS)
+  publication_info_summary: TH Park - 2025 - cds.cern.ch
+  link: https://cds.cern.ch/record/2930440/files/ATL-PHYS-SLIDE-2025-100.pdf
+  snippet: "\u2026 Instead, use simulation-based inference technique utilizing complete\
+    \ event information to build optimal observable for BSM effects. \u2026 \u2022\
+    \ Higgs measurements \u2026"
+  journal: cds.cern.ch
+  category: Physics
+  doi: https://cds.cern.ch/record/2930440/files/ATL-PHYS-SLIDE-2025-100.pdf
+- id: 1425
+  created_at: 2025-05-04 01:11:40.052466
+  published_on: 2025-03-22
+  title: Inference-Time Prior Adaptation in Simulation-Based Inference via Guided
+    Diffusion Models
+  publication_info_summary: "PE Chang, S Rissanen, NRBS Loka, D Huang\u2026 - Frontiers\
+    \ in Probabilistic \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=0zUwvi1Vd9
+  snippet: "\u2026 Simulation-based inference has become a fundamental tool across\
+    \ computational sciences, enabling parameter estimation in complex systems where\
+    \ the forward model (\u2026"
+  journal: openreview.net
+  category: medicine
+  doi: https://openreview.net/forum?id=0zUwvi1Vd9
