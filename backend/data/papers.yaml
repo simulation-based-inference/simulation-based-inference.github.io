@@ -16856,7 +16856,7 @@
     \ of parameters and \u2026"
   journal: openreview.net
   citation_backlink: https://scholar.google.com/scholar?cites=6339789672653538507
-  category: biomedical engineering
+  category: Physics
   doi: https://openreview.net/forum?id=PW4aJFzGnT
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
@@ -17804,19 +17804,18 @@
   category: Physics
 - id: 1334
   created_at: 2024-12-17 17:00:13.871075
-  published_on: 2024-12-03
+  published_on: 2025-05-03
   title: An implementation of neural simulation-based inference for parameter estimation
     in ATLAS
-  publication_info_summary: "G Aad, E Aakvaag, BK Abbott, S Abdelhameed\u2026 - 2024\
-    \ - hal.science"
-  link: https://hal.science/hal-04833851/
-  snippet: "Neural simulation-based inference is a powerful class of machine-learning-based\
+  publication_info_summary: "J Howarth, Atlas Collaboration - Reports on progress\
+    \ in \u2026 - pubmed.ncbi.nlm.nih.gov"
+  link: https://pubmed.ncbi.nlm.nih.gov/40315869/
+  snippet: "\u2026 Neural simulation-based inference is a powerful class of machine-learning-based\
     \ \u2026 This work develops a neural simulation-based inference framework for\
     \ statistical \u2026"
-  journal: hal.science
-  citation_backlink: https://scholar.google.com/scholar?cites=5412958338412263905
+  journal: pubmed.ncbi.nlm.nih.gov
   category: Computer Science
-  doi: https://hal.science/hal-04833851/
+  doi: https://pubmed.ncbi.nlm.nih.gov/40315869/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
   published_on: 2024-12-03
@@ -19134,3 +19133,78 @@
   journal: openreview.net
   category: medicine
   doi: https://openreview.net/forum?id=0zUwvi1Vd9
+- id: 1426
+  created_at: 2025-05-11 01:08:41.966978
+  published_on: 2025-05-08
+  title: Simulation-based inference advances water quality mapping in shallow coral
+    reef environments
+  publication_info_summary: "P Palola, V Theenathayalan\u2026 - Royal Society \u2026\
+    , 2025 - royalsocietypublishing.org"
+  link: https://royalsocietypublishing.org/doi/abs/10.1098/rsos.241471
+  snippet: "\u2026 , simulation-based inference, for addressing the inverse problem\
+    \ in marine remote sensing. The simulation-based inference \u2026 We apply a simulation-based\
+    \ inference (SBI) \u2026"
+  journal: royalsocietypublishing.org
+  category: biomedical engineering
+  doi: https://royalsocietypublishing.org/doi/abs/10.1098/rsos.241471
+- id: 1427
+  created_at: 2025-05-11 01:08:47.709928
+  published_on: 2025-05-05
+  title: A robust neural determination of the source-count distribution of the Fermi-LAT
+    sky at high latitudes
+  authors: Christopher Eckner, Noemi Anau Montel, Florian List, Francesca Calore,
+    Christoph Weniger
+  publication_info_summary: "C Eckner, NA Montel, F List, F Calore\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.02906
+  snippet: "\u2026 In this work, we analyze 14 years of high-latitude (|b| \u2265\
+    \ 30\u25E6) Fermi-LAT data in the range from 1 to 10 GeV using simulation-based\
+    \ inference (SBI) via neural ratio \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.02906'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1428
+  created_at: 2025-05-11 01:08:52.387107
+  published_on: 2025-05-05
+  title: Bayesian estimation of stochastic metafrontiers
+  publication_info_summary: I Skevas - Economics Letters, 2025 - Elsevier
+  link: https://www.sciencedirect.com/science/article/pii/S0165176525002058
+  snippet: "\u2026 It uses Bayesian simulation-based inference and user-friendly software,\
+    \ requiring minimal coding. Applications to simulated and real data confirm the\
+    \ model\u2019s reliability. \u2026"
+  journal: Elsevier
+  category: Statistics
+  doi: https://www.sciencedirect.com/science/article/pii/S0165176525002058
+- id: 1429
+  created_at: 2025-05-11 01:09:09.258862
+  published_on: 2025-05-01
+  title: Detecting Modeling Bias with Continuous Time Flow Models on Weak Lensing
+    Maps
+  authors: Kangning Diao, Biwei Dai, Uros Seljak
+  publication_info_summary: K Diao, B Dai, U Seljak - arXiv preprint arXiv:2505.00632,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2505.00632
+  snippet: "\u2026 Simulation-based inference provides a powerful framework for extracting\
+    \ rich \u2026 of machine learning (ML)-based simulation-based inference (SBI).\
+    \ We employ probability \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.00632'
+  arxiv_category_tag: astro-ph.CO
+  category: Computer Science
+- id: 1430
+  created_at: 2025-05-11 01:09:53.701429
+  published_on: 2025-04-18
+  title: "Measurement of off-shell Higgs boson production in the H\u2217\u2192 ZZ\u2192\
+    \ 4\u2113 decay channel using a neural simulation-based inference technique in\
+    \ 13 TeV pp collisions \u2026"
+  publication_info_summary: Atlas Collaboration - Reports on Progress in Physics,
+    2025 - research.birmingham.ac.uk
+  link: https://research.birmingham.ac.uk/en/publications/measurement-of-off-shell-higgs-boson-production-in-the-hsupsupzz4
+  snippet: "\u2026 The data analysis is performed using a neural simulation-based\
+    \ inference method, which builds per-event likelihood ratios using neural networks.\
+    \ The observed (expected\u2026"
+  journal: research.birmingham.ac.uk
+  citation_backlink: https://scholar.google.com/scholar?cites=713180353634071809
+  category: Geography
+  doi: https://research.birmingham.ac.uk/en/publications/measurement-of-off-shell-higgs-boson-production-in-the-hsupsupzz4
