@@ -16856,7 +16856,7 @@
     \ of parameters and \u2026"
   journal: openreview.net
   citation_backlink: https://scholar.google.com/scholar?cites=6339789672653538507
-  category: Physics
+  category: Mathematics
   doi: https://openreview.net/forum?id=PW4aJFzGnT
 - id: 1269
   created_at: 2024-10-20 01:00:55.093885
@@ -17814,7 +17814,7 @@
     \ \u2026 This work develops a neural simulation-based inference framework for\
     \ statistical \u2026"
   journal: pubmed.ncbi.nlm.nih.gov
-  category: Computer Science
+  category: Mathematics
   doi: https://pubmed.ncbi.nlm.nih.gov/40315869/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -18739,10 +18739,10 @@
   published_on: 2025-03-20
   title: Learning Likelihood-Free Reference Priors
   publication_info_summary: "NG Bishop, J Dyer, DJ Ornia, A Calinescu\u2026 - 7th\
-    \ Symposium on \u2026 - openreview.net"
+    \ Symposium on \u2026, 2025 - openreview.net"
   link: https://openreview.net/forum?id=Xxf61efDob
   snippet: "\u2026 In response to this challenge, a variety of inference procedures\
-    \ have been developed by the simulationbased inference (sbi) community, ranging\
+    \ have been developed by the simulation-based inference (sbi) community, ranging\
     \ from classical \u2026"
   journal: openreview.net
   category: Neuroscience
@@ -19124,8 +19124,8 @@
   published_on: 2025-03-22
   title: Inference-Time Prior Adaptation in Simulation-Based Inference via Guided
     Diffusion Models
-  publication_info_summary: "PE Chang, S Rissanen, NRBS Loka, D Huang\u2026 - Frontiers\
-    \ in Probabilistic \u2026 - openreview.net"
+  publication_info_summary: "PE Chang, S Rissanen, NRBS Loka\u2026 - Frontiers in\
+    \ \u2026, 2025 - openreview.net"
   link: https://openreview.net/forum?id=0zUwvi1Vd9
   snippet: "\u2026 Simulation-based inference has become a fundamental tool across\
     \ computational sciences, enabling parameter estimation in complex systems where\
@@ -19135,7 +19135,7 @@
   doi: https://openreview.net/forum?id=0zUwvi1Vd9
 - id: 1426
   created_at: 2025-05-11 01:08:41.966978
-  published_on: 2025-05-08
+  published_on: 2025-05-07
   title: Simulation-based inference advances water quality mapping in shallow coral
     reef environments
   publication_info_summary: "P Palola, V Theenathayalan\u2026 - Royal Society \u2026\
@@ -19208,3 +19208,55 @@
   citation_backlink: https://scholar.google.com/scholar?cites=713180353634071809
   category: Geography
   doi: https://research.birmingham.ac.uk/en/publications/measurement-of-off-shell-higgs-boson-production-in-the-hsupsupzz4
+- id: 1431
+  created_at: 2025-05-18 01:09:23.853655
+  published_on: 2025-05-13
+  title: ConDiSim Conditional Diffusion Models for Simulation Based Inference
+  authors: Mayank Nautiyal, Andreas Hellander, Prashant Singh
+  publication_info_summary: M Nautiyal, A Hellander, P Singh - arXiv preprint arXiv:2505.08403,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2505.08403
+  snippet: "\u2026 We present a conditional diffusion model - ConDiSim, for simulation-based\
+    \ inference \u2026 ConDiSim offers a robust and extensible framework for simulation-based\
+    \ inference, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.08403'
+  arxiv_category_tag: cs.LG
+  category: Physics
+- id: 1432
+  created_at: 2025-05-18 01:09:28.498458
+  published_on: 2025-05-13
+  title: Exoplanet atmospheric characterization using amortized simulation based inference
+  publication_info_summary: MV Vasist - 2025 - orbi.uliege.be
+  link: https://orbi.uliege.be/handle/2268/331545
+  snippet: "\u2026 This leads us to explore an alternative family of algorithms called\
+    \ simulation based inference, specifically using a variational deep-learning-based\
+    \ retrieval algorithm \u2026"
+  journal: orbi.uliege.be
+  category: Physics
+  doi: https://orbi.uliege.be/handle/2268/331545
+- id: 1433
+  created_at: 2025-05-18 01:09:39.303327
+  published_on: 2025-05-07
+  title: The impact of assembly history on the X-ray detectability of halos
+  publication_info_summary: "I Marini, P Popesso, K Dolag, V Biffi\u2026 - 2025 -\
+    \ aanda.org"
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa54677-25.pdf
+  snippet: "\u2026 These findings will aid the interpretation of future X-ray surveys,\
+    \ demonstrating the power of simulation-based inference. \u2026"
+  journal: aanda.org
+  category: Environmental Science
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa54677-25.pdf
+- id: 1434
+  created_at: 2025-05-18 01:12:18.128301
+  published_on: 2025-03-20
+  title: SpatFormer simulation-based inference with transformers for spatial statistics
+  publication_info_summary: "H Tesso, A Bharti, E Semenova - 7th Symposium on Advances\
+    \ in \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=Ki32uaK9hZ
+  snippet: "\u2026 We propose a simulation-based inference (SBI) method using a transformer-enhanced\
+    \ diffusion model tailored for spatial models with latent GP priors. By leveraging\
+    \ \u2026"
+  journal: openreview.net
+  category: Mathematics
+  doi: https://openreview.net/forum?id=Ki32uaK9hZ
