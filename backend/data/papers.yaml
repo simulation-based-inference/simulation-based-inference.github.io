@@ -17814,7 +17814,7 @@
     \ \u2026 This work develops a neural simulation-based inference framework for\
     \ statistical \u2026"
   journal: pubmed.ncbi.nlm.nih.gov
-  category: Mathematics
+  category: Physics
   doi: https://pubmed.ncbi.nlm.nih.gov/40315869/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -18814,6 +18814,7 @@
     \ and perform a simulation-based inference (SBI) [32], also known as likelihood-free\
     \ or implicit-likelihood \u2026"
   journal: APS
+  citation_backlink: https://scholar.google.com/scholar?cites=17590725388168293882
   category: Astronomy
   doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.083510
 - id: 1404
@@ -19198,8 +19199,8 @@
   title: "Measurement of off-shell Higgs boson production in the H\u2217\u2192 ZZ\u2192\
     \ 4\u2113 decay channel using a neural simulation-based inference technique in\
     \ 13 TeV pp collisions \u2026"
-  publication_info_summary: Atlas Collaboration - Reports on Progress in Physics,
-    2025 - research.birmingham.ac.uk
+  publication_info_summary: "ATLAS Collaboration - Reports on Progress in \u2026,\
+    \ 2025 - research.birmingham.ac.uk"
   link: https://research.birmingham.ac.uk/en/publications/measurement-of-off-shell-higgs-boson-production-in-the-hsupsupzz4
   snippet: "\u2026 The data analysis is performed using a neural simulation-based\
     \ inference method, which builds per-event likelihood ratios using neural networks.\
@@ -19260,3 +19261,135 @@
   journal: openreview.net
   category: Mathematics
   doi: https://openreview.net/forum?id=Ki32uaK9hZ
+- id: 1435
+  created_at: 2025-05-25 01:10:59.535791
+  published_on: 2025-05-20
+  title: Towards mapping turbulence in the intracluster medium IV. Using NewAthena/X-IFU
+    and simulation based inference to constrain turbulence
+  authors: "Alexe\xEF Molin, Simon Dupourqu\xE9, Nicolas Clerc, \xC9tienne Pointecouteau,\
+    \ Fran\xE7ois Pajot, Edoardo Cucchetti"
+  publication_info_summary: "A Molin, S Dupourqu\xE9, N Clerc\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.14378
+  snippet: "\u2026 In this paper, we leverage Simulation-Based Inference (SBI hereafter)\
+    \ through the sbi \u2026 In Section 3 we introduce Simulation based inference,\
+    \ with the model used for \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.14378'
+  arxiv_category_tag: astro-ph.CO
+  category: Mathematics
+- id: 1436
+  created_at: 2025-05-25 01:11:10.739386
+  published_on: 2025-05-19
+  title: Modeling Galaxy Surveys with Hybrid SBI
+  authors: Gemma Zhang, Chirag Modi, Oliver H. E. Philcox
+  publication_info_summary: G Zhang, C Modi, OHE Philcox - arXiv preprint arXiv:2505.13591,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2505.13591
+  snippet: "\u2026 Small-Scales: Simulation-based Inference Since the PT models fail\
+    \ on small scales due to increased non-linearity, we use simulation-based inference\
+    \ to extract \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.13591'
+  arxiv_category_tag: astro-ph.CO
+  category: Computer Science
+- id: 1437
+  created_at: 2025-05-25 01:11:16.170442
+  published_on: 2025-05-19
+  title: Field-Level Comparison and Robustness Analysis of Cosmological N-Body Simulations
+  authors: Adrian E. Bayer, Francisco Villaescusa-Navarro, Sammy Sharief, Romain Teyssier,
+    Lehman H. Garrison, Laurence Perreault-Levasseur, Greg L. Bryan, Marco Gatti,
+    Eli Visbal
+  publication_info_summary: "AE Bayer, F Villaescusa-Navarro, S Sharief\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.13620
+  snippet: "\u2026 Additionally, we performed field-level simulationbased inference\
+    \ of cosmological parameters with a CNN, training on Gadget (a non-AMR simulation)\
+    \ and testing on all \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.13620'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1438
+  created_at: 2025-05-25 01:11:20.874503
+  published_on: 2025-05-17
+  title: Unlocking the Early Universe using HI 21cm Cosmology Marginal Neural Ratio
+    Estimation for 21-cm Power Spectra Analysis
+  publication_info_summary: B Sen - 2025 - dr.iiserpune.ac.in
+  link: http://dr.iiserpune.ac.in:8080/xmlui/handle/123456789/9925
+  snippet: "\u2026 To address these shortcomings, we have turned to Simulation-Based\
+    \ Inference (SBI), a powerful framework that leverages deep learning algorithms\
+    \ to estimate posterior \u2026"
+  journal: dr.iiserpune.ac.in
+  category: Physics
+  doi: http://dr.iiserpune.ac.in:8080/xmlui/handle/123456789/9925
+- id: 1439
+  created_at: 2025-05-25 01:11:27.462567
+  published_on: 2025-05-16
+  title: Narrowing RIFT Focused simulation-based-inference for interpreting exceptional
+    GW sources
+  authors: Katelyn J. Wagner, R. O'Shaughnessy, A. Yelikar, N. Manning, D. Fernando,
+    J. Lange, V. Tiwari, A. Fernando, D. Williams
+  publication_info_summary: "KJ Wagner, R O'Shaughnessy, A Yelikar\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.11655
+  snippet: "The Rapid Iterative FiTting (RIFT) parameter inference algorithm provides\
+    \ a simulation-based inference approach to efficient, highly-parallelized parameter\
+    \ inference for \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.11655'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1440
+  created_at: 2025-05-25 01:11:32.107378
+  published_on: 2025-05-17
+  title: Infinite-Dimensional Inference and Learning via Optimal Transport
+  publication_info_summary: YH Hur - 2025 - knowledge.uchicago.edu
+  link: https://knowledge.uchicago.edu/record/14952
+  snippet: "\u2026 Motivated by the seminal work on distance and isomorphism between\
+    \ metric measure spaces, we develop a new transform sampler to perform simulation-based\
+    \ inference\u2026"
+  journal: knowledge.uchicago.edu
+  category: Mathematics
+  doi: https://knowledge.uchicago.edu/record/14952
+- id: 1441
+  created_at: 2025-05-25 01:11:37.111583
+  published_on: 2025-05-17
+  title: Machine Learning meets Direct Imaging Methodical Contributions to Direct
+    Imaging and Atmospheric Retrieval
+  publication_info_summary: TD Gebhard - 2025 - research-collection.ethz.ch
+  link: https://www.research-collection.ethz.ch/handle/20.500.11850/735811
+  snippet: "\u2026 Finally, in the third contribution, we completely replace the traditional\
+    \ atmospheric characterization workflow using stochastic samplers with a simulation-based\
+    \ inference \u2026"
+  journal: research-collection.ethz.ch
+  category: Computer Science
+  doi: https://www.research-collection.ethz.ch/handle/20.500.11850/735811
+- id: 1442
+  created_at: 2025-05-25 01:11:42.325127
+  published_on: 2025-05-16
+  title: Leveraging time-dependent instrumental noise for the LISA stochastic gravitational
+    wave background analysis
+  publication_info_summary: J Alvey, U Bhardwaj, V Domcke, M Pieroni, C Weniger -
+    Physical Review D, 2025 - APS
+  link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.102006
+  snippet: "\u2026 We propose that simulation based inference is well suited for this\
+    \ challenge. In an approximate, but state-of-the-art, modeling setup, we show\
+    \ by comparison with Fisher \u2026"
+  journal: APS
+  category: Physics
+  doi: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.102006
+- id: 1443
+  created_at: 2025-05-25 01:15:16.886942
+  published_on: 2025-03-01
+  title: DBNets2. 0 a simulation-based inference pipeline for robust characterization
+    of protoplanetary discs and embedded planets through continuum observations
+  publication_info_summary: "A Ruzza - Italian National Conference of Star and Planet\
+    \ \u2026, 2025 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2025spf..confE..18R/abstract
+  snippet: "Continuum observations of protoplanetary discs ubiquitously reveal substructures\
+    \ that can be promisingly explained by the presence of embedded forming planets.\
+    \ \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Physics
+  doi: https://ui.adsabs.harvard.edu/abs/2025spf..confE..18R/abstract
