@@ -17814,7 +17814,7 @@
     \ \u2026 This work develops a neural simulation-based inference framework for\
     \ statistical \u2026"
   journal: pubmed.ncbi.nlm.nih.gov
-  category: Physics
+  category: Computer Science
   doi: https://pubmed.ncbi.nlm.nih.gov/40315869/
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -18938,6 +18938,7 @@
     \ models where simulation is feasible but the likelihood is intractable. Standard\
     \ SBI methods can \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=8291655991446779976
   arxiv_id: '2504.09475'
   arxiv_category_tag: stat.ME
   category: Statistics
@@ -19345,16 +19346,16 @@
   published_on: 2025-05-17
   title: Infinite-Dimensional Inference and Learning via Optimal Transport
   publication_info_summary: YH Hur - 2025 - knowledge.uchicago.edu
-  link: https://knowledge.uchicago.edu/record/14952
+  link: https://knowledge.uchicago.edu/record/14952?v=pdf
   snippet: "\u2026 Motivated by the seminal work on distance and isomorphism between\
     \ metric measure spaces, we develop a new transform sampler to perform simulation-based\
     \ inference\u2026"
   journal: knowledge.uchicago.edu
   category: Mathematics
-  doi: https://knowledge.uchicago.edu/record/14952
+  doi: https://knowledge.uchicago.edu/record/14952?v=pdf
 - id: 1441
   created_at: 2025-05-25 01:11:37.111583
-  published_on: 2025-05-17
+  published_on: 2025-05-16
   title: Machine Learning meets Direct Imaging Methodical Contributions to Direct
     Imaging and Atmospheric Retrieval
   publication_info_summary: TD Gebhard - 2025 - research-collection.ethz.ch
@@ -19393,3 +19394,94 @@
   journal: ui.adsabs.harvard.edu
   category: Physics
   doi: https://ui.adsabs.harvard.edu/abs/2025spf..confE..18R/abstract
+- id: 1444
+  created_at: 2025-06-01 01:18:14.734507
+  published_on: 2025-05-28
+  title: FNOPE Simulation-based inference on function spaces with Fourier Neural Operators
+  authors: "Guy Moss, Leah Sophie Muhle, Reinhard Drews, Jakob H. Macke, Cornelius\
+    \ Schr\xF6der"
+  publication_info_summary: "G Moss, LS Muhle, R Drews, JH Macke\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.22573
+  snippet: "\u2026 We present FNOPE, a simulation-based inference method using Fourier\
+    \ Neural Operators to efficiently infer function-valued parameters. On a variety\
+    \ of task, we showed \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.22573'
+  arxiv_category_tag: cs.LG
+  category: Statistics
+- id: 1445
+  created_at: 2025-06-01 01:18:20.265670
+  published_on: 2025-05-27
+  title: Transfer learning for multifidelity simulation-based inference in cosmology
+  authors: Alex A. Saoulis, Davide Piras, Niall Jeffrey, Alessio Spurio Mancini, Ana
+    M. G. Ferreira, Benjamin Joachimi
+  publication_info_summary: "AA Saoulis, D Piras, N Jeffrey, AS Mancini\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.21215
+  snippet: "Simulation-based inference (SBI) enables cosmological parameter estimation\
+    \ when closed-form likelihoods or models are unavailable. However, SBI relies\
+    \ on machine \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.21215'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1446
+  created_at: 2025-06-01 01:18:25.916213
+  published_on: 2025-05-25
+  title: Comment on 'An implementation of neural simulation-based inference for parameter
+    estimation in ATLAS''
+  authors: Prasanth Shyamsundar
+  publication_info_summary: P Shyamsundar - arXiv preprint arXiv:2505.19156, 2025
+    - arxiv.org
+  link: https://arxiv.org/abs/2505.19156
+  snippet: "The paper titled \"An implementation of neural simulation-based inference\
+    \ for parameter estimation in ATLAS\" by the ATLAS collaboration (arXiv:2412.01600v1\
+    \ [hep-ex]) \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.19156'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1447
+  created_at: 2025-06-01 01:18:30.739200
+  published_on: 2025-05-24
+  title: Sequentially learning gravity Scalable simulation-based inference for gravitational
+    waves
+  publication_info_summary: U Bhardwaj - 2025 - dare.uva.nl
+  link: https://dare.uva.nl/search?identifier=475b4932-8312-44ba-9323-7be118f2a969;startDoc=1
+  snippet: "\u2026 This thesis develops and applies scalable, simulation-based inference\
+    \ (SBI) frameworks tailored to gravitational-wave data analysis, where likelihood\
+    \ functions are often \u2026"
+  journal: dare.uva.nl
+  category: Physics
+  doi: https://dare.uva.nl/search?identifier=475b4932-8312-44ba-9323-7be118f2a969;startDoc=1
+- id: 1448
+  created_at: 2025-06-01 01:18:36.587374
+  published_on: 2025-05-24
+  title: An Efficient Framework for Epidemiological Parameter Estimation via Graph
+    Reduction and Graph Neural Networks
+  publication_info_summary: "M Alfas, M Kumar, S Shriyam, S Kumar - ACM Transactions\
+    \ on \u2026, 2025 - dl.acm.org"
+  link: https://dl.acm.org/doi/abs/10.1145/3736727
+  snippet: "We propose an epidemiological parameter estimation framework based on\
+    \ contact networks and graph neural networks (GNNs). Contact network-based epidemiological\
+    \ \u2026"
+  journal: dl.acm.org
+  category: Mathematics
+  doi: https://dl.acm.org/doi/abs/10.1145/3736727
+- id: 1449
+  created_at: 2025-06-01 01:18:42.586376
+  published_on: 2025-05-22
+  title: Sequential simulation-based inference for extreme mass ratio inspirals
+  authors: Philippa S. Cole, James Alvey, Lorenzo Speri, Christoph Weniger, Uddipta
+    Bhardwaj, Davide Gerosa, Gianfranco Bertone
+  publication_info_summary: "PS Cole, J Alvey, L Speri, C Weniger\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.16795
+  snippet: "\u2026 We explore how sequential simulation-based inference methods, specifically\
+    \ truncated marginal neural ratio estimation, could offer solutions to some of\
+    \ the challenges \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.16795'
+  arxiv_category_tag: gr-qc
+  category: Physics
