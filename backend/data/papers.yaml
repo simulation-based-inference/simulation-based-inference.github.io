@@ -18593,7 +18593,7 @@
   doi: http://essay.utwente.nl/105340/
 - id: 1388
   created_at: 2025-03-09 00:52:58.204177
-  published_on: 2025-02-01
+  published_on: 2025-03-05
   title: Evidence of novelty and specialization behavior in participatory science
     reporting
   publication_info_summary: BR Goldstein, S Stoudt - Oikos, 2025 - Wiley Online Library
@@ -18955,6 +18955,7 @@
     \ inference, using a neural network based density estimator to infer the posterior\
     \ for models \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=15564701963732363759
   arxiv_id: '2504.09349'
   arxiv_category_tag: stat.ME
   category: Statistics
@@ -19200,8 +19201,8 @@
   title: "Measurement of off-shell Higgs boson production in the H\u2217\u2192 ZZ\u2192\
     \ 4\u2113 decay channel using a neural simulation-based inference technique in\
     \ 13 TeV pp collisions \u2026"
-  publication_info_summary: "ATLAS Collaboration - Reports on Progress in \u2026,\
-    \ 2025 - research.birmingham.ac.uk"
+  publication_info_summary: Atlas Collaboration - Reports on progress in physics,
+    2025 - research.birmingham.ac.uk
   link: https://research.birmingham.ac.uk/en/publications/measurement-of-off-shell-higgs-boson-production-in-the-hsupsupzz4
   snippet: "\u2026 The data analysis is performed using a neural simulation-based\
     \ inference method, which builds per-event likelihood ratios using neural networks.\
@@ -19482,6 +19483,356 @@
     \ truncated marginal neural ratio estimation, could offer solutions to some of\
     \ the challenges \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=5940219287707777012
   arxiv_id: '2505.16795'
   arxiv_category_tag: gr-qc
   category: Physics
+- id: 1450
+  created_at: 2025-06-15 01:14:14.280383
+  published_on: 2025-06-10
+  title: G-Sim Generative Simulations with Large Language Models and Gradient-Free
+    Calibration
+  authors: Samuel Holt, Max Ruiz Luyten, Antonin Berthon, Mihaela van der Schaar
+  publication_info_summary: "S Holt, MR Luyten, A Berthon\u2026 - arXiv preprint arXiv\
+    \ \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2506.09272
+  snippet: "\u2026 are both likelihood-free and gradient-free with respect to the\
+    \ simulator, such as gradient-free optimization for direct parameter estimation\
+    \ or simulation-based inference for \u2026"
+  journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=3481452318492864490
+  arxiv_id: '2506.09272'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1451
+  created_at: 2025-06-15 01:14:19.896484
+  published_on: 2025-06-09
+  title: An Integrated In Vitro Platform and Biophysical Modeling Approach for Studying
+    Synaptic Transmission in Isolated Neuronal Pairs
+  authors: "Amos, G.; Vasiliauskaite, V.; Duru, J.; Saramago, M. L. A.; Schmid, T.;\
+    \ Suter, A.; Torren, F. C.; Ku\u0308chler, J.; Ruff, T.; Vo\u0308ro\u0308s, J.;\
+    \ Vulic, K."
+  publication_info_summary: "G Amos, V Vasiliauskait\u0117, J Duru, MLA Saramago\u2026\
+    \ - bioRxiv, 2025 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2025.06.04.657933.abstract
+  snippet: "\u2026 We coupled this platform with a biophysical Hodgkin-Huxley model\
+    \ and simulation-based inference to extract mechanistic parameters from electrophysiological\
+    \ data. The \u2026"
+  journal: biorxiv.org
+  category: Neuroscience
+  doi: 10.1101/2025.06.04.657933
+- id: 1452
+  created_at: 2025-06-15 01:14:32.509647
+  published_on: 2025-06-06
+  title: Multilevel neural simulation-based inference
+  authors: "Yuga Hikida, Ayush Bharti, Niall Jeffrey, Fran\xE7ois-Xavier Briol"
+  publication_info_summary: Y Hikida, A Bharti, N Jeffrey, FX Briol - arXiv preprint
+    arXiv:2506.06087, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2506.06087
+  snippet: "Neural simulation-based inference (SBI) is a popular set of methods for\
+    \ Bayesian inference when models are only available in the form of a simulator.\
+    \ These methods are \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.06087'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1453
+  created_at: 2025-06-15 01:14:46.126095
+  published_on: 2025-06-06
+  title: Emulating compact binary population synthesis simulations with robust uncertainty
+    quantification and model comparison Bayesian normalizing flows
+  authors: Anarya Ray
+  publication_info_summary: A Ray - arXiv preprint arXiv:2506.05657, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2506.05657
+  snippet: "\u2026 I outline the applications of the proposed methodology in the context\
+    \ of simulation-based inference from growing GW catalogs and feature prediction,\
+    \ with state-of-the-art \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.05657'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1454
+  created_at: 2025-06-15 01:14:57.783602
+  published_on: 2025-06-06
+  title: Simulation-based inference with neural posterior estimation applied to X-ray
+    spectral fitting II -- High-resolution spectroscopy with the X-ray Integral Field
+    Unit
+  authors: "Simon Dupourqu\xE9, Didier Barret"
+  publication_info_summary: "S Dupourqu\xE9, D Barret - arXiv preprint arXiv:2506.05911,\
+    \ 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2506.05911
+  snippet: "\u2026 In tpaper,aper we demonstrate the feasibility of simulation-based\
+    \ inference for high-resolution X-ray spectroscopy. Simulationbased inference\
+    \ relies on neural networks \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.05911'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1455
+  created_at: 2025-06-15 01:15:16.989228
+  published_on: 2025-06-06
+  title: Data-Driven High-Dimensional Statistical Inference with Generative Models
+  authors: Oz Amram, Manuel Szewc
+  publication_info_summary: O Amram, M Szewc - arXiv preprint arXiv:2506.06438, 2025
+    - arxiv.org
+  link: https://arxiv.org/abs/2506.06438
+  snippet: "\u2026 A class of analysis techniques, called simulation based inference\
+    \ (SBI) has been proposed to optimally perform inference in this case [4\u2013\
+    7]. Nearly all SBI proposals in \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.06438'
+  arxiv_category_tag: hep-ph
+  category: Physics
+- id: 1456
+  created_at: 2025-06-15 01:15:30.617562
+  published_on: 2025-06-05
+  title: Bayesian Inference for Correlated Human Experts and Classifiers
+  authors: Markelle Kelly, Alex Boyd, Sam Showalter, Mark Steyvers, Padhraic Smyth
+  publication_info_summary: "M Kelly, A Boyd, S Showalter, M Steyvers\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2506.05636
+  snippet: "\u2026 We develop a general Bayesian framework for this problem, modeling\
+    \ expert correlation via a joint latent representation, enabling simulation-based\
+    \ inference about the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.05636'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1457
+  created_at: 2025-06-15 01:15:43.541979
+  published_on: 2025-06-05
+  title: Galaxy cluster count cosmology with simulation-based inference
+  authors: M. Regamey, D. Eckert, R. Seppi, W. Hartley, K. Umetsu, S. Tam, D. Gerolymatou
+  publication_info_summary: "M Regamey, D Eckert, R Seppi, W Hartley\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2506.05457
+  snippet: "\u2026 the observed cluster population with simulation-based inference.\
+    \ We construct a simulation \u2026 We conclude that simulation-based inference\
+    \ is a promising avenue for future \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.05457'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1458
+  created_at: 2025-06-15 01:15:48.225458
+  published_on: 2025-06-06
+  title: Topical Lectures on Neural Simulation Based Inference
+  publication_info_summary: J Rojo - indico.nikhef.nl
+  link: https://indico.nikhef.nl/event/6157/sessions/2138/attachments/9792/14763/Neural_SBI_Topical_Lectures.pdf
+  snippet: "\u2026 While many algorithms fall under the hood of likelihood-free inference,\
+    \ in this lecture we focus on neural simulation-based inference, where machine\
+    \ learning techniques \u2026"
+  category: Neuroscience
+  doi: https://indico.nikhef.nl/event/6157/sessions/2138/attachments/9792/14763/Neural_SBI_Topical_Lectures.pdf
+- id: 1459
+  created_at: 2025-06-15 01:16:04.396931
+  published_on: 2025-06-04
+  title: Simulation-based inference of galaxy properties from JWST pixels
+  authors: "Patricia Iglesias-Navarro, Marc Huertas-Company, Pablo P\xE9rez-Gonz\xE1\
+    lez, Johan H. Knapen, ChangHoon Hahn, Anton M. Koekemoer, Steven L. Finkelstein,\
+    \ Natalia Villanueva, Andr\xE9s Asensio Ramos"
+  publication_info_summary: "P Iglesias-Navarro, M Huertas-Company\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2506.04336
+  snippet: "\u2026 Our method employs simulation-based inference to enable rapid posterior\
+    \ sampling across galaxy pixels, leveraging the unprecedented spatial resolution,\
+    \ wavelength \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.04336'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1460
+  created_at: 2025-06-15 01:16:19.200437
+  published_on: 2025-06-04
+  title: Savage-Dickey density ratio estimation with normalizing flows for Bayesian
+    model comparison
+  authors: Kiyam Lin, Alicja Polanska, Davide Piras, Alessio Spurio Mancini, Jason
+    D. McEwen
+  publication_info_summary: "K Lin, A Polanska, D Piras, AS Mancini\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2506.04339
+  snippet: "\u2026 calculated with the learned harmonic mean or with nested sampling\
+    \ directly for the BHM setting, we validate our results by comparison with a simulation-based\
+    \ inference (\u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.04339'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1461
+  created_at: 2025-06-15 01:16:23.883970
+  published_on: 2025-06-05
+  title: Cosmological constraints with void lensing
+  publication_info_summary: C Su, H Shan, C Zhao, W Xu, J Zhang - 2025 - aanda.org
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa55237-25.pdf
+  snippet: "\u2026 We present a simulation-based inference (SBI) framework for cosmological\
+    \ parameter estimation via a void-lensing analysis. Despite the absence of an\
+    \ analytical model of \u2026"
+  journal: aanda.org
+  category: Physics
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa55237-25.pdf
+- id: 1462
+  created_at: 2025-06-15 01:16:37.666627
+  published_on: 2025-06-03
+  title: On the Need to Align Intent and Implementation in Uncertainty Quantification
+    for Machine Learning
+  authors: Shubhendu Trivedi, Brian D. Nord
+  publication_info_summary: S Trivedi, BD Nord - arXiv preprint arXiv:2506.03037,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2506.03037
+  snippet: "\u2026 targets (eg, prediction, inference, simulation-based inference),\
+    \ uncertainty constructs (eg, \u2026 and use scenarios, particularly in the context\
+    \ of simulation-based inference (SBI). \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.03037'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1463
+  created_at: 2025-06-15 01:16:51.081460
+  published_on: 2025-06-03
+  title: Simulation-Based Inference for Adaptive Experiments
+  authors: "Brian M Cho, Aur\xE9lien Bibaut, Nathan Kallus"
+  publication_info_summary: BM Cho, A Bibaut, N Kallus - arXiv preprint arXiv:2506.02881,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2506.02881
+  snippet: "\u2026 We first provide the pseudocode our simulation-based inference\
+    \ approach. We then discuss nuisance estimation, and introduce the principle of\
+    \ simulation with optimism. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.02881'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1464
+  created_at: 2025-06-15 01:16:55.895814
+  published_on: 2025-06-04
+  title: Simulation-based inference with deep learning suggests speed climbers combine
+    innovation and copying to improve performance
+  publication_info_summary: M Youngblood, S Passmore - 2025 - osf.io
+  link: https://osf.io/n3rvk_v2/
+  snippet: "\u2026 In this study, we use simulation-based inference to fit an agent-based\
+    \ model of speed climbing to 12 years of competition times (2007-2019). In the\
+    \ fitted model, innovation \u2026"
+  journal: osf.io
+  category: sports science
+  doi: https://osf.io/n3rvk_/
+- id: 1465
+  created_at: 2025-06-15 01:17:00.973894
+  published_on: 2025-05-31
+  title: Embed, Preserve, Generate Advancing Surrogate Models for Scientific Modeling
+  publication_info_summary: R Jiang - 2025 - knowledge.uchicago.edu
+  link: https://knowledge.uchicago.edu/record/15091
+  snippet: "\u2026 First, for inverse problems in scientific inference, we present\
+    \ Embed and Emulate (E&E), a new simulation-based inference (SBI) for parameter\
+    \ inference to fit physical \u2026"
+  journal: knowledge.uchicago.edu
+  category: Computer Science
+  doi: https://knowledge.uchicago.edu/record/15091
+- id: 1466
+  created_at: 2025-06-15 01:17:09.942694
+  published_on: 2025-05-30
+  title: Frequentist Uncertainties on Neural Density Ratios with wifi Ensembles
+  authors: Sean Benevedes, Jesse Thaler
+  publication_info_summary: S Benevedes, J Thaler - arXiv preprint arXiv:2506.00113,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2506.00113
+  snippet: "\u2026 The primary application we consider here is for parameter estimation,\
+    \ where DRE is the foundation for various techniques in simulation-based inference\
+    \ (SBI) [40]. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.00113'
+  arxiv_category_tag: hep-ph
+  category: Physics
+- id: 1467
+  created_at: 2025-06-15 01:17:16.631901
+  published_on: 2025-05-30
+  title: Generator Based Inference (GBI)
+  authors: Chi Lung Cheng, Ranit Das, Runze Li, Radha Mastandrea, Vinicius Mikuni,
+    Benjamin Nachman, David Shih, Gup Singh
+  publication_info_summary: "CL Cheng, R Das, R Li, R Mastandrea, V Mikuni\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2506.00119
+  snippet: "\u2026 A well-studied special case of this setup is Simulation Based Inference\
+    \ (SBI) where the generator is a physics-based simulator. In this work, we examine\
+    \ other methods \u2026"
+  journal: arxiv.org
+  arxiv_id: '2506.00119'
+  arxiv_category_tag: hep-ph
+  category: Physics
+- id: 1468
+  created_at: 2025-06-15 01:17:28.314403
+  published_on: 2025-05-29
+  title: Simulated Annealing ABC with multiple summary statistics
+  authors: Carlo Albert, Simone Ulzega, Simon Dirmeier, Andreas Scheidegger, Alberto
+    Bassi, Antonietta Mira
+  publication_info_summary: "C Albert, S Ulzega, S Dirmeier, A Scheidegger\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.23261
+  snippet: "\u2026 In Machine Learning (ML), Simulation Based Inference (\u2026 Simulation-based\
+    \ inference algorithms (SBI) circumvent \u2026 efficiency gain of simulation-based\
+    \ inference algorithms. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.23261'
+  arxiv_category_tag: stat.CO
+  category: Statistics
+- id: 1469
+  created_at: 2025-06-15 01:17:51.884483
+  published_on: 2025-05-28
+  title: Simulation-based Inference for Agent-based Models in Biology
+  publication_info_summary: X Wang - 2025 - eprints.qut.edu.au
+  link: https://eprints.qut.edu.au/257629/
+  snippet: "\u2026 It focuses on enhancing simulation-based inference techniques for\
+    \ models that lack tractable likelihoods. The research investigates two major\
+    \ challenges in Bayesian \u2026"
+  journal: eprints.qut.edu.au
+  category: Quantitative Biology
+  doi: https://eprints.qut.edu.au/257629/
+- id: 1470
+  created_at: 2025-06-15 01:19:31.217531
+  published_on: 2025-05-07
+  title: Benchmarking Surrogate-Based and Neural Methods for Posterior Inference
+  publication_info_summary: H Li, F Silvestrin - 2025 - helda.helsinki.fi
+  link: https://helda.helsinki.fi/bitstreams/2d16d70a-c8ad-4e7d-a043-f95b5e9d9902/download
+  snippet: "\u2026 To systematically compare likelihood-based and simulation-based\
+    \ inference approaches, we evaluate BOLFI and PyVBMC as surrogate-based methods,\
+    \ and SNPE as an \u2026"
+  journal: helda.helsinki.fi
+  category: Physics
+  doi: https://helda.helsinki.fi/bitstreams/2d16d70a-c8ad-4e7d-a043-f95b5e9d9902/download
+- id: 1471
+  created_at: 2025-06-15 01:22:33.611071
+  published_on: 2025-04-04
+  title: Development of data analysis algorithms and waveform models for the LISA
+    mission
+  publication_info_summary: "I Mart\xEDn V\xEDlchez - 2025 - ddd.uab.cat"
+  link: https://ddd.uab.cat/record/310483
+  snippet: "\u2026 We use Sequential Neural Likelihood, a simulation-based inference\
+    \ algorithm that is able to iteratively request more simulations in the regions\
+    \ of parameter space where \u2026"
+  journal: ddd.uab.cat
+  category: Mathematics
+  doi: https://ddd.uab.cat/record/310483
+- id: 1472
+  created_at: 2025-06-15 01:22:48.564913
+  published_on: 2025-03-27
+  title: The impact of assembly history on the X-ray detectability of halos-From galaxy
+    groups to galaxy clusters
+  publication_info_summary: "I Marini, P Popesso, K Dolag, V Biffi\u2026 - Astronomy\
+    \ & \u2026, 2025 - aanda.org"
+  link: https://www.aanda.org/articles/aa/abs/2025/06/aa54677-25/aa54677-25.html
+  snippet: "\u2026 These findings will aid the interpretation of future X-ray surveys,\
+    \ demonstrating the power of simulation-based inference. \u2026"
+  journal: aanda.org
+  category: Astronomy
+  doi: https://www.aanda.org/articles/aa/abs/2025/06/aa54677-25/aa54677-25.html
+- id: 1473
+  created_at: 2025-06-15 01:23:17.933450
+  published_on: 2025-03-19
+  title: The Galactic population of magnetars a simulation-based inference study
+  publication_info_summary: "M Sautron, AE McEwen, G Younes, J P\xE9tri\u2026 - The\
+    \ Astrophysical \u2026, 2025 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.3847/1538-4357/add0aa/meta
+  snippet: "\u2026 We utilize simulation-based inference to reproduce the observed\
+    \ magnetar population with a model that takes into account the secular evolution\
+    \ of the force-free \u2026"
+  journal: iopscience.iop.org
+  category: Computer Science
+  doi: https://iopscience.iop.org/article/10.3847/1538-4357/add0aa/meta
