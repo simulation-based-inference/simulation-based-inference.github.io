@@ -1,20 +1,13 @@
-FROM ruby:2.7-alpine
+FROM ruby:3.1
 
 EXPOSE 4000
-# Add Jekyll dependencies to Alpine
-RUN apk update
-RUN apk add --no-cache build-base gcc cmake github-cli
 
-# Update the Ruby bundler and install Jekyll
-RUN gem update bundler
-RUN gem install jekyll -v 3.9.3
-RUN gem update github-pages
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    nodejs \
+    npm \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install Python
-ENV PYTHONUNBUFFERED=1
-RUN apk add --update --no-cache python3 && ln -sf python3 /usr/bin/python
-RUN python3 -m ensurepip
-RUN pip3 install --no-cache --upgrade pip setuptools
-RUN apk add gcc musl-dev linux-headers python3-dev
-RUN apk add sqlite
-RUN apk add bash
+RUN gem install github-pages
+RUN curl -LsSf https://astral.sh/uv/install.sh | sh

@@ -12,3 +12,4 @@ EFTofLSS meets simulation-based inference $σ_8$ from biased tracers
 HALOFLOW I Neural Inference of Halo Mass from Galaxy Photometry and Morphology
 SIMBIG Galaxy Clustering Analysis with the Wavelet Scattering Transform
 SIMBIG The First Cosmological Constraints from the Non-Linear Galaxy Bispectrum
+Comment on 'An implementation of neural simulation-based inference for parameter estimation in ATLAS'

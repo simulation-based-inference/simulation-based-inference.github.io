@@ -8,3 +8,5 @@ __pycache__
 Gemfile.lock
 .sass-cache
 assets/publication_by_year.json
+tmp/
+tmp.ipynb

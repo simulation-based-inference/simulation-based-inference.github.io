@@ -89,12 +89,18 @@ def update_manual_category_group() -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--crawl", action="store_true")
+    parser.add_argument("--stop-days", type=int, default=90,
+                        help="Stop crawling when the oldest result is older than this many days.")
     args = parser.parse_args()
 
     if args.crawl:
-        crawl(SEARCH_TERM, stop_days=90)
+        logging.info(f"Starting crawl with search term: {SEARCH_TERM}")
+        crawl(SEARCH_TERM, stop_days=args.stop_days)
 
+    logging.info("Updating manual category group and remaking all posts.")
     update_manual_category_group()  # Make sure manual changes made to guess_category_group.json are reflected in the database
+    
+    logging.info("Remaking all posts.")
     remake_all_posts()
 
     try:
