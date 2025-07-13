@@ -19017,17 +19017,17 @@
   doi: https://congressarchive.cimne.com/coupled_2025/assets/rmaxwell_coupled2025_templateabstract.pdf
 - id: 1417
   created_at: 2025-04-27 01:06:31.878584
-  published_on: 2025-04-22
+  published_on: 2025-04-23
   title: Advancing towards personalized medicine probabilistic machine learning and
     deep learning for health and genetics
-  publication_info_summary: S Wharrie - 2025 - research.aalto.fi
-  link: https://research.aalto.fi/en/publications/advancing-towards-personalized-medicine-probabilistic-machine-lea
+  publication_info_summary: S Wharrie - 2025 - aaltodoc.aalto.fi
+  link: https://aaltodoc.aalto.fi/items/a5e9c832-2f93-45cf-b5c9-97420596534b
   snippet: "\u2026 new probabilistic machine learning approach and software tool that\
     \ implements statistical models of the underlying generative processes and simulation-based\
     \ inference \u2026"
-  journal: research.aalto.fi
+  journal: aaltodoc.aalto.fi
   category: healthinformatics
-  doi: https://research.aalto.fi/en/publications/advancing-towards-personalized-medicine-probabilistic-machine-lea
+  doi: https://aaltodoc.aalto.fi/items/a5e9c832-2f93-45cf-b5c9-97420596534b
 - id: 1418
   created_at: 2025-04-27 01:06:38.796909
   published_on: 2025-04-21
@@ -19044,6 +19044,7 @@
   arxiv_id: '2504.15149'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
+  doi: 10.1051/0004-6361/202555237
 - id: 1419
   created_at: 2025-04-27 01:06:43.490141
   published_on: 2025-04-17
@@ -19058,7 +19059,7 @@
   doi: https://scholarcommons.sc.edu/csce_facpub/324/
 - id: 1420
   created_at: 2025-05-04 01:09:47.244825
-  published_on: 2025-04-27
+  published_on: 2025-04-28
   title: Surrogate-Model-Based Calibration of Effective Transport Parameters from
     Push-Pull Tests in the Horonobe Aquifer (Japan)
   publication_info_summary: "E Petrova, P Selzer, S Kranz, S Zeilfelder\u2026 - Available\
@@ -19083,12 +19084,13 @@
     \ inference with TabPFN, we repurpose it as a general conditional density estimator.\
     \ The key to \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=18114420936248923801
   arxiv_id: '2504.17660'
   arxiv_category_tag: cs.LG
   category: Computer Science
 - id: 1422
   created_at: 2025-05-04 01:09:57.294719
-  published_on: 2025-04-24
+  published_on: 2025-04-25
   title: Atomic Posterior Ensembles for Simulation-Based Inference
   publication_info_summary: "S Griesemer, W Neiswanger, Y Liu - Frontiers in Probabilistic\
     \ Inference \u2026 - openreview.net"
@@ -19170,7 +19172,7 @@
   category: Astrophysics
 - id: 1428
   created_at: 2025-05-11 01:08:52.387107
-  published_on: 2025-05-04
+  published_on: 2025-05-05
   title: Bayesian estimation of stochastic metafrontiers
   publication_info_summary: I Skevas - Economics Letters, 2025 - Elsevier
   link: https://www.sciencedirect.com/science/article/pii/S0165176525002058
@@ -19198,7 +19200,7 @@
   category: Computer Science
 - id: 1430
   created_at: 2025-05-11 01:09:53.701429
-  published_on: 2025-04-17
+  published_on: 2025-04-18
   title: "Measurement of off-shell Higgs boson production in the H\u2217\u2192 ZZ\u2192\
     \ 4\u2113 decay channel using a neural simulation-based inference technique in\
     \ 13 TeV pp collisions \u2026"
@@ -19229,7 +19231,7 @@
   category: Physics
 - id: 1432
   created_at: 2025-05-18 01:09:28.498458
-  published_on: 2025-05-12
+  published_on: 2025-05-13
   title: Exoplanet atmospheric characterization using amortized simulation based inference
   publication_info_summary: MV Vasist - 2025 - orbi.uliege.be
   link: https://orbi.uliege.be/handle/2268/331545
@@ -19241,7 +19243,7 @@
   doi: https://orbi.uliege.be/handle/2268/331545
 - id: 1433
   created_at: 2025-05-18 01:09:39.303327
-  published_on: 2025-05-06
+  published_on: 2025-05-07
   title: The impact of assembly history on the X-ray detectability of halos
   publication_info_summary: "I Marini, P Popesso, K Dolag, V Biffi\u2026 - 2025 -\
     \ aanda.org"
@@ -19345,7 +19347,7 @@
   category: Astrophysics
 - id: 1440
   created_at: 2025-05-25 01:11:32.107378
-  published_on: 2025-05-16
+  published_on: 2025-05-17
   title: Infinite-Dimensional Inference and Learning via Optimal Transport
   publication_info_summary: YH Hur - 2025 - knowledge.uchicago.edu
   link: https://knowledge.uchicago.edu/record/14952?v=pdf
@@ -19459,7 +19461,7 @@
   doi: https://dare.uva.nl/search?identifier=475b4932-8312-44ba-9323-7be118f2a969;startDoc=1
 - id: 1448
   created_at: 2025-06-01 01:18:36.587374
-  published_on: 2025-05-23
+  published_on: 2025-05-24
   title: An Efficient Framework for Epidemiological Parameter Estimation via Graph
     Reduction and Graph Neural Networks
   publication_info_summary: "M Alfas, M Kumar, S Shriyam, S Kumar - ACM Transactions\
@@ -19507,7 +19509,7 @@
   category: Computer Science
 - id: 1451
   created_at: 2025-06-15 01:14:19.896484
-  published_on: 2025-06-08
+  published_on: 2025-06-09
   title: An Integrated In Vitro Platform and Biophysical Modeling Approach for Studying
     Synaptic Transmission in Isolated Neuronal Pairs
   authors: "Amos, G.; Vasiliauskaite, V.; Duru, J.; Saramago, M. L. A.; Schmid, T.;\
@@ -19570,6 +19572,7 @@
   arxiv_id: '2506.05911'
   arxiv_category_tag: astro-ph.IM
   category: Astrophysics
+  doi: 10.1051/0004-6361/202555215
 - id: 1455
   created_at: 2025-06-15 01:15:16.989228
   published_on: 2025-06-06
@@ -19618,7 +19621,7 @@
   category: Astrophysics
 - id: 1458
   created_at: 2025-06-15 01:15:48.225458
-  published_on: 2025-06-05
+  published_on: 2025-06-06
   title: Topical Lectures on Neural Simulation Based Inference
   publication_info_summary: J Rojo - indico.nikhef.nl
   link: https://indico.nikhef.nl/event/6157/sessions/2138/attachments/9792/14763/Neural_SBI_Topical_Lectures.pdf
@@ -19719,7 +19722,7 @@
   doi: https://osf.io/n3rvk_/
 - id: 1465
   created_at: 2025-06-15 01:17:00.973894
-  published_on: 2025-05-30
+  published_on: 2025-05-31
   title: Embed, Preserve, Generate Advancing Surrogate Models for Scientific Modeling
   publication_info_summary: R Jiang - 2025 - knowledge.uchicago.edu
   link: https://knowledge.uchicago.edu/record/15091
@@ -19778,7 +19781,7 @@
   category: Statistics
 - id: 1469
   created_at: 2025-06-15 01:17:51.884483
-  published_on: 2025-05-27
+  published_on: 2025-05-28
   title: Simulation-based Inference for Agent-based Models in Biology
   publication_info_summary: X Wang - 2025 - eprints.qut.edu.au
   link: https://eprints.qut.edu.au/257629/
@@ -19790,16 +19793,16 @@
   doi: https://eprints.qut.edu.au/257629/
 - id: 1470
   created_at: 2025-06-15 01:19:31.217531
-  published_on: 2025-06-13
+  published_on: 2025-05-07
   title: Benchmarking Surrogate-Based and Neural Methods for Posterior Inference
-  publication_info_summary: H Li - 2025 - helda.helsinki.fi
-  link: https://helda.helsinki.fi/items/6005682b-fb65-48c4-a002-85eff4a18d31
-  snippet: "\u2026 There is growing interest in simulation-based inference (SBI),\
-    \ a class of methods for estimating posterior distributions when the likelihood\
-    \ function is intractable. However, \u2026"
+  publication_info_summary: H Li, F Silvestrin - 2025 - helda.helsinki.fi
+  link: https://helda.helsinki.fi/bitstreams/2d16d70a-c8ad-4e7d-a043-f95b5e9d9902/download
+  snippet: "\u2026 To systematically compare likelihood-based and simulation-based\
+    \ inference approaches, we evaluate BOLFI and PyVBMC as surrogate-based methods,\
+    \ and SNPE as an \u2026"
   journal: helda.helsinki.fi
   category: Physics
-  doi: https://helda.helsinki.fi/items/6005682b-fb65-48c4-a002-85eff4a18d31
+  doi: https://helda.helsinki.fi/bitstreams/2d16d70a-c8ad-4e7d-a043-f95b5e9d9902/download
 - id: 1471
   created_at: 2025-06-15 01:22:33.611071
   published_on: 2025-04-04
@@ -19841,7 +19844,7 @@
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/add0aa/meta
 - id: 1474
   created_at: 2025-07-07 14:56:10.082886
-  published_on: 2025-07-05
+  published_on: 2025-07-06
   title: Probing Galaxy Evolution and the Baryon Cycle via Novel Statistical Techniques
     and Instrumentation
   publication_info_summary: I Pasha - 2025 - search.proquest.com
@@ -19873,7 +19876,7 @@
   published_on: 2025-07-02
   title: A Real-Time Digital Twin for Type 1 Diabetes using Simulation-Based Inference
   authors: "Trung-Dung Hoang, Alceu Bissoto, Vihangkumar V. Naik, Tim Fl\xFChmann,\
-    \ Artemii Shlychkov, Jos\xE9 Garcia-Tirado, Lisa M. Koch"
+    \ Artemii Shlychkov, Jose Garcia-Tirado, Lisa M. Koch"
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik, T Fl\xFChmann\u2026 - arXiv\
     \ preprint arXiv \u2026, 2025 - arxiv.org"
   link: https://arxiv.org/abs/2507.01740
@@ -19917,7 +19920,7 @@
   category: Astrophysics
 - id: 1479
   created_at: 2025-07-07 15:06:18.308001
-  published_on: 2025-07-02
+  published_on: 2025-07-03
   title: Simulation-based Bayesian machine learning methods for Cosmology and beyond
   publication_info_summary: KH Scheutwinkel - 2025 - repository.cam.ac.uk
   link: https://www.repository.cam.ac.uk/items/2144201c-1793-41c0-9dec-77fba9df4b21
@@ -19989,7 +19992,7 @@
   category: Astrophysics
 - id: 1484
   created_at: 2025-07-07 15:06:56.769863
-  published_on: 2025-06-24
+  published_on: 2025-06-25
   title: Recent Advances in Simulation-based Inference for Gravitational Wave Data
     Analysis
   publication_info_summary: B Liang, H Wang - Astronomical Techniques and Instruments,
@@ -20078,7 +20081,7 @@
   category: Astrophysics
 - id: 1489
   created_at: 2025-07-07 15:07:33.272005
-  published_on: 2025-06-13
+  published_on: 2025-06-14
   title: Simulation-based Inference for High-dimensional Data using Surjective Sequential
     Neural Likelihood Estimation
   publication_info_summary: "S Dirmeier, C Albert, F Perez-Cruz - The 41st Conference\
@@ -20108,7 +20111,7 @@
   category: Computer Science
 - id: 1491
   created_at: 2025-07-07 15:07:52.216971
-  published_on: 2025-06-12
+  published_on: 2025-06-13
   title: Simulation-based inference benchmark for weak lensing cosmology
   publication_info_summary: "J Zeghal, D Lanzieri, F Lanusse, A Boucaud, G Louppe\u2026\
     \ - 2025 - aanda.org"
@@ -20121,7 +20124,7 @@
   doi: https://www.aanda.org/articles/aa/pdf/forth/aa52410-24.pdf
 - id: 1492
   created_at: 2025-07-07 15:07:56.635605
-  published_on: 2025-06-11
+  published_on: 2025-06-12
   title: Simulation-based inference with neural posterior estimation applied to X-ray
     spectral fitting
   publication_info_summary: "S Dupourqu\xE9, D Barret - 2025 - aanda.org"
@@ -20162,3 +20165,90 @@
   journal: biorxiv.org
   category: Neuroscience
   doi: 10.1101/2025.05.15.653894
+- id: 1495
+  created_at: 2025-07-13 01:16:09.658088
+  published_on: 2025-07-10
+  title: Peering into neutron stars Rays, relativity, and rapid inference
+  publication_info_summary: D Choudhury - 2025 - dare.uva.nl
+  link: https://dare.uva.nl/search?identifier=ce5dda57-d8d5-4719-827b-ad01bbcbb3bc
+  snippet: "\u2026 such analyses and the anticipated improvements in methodology and\
+    \ data quality, we also explore the possibility of accelerating inference via\
+    \ simulation-based inference \u2026"
+  journal: dare.uva.nl
+  category: Physics
+  doi: https://dare.uva.nl/search?identifier=ce5dda57-d8d5-4719-827b-ad01bbcbb3bc
+- id: 1496
+  created_at: 2025-07-13 01:16:15.436575
+  published_on: 2025-07-07
+  title: A COMPASS to Model Comparison and Simulation-Based Inference in Galactic
+    Chemical Evolution
+  authors: Berkay Gunes, Sven Buder, Tobias Buck
+  publication_info_summary: B Gunes, S Buder, T Buck - arXiv preprint arXiv:2507.05060,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2507.05060
+  snippet: "\u2026 We present COMPASS, a novel simulation-based inference framework\
+    \ that combines score-based diffusion models with transformer architectures to\
+    \ jointly perform \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.05060'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1497
+  created_at: 2025-07-13 01:16:27.888051
+  published_on: 2025-07-03
+  title: Mitigating Model Misspecification in Simulation-Based Inference for Galaxy
+    Clustering
+  authors: "S\xE9bastien Pierre, Bruno R\xE9galdo-Saint Blancard, ChangHoon Hahn,\
+    \ Michael Eickenberg"
+  publication_info_summary: "S Pierre, BRS Blancard, CH Hahn\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2507.03086
+  snippet: "Simulation-based inference (SBI) has become an important tool in cosmology\
+    \ for extracting additional information from observational data using simulations.\
+    \ However, all \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.03086'
+  arxiv_category_tag: astro-ph.CO
+  category: Astronomy
+- id: 1498
+  created_at: 2025-07-13 01:17:06.810969
+  published_on: 2025-07-02
+  title: Uncertainty Quantification in Simulation-Based Inference Using Deep Generative
+    Models
+  publication_info_summary: O Cronsten - 2025 - diva-portal.org
+  link: https://www.diva-portal.org/smash/record.jsf?pid=diva2:1979914
+  snippet: "\u2026 This thesis explores uncertainty quantification in simulation-based\
+    \ inference (SBI) using deep generative models. By focusing on probabilistic frameworks,\
+    \ the study \u2026"
+  journal: diva-portal.org
+  category: Physics
+  doi: https://www.diva-portal.org/smash/record.jsf?pid=diva2:1979914
+- id: 1499
+  created_at: 2025-07-13 01:20:19.806908
+  published_on: 2025-05-25
+  title: Comment on 'An implementation of neural simulation-based inference for parameter
+    estimation in ATLAS''
+  authors: Prasanth Shyamsundar
+  publication_info_summary: P Shyamsundar - arXiv preprint arXiv:2505.19156, 2025
+    - arxiv.org
+  link: https://arxiv.org/abs/2505.19156
+  snippet: "The paper titled \"An implementation of neural simulation-based inference\
+    \ for parameter estimation in ATLAS\" by the ATLAS collaboration (arXiv:2412.01600v1\
+    \ [hep-ex]) \u2026"
+  journal: arxiv.org
+  arxiv_id: '2505.19156'
+  arxiv_category_tag: stat.ME
+  category: Physics
+- id: 1500
+  created_at: 2025-07-13 01:21:34.140881
+  published_on: 2025-05-10
+  title: Sequential Neural Joint Estimation for likelihood-free inference
+  publication_info_summary: "D Kim, K Song, S Shin, W Kang, IC Moon\u2026 - Journal\
+    \ of the Korean \u2026, 2025 - Springer"
+  link: https://link.springer.com/article/10.1007/s42952-025-00323-5
+  snippet: "This paper presents a novel approach to posterior inference on simulation\
+    \ input parameters that can effectively address the challenge of multi-modality.\
+    \ As simulations \u2026"
+  journal: Springer
+  category: Physics
+  doi: https://link.springer.com/article/10.1007/s42952-025-00323-5
