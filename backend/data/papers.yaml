@@ -18736,17 +18736,17 @@
   category: Physics
 - id: 1398
   created_at: 2025-03-30 01:05:19.663098
-  published_on: 2025-03-20
+  published_on: 2025-03-21
   title: Learning Likelihood-Free Reference Priors
-  publication_info_summary: "NG Bishop, J Dyer, DJ Ornia, A Calinescu\u2026 - 7th\
-    \ Symposium on \u2026, 2025 - openreview.net"
-  link: https://openreview.net/forum?id=Xxf61efDob
-  snippet: "\u2026 In response to this challenge, a variety of inference procedures\
-    \ have been developed by the simulation-based inference (sbi) community, ranging\
-    \ from classical \u2026"
+  publication_info_summary: "NG Bishop, DJ Ornia, J Dyer, A Calinescu\u2026 - \u2026\
+    \ on Machine Learning, 2025 - openreview.net"
+  link: https://openreview.net/forum?id=4lfmCCYKDY
+  snippet: "\u2026 Simulation-based Inference Approximate, simulation-based inference\
+    \ (SBI) procedures for performing parameter inference for complex models have\
+    \ been in development \u2026"
   journal: openreview.net
   category: Neuroscience
-  doi: https://openreview.net/forum?id=Xxf61efDob
+  doi: https://openreview.net/forum?id=4lfmCCYKDY
 - id: 1399
   created_at: 2025-03-30 01:05:24.254217
   published_on: 2025-03-20
@@ -18804,7 +18804,7 @@
   doi: https://scholarworks.umass.edu/entities/publication/a9e999c7-7a76-4f5f-8bf4-2bb4eb3f5ee1
 - id: 1403
   created_at: 2025-04-13 02:30:28.648475
-  published_on: 2025-04-07
+  published_on: 2025-04-08
   title: Cosmology from HSC Y1 weak lensing data with combined higher-order statistics
     and simulation-based inference
   publication_info_summary: "CP Novaes, L Thiele, J Armijo, S Cheng, JA Cowell\u2026\
@@ -20252,3 +20252,129 @@
   journal: Springer
   category: Physics
   doi: https://link.springer.com/article/10.1007/s42952-025-00323-5
+- id: 1501
+  created_at: 2025-07-20 01:17:50.703926
+  published_on: 2025-07-14
+  title: A Simulation Based Inference Approach to the Dynamics of the MW-LMC System
+    -- Validation
+  authors: "Richard A. N. Brooks, Jason L. Sanders, Adam M. Dillamore, Nicol\xE1s\
+    \ Garavito-Camargo, Adrian M. Price-Whelan"
+  publication_info_summary: "RAN Brooks, JL Sanders, AM Dillamore\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2507.10667
+  snippet: "\u2026 to reliably infer the model parameters of higher fidelity \U0001D441\
+    -body and hydrodynamical cosmological zoom-in MW\u2013LMC simulations using a\
+    \ Simulation Based Inference (SBI) \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.10667'
+  arxiv_category_tag: astro-ph.GA
+  category: Environmental Science
+- id: 1502
+  created_at: 2025-07-20 01:17:55.643682
+  published_on: 2025-07-14
+  title: Stochastic weather generation for scenario-neutral impact assessments using
+    simulation-based inference
+  publication_info_summary: "BR Groenke, J Wessel, P Miersch, N Klein\u2026 - Authorea\
+    \ \u2026, 2025 - essopenarchive.org"
+  link: https://essopenarchive.org/doi/full/10.22541/essoar.175242145.59540368
+  snippet: "\u2026 , to which we apply techniques from the field of simulation-based\
+    \ inference (SBI). We \u2026 apply techniques 37 from the field of simulation-based\
+    \ inference (SBI). We illustrate \u2026"
+  journal: essopenarchive.org
+  category: Environmental Science
+  doi: https://essopenarchive.org/doi/full/10.22541/essoar.175242145.59540368
+- id: 1503
+  created_at: 2025-07-20 01:18:03.239658
+  published_on: 2025-07-13
+  title: Revealing Galactic Structure with Simulation Based Inference
+  publication_info_summary: J Mills - 2025 - minds.wisconsin.edu
+  link: https://minds.wisconsin.edu/handle/1793/95549
+  snippet: "\u2026 We demonstrate how a machine learning technique known as simulation\
+    \ based inference (SBI) is able to \u201Clearn\u201D the likelihood distribution\
+    \ and enable statistical inference \u2026"
+  journal: minds.wisconsin.edu
+  category: Astrophysics
+  doi: https://minds.wisconsin.edu/handle/1793/95549
+- id: 1504
+  created_at: 2025-07-20 01:18:09.790408
+  published_on: 2025-07-11
+  title: Estimating Marginal Likelihoods in Likelihood-Free Inference via Neural Density
+    Estimation
+  authors: Paul Bastide, Arnaud Estoup, Jean-Michel Marin, Julien Stoehr
+  publication_info_summary: P Bastide, A Estoup, JM Marin, J Stoehr - arXiv preprint
+    arXiv:2507.08734, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2507.08734
+  snippet: "\u2026 Crucially, the method is not specific to simulation-based inference\
+    \ and could be applied in any Bayesian setting where a posterior sample is available\
+    \ and a surrogate \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.08734'
+  arxiv_category_tag: stat.CO
+  category: Statistics
+- id: 1505
+  created_at: 2025-07-20 01:18:20.311406
+  published_on: 2025-07-09
+  title: Self-consistent population synthesis of active galactic nuclei from observational
+    constraints in the X-rays
+  publication_info_summary: D Gerolymatou, S Paltani, C Ricci, M Regamey - 2025 -
+    aanda.org
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa53878-25.pdf
+  snippet: "\u2026 We examined how well each model can match all observational constraints\
+    \ using a simulation-based inference (SBI) approach. We find that, while the simple\
+    \ unification \u2026"
+  journal: aanda.org
+  category: Physics
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa53878-25.pdf
+- id: 1506
+  created_at: 2025-07-20 01:18:30.983095
+  published_on: 2025-07-06
+  title: Simulation-Based Inference in Agent-Based Models Using Spatio-Temporal Summary
+    Statistics
+  publication_info_summary: "E Dignum, H Choudhary, M Lees - International Conference\
+    \ on \u2026, 2025 - Springer"
+  link: https://link.springer.com/chapter/10.1007/978-3-031-97557-8_18
+  snippet: "In agent-based models (ABMs), traditional statistical inference faces\
+    \ challenges due to intractable likelihoods and computational costs. This study\
+    \ evaluates neural \u2026"
+  journal: Springer
+  category: Computer Science
+  doi: https://link.springer.com/chapter/10.1007/978-3-031-97557-8_18
+- id: 1507
+  created_at: 2025-07-20 01:18:41.694624
+  published_on: 2025-07-04
+  title: An Implementation of Neural Simulation-Based Inference for Parameter Estimation
+    at the LHC
+  publication_info_summary: JA Sandesara - 2025 - cds.cern.ch
+  link: https://cds.cern.ch/record/2937366
+  snippet: "Abstract Neural simulation-based inference is a powerful class of machine-learning-\u2026\
+    \ This work develops a neural simulation-based inference framework for statistical\
+    \ \u2026"
+  journal: cds.cern.ch
+  category: Astrophysics
+  doi: https://cds.cern.ch/record/2937366
+- id: 1508
+  created_at: 2025-07-20 01:24:33.999222
+  published_on: 2025-04-06
+  title: Simulation-Based Inference with Modern Generative Modelling
+  publication_info_summary: JI Simons - 2025 - research-information.bris.ac.uk
+  link: https://research-information.bris.ac.uk/files/450267918/thesis.pdf
+  snippet: "In this work we discuss various methodologies for inferring the parameters\
+    \ of a model when the likelihood is intractable and is only known via a simulator,\
+    \ so-called \u2026"
+  journal: research-information.bris.ac.uk
+  category: Physics
+  doi: https://research-information.bris.ac.uk/files/450267918/thesis.pdf
+- id: 1509
+  created_at: 2025-07-20 01:24:50.153454
+  published_on: 2025-04-02
+  title: "Brain Informatics 17th International Conference, BI 2024, Bangkok, Thailand,\
+    \ December 13\u201315, 2024, Proceedings, Part I"
+  publication_info_summary: S Itthipuripat, GA Ascoli, A Li, N Pat, H Kuai - 2025
+    - books.google.com
+  link: https://books.google.com/books?hl=en&lr=&id=cR1TEQAAQBAJ&oi=fnd&pg=PR1&dq=%22simulation-based%2Binference%22&ots=bdcCm0OK0S&sig=OiIEaOJGeZQIdkbKBMAdOtQ1npA
+  snippet: "This book constitutes the proceedings of the 17th International Conference\
+    \ on Brain Informatics, BI 2024, which was held in Bangkok, Thailand, during December\
+    \ 13\u201315, \u2026"
+  journal: books.google.com
+  category: Physics
+  doi: https://books.google.com/books?hl=en&lr=&id=cR1TEQAAQBAJ&oi=fnd&pg=PR1&dq=%22simulation-based%2Binference%22&ots=bdcCm0OK0S&sig=OiIEaOJGeZQIdkbKBMAdOtQ1npA
