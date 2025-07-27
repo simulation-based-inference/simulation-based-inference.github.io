@@ -19760,6 +19760,7 @@
     \ (SBI) where the generator is a physics-based simulator. In this work, we examine\
     \ other methods \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=12651604831940115274
   arxiv_id: '2506.00119'
   arxiv_category_tag: hep-ph
   category: Physics
@@ -20016,7 +20017,7 @@
     s calibration via simulation-based inference by a factor of about 1.5 without\
     \ occupying additional cores. \u2026"
   journal: dl.acm.org
-  category: Physics
+  category: Environmental Science
   doi: https://dl.acm.org/doi/abs/10.1145/3726301.3728410
 - id: 1486
   created_at: 2025-07-07 15:07:15.335032
@@ -20111,17 +20112,17 @@
   category: Computer Science
 - id: 1491
   created_at: 2025-07-07 15:07:52.216971
-  published_on: 2025-06-13
+  published_on: 2025-06-17
   title: Simulation-based inference benchmark for weak lensing cosmology
-  publication_info_summary: "J Zeghal, D Lanzieri, F Lanusse, A Boucaud, G Louppe\u2026\
-    \ - 2025 - aanda.org"
-  link: https://www.aanda.org/articles/aa/pdf/forth/aa52410-24.pdf
+  publication_info_summary: "J Zeghal, D Lanzieri, F Lanusse, A Boucaud\u2026 - Astronomy\
+    \ & \u2026, 2025 - aanda.org"
+  link: https://www.aanda.org/articles/aa/abs/2025/07/aa52410-24/aa52410-24.html
   snippet: "Context. Standard cosmological analysis, which is based on two-point statistics,\
     \ fails to extract all the information embedded in the cosmological data. This\
     \ limits our ability \u2026"
   journal: aanda.org
   category: Physics
-  doi: https://www.aanda.org/articles/aa/pdf/forth/aa52410-24.pdf
+  doi: https://www.aanda.org/articles/aa/abs/2025/07/aa52410-24/aa52410-24.html
 - id: 1492
   created_at: 2025-07-07 15:07:56.635605
   published_on: 2025-06-12
@@ -20378,3 +20379,78 @@
   journal: books.google.com
   category: Physics
   doi: https://books.google.com/books?hl=en&lr=&id=cR1TEQAAQBAJ&oi=fnd&pg=PR1&dq=%22simulation-based%2Binference%22&ots=bdcCm0OK0S&sig=OiIEaOJGeZQIdkbKBMAdOtQ1npA
+- id: 1510
+  created_at: 2025-07-27 01:18:07.223707
+  published_on: 2025-07-22
+  title: CoLT The conditional localization test for assessing the accuracy of neural
+    posterior estimates
+  authors: Tianyu Chen, Vansh Bansal, James G. Scott
+  publication_info_summary: T Chen, V Bansal, JG Scott - arXiv preprint arXiv:2507.17030,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2507.17030
+  snippet: "\u2026 of this idea arises in validating conditional generative models\
+    \ for neural posterior estimation, or NPE, which is a rapidly growing area of\
+    \ simulation-based inference. Here \u03B8 \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.17030'
+  arxiv_category_tag: stat.ML
+  category: Computer Science
+- id: 1511
+  created_at: 2025-07-27 01:18:12.894930
+  published_on: 2025-07-22
+  title: The surprising strength of weak classifiers for validating neural posterior
+    estimates
+  authors: Vansh Bansal, Tianyu Chen, James G. Scott
+  publication_info_summary: V Bansal, T Chen, JG Scott - arXiv preprint arXiv:2507.17026,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2507.17026
+  snippet: "\u2026 for validating neural posterior estimates, establishing the conformal\
+    \ C2ST as a practical, theoretically grounded diagnostic for modern simulation-based\
+    \ inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.17026'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1512
+  created_at: 2025-07-27 01:18:18.613057
+  published_on: 2025-07-17
+  title: Simulation-based inference with deep ensembles Evaluating calibration uncertainty
+    and detecting model misspecification
+  authors: James Alvey, Carlo R. Contaldi, Mauro Pieroni
+  publication_info_summary: J Alvey, CR Contaldi, M Pieroni - arXiv preprint arXiv:2507.13495,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2507.13495
+  snippet: "Simulation-Based Inference (SBI) offers a principled and flexible framework\
+    \ for conducting Bayesian inference in any situation where forward simulations\
+    \ are feasible. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.13495'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1513
+  created_at: 2025-07-27 01:18:24.352574
+  published_on: 2025-07-16
+  title: Prospects of Constraining Equilibrium Tides in Low-Mass Binary Stars
+  authors: Jessica Birky, Rory K. Barnes, James R. A. Davenport
+  publication_info_summary: J Birky, RK Barnes, JRA Davenport - arXiv preprint arXiv:2507.12639,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2507.12639
+  snippet: "\u2026 To investigate the prospects and limitations of constraining tidal\
+    \ Q, we use global sensitivity analysis and simulation based inference to examine\
+    \ how the initial conditions \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.12639'
+  arxiv_category_tag: astro-ph.SR
+  category: Astrophysics
+- id: 1514
+  created_at: 2025-07-27 01:24:30.653107
+  published_on: 2025-04-23
+  title: Cosmological Constraints with Void Lensing
+  publication_info_summary: C Su, H Shan, C Zhao, W Xu, J Zhang - 2025 - 203.160.84.158
+  link: http://203.160.84.158:9988/papers/2504.15149v1.Cosmological_Constraints_with_Void_Lensing_I__the_Simulation_Based_Inference_Framework.pdf
+  snippet: "\u2026 We present a Simulation-Based Inference (SBI) framework for cosmological\
+    \ parameter estimation via void lensing analysis. Despite the absence of an analytical\
+    \ model of \u2026"
+  journal: 203.160.84.158
+  category: Environmental Science
+  doi: http://203.160.84.158:9988/papers/2504.15149.Cosmological_Constraints_with_Void_Lensing_I__the_Simulation_Based_Inference_Framework.pdf
