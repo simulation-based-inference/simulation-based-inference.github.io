@@ -18618,21 +18618,18 @@
   doi: https://search.proquest.com/openview/e3bfa05dfb2c4bf295dfb5355e3cd371/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 1390
   created_at: 2025-03-16 01:03:38.737091
-  published_on: 2025-03-05
+  published_on: 2025-03-08
   title: Trial by FIRE Probing the dark matter density profile of dwarf galaxies with
     GraphNPE
-  authors: "Tri Nguyen, Justin Read, Lina Necib, Siddharth Mishra-Sharma, Claude-Andr\xE9\
-    \ Faucher-Gigu\xE8re, Andrew Wetzel"
-  publication_info_summary: "T Nguyen, J Read, L Necib, S Mishra-Sharma\u2026 - arXiv\
-    \ preprint arXiv \u2026, 2025 - arxiv.org"
-  link: https://arxiv.org/abs/2503.03812
+  publication_info_summary: "T Nguyen, J Read, L Necib\u2026 - Monthly Notices of\
+    \ \u2026, 2025 - academic.oup.com"
+  link: https://academic.oup.com/mnras/article-abstract/541/3/2707/8195531
   snippet: "\u2026 In this paper, we further improve and test a new method, GraphNPE,\
-    \ a simulation-based inference (SBI) framework that can massively accelerate distribution\
-    \ function \u2026"
-  journal: arxiv.org
-  arxiv_id: '2503.03812'
-  arxiv_category_tag: astro-ph.GA
-  category: Astrophysics
+    \ a simulation-based inference (SBI) framework that can massively accelerate DF\
+    \ modelling. First \u2026"
+  journal: academic.oup.com
+  category: Physics
+  doi: https://academic.oup.com/mnras/article-abstract/541/3/2707/8195531
 - id: 1391
   created_at: 2025-03-16 01:03:43.375462
   published_on: 2025-03-06
@@ -18669,6 +18666,7 @@
     \ inference for cosmology: How many simulations are required for neural networks\
     \ to achieve optimal \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=9453188852101468350
   arxiv_id: '2503.13755'
   arxiv_category_tag: astro-ph.CO
   category: Statistics
@@ -18797,8 +18795,8 @@
   publication_info_summary: J Sandesara - 2025 - scholarworks.umass.edu
   link: https://scholarworks.umass.edu/entities/publication/a9e999c7-7a76-4f5f-8bf4-2bb4eb3f5ee1
   snippet: "\u2026 Coming under the general umbrella of Neural Simulation-Based Inference\
-    \ (NSBI) techniques, the new workflow uses a large number of Neural Networks (NNs)\
-    \ to directly \u2026"
+    \ (NSBI) \u2026 of Neural Simulation-Based Inference techniques presented in the\
+    \ rest of the thesis. \u2026"
   journal: scholarworks.umass.edu
   category: Neuroscience
   doi: https://scholarworks.umass.edu/entities/publication/a9e999c7-7a76-4f5f-8bf4-2bb4eb3f5ee1
@@ -18979,12 +18977,12 @@
   title: Efficient and scalable posterior surrogate for seismic inversion via wavelet
     score-based generative models
   publication_info_summary: E Cirakman, HT Erdinc, FJ Herrmann - slim.gatech.edu
-  link: https://slim.gatech.edu/Publications/Public/Submitted/2025/cirakman2025IMAGEesp/IMAGE_Ege.pdf
+  link: https://slim.gatech.edu/Publications/Public/Conferences/SEG/2025/cirakman2025IMAGEesp/IMAGE_Ege.pdf
   snippet: "Seismic inversion poses significant computational challenges due to its\
     \ high dimensionality and non-unique solutions. We propose a novel method integrating\
     \ the Wavelet \u2026"
   category: Astrophysics
-  doi: https://slim.gatech.edu/Publications/Public/Submitted/2025/cirakman2025IMAGEesp/IMAGE_Ege.pdf
+  doi: https://slim.gatech.edu/Publications/Public/Conferences/SEG/2025/cirakman2025IMAGEesp/IMAGE_Ege.pdf
 - id: 1415
   created_at: 2025-04-20 01:07:36.914348
   published_on: 2025-04-06
@@ -19342,6 +19340,7 @@
     \ a simulation-based inference approach to efficient, highly-parallelized parameter\
     \ inference for \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=15725066831303993693
   arxiv_id: '2505.11655'
   arxiv_category_tag: astro-ph.IM
   category: Astrophysics
@@ -19621,7 +19620,7 @@
   category: Astrophysics
 - id: 1458
   created_at: 2025-06-15 01:15:48.225458
-  published_on: 2025-06-06
+  published_on: 2025-06-05
   title: Topical Lectures on Neural Simulation Based Inference
   publication_info_summary: J Rojo - indico.nikhef.nl
   link: https://indico.nikhef.nl/event/6157/sessions/2138/attachments/9792/14763/Neural_SBI_Topical_Lectures.pdf
@@ -19689,6 +19688,7 @@
     \ uncertainty constructs (eg, \u2026 and use scenarios, particularly in the context\
     \ of simulation-based inference (SBI). \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=10558716732390863523
   arxiv_id: '2506.03037'
   arxiv_category_tag: cs.LG
   category: Computer Science
@@ -19828,6 +19828,7 @@
   snippet: "\u2026 These findings will aid the interpretation of future X-ray surveys,\
     \ demonstrating the power of simulation-based inference. \u2026"
   journal: aanda.org
+  citation_backlink: https://scholar.google.com/scholar?cites=12820414821079758065
   category: Astronomy
   doi: https://www.aanda.org/articles/aa/abs/2025/06/aa54677-25/aa54677-25.html
 - id: 1473
@@ -20017,7 +20018,7 @@
     s calibration via simulation-based inference by a factor of about 1.5 without\
     \ occupying additional cores. \u2026"
   journal: dl.acm.org
-  category: Environmental Science
+  category: meteorology
   doi: https://dl.acm.org/doi/abs/10.1145/3726301.3728410
 - id: 1486
   created_at: 2025-07-07 15:07:15.335032
@@ -20372,13 +20373,13 @@
     \ December 13\u201315, 2024, Proceedings, Part I"
   publication_info_summary: S Itthipuripat, GA Ascoli, A Li, N Pat, H Kuai - 2025
     - books.google.com
-  link: https://books.google.com/books?hl=en&lr=&id=cR1TEQAAQBAJ&oi=fnd&pg=PR1&dq=%22simulation-based%2Binference%22&ots=bdcCm0OK0S&sig=OiIEaOJGeZQIdkbKBMAdOtQ1npA
+  link: https://books.google.com/books?hl=en&lr=&id=cR1TEQAAQBAJ&oi=fnd&pg=PR1&dq=%22simulation-based%2Binference%22&ots=bdcDo1NR8O&sig=-1p9pZomMyU03MtiwAgC0SVwJSY
   snippet: "This book constitutes the proceedings of the 17th International Conference\
     \ on Brain Informatics, BI 2024, which was held in Bangkok, Thailand, during December\
     \ 13\u201315, \u2026"
   journal: books.google.com
   category: Physics
-  doi: https://books.google.com/books?hl=en&lr=&id=cR1TEQAAQBAJ&oi=fnd&pg=PR1&dq=%22simulation-based%2Binference%22&ots=bdcCm0OK0S&sig=OiIEaOJGeZQIdkbKBMAdOtQ1npA
+  doi: https://books.google.com/books?hl=en&lr=&id=cR1TEQAAQBAJ&oi=fnd&pg=PR1&dq=%22simulation-based%2Binference%22&ots=bdcDo1NR8O&sig=-1p9pZomMyU03MtiwAgC0SVwJSY
 - id: 1510
   created_at: 2025-07-27 01:18:07.223707
   published_on: 2025-07-22
@@ -20454,3 +20455,115 @@
   journal: 203.160.84.158
   category: Environmental Science
   doi: http://203.160.84.158:9988/papers/2504.15149.Cosmological_Constraints_with_Void_Lensing_I__the_Simulation_Based_Inference_Framework.pdf
+- id: 1515
+  created_at: 2025-08-03 01:19:08.872627
+  published_on: 2025-07-29
+  title: Spatiodynamic inference using vision-based generative modelling
+  authors: Jun Won Park, Kangyu Zhao, Sanket Rane
+  publication_info_summary: JW Park, K Zhao, S Rane - arXiv preprint arXiv:2507.22256,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2507.22256
+  snippet: "\u2026 In this study we introduced viaABC, a simulation-based inference\
+    \ framework that uses contextual dependencies inherent in the data to estimate\
+    \ parameters of multivariate \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.22256'
+  arxiv_category_tag: q-bio.QM
+  category: Physics
+- id: 1516
+  created_at: 2025-08-03 01:19:13.750902
+  published_on: 2025-07-29
+  title: "Bayesian Estimation of the Gutenberg\u2013Richter Parameters Essentially\
+    \ Exact Posterior Distributions-Application to the Alps Domain, France A. Dutfoy"
+  publication_info_summary: A Dutfoy - Pure and Applied Geophysics, 2025 - Springer
+  link: https://link.springer.com/article/10.1007/s00024-025-03777-0
+  snippet: "\u2026 It is difficult to validate the correct parameterization of the\
+    \ algorithm and it requires a full simulation-based inference procedure. This\
+    \ article shows how the parameters \u2026"
+  journal: Springer
+  category: Mathematics
+  doi: https://link.springer.com/article/10.1007/s00024-025-03777-0
+- id: 1517
+  created_at: 2025-08-03 01:19:19.531511
+  published_on: 2025-07-27
+  title: Simulation-based Inference of Molecular Conformations Using Cryo-EM Images
+  publication_info_summary: P Cossio - Microscopy and Microanalysis, 2025 - academic.oup.com
+  link: https://academic.oup.com/mam/article-abstract/31/Supplement_1/ozaf048.491/8213002
+  snippet: "Biomolecules reorganize between alternative conformations to perform their\
+    \ functions. Mapping out all their different conformations is critical to understanding\
+    \ how they \u2026"
+  journal: academic.oup.com
+  category: Quantitative Biology
+  doi: https://academic.oup.com/mam/article-abstract/31/Supplement_1/ozaf048.491/8213002
+- id: 1518
+  created_at: 2025-08-03 01:19:25.037664
+  published_on: 2025-07-26
+  title: Maximum Likelihood Estimation for Partially Observed Markov Model Using Different
+    Tail Perturbations
+  publication_info_summary: Z Qazi - 2025 - search.proquest.com
+  link: https://search.proquest.com/openview/83103fe915e512acde01f8e06cc63410/1?pq-origsite=gscholar&cbl=18750&diss=y
+  snippet: "\u2026 Simulation-based inference, also termed plug-and-play inference,\
+    \ offers a promising \u2026 Simulation-based inference can be characterized as\
+    \ either Bayesian or frequentist, \u2026"
+  journal: search.proquest.com
+  category: Statistics
+  doi: https://search.proquest.com/openview/83103fe915e512acde01f8e06cc63410/1?pq-origsite=gscholar&cbl=18750&diss=y
+- id: 1519
+  created_at: 2025-08-03 01:19:32.409111
+  published_on: 2025-07-26
+  title: Segmental copy number amplifications are stable in the absence of selection
+  authors: De, T.; Ben Nun, N.; Spealman, P.; Suresh, I.; Avecilla, G.; Abdul-Rahman,
+    F.; Ram, Y.; Gresham, D.
+  publication_info_summary: "T De, N Ben Nun, P Spealman, I Suresh, G Avecilla\u2026\
+    \ - bioRxiv, 2025 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2025.07.21.665951.abstract
+  snippet: "\u2026 Using simulation-based inference to estimate reversion rates and\
+    \ fitness effects we \u2026 Fitness estimates for the CNV strains from our simulation-based\
+    \ inference, shaded in \u2026"
+  journal: biorxiv.org
+  category: Evolutionary biology
+  doi: 10.1101/2025.07.21.665951
+- id: 1520
+  created_at: 2025-08-03 01:19:38.169430
+  published_on: 2025-07-24
+  title: Deep Neural Network Driven Simulation Based Inference Method for Pole Position
+    Estimation under Model Misspecification
+  authors: Daniel Sadasivan, Isaac Cordero, Andrew Graham, Cecilia Marsh, Daniel Kupcho,
+    Melana Mourad, Maxim Mai
+  publication_info_summary: "D Sadasivan, I Cordero, A Graham, C Marsh\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2507.18824
+  snippet: "\u2026 We have presented a method of Simulation Based Inference and shown\
+    \ it to be a viable alternative method to the \u03C72 minimization in case of\
+    \ model misspecification both \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.18824'
+  arxiv_category_tag: hep-ph
+  category: Physics
+- id: 1521
+  created_at: 2025-08-03 01:19:43.757963
+  published_on: 2025-07-23
+  title: On the Energy Distribution of the Galactic Center Excess' Sources
+  authors: Florian List, Yujin Park, Nicholas L. Rodd, Eve Schoen, Florian Wolf
+  publication_info_summary: "F List, Y Park, NL Rodd, E Schoen, F Wolf - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2507.17804
+  snippet: "\u2026 We demonstrate that a neural network-aided simulation-based inference\
+    \ approach can overcome such limitations and thereby confront the point source\
+    \ explanation of the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.17804'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1522
+  created_at: 2025-08-03 01:23:42.614314
+  published_on: 2025-05-27
+  title: Simulation-based inference for galaxy clustering
+  publication_info_summary: B Tucci Schiewaldt - 2025 - edoc.ub.uni-muenchen.de
+  link: https://edoc.ub.uni-muenchen.de/35634/1/Tucci_Schiewaldt_Beatriz.pdf
+  snippet: "\u2026 Simulation-based inference. Having fixed the definition of the\
+    \ data vector, the next \u2026 I demonstrate how to tackle these obstacles using\
+    \ simulation-based inference (SBI) [57,\u2026"
+  journal: edoc.ub.uni-muenchen.de
+  category: meteorology
+  doi: https://edoc.ub.uni-muenchen.de/35634/1/Tucci_Schiewaldt_Beatriz.pdf
