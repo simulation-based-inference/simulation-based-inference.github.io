@@ -20018,7 +20018,7 @@
     s calibration via simulation-based inference by a factor of about 1.5 without\
     \ occupying additional cores. \u2026"
   journal: dl.acm.org
-  category: meteorology
+  category: Environmental Science
   doi: https://dl.acm.org/doi/abs/10.1145/3726301.3728410
 - id: 1486
   created_at: 2025-07-07 15:07:15.335032
@@ -20567,3 +20567,162 @@
   journal: edoc.ub.uni-muenchen.de
   category: meteorology
   doi: https://edoc.ub.uni-muenchen.de/35634/1/Tucci_Schiewaldt_Beatriz.pdf
+- id: 1523
+  created_at: 2025-08-10 01:17:06.109348
+  published_on: 2025-08-07
+  title: Using simulation-based inference (SBI) for optical imaging
+  publication_info_summary: "M Lipp, LV Amitonova, P Forr\xE9 - Digital Optical Technologies\
+    \ \u2026, 2025 - spiedigitallibrary.org"
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13573/135730O/Using-simulation-based-inference-SBI-for-optical-imaging/10.1117/12.3062744.short
+  snippet: "\u2026 Many researchers consider AI too unreliable for scientific use,\
+    \ but with Simulation Based Inference (SBI) we present a class of ML models that\
+    \ produce comprehensible \u2026"
+  journal: spiedigitallibrary.org
+  category: Physics
+  doi: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13573/135730O/Using-simulation-based-inference-SBI-for-optical-imaging/10.1117/12.3062744
+- id: 1524
+  created_at: 2025-08-10 01:17:12.000154
+  published_on: 2025-08-04
+  title: Quantitative and Predictive Folding Models from Limited Single-Molecule Data
+    Using Simulation-Based Inference
+  authors: Lars Dingeldein, Aaron Lyons, Pilar Cossio, Michael Woodside, Roberto Covino
+  publication_info_summary: "L Dingeldein, A Lyons, P Cossio, M Woodside\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.02509
+  snippet: "\u2026 Here, we introduce a framework based on simulation-based inference\
+    \ (SBI) that overcomes these limitations by integrating physics-based modeling\
+    \ with deep learning. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.02509'
+  arxiv_category_tag: physics.chem-ph
+  category: Physics
+- id: 1525
+  created_at: 2025-08-10 01:17:17.690582
+  published_on: 2025-08-04
+  title: Robust Simulation Based Inference
+  authors: "Lorenzo Tomaselli, Val\xE9rie Ventura, Larry Wasserman"
+  publication_info_summary: L Tomaselli, V Ventura, L Wasserman - arXiv preprint arXiv:2508.02404,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2508.02404
+  snippet: "Simulation-Based Inference (SBI) is an approach to statistical inference\
+    \ where simulations from an assumed model are used to construct estimators and\
+    \ confidence sets. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.02404'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1526
+  created_at: 2025-08-10 01:17:22.679557
+  published_on: 2025-08-02
+  title: Flow Matching Posterior Estimation for Simulation-based Atmospheric Retrieval
+    of Exoplanets
+  publication_info_summary: "MG Orsini, A Ferone, L Inno, A Casolaro\u2026 - IEEE\
+    \ Access, 2025 - ieeexplore.ieee.org"
+  link: https://ieeexplore.ieee.org/abstract/document/11106493/
+  snippet: "\u2026 The adaptation of modern deep generative modeling approaches to\
+    \ simulationbased inference (SBI) tasks \u2013 such as the ADC \u2013 further\
+    \ offer significant advancements in \u2026"
+  journal: ieeexplore.ieee.org
+  category: Astronomy
+  doi: https://ieeexplore.ieee.org/abstract/document/11106493/
+- id: 1527
+  created_at: 2025-08-10 01:17:29.800116
+  published_on: 2025-07-31
+  title: Neural Posterior Estimation of Neutron Star Equations of State
+  authors: "Val\xE9ria Carvalho, M\xE1rcio Ferreira, Micha\u0142 Bejger, Constan\xE7\
+    a Provid\xEAncia"
+  publication_info_summary: "V Carvalho, M Ferreira, M Bejger\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2507.23506
+  snippet: "\u2026 We present a simulation-based inference (SBI) framework to constrain\
+    \ the neutron star (NS) equation of state (EoS) from astrophysical observations\
+    \ of masses, radii and \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.23506'
+  arxiv_category_tag: nucl-th
+  category: Physics
+- id: 1528
+  created_at: 2025-08-10 01:17:35.575225
+  published_on: 2025-07-31
+  title: Simulation-based inference for Precision Neutrino Physics through Neural
+    Monte Carlo tuning
+  authors: "A. Gavrikov, A. Serafini, D. Dolzhikov, A. Garfagnini, M. Gonchar, M.\
+    \ Grassi, R. Brugnera, V. Cerrone, L. V. D'Auria, R. M. Guizzetti, L. Lastrucci,\
+    \ G. Andronico, V. Antonelli, A. Barresi, D. Basilico, M. Beretta, A. Bergnoli,\
+    \ M. Borghesi, A. Brigatti, R. Bruno, A. Budano, B. Caccianiga, A. Cammi, R. Caruso,\
+    \ D. Chiesa, C. Clementi, C. Coletta, S. Dusini, A. Fabbri, G. Felici, G. Ferrante,\
+    \ M. G. Giammarchi, N. Giudice, N. Guardone, F. Houria, C. Landini, I. Lippi,\
+    \ L. Loi, P. Lombardi, F. Mantovani, S. M. Mari, A. Martini, L. Miramonti, M.\
+    \ Montuschi, M. Nastasi, D. Orestano, F. Ortica, A. Paoloni, L. Pelicci, E. Percalli,\
+    \ F. Petrucci, E. Previtali, G. Ranucci, A. C. Re, B. Ricci, A. Romani, C. Sirignano,\
+    \ M. Sisti, L. Stanco, E. Stanescu Farilla, V. Strati, M. D. C Torri, C. Tuv\xE8\
+    , C. Venettacci, G. Verde, L. Votano"
+  publication_info_summary: "A Gavrikov, A Serafini, D Dolzhikov\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2507.23297
+  snippet: "\u2026 We propose a solution using neural likelihood estimation within\
+    \ the simulation-based inference framework. We develop two complementary neural\
+    \ density estimators \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.23297'
+  arxiv_category_tag: physics.data-an
+  category: Physics
+- id: 1529
+  created_at: 2025-08-10 01:17:41.391414
+  published_on: 2025-07-30
+  title: How to embed any likelihood into SBI Application to Planck + Stage IV galaxy
+    surveys and Dynamical Dark Energy
+  authors: "Guillermo Franco Abell\xE1n, Noemi Anau Montel, Oleg Savchenko, Christoph\
+    \ Weniger"
+  publication_info_summary: "GF Abell\xE1n, NA Montel, O Savchenko\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2507.22990
+  snippet: "\u2026 Simulation-based inference (SBI) allows fast Bayesian inference\
+    \ for simulators encoding implicit likelihoods. However, some explicit likelihoods\
+    \ cannot be easily \u2026"
+  journal: arxiv.org
+  arxiv_id: '2507.22990'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1530
+  created_at: 2025-08-10 01:17:57.675553
+  published_on: 2025-07-29
+  title: Simulation-Based Inference at the Theoretical Limit Fast, Accurate Microstructural
+    MRI with Minimal diffusion MRI Data
+  publication_info_summary: MF Eggl, S De Santis - bioRxiv, 2025 - pmc.ncbi.nlm.nih.gov
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC12324183/
+  snippet: "\u2026 Leveraging simulation-based inference (SBI) with neural networks,\
+    \ we directly approximate posterior distributions of diffusion parameters from\
+    \ experimental \u2026"
+  journal: pmc.ncbi.nlm.nih.gov
+  category: Geology
+  doi: https://pmc.ncbi.nlm.nih.gov/articles/PMC12324183/
+- id: 1531
+  created_at: 2025-08-10 01:18:42.048641
+  published_on: 2025-07-21
+  title: A Fast Generative Framework for High-dimensional Posterior Sampling Application
+    to CMB Delensing
+  publication_info_summary: MH Sotoudeh, P Lemos, L Perreault-Levasseur - ml4astro.github.io
+  link: https://ml4astro.github.io/icml2025/assets/camera_ready/61_A_Fast_Generative_Framework.pdf
+  snippet: "\u2026 As telescopes and simulations rapidly expand the volume and resolution\
+    \ of astrophysical data, fast simulation-based inference methods are increasingly\
+    \ needed to extract \u2026"
+  category: Quantitative Biology
+  doi: https://ml4astro.github.io/icml2025/assets/camera_ready/61_A_Fast_Generative_Framework.pdf
+- id: 1532
+  created_at: 2025-08-10 01:18:46.977008
+  published_on: 2025-07-21
+  title: Neural Simulation-based Inference A Neural Network And Simulation-based Inference
+    Approach to Cognitive Modelling
+  publication_info_summary: P Wanke, H Chuanpeng - Journal of Psychological Science,
+    2025 - jps.ecnu.edu.cn
+  link: https://jps.ecnu.edu.cn/EN/abstract/abstract11571.shtml
+  snippet: "\u2026 \u4F3C\u7136\u51FD\u6570\u8BA1\u7B97\u7684\u6311\u6218\u50AC\u751F\
+    \u4E86\u57FA\u4E8E\u6A21\u62DF\u7684\u63A8\u65AD (simulation-based inference,\
+    \ SBI),\u7B80\u79F0 \u4E3A\u6A21\u62DF\u63A8\u65AD, \u5176\u6838\u5FC3\u601D\u60F3\
+    \u5728\u4E8E\u901A\u8FC7\u751F\u6210\u6A21\u62DF\u6570\u636E\u96C6,\u6784\u5EFA\
+    \u53C2\u6570\u4E0E \u6570\u636E\u7684\u968F\u673A\u6620\u5C04\u5173\u7CFB,\u4ECE\
+    \u800C\u5B9E\u73B0\u2026"
+  journal: jps.ecnu.edu.cn
+  category: Computer Science
+  doi: https://jps.ecnu.edu.cn/EN/abstract/abstract11571.shtml
