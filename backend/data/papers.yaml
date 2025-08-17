@@ -19620,7 +19620,7 @@
   category: Astrophysics
 - id: 1458
   created_at: 2025-06-15 01:15:48.225458
-  published_on: 2025-06-05
+  published_on: 2025-06-06
   title: Topical Lectures on Neural Simulation Based Inference
   publication_info_summary: J Rojo - indico.nikhef.nl
   link: https://indico.nikhef.nl/event/6157/sessions/2138/attachments/9792/14763/Neural_SBI_Topical_Lectures.pdf
@@ -20018,7 +20018,7 @@
     s calibration via simulation-based inference by a factor of about 1.5 without\
     \ occupying additional cores. \u2026"
   journal: dl.acm.org
-  category: Environmental Science
+  category: Physics
   doi: https://dl.acm.org/doi/abs/10.1145/3726301.3728410
 - id: 1486
   created_at: 2025-07-07 15:07:15.335032
@@ -20093,6 +20093,7 @@
     \ inference which we call Surjective Sequential Neural Likelihood (SSNL) estimation.\
     \ SSNL uses \u2026"
   journal: openreview.net
+  citation_backlink: https://scholar.google.com/scholar?cites=10781856118260521326
   category: Statistics
   doi: https://openreview.net/forum?id=COBjGzKBjD
 - id: 1490
@@ -20510,19 +20511,17 @@
   doi: https://search.proquest.com/openview/83103fe915e512acde01f8e06cc63410/1?pq-origsite=gscholar&cbl=18750&diss=y
 - id: 1519
   created_at: 2025-08-03 01:19:32.409111
-  published_on: 2025-07-26
+  published_on: 2025-07-25
   title: Segmental copy number amplifications are stable in the absence of selection
-  authors: De, T.; Ben Nun, N.; Spealman, P.; Suresh, I.; Avecilla, G.; Abdul-Rahman,
-    F.; Ram, Y.; Gresham, D.
-  publication_info_summary: "T De, N Ben Nun, P Spealman, I Suresh, G Avecilla\u2026\
-    \ - bioRxiv, 2025 - biorxiv.org"
-  link: https://www.biorxiv.org/content/10.1101/2025.07.21.665951.abstract
+  publication_info_summary: "NB Nun, P Spealman, I Suresh, G Avecilla\u2026 - 2025\
+    \ - europepmc.org"
+  link: https://europepmc.org/article/ppr/ppr1056185
   snippet: "\u2026 Using simulation-based inference to estimate reversion rates and\
-    \ fitness effects we \u2026 Fitness estimates for the CNV strains from our simulation-based\
-    \ inference, shaded in \u2026"
-  journal: biorxiv.org
-  category: Evolutionary biology
-  doi: 10.1101/2025.07.21.665951
+    \ fitness effects we find that negative selection is the primary driver of CNV\
+    \ loss although aneuploid \u2026"
+  journal: europepmc.org
+  category: Physics
+  doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
   published_on: 2025-07-24
@@ -20569,7 +20568,7 @@
   doi: https://edoc.ub.uni-muenchen.de/35634/1/Tucci_Schiewaldt_Beatriz.pdf
 - id: 1523
   created_at: 2025-08-10 01:17:06.109348
-  published_on: 2025-08-07
+  published_on: 2025-08-06
   title: Using simulation-based inference (SBI) for optical imaging
   publication_info_summary: "M Lipp, LV Amitonova, P Forr\xE9 - Digital Optical Technologies\
     \ \u2026, 2025 - spiedigitallibrary.org"
@@ -20619,9 +20618,9 @@
   publication_info_summary: "MG Orsini, A Ferone, L Inno, A Casolaro\u2026 - IEEE\
     \ Access, 2025 - ieeexplore.ieee.org"
   link: https://ieeexplore.ieee.org/abstract/document/11106493/
-  snippet: "\u2026 The adaptation of modern deep generative modeling approaches to\
-    \ simulationbased inference (SBI) tasks \u2013 such as the ADC \u2013 further\
-    \ offer significant advancements in \u2026"
+  snippet: "\u2026 SIMULATION-BASED INFERENCE In simulation-based inference, a simulator\
+    \ is a computer pro\u2026 A fundamental challenge in simulation-based inference\
+    \ arises from the \u2026"
   journal: ieeexplore.ieee.org
   category: Astronomy
   doi: https://ieeexplore.ieee.org/abstract/document/11106493/
@@ -20726,3 +20725,35 @@
   journal: jps.ecnu.edu.cn
   category: Computer Science
   doi: https://jps.ecnu.edu.cn/EN/abstract/abstract11571.shtml
+- id: 1533
+  created_at: 2025-08-17 01:13:13.899986
+  published_on: 2025-08-13
+  title: Inference of germinal center evolutionary dynamics via simulation-based deep
+    learning
+  authors: Duncan K Ralph, Athanasios G Bakis, Jared Galloway, Ashni A Vora, Tatsuya
+    Araki, Gabriel D Victora, Yun S Song, William S DeWitt, Frederick A Matsen IV
+  publication_info_summary: "DK Ralph, AG Bakis, J Galloway, AA Vora\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.09871
+  snippet: "\u2026 Here we use deep learning and simulation-based inference to learn\
+    \ this function from a unique experiment that replays a particular combination\
+    \ of GC conditions many \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.09871'
+  arxiv_category_tag: q-bio.PE
+  category: Environmental Science
+- id: 1534
+  created_at: 2025-08-17 01:21:52.519219
+  published_on: 2025-05-03
+  title: Detecting modeling bias with continuous time flow models on weak lensing
+    maps
+  publication_info_summary: "K Diao, B Dai, U Seljak - Journal of Cosmology and Astroparticle\
+    \ \u2026, 2025 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/1475-7516/2025/08/004/meta
+  snippet: "\u2026 likelihoods associated with these summary statistics are modeled\
+    \ using either multivariate Gaussian approximations or simulation-based inference\
+    \ (SBI), yet these \u2026"
+  journal: iopscience.iop.org
+  citation_backlink: https://scholar.google.com/scholar?cites=15346225559923781015
+  category: Physics
+  doi: https://iopscience.iop.org/article/10.1088/1475-7516/2025/08/004/meta
