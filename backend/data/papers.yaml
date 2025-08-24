@@ -19744,6 +19744,7 @@
     \ where DRE is the foundation for various techniques in simulation-based inference\
     \ (SBI) [40]. \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=5906818744302112014
   arxiv_id: '2506.00113'
   arxiv_category_tag: hep-ph
   category: Physics
@@ -19902,6 +19903,7 @@
     \ (NSBI) approach to construct a likelihood of the Higgs signal incorporating\
     \ modifications from the \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=12578312750765890405
   arxiv_id: '2507.02032'
   arxiv_category_tag: hep-ph
   category: Physics
@@ -20004,6 +20006,7 @@
     \ (SBI) methods in gravitational wave astronomy, with a focus on approaches that\
     \ leverage machine \u2026"
   journal: ati.ac.cn
+  citation_backlink: https://scholar.google.com/scholar?cites=4203776898889214955
   category: Physics
   doi: http://www.ati.ac.cn/article/doi/10.61977/ati2025020
 - id: 1485
@@ -20112,6 +20115,7 @@
   arxiv_id: '2506.11200'
   arxiv_category_tag: astro-ph.EP
   category: Computer Science
+  doi: 10.1051/0004-6361/202554401
 - id: 1491
   created_at: 2025-07-07 15:07:52.216971
   published_on: 2025-06-17
@@ -20727,21 +20731,20 @@
   doi: https://jps.ecnu.edu.cn/EN/abstract/abstract11571.shtml
 - id: 1533
   created_at: 2025-08-17 01:13:13.899986
-  published_on: 2025-08-13
+  published_on: 2025-08-15
   title: Inference of germinal center evolutionary dynamics via simulation-based deep
     learning
-  authors: Duncan K Ralph, Athanasios G Bakis, Jared Galloway, Ashni A Vora, Tatsuya
-    Araki, Gabriel D Victora, Yun S Song, William S DeWitt, Frederick A Matsen IV
-  publication_info_summary: "DK Ralph, AG Bakis, J Galloway, AA Vora\u2026 - arXiv\
-    \ preprint arXiv \u2026, 2025 - arxiv.org"
-  link: https://arxiv.org/abs/2508.09871
+  authors: Ralph, D. K.; Bakis, A. G.; Galloway, J.; Vora, A. A.; Araki, T.; Song,
+    Y. S.; DeWitt, W. S.; Matsen, F. A.
+  publication_info_summary: "DK Ralph, AG Bakis, J Galloway, AA Vora, T Araki\u2026\
+    \ - bioRxiv, 2025 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2025.08.12.669950.abstract
   snippet: "\u2026 Here we use deep learning and simulation-based inference to learn\
     \ this function from a unique experiment that replays a particular combination\
     \ of GC conditions many \u2026"
-  journal: arxiv.org
-  arxiv_id: '2508.09871'
-  arxiv_category_tag: q-bio.PE
+  journal: biorxiv.org
   category: Environmental Science
+  doi: 10.1101/2025.08.12.669950
 - id: 1534
   created_at: 2025-08-17 01:21:52.519219
   published_on: 2025-05-03
@@ -20757,3 +20760,168 @@
   citation_backlink: https://scholar.google.com/scholar?cites=15346225559923781015
   category: Physics
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2025/08/004/meta
+- id: 1535
+  created_at: 2025-08-24 01:10:15.946222
+  published_on: 2025-08-18
+  title: Simulation-Based Inference A Practical Guide
+  authors: "Michael Deistler, Jan Boelts, Peter Steinbach, Guy Moss, Thomas Moreau,\
+    \ Manuel Gloeckler, Pedro L. C. Rodrigues, Julia Linhart, Janne K. Lappalainen,\
+    \ Benjamin Kurt Miller, Pedro J. Gon\xE7alves, Jan-Matthis Lueckmann, Cornelius\
+    \ Schr\xF6der, Jakob H. Macke"
+  publication_info_summary: "M Deistler, J Boelts, P Steinbach, G Moss\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.12939
+  snippet: "\u2026 Simulation-based inference, also sometimes referred to as likelihood-free\
+    \ inference, has \u2026 discovery with simulation-based inference for scientists\
+    \ in different disciplines. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.12939'
+  arxiv_category_tag: stat.ML
+  category: Computer Science
+- id: 1536
+  created_at: 2025-08-24 01:10:21.896558
+  published_on: 2025-08-16
+  title: Generative Medical Event Models Improve with Scale
+  authors: Shane Waxler, Paul Blazek, Davis White, Daniel Sneider, Kevin Chung, Mani
+    Nagarathnam, Patrick Williams, Hank Voeller, Karen Wong, Matthew Swanhorst, Sheng
+    Zhang, Naoto Usuyama, Cliff Wong, Tristan Naumann, Hoifung Poon, Andrew Loza,
+    Daniella Meeker, Seth Hain, Rahul Shah
+  publication_info_summary: "S Waxler, P Blazek, D White, D Sneider\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.12104
+  snippet: "\u2026 Remarkably for a foundation model with generic pretraining and\
+    \ simulation-based inference, CoMET generally outperformed or matched task-specific\
+    \ supervised models \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.12104'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1537
+  created_at: 2025-08-24 01:10:28.030240
+  published_on: 2025-08-15
+  title: Simulation-based inference using splitting schemes for partially observed
+    diffusions in chemical reaction networks
+  authors: Petar Jovanovski, Andrew Golightly, Umberto Picchini, Massimiliano Tamborrino
+  publication_info_summary: "P Jovanovski, A Golightly, U Picchini\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.11438
+  snippet: "\u2026 To evaluate the performance of the proposed splitting integrator\
+    \ in comparison with the classical EuM method, we consider a simulation-based\
+    \ inference scenario using \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.11438'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1538
+  created_at: 2025-08-24 01:10:33.196689
+  published_on: 2025-08-16
+  title: Computational studies on the optimality of early embryonic cellular information
+    processing strategies
+  publication_info_summary: "MA Ram\xEDrez Sierra - 2025 - d-nb.info"
+  link: https://d-nb.info/137156695X/34
+  snippet: "\u2026 Building on a recent deep-learning simulation-based inference (DL-SBI)\
+    \ method, we successfully parameterized our high-dimensional model and obtained\
+    \ posterior \u2026"
+  journal: d-nb.info
+  category: Quantitative Biology
+  doi: https://d-nb.info/137156695X/34
+- id: 1539
+  created_at: 2025-08-24 01:10:40.030980
+  published_on: 2025-08-14
+  title: Observable Optimization for Precision Theory Machine Learning Energy Correlators
+  authors: Arindam Bhattacharya, Katherine Fraser, Matthew D. Schwartz
+  publication_info_summary: A Bhattacharya, K Fraser, MD Schwartz - arXiv preprint
+    arXiv:2508.10988, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2508.10988
+  snippet: "\u2026 ML again proves to be an incredibly useful tool for parameter inference\
+    \ by providing methods that are broadly termed as neural simulation-based inference\
+    \ (NSBI) [55\u201360]. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.10988'
+  arxiv_category_tag: hep-ph
+  category: Physics
+- id: 1540
+  created_at: 2025-08-24 01:10:52.039574
+  published_on: 2025-08-13
+  title: Starobinsky in Stereo SKA-CMB Synergy in SBI
+  authors: "Benedikt Schosser, Caroline Heneka, Bj\xF6rn Malte Sch\xE4fer"
+  publication_info_summary: "B Schosser, C Heneka, BM Sch\xE4fer - arXiv preprint\
+    \ arXiv:2508.10094, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.10094
+  snippet: "\u2026 Using a simulation-based inference (SBI) framework, we compare\
+    \ neural summaries (convolutional network and vision transformer) with a traditional\
+    \ power spectrum \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.10094'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1541
+  created_at: 2025-08-24 01:10:57.258095
+  published_on: 2025-08-13
+  title: The impact of Artificial Intelligence on precision Higgs Boson physics
+  publication_info_summary: D Rousseau - 2025 - cds.cern.ch
+  link: https://cds.cern.ch/record/2940083
+  snippet: "\u2026 We are now integrating Artificial Intelligence through\" Neural\
+    \ Simulation Based Inference,\" which enables the analysis of complex phenomena\
+    \ that cannot be computed \u2026"
+  journal: cds.cern.ch
+  category: Physics
+  doi: https://cds.cern.ch/record/2940083
+- id: 1542
+  created_at: 2025-08-24 01:11:03.577631
+  published_on: 2025-08-08
+  title: Generative Machine Learning for Simulation-based Inference in High Energy
+    Physics
+  publication_info_summary: "NK H\xFCtsch - 2025 - archiv.ub.uni-heidelberg.de"
+  link: https://archiv.ub.uni-heidelberg.de/volltextserver/37074/
+  snippet: "\u2026 methods for simulation-based inference. This chapter is loosely\
+    \ based on Ref. [113]. \u2026 have produced a new generation of simulation-based\
+    \ inference methods [24]. These \u2026"
+  journal: archiv.ub.uni-heidelberg.de
+  category: Computer Science
+  doi: https://archiv.ub.uni-heidelberg.de/volltextserver/37074/
+- id: 1543
+  created_at: 2025-08-24 01:13:14.284402
+  published_on: 2025-07-18
+  title: arXiv Simulation-based inference with deep ensembles Evaluating calibration
+    uncertainty and detecting model misspecification
+  publication_info_summary: J Alvey, M Pieroni, CR Contaldi - 2025 - cds.cern.ch
+  link: https://cds.cern.ch/record/2940316
+  snippet: "Simulation-Based Inference (SBI) offers a principled and flexible framework\
+    \ for conducting Bayesian inference in any situation where forward simulations\
+    \ are feasible. \u2026"
+  journal: cds.cern.ch
+  category: Physics
+  doi: https://cds.cern.ch/record/2940316
+- id: 1544
+  created_at: 2025-08-24 01:15:18.681161
+  published_on: 2025-06-28
+  title: Bridging theory and observation advancing cosmology and astrophysics through
+    constrained simulations and machine learning
+  publication_info_summary: "E Hern\xE1ndez Mart\xEDnez - 2025 - edoc.ub.uni-muenchen.de"
+  link: https://edoc.ub.uni-muenchen.de/35591/
+  snippet: "\u2026 cosmological simulations and simulation-based inference using machine\
+    \ learning. \u2026 profiles as a powerful tool for simulation-based inference.\
+    \ Together, the results of this \u2026"
+  journal: edoc.ub.uni-muenchen.de
+  category: Environmental Science
+  doi: https://edoc.ub.uni-muenchen.de/35591/
+- id: 1545
+  created_at: 2025-08-24 01:19:13.617739
+  published_on: 2025-05-19
+  title: Field-Level Comparison and Robustness Analysis of Cosmological N-body Simulations
+  authors: Adrian E. Bayer, Francisco Villaescusa-Navarro, Sammy Sharief, Romain Teyssier,
+    Lehman H. Garrison, Laurence Perreault-Levasseur, Greg L. Bryan, Marco Gatti,
+    Eli Visbal
+  publication_info_summary: "AE Bayer, F Villaescusa-Navarro, S Sharief\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2505.13620
+  snippet: "\u2026 Additionally, we performed field-level simulationbased inference\
+    \ of cosmological parameters with a CNN, training on Gadget (a non-AMR simulation)\
+    \ and testing on all \u2026"
+  journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=9033350676633415278
+  arxiv_id: '2505.13620'
+  arxiv_category_tag: astro-ph.CO
+  category: Physics
+  doi: 10.3847/1538-4357/adef4e
