@@ -20021,7 +20021,7 @@
     s calibration via simulation-based inference by a factor of about 1.5 without\
     \ occupying additional cores. \u2026"
   journal: dl.acm.org
-  category: Physics
+  category: Quantitative Biology
   doi: https://dl.acm.org/doi/abs/10.1145/3726301.3728410
 - id: 1486
   created_at: 2025-07-07 15:07:15.335032
@@ -20158,6 +20158,7 @@
   arxiv_id: '2506.14885'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
+  doi: 10.1051/0004-6361/202553878
 - id: 1494
   created_at: 2025-07-07 15:11:48.396982
   published_on: 2025-05-20
@@ -20524,7 +20525,7 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
-  category: Physics
+  category: Quantitative Biology
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -20925,3 +20926,96 @@
   arxiv_category_tag: astro-ph.CO
   category: Physics
   doi: 10.3847/1538-4357/adef4e
+- id: 1546
+  created_at: 2025-08-31 01:05:42.261094
+  published_on: 2025-08-29
+  title: Leveraging a Human-Machine Collaboration to Understand the Structure of Short-Answer
+    Student Response Data
+  publication_info_summary: S Lloyd - 2025 - etda.libraries.psu.edu
+  link: https://etda.libraries.psu.edu/catalog/20407sel5591
+  snippet: "\u2026 to measure students\u2019 statistical literacy surrounding confidence\
+    \ intervals upon the conclusion of an introductory statistics course with simulation-based\
+    \ inference methods. \u2026"
+  journal: etda.libraries.psu.edu
+  category: Astrophysics
+  doi: https://etda.libraries.psu.edu/catalog/20407sel5591
+- id: 1547
+  created_at: 2025-08-31 01:05:48.327770
+  published_on: 2025-08-23
+  title: CP4SBI Local Conformal Calibration of Credible Sets in Simulation-Based Inference
+  authors: Luben M. C. Cabezas, Vagner S. Santos, Thiago R. Ramos, Pedro L. C. Rodrigues,
+    Rafael Izbicki
+  publication_info_summary: "L Cabezas, VS Santos, TR Ramos\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.17077
+  snippet: "\u2026 Current experimental scientists have been increasingly relying\
+    \ on simulationbased inference (SBI) to invert complex non-linear models with\
+    \ intractable likelihoods. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.17077'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1548
+  created_at: 2025-08-31 01:05:54.168565
+  published_on: 2025-08-22
+  title: Simulation based inference of the ionization history from the 2D 21 cm power
+    spectrum
+  authors: Nadia Cooper, Carina Norregaard, Romain Meriot, Jonathan R. Pritchard
+  publication_info_summary: "N Cooper, C Norregaard, R Meriot\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.16329
+  snippet: "\u2026 In this work we have contrasted two simulation based inference\
+    \ methods for inference from the 21 cm signal. We inferred astrophysical parameters\
+    \ of our model, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.16329'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1549
+  created_at: 2025-08-31 01:05:59.948357
+  published_on: 2025-08-21
+  title: Inductive Domain Transfer In Misspecified Simulation-Based Inference
+  authors: "Ortal Senouf, Antoine Wehenkel, C\xE9dric Vincent-Cuaz, Emmanuel Abb\xE9\
+    , Pascal Frossard"
+  publication_info_summary: "O Senouf, A Wehenkel, C Vincent-Cuaz, E Abb\xE9\u2026\
+    \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.15593
+  snippet: "Simulation-based inference (SBI) is a statistical inference approach for\
+    \ estimating latent parameters of a physical system when the likelihood is intractable\
+    \ but simulations \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.15593'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1550
+  created_at: 2025-08-31 01:06:05.776418
+  published_on: 2025-08-21
+  title: CIGaRS I Combined simulation-based inference from SNae Ia and host photometry
+  authors: Konstantin Karchev, Roberto Trotta, Raul Jimenez
+  publication_info_summary: K Karchev, R Trotta, R Jimenez - arXiv preprint arXiv:2508.15899,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2508.15899
+  snippet: "\u2026 We then demonstrate neural simulation-based inference of all model\
+    \ parameters from mock observations of \u224816 000 SN\xE6 Ia and their hosts\
+    \ up to redshift 0.9. Our joint \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.15899'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1551
+  created_at: 2025-08-31 01:06:11.527217
+  published_on: 2025-08-21
+  title: Simulation-Based Inference for Direction Reconstruction of Ultra-High-Energy
+    Cosmic Rays with Radio Arrays
+  authors: "Oscar Macias, Zachary Mason, Matthew Ho, Ars\xE8ne Ferri\xE8re, Aur\xE9\
+    lien Benoit-L\xE9vy, Mat\xEDas Tueros"
+  publication_info_summary: "O Macias, Z Mason, M Ho, A Ferri\xE8re\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.15991
+  snippet: "\u2026 We introduce a simulation-based inference pipeline that couples\
+    \ a physics-informed graph neural network (GNN) to a normalizing-flow posterior\
+    \ within the Learning the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2508.15991'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
