@@ -20021,7 +20021,7 @@
     s calibration via simulation-based inference by a factor of about 1.5 without\
     \ occupying additional cores. \u2026"
   journal: dl.acm.org
-  category: Quantitative Biology
+  category: Education
   doi: https://dl.acm.org/doi/abs/10.1145/3726301.3728410
 - id: 1486
   created_at: 2025-07-07 15:07:15.335032
@@ -20321,18 +20321,18 @@
   category: Statistics
 - id: 1505
   created_at: 2025-07-20 01:18:20.311406
-  published_on: 2025-07-09
+  published_on: 2025-07-10
   title: Self-consistent population synthesis of active galactic nuclei from observational
     constraints in the X-rays
-  publication_info_summary: D Gerolymatou, S Paltani, C Ricci, M Regamey - 2025 -
-    aanda.org
-  link: https://www.aanda.org/articles/aa/pdf/forth/aa53878-25.pdf
+  publication_info_summary: "D Gerolymatou, S Paltani, C Ricci\u2026 - Astronomy &\
+    \ \u2026, 2025 - aanda.org"
+  link: https://www.aanda.org/articles/aa/abs/2025/08/aa53878-25/aa53878-25.html
   snippet: "\u2026 We examined how well each model can match all observational constraints\
     \ using a simulation-based inference (SBI) approach. We find that, while the simple\
     \ unification \u2026"
   journal: aanda.org
   category: Physics
-  doi: https://www.aanda.org/articles/aa/pdf/forth/aa53878-25.pdf
+  doi: https://www.aanda.org/articles/aa/abs/2025/08/aa53878-25/aa53878-25.html
 - id: 1506
   created_at: 2025-07-20 01:18:30.983095
   published_on: 2025-07-06
@@ -20525,7 +20525,7 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
-  category: Quantitative Biology
+  category: Education
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -20975,8 +20975,7 @@
   created_at: 2025-08-31 01:05:59.948357
   published_on: 2025-08-21
   title: Inductive Domain Transfer In Misspecified Simulation-Based Inference
-  authors: "Ortal Senouf, Antoine Wehenkel, C\xE9dric Vincent-Cuaz, Emmanuel Abb\xE9\
-    , Pascal Frossard"
+  authors: "Ortal Senouf, C\xE9dric Vincent-Cuaz, Emmanuel Abb\xE9, Pascal Frossard"
   publication_info_summary: "O Senouf, A Wehenkel, C Vincent-Cuaz, E Abb\xE9\u2026\
     \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
   link: https://arxiv.org/abs/2508.15593
@@ -21019,3 +21018,88 @@
   arxiv_id: '2508.15991'
   arxiv_category_tag: astro-ph.HE
   category: Astrophysics
+- id: 1552
+  created_at: 2025-09-07 01:04:54.801257
+  published_on: 2025-09-04
+  title: Probabilistic Methods in Cosmology and Inference
+  publication_info_summary: M Park - 2025 - repository.upenn.edu
+  link: https://repository.upenn.edu/entities/publication/c1b3d2df-0fbe-41c8-9d42-bc885d6de535
+  snippet: "\u2026 Based on the simulation based inference framework, we use information\
+    \ theory and real examples to identify the optimal dimensionality reduction techniques\
+    \ that boost \u2026"
+  journal: repository.upenn.edu
+  category: Quantitative Biology
+  doi: https://repository.upenn.edu/entities/publication/c1b3d2df-0fbe-41c8-9d42-bc885d6de535
+- id: 1553
+  created_at: 2025-09-07 01:05:01.079160
+  published_on: 2025-09-02
+  title: Radiative Transfer Modeling of a Shadowed Protoplanetary Disk assisted by
+    a Neural Network
+  authors: Jonathan P. Williams, Myriam Benisty, Christian Ginski, Giuseppe Lodato,
+    Maria Vincent
+  publication_info_summary: "JP Williams, M Benisty, C Ginski, G Lodato\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2509.01937
+  snippet: "\u2026 The technique of simulation based inference that is illustrated\
+    \ here is broadly \u2026 importantly, test and verify the outcome (Simulation-Based\
+    \ Inference: K. Cranmer et al. 2020). \u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.01937'
+  arxiv_category_tag: astro-ph.EP
+  category: Astrophysics
+- id: 1554
+  created_at: 2025-09-07 01:05:06.306576
+  published_on: 2025-09-03
+  title: Advances in Amortized Bayesian Inference, with Applications to Astronomy
+  publication_info_summary: D McNamara - 2025 - deepblue.lib.umich.edu
+  link: https://deepblue.lib.umich.edu/handle/2027.42/199062
+  snippet: "\u2026 68 5 Simulation-Based Inference for Detecting Blending in Spectra\
+    \ . . . . . . . 71 \u2026 In this work, we present a simulation-based inference\
+    \ approach to detecting blends in \u2026"
+  journal: deepblue.lib.umich.edu
+  category: Astronomy
+  doi: https://deepblue.lib.umich.edu/handle/2027.42/199062
+- id: 1555
+  created_at: 2025-09-07 01:05:14.686327
+  published_on: 2025-09-03
+  title: Methods for Weak Lensing Systematics in the Era of the Vera C. Rubin Observatory
+  publication_info_summary: IS Mendoza Serrano - 2025 - deepblue.lib.umich.edu
+  link: https://deepblue.lib.umich.edu/handle/2027.42/199148
+  snippet: "\u2026 Simulation based inference (SBI) is a variational inference procedure\
+    \ which uses a \u2026 In Chapter 3 we present an application of simulation based\
+    \ inference to galaxy \u2026"
+  journal: deepblue.lib.umich.edu
+  category: Astrophysics
+  doi: https://deepblue.lib.umich.edu/handle/2027.42/199148
+- id: 1556
+  created_at: 2025-09-07 01:05:22.140031
+  published_on: 2025-08-29
+  title: Simulation-based inference of yeast centromeres
+  authors: "Elo\xEFse Touron, Pedro L. C. Rodrigues, Julyan Arbel, Nelle Varoquaux,\
+    \ Michael Arbel"
+  publication_info_summary: "E Touron, PLC Rodrigues, J Arbel\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2509.00200
+  snippet: "The chromatin folding and the spatial arrangement of chromosomes in the\
+    \ cell play a crucial role in DNA replication and genes expression. An improper\
+    \ chromatin folding \u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.00200'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1557
+  created_at: 2025-09-07 01:12:27.306182
+  published_on: 2025-06-06
+  title: Emulating compact binary population synthesis simulations with uncertainty
+    quantification and model comparison using Bayesian normalizing flows
+  authors: Anarya Ray
+  publication_info_summary: A Ray - arXiv preprint arXiv:2506.05657, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2506.05657
+  snippet: "\u2026 I outline the applications of the proposed methodology in the context\
+    \ of simulation-based inference from growing GW catalogs and feature prediction,\
+    \ with state-of-the-art \u2026"
+  journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=7876814010963371929
+  arxiv_id: '2506.05657'
+  arxiv_category_tag: astro-ph.HE
+  category: Education
