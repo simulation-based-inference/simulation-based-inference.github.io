@@ -20022,7 +20022,7 @@
     s calibration via simulation-based inference by a factor of about 1.5 without\
     \ occupying additional cores. \u2026"
   journal: dl.acm.org
-  category: Computer Science
+  category: Physics
   doi: https://dl.acm.org/doi/abs/10.1145/3726301.3728410
 - id: 1486
   created_at: 2025-07-07 15:07:15.335032
@@ -20526,7 +20526,7 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
-  category: Quantitative Biology
+  category: Physics
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -21149,7 +21149,7 @@
   category: Statistics
 - id: 1561
   created_at: 2025-09-14 01:04:40.468755
-  published_on: 2025-09-08
+  published_on: 2025-09-09
   title: Digital Twin for the Win Personalized Cardiac Electrophysiology
   authors: Yang, P.-C.; Jeng, M.-T.; Lieu, D. K.; Smithers, R. L.; Hernandez-Hernandez,
     G.; Santana, L. F.; Clancy, C. E.
@@ -21321,3 +21321,98 @@
   journal: iopscience.iop.org
   category: Quantitative Biology
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/ae040c/meta
+- id: 1573
+  created_at: 2025-09-21 01:05:46.012123
+  published_on: 2025-09-17
+  title: Simulation-based Inference of Massive Black Hole Binaries using Sequential
+    Neural Likelihood
+  authors: "Iv\xE1n Mart\xEDn V\xEDlchez, Carlos F. Sopuerta"
+  publication_info_summary: "IM V\xEDlchez, CF Sopuerta - arXiv preprint arXiv:2509.13842,\
+    \ 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2509.13842
+  snippet: "We propose a machine learning-based approach for parameter estimation\
+    \ of Massive Black Hole Binaries (MBHBs), leveraging normalizing flows to approximate\
+    \ the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.13842'
+  arxiv_category_tag: gr-qc
+  category: Computer Science
+- id: 1574
+  created_at: 2025-09-21 01:05:51.188726
+  published_on: 2025-09-17
+  title: UFig v1 The ultra-fast image generator
+  publication_info_summary: "S Fischbacher, B Moser, T Kacprzak\u2026 - Journal of\
+    \ Open \u2026, 2025 - joss.theoj.org"
+  link: https://joss.theoj.org/papers/10.21105/joss.08697.pdf
+  snippet: "With the rise of simulation-based inference (SBI) methods (see eg Cranmer\
+    \ et al., 2020), simulations need to be fast as well as realistic. UFig v1 is\
+    \ a public Python package \u2026"
+  journal: joss.theoj.org
+  citation_backlink: https://scholar.google.com/scholar?cites=9478935808136227761
+  category: Computer Science
+  doi: https://joss.theoj.org/papers/10.21105/joss.08697.pdf
+- id: 1575
+  created_at: 2025-09-21 01:05:57.530547
+  published_on: 2025-09-13
+  title: Multiscale Statistical Models for Understanding Tumor Microenvironment Heterogeneity
+  publication_info_summary: J Eliason - 2025 - deepblue.lib.umich.edu
+  link: https://deepblue.lib.umich.edu/handle/2027.42/199179
+  snippet: "\u2026 Simulation-Based Inference for Mechanistic Tumor\u2013 Immune Modeling\
+    \ Lastly, this chapter explores simulation-based inference \u2026 with simulation-based\
+    \ inference in systems \u2026"
+  journal: deepblue.lib.umich.edu
+  category: medicine
+  doi: https://deepblue.lib.umich.edu/handle/2027.42/199179
+- id: 1576
+  created_at: 2025-09-21 01:06:04.662849
+  published_on: 2025-09-10
+  title: In situ estimation of the acoustic surface impedance using simulation-based
+    inference
+  authors: Jonas M. Schmid, Johannes D. Schmid, Martin Eser, Steffen Marburg
+  publication_info_summary: "JM Schmid, JD Schmid, M Eser, S Marburg - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2509.08873
+  snippet: "\u2026 The approach employs simulation-based inference, which leverages\
+    \ the expressiveness of modern neural network architectures to directly map simulated\
+    \ data to posterior \u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.08873'
+  arxiv_category_tag: cs.SD
+  category: Computer Science
+- id: 1577
+  created_at: 2025-09-21 01:07:13.859475
+  published_on: 2025-09-03
+  title: Towards scalable large-scale model validation with data science
+  publication_info_summary: "AE J\xE4rvinen, A Kit, A Bruncrona, D Jordan, A Niemel\xE4\
+    \u2026 - aappsdpp.org"
+  link: https://www.aappsdpp.org/DPP2025/html/3contents/pdf/5694.pdf
+  snippet: "\u2026 Simulation-based inference (SBI) is a rapidly developing field\
+    \ aiming to address these inference challenges related to complex, high-fidelity\
+    \ simulators in science [6]. \u2026"
+  category: Physics
+  doi: https://www.aappsdpp.org/DPP2025/html/3contents/pdf/5694.pdf
+- id: 1578
+  created_at: 2025-09-21 01:10:10.415758
+  published_on: 2025-07-30
+  title: Neural simulation-based inference a neural network and simulation-based inference
+    approach to cognitive modelling
+  publication_info_summary: W Pan, C Hu - Journal of Psychological Science - chinaxiv.org
+  link: https://chinaxiv.org/abs/202407.00277v5?&locale=en
+  snippet: "\u2026 To address these challenges, simulation-based inference (SBI) emerged,\
+    \ leveraging \u2026 Recent advances in neural simulation-based inference (NSBI),\
+    \ or neural amortized \u2026"
+  journal: chinaxiv.org
+  category: Astrophysics
+  doi: https://chinaxiv.org/abs/202407.00277v5?&locale=en
+- id: 1579
+  created_at: 2025-09-21 01:14:04.331158
+  published_on: 2025-06-16
+  title: Simulation-based inference using whole genome sequence data
+  publication_info_summary: L Metzger - 2025 - researchgate.net
+  link: https://www.researchgate.net/profile/Lukas_Metzger5/publication/392588324_Simulation-based_inference_using_whole_genome_sequence_data/links/688322b996f3c0122ef392a9/Simulation-based-inference-using-whole-genome-sequence-data.pdf
+  snippet: "\u2026 reach their limits, and simulation-based inference methods such\
+    \ as Approximate \u2026 A key benefit of simulation-based inference in population\
+    \ genomics (compared to \u2026"
+  journal: researchgate.net
+  category: Physics
+  doi: https://www.researchgate.net/profile/Lukas_Metzger5/publication/392588324_Simulation-based_inference_using_whole_genome_sequence_data/links/688322b996f3c0122ef392a9/Simulation-based-inference-using-whole-genome-sequence-data.pdf
