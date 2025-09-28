@@ -20022,7 +20022,7 @@
     s calibration via simulation-based inference by a factor of about 1.5 without\
     \ occupying additional cores. \u2026"
   journal: dl.acm.org
-  category: Physics
+  category: oncology
   doi: https://dl.acm.org/doi/abs/10.1145/3726301.3728410
 - id: 1486
   created_at: 2025-07-07 15:07:15.335032
@@ -20526,7 +20526,7 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
-  category: Physics
+  category: oncology
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -21393,17 +21393,18 @@
   doi: https://www.aappsdpp.org/DPP2025/html/3contents/pdf/5694.pdf
 - id: 1578
   created_at: 2025-09-21 01:10:10.415758
-  published_on: 2025-07-30
+  published_on: 2025-07-10
   title: Neural simulation-based inference a neural network and simulation-based inference
     approach to cognitive modelling
-  publication_info_summary: W Pan, C Hu - Journal of Psychological Science - chinaxiv.org
-  link: https://chinaxiv.org/abs/202407.00277v5?&locale=en
+  publication_info_summary: W Pan, C Hu - Journal of Psychological Science, 2025 -
+    chinaxiv.org
+  link: https://chinaxiv.org/abs/202407.00277v6?&locale=en
   snippet: "\u2026 To address these challenges, simulation-based inference (SBI) emerged,\
     \ leveraging \u2026 Recent advances in neural simulation-based inference (NSBI),\
     \ or neural amortized \u2026"
   journal: chinaxiv.org
   category: Astrophysics
-  doi: https://chinaxiv.org/abs/202407.00277v5?&locale=en
+  doi: https://chinaxiv.org/abs/202407.00277v6?&locale=en
 - id: 1579
   created_at: 2025-09-21 01:14:04.331158
   published_on: 2025-06-16
@@ -21416,3 +21417,40 @@
   journal: researchgate.net
   category: Physics
   doi: https://www.researchgate.net/profile/Lukas_Metzger5/publication/392588324_Simulation-based_inference_using_whole_genome_sequence_data/links/688322b996f3c0122ef392a9/Simulation-based-inference-using-whole-genome-sequence-data.pdf
+- id: 1580
+  created_at: 2025-09-28 01:06:48.013623
+  published_on: 2025-09-18
+  title: Orthogonal Steering and Delay Organize the Phase Structure of Flocking
+  publication_info_summary: B Song - openreview.net
+  link: https://openreview.net/forum?id=fHUl3imA7t
+  snippet: "\u2026 state, 8 enabling continuous-time propagation with discrete, frame-rate\
+    \ observations and 9 thus a well-posed likelihood for Kalman filtering and simulation-based\
+    \ inference\u2026"
+  category: Mathematics
+  doi: https://openreview.net/forum?id=fHUl3imA7t
+- id: 1581
+  created_at: 2025-09-28 01:06:58.321711
+  published_on: 2025-09-17
+  title: Toward mapping turbulence in the intracluster medium
+  publication_info_summary: "A Molin, S Dupourqu\xE9, N Clerc, E Pointecouteau\u2026\
+    \ - 2025 - aanda.org"
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa55585-25.pdf
+  snippet: "\u2026 In this paper we improve on previous methods by investigating the\
+    \ ability of simulation-based inference (SBI) to constrain the underlying nature\
+    \ of velocity fluctuations \u2026"
+  journal: aanda.org
+  category: Computer Science
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa55585-25.pdf
+- id: 1582
+  created_at: 2025-09-28 01:07:02.881651
+  published_on: 2025-09-16
+  title: Exploring the Early Universe with Deep Learning
+  publication_info_summary: "E de Salis, M De Santis, D Piras, SK Giri\u2026 - EPIA\
+    \ Conference on \u2026, 2025 - Springer"
+  link: https://link.springer.com/chapter/10.1007/978-3-032-05176-9_33
+  snippet: "\u2026 Other techniques to perform robust inference include simulation-based\
+    \ inference (SBI), which has found extensive applications across multiple disciplines,\
+    \ including \u2026"
+  journal: Springer
+  category: Physics
+  doi: https://link.springer.com/chapter/10.1007/978-3-032-05176-9_33
