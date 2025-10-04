@@ -24,7 +24,8 @@ title: "{title}"
 author: "{publication_info_summary}"
 journal: "{journal}"
 year: {year}
-bibtex: "{bibtex}"
+bibtex: |
+    {bibtex}
 link: "{link}"
 cited_by: "{cited_by}"
 hero_title: "Papers"

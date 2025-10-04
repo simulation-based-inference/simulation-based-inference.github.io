@@ -1,13 +1,14 @@
-import datetime
 import argparse
-import logging
+import datetime
 import json
+import logging
 from pathlib import Path
-from backend.api import query_arxiv, query_serp, query_biorxiv
-from backend.post_maker import remake_all_posts
-from backend.plot_maker import make_plot
-from backend.database import insert_paper, Paper, get_paper, update_paper, get_papers
+
+from backend.api import query_arxiv, query_biorxiv, query_serp
+from backend.database import Paper, get_paper, get_papers, insert_paper, update_paper
 from backend.guess_category import Guesser
+from backend.plot_maker import make_plot
+from backend.post_maker import remake_all_posts
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -18,7 +19,7 @@ with open("./backend/data/arxiv_group.json", "r") as f:
     ARXIV_GROUP_MAPPING = json.load(f)
 
 
-def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
+def crawl(term: str, more_results: bool = False, stop_days: int | None = None) -> None:
     """Crawl the SERP API for snippets containing the given term.
 
     Args:
@@ -30,6 +31,8 @@ def crawl(term: str, more_results: bool = False, stop_days: int = None) -> dict:
     while True:
         # Initial query from SERP API to get new papers
         results = query_serp(url=next_url, term=term, more_results=more_results)
+        if results is None:
+            break
 
         for result in results["formatted_results"]:
             # Append extra arxiv data

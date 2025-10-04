@@ -3,11 +3,13 @@ import json
 import logging
 import os
 import re
+from html import escape
 from time import sleep
-from typing import Optional
+from typing import Any, Optional
 
 import arxiv
 import requests
+from arxiv2bib import arxiv2bib
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
@@ -33,38 +35,25 @@ def get_arxiv_category_map() -> dict:
 
     url = "https://arxiv.org/category_taxonomy"
     response = requests.get(url)
-    soup = BeautifulSoup(response.content, "html.parser")
-    data = soup.find("div", id="category_taxonomy_list").select("h4")
+    soup = BeautifulSoup(str(response.content), "html.parser")
+    data = soup.find("div", id="category_taxonomy_list").select("h4")  # type: ignore
 
     category_mapping = {}
     for record in data:
         text = str(record)
-        category = re.search(r"<h4>(.*?) <span>", text).group(1)
-        full_name = re.search(r"<span>\((.*?)\)</span>", text).group(1)
+        category = re.search(r"<h4>(.*?) <span>", text).group(1)  # type: ignore
+        full_name = re.search(r"<span>\((.*?)\)</span>", text).group(1)   # type: ignore
         category_mapping[category] = full_name
 
     return category_mapping
 
 
 def get_bibtex(arxiv_id: str) -> Optional[str]:
-    """Get bibtex from arxiv."""
+    """Fetch BibTeX entry for a given arXiv ID."""
 
-    url = f"https://arxiv.org/bibtex/{arxiv_id}"
-    response = requests.get(url)
-
-    formatting = {"<": "&lt;", ">": "&gt;", "\n": "<br>", ":": "", "\\": ""}
-
-    if response.status_code == 200:
-        logging.debug(f"Fetched BibTeX for arXiv ID {arxiv_id}")
-        logging.debug(f"{response.text=}")
-
-        bibtex = response.text
-        for old, new in formatting.items():
-            bibtex = bibtex.replace(old, new)
-        return bibtex
-    else:
-        print(f"Failed to fetch BibTeX for arXiv ID {arxiv_id}")
-        return None
+    bibtex = arxiv2bib([arxiv_id])
+    # Escape HTML safely instead of manual replacements
+    return escape(bibtex[0].bibtex()).replace("\n", "<br>")
 
 
 def to_category(arxiv_category: Optional[str]) -> str | None:
@@ -108,14 +97,14 @@ def query_biorxiv(doi: str) -> dict | None:
 
 
 @timeout
-def query_arxiv(arxiv_id: str) -> arxiv.Result:
+def query_arxiv(arxiv_id: str) -> dict[str, Any] | None:
     """Query arxiv for a paper with the given title."""
     search = arxiv.Search(id_list=[arxiv_id], max_results=1)
 
     try:
         result = next(search.results())
     except StopIteration:
-        return
+        return None
 
     return {
         "authors": ", ".join([str(author) for author in result.authors]),
@@ -134,7 +123,7 @@ def format_backlink(url: str) -> str | None:
         return None
 
     # Non-google scholar link returns as is
-    if not "scholar.google" in url:
+    if "scholar.google" not in url:
         return url
 
     # Google scholar link remove junks
@@ -154,7 +143,7 @@ def format_serp_result(result: dict) -> dict:
     logging.debug(f"{publication_info_summary=}")
 
     try:
-        matches = re.findall("\d{4}", summary_split[1])
+        matches = re.findall(r"\d{4}", summary_split[1])
         year_of_publication = int(matches[-1])
     except IndexError:
         year_of_publication = 0
@@ -196,8 +185,8 @@ def format_serp_result(result: dict) -> dict:
 
 
 def query_serp(
-    url: str = None,
-    term: str = None,
+    url: str | None = None,
+    term: str | None = None,
     more_results: bool = False,
     historical: bool = False,
 ) -> Optional[dict]:
@@ -215,18 +204,15 @@ def query_serp(
     if url is None:
         url = "https://serpapi.com/search"
 
-    params.update(
-        {
-            "engine": "google_scholar",
-            "q": term,
-            "hl": "en",
-            "num": 20,  # Maxed-out at 20
-            "scisbd": scisbd,
-            "as_vis": 1,
-            # "as_rr": 1, # Reviewed articles only (broken on Google Scholar as of 2023-06-02)
-        }
-    )
-
+    params |= {
+        "engine": "google_scholar",
+        "q": term,
+        "hl": "en",
+        "num": 20,   # capped at 20 by Google Scholar
+        "scisbd": scisbd,
+        "as_vis": 1,
+        # "as_rr": 1,  # Reviewed articles only (broken on Google Scholar as of 2023-06-02)
+    }
     if historical:
         params.pop("scisbd")
         params.update({"as_ylo": 2000})

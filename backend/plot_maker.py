@@ -1,36 +1,30 @@
-import yaml
-from pathlib import Path
-import pandas as pd
-import altair as alt
+import logging
 import re
+from pathlib import Path
+
+import altair as alt
+import pandas as pd
+import yaml
+
 
 def remove_latex_patterns(x: str) -> str:
     # Define a regular expression pattern for matching LaTeX patterns
     latex_pattern = re.compile(r'\$\S*?\$')
     return re.sub(latex_pattern, '', x)
 
-def read_header(md_file: Path, output_keys: list = None) -> dict:
+def read_header(md_file):
     """Load yaml header from a markdown file."""
-    with open(md_file, "r") as file:
-        # Read lines until the second "---"
-        lines = []
-        yaml_delimiter_count = 0
-        for line in file:
-            if line.strip() == "---":
-                yaml_delimiter_count += 1
-                if yaml_delimiter_count > 1:
-                    break
-            elif yaml_delimiter_count > 0:
-                lines.append(line)
-
-    # Post-process the yaml content
-    yaml_content = "".join(lines)
-    yaml_content = remove_latex_patterns(yaml_content)
-
-    output = yaml.safe_load(yaml_content)
-    if output_keys is None:
-        return output
-    return {k: v for k, v in output.items() if k in output_keys}
+    with open(md_file, "r", encoding="utf-8") as f:
+        content = f.read()
+    
+    # Extract the YAML block between --- and ---
+    match = re.search(r"^---\n(.*?)\n---", content, re.DOTALL | re.MULTILINE)
+    if not match:
+        raise ValueError("No YAML block found")
+    
+    yaml_block = match.group(1)
+    data = yaml.safe_load(yaml_block)
+    return data
 
 
 def make_plot(post_dir: Path, save: Path | None = None) -> alt.Chart:
@@ -42,8 +36,14 @@ def make_plot(post_dir: Path, save: Path | None = None) -> alt.Chart:
 
     data = []
     for file in post_dir.glob("*.md"):
-        header = read_header(file, output_keys=["year"])
-        data.append(header)
+        try:
+            header = read_header(file)
+            year = {"year": int(header["year"])}
+            data.append(year)
+
+        except Exception as e:
+            logging.error(f"Error reading {file}: {e}")
+            continue
 
     df = pd.DataFrame(data).groupby(["year"]).size().rename("count").reset_index()
 
