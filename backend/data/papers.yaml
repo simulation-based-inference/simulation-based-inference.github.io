@@ -17312,17 +17312,16 @@
   doi: https://ub01.uni-tuebingen.de/xmlui/handle/10900/158767
 - id: 1300
   created_at: 2024-11-17 01:02:20.903776
-  published_on: 2024-11-09
+  published_on: 2025-09-25
   title: Parameter Estimation with Neural Simulation-Based Inference in ATLAS
-  publication_info_summary: "R Coelho Lopes De Sa, VI Martinez Outschoorn\u2026 -\
-    \ 2024 - cds.cern.ch"
-  link: https://cds.cern.ch/record/2916558
+  publication_info_summary: RD Schaffer - 2025 - cds.cern.ch
+  link: https://cds.cern.ch/record/2943340
   snippet: "Neural Simulation-Based Inference (NSBI) is a powerful class of machine\
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
   category: Computer Science
-  doi: https://cds.cern.ch/record/2916558
+  doi: https://cds.cern.ch/record/2943340
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
   published_on: 2024-12-07
@@ -20526,7 +20525,6 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
-  category: oncology
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -20628,6 +20626,7 @@
     \ is a computer pro\u2026 A fundamental challenge in simulation-based inference\
     \ arises from the \u2026"
   journal: ieeexplore.ieee.org
+  citation_backlink: https://scholar.google.com/scholar?cites=8812660229991348970
   category: Astronomy
   doi: https://ieeexplore.ieee.org/abstract/document/11106493/
 - id: 1527
@@ -20716,34 +20715,35 @@
   doi: https://ml4astro.github.io/icml2025/assets/camera_ready/61_A_Fast_Generative_Framework.pdf
 - id: 1532
   created_at: 2025-08-10 01:18:46.977008
-  published_on: 2025-07-30
+  published_on: 2025-07-10
   title: Neural Simulation-based Inference A Neural Network And Simulation-based Inference
     Approach to Cognitive Modelling
-  publication_info_summary: P Wanke, H Chuanpeng - Journal of Psychological Science
-    - chinaxiv.org
-  link: https://chinaxiv.org/abs/202407.00277v7?&locale=en
+  publication_info_summary: P Wanke, H Chuanpeng - Journal of Psychological Science,
+    2025 - jps.ecnu.edu.cn
+  link: https://jps.ecnu.edu.cn/EN/10.16719/j.cnki.1671-6981.20250406
   snippet: "\u2026 To address these challenges, simulation-based inference (SBI) emerged,\
     \ leveraging \u2026 Recent advances in neural simulation-based inference (NSBI),\
     \ or neural amortized \u2026"
-  journal: chinaxiv.org
+  journal: jps.ecnu.edu.cn
   category: Computer Science
-  doi: https://chinaxiv.org/abs/202407.00277v7?&locale=en
+  doi: https://jps.ecnu.edu.cn/EN/10.16719/j.cnki.1671-6981.20250406
 - id: 1533
   created_at: 2025-08-17 01:13:13.899986
-  published_on: 2025-08-15
+  published_on: 2025-08-13
   title: Inference of germinal center evolutionary dynamics via simulation-based deep
     learning
-  authors: Ralph, D. K.; Bakis, A. G.; Galloway, J.; Vora, A. A.; Araki, T.; Song,
-    Y. S.; DeWitt, W. S.; Matsen, F. A.
-  publication_info_summary: "DK Ralph, AG Bakis, J Galloway, AA Vora, T Araki\u2026\
-    \ - bioRxiv, 2025 - biorxiv.org"
-  link: https://www.biorxiv.org/content/10.1101/2025.08.12.669950.abstract
+  authors: Duncan K Ralph, Athanasios G Bakis, Jared Galloway, Ashni A Vora, Tatsuya
+    Araki, Gabriel D Victora, Yun S Song, William S DeWitt, Frederick A Matsen IV
+  publication_info_summary: "DK Ralph, AG Bakis, J Galloway, AA Vora\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2508.09871
   snippet: "\u2026 Here we use deep learning and simulation-based inference to learn\
     \ this function from a unique experiment that replays a particular combination\
     \ of GC conditions many \u2026"
-  journal: biorxiv.org
+  journal: arxiv.org
+  arxiv_id: '2508.09871'
+  arxiv_category_tag: q-bio.PE
   category: Environmental Science
-  doi: 10.1101/2025.08.12.669950
 - id: 1534
   created_at: 2025-08-17 01:21:52.519219
   published_on: 2025-05-03
@@ -21454,3 +21454,109 @@
   journal: Springer
   category: Physics
   doi: https://link.springer.com/chapter/10.1007/978-3-032-05176-9_33
+- id: 1583
+  created_at: 2025-10-05 01:06:16.257381
+  published_on: 2025-09-30
+  title: Marginal Flow a flexible and efficient framework for density estimation
+  authors: Marcello Massimo Negri, Jonathan Aellen, Manuel Jahn, AmirEhsan Khorashadizadeh,
+    Volker Roth
+  publication_info_summary: "MM Negri, J Aellen, M Jahn\u2026 - arXiv preprint arXiv\
+    \ \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2509.26221
+  snippet: "\u2026 Figure 14: Simulation-based inference benchmark: we show average\
+    \ and standard deviation over 10 different test observations. We compare our method\
+    \ against Free-\u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.26221'
+  arxiv_category_tag: cs.LG
+  category: oncology
+- id: 1584
+  created_at: 2025-10-05 01:06:21.383674
+  published_on: 2025-10-01
+  title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
+  publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
+    \ First \u2026, 2025 - books.google.com"
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXk-WK7NdA&sig=gpyE0r2esHPulJg2wbjBFAe60UA
+  snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
+    \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
+    \ between meal \u2026"
+  journal: books.google.com
+  category: healthcare
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXk-WK7NdA&sig=gpyE0r2esHPulJg2wbjBFAe60UA
+- id: 1585
+  created_at: 2025-10-05 01:06:28.612064
+  published_on: 2025-09-29
+  title: One-shot Conditional Sampling MMD meets Nearest Neighbors
+  authors: Anirban Chatterjee, Sayantan Choudhury, Rohan Hore
+  publication_info_summary: A Chatterjee, S Choudhury, R Hore - arXiv preprint arXiv:2509.25507,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2509.25507
+  snippet: "\u2026 both modern machine learning and classical statistics, including\
+    \ image post-processing in computer vision, approximate posterior sampling in\
+    \ simulation-based inference, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.25507'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1586
+  created_at: 2025-10-05 01:06:34.643396
+  published_on: 2025-09-27
+  title: Flow Matching for Robust Simulation-Based Inference under Model Misspecification
+  authors: Pierre-Louis Ruhlmann, Pedro L. C. Rodrigues, Michael Arbel, Florence Forbes
+  publication_info_summary: "PL Ruhlmann, PLC Rodrigues, M Arbel\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2509.23385
+  snippet: "Simulation-based inference (SBI) is transforming experimental sciences\
+    \ by enabling parameter estimation in complex non-linear models from simulated\
+    \ data. A persistent \u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.23385'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1587
+  created_at: 2025-10-05 01:06:40.716125
+  published_on: 2025-09-26
+  title: Simulation-Based Inference of Cell Migration Dynamics in Complex Spatial
+    Environments
+  authors: Arruda, J.; Alamoudi, E.; Mueller, R.; Vaisband, M.; Molkenbur, R.; Merrin,
+    J.; Kiermaier, E.; Hasenauer, J.
+  publication_info_summary: "J Arruda, E Alamoudi, R Mueller, M Vaisband\u2026 - bioRxiv,\
+    \ 2025 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2025.09.25.678460.abstract
+  snippet: "\u2026 , we demonstrate that the learned summaries exhibit 354 superior\
+    \ performance compared to traditional summary statistics in the context of 355\
+    \ simulation-based inference. \u2026"
+  journal: biorxiv.org
+  category: Cell biology
+  doi: 10.1101/2025.09.25.678460
+- id: 1588
+  created_at: 2025-10-05 01:06:46.722208
+  published_on: 2025-09-24
+  title: Probing the Parameter Space of Axion-Like Particles Using Simulation-Based
+    Inference
+  authors: Pooja Bhattacharjee, Christopher Eckner, Gabrijela Zaharijas, Gert Kluge,
+    Giacomo D'Amico
+  publication_info_summary: "P Bhattacharjee, C Eckner, G Zaharijas\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2509.20578
+  snippet: "\u2026 In this work, we investigate the application of simulation-based\
+    \ inference (SBI), specifically Truncated Marginal Neural Ratio Estimation (TMNRE),\
+    \ to constrain ALP \u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.20578'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1589
+  created_at: 2025-10-05 01:08:38.036537
+  published_on: 2025-09-04
+  title: Radiative Transfer Modeling of a Shadowed Protoplanetary Disk Assisted by
+    a Neural Network
+  publication_info_summary: "JP Williams, M Benisty, C Ginski, G Lodato\u2026 - The\
+    \ Astrophysical \u2026, 2025 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.3847/1538-4357/adfa15/meta
+  snippet: "\u2026 The technique of simulation-based inference that is illustrated\
+    \ here is broadly \u2026 importantly, test and verify the outcome (simulation-based\
+    \ inference: K. Cranmer et al. 2020). \u2026"
+  journal: iopscience.iop.org
+  category: Computer Science
+  doi: https://iopscience.iop.org/article/10.3847/1538-4357/adfa15/meta
