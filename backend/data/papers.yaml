@@ -17312,7 +17312,7 @@
   doi: https://ub01.uni-tuebingen.de/xmlui/handle/10900/158767
 - id: 1300
   created_at: 2024-11-17 01:02:20.903776
-  published_on: 2025-09-25
+  published_on: 2025-09-13
   title: Parameter Estimation with Neural Simulation-Based Inference in ATLAS
   publication_info_summary: RD Schaffer - 2025 - cds.cern.ch
   link: https://cds.cern.ch/record/2943340
@@ -17320,7 +17320,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Computer Science
+  category: Physics
   doi: https://cds.cern.ch/record/2943340
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -19876,20 +19876,17 @@
   doi: 10.1051/0004-6361/202453553
 - id: 1476
   created_at: 2025-07-07 15:06:00.363244
-  published_on: 2025-07-02
+  published_on: 2025-07-04
   title: A Real-Time Digital Twin for Type 1 Diabetes using Simulation-Based Inference
-  authors: "Trung-Dung Hoang, Alceu Bissoto, Vihangkumar V. Naik, Tim Fl\xFChmann,\
-    \ Artemii Shlychkov, Jose Garcia-Tirado, Lisa M. Koch"
-  publication_info_summary: "TD Hoang, A Bissoto, VV Naik, T Fl\xFChmann\u2026 - arXiv\
-    \ preprint arXiv \u2026, 2025 - arxiv.org"
-  link: https://arxiv.org/abs/2507.01740
+  publication_info_summary: "TD Hoang, A Bissoto, VV Naik, T Fl\xFChmann\u2026 - \u2026\
+    \ Workshop on Digital \u2026, 2025 - Springer"
+  link: https://link.springer.com/chapter/10.1007/978-3-032-07694-6_4
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
-  journal: arxiv.org
-  arxiv_id: '2507.01740'
-  arxiv_category_tag: cs.LG
-  category: Computer Science
+  journal: Springer
+  category: Statistics
+  doi: https://link.springer.com/chapter/10.1007/978-3-032-07694-6_4
 - id: 1477
   created_at: 2025-07-07 15:06:09.367545
   published_on: 2025-07-02
@@ -19919,6 +19916,7 @@
     \ can be decreased by combining simulation sets of varying fidelity. We propose\
     \ an approach to such multi-\u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=13246835633892989734
   arxiv_id: '2507.00514'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -20525,6 +20523,7 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
+  category: Quantitative Biology
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -20974,8 +20973,8 @@
   published_on: 2025-08-21
   title: Inductive Domain Transfer In Misspecified Simulation-Based Inference
   authors: "Ortal Senouf, C\xE9dric Vincent-Cuaz, Emmanuel Abb\xE9, Pascal Frossard"
-  publication_info_summary: "O Senouf, A Wehenkel, C Vincent-Cuaz, E Abb\xE9\u2026\
-    \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  publication_info_summary: "O Senouf, C Vincent-Cuaz, E Abb\xE9\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
   link: https://arxiv.org/abs/2508.15593
   snippet: "Simulation-based inference (SBI) is a statistical inference approach for\
     \ estimating latent parameters of a physical system when the likelihood is intractable\
@@ -21309,16 +21308,17 @@
   doi: https://lac913.epfl.ch/epsppd3/2025/html/PDF/P2_062.pdf
 - id: 1572
   created_at: 2025-09-14 01:11:15.212133
-  published_on: 2025-07-02
+  published_on: 2025-07-04
   title: A frequentist simulation-based inference treatment of sterile neutrino global
     fits
-  publication_info_summary: "J Villarreal, J Woodward, J Hardin\u2026 - \u2026 Learning:\
+  publication_info_summary: "J Villarreal, J Woodward, JM Hardin\u2026 - \u2026 Learning:\
     \ Science and \u2026, 2025 - iopscience.iop.org"
   link: https://iopscience.iop.org/article/10.1088/2632-2153/ae040c/meta
-  snippet: "\u2026 In a similar spirit, we introduce our simulation-based inference\
-    \ fitting procedure for new physics searches using muon-neutrino disappearance\
-    \ data. While our focus is on \u2026"
+  snippet: "\u2026 To bypass this limitation, we borrow a technique from simulation-based\
+    \ inference (SBI) to estimate likelihood ratios for use in building trials-based\
+    \ confidence intervals, \u2026"
   journal: iopscience.iop.org
+  citation_backlink: https://scholar.google.com/scholar?cites=15142635382876320638
   category: Quantitative Biology
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/ae040c/meta
 - id: 1573
@@ -21456,33 +21456,30 @@
   doi: https://link.springer.com/chapter/10.1007/978-3-032-05176-9_33
 - id: 1583
   created_at: 2025-10-05 01:06:16.257381
-  published_on: 2025-09-30
+  published_on: 2025-09-01
   title: Marginal Flow a flexible and efficient framework for density estimation
-  authors: Marcello Massimo Negri, Jonathan Aellen, Manuel Jahn, AmirEhsan Khorashadizadeh,
-    Volker Roth
-  publication_info_summary: "MM Negri, J Aellen, M Jahn\u2026 - arXiv preprint arXiv\
-    \ \u2026, 2025 - arxiv.org"
-  link: https://arxiv.org/abs/2509.26221
-  snippet: "\u2026 Figure 14: Simulation-based inference benchmark: we show average\
-    \ and standard deviation over 10 different test observations. We compare our method\
-    \ against Free-\u2026"
-  journal: arxiv.org
-  arxiv_id: '2509.26221'
-  arxiv_category_tag: cs.LG
+  publication_info_summary: "M Massimo Negri, J Aellen, M Jahn\u2026 - arXiv e \u2026\
+    , 2025 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2025arXiv250926221M/abstract
+  snippet: "\u2026 We evaluate Marginal Flow extensively on various tasks including\
+    \ synthetic datasets, simulation-based inference, distributions on positive definite\
+    \ matrices and manifold \u2026"
+  journal: ui.adsabs.harvard.edu
   category: oncology
+  doi: https://ui.adsabs.harvard.edu/abs/2025arXi50926221M/abstract
 - id: 1584
   created_at: 2025-10-05 01:06:21.383674
   published_on: 2025-10-01
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXk-WK7NdA&sig=gpyE0r2esHPulJg2wbjBFAe60UA
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlSSKcJfz&sig=OlxM8aQFQ-G1FwJJLqDQmp0WZbQ
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXk-WK7NdA&sig=gpyE0r2esHPulJg2wbjBFAe60UA
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlSSKcJfz&sig=OlxM8aQFQ-G1FwJJLqDQmp0WZbQ
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -21560,3 +21557,145 @@
   journal: iopscience.iop.org
   category: Computer Science
   doi: https://iopscience.iop.org/article/10.3847/1538-4357/adfa15/meta
+- id: 1590
+  created_at: 2025-10-12 01:03:15.427936
+  published_on: 2025-10-06
+  title: The Milky Way - Large Magellanic Cloud Interaction with Simulation Based
+    Inference
+  authors: "Richard A. N. Brooks, Jason L. Sanders, Vedant Chandra, Nicol\xE1s Garavito-Camargo,\
+    \ Adam M. Dillamore, Adrian M. Price-Whelan, Yuan-Sen Ting"
+  publication_info_summary: "RAN Brooks, JL Sanders, V Chandra\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.04735
+  snippet: "\u2026 We use a Simulation Based Inference framework to constrain properties\
+    \ of the MW, LMC and the induced reflex motion using the dynamics of outer MW\
+    \ halo stars. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.04735'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1591
+  created_at: 2025-10-12 01:03:20.619500
+  published_on: 2025-10-07
+  title: Cosmological constraints using simulation-based inference of galaxy clustering
+    with marked power spectra
+  publication_info_summary: "E Massara, CH Hahn, M Eickenberg, S Ho, J Hou\u2026 -\
+    \ Physical Review D, 2025 - APS"
+  link: https://journals.aps.org/prd/abstract/10.1103/9l4n-3pcx
+  snippet: "\u2026 In this work we make use of SimBIG, a forward modeling framework\
+    \ for galaxy clustering analyses, and perform simulation-based inference using\
+    \ normalizing flows to infer \u2026"
+  journal: APS
+  category: Astrophysics
+  doi: https://journals.aps.org/prd/abstract/10.1103/9l4n-3pcx
+- id: 1592
+  created_at: 2025-10-12 01:03:28.114748
+  published_on: 2025-10-05
+  title: Simulation-based inference via telescoping ratio estimation for trawl processes
+  authors: "Dan Leonte, Rapha\xEBl Huser, Almut E. D. Veraart"
+  publication_info_summary: D Leonte, R Huser, AED Veraart - arXiv preprint arXiv:2510.04042,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2510.04042
+  snippet: "\u2026 Simulation-based inference (SBI) offers a promising way forward,\
+    \ but existing methods typically require large training datasets or complex architectures\
+    \ and frequently \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.04042'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1593
+  created_at: 2025-10-12 01:03:33.357269
+  published_on: 2025-10-05
+  title: Exoplanet Atmospheric Characterization Using Amortized Simulation Based Inference
+  publication_info_summary: MV Savoyant - 2025 - search.proquest.com
+  link: https://search.proquest.com/openview/43b03100656e2b4990d70d3da62f9a1a/1?pq-origsite=gscholar&cbl=2026366&diss=y
+  snippet: "\u2026 This leads us to explore an alternative family of algorithms called\
+    \ simulation based inference, specifically using a variational deep-learning-based\
+    \ retrieval algorithm \u2026"
+  journal: search.proquest.com
+  category: Physics
+  doi: https://search.proquest.com/openview/43b03100656e2b4990d70d3da62f9a1a/1?pq-origsite=gscholar&cbl=2026366&diss=y
+- id: 1594
+  created_at: 2025-10-12 01:03:40.000713
+  published_on: 2025-10-04
+  title: Disassociating Causality in Complex Interacting
+  publication_info_summary: "D Hofmann, S Carter, HH Strey\u2026 - Metabolic \u2026\
+    , 2025 - books.google.com"
+  link: https://books.google.com/books?hl=en&lr=&id=tUiMEQAAQBAJ&oi=fnd&pg=PA284&dq=%22simulation-based%2Binference%22&ots=iB96nk8G-3&sig=VbWHu5kHPMZpVvj8QM0qDCtfe_s
+  snippet: "\u2026 Special attention is given to recent methodological developments\
+    \ including structural causal models, simulation-based inference, and models tailored\
+    \ to systems with \u2026"
+  journal: books.google.com
+  category: Physics
+  doi: https://books.google.com/books?hl=en&lr=&id=tUiMEQAAQBAJ&oi=fnd&pg=PA284&dq=%22simulation-based%2Binference%22&ots=iB96nk8G-3&sig=VbWHu5kHPMZpVvj8QM0qDCtfe_s
+- id: 1595
+  created_at: 2025-10-12 01:03:52.008112
+  published_on: 2025-10-01
+  title: ASCR Workshop Position Paper Challenges and Opportunities in High Energy
+    Physics
+  publication_info_summary: "N Smith, O Amram, P Shyamsundar, S Mrenna\u2026 - osti.gov"
+  link: https://www.osti.gov/servlets/purl/2562834
+  snippet: "\u2026 One can view this whole endeavor as classical Simulation-Based\
+    \ Inference (SBI). \u2026"
+  category: Physics
+  doi: https://www.osti.gov/servlets/purl/2562834
+- id: 1596
+  created_at: 2025-10-12 01:04:06.817739
+  published_on: 2025-09-30
+  title: Machine Learning Workflows in Climate Modeling Design Patterns and Insights
+    from Case Studies
+  authors: Tian Zheng, Subashree Venkatasubramanian, Shuolin Li, Amy Braverman, Xinyi
+    Ke, Zhewen Hou, Peter Jin, Samarth Sanjay Agrawal
+  publication_info_summary: "T Zheng, S Venkatasubramanian, S Li\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.03305
+  snippet: "\u2026 In Case Study 2a (Uncertainty Quantification for Remote Sennsing),\
+    \ models were selected to support simulation-based inference and to explicitly\
+    \ represent uncertainty, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.03305'
+  arxiv_category_tag: cs.LG
+  category: medical sciences
+- id: 1597
+  created_at: 2025-10-12 01:07:14.324051
+  published_on: 2025-09-01
+  title: pySELFI Python implmentation of the Simulator Expansion for Likelihood-Free
+    Inference algorithm
+  publication_info_summary: "F Leclercq, W Enzi, J Jasche\u2026 - \u2026 Source Code\
+    \ Library, 2025 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2025ascl.soft09014L/abstract
+  snippet: "\u2026 SELFI is part of the family of simulation-based inference (SBI)\
+    \ methods, which replace the use of the likelihood function with a data-generating\
+    \ \"black-box\" simulator. \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Physics
+  doi: https://ui.adsabs.harvard.edu/abs/2025ascl.soft09014L/abstract
+- id: 1598
+  created_at: 2025-10-12 01:08:13.353104
+  published_on: 2025-08-20
+  title: Graph Neural Networks for Likelihood-Free Inference in Diversification Models
+  authors: Leroy, A.; Lajaaiti, I.; Lambert, S.; Voznica, J.; Pichler, M.; Morlon,
+    H.; Hartig, F.; Jacob, L.
+  publication_info_summary: "A Leroy, I Lajaaiti, S Lambert, J Voznica, M Pichler\u2026\
+    \ - bioRxiv, 2025 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2025.08.14.670341.abstract
+  snippet: "\u2026 We are confident that exploring these potential improvements of\
+    \ simulation-based inference, and in particular exploiting the power of GNNs to\
+    \ analyze data that has a \u2026"
+  journal: biorxiv.org
+  category: Computer Science
+  doi: 10.1101/2025.08.14.670341
+- id: 1599
+  created_at: 2025-10-12 01:10:55.420650
+  published_on: 2025-07-21
+  title: Detecting model misspecification in cosmology with scale-dependent normalizing
+    flows
+  publication_info_summary: "A Akhmetzhanova, C Cuesta-Lazaro\u2026 - Machine Learning\
+    \ \u2026, 2025 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/2632-2153/ae107d/meta
+  snippet: "\u2026 . 2011) to building density estimates for the distribution of a\
+    \ discrepancy function between simulated data and observed data which are used\
+    \ in simulation-based inference \u2026"
+  journal: iopscience.iop.org
+  category: Quantitative Biology
+  doi: https://iopscience.iop.org/article/10.1088/2632-2153/ae107d/meta
