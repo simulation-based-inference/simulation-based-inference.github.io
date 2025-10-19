@@ -20523,7 +20523,7 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
-  category: Quantitative Biology
+  category: Physics
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -20791,6 +20791,7 @@
     \ simulation-based inference, CoMET generally outperformed or matched task-specific\
     \ supervised models \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=206333015553311036
   arxiv_id: '2508.12104'
   arxiv_category_tag: cs.LG
   category: Computer Science
@@ -21473,13 +21474,13 @@
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlSSKcJfz&sig=OlxM8aQFQ-G1FwJJLqDQmp0WZbQ
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlSYL7L9D&sig=rcU4VDXJGViLUsWiVVf7K1bR7ME
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlSSKcJfz&sig=OlxM8aQFQ-G1FwJJLqDQmp0WZbQ
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlSYL7L9D&sig=rcU4VDXJGViLUsWiVVf7K1bR7ME
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -21699,3 +21700,119 @@
   journal: iopscience.iop.org
   category: Quantitative Biology
   doi: https://iopscience.iop.org/article/10.1088/2632-2153/ae107d/meta
+- id: 1600
+  created_at: 2025-10-19 01:08:58.799077
+  published_on: 2025-10-17
+  title: ASBI Leveraging informative real-world data for active black-box simulator
+    tuning
+  publication_info_summary: G Kim, T Matsubara - Applied Intelligence, 2025 - Springer
+  link: https://link.springer.com/article/10.1007/s10489-025-06934-z
+  snippet: "\u2026 Simulation-Based Inference (SBI) tackles this issue using simulation-driven\
+    \ \u2026 In this work, we present Active Simulation-Based Inference (ASBI), a\
+    \ parameter estimation \u2026"
+  journal: Springer
+  category: Statistics
+  doi: https://link.springer.com/article/10.1007/s10489-025-06934-z
+- id: 1601
+  created_at: 2025-10-19 01:09:04.174357
+  published_on: 2025-10-17
+  title: Box Confidence Depth Simulation-Based Inference with Hyper-Rectangles
+  publication_info_summary: L Ventura, E Bortolato - 2025 - econpapers.repec.org
+  link: https://econpapers.repec.org/paper/bgewpaper/1518.htm
+  snippet: "This work presents a novel simulation-based approach for constructing\
+    \ confidence regions in parametric models, which is particularly suited for generative\
+    \ models and \u2026"
+  journal: econpapers.repec.org
+  category: Statistics
+  doi: https://econpapers.repec.org/paper/bgewpaper/1518.htm
+- id: 1602
+  created_at: 2025-10-19 01:09:11.349129
+  published_on: 2025-10-15
+  title: $texttt{SBi3PCF}$ Simulation-based inference with the integrated 3PCF
+  authors: David Gebauer, Anik Halder, Stella Seitz, Dhayaa Anbajagane
+  publication_info_summary: "D Gebauer, A Halder, S Seitz\u2026 - arXiv preprint arXiv\
+    \ \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.13805
+  snippet: "\u2026 We present SBi3PCF, a simulation-based inference (SBI) framework\
+    \ for analysing a higher-order weak lensing statistic, the integrated 3-point\
+    \ correlation function (i3PCF). \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.13805'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1603
+  created_at: 2025-10-19 01:09:17.519900
+  published_on: 2025-10-15
+  title: PriorGuide Test-Time Prior Adaptation for Simulation-Based Inference
+  authors: Yang Yang, Severi Rissanen, Paul E. Chang, Nasrulloh Loka, Daolang Huang,
+    Arno Solin, Markus Heinonen, Luigi Acerbi
+  publication_info_summary: "Y Yang, S Rissanen, PE Chang, N Loka\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.13763
+  snippet: "\u2026 Simulation-based inference (SBI) has become a key tool across scientific\
+    \ disciplines, enabling Bayesian inference for complex systems where the likelihood\
+    \ function p(x | \u03B8\u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.13763'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1604
+  created_at: 2025-10-19 01:09:23.595398
+  published_on: 2025-10-12
+  title: Deep Learning in Astrophysics
+  authors: Yuan-Sen Ting
+  publication_info_summary: YS Ting - arXiv preprint arXiv:2510.10713, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2510.10713
+  snippet: "\u2026 Simulation-based inference and anomaly detection extract information\
+    \ from complex, non-Gaussian distributions where analytical likelihoods fail,\
+    \ enabling field-level \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.10713'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1605
+  created_at: 2025-10-19 01:09:29.756407
+  published_on: 2025-10-10
+  title: The Importance of Being Adaptable An Exploration of the Power and Limitations
+    of Domain Adaptation for Simulation-Based Inference with Galaxy Clusters
+  authors: Michelle Ntampaka, A. Ciprijanovic, Ana Maria Delgado, John Soltis, John
+    F. Wu, Mikaeel Yunus, John ZuHone
+  publication_info_summary: "M Ntampaka, A Ciprijanovic, AM Delgado\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.09748
+  snippet: "\u2026 challenge for simulation-based inference, where models \u2026 scientific\
+    \ case: simulation-based inference for estimating \u2026 sets to mimic simulation-based\
+    \ inference: a Training Set \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.09748'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1606
+  created_at: 2025-10-19 01:09:35.912280
+  published_on: 2025-10-08
+  title: Simulation-based inference for neutrino interaction model parameter tuning
+  authors: "Karla Tame-Narvaez, Aleksandra \u0106iprijanovi\u0107, Steven Gardiner,\
+    \ Giuseppe Cerati"
+  publication_info_summary: "K Tame-Narvaez, A \u0106iprijanovi\u0107, S Gardiner\u2026\
+    \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.07454
+  snippet: "\u2026 In this paper, we examine the application of simulation-based inference\
+    \ (SBI) to the neutrino interaction model tuning for the first time. Using a previous\
+    \ tuning study \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.07454'
+  arxiv_category_tag: hep-ph
+  category: Physics
+- id: 1607
+  created_at: 2025-10-19 01:10:00.139936
+  published_on: 2025-10-05
+  title: Disassociating Causality in Complex Interacting Systems
+  publication_info_summary: "D Hofmann, S Carter, HH Strey\u2026 - Metabolic \u2026\
+    , 2025 - Springer"
+  link: https://link.springer.com/chapter/10.1007/978-3-032-05630-6_13
+  snippet: "\u2026 Special attention is given to recent methodological developments\
+    \ including structural causal models, simulation-based inference, and models tailored\
+    \ to systems with \u2026"
+  journal: Springer
+  category: Astrophysics
+  doi: https://link.springer.com/chapter/10.1007/978-3-032-05630-6_13
