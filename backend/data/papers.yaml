@@ -17803,18 +17803,17 @@
   category: Physics
 - id: 1334
   created_at: 2024-12-17 17:00:13.871075
-  published_on: 2025-05-03
+  published_on: 2025-10-19
   title: An implementation of neural simulation-based inference for parameter estimation
     in ATLAS
-  publication_info_summary: "J Howarth, Atlas Collaboration - Reports on progress\
-    \ in \u2026 - pubmed.ncbi.nlm.nih.gov"
-  link: https://pubmed.ncbi.nlm.nih.gov/40315869/
-  snippet: "\u2026 Neural simulation-based inference is a powerful class of machine-learning-based\
-    \ \u2026 This work develops a neural simulation-based inference framework for\
-    \ statistical \u2026"
-  journal: pubmed.ncbi.nlm.nih.gov
+  publication_info_summary: "M Cristoforetti, Atlas Collaboration - REPORTS ON PROGRESS\
+    \ IN \u2026, 2025 - cris.fbk.eu"
+  link: https://cris.fbk.eu/handle/11582/363374
+  snippet: "Neural simulation-based inference (NSBI) is a powerful class of machine-learning-based\
+    \ methods for statistical inference that naturally handles high-dimensional \u2026"
+  journal: cris.fbk.eu
   category: Computer Science
-  doi: https://pubmed.ncbi.nlm.nih.gov/40315869/
+  doi: https://cris.fbk.eu/handle/11582/363374
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
   published_on: 2024-12-03
@@ -20523,7 +20522,7 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
-  category: Physics
+  category: Mathematics
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -20973,7 +20972,8 @@
   created_at: 2025-08-31 01:05:59.948357
   published_on: 2025-08-21
   title: Inductive Domain Transfer In Misspecified Simulation-Based Inference
-  authors: "Ortal Senouf, C\xE9dric Vincent-Cuaz, Emmanuel Abb\xE9, Pascal Frossard"
+  authors: "Ortal Senouf, Antoine Wehenkel, C\xE9dric Vincent-Cuaz, Emmanuel Abb\xE9\
+    , Pascal Frossard"
   publication_info_summary: "O Senouf, C Vincent-Cuaz, E Abb\xE9\u2026 - arXiv preprint\
     \ arXiv \u2026, 2025 - arxiv.org"
   link: https://arxiv.org/abs/2508.15593
@@ -21156,9 +21156,9 @@
   publication_info_summary: "PC Yang, MT Jeng, DK Lieu, RL Smithers\u2026 - bioRxiv,\
     \ 2025 - biorxiv.org"
   link: https://www.biorxiv.org/content/10.1101/2025.09.03.674034.abstract
-  snippet: "\u2026 Digital twins offer a novel solution by integrating individualized\
+  snippet: "\u2026 Digital twins constitute a mechanistic approach to integrate individualized\
     \ data with simulation-based inference to predict physiology and therapeutic outcomes\
-    \ in a cell-specific, and \u2026"
+    \ at the level \u2026"
   journal: biorxiv.org
   category: Physiology
   doi: 10.1101/2025.09.03.674034
@@ -21474,13 +21474,13 @@
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlSYL7L9D&sig=rcU4VDXJGViLUsWiVVf7K1bR7ME
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlTULcJbD&sig=VO1X4nwNm0N3ugTiswgmFzxNWss
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlSYL7L9D&sig=rcU4VDXJGViLUsWiVVf7K1bR7ME
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlTULcJbD&sig=VO1X4nwNm0N3ugTiswgmFzxNWss
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -21808,11 +21808,197 @@
   published_on: 2025-10-05
   title: Disassociating Causality in Complex Interacting Systems
   publication_info_summary: "D Hofmann, S Carter, HH Strey\u2026 - Metabolic \u2026\
-    , 2025 - Springer"
-  link: https://link.springer.com/chapter/10.1007/978-3-032-05630-6_13
+    , 2025 - library.oapen.org"
+  link: https://library.oapen.org/bitstream/handle/20.500.12657/107684/1/9783032056306.pdf#page=286
   snippet: "\u2026 Special attention is given to recent methodological developments\
     \ including structural causal models, simulation-based inference, and models tailored\
     \ to systems with \u2026"
-  journal: Springer
+  journal: library.oapen.org
   category: Astrophysics
-  doi: https://link.springer.com/chapter/10.1007/978-3-032-05630-6_13
+  doi: https://library.oapen.org/bitstream/handle/20.500.12657/107684/1/9783032056306.pdf#page=286
+- id: 1608
+  created_at: 2025-10-26 01:07:16.968219
+  published_on: 2025-10-22
+  title: Informed machine learning models for advancing cardiac disease prognosis
+  publication_info_summary: OY Senouf - 2025 - infoscience.epfl.ch
+  link: https://infoscience.epfl.ch/entities/publication/07e1c69e-c24b-4457-a734-220464516aae
+  snippet: "\u2026 Simulation-based inference: Directly estimates the posterior from\
+    \ simulated observation-parameter pairs, avoiding the need for a surrogate model.\
+    \ This method uses \u2026"
+  journal: infoscience.epfl.ch
+  category: Physics
+  doi: https://infoscience.epfl.ch/entities/publication/07e1c69e-c24b-4457-a734-220464516aae
+- id: 1609
+  created_at: 2025-10-26 01:07:23.050447
+  published_on: 2025-10-21
+  title: Deep learning for mass extinction detection on fossilized phylogenies power,
+    limitations, and lessons for simulation-based phylodynamic inference
+  authors: Du, M.; Wang, W.; Tan, J.; Barido-Sottani, J.
+  publication_info_summary: M Du, W Wang, J Tan, J Barido-Sottani - bioRxiv, 2025
+    - biorxiv.org
+  link: https://www.biorxiv.org/content/10.1101/2025.10.20.683352.abstract
+  snippet: "\u2026 is the use of machine learning for simulation-based inference to\
+    \ estimate parameters \u2026 A key lesson from our study for simulation-based\
+    \ inference is the critical importance \u2026"
+  journal: biorxiv.org
+  category: Evolutionary biology
+  doi: 10.1101/2025.10.20.683352
+- id: 1610
+  created_at: 2025-10-26 01:07:28.372385
+  published_on: 2025-10-21
+  title: Simulation-based inference advances water quality mapping in shallow coral
+    reef environments (dataset)
+  publication_info_summary: P Palola - Harvard Dataverse dataset, 2025 - ui.adsabs.harvard.edu
+  link: https://ui.adsabs.harvard.edu/abs/2025harv.data..507P/abstract
+  snippet: "The dataset contains the following files: drone-measured reflectance over\
+    \ a brown coral sampling site (1 file), environmental parameters (chlorophyll-a,\
+    \ colored dissolved \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Geology
+  doi: https://ui.adsabs.harvard.edu/abs/2025harv.data..507P/abstract
+- id: 1611
+  created_at: 2025-10-26 01:07:36.252441
+  published_on: 2025-10-20
+  title: From Observations to Parameters Detecting Changepoint in Nonlinear Dynamics
+    with Simulation-based Inference
+  authors: Xiangbo Deng, Cheng Chen, Peng Yang
+  publication_info_summary: X Deng, C Chen, P Yang - arXiv preprint arXiv:2510.17933,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2510.17933
+  snippet: "\u2026 The first stage consists of an offline training phase, where we\
+    \ use simulation-based inference to train a neural network that learns to estimate\
+    \ the posterior distribution of \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.17933'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1612
+  created_at: 2025-10-26 01:07:47.286539
+  published_on: 2025-10-18
+  title: Neural Posterior Estimation for White Dwarf Spectroscopic Characterization
+  publication_info_summary: "O Vincent, P Dufour, P Bergeron - Monthly Notices of\
+    \ the Royal \u2026, 2025 - academic.oup.com"
+  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/staf1820/8294186
+  snippet: "\u2026 We present neural posterior estimation (NPE), a simulation-based\
+    \ inference technique that directly approximates posterior distributions through\
+    \ neural networks trained on \u2026"
+  journal: academic.oup.com
+  category: Computer Science
+  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/staf1820/8294186
+- id: 1613
+  created_at: 2025-10-26 01:07:53.305954
+  published_on: 2025-10-17
+  title: Error analysis of a compositional score-based algorithm for simulation-based
+    inference
+  authors: Camille Touron, Gabriel V. Cardoso, Julyan Arbel, Pedro L. C. Rodrigues
+  publication_info_summary: "C Touron, GV Cardoso, J Arbel\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.15817
+  snippet: "Simulation-based inference (SBI) has become a widely used framework in\
+    \ applied sciences for estimating the parameters of stochastic models that best\
+    \ explain \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.15817'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1614
+  created_at: 2025-10-26 01:07:59.249102
+  published_on: 2025-10-16
+  title: Hierarchical Simulation-Based Inference of Supernova Power Sources and their
+    Physical Properties
+  authors: Edgar P. Vidal, Alexander T. Gagliano, Carolina Cuesta-Lazaro
+  publication_info_summary: EP Vidal, AT Gagliano, C Cuesta-Lazaro - arXiv preprint
+    arXiv:2510.14202, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2510.14202
+  snippet: "\u2026 In this work, we present a hierarchical simulation-based inference\
+    \ model for multi-band light curves that 1) identifies the energy sources powering\
+    \ an event of interest, 2) \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.14202'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1615
+  created_at: 2025-10-26 01:08:29.314274
+  published_on: 2025-10-15
+  title: Dynamic SBI Round-free Sequential Simulation-Based Inference with Adaptive
+    Datasets
+  authors: Huifang Lyu, James Alvey, Noemi Anau Montel, Mauro Pieroni, Christoph Weniger
+  publication_info_summary: "H Lyu, J Alvey, NA Montel, M Pieroni\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.13997
+  snippet: "Simulation-based inference (SBI) is emerging as a new statistical paradigm\
+    \ for addressing complex scientific inference problems. By leveraging the representational\
+    \ \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.13997'
+  arxiv_category_tag: astro-ph.IM
+  category: Computer Science
+- id: 1616
+  created_at: 2025-10-26 01:08:34.663756
+  published_on: 2025-10-15
+  title: "AI for Strategic Decision\u2011Making and Organizational Design"
+  publication_info_summary: "H Rehman, A Hassan - \u2026 Journal Of Science, Technology\
+    \ & Business, 2025 - imjstb.com"
+  link: https://imjstb.com/index.php/Journal/article/view/91
+  snippet: "\u2026 managers, policy, and future empirical research, provide full R\
+    \ code to reproduce the simulated data and analyses, and discuss limitations of\
+    \ simulation-based inference. \u2026"
+  journal: imjstb.com
+  category: Computer Science
+  doi: https://imjstb.com/index.php/Journal/article/view/91
+- id: 1617
+  created_at: 2025-10-26 01:10:20.580604
+  published_on: 2025-09-21
+  title: "Measurement of off-shell Higgs boson production in the H*\u2192 ZZ\u2192\
+    \ 4l decay channel using a neural simulation-based inference technique in 13 TeV\
+    \ pp collisions with \u2026"
+  publication_info_summary: M Cristoforetti, Atlas Collaboration - Reports on Progress
+    in Physics, 2025 - cris.fbk.eu
+  link: https://cris.fbk.eu/handle/11582/363372
+  snippet: "\u2026 The data analysis is performed using a neural simulation-based\
+    \ inference method, which builds per-event likelihood ratios using neural networks.\
+    \ The observed (expected\u2026"
+  journal: cris.fbk.eu
+  category: Astrophysics
+  doi: https://cris.fbk.eu/handle/11582/363372
+- id: 1618
+  created_at: 2025-10-26 01:10:31.777743
+  published_on: 2025-09-18
+  title: Toward mapping turbulence in the intracluster medium-IV. Using NewAthena/X-IFU
+    and simulation-based inference to constrain turbulence
+  publication_info_summary: "A Molin, S Dupourqu\xE9, N Clerc\u2026 - Astronomy &\
+    \ \u2026, 2025 - aanda.org"
+  link: https://www.aanda.org/articles/aa/abs/2025/10/aa55585-25/aa55585-25.html
+  snippet: "\u2026 In this paper, we leverage simulation-based inference (SBI \u2026\
+    \ Simulation-based inference relies on a neural network, \u2026 Simulation-based\
+    \ inference is naturally suited for \u2026"
+  journal: aanda.org
+  category: Astrophysics
+  doi: https://www.aanda.org/articles/aa/abs/2025/10/aa55585-25/aa55585-25.html
+- id: 1619
+  created_at: 2025-10-26 01:11:16.444755
+  published_on: 2025-09-10
+  title: Prediction of electric and magnetic fields from spectral data using machine
+    learning algorithms for Doppler-free saturation spectroscopy diagnostics
+  publication_info_summary: "B Li, E Martin, M Churchill, A Diallo - Journal of Quantitative\
+    \ Spectroscopy \u2026, 2025 - Elsevier"
+  link: https://www.sciencedirect.com/science/article/pii/S0022407325003723
+  snippet: "\u2026 In this work, we develop and benchmark three machine learning algorithms\u2014\
+    simulation-based inference (SBI), fully connected neural networks (FCNN), and\
+    \ histogram-\u2026"
+  journal: Elsevier
+  category: Physics
+  doi: https://www.sciencedirect.com/science/article/pii/S0022407325003723
+- id: 1620
+  created_at: 2025-10-26 01:15:31.479113
+  published_on: 2025-08-02
+  title: Neural posterior estimation of neutron star equations of state
+  publication_info_summary: "V Carvalho, M Ferreira, M Bejger, C Provid\xEAncia -\
+    \ Physical Review D, 2025 - APS"
+  link: https://link.aps.org/pdf/10.1103/6396-4dcy
+  snippet: "\u2026 We present a simulation-based inference framework to constrain\
+    \ the neutron star (NS) equation of state (EoS) from astrophysical observations\
+    \ of masses, radii, and tidal \u2026"
+  journal: APS
+  category: biophysics
+  doi: https://link.aps.org/pdf/10.1103/6396-4dcy
