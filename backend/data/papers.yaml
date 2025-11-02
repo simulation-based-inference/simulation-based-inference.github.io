@@ -15363,25 +15363,19 @@
   doi: https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_04007/epjconf_chep2024_04007.html
 - id: 1166
   created_at: 2024-05-12 00:48:02.704083
-  published_on: 2024-05-03
+  published_on: 2025-09-02
   title: A Parameter-Masked Mock Data Challenge for Beyond-Two-Point Galaxy Clustering
     Statistics
-  authors: "Beyond-2pt Collaboration, :, Elisabeth Krause, Yosuke Kobayashi, Andr\xE9\
-    s N. Salcedo, Mikhail M. Ivanov, Tom Abel, Kazuyuki Akitsu, Raul E. Angulo, Giovanni\
-    \ Cabass, Sofia Contarini, Carolina Cuesta-Lazaro, ChangHoon Hahn, Nico Hamaus,\
-    \ Donghui Jeong, Chirag Modi, Nhat-Minh Nguyen, Takahiro Nishimichi, Enrique Paillas,\
-    \ Marcos Pellejero Iba\xF1ez, Oliver H. E. Philcox, Alice Pisani, Fabian Schmidt,\
-    \ Satoshi Tanaka, Giovanni Verza, Sihan Yuan, Matteo Zennaro"
-  publication_info_summary: "E Krause, Y Kobayashi, AN Salcedo, MM Ivanov\u2026 -\
-    \ arXiv preprint arXiv \u2026, 2024 - arxiv.org"
-  link: https://arxiv.org/abs/2405.02252
+  publication_info_summary: Beyond-2pt Collaboration - Astrophysical Journal, 2025
+    - pure.psu.edu
+  link: https://pure.psu.edu/en/publications/a-parameter-masked-mock-data-challenge-for-beyond-two-point-galax/
   snippet: "\u2026 , LEFTfield field-level inference using effective field theory\
     \ (EFT), and joint power spectrum and bispectrum analyses using both EFT and simulation-based\
     \ inference. In \u2026"
-  journal: arxiv.org
-  arxiv_id: '2405.02252'
-  arxiv_category_tag: astro-ph.CO
-  category: Astrophysics
+  journal: pure.psu.edu
+  citation_backlink: https://scholar.google.com/scholar?cites=14170845920409917027
+  category: medicine
+  doi: https://pure.psu.edu/en/publications/a-parameter-masked-mock-data-challenge-for-beyond-two-point-galax/
 - id: 1167
   created_at: 2024-05-12 00:48:09.161909
   published_on: 2024-05-03
@@ -17320,7 +17314,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: Physics
+  category: medicine
   doi: https://cds.cern.ch/record/2943340
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17812,7 +17806,7 @@
   snippet: "Neural simulation-based inference (NSBI) is a powerful class of machine-learning-based\
     \ methods for statistical inference that naturally handles high-dimensional \u2026"
   journal: cris.fbk.eu
-  category: Computer Science
+  category: medicine
   doi: https://cris.fbk.eu/handle/11582/363374
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -20522,7 +20516,7 @@
     \ fitness effects we find that negative selection is the primary driver of CNV\
     \ loss although aneuploid \u2026"
   journal: europepmc.org
-  category: Mathematics
+  category: medicine
   doi: https://europepmc.org/article/ppr/ppr1056185
 - id: 1520
   created_at: 2025-08-03 01:19:38.169430
@@ -21474,13 +21468,13 @@
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlTULcJbD&sig=VO1X4nwNm0N3ugTiswgmFzxNWss
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlUQM7I7B&sig=-8Gp6YEMHcD6r6oP0MuEqGlGAGw
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlTULcJbD&sig=VO1X4nwNm0N3ugTiswgmFzxNWss
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlUQM7I7B&sig=-8Gp6YEMHcD6r6oP0MuEqGlGAGw
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -22002,3 +21996,62 @@
   journal: APS
   category: biophysics
   doi: https://link.aps.org/pdf/10.1103/6396-4dcy
+- id: 1621
+  created_at: 2025-11-02 01:08:16.111898
+  published_on: 2025-10-26
+  title: galsbi A Python package for the GalSBI galaxy population model
+  publication_info_summary: "S Fischbacher, B Moser, T Kacprzak\u2026 - Journal of\
+    \ Open \u2026, 2025 - joss.theoj.org"
+  link: https://joss.theoj.org/papers/10.21105/joss.08766.pdf
+  snippet: "\u2026 This phenomenological model is constrained by observational data\
+    \ using simulation-based inference (SBI). The galsbi Python package provides an\
+    \ easy interface to \u2026"
+  journal: joss.theoj.org
+  citation_backlink: https://scholar.google.com/scholar?cites=902328935764887896
+  category: Mathematics
+  doi: https://joss.theoj.org/papers/10.21105/joss.08766.pdf
+- id: 1622
+  created_at: 2025-11-02 01:08:22.475541
+  published_on: 2025-10-24
+  title: XRISM constraints on the velocity power spectrum in the Coma cluster
+  authors: D. Eckert, M. Markevitch, J. A. ZuHone, M. Regamey, I. Zhuravleva, Y. Ichinohe,
+    N. Truong, N. Okabe, D. R. Wik
+  publication_info_summary: "D Eckert, M Markevitch, JA ZuHone\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2510.21918
+  snippet: "\u2026 Here we propose a simulation-based inference technique to retrieve\
+    \ the properties of the velocity power spectrum from X-ray micro-calorimeter data\
+    \ by generating \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.21918'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1623
+  created_at: 2025-11-02 01:08:27.850118
+  published_on: 2025-10-24
+  title: The Big Sobol Sequence How many simulations do we need for simulation-based
+    inference in cosmology?
+  publication_info_summary: A Bairagi, B Wandelt, F Villaescusa-Navarro - 2025 - aanda.org
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa54602-25.pdf
+  snippet: "How many simulations do we need to train machine learning methods to extract\
+    \ information available from summary statistics of the cosmological density field?\
+    \ Neural \u2026"
+  journal: aanda.org
+  category: Physics
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa54602-25.pdf
+- id: 1624
+  created_at: 2025-11-02 01:08:34.714051
+  published_on: 2025-10-22
+  title: Error Analysis of Triangular Optimal Transport Maps for Filtering
+  authors: Mohammad Al-Jarrah, Bamdad Hosseini, Niyizhen Jin, Michele Martino, Amirhossein
+    Taghvaei
+  publication_info_summary: "M Al-Jarrah, B Hosseini, N Jin, M Martino\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/pdf/2510.19283
+  snippet: "\u2026 Along the way, we extend previous error analyses of Brenier maps\
+    \ to the case of conditional Brenier maps that arise in the context of simulation\
+    \ based inference. We then \u2026"
+  journal: arxiv.org
+  arxiv_id: '2510.19283'
+  arxiv_category_tag: math.ST
+  category: Mathematics
