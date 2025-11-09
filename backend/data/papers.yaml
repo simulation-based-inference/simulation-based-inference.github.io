@@ -15374,7 +15374,7 @@
     \ inference. In \u2026"
   journal: pure.psu.edu
   citation_backlink: https://scholar.google.com/scholar?cites=14170845920409917027
-  category: medicine
+  category: Computer Science
   doi: https://pure.psu.edu/en/publications/a-parameter-masked-mock-data-challenge-for-beyond-two-point-galax/
 - id: 1167
   created_at: 2024-05-12 00:48:09.161909
@@ -17314,7 +17314,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: medicine
+  category: Computer Science
   doi: https://cds.cern.ch/record/2943340
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17806,7 +17806,7 @@
   snippet: "Neural simulation-based inference (NSBI) is a powerful class of machine-learning-based\
     \ methods for statistical inference that naturally handles high-dimensional \u2026"
   journal: cris.fbk.eu
-  category: medicine
+  category: Computer Science
   doi: https://cris.fbk.eu/handle/11582/363374
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -21468,13 +21468,13 @@
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlUQM7I7B&sig=-8Gp6YEMHcD6r6oP0MuEqGlGAGw
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlUWMbPeB&sig=79IRvIuM1fVylryIBnJg5DYivkM
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlUQM7I7B&sig=-8Gp6YEMHcD6r6oP0MuEqGlGAGw
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlUWMbPeB&sig=79IRvIuM1fVylryIBnJg5DYivkM
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -22047,7 +22047,7 @@
     Taghvaei
   publication_info_summary: "M Al-Jarrah, B Hosseini, N Jin, M Martino\u2026 - arXiv\
     \ preprint arXiv \u2026, 2025 - arxiv.org"
-  link: https://arxiv.org/pdf/2510.19283
+  link: https://arxiv.org/abs/2510.19283
   snippet: "\u2026 Along the way, we extend previous error analyses of Brenier maps\
     \ to the case of conditional Brenier maps that arise in the context of simulation\
     \ based inference. We then \u2026"
@@ -22055,3 +22055,112 @@
   arxiv_id: '2510.19283'
   arxiv_category_tag: math.ST
   category: Mathematics
+- id: 1625
+  created_at: 2025-11-09 01:07:40.405364
+  published_on: 2025-11-05
+  title: Quantifying Weighted Morphological Content of Large-Scale Structures via
+    Simulation-Based Inference
+  authors: M. H. Jalali Kanafi, S. M. S. Movahed
+  publication_info_summary: MH Kanafi, SMS Movahed - arXiv preprint arXiv:2511.03636,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2511.03636
+  snippet: "In this work, we perform a simulation-based forecasting analysis to compare\
+    \ the constraining power of two higher-order summary statistics of the large-scale\
+    \ structure (LSS)\u2026"
+  journal: arxiv.org
+  arxiv_id: '2511.03636'
+  arxiv_category_tag: astro-ph.CO
+  category: medicine
+- id: 1626
+  created_at: 2025-11-09 01:07:45.992246
+  published_on: 2025-11-06
+  title: Creating halos with autoregressive multistage networks
+  publication_info_summary: "S Pandey, C Modi, BD Wandelt, DJ Bartlett, AE Bayer\u2026\
+    \ - Physical Review D, 2025 - APS"
+  link: https://link.aps.org/pdf/10.1103/vlm2-tm6k
+  snippet: "\u2026 these mock catalogs for cosmological inference using redshift-space\
+    \ galaxy power spectrum, bispectrum, and wavelet-based statistics using simulation-based\
+    \ inference, \u2026"
+  journal: APS
+  category: Computer Science
+  doi: https://link.aps.org/pdf/10.1103/vlm2-tm6k
+- id: 1627
+  created_at: 2025-11-09 01:07:53.232292
+  published_on: 2025-11-04
+  title: Reliable Parameter Inference for the Epoch of Reionization using Balanced
+    Neural Ratio Estimation
+  authors: "Diego Gonz\xE1lez-Hern\xE1ndez, Molly Wolfson, Joseph F. Hennawi"
+  publication_info_summary: "D Gonz\xE1lez-Hern\xE1ndez, M Wolfson\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2511.02808
+  snippet: "\u2026 To provide a simple comparison against an alternative simulation-based\
+    \ inference (SBI) method, we also train a Neural Posterior Estimation (NPE) algorithm.\
+    \ In NPE, a \u2026"
+  journal: arxiv.org
+  arxiv_id: '2511.02808'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1628
+  created_at: 2025-11-09 01:07:58.732918
+  published_on: 2025-11-05
+  title: Methods for inferring coalescent tree topologies from genomic data a comparison
+    based on the transmission of reproductive success
+  publication_info_summary: "F Pouyet, F Petit, J Guez, L Planche, E Heyer\u2026 -\
+    \ 2025 - cnrs.hal.science"
+  link: https://cnrs.hal.science/hal-05347078/
+  snippet: "\u2026 This study opens possibilities for applying these methods to infer\
+    \ CTRS or posi- 24 tive selection in large-scale genomic datasets, using simulation-based\
+    \ inference such \u2026"
+  journal: cnrs.hal.science
+  category: Quantitative Biology
+  doi: https://cnrs.hal.science/hal-05347078/
+- id: 1629
+  created_at: 2025-11-09 01:08:05.537783
+  published_on: 2025-11-04
+  title: Simulation-based inference for subject-specific tuning of middle ear finite-element
+    models towards personalized objective diagnosis
+  publication_info_summary: "H Motallebzadeh, M Deistler, FM Sch\xF6nleitner\u2026\
+    \ - Scientific Reports, 2025 - nature.com"
+  link: https://www.nature.com/articles/s41598-025-22164-2
+  snippet: "\u2026 This section outlines the pipeline for the simulation-based inference\
+    \ (SBI) methodology, followed by a detailed description of the experimental procedures\
+    \ used to obtain \u2026"
+  journal: nature.com
+  category: medical sciences
+  doi: https://www.nature.com/articles/s41598-025-22164-2
+- id: 1630
+  created_at: 2025-11-09 01:08:11.617375
+  published_on: 2025-11-02
+  title: Empirically Estimating an Agent-Based Model of School Choice on Household-Level
+    Register Data
+  publication_info_summary: "E Dignum, W Boterman, A Flache\u2026 - Journal of Artificial\
+    \ \u2026, 2025 - ideas.repec.org"
+  link: https://ideas.repec.org/a/jas/jasssj/2025-12-3.html
+  snippet: "In agent-based models (ABMs), the estimation of model parameters from\
+    \ data is much less straightforward than in traditional but more limited techniques\
+    \ of modelling data, \u2026"
+  journal: ideas.repec.org
+  category: Computer Science
+  doi: https://ideas.repec.org/a/jas/jasssj/2025-12-3.html
+- id: 1631
+  created_at: 2025-11-09 01:08:18.907694
+  published_on: 2025-10-28
+  title: Simulation-Based Inference for gravitational-wave data
+  publication_info_summary: K Takada, S Morisaki, R Vivien - indico-icehap.phys.s.chiba-u.ac.jp
+  link: https://indico-icehap.phys.s.chiba-u.ac.jp/event/1/contributions/67/attachments/92/125/poster%20(2).pdf
+  snippet: One major goal in gravitational-wave (GW) astronomy is to get the source's
+    information as soon as the GW is detected.
+  category: Physics
+  doi: https://indico-icehap.phys.s.chiba-u.ac.jp/event/1/contributions/67/attachments/92/125/poster%20(2).pdf
+- id: 1632
+  created_at: 2025-11-09 01:09:16.019471
+  published_on: 2025-10-21
+  title: Simulation-Based Inference for Neutrino Interaction Model Tuning
+  publication_info_summary: KM Tame-Narvaez - 2025 - osti.gov
+  link: https://www.osti.gov/biblio/code-167867
+  snippet: "\u2026 This project demonstrates, for the first time, the application\
+    \ of simulation-based inference (SBI) techniques to tune neutrino\u2013nucleus\
+    \ interaction models. Using a mock \u2026"
+  journal: osti.gov
+  category: Computer Science
+  doi: https://www.osti.gov/biblio/code-167867
