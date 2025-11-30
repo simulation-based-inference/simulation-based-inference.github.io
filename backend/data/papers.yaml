@@ -15374,6 +15374,7 @@
     \ inference. In \u2026"
   journal: pure.psu.edu
   citation_backlink: https://scholar.google.com/scholar?cites=14170845920409917027
+  category: medicine - oncology
   doi: https://pure.psu.edu/en/publications/a-parameter-masked-mock-data-challenge-for-beyond-two-point-galax/
 - id: 1167
   created_at: 2024-05-12 00:48:09.161909
@@ -17313,6 +17314,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
+  category: medicine - oncology
   doi: https://cds.cern.ch/record/2943340
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17804,7 +17806,7 @@
   snippet: "Neural simulation-based inference (NSBI) is a powerful class of machine-learning-based\
     \ methods for statistical inference that naturally handles high-dimensional \u2026"
   journal: cris.fbk.eu
-  category: Neuroscience
+  category: Computer Science
   doi: https://cris.fbk.eu/handle/11582/363374
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -20965,8 +20967,8 @@
   title: Inductive Domain Transfer In Misspecified Simulation-Based Inference
   authors: "Ortal Senouf, Antoine Wehenkel, C\xE9dric Vincent-Cuaz, Emmanuel Abb\xE9\
     , Pascal Frossard"
-  publication_info_summary: "O Senouf, C Vincent-Cuaz, E Abb\xE9\u2026 - arXiv preprint\
-    \ arXiv \u2026, 2025 - arxiv.org"
+  publication_info_summary: "O Senouf, A Wehenkel, C Vincent-Cuaz, E Abb\xE9\u2026\
+    \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
   link: https://arxiv.org/abs/2508.15593
   snippet: "Simulation-based inference (SBI) is a statistical inference approach for\
     \ estimating latent parameters of a physical system when the likelihood is intractable\
@@ -21041,25 +21043,25 @@
   published_on: 2025-09-03
   title: Advances in Amortized Bayesian Inference, with Applications to Astronomy
   publication_info_summary: D McNamara - 2025 - deepblue.lib.umich.edu
-  link: https://deepblue.lib.umich.edu/handle/2027.42/199062
-  snippet: "\u2026 68 5 Simulation-Based Inference for Detecting Blending in Spectra\
-    \ . . . . . . . 71 \u2026 In this work, we present a simulation-based inference\
-    \ approach to detecting blends in \u2026"
+  link: https://deepblue.lib.umich.edu/items/1d19ced5-a0d7-41f0-aca0-1a0d1f9e05c3
+  snippet: "Approximate Bayesian methods provide a principled means for inference\
+    \ in settings in which exact posterior inference is intractable. In this work,\
+    \ I present methods for \u2026"
   journal: deepblue.lib.umich.edu
   category: Astronomy
-  doi: https://deepblue.lib.umich.edu/handle/2027.42/199062
+  doi: https://deepblue.lib.umich.edu/items/1d19ced5-a0d7-41f0-aca0-1a0d1f9e05c3
 - id: 1555
   created_at: 2025-09-07 01:05:14.686327
   published_on: 2025-09-03
   title: Methods for Weak Lensing Systematics in the Era of the Vera C. Rubin Observatory
   publication_info_summary: IS Mendoza Serrano - 2025 - deepblue.lib.umich.edu
-  link: https://deepblue.lib.umich.edu/handle/2027.42/199148
-  snippet: "\u2026 Simulation based inference (SBI) is a variational inference procedure\
-    \ which uses a \u2026 In Chapter 3 we present an application of simulation based\
-    \ inference to galaxy \u2026"
+  link: https://deepblue.lib.umich.edu/items/af985863-a6be-4613-916d-8d3c3f04ad6d
+  snippet: "\u2026 This novel method uses simulation based inference (SBI) to produce\
+    \ a probabilistic catalog of blended galaxies which captures corresponding measurement\
+    \ uncertainty. \u2026"
   journal: deepblue.lib.umich.edu
   category: Astrophysics
-  doi: https://deepblue.lib.umich.edu/handle/2027.42/199148
+  doi: https://deepblue.lib.umich.edu/items/af985863-a6be-4613-916d-8d3c3f04ad6d
 - id: 1556
   created_at: 2025-09-07 01:05:22.140031
   published_on: 2025-08-29
@@ -21348,13 +21350,13 @@
   published_on: 2025-09-13
   title: Multiscale Statistical Models for Understanding Tumor Microenvironment Heterogeneity
   publication_info_summary: J Eliason - 2025 - deepblue.lib.umich.edu
-  link: https://deepblue.lib.umich.edu/handle/2027.42/199179
-  snippet: "\u2026 Simulation-Based Inference for Mechanistic Tumor\u2013 Immune Modeling\
-    \ Lastly, this chapter explores simulation-based inference \u2026 with simulation-based\
-    \ inference in systems \u2026"
+  link: https://deepblue.lib.umich.edu/items/44110033-bc89-44ca-84f1-f5890b13bbbe
+  snippet: "\u2026 Finally, Chapter 7 explores simulation-based inference in mechanistic\
+    \ models of tumor\u2013immune dynamics, demonstrating the feasibility of applying\
+    \ amortized neural \u2026"
   journal: deepblue.lib.umich.edu
   category: medicine
-  doi: https://deepblue.lib.umich.edu/handle/2027.42/199179
+  doi: https://deepblue.lib.umich.edu/items/44110033-bc89-44ca-84f1-f5890b13bbbe
 - id: 1576
   created_at: 2025-09-21 01:06:04.662849
   published_on: 2025-09-10
@@ -21465,13 +21467,13 @@
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlVYNcGbx&sig=EwfKuRvZHgz_ZJ0EBQSBYEo9jvQ
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlWUO6Ocx&sig=5GYTh_ucmmUqZweB27hGdUF_9zU
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlVYNcGbx&sig=EwfKuRvZHgz_ZJ0EBQSBYEo9jvQ
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlWUO6Ocx&sig=5GYTh_ucmmUqZweB27hGdUF_9zU
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -21965,6 +21967,7 @@
     \ Simulation-based inference relies on a neural network, \u2026 Simulation-based\
     \ inference is naturally suited for \u2026"
   journal: aanda.org
+  citation_backlink: https://scholar.google.com/scholar?cites=4879962596628473457
   category: Astrophysics
   doi: https://www.aanda.org/articles/aa/abs/2025/10/aa55585-25/aa55585-25.html
 - id: 1619
@@ -22010,17 +22013,17 @@
   doi: https://joss.theoj.org/papers/10.21105/joss.08766.pdf
 - id: 1622
   created_at: 2025-11-02 01:08:22.475541
-  published_on: 2025-10-25
+  published_on: 2025-10-29
   title: XRISM constraints on the velocity power spectrum in the Coma cluster
-  publication_info_summary: "D Eckert, M Markevitch, JA ZuHone\u2026 - arXiv preprint\
-    \ arXiv \u2026, 2025 - aanda.org"
-  link: https://www.aanda.org/articles/aa/pdf/forth/aa56162-25.pdf
+  publication_info_summary: "D Eckert, M Markevitch, JA ZuHone\u2026 - Astronomy &\
+    \ \u2026, 2025 - aanda.org"
+  link: https://www.aanda.org/articles/aa/abs/2025/12/aa56162-25/aa56162-25.html
   snippet: "\u2026 Here we propose a simulation-based inference technique to retrieve\
     \ the properties of the velocity power spectrum from X-ray micro-calorimeter data\
     \ by generating \u2026"
   journal: aanda.org
-  category: Computer Science
-  doi: https://www.aanda.org/articles/aa/pdf/forth/aa56162-25.pdf
+  category: Astrophysics
+  doi: https://www.aanda.org/articles/aa/abs/2025/12/aa56162-25/aa56162-25.html
 - id: 1623
   created_at: 2025-11-02 01:08:27.850118
   published_on: 2025-10-24
@@ -22392,3 +22395,79 @@
   journal: APS
   category: Neuroscience
   doi: https://archive.aps.org/dnp/2025/2wk/2/
+- id: 1648
+  created_at: 2025-11-30 01:13:12.796650
+  published_on: 2025-11-25
+  title: Accelerating Bayesian inference with interpretable representations & normalizing
+    flows
+  publication_info_summary: "S Dupourqu\xE9, D Barret - \u2026 of the Annual meeting\
+    \ of the \u2026, 2025 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2025sf2a.conf..207D/abstract
+  snippet: "\u2026 In particular, simulation-based inference trains a normalising\
+    \ flow to learn a mapping between the parameter and observation space, and can\
+    \ be easily conditioned and \u2026"
+  journal: ui.adsabs.harvard.edu
+  doi: https://ui.adsabs.harvard.edu/abs/2025sf2a.conf..207D/abstract
+- id: 1649
+  created_at: 2025-11-30 01:13:18.367438
+  published_on: 2025-11-22
+  title: Are gradients worth the effort? Comparing automatic differentiation and simulation-based
+    inference for agent-based models
+  publication_info_summary: TJ Hitge, A Quera-Bofarull, E Semenova - openreview.net
+  link: https://openreview.net/forum?id=NVvUkYNYPK
+  snippet: "\u2026 2.1 Simulation-based inference. Simulation-based inference (SBI)\
+    \ provides Bayesian inference for complex simulators whose likelihood functions\
+    \ are intractable but from \u2026"
+  category: Computer Science
+  doi: https://openreview.net/forum?id=NVvUkYNYPK
+- id: 1650
+  created_at: 2025-11-30 01:13:25.012784
+  published_on: 2025-11-22
+  title: Latent Target Score Matching, with an application to Simulation-Based Inference
+  publication_info_summary: J Ko, T Geffner - joohwanko.com
+  link: https://joohwanko.com/files/Nips_MLPS.pdf
+  snippet: "\u2026 We evaluate LTSM on several simulation-based inference [28] tasks,\
+    \ where \u201Cgray-box\u201D models expose joint information over parameters,\
+    \ latents, and observations [4]. We \u2026"
+  category: Statistics
+  doi: https://joohwanko.com/files/Nips_MLPS.pdf
+- id: 1651
+  created_at: 2025-11-30 01:16:02.615742
+  published_on: 2025-11-02
+  title: Simulation-based inference of high-field side scrape-off layer filament characteristics
+    using density profile reflectometry
+  publication_info_summary: E Leppink, SJ Wukitch - Physics of Plasmas, 2025 - pubs.aip.org
+  link: https://pubs.aip.org/aip/pop/article/32/11/112507/3373526
+  snippet: "\u2026 This motivated the development of the technique described in this\
+    \ manuscript, which utilizes simulation-based inference, an HFS SOL filament model,\
+    \ and data from an \u2026"
+  journal: pubs.aip.org
+  category: Computer Science
+  doi: https://pubs.aip.org/aip/pop/article/32/11/112507/3373526
+- id: 1652
+  created_at: 2025-11-30 01:16:20.064030
+  published_on: 2025-10-26
+  title: The BIG SOBOL SEQUENCE How many simulations do we need for simulation-based
+    inference in cosmology?
+  publication_info_summary: A Bairagi, B Wandelt, F Villaescusa-Navarro - Astronomy
+    & Astrophysics, 2025 - aanda.org
+  link: https://www.aanda.org/articles/aa/abs/2025/11/aa54602-25/aa54602-25.html
+  snippet: "How many simulations do we need to train machine learning methods to extract\
+    \ information available from summary statistics of the cosmological density field?\
+    \ Neural \u2026"
+  journal: aanda.org
+  category: Astrophysics
+  doi: https://www.aanda.org/articles/aa/abs/2025/11/aa54602-25/aa54602-25.html
+- id: 1653
+  created_at: 2025-11-30 01:20:58.555285
+  published_on: 2025-09-13
+  title: Impact of astrophysical biases associated to Type Ia Supernovae on cosmological
+    parameters
+  publication_info_summary: M Ginolin-Budin - 2025 - theses.hal.science
+  link: https://theses.hal.science/tel-05385275/
+  snippet: "\u2026 cosmology-ready is key for the next generation of SN Ia surveys,\
+    \ such as the LSST, and for the next generation of cosmology pipelines, such as\
+    \ simulation-based inference\u2026"
+  journal: theses.hal.science
+  category: Computer Science
+  doi: https://theses.hal.science/tel-05385275/
