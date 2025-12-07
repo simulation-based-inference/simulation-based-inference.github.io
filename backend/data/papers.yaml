@@ -17314,7 +17314,6 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
-  category: medicine - oncology
   doi: https://cds.cern.ch/record/2943340
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17806,7 +17805,6 @@
   snippet: "Neural simulation-based inference (NSBI) is a powerful class of machine-learning-based\
     \ methods for statistical inference that naturally handles high-dimensional \u2026"
   journal: cris.fbk.eu
-  category: Computer Science
   doi: https://cris.fbk.eu/handle/11582/363374
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -21450,30 +21448,33 @@
   doi: https://link.springer.com/chapter/10.1007/978-3-032-05176-9_33
 - id: 1583
   created_at: 2025-10-05 01:06:16.257381
-  published_on: 2025-09-01
+  published_on: 2025-09-30
   title: Marginal Flow a flexible and efficient framework for density estimation
-  publication_info_summary: "M Massimo Negri, J Aellen, M Jahn\u2026 - arXiv e \u2026\
-    , 2025 - ui.adsabs.harvard.edu"
-  link: https://ui.adsabs.harvard.edu/abs/2025arXiv250926221M/abstract
-  snippet: "\u2026 We evaluate Marginal Flow extensively on various tasks including\
-    \ synthetic datasets, simulation-based inference, distributions on positive definite\
-    \ matrices and manifold \u2026"
-  journal: ui.adsabs.harvard.edu
+  authors: Marcello Massimo Negri, Jonathan Aellen, Manuel Jahn, AmirEhsan Khorashadizadeh,
+    Volker Roth
+  publication_info_summary: "MM Negri, J Aellen, M Jahn\u2026 - arXiv preprint arXiv\
+    \ \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2509.26221
+  snippet: "\u2026 Figure 14: Simulation-based inference benchmark: we show average\
+    \ and standard deviation over 10 different test observations. We compare our method\
+    \ against Free-\u2026"
+  journal: arxiv.org
+  arxiv_id: '2509.26221'
+  arxiv_category_tag: cs.LG
   category: oncology
-  doi: https://ui.adsabs.harvard.edu/abs/2025arXi50926221M/abstract
 - id: 1584
   created_at: 2025-10-05 01:06:21.383674
-  published_on: 2025-10-01
+  published_on: 2025-09-30
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlWUO6Ocx&sig=5GYTh_ucmmUqZweB27hGdUF_9zU
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlXQObNcG&sig=0Mo-uQCWVKjL1e0ol7lvA-MpRCg
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlWUO6Ocx&sig=5GYTh_ucmmUqZweB27hGdUF_9zU
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlXQObNcG&sig=0Mo-uQCWVKjL1e0ol7lvA-MpRCg
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -21581,6 +21582,7 @@
     \ for galaxy clustering analyses, and perform simulation-based inference using\
     \ normalizing flows to infer \u2026"
   journal: APS
+  citation_backlink: https://scholar.google.com/scholar?cites=1258840848411074134
   category: Astrophysics
   doi: https://journals.aps.org/prd/abstract/10.1103/9l4n-3pcx
 - id: 1592
@@ -22022,7 +22024,6 @@
     \ the properties of the velocity power spectrum from X-ray micro-calorimeter data\
     \ by generating \u2026"
   journal: aanda.org
-  category: Astrophysics
   doi: https://www.aanda.org/articles/aa/abs/2025/12/aa56162-25/aa56162-25.html
 - id: 1623
   created_at: 2025-11-02 01:08:27.850118
@@ -22167,13 +22168,13 @@
   published_on: 2025-11-19
   title: Machine learning for quantum sensing
   publication_info_summary: B MacLellan - 2025 - uwspace.uwaterloo.ca
-  link: https://uwspace.uwaterloo.ca/items/5678de4b-ccfc-4ced-81a9-b8c33bbd8ef0
+  link: https://uwspace.uwaterloo.ca/entities/publication/5678de4b-ccfc-4ced-81a9-b8c33bbd8ef0
   snippet: "\u2026 Next, we propose and demonstrate a simulation-based inference technique\
     \ for quantum sensing protocols, which maps observed data to estimated values\
     \ without the \u2026"
   journal: uwspace.uwaterloo.ca
   category: Computer Science
-  doi: https://uwspace.uwaterloo.ca/items/5678de4b-ccfc-4ced-81a9-b8c33bbd8ef0
+  doi: https://uwspace.uwaterloo.ca/entities/publication/5678de4b-ccfc-4ced-81a9-b8c33bbd8ef0
 - id: 1634
   created_at: 2025-11-23 01:13:39.021570
   published_on: 2025-11-17
@@ -22407,6 +22408,7 @@
     \ flow to learn a mapping between the parameter and observation space, and can\
     \ be easily conditioned and \u2026"
   journal: ui.adsabs.harvard.edu
+  category: Mathematics
   doi: https://ui.adsabs.harvard.edu/abs/2025sf2a.conf..207D/abstract
 - id: 1649
   created_at: 2025-11-30 01:13:18.367438
@@ -22422,15 +22424,15 @@
   doi: https://openreview.net/forum?id=NVvUkYNYPK
 - id: 1650
   created_at: 2025-11-30 01:13:25.012784
-  published_on: 2025-11-22
+  published_on: 2025-11-21
   title: Latent Target Score Matching, with an application to Simulation-Based Inference
-  publication_info_summary: J Ko, T Geffner - joohwanko.com
-  link: https://joohwanko.com/files/Nips_MLPS.pdf
+  publication_info_summary: J Ko, T Geffner - ml4physicalsciences.github.io
+  link: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_8.pdf
   snippet: "\u2026 We evaluate LTSM on several simulation-based inference [28] tasks,\
     \ where \u201Cgray-box\u201D models expose joint information over parameters,\
     \ latents, and observations [4]. We \u2026"
   category: Statistics
-  doi: https://joohwanko.com/files/Nips_MLPS.pdf
+  doi: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_8.pdf
 - id: 1651
   created_at: 2025-11-30 01:16:02.615742
   published_on: 2025-11-02
@@ -22471,3 +22473,191 @@
   journal: theses.hal.science
   category: Computer Science
   doi: https://theses.hal.science/tel-05385275/
+- id: 1654
+  created_at: 2025-12-07 01:13:36.592150
+  published_on: 2025-12-04
+  title: The dynamical memory of tidal stellar streams Joint inference of the Galactic
+    potential and the progenitor of GD-1 with flow matching
+  authors: Giuseppe Viterbo, Tobias Buck
+  publication_info_summary: G Viterbo, T Buck - arXiv preprint arXiv:2512.04600, 2025
+    - arxiv.org
+  link: https://arxiv.org/abs/2512.04600
+  snippet: "1 day ago - \u2026 In this work, we introduce a framework that leverages\
+    \ Flow Matching and Simulation-Based Inference (SBI) to jointly infer the parameters\
+    \ of the GD-1 progenitor and the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.04600'
+  arxiv_category_tag: astro-ph.GA
+  category: medicine - oncology
+- id: 1655
+  created_at: 2025-12-07 01:13:42.809993
+  published_on: 2025-12-02
+  title: Assessment of Simulation-based Inference Methods for Stochastic Compartmental
+    Models
+  authors: "Vincent Wieland, Nils Wassmuth, Lorenzo Contento, Martin K\xFChn, Jan\
+    \ Hasenauer"
+  publication_info_summary: "V Wieland, N Wassmuth, L Contento, M K\xFChn\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2512.02528
+  snippet: "\u2026 Additionally, as these methods require massive numbers of simulations,\
+    \ more recent machine learning approaches have been adapted for simulation-based\
+    \ inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.02528'
+  arxiv_category_tag: q-bio.QM
+  category: Quantitative Biology
+- id: 1656
+  created_at: 2025-12-07 01:13:49.023818
+  published_on: 2025-12-02
+  title: Simulation-Based Inference of Ginzburg--Landau Parameters in Type--1.5 Superconductors
+  authors: Jung-Shen Kao
+  publication_info_summary: JS Kao - arXiv preprint arXiv:2512.02411, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2512.02411
+  snippet: "\u2026 We address this challenge by combining a differentiable TDGL solver\
+    \ with simulation-based inference (SBI). Our approach treats the solver as a stochastic\
+    \ forward model \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.02411'
+  arxiv_category_tag: cond-mat.supr-con
+  category: Physics
+- id: 1657
+  created_at: 2025-12-07 01:13:55.096843
+  published_on: 2025-12-02
+  title: Simulation and inference methods for non-Markovian stochastic biochemical
+    reaction networks
+  authors: Thomas P. Steele, David J. Warne
+  publication_info_summary: TP Steele, DJ Warne - arXiv preprint arXiv:2512.02478,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2512.02478
+  snippet: "\u2026 Due to the likelihood intractability, we rely on so-called likelihood-free\
+    \ inference methods, also known as simulation-based inference. These methods rely\
+    \ on large \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.02478'
+  arxiv_category_tag: q-bio.MN
+  category: Quantitative Biology
+- id: 1658
+  created_at: 2025-12-07 01:14:01.477851
+  published_on: 2025-11-29
+  title: Simulation based-inference of epidemiological and phylodynamic models via
+    Neural Posterior Estimation
+  authors: Pinotti, F.; Theze, J.; Bailly, X.; Fournie, G.
+  publication_info_summary: "F Pinotti, J Th\xE9z\xE9, X Bailly, G Fourni\xE9 - bioRxiv,\
+    \ 2025 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.1101/2025.11.25.690436.abstract
+  snippet: "\u2026 Simulation-based inference (SBI) offers a powerful alternative\
+    \ by leveraging model simulations in place of explicit likelihood evaluations.\
+    \ However, traditional SBI \u2026"
+  journal: biorxiv.org
+  category: Systems biology
+  doi: 10.1101/2025.11.25.690436
+- id: 1659
+  created_at: 2025-12-07 01:14:07.739018
+  published_on: 2025-11-28
+  title: The Shear-to-Cosmology Paradigm I Hybrid Field-Level and Simulation-Based
+    Framework for Weak Lensing Surveys
+  authors: Jiacheng Ding, Chen Su, Ji Yao, Le Zhang, Huanyuan Shan
+  publication_info_summary: J Ding, C Su, J Yao, L Zhang, H Shan - arXiv preprint
+    arXiv:2511.22851, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2511.22851
+  snippet: "\u2026 We present a hybrid machine-learning (ML) framework that integrates\
+    \ field-level inference (FLI) with simulation-based inference (SBI) to map observed\
+    \ shear fields directly \u2026"
+  journal: arxiv.org
+  arxiv_id: '2511.22851'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1660
+  created_at: 2025-12-07 01:14:13.176593
+  published_on: 2025-11-27
+  title: Robust Halo Masses using HaloFlow with Domain Adaptation
+  publication_info_summary: N Garuda, CH Hahn, C Bottrell, KG Lee - ml4physicalsciences.github.io
+  link: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_297.pdf
+  snippet: "\u2026 To overcome these challenges, we use HaloFlow1 [19], a simulation-based\
+    \ inference (SBI) framework that leverages photometric and morphological information\
+    \ of \u2026"
+  category: Physics
+  doi: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_297.pdf
+- id: 1661
+  created_at: 2025-12-07 01:14:20.488391
+  published_on: 2025-11-27
+  title: A Preliminary Study into the Conceptual Design of Aircraft using Simulation-Based
+    Inference
+  publication_info_summary: "A Ghiglino, D Elenius, A Roy, R Kaur, M Acharya\u2026\
+    \ - ml4physicalsciences.github.io"
+  link: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_88.pdf
+  snippet: "\u2026 In this work, we show that simulation-based inference (SBI) is\
+    \ especially suited to accelerating this design process as it enables sampling\
+    \ from conditional distributions. \u2026"
+  category: Engineering
+  doi: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_88.pdf
+- id: 1662
+  created_at: 2025-12-07 01:14:27.318921
+  published_on: 2025-11-27
+  title: "Vision Transformers for Cosmological Fields Application to Weak Lensing\
+    \ \u03BA Maps"
+  publication_info_summary: J Kakadia, S Agrawal, K Zhong, B Jain - ml4physicalsciences.github.io
+  link: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_218.pdf
+  snippet: "\u2026 In Section 2, we introduce simulation-based inference, how vision\
+    \ models can be used to constrain cosmology from the field level, the simulations\
+    \ we use, and how we \u2026"
+  category: Physics
+  doi: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_218.pdf
+- id: 1663
+  created_at: 2025-12-07 01:14:33.169735
+  published_on: 2025-11-27
+  title: Continuous Representations of Baryonic Feedback for Robust Inference from
+    Multiple Simulation Suites
+  publication_info_summary: MS Liu, C Cuesta-Lazaro - ml4physicalsciences.github.io
+  link: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_362.pdf
+  snippet: "\u2026 Current simulation-based inference approaches rely therefore on\
+    \ discrete sets of simulators, each encoding specific physical assumptions, making\
+    \ it difficult to robustly \u2026"
+  category: Physics
+  doi: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_362.pdf
+- id: 1664
+  created_at: 2025-12-07 01:14:40.267770
+  published_on: 2025-11-26
+  title: A Simulation-Based Inference Framework for Robust Quantitative Spectroscopy
+    in Complex Media
+  publication_info_summary: GI Oyarzo, A Roberts - anzcop25.blogs.auckland.ac.nz
+  link: https://anzcop25.blogs.auckland.ac.nz/files/2025/11/PA-08.pdf
+  snippet: "\u2026 This work presents PRISM-Net (Physics-Regularised Inference for\
+    \ Spectral Modelling), a framework that addresses both challenges using simulation-based\
+    \ inference (SBI)\u2026"
+  category: Physics
+  doi: https://anzcop25.blogs.auckland.ac.nz/files/2025/11/PA-08.pdf
+- id: 1665
+  created_at: 2025-12-07 01:14:45.858472
+  published_on: 2025-11-26
+  title: Tokenised Flow Matching for Hierarchical Simulation Based Inference
+  publication_info_summary: G Charles, S Flaxman, O Watson, E Semenova - openreview.net
+  link: https://openreview.net/forum?id=wzEidr3JMm
+  snippet: "\u2026 In Simulation Based Inference, we we would like to estimate a posterior\
+    \ distribution over some parameters \u03B8 given observational data y: p(\u03B8\
+    |y) \u221D p(y|\u03B8)p(\u03B8). There is no \u2026"
+  category: Engineering
+  doi: https://openreview.net/forum?id=wzEidr3JMm
+- id: 1666
+  created_at: 2025-12-07 01:14:52.457617
+  published_on: 2025-11-25
+  title: Basics of simulation-based inference
+  publication_info_summary: NA Montel - 2025 - wwwmpa.mpa-garching.mpg.de
+  link: https://wwwmpa.mpa-garching.mpg.de/~komatsu/lecturenotes/Noemi_Anau_Montel_on_SBI.pdf
+  snippet: "Science involves connecting theoretical models to empirical observations.\
+    \ This connection can be viewed in two complementary directions: the forward problem\
+    \ of \u2026"
+  journal: wwwmpa.mpa-garching.mpg.de
+  category: Computer Science
+  doi: https://wwwmpa.mpa-garching.mpg.de/~komatsu/lecturenotes/Noemi_Anau_Montel_on_SBI.pdf
+- id: 1667
+  created_at: 2025-12-07 01:15:04.866100
+  published_on: 2025-11-24
+  title: Telescoping ratio estimation for Simulation-based Inference
+  publication_info_summary: D Leonte, R Huser, A Veraart - cmu.edu
+  link: https://www.cmu.edu/dietrich/statistics-datascience/stamps/images/cmu_workshop_poster_leonte.pdf
+  snippet: "\u2026 Telescoping ratio estimation for Simulation-based Inference \u2026\
+    \ We propose a fast, MCMC-free, sampleefficient Simulation-based Inference (SBI)\
+    \ approach for the \u2026"
+  category: Mathematics
+  doi: https://www.cmu.edu/dietrich/statistics-datascience/stamps/images/cmu_workshop_poster_leonte.pdf
