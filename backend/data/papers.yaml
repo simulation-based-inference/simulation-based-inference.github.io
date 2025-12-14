@@ -17314,6 +17314,7 @@
     \ learning (ML)-based methods for statistical inference that naturally handle\
     \ high dimensional \u2026"
   journal: cds.cern.ch
+  category: Physics
   doi: https://cds.cern.ch/record/2943340
 - id: 1301
   created_at: 2024-11-17 01:02:25.487604
@@ -17805,6 +17806,7 @@
   snippet: "Neural simulation-based inference (NSBI) is a powerful class of machine-learning-based\
     \ methods for statistical inference that naturally handles high-dimensional \u2026"
   journal: cris.fbk.eu
+  category: Physics
   doi: https://cris.fbk.eu/handle/11582/363374
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -21114,9 +21116,9 @@
   publication_info_summary: B Sen, A Datta - arXiv preprint arXiv:2509.06834, 2025
     - arxiv.org
   link: https://arxiv.org/abs/2509.06834
-  snippet: "\u2026 Instead, Simulation-Based Inference (SBI) replaces explicit likelihoods\
-    \ with neural estimators trained on simulations. Within SBI, Marginal Neural Ratio\
-    \ Estimation (MNRE) \u2026"
+  snippet: "The 21-cm line of neutral hydrogen is a promising probe of the early Universe,\
+    \ yet extracting astrophysical parameters from its power spectrum remains a major\
+    \ challenge. \u2026"
   journal: arxiv.org
   arxiv_id: '2509.06834'
   arxiv_category_tag: astro-ph.CO
@@ -21468,13 +21470,13 @@
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlXQObNcG&sig=0Mo-uQCWVKjL1e0ol7lvA-MpRCg
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlXWP6M6E&sig=cn2uldTgEUqBYjgdekmLUVMx4sQ
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlXQObNcG&sig=0Mo-uQCWVKjL1e0ol7lvA-MpRCg
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlXWP6M6E&sig=cn2uldTgEUqBYjgdekmLUVMx4sQ
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -21833,9 +21835,9 @@
   publication_info_summary: M Du, W Wang, J Tan, J Barido-Sottani - bioRxiv, 2025
     - biorxiv.org
   link: https://www.biorxiv.org/content/10.1101/2025.10.20.683352.abstract
-  snippet: "\u2026 is the use of machine learning for simulation-based inference to\
-    \ estimate parameters \u2026 A key lesson from our study for simulation-based\
-    \ inference is the critical importance \u2026"
+  snippet: "\u2026 challenges and lessons learned for simulation-based inference in\
+    \ phylodynamics. \u2026 A key lesson from our study for simulation-based inference\
+    \ is the critical importance of \u2026"
   journal: biorxiv.org
   category: Evolutionary biology
   doi: 10.1101/2025.10.20.683352
@@ -22024,6 +22026,7 @@
     \ the properties of the velocity power spectrum from X-ray micro-calorimeter data\
     \ by generating \u2026"
   journal: aanda.org
+  category: Physics
   doi: https://www.aanda.org/articles/aa/abs/2025/12/aa56162-25/aa56162-25.html
 - id: 1623
   created_at: 2025-11-02 01:08:27.850118
@@ -22408,7 +22411,7 @@
     \ flow to learn a mapping between the parameter and observation space, and can\
     \ be easily conditioned and \u2026"
   journal: ui.adsabs.harvard.edu
-  category: Mathematics
+  category: Physics
   doi: https://ui.adsabs.harvard.edu/abs/2025sf2a.conf..207D/abstract
 - id: 1649
   created_at: 2025-11-30 01:13:18.367438
@@ -22482,9 +22485,9 @@
   publication_info_summary: G Viterbo, T Buck - arXiv preprint arXiv:2512.04600, 2025
     - arxiv.org
   link: https://arxiv.org/abs/2512.04600
-  snippet: "1 day ago - \u2026 In this work, we introduce a framework that leverages\
-    \ Flow Matching and Simulation-Based Inference (SBI) to jointly infer the parameters\
-    \ of the GD-1 progenitor and the \u2026"
+  snippet: "\u2026 In this work, we introduce a framework that leverages Flow Matching\
+    \ and Simulation-Based Inference (SBI) to jointly infer the parameters of the\
+    \ GD-1 progenitor and the \u2026"
   journal: arxiv.org
   arxiv_id: '2512.04600'
   arxiv_category_tag: astro-ph.GA
@@ -22661,3 +22664,132 @@
     \ approach for the \u2026"
   category: Mathematics
   doi: https://www.cmu.edu/dietrich/statistics-datascience/stamps/images/cmu_workshop_poster_leonte.pdf
+- id: 1668
+  created_at: 2025-12-14 01:14:00.600634
+  published_on: 2025-12-12
+  title: "Measurement of off-shell Higgs boson production in the decay channel using\
+    \ a neural simulation-based inference technique in 13 TeV pp collisions \u2026"
+  publication_info_summary: W Przygoda, Y Volkotrub - 2025 - ruj.uj.edu.pl
+  link: https://ruj.uj.edu.pl/entities/publication/fcfdfbff-bcc1-424a-a166-4a12271dbd57
+  snippet: "\u2026 The data analysis is performed using a neural simulation-based\
+    \ inference method, which builds per-event likelihood ratios using neural networks.\
+    \ The observed (expected\u2026"
+  journal: ruj.uj.edu.pl
+  doi: https://ruj.uj.edu.pl/entities/publication/fcfdfbff-bcc1-424a-a166-4a12271dbd57
+- id: 1669
+  created_at: 2025-12-14 01:14:07.130709
+  published_on: 2025-12-09
+  title: PolySwyft sequential simulation-based nested sampling
+  authors: Kilian H. Scheutwinkel, Will Handley, Christoph Weniger, Eloy de Lera Acedo
+  publication_info_summary: "KH Scheutwinkel, W Handley, C Weniger\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2512.08316
+  snippet: "\u2026 Abstract We present PolySwyft, a novel, non-amortised simulation-based\
+    \ inference framework that unites the strengths of nested sampling (NS) and neural\
+    \ ratio estimation \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.08316'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1670
+  created_at: 2025-12-14 01:14:12.784366
+  published_on: 2025-12-11
+  title: AI for Cognitive Science Scaling Bayesian Modeling with Deep Learning
+  publication_info_summary: "L Elsem\xFCller - 2025 - archiv.ub.uni-heidelberg.de"
+  link: https://archiv.ub.uni-heidelberg.de/volltextserver/37739/
+  snippet: "\u2026 (ii) Bayesian inference as a principled statistical framework for\
+    \ specifying and updating our knowledge about such formal cognitive models, (iii)\
+    \ simulation-based inference \u2026"
+  journal: archiv.ub.uni-heidelberg.de
+  category: Computer Science
+  doi: https://archiv.ub.uni-heidelberg.de/volltextserver/37739/
+- id: 1671
+  created_at: 2025-12-14 01:14:19.433193
+  published_on: 2025-12-06
+  title: Network inference via approximate Bayesian computation. Illustration on a
+    stochastic multipopulation neural mass model
+  publication_info_summary: "S Ditlevsen, M Tamborrino\u2026 - The Annals of Applied\
+    \ \u2026, 2025 - projecteuclid.org"
+  link: https://projecteuclid.org/journals/annals-of-applied-statistics/volume-19/issue-4/Network-inference-via-approximate-Bayesian-computation-Illustration-on-a-stochastic/10.1214/25-AOAS2084.short
+  snippet: "This supplementary material contains three sections. In Section 1, we\
+    \ detail the derivation of the numerical splitting method, which is summarized\
+    \ in Algorithm 2 and used \u2026"
+  journal: projecteuclid.org
+  citation_backlink: https://scholar.google.com/scholar?cites=4848623360653566518
+  category: Neuroscience
+  doi: https://projecteuclid.org/journals/annals-of-applied-statistics/volume-19/issue-4/Network-inference-via-approximate-Bayesian-computation-Illustration-on-a-stochastic/10.1214/25-AOAS2084
+- id: 1672
+  created_at: 2025-12-14 01:14:26.077970
+  published_on: 2025-12-06
+  title: Neural Bayes estimation and selection of complex bivariate extremal dependence
+    models
+  publication_info_summary: "LM Andr\xE9, JL Wadsworth, R Huser - Extremes, 2025 -\
+    \ Springer"
+  link: https://link.springer.com/article/10.1007/s10687-025-00521-8
+  snippet: "Likelihood-free approaches are appealing for performing inference on complex\
+    \ dependence models, either because it is not possible to formulate a likelihood\
+    \ function, or \u2026"
+  journal: Springer
+  category: Mathematics
+  doi: https://link.springer.com/article/10.1007/s10687-025-00521-8
+- id: 1673
+  created_at: 2025-12-14 01:14:33.634499
+  published_on: 2025-12-05
+  title: Machine Learning-Informed 3+1 Sterile Neutrino Global Fits using Posterior
+    Density Estimation of Electron Disappearance Data
+  authors: Joshua Villarreal, Julia Woodward, John Hardin, Janet Conrad
+  publication_info_summary: "J Villarreal, J Woodward, J Hardin, J Conrad - arXiv\
+    \ preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2512.05784
+  snippet: "\u2026 Techniques from the machine learning subfield of simulation-based\
+    \ inference have a natural application to such a problem. In this contribution,\
+    \ we illustrate some of the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.05784'
+  arxiv_category_tag: hep-ph
+  category: Physics
+- id: 1674
+  created_at: 2025-12-14 01:14:46.353080
+  published_on: 2025-12-04
+  title: Black-hole ringdown with templates capturing spin precession a critical re-analysis
+    of GW190521
+  authors: Chiara Anselmo, Costantino Pacilio, Davide Gerosa
+  publication_info_summary: C Anselmo, C Pacilio, D Gerosa - arXiv preprint arXiv:2512.05193,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2512.05193
+  snippet: "\u2026 In this paper, we implement a recently developed amplitude model\
+    \ that captures spin precession in a simulation-based inference pipeline that\
+    \ specifically targets ringdown \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.05193'
+  arxiv_category_tag: gr-qc
+  category: Physics
+- id: 1675
+  created_at: 2025-12-14 01:14:52.821315
+  published_on: 2025-12-04
+  title: Neural posterior estimation for population genetics
+  publication_info_summary: J Min, Y Ning, NS Pope, F Baumdicker, AD Kern - bioRxiv,
+    2025 - biorxiv.org
+  link: https://www.biorxiv.org/content/biorxiv/early/2025/12/02/2025.12.01.691638.full.pdf
+  snippet: "\u2026 To date, the most popular approaches to simulation-based inference\
+    \ in population \u2026 Here we apply a recently developed method for simulation-based\
+    \ inference of the \u2026"
+  journal: biorxiv.org
+  category: biological sciences
+  doi: biorxiv/early/2025/12/02/2025.12.01.691638.pdf
+- id: 1676
+  created_at: 2025-12-14 01:15:32.078547
+  published_on: 2025-12-08
+  title: Vision Transformers for Cosmological Fields Application to Weak Lensing Mass
+    Maps
+  authors: Jash Kakadia, Shubh Agrawal, Kunhao Zhong, Bhuvnesh Jain
+  publication_info_summary: J Kakadia, S Agrawal, K Zhong, B Jain - arXiv preprint
+    arXiv:2512.07125, 2025 - arxiv.org
+  link: https://arxiv.org/abs/2512.07125
+  snippet: "\u2026 In Section 2, we introduce simulation-based inference, how vision\
+    \ models can be used to constrain cosmology from the field level, the simulations\
+    \ we use, and how we \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.07125'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
