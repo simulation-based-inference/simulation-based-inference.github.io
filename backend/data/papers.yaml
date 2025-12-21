@@ -21470,13 +21470,13 @@
   title: A Real-Time Digital Twin for Type 1 Diabetes Using Simulation-Based
   publication_info_summary: "TD Hoang, A Bissoto, VV Naik - Digital Twin for Healthcare:\
     \ First \u2026, 2025 - books.google.com"
-  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlXWP6M6E&sig=cn2uldTgEUqBYjgdekmLUVMx4sQ
+  link: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlYSPbKfx&sig=c3z9_Qw7mvVTS6oDnKCB6H06Zm4
   snippet: "\u2026 In this study, we propose a Simulation-Based Inference approach\
     \ based on Neural Posterior Estimation to efficiently capture the complex relationships\
     \ between meal \u2026"
   journal: books.google.com
   category: healthcare
-  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlXWP6M6E&sig=cn2uldTgEUqBYjgdekmLUVMx4sQ
+  doi: https://books.google.com/books?hl=en&lr=&id=ZNWKEQAAQBAJ&oi=fnd&pg=PA35&dq=%22simulation-based%2Binference%22&ots=cXlYSPbKfx&sig=c3z9_Qw7mvVTS6oDnKCB6H06Zm4
 - id: 1585
   created_at: 2025-10-05 01:06:28.612064
   published_on: 2025-09-29
@@ -21782,6 +21782,7 @@
     \ case: simulation-based inference for estimating \u2026 sets to mimic simulation-based\
     \ inference: a Training Set \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=9925750144306663026
   arxiv_id: '2510.09748'
   arxiv_category_tag: astro-ph.IM
   category: Astrophysics
@@ -22026,6 +22027,7 @@
     \ the properties of the velocity power spectrum from X-ray micro-calorimeter data\
     \ by generating \u2026"
   journal: aanda.org
+  citation_backlink: https://scholar.google.com/scholar?cites=13190640638506201497
   category: Physics
   doi: https://www.aanda.org/articles/aa/abs/2025/12/aa56162-25/aa56162-25.html
 - id: 1623
@@ -22587,13 +22589,13 @@
   title: A Preliminary Study into the Conceptual Design of Aircraft using Simulation-Based
     Inference
   publication_info_summary: "A Ghiglino, D Elenius, A Roy, R Kaur, M Acharya\u2026\
-    \ - ml4physicalsciences.github.io"
-  link: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_88.pdf
+    \ - brianmatejek.com"
+  link: https://www.brianmatejek.com/assets/pdfs/research/workshop_papers/ghiglino2025preliminary.pdf
   snippet: "\u2026 In this work, we show that simulation-based inference (SBI) is\
     \ especially suited to accelerating this design process as it enables sampling\
     \ from conditional distributions. \u2026"
   category: Engineering
-  doi: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_88.pdf
+  doi: https://www.brianmatejek.com/assets/pdfs/research/workshop_papers/ghiglino2025preliminary.pdf
 - id: 1662
   created_at: 2025-12-07 01:14:27.318921
   published_on: 2025-11-27
@@ -22675,6 +22677,7 @@
     \ inference method, which builds per-event likelihood ratios using neural networks.\
     \ The observed (expected\u2026"
   journal: ruj.uj.edu.pl
+  category: Physics
   doi: https://ruj.uj.edu.pl/entities/publication/fcfdfbff-bcc1-424a-a166-4a12271dbd57
 - id: 1669
   created_at: 2025-12-14 01:14:07.130709
@@ -22768,15 +22771,16 @@
   created_at: 2025-12-14 01:14:52.821315
   published_on: 2025-12-04
   title: Neural posterior estimation for population genetics
+  authors: Min, J.; Ning, Y.; Pope, N. S.; Baumdicker, F.; Kern, A. D.
   publication_info_summary: J Min, Y Ning, NS Pope, F Baumdicker, AD Kern - bioRxiv,
     2025 - biorxiv.org
-  link: https://www.biorxiv.org/content/biorxiv/early/2025/12/02/2025.12.01.691638.full.pdf
+  link: https://www.biorxiv.org/content/10.64898/2025.12.01.691638v1?med=mas
   snippet: "\u2026 To date, the most popular approaches to simulation-based inference\
     \ in population \u2026 Here we apply a recently developed method for simulation-based\
     \ inference of the \u2026"
   journal: biorxiv.org
   category: biological sciences
-  doi: biorxiv/early/2025/12/02/2025.12.01.691638.pdf
+  doi: 10.64898/2025.12.01.691638
 - id: 1676
   created_at: 2025-12-14 01:15:32.078547
   published_on: 2025-12-08
@@ -22792,4 +22796,111 @@
   journal: arxiv.org
   arxiv_id: '2512.07125'
   arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1677
+  created_at: 2025-12-21 01:13:35.295204
+  published_on: 2025-12-18
+  title: Simulation-based inference with neural posterior estimation applied to X-ray
+    spectral fitting - III Deriving exact posteriors with dimension reduction and
+    importance sampling
+  authors: "Didier Barret, Simon Dupourqu\xE9"
+  publication_info_summary: "D Barret, S Dupourqu\xE9 - arXiv preprint arXiv:2512.16709,\
+    \ 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2512.16709
+  snippet: "1 day ago - \u2026 We successfully applied simulation-based inference\
+    \ with neural posterior estimation \u2026 As part of these earlier studies, we\
+    \ released SIXSA (Simulation-based Inference for X-\u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.16709'
+  arxiv_category_tag: astro-ph.IM
+  category: Physics
+- id: 1678
+  created_at: 2025-12-21 01:13:41.561678
+  published_on: 2025-12-18
+  title: Robust CMB B-mode analysis with Needlet-ILC and simulation-based inference
+  authors: Adriaan J. Duivenvoorden, Kristen Surrao, Adrian E. Bayer, Alexandre E.
+    Adler, Nadia Dachlythra, Susanna Azzoni, J. Colin Hill
+  publication_info_summary: "AJ Duivenvoorden, K Surrao, AE Bayer\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2512.16869
+  snippet: "1 day ago - \u2026 Our method uses simulation-based inference combined\
+    \ with the needlet internal linear combination (NILC) algorithm and cross-correlation-based\
+    \ statistics to compress \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.16869'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1679
+  created_at: 2025-12-21 01:13:47.803114
+  published_on: 2025-12-13
+  title: AGN X-ray Reflection Spectroscopy with ML MYTORUSNeural Posterior Estimation
+    with Training on Observation-Driven Parameter Grids
+  authors: Ingrid Vanessa Daza-Perilla
+  publication_info_summary: IV Daza-Perilla - arXiv preprint arXiv:2512.12155, 2025
+    - arxiv.org
+  link: https://arxiv.org/abs/2512.12155
+  snippet: "\u2026 Only a few authors have successfully tackled this specific problem\
+    \ by applying Simulation-Based Inference (SBI) with Neural Posterior Estimation\
+    \ (NPE), showing \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.12155'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1680
+  created_at: 2025-12-21 01:13:53.358695
+  published_on: 2025-12-14
+  title: Extraction of Drell-Yan Angular Coefficients Using Neural Ratio Estimation
+    in pp Collisions at 120 GeV Beam Energy
+  publication_info_summary: DDNB Mohottalalage - 2025 - search.proquest.com
+  link: https://search.proquest.com/openview/44d8a121d5d1d727cb7a348dda664935/1?pq-origsite=gscholar&cbl=18750&diss=y
+  snippet: "\u2026 To address this, we employ simulation-based inference (SBI), a\
+    \ likelihood-free approach that leverages simulations to estimate posterior distributions.\
+    \ Specifically, we use \u2026"
+  journal: search.proquest.com
+  category: Physics
+  doi: https://search.proquest.com/openview/44d8a121d5d1d727cb7a348dda664935/1?pq-origsite=gscholar&cbl=18750&diss=y
+- id: 1681
+  created_at: 2025-12-21 01:14:00.753635
+  published_on: 2025-12-13
+  title: Learning optimal summary statistics of galaxy catalogs with SBI
+  publication_info_summary: "K Lehman, S Krippendorf, J Weller\u2026 - Journal of\
+    \ Cosmology \u2026, 2025 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.1088/1475-7516/2025/12/032/meta
+  snippet: "\u2026 Using simulation based inference (SBI) with automatic data-compression,\
+    \ we learn summary statistics for galaxy catalogs in the context of cosmological\
+    \ parameter \u2026"
+  journal: iopscience.iop.org
+  category: Astrophysics
+  doi: https://iopscience.iop.org/article/10.1088/1475-7516/2025/12/032/meta
+- id: 1682
+  created_at: 2025-12-21 01:14:08.681874
+  published_on: 2025-12-12
+  title: Transformer Embeddings for Fast Microlensing Inference
+  authors: Nolan Smyth, Laurence Perreault-Levasseur, Yashar Hezaveh
+  publication_info_summary: "N Smyth, L Perreault-Levasseur, Y Hezaveh - arXiv preprint\
+    \ arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2512.11687
+  snippet: "\u2026 We present a pipeline for this task using simulation-based inference.\
+    \ We use a Transformer encoder to learn a compressed summary representation of\
+    \ the raw time-series \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.11687'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1683
+  created_at: 2025-12-21 01:14:14.905820
+  published_on: 2025-12-11
+  title: Stellar masses and mass ratios for Gaia open cluster members
+  authors: "Sagar Malhotra, Alfred Castro-Ginard, Friedrich Anders, Carme Jordi, Judit\
+    \ Donada, Xavier Luri, Lola Balaguer-N\xFA\xF1ez, Songmei Qin, Yueyue Jiang, Andrija\
+    \ \u017Dupi\u0107"
+  publication_info_summary: "S Malhotra, A Castro-Ginard, F Anders, C Jordi\u2026\
+    \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2512.10616
+  snippet: "\u2026 Gaia DR3 parallaxes together with multi-band photometry of open\
+    \ cluster (OC) members to infer stellar masses and binary mass-ratios through\
+    \ simulation-based inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.10616'
+  arxiv_category_tag: astro-ph.GA
   category: Astrophysics
