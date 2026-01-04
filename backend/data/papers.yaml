@@ -21751,6 +21751,7 @@
     \ disciplines, enabling Bayesian inference for complex systems where the likelihood\
     \ function p(x | \u03B8\u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=12583420878768673797
   arxiv_id: '2510.13763'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -21765,6 +21766,7 @@
     \ from complex, non-Gaussian distributions where analytical likelihoods fail,\
     \ enabling field-level \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=14096393039554251233
   arxiv_id: '2510.10713'
   arxiv_category_tag: astro-ph.IM
   category: Astrophysics
@@ -21897,6 +21899,7 @@
     \ applied sciences for estimating the parameters of stochastic models that best\
     \ explain \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=6045240520221411063
   arxiv_id: '2510.15817'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -22130,6 +22133,7 @@
     \ (SBI) methodology, followed by a detailed description of the experimental procedures\
     \ used to obtain \u2026"
   journal: nature.com
+  citation_backlink: https://scholar.google.com/scholar?cites=5628680374839915289
   category: medical sciences
   doi: https://www.nature.com/articles/s41598-025-22164-2
 - id: 1630
@@ -22292,8 +22296,9 @@
   created_at: 2025-11-23 01:14:29.240224
   published_on: 2025-11-11
   title: Modeling multi-agent motion dynamics in immersive rooms
-  authors: Mincong, Huang, Stefan T. Radev
-  publication_info_summary: ST Radev - arXiv preprint arXiv:2511.08763, 2025 - arxiv.org
+  authors: Jerry M. Huang, Stefan T. Radev
+  publication_info_summary: JM Huang, ST Radev - arXiv preprint arXiv:2511.08763,
+    2025 - arxiv.org
   link: https://arxiv.org/abs/2511.08763
   snippet: "\u2026 Further, we leverage simulation-based inference (SBI) to show that\
     \ the governing parameters of motion patterns can be estimated from simple observables.\
@@ -22431,11 +22436,14 @@
   created_at: 2025-11-30 01:13:25.012784
   published_on: 2025-11-21
   title: Latent Target Score Matching, with an application to Simulation-Based Inference
-  publication_info_summary: J Ko, T Geffner - ml4physicalsciences.github.io
+  publication_info_summary: "J Ko, T Geffner - Machine Learning and the Physical \u2026\
+    , 2025 - ml4physicalsciences.github.io"
   link: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_8.pdf
   snippet: "\u2026 We evaluate LTSM on several simulation-based inference [28] tasks,\
     \ where \u201Cgray-box\u201D models expose joint information over parameters,\
     \ latents, and observations [4]. We \u2026"
+  journal: ml4physicalsciences.github.io
+  citation_backlink: https://scholar.google.com/scholar?cites=3578500811633542606
   category: Statistics
   doi: https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_8.pdf
 - id: 1651
@@ -22491,6 +22499,7 @@
     \ and Simulation-Based Inference (SBI) to jointly infer the parameters of the\
     \ GD-1 progenitor and the \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=6675445629255707847
   arxiv_id: '2512.04600'
   arxiv_category_tag: astro-ph.GA
   category: medicine - oncology
@@ -22636,11 +22645,14 @@
   created_at: 2025-12-07 01:14:45.858472
   published_on: 2025-11-26
   title: Tokenised Flow Matching for Hierarchical Simulation Based Inference
-  publication_info_summary: G Charles, S Flaxman, O Watson, E Semenova - openreview.net
+  publication_info_summary: "G Charles, S Flaxman, O Watson\u2026 - of Frontiers in\
+    \ \u2026, 2025 - openreview.net"
   link: https://openreview.net/forum?id=wzEidr3JMm
   snippet: "\u2026 In Simulation Based Inference, we we would like to estimate a posterior\
     \ distribution over some parameters \u03B8 given observational data y: p(\u03B8\
     |y) \u221D p(y|\u03B8)p(\u03B8). There is no \u2026"
+  journal: openreview.net
+  citation_backlink: https://scholar.google.com/scholar?cites=2508901537409488083
   category: Engineering
   doi: https://openreview.net/forum?id=wzEidr3JMm
 - id: 1666
@@ -22748,6 +22760,7 @@
     \ inference have a natural application to such a problem. In this contribution,\
     \ we illustrate some of the \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=2521031055576614131
   arxiv_id: '2512.05784'
   arxiv_category_tag: hep-ph
   category: Physics
@@ -22807,9 +22820,9 @@
   publication_info_summary: "D Barret, S Dupourqu\xE9 - arXiv preprint arXiv:2512.16709,\
     \ 2025 - arxiv.org"
   link: https://arxiv.org/abs/2512.16709
-  snippet: "1 day ago - \u2026 We successfully applied simulation-based inference\
-    \ with neural posterior estimation \u2026 As part of these earlier studies, we\
-    \ released SIXSA (Simulation-based Inference for X-\u2026"
+  snippet: "\u2026 We successfully applied simulation-based inference with neural\
+    \ posterior estimation \u2026 As part of these earlier studies, we released SIXSA\
+    \ (Simulation-based Inference for X-\u2026"
   journal: arxiv.org
   arxiv_id: '2512.16709'
   arxiv_category_tag: astro-ph.IM
@@ -22823,9 +22836,9 @@
   publication_info_summary: "AJ Duivenvoorden, K Surrao, AE Bayer\u2026 - arXiv preprint\
     \ arXiv \u2026, 2025 - arxiv.org"
   link: https://arxiv.org/abs/2512.16869
-  snippet: "1 day ago - \u2026 Our method uses simulation-based inference combined\
-    \ with the needlet internal linear combination (NILC) algorithm and cross-correlation-based\
-    \ statistics to compress \u2026"
+  snippet: "\u2026 Our method uses simulation-based inference combined with the needlet\
+    \ internal linear combination (NILC) algorithm and cross-correlation-based statistics\
+    \ to compress \u2026"
   journal: arxiv.org
   arxiv_id: '2512.16869'
   arxiv_category_tag: astro-ph.CO
@@ -22835,7 +22848,8 @@
   published_on: 2025-12-13
   title: AGN X-ray Reflection Spectroscopy with ML MYTORUSNeural Posterior Estimation
     with Training on Observation-Driven Parameter Grids
-  authors: Ingrid Vanessa Daza-Perilla
+  authors: Ingrid Vanessa Daza-Perilla, Panayiotis Tzanavaris, V. Madurga-Favieres,
+    M. Yukita, A. Ptak, T. Yaqoob
   publication_info_summary: IV Daza-Perilla - arXiv preprint arXiv:2512.12155, 2025
     - arxiv.org
   link: https://arxiv.org/abs/2512.12155
@@ -22889,18 +22903,86 @@
   category: Astrophysics
 - id: 1683
   created_at: 2025-12-21 01:14:14.905820
-  published_on: 2025-12-11
+  published_on: 2025-12-13
   title: Stellar masses and mass ratios for Gaia open cluster members
-  authors: "Sagar Malhotra, Alfred Castro-Ginard, Friedrich Anders, Carme Jordi, Judit\
-    \ Donada, Xavier Luri, Lola Balaguer-N\xFA\xF1ez, Songmei Qin, Yueyue Jiang, Andrija\
-    \ \u017Dupi\u0107"
   publication_info_summary: "S Malhotra, A Castro-Ginard, F Anders, C Jordi\u2026\
-    \ - arXiv preprint arXiv \u2026, 2025 - arxiv.org"
-  link: https://arxiv.org/abs/2512.10616
+    \ - arXiv preprint arXiv \u2026, 2025 - aanda.org"
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa57529-25.pdf
   snippet: "\u2026 Gaia DR3 parallaxes together with multi-band photometry of open\
-    \ cluster (OC) members to infer stellar masses and binary mass-ratios through\
+    \ cluster (OC) members to infer stellar masses and binary mass ratios through\
     \ simulation-based inference \u2026"
+  journal: aanda.org
+  category: Physics
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa57529-25.pdf
+- id: 1684
+  created_at: 2026-01-04 01:18:05.448608
+  published_on: 2025-12-26
+  title: A Review of Diffusion-based Simulation-Based Inference Foundations and Applications
+    in Non-Ideal Data Scenarios
+  authors: Haley Rosso, Talea Mayo
+  publication_info_summary: H Rosso, T Mayo - arXiv preprint arXiv:2512.23748, 2025
+    - arxiv.org
+  link: https://arxiv.org/abs/2512.23748
+  snippet: "\u2026 The challenge of performing inference without tractable likelihoods\
+    \ motivates simulation-based inference (SBI), which directly estimates posterior\
+    \ distributions over \u2026"
   journal: arxiv.org
-  arxiv_id: '2512.10616'
-  arxiv_category_tag: astro-ph.GA
+  arxiv_id: '2512.23748'
+  arxiv_category_tag: cs.LG
+  category: Physics
+- id: 1685
+  created_at: 2026-01-04 01:18:11.730073
+  published_on: 2025-12-22
+  title: Diffusion Models in Simulation-Based Inference A Tutorial Review
+  authors: "Jonas Arruda, Niels Bracher, Ullrich K\xF6the, Jan Hasenauer, Stefan T.\
+    \ Radev"
+  publication_info_summary: "J Arruda, N Bracher, U K\xF6the, J Hasenauer\u2026 -\
+    \ arXiv preprint arXiv \u2026, 2025 - arxiv.org"
+  link: https://arxiv.org/abs/2512.20685
+  snippet: "\u2026 Diffusion models have recently emerged as powerful learners for\
+    \ simulation-based inference (SBI), enabling fast and accurate estimation of latent\
+    \ parameters from \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.20685'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1686
+  created_at: 2026-01-04 01:18:18.763039
+  published_on: 2025-12-20
+  title: Robust and scalable simulation-based inference for gravitational wave signals
+    with gaps
+  authors: Ruiting Mao, Jeong Eun Lee, Matthew C. Edwards
+  publication_info_summary: R Mao, JE Lee, MC Edwards - arXiv preprint arXiv:2512.18290,
+    2025 - arxiv.org
+  link: https://arxiv.org/abs/2512.18290
+  snippet: "\u2026 We present a scalable Simulation-Based Inference (SBI) framework\
+    \ capable of robust parameter estimation directly from gapped time-series data.\
+    \ We employ Flow \u2026"
+  journal: arxiv.org
+  arxiv_id: '2512.18290'
+  arxiv_category_tag: astro-ph.IM
   category: Astrophysics
+- id: 1687
+  created_at: 2026-01-04 01:19:07.827694
+  published_on: 2025-12-12
+  title: Optimal information extraction from cosmological summary statistics with
+    neural networks
+  publication_info_summary: N ZUCCOTTI - thesis.unipd.it
+  link: https://thesis.unipd.it/handle/20.500.12608/100499
+  snippet: "\u2026 Nel lavoro recente \u201CHow many simulations do we need for simulation-based\
+    \ inference in cosmology?\u201D [4] si evidenzia che molti ensemble di simulazioni\
+    \ comunemente \u2026"
+  category: Physics
+  doi: https://thesis.unipd.it/handle/20.500.12608/100499
+- id: 1688
+  created_at: 2026-01-04 01:25:42.125758
+  published_on: 2025-10-03
+  title: Introduction to Modern Statistics
+  publication_info_summary: D Hopper, C Robert - 2025 - Taylor & Francis
+  link: https://www.tandfonline.com/doi/full/10.1080/09332480.2025.2601496
+  snippet: "\u2026 Let\u2019s consider, for a moment, the topic of simulation-based\
+    \ inference\u2014a modern technique that has skyrocketed in popularity over the\
+    \ past decade. The authors \u2026"
+  journal: Taylor & Francis
+  category: Physics
+  doi: https://www.tandfonline.com/doi/full/10.1080/09332480.2025.2601496
