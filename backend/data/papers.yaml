@@ -22986,3 +22986,50 @@
   journal: Taylor & Francis
   category: Physics
   doi: https://www.tandfonline.com/doi/full/10.1080/09332480.2025.2601496
+- id: 1689
+  created_at: 2026-01-11 01:17:58.564625
+  published_on: 2026-01-07
+  title: Combining simulation-based inference and universal relations for precise
+    and accurate neutron star science
+  authors: "Christian J. Kr\xFCger, Sebastian H. V\xF6lkel"
+  publication_info_summary: "CJ Kr\xFCger, SH V\xF6lkel - arXiv preprint arXiv:2601.03945,\
+    \ 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2601.03945
+  snippet: "\u2026 A central element is simulation-based inference (SBI), which we\
+    \ adopt to treat uncertainties due to the unknown nuclear equation of state (EOS)\
+    \ as intrinsic non-trivial noise\u2026"
+  journal: arxiv.org
+  arxiv_id: '2601.03945'
+  arxiv_category_tag: gr-qc
+  category: Physics
+- id: 1690
+  created_at: 2026-01-11 01:18:04.863640
+  published_on: 2026-01-06
+  title: Simulation-Based Inference for Probabilistic Galaxy Detection and Deblending
+  authors: Ismael Mendoza, Derek Hansen, Runjing Liu, Zhe Zhao, Ziteng Pang, Axel
+    Guinot, Camille Avestruz, Jeffrey Regier, the LSST Dark Energy Science Collaboration
+  publication_info_summary: "I Mendoza, D Hansen, R Liu, Z Zhao, Z Pang\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2601.03422
+  snippet: "\u2026 BLISS uses simulation-based inference (SBI) to approximate a posterior\
+    \ distribution of deblended galaxy properties (see Section 3).BLISS extends the\
+    \ approach from \u2026"
+  journal: arxiv.org
+  arxiv_id: '2601.03422'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1691
+  created_at: 2026-01-11 01:18:11.168679
+  published_on: 2026-01-07
+  title: Teddy neural inference of epidemiological parameters from viral sequences
+  authors: Garot, V.; Blassel, L.; Nesterenko, L.; ZHUKOVA, A.; Alizon, S.; Jacob,
+    L.
+  publication_info_summary: "V Garot, L Blassel, L Nesterenko, A ZHUKOVA\u2026 - bioRxiv,\
+    \ 2026 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.64898/2026.01.05.697728.abstract
+  snippet: "\u2026 We address this is- 5 sue using simulation-based inference and\
+    \ introduce a deep learning\u2013based framework 6 directly trained on alignments\
+    \ of viral genetic sequences. \u2026"
+  journal: biorxiv.org
+  category: Genomics
+  doi: 10.64898/2026.01.05.697728
