@@ -23024,8 +23024,8 @@
   title: Teddy neural inference of epidemiological parameters from viral sequences
   authors: Garot, V.; Blassel, L.; Nesterenko, L.; ZHUKOVA, A.; Alizon, S.; Jacob,
     L.
-  publication_info_summary: "V Garot, L Blassel, L Nesterenko, A ZHUKOVA\u2026 - bioRxiv,\
-    \ 2026 - biorxiv.org"
+  publication_info_summary: "V Garot, L Blassel, L Nesterenko, A Zhukova, S Alizon\u2026\
+    \ - bioRxiv, 2026 - biorxiv.org"
   link: https://www.biorxiv.org/content/10.64898/2026.01.05.697728.abstract
   snippet: "\u2026 We address this is- 5 sue using simulation-based inference and\
     \ introduce a deep learning\u2013based framework 6 directly trained on alignments\
@@ -23033,3 +23033,16 @@
   journal: biorxiv.org
   category: Genomics
   doi: 10.64898/2026.01.05.697728
+- id: 1692
+  created_at: 2026-01-18 01:17:50.552089
+  published_on: 2025-12-17
+  title: Enhancing Experimental Particle Physics with Machine Learning Techniques
+    Applications to JUNO and LHCb
+  publication_info_summary: A Gavrikov - 2025 - research.unipd.it
+  link: https://www.research.unipd.it/handle/11577/3572594
+  snippet: "\u2026 Second, I discuss NeuroMCT (Neural Monte Carlo Tuning), a framework\
+    \ that employs simulation-based inference to address the likelihood intractability\
+    \ problem for \u2026"
+  journal: research.unipd.it
+  category: Physics
+  doi: https://www.research.unipd.it/handle/11577/3572594
