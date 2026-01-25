@@ -17806,7 +17806,7 @@
   snippet: "Neural simulation-based inference (NSBI) is a powerful class of machine-learning-based\
     \ methods for statistical inference that naturally handles high-dimensional \u2026"
   journal: cris.fbk.eu
-  category: Physics
+  category: Computer Science
   doi: https://cris.fbk.eu/handle/11582/363374
 - id: 1335
   created_at: 2024-12-17 17:00:18.200211
@@ -21867,8 +21867,8 @@
     2025 - arxiv.org
   link: https://arxiv.org/abs/2510.17933
   snippet: "\u2026 The first stage consists of an offline training phase, where we\
-    \ use simulation-based inference to train a neural network that learns to estimate\
-    \ the posterior distribution of \u2026"
+    \ use simulationbased inference to train a neural network that learns to estimate\
+    \ the posterior distribution of the \u2026"
   journal: arxiv.org
   arxiv_id: '2510.17933'
   arxiv_category_tag: cs.LG
@@ -22031,7 +22031,7 @@
     \ by generating \u2026"
   journal: aanda.org
   citation_backlink: https://scholar.google.com/scholar?cites=13190640638506201497
-  category: Physics
+  category: Computer Science
   doi: https://www.aanda.org/articles/aa/abs/2025/12/aa56162-25/aa56162-25.html
 - id: 1623
   created_at: 2025-11-02 01:08:27.850118
@@ -23046,3 +23046,89 @@
   journal: research.unipd.it
   category: Physics
   doi: https://www.research.unipd.it/handle/11577/3572594
+- id: 1693
+  created_at: 2026-01-25 01:18:58.983519
+  published_on: 2026-01-20
+  title: RNLE Residual neural likelihood estimation and its application to gravitational-wave
+    astronomy
+  authors: Mattia Emma, Gregory Ashton
+  publication_info_summary: M Emma, G Ashton - arXiv preprint arXiv:2601.13857, 2026
+    - arxiv.org
+  link: https://arxiv.org/abs/2601.13857
+  snippet: "\u2026 Simulation\u2013based inference provides a powerful framework for\
+    \ Bayesian inference when the likelihood is analytically intractable or computationally\
+    \ prohibitive. By \u2026"
+  journal: arxiv.org
+  arxiv_id: '2601.13857'
+  arxiv_category_tag: gr-qc
+  category: Physics
+- id: 1694
+  created_at: 2026-01-25 01:19:05.377587
+  published_on: 2026-01-20
+  title: Cosmo-FOLD Fast generation and upscaling of field-level cosmological maps
+    with overlap latent diffusion
+  authors: Satvik Mishra, Roberto Trotta, Matteo Viel
+  publication_info_summary: S Mishra, R Trotta, M Viel - arXiv preprint arXiv:2601.14377,
+    2026 - arxiv.org
+  link: https://arxiv.org/abs/2601.14377
+  snippet: "\u2026 Cosmo-FOLD opens the door to full field-level simulation-based\
+    \ inference on \u2026 or astrophysical field-level inference and simulationbased\
+    \ inference (SBI) frameworks, which \u2026"
+  journal: arxiv.org
+  arxiv_id: '2601.14377'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1695
+  created_at: 2026-01-25 01:19:11.085761
+  published_on: 2026-01-20
+  title: Longitudinal Changes in Crisis and Broader Mental Health Service Use Following
+    Access to Digital Support Tool Brain in Hand An Observational Cohort Study
+  publication_info_summary: M Scott, A Jones, H Guyatt - 2026 - researchsquare.com
+  link: https://www.researchsquare.com/article/rs-8613829/latest
+  snippet: "\u2026 Inverse probability weighting addressed attrition, and simulation-based\
+    \ inference \u2026 Uncertainty in derived outcomes was quantified using simulation-based\
+    \ inference that \u2026"
+  journal: researchsquare.com
+  category: psychiatry
+  doi: https://www.researchsquare.com/article/rs-8613829/latest
+- id: 1696
+  created_at: 2026-01-25 01:19:18.241843
+  published_on: 2026-01-14
+  title: A Hybrid and Adaptive Decision Support System for Protection from Radioactive
+    Threats
+  publication_info_summary: M Di Giovanni - 2026 - iris.unicampania.it
+  link: https://iris.unicampania.it/handle/11591/580344
+  snippet: "\u2026 The prediction pillar (P3) incorporates simulation-based inference\
+    \ and machine learning to characterise and forecast process dynamics with quantified\
+    \ uncertainty. Finally, \u2026"
+  journal: iris.unicampania.it
+  category: Engineering
+  doi: https://iris.unicampania.it/handle/11591/580344
+- id: 1697
+  created_at: 2026-01-25 01:21:17.194890
+  published_on: 2025-12-07
+  title: Conditional Sampling from Frozen Generative Models From Explicit Rules to
+    Example-Based Guidance
+  publication_info_summary: "N Dalmasso, VK Potluru, M Veloso - NeurIPS 2025 Workshop:\
+    \ Generative \u2026 - openreview.net"
+  link: https://openreview.net/forum?id=fUfDT9FWjc
+  snippet: "\u2026 In settings where only examples of the desired outcomes are provided,\
+    \ we adapt methodologies from the simulation-based inference literature to condition\
+    \ the generation \u2026"
+  journal: openreview.net
+  category: Physics
+  doi: https://openreview.net/forum?id=fUfDT9FWjc
+- id: 1698
+  created_at: 2026-01-25 01:24:54.659333
+  published_on: 2025-11-04
+  title: Towards an Event-Level Analysis in Hadronic Physics Using Generative AI-Based
+    Surrogates
+  publication_info_summary: "T Alghamdi, J Xu, N Ramachandra\u2026 - 2025 IEEE 37th\
+    \ \u2026, 2025 - ieeexplore.ieee.org"
+  link: https://ieeexplore.ieee.org/abstract/document/11272801/
+  snippet: "\u2026 Surrogate Modeling Framework To address the computational challenges\
+    \ of simulationbased inference in hadronic physics, we implement surrogate frameworks\
+    \ using \u2026"
+  journal: ieeexplore.ieee.org
+  category: Mathematics
+  doi: https://ieeexplore.ieee.org/abstract/document/11272801/
