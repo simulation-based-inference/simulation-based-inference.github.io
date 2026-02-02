@@ -76,13 +76,18 @@ def make_md(paper: Paper, overwrite: bool, output_dir: Path) -> None:
             return "\n".join([line1, line2, line3])
         return ""
 
+    try:
+        bibtex = get_bibtex(paper.arxiv_id) if paper.arxiv_id else "N/A"
+    except Exception:
+        bibtex = "N/A"
+
     # Create file content
     content = POST_TEMPLATE.format(
         title=paper.title,
         journal=paper.journal,
         year=paper.published_on.year,
         publication_info_summary=paper.publication_info_summary,
-        bibtex=get_bibtex(paper.arxiv_id) if paper.arxiv_id else None,
+        bibtex=bibtex,
         category=paper.category if paper.category else "Uncategorized",
         arxiv_extra_tag=_make_arxiv_extra_tag(paper),
         snippet=paper.snippet,

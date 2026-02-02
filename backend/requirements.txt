@@ -9,3 +9,4 @@ openai==0.28.1
 pandas>=2.1,<2.2
 altair==5.1.2
 arxiv2bib==1.0.8
+tenacity>=9.1

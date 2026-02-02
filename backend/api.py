@@ -12,6 +12,7 @@ import requests
 from arxiv2bib import arxiv2bib
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
+from tenacity import retry, wait_exponential, stop_after_attempt
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
@@ -47,7 +48,7 @@ def get_arxiv_category_map() -> dict:
 
     return category_mapping
 
-
+@retry(wait=wait_exponential(min=1, max=10), stop=stop_after_attempt(5))
 def get_bibtex(arxiv_id: str) -> Optional[str]:
     """Fetch BibTeX entry for a given arXiv ID."""
 
