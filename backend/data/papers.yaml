@@ -22682,7 +22682,6 @@
     \ inference method, which builds per-event likelihood ratios using neural networks.\
     \ The observed (expected\u2026"
   journal: ruj.uj.edu.pl
-  category: Statistics
   doi: https://ruj.uj.edu.pl/entities/publication/fcfdfbff-bcc1-424a-a166-4a12271dbd57
 - id: 1669
   created_at: 2025-12-14 01:14:07.130709
@@ -22877,6 +22876,7 @@
     \ we learn summary statistics for galaxy catalogs in the context of cosmological\
     \ parameter \u2026"
   journal: iopscience.iop.org
+  citation_backlink: https://scholar.google.com/scholar?cites=16574732321668655998
   category: Astrophysics
   doi: https://iopscience.iop.org/article/10.1088/1475-7516/2025/12/032/meta
 - id: 1682
@@ -22905,7 +22905,6 @@
     \ cluster (OC) members to infer stellar masses and binary mass ratios through\
     \ simulation-based inference \u2026"
   journal: aanda.org
-  category: Statistics
   doi: https://www.aanda.org/articles/aa/abs/2026/02/aa57529-25/aa57529-25.html
 - id: 1684
   created_at: 2026-01-04 01:18:05.448608
@@ -23187,7 +23186,6 @@
     \ detection, simulation-based inference, and a mathematical task involving recovery\
     \ of local \u2026"
   journal: ui.adsabs.harvard.edu
-  category: Statistics
   doi: https://ui.adsabs.harvard.edu/abs/2026arXi60121583H/abstract
 - id: 1703
   created_at: 2026-02-08 01:59:09.029852
@@ -23356,7 +23354,6 @@
     \ problem for the first time, measuring the distribution of quasar counts over\
     \ the sky in the CatWISE2020 (\u2026"
   journal: academic.oup.com
-  category: Statistics
   doi: https://academic.oup.com/mnras/article-abstract/546/4/stag248/8468850
 - id: 1714
   created_at: 2026-02-15 01:43:36.593811
@@ -23447,6 +23444,7 @@
     \ that efficiently profiles nuisance parameters while measuring multivariate Distributions\
     \ of Interest (\u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=4910817312501633470
   arxiv_id: '2602.13184'
   arxiv_category_tag: hep-ph
   category: Physics
@@ -23752,3 +23750,42 @@
   journal: APS
   category: Physics
   doi: https://link.aps.org/pdf/10.1103/zj8s-3z
+- id: 1741
+  created_at: 2026-03-08 01:26:29.428207
+  published_on: 2026-03-03
+  title: Decomposing response inhibition a POMDP model
+  authors: Wang, W.; Kaufmann, T.; Dayan, P.
+  publication_info_summary: W Wang, T Kaufmann, P Dayan - bioRxiv, 2026 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.64898/2026.02.26.708416.abstract
+  snippet: "\u2026 To do this, we adapted Simulation-Based Inference with a transformer-based\
+    \ encoder. This architecture learns compact, sequence-aware embeddings from raw\
+    \ \u2026"
+  journal: biorxiv.org
+  category: Statistics
+  doi: 10.64898/2026.02.26.708416
+- id: 1742
+  created_at: 2026-03-08 01:26:35.195240
+  published_on: 2026-02-28
+  title: A Framework Integrating Spiking Cortical Circuit Modeling and Simulation-Based
+    Inference to Probe Biomarkers of Cortical Dysfunction in Alzheimer's Disease
+  publication_info_summary: "MC S\xE1nchez, AO Valero, JM Garc\xEDa\u2026 - Interdisciplinary\
+    \ \u2026 - pubmed.ncbi.nlm.nih.gov"
+  link: https://pubmed.ncbi.nlm.nih.gov/41758277/
+  snippet: "\u2026 We present a computational framework that integrates the causal\
+    \ interpretability of mechanistic modeling with the predictive power of simulation-based\
+    \ inference (SBI) to \u2026"
+  journal: pubmed.ncbi.nlm.nih.gov
+  category: Neuroscience
+  doi: https://pubmed.ncbi.nlm.nih.gov/41758277/
+- id: 1743
+  created_at: 2026-03-08 01:26:48.769995
+  published_on: 2026-02-25
+  title: The dynamical memory of tidal stellar streams
+  publication_info_summary: G Viterbo, T Buck - 2026 - aanda.org
+  link: https://www.aanda.org/articles/aa/pdf/forth/aa58358-25.pdf
+  snippet: "\u2026 In this work, we introduce a framework that leverages flow matching\
+    \ and simulation-based inference (SBI) to jointly infer the parameters of the\
+    \ GD-1 progenitor and the \u2026"
+  journal: aanda.org
+  category: Astronomy
+  doi: https://www.aanda.org/articles/aa/pdf/forth/aa58358-25.pdf
