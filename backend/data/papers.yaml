@@ -22682,6 +22682,7 @@
     \ inference method, which builds per-event likelihood ratios using neural networks.\
     \ The observed (expected\u2026"
   journal: ruj.uj.edu.pl
+  category: Physics
   doi: https://ruj.uj.edu.pl/entities/publication/fcfdfbff-bcc1-424a-a166-4a12271dbd57
 - id: 1669
   created_at: 2025-12-14 01:14:07.130709
@@ -22905,6 +22906,7 @@
     \ cluster (OC) members to infer stellar masses and binary mass ratios through\
     \ simulation-based inference \u2026"
   journal: aanda.org
+  category: Physics
   doi: https://www.aanda.org/articles/aa/abs/2026/02/aa57529-25/aa57529-25.html
 - id: 1684
   created_at: 2026-01-04 01:18:05.448608
@@ -23011,6 +23013,7 @@
   arxiv_id: '2601.03422'
   arxiv_category_tag: astro-ph.IM
   category: Astrophysics
+  doi: 10.33232/001c.158908
 - id: 1691
   created_at: 2026-01-11 01:18:11.168679
   published_on: 2026-01-07
@@ -23186,6 +23189,7 @@
     \ detection, simulation-based inference, and a mathematical task involving recovery\
     \ of local \u2026"
   journal: ui.adsabs.harvard.edu
+  category: Physics
   doi: https://ui.adsabs.harvard.edu/abs/2026arXi60121583H/abstract
 - id: 1703
   created_at: 2026-02-08 01:59:09.029852
@@ -23344,17 +23348,20 @@
   category: Physics
 - id: 1713
   created_at: 2026-02-15 01:43:30.004194
-  published_on: 2026-02-07
+  published_on: 2026-02-04
   title: Wising up to CatWISE using simulation-based inference to interpret the ecliptic
     bias and confirm the cosmic dipole excess
-  publication_info_summary: "OT Oayda, GF Lewis - Monthly Notices of the Royal \u2026\
-    , 2026 - academic.oup.com"
-  link: https://academic.oup.com/mnras/article-abstract/546/4/stag248/8468850
-  snippet: "\u2026 We apply Simulation-Based Inference (SBI) to the cosmic dipole\
-    \ problem for the first time, measuring the distribution of quasar counts over\
-    \ the sky in the CatWISE2020 (\u2026"
-  journal: academic.oup.com
-  doi: https://academic.oup.com/mnras/article-abstract/546/4/stag248/8468850
+  authors: Oliver T. Oayda, Geraint F. Lewis
+  publication_info_summary: OT Oayda, GF Lewis - arXiv preprint arXiv:2602.05070,
+    2026 - arxiv.org
+  link: https://arxiv.org/abs/2602.05070
+  snippet: "\u2026 We apply Simulation-Based Inference (\u2018SBI\u2019) to the cosmic\
+    \ dipole problem for the first time, measuring the distribution of quasar counts\
+    \ over the sky in the CatWISE2020 (\u2018\u2026"
+  journal: arxiv.org
+  arxiv_id: '2602.05070'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
 - id: 1714
   created_at: 2026-02-15 01:43:36.593811
   published_on: 2026-02-03
@@ -23688,6 +23695,7 @@
     \ from the efficiency of \u2026 as an exciting new avenue for physics-informed\
     \ simulation-based inference. \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=660472157729956785
   arxiv_id: '2602.16768'
   arxiv_category_tag: astro-ph.CO
   category: Astrophysics
@@ -23789,3 +23797,120 @@
   journal: aanda.org
   category: Astronomy
   doi: https://www.aanda.org/articles/aa/pdf/forth/aa58358-25.pdf
+- id: 1744
+  created_at: 2026-03-15 01:47:58.587459
+  published_on: 2026-03-13
+  title: Planet Formation Constraints from Exoplanet Population Synthesis and Simulation
+    Based Inference
+  publication_info_summary: "J Ran, M Kama, A Sommerville-Thomas - Frontiers in Astronomy\
+    \ and Space \u2026 - frontiersin.org"
+  link: https://www.frontiersin.org/journals/astronomy-and-space-sciences/articles/10.3389/fspas.2026.1736938/full
+  snippet: "This work introduces a statistical framework to obtain Bayesian constraints\
+    \ on planet formation parameters, which offers a probabilistic interpretation\
+    \ of uncertainties and \u2026"
+  journal: frontiersin.org
+  doi: https://www.frontiersin.org/journals/astronomy-and-space-sciences/articles/10.3389/fspas.2026.1736938/full
+- id: 1745
+  created_at: 2026-03-15 01:48:05.268686
+  published_on: 2026-03-11
+  title: FlowSN Normalising Flows for Simulation-Based Inference under Realistic Selection
+    Effects applied to Supernova Cosmology
+  authors: Benjamin M. Boyd, Kaisey S. Mandel, Matthew Grayling, Ayan Mitra, Richard
+    Kessler, Maximilian Autenrieth, Aaron Do, Madeleine Ginolin, Lisa Kelsey, Gautham
+    Narayan, Matthew O'Callaghan, Nikhil Sarin, Stephen Thorp
+  publication_info_summary: "BM Boyd, KS Mandel, M Grayling, A Mitra\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2603.11165
+  snippet: "\u2026 statistical framework using simulation-based inference with \u2026\
+    \ Simulation-based inference enables us to implicitly \u2026 over other simulation-based\
+    \ inference approaches. We \u2026"
+  journal: arxiv.org
+  arxiv_id: '2603.11165'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1746
+  created_at: 2026-03-15 01:48:11.860233
+  published_on: 2026-03-10
+  title: First Estimation of Model Parameters for Neutrino-Induced Nucleon Knockout
+    Using Simulation-Based Inference
+  authors: "Karla Tame-Narvaez, Steven Gardiner, Aleksandra \u0106iprijanovi\u0107\
+    , Giuseppe Cerati"
+  publication_info_summary: "K Tame-Narvaez, S Gardiner, A \u0106iprijanovi\u0107\u2026\
+    \ - arXiv preprint arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2603.09778
+  snippet: "\u2026 As an example particularly well-suited to this use case, we consider\
+    \ simulation-based inference (SBI), which has gained popularity across scientific\
+    \ disciplines over the \u2026"
+  journal: arxiv.org
+  arxiv_id: '2603.09778'
+  arxiv_category_tag: hep-ph
+  category: Physics
+- id: 1747
+  created_at: 2026-03-15 01:48:18.501303
+  published_on: 2026-03-09
+  title: Quantifying the Milky Way, LMC and their interaction using all-sky kinematics
+    of outer halo stars
+  authors: "Richard A. N. Brooks, Jason L. Sanders, Adam M. Dillamore, Nicol\xE1s\
+    \ Garavito-Camargo, Vedant Chandra, Adrian M. Price-Whelan, Phillip Cargile"
+  publication_info_summary: "RAN Brooks, JL Sanders, AM Dillamore\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2603.08788
+  snippet: "\u2026 of 32,000 rigid MW\u2013LMC simulations, each with a MW stellar\
+    \ halo evolved to the present day in the combined MW\u2013LMC potential, we perform\
+    \ Simulation Based Inference \u2026"
+  journal: arxiv.org
+  arxiv_id: '2603.08788'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1748
+  created_at: 2026-03-15 01:48:24.320662
+  published_on: 2026-03-07
+  title: Estimation and Inference for Stochastic Volatility Models with Heavy-Tailed
+    Distributions
+  publication_info_summary: G Rodriguez Rondon, JM Dufour - 2026 - bankofcanada.ca
+  link: https://www.bankofcanada.ca/2026/03/staff-working-paper-2026-8/
+  snippet: "\u2026 We derive the estimators\u2019 asymptotic distribution and show\
+    \ that, due to their analytical tractability, they support reliable\u2013and even\
+    \ exact\u2013simulation-based inference via \u2026"
+  journal: bankofcanada.ca
+  category: Statistics
+  doi: https://www.bankofcanada.ca/2026/03/staff-working-paper-2026-8/
+- id: 1749
+  created_at: 2026-03-15 01:49:16.651758
+  published_on: 2026-02-21
+  title: Physics-regularized simulation-based inference for quantitative near-infrared
+    spectroscopy
+  publication_info_summary: GI Oyarzo - AI and Optical Data Sciences VII, 2026 - spiedigitallibrary.org
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13906/139060C/Physics-regularized-simulation-based-inference-for-quantitative-near-infrared-spectroscopy/10.1117/12.3087090.short
+  snippet: "\u2026 We introduce a physics-informed simulation-based inference framework\
+    \ that decomposes NIR spectra into three components: an analyte-specific signature\
+    \ extracted via \u2026"
+  journal: spiedigitallibrary.org
+  category: Neuroscience
+  doi: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13906/139060C/Physics-regularized-simulation-based-inference-for-quantitative-near-infrared-spectroscopy/10.1117/12.3087090
+- id: 1750
+  created_at: 2026-03-15 01:51:01.318359
+  published_on: 2026-02-10
+  title: Likelihood-Free Bayesian Inference with Efficient Uncertainty Quantification
+  publication_info_summary: A Nouri - 2026 - vtechworks.lib.vt.edu
+  link: https://vtechworks.lib.vt.edu/items/a3c4eb8b-c7e6-4672-bc7e-acb8a87f36c8
+  snippet: "\u2026 for uncertainty quantification in inverse problems, while identifying\
+    \ key limitations and directions for future research, including alternative simulation-based\
+    \ inference \u2026"
+  journal: vtechworks.lib.vt.edu
+  category: Mathematics
+  doi: https://vtechworks.lib.vt.edu/items/a3c4eb8b-c7e6-4672-bc7e-acb8a87f36c8
+- id: 1751
+  created_at: 2026-03-15 01:52:04.894748
+  published_on: 2026-02-01
+  title: Machine Learning for Distant Reflection AGN X-ray Spectroscopy with MYTORUS
+    models
+  publication_info_summary: "P Tzanavaris, IV Daza Perilla\u2026 - American \u2026\
+    , 2026 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2026AAS...24735305T/abstract
+  snippet: "\u2026 We have used a novel approach based on Simulation-Based Inference\
+    \ with Neural Posterior Estimation (SBI-NPE) and supervised training for the MYTORUS\
+    \ X-ray \u2026"
+  journal: ui.adsabs.harvard.edu
+  category: Mathematics
+  doi: https://ui.adsabs.harvard.edu/abs/2026AAS...24735305T/abstract
