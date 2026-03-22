@@ -23348,20 +23348,18 @@
   category: Physics
 - id: 1713
   created_at: 2026-02-15 01:43:30.004194
-  published_on: 2026-02-04
+  published_on: 2026-02-07
   title: Wising up to CatWISE using simulation-based inference to interpret the ecliptic
     bias and confirm the cosmic dipole excess
-  authors: Oliver T. Oayda, Geraint F. Lewis
-  publication_info_summary: OT Oayda, GF Lewis - arXiv preprint arXiv:2602.05070,
-    2026 - arxiv.org
-  link: https://arxiv.org/abs/2602.05070
-  snippet: "\u2026 We apply Simulation-Based Inference (\u2018SBI\u2019) to the cosmic\
-    \ dipole problem for the first time, measuring the distribution of quasar counts\
-    \ over the sky in the CatWISE2020 (\u2018\u2026"
-  journal: arxiv.org
-  arxiv_id: '2602.05070'
-  arxiv_category_tag: astro-ph.CO
-  category: Astrophysics
+  publication_info_summary: "OT Oayda, GF Lewis - Monthly Notices of the Royal \u2026\
+    , 2026 - academic.oup.com"
+  link: https://academic.oup.com/mnras/article-abstract/546/4/stag248/8468850
+  snippet: "\u2026 We apply Simulation-Based Inference (SBI) to the cosmic dipole\
+    \ problem for the first time, measuring the distribution of quasar counts over\
+    \ the sky in the CatWISE2020 (\u2026"
+  journal: academic.oup.com
+  category: Physics
+  doi: https://academic.oup.com/mnras/article-abstract/546/4/stag248/8468850
 - id: 1714
   created_at: 2026-02-15 01:43:36.593811
   published_on: 2026-02-03
@@ -23615,16 +23613,16 @@
   category: Physics
 - id: 1731
   created_at: 2026-03-01 01:44:50.996640
-  published_on: 2026-02-24
+  published_on: 2026-02-23
   title: Simulation-Based Evidence Accumulation Modeling for Single-and Multi-Response
     Tasks The eam Package
-  publication_info_summary: GZG Yang - osf.io
-  link: https://osf.io/download/dg7c2/
+  publication_info_summary: G Zhu, G Yang - osf.io
+  link: https://osf.io/preprints/psyarxiv/dg7c2
   snippet: "\u2026 To address this limitation, we introduce simulation-based inference\
     \ into the evidence accumulation framework and develop an R package that integrates\
     \ simulation \u2026"
   category: Computer Science
-  doi: https://osf.io/download/dg7c2/
+  doi: https://osf.io/preprints/psyarxiv/dg7c2
 - id: 1732
   created_at: 2026-03-01 01:44:58.761877
   published_on: 2026-02-20
@@ -23809,6 +23807,7 @@
     \ on planet formation parameters, which offers a probabilistic interpretation\
     \ of uncertainties and \u2026"
   journal: frontiersin.org
+  category: Astronomy
   doi: https://www.frontiersin.org/journals/astronomy-and-space-sciences/articles/10.3389/fspas.2026.1736938/full
 - id: 1745
   created_at: 2026-03-15 01:48:05.268686
@@ -23868,26 +23867,26 @@
   title: Estimation and Inference for Stochastic Volatility Models with Heavy-Tailed
     Distributions
   publication_info_summary: G Rodriguez Rondon, JM Dufour - 2026 - bankofcanada.ca
-  link: https://www.bankofcanada.ca/2026/03/staff-working-paper-2026-8/
+  link: https://www.bankofcanada.ca/wp-content/uploads/2026/03/swp2026-8.pdf
   snippet: "\u2026 We derive the estimators\u2019 asymptotic distribution and show\
     \ that, due to their analytical tractability, they support reliable\u2013and even\
     \ exact\u2013simulation-based inference via \u2026"
   journal: bankofcanada.ca
   category: Statistics
-  doi: https://www.bankofcanada.ca/2026/03/staff-working-paper-2026-8/
+  doi: https://www.bankofcanada.ca/wp-content/uploads/2026/03/swp2026-8.pdf
 - id: 1749
   created_at: 2026-03-15 01:49:16.651758
   published_on: 2026-02-21
   title: Physics-regularized simulation-based inference for quantitative near-infrared
     spectroscopy
-  publication_info_summary: GI Oyarzo - AI and Optical Data Sciences VII, 2026 - spiedigitallibrary.org
-  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13906/139060C/Physics-regularized-simulation-based-inference-for-quantitative-near-infrared-spectroscopy/10.1117/12.3087090.short
+  publication_info_summary: GI Oyarzoa - Proc. of SPIE Vol, 2026 - spiedigitallibrary.org
+  link: https://www.spiedigitallibrary.org/proceedings/Download?urlId=10.1117%2F12.3087090
   snippet: "\u2026 We introduce a physics-informed simulation-based inference framework\
     \ that decomposes NIR spectra into three components: an analyte-specific signature\
     \ extracted via \u2026"
   journal: spiedigitallibrary.org
   category: Neuroscience
-  doi: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13906/139060C/Physics-regularized-simulation-based-inference-for-quantitative-near-infrared-spectroscopy/10.1117/12.3087090
+  doi: https://www.spiedigitallibrary.org/proceedings/Download?urlId=10.1117%2F12.3087090
 - id: 1750
   created_at: 2026-03-15 01:51:01.318359
   published_on: 2026-02-10
@@ -23914,3 +23913,182 @@
   journal: ui.adsabs.harvard.edu
   category: Mathematics
   doi: https://ui.adsabs.harvard.edu/abs/2026AAS...24735305T/abstract
+- id: 1752
+  created_at: 2026-03-22 01:42:19.153150
+  published_on: 2026-03-19
+  title: "Which model better predicts brain-behavior relationships during decision-making?\
+    \ A simulation-based comparison of single-trial directed and integrative drift\
+    \ \u2026"
+  publication_info_summary: B Krijgsman, M Steeghs-Turchina, M Nunez - osf.io
+  link: https://osf.io/preprints/psyarxiv/7d46a
+  snippet: "\u2026 models are better able to detect true nonzero relationships, but\
+    \ suffer from a problem of false positives, at least as currently implemented\
+    \ in simulation-based inference \u2026"
+  category: Physics
+  doi: https://osf.io/preprints/psyarxiv/7d46a
+- id: 1753
+  created_at: 2026-03-22 01:42:24.934497
+  published_on: 2026-03-19
+  title: Joint exact simulation of the maximum and its location for some constrained
+    Brownian processes
+  publication_info_summary: "K Somnath, R Herbei - Journal of Statistical Computation\
+    \ and \u2026, 2026 - Taylor & Francis"
+  link: https://www.tandfonline.com/doi/abs/10.1080/00949655.2026.2641543
+  snippet: "\u2026 The algorithms provide a practical and rigorous foundation for\
+    \ exact sampling of path extrema and are directly applicable to simulation-based\
+    \ inference, rare event analysis\u2026"
+  journal: Taylor & Francis
+  category: Mathematics
+  doi: https://www.tandfonline.com/doi/abs/10.1080/00949655.2026.2641543
+- id: 1754
+  created_at: 2026-03-22 01:42:32.803521
+  published_on: 2026-03-16
+  title: A Simulation-Based Inference Evaluation of Tension Between MicroBooNE and
+    MiniBooNE Results in a 3+1 Sterile Neutrino Global Fit
+  authors: Julia P. Woodward, Joshua Villarreal, John M. Hardin, Austin Schneider,
+    Janet M. Conrad
+  publication_info_summary: "JP Woodward, J Villarreal, JM Hardin\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2603.15322
+  snippet: "\u2026 This paper is the third in a series aimed at reducing computational\
+    \ cost by developing a Simulation-Based Inference (SBI) framework for global fits.\
+    \ Previous papers \u2026"
+  journal: arxiv.org
+  arxiv_id: '2603.15322'
+  arxiv_category_tag: hep-ex
+  category: Physics
+- id: 1755
+  created_at: 2026-03-22 01:42:38.525276
+  published_on: 2026-03-17
+  title: exoALMA. XXIII. Estimating Disk and Planet Properties from Dust Morphologies
+    with DBNets 2.0
+  publication_info_summary: "A Ruzza, G Lodato, G Rosotti, P Armitage\u2026 - The\
+    \ Astrophysical \u2026, 2026 - iopscience.iop.org"
+  link: https://iopscience.iop.org/article/10.3847/2041-8213/ae434c/meta
+  snippet: "\u2026 We analyze the observed dust morphologies with the simulation-based\
+    \ inference tool DBNets2.0, assuming these are due to embedded planets at fixed\
+    \ locations, to infer \u2026"
+  journal: iopscience.iop.org
+  category: Astronomy
+  doi: https://iopscience.iop.org/article/10.3847/2041-8213/ae434c/meta
+- id: 1756
+  created_at: 2026-03-22 01:42:46.610645
+  published_on: 2026-03-14
+  title: Ancient metapopulations and extreme sex-biased demography revealed by ABC
+    inference and X-Chromosome diversity in Indo-Pacific reef sharks
+  authors: Dahms, C.; Momigliano, P.
+  publication_info_summary: C Dahms, P Momigliano - bioRxiv, 2026 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.64898/2026.03.13.711537.abstract
+  snippet: "\u2026 Our results demonstrate how integrating simulation-based inference\
+    \ with chromosome-specific diversity resolves complex metapopulation histories\
+    \ and reveal how sex-\u2026"
+  journal: biorxiv.org
+  category: Evolutionary biology
+  doi: 10.64898/2026.03.13.711537
+- id: 1757
+  created_at: 2026-03-22 01:42:53.569367
+  published_on: 2026-03-13
+  title: Simulation-based inference from the Lyman-alpha forest 1D power spectrum
+    with CAMELS
+  authors: Francesco Sinigaglia, Patricia Iglesias-Navarro, Matteo Viel
+  publication_info_summary: F Sinigaglia, P Iglesias-Navarro, M Viel - arXiv preprint
+    arXiv:2603.13011, 2026 - arxiv.org
+  link: https://arxiv.org/abs/2603.13011
+  snippet: "\u2026 We perform for the first time full simulation-based inference on\
+    \ the Lyman-\u03B1 forest 1D power spectrum. In particular, we consider the prediction\
+    \ of the Lyman-\u03B1 forest \u2026"
+  journal: arxiv.org
+  arxiv_id: '2603.13011'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1758
+  created_at: 2026-03-22 01:42:59.366502
+  published_on: 2026-03-14
+  title: Methodological contributions to state and parameter inference for state-space
+    models
+  publication_info_summary: K Tsampourakis - 2026 - era.ed.ac.uk
+  link: https://era.ed.ac.uk/items/dd0eccfb-1a12-4632-8c91-ddbd526a2955
+  snippet: "\u2026 contribution is the introduction of truncated sequential neural\
+    \ likelihood (T-SNL), a new algorithm for parameter inference in SSMs based on\
+    \ simulation-based inference (\u2026"
+  journal: era.ed.ac.uk
+  category: Mathematics
+  doi: https://era.ed.ac.uk/items/dd0eccfb-1a12-4632-8c91-ddbd526a2955
+- id: 1759
+  created_at: 2026-03-22 01:43:15.305462
+  published_on: 2026-03-12
+  title: A simulation-based inference of the Milky Way merger history
+  authors: Andrea Sante, Andreea S. Font, Daisuke Kawata, T. Lucas Makinen, Robert
+    J. J. Grand
+  publication_info_summary: "A Sante, AS Font, D Kawata, TL Makinen\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2603.12317
+  snippet: "\u2026 Adopting a simulation-based inference framework, we train an ensemble\
+    \ of normalizing flows using samples of merger debris from the Auriga suite of\
+    \ simulations of Milky \u2026"
+  journal: arxiv.org
+  arxiv_id: '2603.12317'
+  arxiv_category_tag: astro-ph.GA
+  category: Astronomy
+- id: 1760
+  created_at: 2026-03-22 01:43:21.767108
+  published_on: 2026-03-11
+  title: FlowSN Neural Simulation-Based Inference under Realistic Selection Effects
+    applied to Supernova Cosmology
+  authors: Benjamin M. Boyd, Kaisey S. Mandel, Matthew Grayling, Ayan Mitra, Richard
+    Kessler, Maximilian Autenrieth, Aaron Do, Madeleine Ginolin, Lisa Kelsey, Gautham
+    Narayan, Matthew O'Callaghan, Nikhil Sarin, Stephen Thorp
+  publication_info_summary: "BM Boyd, KS Mandel, M Grayling, A Mitra\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2603.11165
+  snippet: "\u2026 statistical framework using simulation-based inference with \u2026\
+    \ Simulation-based inference enables us to implicitly \u2026 over other simulation-based\
+    \ inference approaches. We \u2026"
+  journal: arxiv.org
+  arxiv_id: '2603.11165'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1761
+  created_at: 2026-03-22 01:43:33.840742
+  published_on: 2026-03-11
+  title: A likelihood-free framework for seismic forecasting models application to
+    incomplete ETAS model via simulation-based inference
+  publication_info_summary: P Bountzis, G Petrillo, E Lippiello - Authorea Preprints,
+    2026 - essopenarchive.org
+  link: https://essopenarchive.org/doi/full/10.22541/essoar.177315051.18116847
+  snippet: "\u2026 We propose a simulation-based inference procedure that combines\
+    \ the ABC frame- 244 work with stochastic optimization of a cost function. Rather\
+    \ than sampling directly \u2026"
+  journal: essopenarchive.org
+  category: Geology
+  doi: https://essopenarchive.org/doi/full/10.22541/essoar.177315051.18116847
+- id: 1762
+  created_at: 2026-03-22 01:44:07.959450
+  published_on: 2026-02-27
+  title: Do Diffusion Models Dream of Electric Planes? Discrete and Continuous Simulation-Based
+    Inference for Aircraft Design
+  authors: Aurelien Ghiglino, Daniel Elenius, Anirban Roy, Ramneet Kaur, Manoj Acharya,
+    Colin Samplawski, Brian Matejek, Susmit Jha, Juan Alonso, Adam Cobb
+  publication_info_summary: "A Ghiglino, D Elenius, A Roy, R Kaur\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2603.13284
+  snippet: "\u2026 We follow the paradigm of simulation-based inference (SBI), whereby\
+    \ we look to learn a posterior distribution over the full eVTOL design space.\
+    \ To learn this distribution, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2603.13284'
+  arxiv_category_tag: cs.LG
+  category: Statistics
+- id: 1763
+  created_at: 2026-03-22 01:44:57.706617
+  published_on: 2026-02-21
+  title: Estimating Parameters of Agent-Based Models from Data A Methodological Review
+  publication_info_summary: J Lenti, G De Francisci Morales - Available at SSRN 6275619,
+    2026 - papers.ssrn.com
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6275619
+  snippet: "\u2026 Thus, we argue that simulation-based inference can provide a common\
+    \ ground with known tools and benchmarks that can favor the progress of methods\
+    \ for the calibration \u2026"
+  journal: papers.ssrn.com
+  category: Neuroscience
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6275619
