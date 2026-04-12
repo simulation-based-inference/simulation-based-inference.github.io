@@ -63,6 +63,39 @@ def get_bibtex(arxiv_id: str) -> Optional[str]:
     return escape(bibtex[0].bibtex()).replace("\n", "<br>")
 
 
+@retry(wait=wait_exponential(min=1, max=10), stop=stop_after_attempt(5))
+def _fetch_bibtex_chunk(arxiv_ids: list[str]) -> dict[str, str]:
+    """Fetch BibTeX entries for a chunk of arXiv IDs (max 100)."""
+    results = arxiv2bib(arxiv_ids)
+    bibtex_map = {}
+    for arxiv_id, entry in zip(arxiv_ids, results):
+        try:
+            bibtex_map[arxiv_id] = escape(entry.bibtex()).replace("\n", "<br>")
+        except Exception:
+            bibtex_map[arxiv_id] = "N/A"
+    return bibtex_map
+
+
+def get_bibtex_batch(arxiv_ids: list[str], chunk_size: int = 100) -> dict[str, str]:
+    """Fetch BibTeX entries for multiple arXiv IDs in batches of chunk_size.
+
+    Returns a dict mapping arxiv_id to its formatted bibtex string.
+    """
+    if not arxiv_ids:
+        return {}
+
+    bibtex_map = {}
+    for i in range(0, len(arxiv_ids), chunk_size):
+        chunk = arxiv_ids[i:i + chunk_size]
+        try:
+            bibtex_map.update(_fetch_bibtex_chunk(chunk))
+        except Exception:
+            logging.warning(f"Failed to fetch bibtex for chunk starting at index {i}")
+            for arxiv_id in chunk:
+                bibtex_map[arxiv_id] = "N/A"
+    return bibtex_map
+
+
 def to_category(arxiv_category: Optional[str]) -> str | None:
     """Convert arxiv category to arxiv group (aka category in frontend)."""
 

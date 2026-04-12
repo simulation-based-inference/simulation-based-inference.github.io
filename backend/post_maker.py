@@ -2,7 +2,7 @@ import json
 import re
 from pathlib import Path
 
-from backend.api import get_bibtex
+from backend.api import get_bibtex_batch
 from backend.database import Paper, get_papers
 
 POST_DIR = Path("_posts/")  # Journal articles
@@ -55,7 +55,7 @@ def sanitize_filename(filename: str) -> str:
     return sanitized.lower()[:64]
 
 
-def make_md(paper: Paper, overwrite: bool, output_dir: Path) -> None:
+def make_md(paper: Paper, overwrite: bool, output_dir: Path, bibtex_map: dict[str, str] | None = None) -> None:
     """Make a post for the given paper."""
 
     # Create file name
@@ -76,9 +76,9 @@ def make_md(paper: Paper, overwrite: bool, output_dir: Path) -> None:
             return "\n".join([line1, line2, line3])
         return ""
 
-    try:
-        bibtex = get_bibtex(paper.arxiv_id) if paper.arxiv_id else "N/A"
-    except Exception:
+    if bibtex_map and paper.arxiv_id:
+        bibtex = bibtex_map.get(paper.arxiv_id, "N/A")
+    else:
         bibtex = "N/A"
 
     # Create file content
@@ -126,20 +126,25 @@ def remake_all_posts() -> None:
     # Make all posts
     papers = get_papers()
 
+    # Filter papers first
+    valid_papers = []
     for paper in papers:
-        # Filtering
         if paper.title in BLACKLIST:
             print(f"Paper is blacklisted: {paper.title}, skipping...")
             continue
-
-        if (
-            paper.published_on.year == 2000
-        ):  # Paper without publication date will have default as 2000
+        if paper.published_on.year == 2000:
             print(f"Paper is undated: {paper.title}, skipping...")
             continue
+        valid_papers.append(paper)
 
+    # Batch fetch all bibtex entries in a single API call
+    arxiv_ids = [p.arxiv_id for p in valid_papers if p.arxiv_id]
+    print(f"Fetching bibtex for {len(arxiv_ids)} papers in batch...")
+    bibtex_map = get_bibtex_batch(arxiv_ids)
+
+    for paper in valid_papers:
         if paper.journal not in WHITELIST:
             print(f"Paper is not in whitelist journals: {paper.title}, skipping...")
-            make_md(paper, overwrite=True, output_dir=MISC_DIR)
+            make_md(paper, overwrite=True, output_dir=MISC_DIR, bibtex_map=bibtex_map)
         else:
-            make_md(paper, overwrite=True, output_dir=POST_DIR)
+            make_md(paper, overwrite=True, output_dir=POST_DIR, bibtex_map=bibtex_map)
