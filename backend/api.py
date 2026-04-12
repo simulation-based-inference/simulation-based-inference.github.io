@@ -20,6 +20,12 @@ SERP_API_KEY = os.getenv("SERP_API_KEY")
 with open("backend/data/arxiv_group.json", "r") as f:
     ARXIV_GROUP_MAP = json.load(f)
 
+ARXIV_CLIENT = arxiv.Client(
+    page_size=100,
+    delay_seconds=3.0,
+    num_retries=5,
+)
+
 
 def timeout(func, duration=0.5):
     """Delay the execution of a function to prevent blockage."""
@@ -97,13 +103,12 @@ def query_biorxiv(doi: str) -> dict | None:
         }
 
 
-@timeout
 def query_arxiv(arxiv_id: str) -> dict[str, Any] | None:
     """Query arxiv for a paper with the given title."""
     search = arxiv.Search(id_list=[arxiv_id], max_results=1)
 
     try:
-        result = next(search.results())
+        result = next(ARXIV_CLIENT.results(search))
     except StopIteration:
         return None
 
@@ -115,6 +120,30 @@ def query_arxiv(arxiv_id: str) -> dict[str, Any] | None:
         "published_on": result.published.date(),
         "title": result.title,
     }
+
+
+def query_arxiv_batch(arxiv_ids: list[str]) -> dict[str, dict[str, Any]]:
+    """Query arxiv for multiple papers in a single API call.
+
+    Returns a dict mapping arxiv_id to paper data.
+    """
+    if not arxiv_ids:
+        return {}
+
+    search = arxiv.Search(id_list=arxiv_ids, max_results=len(arxiv_ids))
+    results = {}
+    for result in ARXIV_CLIENT.results(search):
+        # Extract the arxiv ID from the entry_id URL
+        aid = result.entry_id.split("/")[-1].split("v")[0]
+        results[aid] = {
+            "authors": ", ".join([str(author) for author in result.authors]),
+            "doi": result.doi,
+            "arxiv_category_tag": result.primary_category,
+            "category": to_category(result.primary_category),
+            "published_on": result.published.date(),
+            "title": result.title,
+        }
+    return results
 
 
 def format_backlink(url: str) -> str | None:
