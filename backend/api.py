@@ -12,7 +12,12 @@ import requests
 from arxiv2bib import arxiv2bib
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-from tenacity import retry, wait_exponential, stop_after_attempt
+from tenacity import (
+    retry,
+    retry_if_exception_type,
+    stop_after_attempt,
+    wait_exponential,
+)
 
 load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
@@ -20,11 +25,16 @@ SERP_API_KEY = os.getenv("SERP_API_KEY")
 with open("backend/data/arxiv_group.json", "r") as f:
     ARXIV_GROUP_MAP = json.load(f)
 
+<<<<<<< HEAD
 ARXIV_CLIENT = arxiv.Client(
     page_size=100,
     delay_seconds=3.0,
     num_retries=5,
 )
+=======
+# arxiv export API rate-limits aggressively; use long delays and many retries.
+ARXIV_CLIENT = arxiv.Client(page_size=100, delay_seconds=10.0, num_retries=8)
+>>>>>>> 5333155 (harden arxiv API calls against HTTP 429)
 
 
 def timeout(func, duration=0.5):
@@ -54,7 +64,7 @@ def get_arxiv_category_map() -> dict:
 
     return category_mapping
 
-@retry(wait=wait_exponential(min=1, max=10), stop=stop_after_attempt(5))
+@retry(wait=wait_exponential(min=2, max=60), stop=stop_after_attempt(5))
 def get_bibtex(arxiv_id: str) -> Optional[str]:
     """Fetch BibTeX entry for a given arXiv ID."""
 
@@ -136,6 +146,12 @@ def query_biorxiv(doi: str) -> dict | None:
         }
 
 
+@retry(
+    retry=retry_if_exception_type(arxiv.HTTPError),
+    wait=wait_exponential(min=5, max=120),
+    stop=stop_after_attempt(5),
+    reraise=True,
+)
 def query_arxiv(arxiv_id: str) -> dict[str, Any] | None:
     """Query arxiv for a paper with the given title."""
     search = arxiv.Search(id_list=[arxiv_id], max_results=1)
@@ -143,6 +159,11 @@ def query_arxiv(arxiv_id: str) -> dict[str, Any] | None:
     try:
         result = next(ARXIV_CLIENT.results(search))
     except StopIteration:
+        return None
+    except arxiv.HTTPError:
+        raise
+    except Exception as e:
+        logging.warning(f"arxiv query failed for {arxiv_id}: {e}")
         return None
 
     return {

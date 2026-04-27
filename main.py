@@ -4,7 +4,9 @@ import json
 import logging
 from pathlib import Path
 
-from backend.api import query_arxiv_batch, query_biorxiv, query_serp
+import arxiv
+
+from backend.api import query_arxiv, query_biorxiv, query_serp
 from backend.database import Paper, get_paper, get_papers, insert_paper, update_paper
 from backend.guess_category import Guesser
 from backend.plot_maker import make_plot
@@ -42,9 +44,17 @@ def crawl(term: str, more_results: bool = False, stop_days: int | None = None) -
         arxiv_batch = query_arxiv_batch(arxiv_ids)
 
         for result in results["formatted_results"]:
-            # Append extra arxiv data from batch result
-            if result["journal"] == "arxiv.org" and result["arxiv_id"] in arxiv_batch:
-                result.update(arxiv_batch[result["arxiv_id"]])
+            # Append extra arxiv data
+            if result["journal"] == "arxiv.org":
+                try:
+                    arxiv_data = query_arxiv(result["arxiv_id"])
+                except arxiv.HTTPError as e:
+                    logging.warning(
+                        f"arxiv lookup gave up for {result['arxiv_id']}: {e}"
+                    )
+                    arxiv_data = None
+                if arxiv_data is not None:
+                    result.update(arxiv_data)
 
             # Append extra biorxiv data
             if result["journal"] == "biorxiv.org":
