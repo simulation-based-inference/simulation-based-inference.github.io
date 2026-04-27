@@ -25,16 +25,8 @@ SERP_API_KEY = os.getenv("SERP_API_KEY")
 with open("backend/data/arxiv_group.json", "r") as f:
     ARXIV_GROUP_MAP = json.load(f)
 
-<<<<<<< HEAD
-ARXIV_CLIENT = arxiv.Client(
-    page_size=100,
-    delay_seconds=3.0,
-    num_retries=5,
-)
-=======
 # arxiv export API rate-limits aggressively; use long delays and many retries.
 ARXIV_CLIENT = arxiv.Client(page_size=100, delay_seconds=10.0, num_retries=8)
->>>>>>> 5333155 (harden arxiv API calls against HTTP 429)
 
 
 def timeout(func, duration=0.5):
