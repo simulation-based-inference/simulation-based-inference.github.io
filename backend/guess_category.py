@@ -1,14 +1,26 @@
-import openai
-import os
-import re
 import json
 import logging
-from backend.database import get_papers, Paper, write_papers
+import os
+import re
+from typing import List, Tuple
+
 from dotenv import load_dotenv
+from openai import OpenAI
 from tqdm import tqdm
-from typing import Tuple, List
+
+from backend.database import Paper, get_papers, write_papers
 
 load_dotenv()
+
+OPENAI_MODEL = "gpt-5.4"
+_client: OpenAI | None = None
+
+
+def _get_client() -> OpenAI:
+    global _client
+    if _client is None:
+        _client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    return _client
 
 
 def post_process_guesses(guess: str) -> str:
@@ -43,12 +55,11 @@ def post_process_guesses(guess: str) -> str:
 def guess_category(title: str) -> str:
     """Guess category with OpenAI."""
 
-    openai.api_key = os.getenv("OPENAI_API_KEY")
     instruction = "Given a journal article title, predict a subject category. Only provide one category, if you are not sure, just return 'uncertain'."
     prompt = f"Title: {title}"
 
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+    response = _get_client().chat.completions.create(
+        model=OPENAI_MODEL,
         messages=[
             {"role": "system", "content": instruction},
             {"role": "user", "content": prompt},

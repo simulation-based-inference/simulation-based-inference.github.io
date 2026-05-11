@@ -5,7 +5,7 @@ beautifulsoup4==4.12.2
 arxiv==2.2.0
 pre-commit==3.3.3
 pydantic==2.4.2
-openai==0.28.1
+openai>=1.50,<3
 pandas>=2.1,<2.2
 altair==5.1.2
 arxiv2bib==1.0.8

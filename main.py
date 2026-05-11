@@ -36,13 +36,6 @@ def crawl(term: str, more_results: bool = False, stop_days: int | None = None) -
         if results is None:
             break
 
-        # Batch-fetch arxiv data for all arxiv papers on this page (1 API call instead of N)
-        arxiv_ids = [
-            r["arxiv_id"] for r in results["formatted_results"]
-            if r["journal"] == "arxiv.org" and r["arxiv_id"]
-        ]
-        arxiv_batch = query_arxiv_batch(arxiv_ids)
-
         for result in results["formatted_results"]:
             # Append extra arxiv data
             if result["journal"] == "arxiv.org":
