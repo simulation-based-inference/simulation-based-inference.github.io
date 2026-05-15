@@ -1,0 +1,102 @@
+name: Self-heal Weekly pull
+
+on:
+  workflow_run:
+    workflows: ["Weekly pull"]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+  issues: write
+
+env:
+  WATCHED_WORKFLOW_FILE: pull_paper.yml
+
+jobs:
+  heal:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Skip if heal PR already open
+        id: dedupe
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          n=$(gh pr list --label self-heal --state open --json number --jq 'length')
+          if [ "$n" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Open self-heal PR already exists; exiting."
+          fi
+
+      - name: Checkout failed-run SHA
+        if: steps.dedupe.outputs.skip != 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+
+      - name: Download failed run logs
+        if: steps.dedupe.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          mkdir -p .heal
+          gh run view "$RUN_ID" --log-failed > .heal/log-full.txt || true
+          tail -c 12000 .heal/log-full.txt > .heal/log.txt
+          gh run view "$RUN_ID" \
+            --json conclusion,headBranch,headSha,event,displayTitle,workflowName \
+            > .heal/run.json
+
+      - name: Diagnose and open fix PR
+        if: steps.dedupe.outputs.skip != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          claude_args: --max-turns 8 --model claude-sonnet-4-6
+          prompt: |
+            You are a self-healing CI agent. Workflow `${{ env.WATCHED_WORKFLOW_FILE }}`
+            failed on commit ${{ github.event.workflow_run.head_sha }}
+            (run id ${{ github.event.workflow_run.id }}).
+
+            Hard constraints:
+              - DO NOT modify any file under `.github/workflows/self_heal_*`.
+              - DO NOT read, print, or modify `.env` or its contents.
+              - Make the smallest possible change that fixes the root cause.
+              - If the failure looks transient and existing retry/backoff already
+                handles it, open an issue (label `self-heal`) summarising the
+                failure instead of a PR.
+
+            Likely code paths (informed by past failures):
+              - main.py - entry point, called as `python main.py --crawl`
+              - backend/api.py - SERP / arXiv / bioRxiv / OpenAI clients (rate limits, parsing)
+              - backend/database.py - Pydantic models
+              - backend/post_maker.py, backend/guess_category.py
+
+            Steps:
+              1. Read `.heal/log.txt` and `.heal/run.json` to identify the root cause.
+              2. Read the source files implicated by the traceback.
+              3. Apply the minimal fix.
+              4. Create branch `self-heal/run-${{ github.event.workflow_run.id }}`,
+                 commit `fix(self-heal): <one-line diagnosis>`, and open a PR
+                 against `main` with label `self-heal`.
+              5. PR body must include: diagnosis, the exact log excerpt that
+                 prompted it, files changed, and a manual verification step
+                 (re-run `Weekly pull` from the Actions tab).
+
+      - name: File issue on heal failure
+        if: failure() && steps.dedupe.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "Self-heal failed for Weekly pull run ${{ github.event.workflow_run.id }}" \
+            --body  "Self-heal workflow run ${{ github.run_id }} did not complete. Manual triage required." \
+            --label self-heal,needs-triage
