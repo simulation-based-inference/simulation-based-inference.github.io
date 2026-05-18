@@ -3,6 +3,8 @@ import json
 import logging
 import os
 import re
+import signal
+from contextlib import contextmanager
 from html import escape
 from time import sleep
 from typing import Any, Optional
@@ -168,27 +170,95 @@ def query_arxiv(arxiv_id: str) -> dict[str, Any] | None:
     }
 
 
-def query_arxiv_batch(arxiv_ids: list[str]) -> dict[str, dict[str, Any]]:
-    """Query arxiv for multiple papers in a single API call.
+class _ArxivChunkTimeout(Exception):
+    """Raised when a single arxiv batch chunk exceeds its wall-clock budget."""
 
-    Returns a dict mapping arxiv_id to paper data.
+
+@contextmanager
+def _chunk_timeout(seconds: int):
+    """Bound a block of code with a SIGALRM-based wall-clock timeout.
+
+    The arxiv Python library passes no timeout to urllib, so a single
+    misbehaving request can hang indefinitely. SIGALRM works on Linux
+    (our CI target) and from the main thread; if either condition isn't
+    met we silently skip the timeout rather than fail.
+    """
+
+    def handler(signum, frame):
+        raise _ArxivChunkTimeout(f"chunk exceeded {seconds}s")
+
+    try:
+        old_handler = signal.signal(signal.SIGALRM, handler)
+    except (ValueError, AttributeError):
+        yield
+        return
+    signal.alarm(seconds)
+    try:
+        yield
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old_handler)
+
+
+def _arxiv_result_to_dict(result) -> dict[str, Any]:
+    return {
+        "authors": ", ".join(str(author) for author in result.authors),
+        "doi": result.doi,
+        "arxiv_category_tag": result.primary_category,
+        "category": to_category(result.primary_category),
+        "published_on": result.published.date(),
+        "title": result.title,
+    }
+
+
+def query_arxiv_batch(
+    arxiv_ids: list[str],
+    chunk_size: int = 25,
+    chunk_timeout_seconds: int = 120,
+) -> dict[str, dict[str, Any]]:
+    """Query arxiv for multiple papers via chunked id_list requests.
+
+    Small chunks (default 25) avoid the arxiv library's tendency to silently
+    drop IDs from large bulk id_list queries. Each chunk is bounded by
+    chunk_timeout_seconds. On any chunk failure (HTTP, timeout, parse) we
+    log and move on — IDs that arxiv drops or that fail outright are simply
+    absent from the returned dict, so the caller can fall back to per-id.
     """
     if not arxiv_ids:
         return {}
 
-    search = arxiv.Search(id_list=arxiv_ids, max_results=len(arxiv_ids))
-    results = {}
-    for result in ARXIV_CLIENT.results(search):
-        # Extract the arxiv ID from the entry_id URL
-        aid = result.entry_id.split("/")[-1].split("v")[0]
-        results[aid] = {
-            "authors": ", ".join([str(author) for author in result.authors]),
-            "doi": result.doi,
-            "arxiv_category_tag": result.primary_category,
-            "category": to_category(result.primary_category),
-            "published_on": result.published.date(),
-            "title": result.title,
-        }
+    seen: set[str] = set()
+    deduped: list[str] = []
+    for aid in arxiv_ids:
+        if aid and aid not in seen:
+            seen.add(aid)
+            deduped.append(aid)
+
+    results: dict[str, dict[str, Any]] = {}
+    for i in range(0, len(deduped), chunk_size):
+        chunk = deduped[i:i + chunk_size]
+        chunk_idx = i // chunk_size
+        try:
+            with _chunk_timeout(chunk_timeout_seconds):
+                search = arxiv.Search(id_list=chunk, max_results=len(chunk))
+                for result in ARXIV_CLIENT.results(search):
+                    aid = re.sub(r"v\d+$", "", result.entry_id.split("/")[-1])
+                    results[aid] = _arxiv_result_to_dict(result)
+        except _ArxivChunkTimeout:
+            logging.warning(
+                f"arxiv batch chunk {chunk_idx} timed out after "
+                f"{chunk_timeout_seconds}s; {len(chunk)} ids will fall back to per-id"
+            )
+        except arxiv.HTTPError as e:
+            logging.warning(
+                f"arxiv batch chunk {chunk_idx} HTTPError ({e}); "
+                f"{len(chunk)} ids will fall back to per-id"
+            )
+        except Exception as e:
+            logging.warning(
+                f"arxiv batch chunk {chunk_idx} failed: {e}; "
+                f"{len(chunk)} ids will fall back to per-id"
+            )
     return results
 
 
