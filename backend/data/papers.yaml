@@ -23753,13 +23753,13 @@
   title: Modeling galaxy surveys with hybrid simulation-based inference
   publication_info_summary: G Zhang, C Modi, OHE Philcox - Physical Review D, 2026
     - APS
-  link: https://link.aps.org/pdf/10.1103/zj8s-v23z
+  link: https://link.aps.org/doi/10.1103/zj8s-v23z
   snippet: "\u2026 Small scales: Simulation-based inference Since the PT models fail\
     \ on small scales due to increased nonlinearity, we use simulation-based inference\
     \ to extract information \u2026"
   journal: APS
   category: Physics
-  doi: https://link.aps.org/pdf/10.1103/zj8s-3z
+  doi: https://link.aps.org/doi/10.1103/zj8s-3z
 - id: 1741
   created_at: 2026-03-08 01:26:29.428207
   published_on: 2026-03-03
@@ -23850,21 +23850,17 @@
   category: Physics
 - id: 1747
   created_at: 2026-03-15 01:48:18.501303
-  published_on: 2026-03-09
+  published_on: 2026-03-10
   title: Quantifying the Milky Way, LMC and their interaction using all-sky kinematics
     of outer halo stars
-  authors: "Richard A. N. Brooks, Jason L. Sanders, Adam M. Dillamore, Nicol\xE1s\
-    \ Garavito-Camargo, Vedant Chandra, Adrian M. Price-Whelan, Phillip Cargile"
-  publication_info_summary: "RAN Brooks, JL Sanders, AM Dillamore\u2026 - arXiv preprint\
-    \ arXiv \u2026, 2026 - arxiv.org"
-  link: https://arxiv.org/abs/2603.08788
+  publication_info_summary: "RAN Brooks, JL Sanders, AM Dillamore\u2026 - Monthly\
+    \ Notices of \u2026, 2026 - academic.oup.com"
+  link: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stag926/8678456
   snippet: "\u2026 of 32,000 rigid MW\u2013LMC simulations, each with a MW stellar\
     \ halo evolved to the present day in the combined MW\u2013LMC potential, we perform\
     \ Simulation Based Inference \u2026"
-  journal: arxiv.org
-  arxiv_id: '2603.08788'
-  arxiv_category_tag: astro-ph.GA
-  category: Astrophysics
+  journal: academic.oup.com
+  doi: https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stag926/8678456
 - id: 1748
   created_at: 2026-03-15 01:48:24.320662
   published_on: 2026-03-07
@@ -24080,6 +24076,7 @@
     \ we look to learn a posterior distribution over the full eVTOL design space.\
     \ To learn this distribution, \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=4327808271570132540
   arxiv_id: '2603.13284'
   arxiv_category_tag: cs.LG
   category: Statistics
@@ -24288,6 +24285,7 @@
     \ estimation (NPE). We compare training on datasets of noisy 2DPS obtained from\
     \ 21cmFAST \u2026"
   journal: academic.oup.com
+  citation_backlink: https://scholar.google.com/scholar?cites=18098257193785826416
   category: Physics
   doi: https://academic.oup.com/mnras/article-abstract/548/2/stag577/8540247
 - id: 1777
@@ -24372,6 +24370,7 @@
     \ and transformed cognitive modeling workflows. SBI enables modelers to fit complex\
     \ models that \u2026"
   journal: arxiv.org
+  citation_backlink: https://scholar.google.com/scholar?cites=6335063931097482248
   arxiv_id: '2603.20520'
   arxiv_category_tag: stat.ML
   category: Statistics
@@ -24887,7 +24886,6 @@
     \ inference methods, such as Approximate Bayesian Computation (ABC), to estimate\
     \ the key event \u2026"
   journal: ieeexplore.ieee.org
-  category: Physics
   doi: https://ieeexplore.ieee.org/abstract/document/11461216/
 - id: 1819
   created_at: 2026-05-17 02:48:45.976013
@@ -25022,3 +25020,154 @@
   journal: frontiersin.org
   category: Computer Science
   doi: https://www.frontiersin.org/journals/astronomy-and-space-sciences/articles/10.3389/fspas.2026.1736938/full
+- id: 1828
+  created_at: 2026-05-24 02:37:20.558972
+  published_on: 2026-05-20
+  title: Brain Oscillations Extend Beyond Task-Relevant Motor Neuron Pools and Contribute
+    to Shaping the Functional State of the Motor System
+  authors: Hug, F.; Dernoncourt, F.; Naveilhan, C.; van den Hoorn, W.
+  publication_info_summary: F Hug, F Dernoncourt, C Naveilhan, W van den Hoorn - bioRxiv,
+    2026 - biorxiv.org
+  link: https://www.biorxiv.org/content/10.64898/2026.05.16.725172.abstract
+  snippet: "\u2026 Simulation-based inference We used simulation-based inference (sbi\
+    \ Python toolbox \u2026 We validated both stages of the simulation-based inference\
+    \ pipeline using held-out \u2026"
+  journal: biorxiv.org
+  category: Physics
+  doi: 10.64898/2026.05.16.725172
+- id: 1829
+  created_at: 2026-05-24 02:37:26.040264
+  published_on: 2026-05-18
+  title: Robust Simulation Based Inference Through Robust Optimal Transport
+  authors: Peter Matthew Jacobs, Lekha Patel, Anirban Bhattacharya, Debdeep Pati
+  publication_info_summary: "PM Jacobs, L Patel, A Bhattacharya, D Pati - arXiv preprint\
+    \ arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2605.18741
+  snippet: "\u2026 This approach is called Simulation Based Inference (SBI). Statistical\
+    \ models are rarely exactly correct (that is, $P \\notin \\{P_{\\theta}: \\theta\
+    \ \\in \\Theta\\}$), and Robust SBI \u2026"
+  journal: arxiv.org
+  arxiv_id: '2605.18741'
+  arxiv_category_tag: stat.ME
+  category: Statistics
+- id: 1830
+  created_at: 2026-05-24 02:37:31.489530
+  published_on: 2026-05-17
+  title: Population synthesis of active galactic nuclei based on the radiation-regulated
+    unification model
+  authors: D. Gerolymatou, S. Paltani, C. Ricci, T. T. Ananna
+  publication_info_summary: "D Gerolymatou, S Paltani, C Ricci\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2605.17547
+  snippet: "\u2026 Here, we use a simulation-based inference (SBI) approach to constrain\
+    \ the geometrical and physical properties of the AGN population. We perform numerical\
+    \ simulations \u2026"
+  journal: arxiv.org
+  arxiv_id: '2605.17547'
+  arxiv_category_tag: astro-ph.HE
+  category: Astrophysics
+- id: 1831
+  created_at: 2026-05-24 02:37:37.009152
+  published_on: 2026-05-17
+  title: A Belief representation for Active Uncertain Pose Estimation via Simulation-based
+    Inference
+  publication_info_summary: "A Kamireddypalli, M Mattamala, J Moura, R Buchanan\u2026\
+    \ - openreview.net"
+  link: https://openreview.net/forum?id=rFLQFn6v36
+  snippet: "\u2026 Pose Estimation via Simulation-based Inference \u2026 1: A Simulation-based\
+    \ Inference framework to approximate \u2026 Here we propose a Simulation-based\
+    \ Inference framework to \u2026"
+  category: Computer Science
+  doi: https://openreview.net/forum?id=rFLQFn66
+- id: 1832
+  created_at: 2026-05-24 02:37:44.616721
+  published_on: 2026-05-14
+  title: "Probing the IMF in the Early Universe -- Direct measurements in the Bo\xF6\
+    tes I UFD with JWST/NIRCam"
+  authors: "Keyi Ding, Mario Gennaro, Roberto J. Avila, Massimo Ricotti, Rachael L.\
+    \ Beaton, Martha L. Boyer, Thomas M. Brown, Annalisa Calamida, Santi Cassisi,\
+    \ Vedant Chandra, Roger E. Cohen, Matteo Correnti, Denija Crnojevi\u0107, Kareem\
+    \ El-Badry, Marla Geha, Puragra Guhathakurta, Nitya Kallivayalil, Evan N. Kirby,\
+    \ Kristen. B. W. McQuinn, Alessandro Savino, Cheyanne Shariat, Joshua D. Simon,\
+    \ Daniel R. Weisz"
+  publication_info_summary: "K Ding, M Gennaro, RJ Avila, M Ricotti\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2605.15069
+  snippet: "\u2026 synthetic color-magnitude diagrams with simulation-based inference.\
+    \ We find that a single \u2026 We use the simulation-based inference technique\
+    \ to infer the single power-law, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2605.15069'
+  arxiv_category_tag: astro-ph.GA
+  category: Astrophysics
+- id: 1833
+  created_at: 2026-05-24 02:37:50.105262
+  published_on: 2026-05-15
+  title: "Block-Krylov discrete-dipole and volume-integral-equation solvers for multi-orientation\
+    \ light scattering across the dielectric\u2013metal contrast range"
+  publication_info_summary: "N Moteki - Preprint submitted to Journal of Quantitative\
+    \ \u2026, 2026 - papers.ssrn.com"
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6757058
+  snippet: "\u2026 without a tractable likelihood function has been actively developed\
+    \ in recent 18 years and is now formalized as the simulation-based inference (SBI)\
+    \ frame- 19 work [4]. In \u2026"
+  journal: papers.ssrn.com
+  category: Physics
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6757058
+- id: 1834
+  created_at: 2026-05-24 02:37:57.234124
+  published_on: 2026-05-14
+  title: Composite Certainty Addressing Metric Degeneracy in Parameter Inference for
+    Model-Based Diagnostics
+  authors: Koshe, A.; Sobhani Tehrani, E.; Jalaleddini, K.; Motallebzadeh, H.
+  publication_info_summary: "A Koshe, E Sobhani Tehrani, K Jalaleddini\u2026 - bioRxiv,\
+    \ 2026 - biorxiv.org"
+  link: https://www.biorxiv.org/content/10.64898/2026.05.09.724027.abstract
+  snippet: "\u2026 Applied to a simulation-based inference pipeline for a finite-element\
+    \ model of the human middle ear tuned to cadaveric acoustic measurements, the\
+    \ framework reveals \u2026"
+  journal: biorxiv.org
+  category: Bioengineering
+  doi: 10.64898/2026.05.09.724027
+- id: 1835
+  created_at: 2026-05-24 02:38:02.916853
+  published_on: 2026-05-13
+  title: Rapid and robust simulation-based inference for kilonovae
+  authors: Stephanie M. Brown, Mattia Bulla, Hiranya V. Peiris, Nikhil Sarin, Daniel
+    Mortlock, Stephen Thorp, Gurjeet Jagwani, Stephan Rosswog, Samaya Nissanke
+  publication_info_summary: "SM Brown, M Bulla, HV Peiris, N Sarin\u2026 - arXiv preprint\
+    \ arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2605.13983
+  snippet: "\u2026 We develop a simulation-based inference (SBI) framework for kilonova\
+    \ parameter estimation using density-estimation likelihood-free inference. The\
+    \ framework uses a \u2026"
+  journal: arxiv.org
+  arxiv_id: '2605.13983'
+  arxiv_category_tag: astro-ph.IM
+  category: Astrophysics
+- id: 1836
+  created_at: 2026-05-24 02:38:33.533554
+  published_on: 2026-05-12
+  title: Approximation bias during marginalisation over nuisance parameters in likelihood-based
+    Variational Inference, and its impact on Bayesian solutions
+  publication_info_summary: "S Dromigny, X Zhao, T Reu\u2026 - Geophysical Journal\
+    \ \u2026, 2026 - academic.oup.com"
+  link: https://academic.oup.com/gji/advance-article-abstract/doi/10.1093/gji/ggag180/8679163
+  snippet: "\u2026 Dromigny, Zhao, Reu, Koelemeijer and Curtis show that likelihood-free\
+    \ VI, in particular simulation-based inference (SBI), recovers the cor21 rect\
+    \ posterior distribution in \u2026"
+  journal: academic.oup.com
+  category: atmospheric science
+  doi: https://academic.oup.com/gji/advance-article-abstract/doi/10.1093/gji/ggag180/8679163
+- id: 1837
+  created_at: 2026-05-24 02:42:12.973985
+  published_on: 2026-04-02
+  title: Neural simulation-based inference
+  publication_info_summary: "K Karchev - Supernova Cosmology for the 21st Century:\
+    \ How I \u2026, 2026 - Springer"
+  link: https://link.springer.com/chapter/10.1007/978-3-032-15072-1_2
+  snippet: "Simulation-based inference (SBI) is a suite of methods in which the model\
+    \ is explicated not by an explicit numerical joint probability density but through\
+    \ a simulator: a \u2026"
+  journal: Springer
+  doi: https://link.springer.com/chapter/10.1007/978-3-032-15072-1_2
