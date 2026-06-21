@@ -60,7 +60,7 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          claude_args: --max-turns 8 --model claude-sonnet-4-6
+          claude_args: --max-turns 16 --model claude-sonnet-4-6
           prompt: |
             You are a self-healing CI agent. Workflow `${{ env.WATCHED_WORKFLOW_FILE }}`
             failed on commit ${{ github.event.workflow_run.head_sha }}
@@ -90,6 +90,14 @@ jobs:
               5. PR body must include: diagnosis, the exact log excerpt that
                  prompted it, files changed, and a manual verification step
                  (re-run `Weekly pull` from the Actions tab).
+
+      - name: Ensure issue labels exist
+        if: failure() && steps.dedupe.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create self-heal --color 5319e7 --description "Automated self-heal tracking" || true
+          gh label create needs-triage --color d73a4a --description "Needs manual triage" || true
 
       - name: File issue on heal failure
         if: failure() && steps.dedupe.outputs.skip != 'true'
