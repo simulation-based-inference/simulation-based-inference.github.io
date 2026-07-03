@@ -376,7 +376,7 @@ def query_serp(
             try:
                 formatted_results.append(format_serp_result(result))
             except ValueError as e:
-                logging.warning(e)
+                logging.warning(f"Skipping SERP result due to formatting error: {e}")
         data["formatted_results"] = formatted_results
         return data
     else:
