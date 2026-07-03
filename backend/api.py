@@ -296,7 +296,7 @@ def format_serp_result(result: dict) -> dict:
 
     if year_of_publication == 0:
         raise ValueError(
-            f"Skipping result with invalid year_of_publication=0: {result.get('title')}"
+            f"Invalid year_of_publication=0 for result: {result.get('title')}"
         )
 
     if " days ago - " in result["snippet"]:
