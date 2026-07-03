@@ -25,10 +25,10 @@ jobs:
     timeout-minutes: 30
     steps:
     - name: Check out repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: '3.11'
 
@@ -64,6 +64,6 @@ jobs:
 
     - if: ${{ env.changed == 'true' }}
       name: Push changes
-      uses: ad-m/github-push-action@master  # TODO: pin to a release tag/SHA (moving @master is a supply-chain risk)
+      uses: ad-m/github-push-action@v1.3.0  # pinned to a release tag (avoids the supply-chain risk of a moving @master)
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
