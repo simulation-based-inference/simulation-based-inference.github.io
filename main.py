@@ -45,6 +45,7 @@ def crawl(term: str, more_results: bool = False, stop_days: int | None = None) -
         ]
         arxiv_batch = query_arxiv_batch(arxiv_ids_on_page)
 
+        delta = None
         for result in results["formatted_results"]:
             # Append extra arxiv data
             if result["journal"] == "arxiv.org" and result["arxiv_id"]:
@@ -93,7 +94,7 @@ def crawl(term: str, more_results: bool = False, stop_days: int | None = None) -
         term = None
 
         # Exit if we have reached the stopping condition or there are no more results
-        if stop_days is not None and delta.days > stop_days:
+        if stop_days is not None and delta is not None and delta.days > stop_days:
             break
         try:
             next_url = results["serpapi_pagination"]["next"]

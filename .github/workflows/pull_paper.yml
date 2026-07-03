@@ -6,15 +6,29 @@ on:
 
   workflow_dispatch:  # Add manually dispatch option
 
+# NOTE: Pushes made with GITHUB_TOKEN do NOT trigger other workflows, so the push
+# below will NOT trigger the "Deploy Jekyll site to Pages" (ci.yml) push trigger.
+# The site is redeployed instead by ci.yml's separate Monday 14:00 cron.
+
+# The push needs write access to repository contents.
+permissions:
+  contents: write
+
+# Prevent a manual workflow_dispatch from racing the cron and losing commits.
+concurrency:
+  group: weekly-pull
+  cancel-in-progress: false
+
 jobs:
   my_cron_job:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
     - name: Check out repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
@@ -50,7 +64,6 @@ jobs:
 
     - if: ${{ env.changed == 'true' }}
       name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@master  # TODO: pin to a release tag/SHA (moving @master is a supply-chain risk)
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        force: true
