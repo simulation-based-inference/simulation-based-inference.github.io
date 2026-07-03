@@ -381,7 +381,10 @@ def query_serp(
         for result in data.get("organic_results", []):
             try:
                 formatted_results.append(format_serp_result(result))
-            except (ValueError, KeyError, TypeError) as e:
+            except Exception as e:
+                # Skip any result we can't format rather than aborting the whole
+                # crawl. format_serp_result touches many optional fields, so the
+                # failure surface is broad (ValueError/KeyError/TypeError/AttributeError/...).
                 logging.warning(f"Skipping SERP result due to formatting error: {e}")
         data["formatted_results"] = formatted_results
         return data
