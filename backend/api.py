@@ -299,8 +299,9 @@ def format_serp_result(result: dict) -> dict:
             f"Invalid year_of_publication=0 for result: {result.get('title')}"
         )
 
-    if " days ago - " in result["snippet"]:
-        _tmp = result["snippet"].split(" days ago - ")
+    raw_snippet = result.get("snippet", "")
+    if " days ago - " in raw_snippet:
+        _tmp = raw_snippet.split(" days ago - ")
         snippet = _tmp[1]
         days_since_added = int(_tmp[0])
         published_on = datetime.datetime.now() - datetime.timedelta(
@@ -308,8 +309,13 @@ def format_serp_result(result: dict) -> dict:
         )
         published_on = published_on.date()
     else:
-        snippet = result["snippet"]
+        snippet = raw_snippet
         published_on = datetime.date(year_of_publication, 1, 1)
+
+    if snippet == "":
+        raise ValueError(
+            f"Empty snippet for result: {result.get('title')}"
+        )
 
     try:
         citation_backlink = result["inline_links"]["cited_by"]["link"]
