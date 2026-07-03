@@ -294,6 +294,11 @@ def format_serp_result(result: dict) -> dict:
     except IndexError:
         year_of_publication = 0
 
+    if year_of_publication == 0:
+        raise ValueError(
+            f"Skipping result with invalid year_of_publication=0: {result.get('title')}"
+        )
+
     if " days ago - " in result["snippet"]:
         _tmp = result["snippet"].split(" days ago - ")
         snippet = _tmp[1]
@@ -366,9 +371,13 @@ def query_serp(
     response = requests.get(url, params=params)
     if response.status_code == 200:
         data = response.json()
-        data["formatted_results"] = [
-            format_serp_result(result) for result in data["organic_results"]
-        ]
+        formatted_results = []
+        for result in data.get("organic_results", []):
+            try:
+                formatted_results.append(format_serp_result(result))
+            except ValueError as e:
+                logging.warning(e)
+        data["formatted_results"] = formatted_results
         return data
     else:
         print(
