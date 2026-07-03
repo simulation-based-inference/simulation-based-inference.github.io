@@ -10,3 +10,4 @@ Gemfile.lock
 assets/publication_by_year.json
 tmp/
 tmp.ipynb
+.claude/settings.local.json
