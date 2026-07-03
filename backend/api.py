@@ -381,7 +381,7 @@ def query_serp(
         for result in data.get("organic_results", []):
             try:
                 formatted_results.append(format_serp_result(result))
-            except ValueError as e:
+            except (ValueError, KeyError, TypeError) as e:
                 logging.warning(f"Skipping SERP result due to formatting error: {e}")
         data["formatted_results"] = formatted_results
         return data
