@@ -24979,20 +24979,17 @@
   category: Physics
 - id: 1825
   created_at: 2026-05-17 03:09:14.564329
-  published_on: 2026-05-05
+  published_on: 2026-05-01
   title: Neural Posterior Estimation of Terrain Parameters from Radar Sounder Data
-  authors: "Jordy Dal Corso, Annalena Kofler, Marco Cortellazzi, Lorenzo Bruzzone,\
-    \ Bernhard Sch\xF6lkopf"
-  publication_info_summary: "JD Corso, A Kofler, M Cortellazzi, L Bruzzone\u2026 -\
-    \ arXiv preprint arXiv \u2026, 2026 - arxiv.org"
-  link: https://arxiv.org/abs/2605.08179
+  publication_info_summary: "J Dal Corso, A Kofler, M Cortellazzi\u2026 - arXiv e\
+    \ \u2026, 2026 - ui.adsabs.harvard.edu"
+  link: https://ui.adsabs.harvard.edu/abs/2026arXiv260508179D/abstract
   snippet: "\u2026 We propose a simulation-based inference approach to terrain parameter\
     \ inversion from radar sounder data, where synthetic observations from a GPU-based\
     \ simulator are \u2026"
-  journal: arxiv.org
-  arxiv_id: '2605.08179'
-  arxiv_category_tag: eess.SP
+  journal: ui.adsabs.harvard.edu
   category: Neuroscience
+  doi: https://ui.adsabs.harvard.edu/abs/2026arXi60508179D/abstract
 - id: 1826
   created_at: 2026-05-17 03:09:30.348893
   published_on: 2026-05-11
@@ -25431,7 +25428,7 @@
     \ unreliable and simulation-based inference provides a \u2026 of our findings\
     \ for simulation-based inference in biology. \u2026"
   journal: Elsevier
-  category: Engineering
+  category: Computer Science
   doi: https://www.sciencedirect.com/science/article/pii/S0022519326001001
 - id: 1855
   created_at: 2026-05-31 02:52:36.496984
@@ -26551,3 +26548,135 @@
   journal: corpus.ulaval.ca
   category: Engineering
   doi: https://corpus.ulaval.ca/server/api/core/bitstreams/877b043a-1c54-481a-87ca-42d3a21c6ef2/content
+- id: 1929
+  created_at: 2026-08-02 02:05:35.858754
+  published_on: 2026-07-28
+  title: Simulation-based tension quantification of the cosmic dipole
+  authors: Mali Land-Strykowski, Harry T. J. Bevins, Oliver T. Oayda, Geraint F. Lewis
+  publication_info_summary: "M Land-Strykowski, HTJ Bevins, OT Oayda\u2026 - arXiv\
+    \ preprint arXiv \u2026, 2026 - arxiv.org"
+  link: https://arxiv.org/abs/2607.25703
+  snippet: "\u2026 In this paper, we present a flexible simulation-based inference\
+    \ (SBI) architecture for measuring the cosmic dipole tension using Neural Ratio\
+    \ Estimators (NREs). We \u2026"
+  journal: arxiv.org
+  arxiv_id: '2607.25703'
+  arxiv_category_tag: astro-ph.CO
+  category: Engineering
+- id: 1930
+  created_at: 2026-08-02 02:05:39.646768
+  published_on: 2026-07-27
+  title: A Hierarchical Validity-Audit Framework for Neural Mass Models in Simulation-Based
+    Inference From Observational Coverage to Mechanistic Interpretation
+  authors: Tianming Cai, Ning Jiang, Yuan Yang, Jiayuan He
+  publication_info_summary: T Cai, N Jiang, Y Yang, J He - arXiv preprint arXiv:2607.24874,
+    2026 - arxiv.org
+  link: https://arxiv.org/abs/2607.24874
+  snippet: "\u2026 Abstract:Neural mass models describe population level neural activity\
+    \ using low-dimensional dynamical parameters and, through simulation-based inference,\
+    \ enable \u2026"
+  journal: arxiv.org
+  arxiv_id: '2607.24874'
+  arxiv_category_tag: q-bio.QM
+  category: Quantitative Biology
+- id: 1931
+  created_at: 2026-08-02 02:05:43.414032
+  published_on: 2026-07-23
+  title: An Introduction to Bayesian and Frequentist Simulation-Based Inference with
+    Machine Learning
+  authors: Maximilian Dax, Theo Heimel, Gilles Louppe
+  publication_info_summary: M Dax, T Heimel, G Louppe - arXiv preprint arXiv:2607.21702,
+    2026 - arxiv.org
+  link: https://arxiv.org/abs/2607.21702
+  snippet: "\u2026 learning techniques for simulation-based inference (Sec. 3\u2026\
+    \ literature on simulation-based inference applications, we \u2026 examples for\
+    \ applying simulation-based inference. \u2026"
+  journal: arxiv.org
+  arxiv_id: '2607.21702'
+  arxiv_category_tag: cs.LG
+  category: Computer Science
+- id: 1932
+  created_at: 2026-08-02 02:05:47.209953
+  published_on: 2026-07-23
+  title: Simulation-Based Empirical Bayes
+  authors: Xinwei Shen, Diana Cai, Cheng Zhang, David M. Blei
+  publication_info_summary: X Shen, D Cai, C Zhang, DM Blei - arXiv preprint arXiv:2607.21843,
+    2026 - arxiv.org
+  link: https://arxiv.org/abs/2607.21843
+  snippet: "\u2026 Second, we review simulation-based inference (SBI), which fits\
+    \ an amortized posterior \u2026 It iteratively uses simulation-based inference\
+    \ to approximate posterior distributions, \u2026"
+  journal: arxiv.org
+  arxiv_id: '2607.21843'
+  arxiv_category_tag: stat.ML
+  category: Statistics
+- id: 1933
+  created_at: 2026-08-02 02:05:51.518732
+  published_on: 2026-07-23
+  title: A Tutorial on Generative Bayesian Computation
+  publication_info_summary: NG Polson, V Sokolov - Available at SSRN 7160360, 2026
+    - papers.ssrn.com
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7160360
+  snippet: "Generative Bayesian Computation (GBC) recasts posterior inference as a\
+    \ supervised-learning problem. Rather than iterating a Markov chain to sample\
+    \ from a posterior, \u2026"
+  journal: papers.ssrn.com
+  category: Statistics
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7160360
+- id: 1934
+  created_at: 2026-08-02 02:05:57.582725
+  published_on: 2026-07-22
+  title: Bayes on a Budget Recursive Self-Improvement and Generative Bayesian Computation
+  publication_info_summary: NG Polson, V Sokolov - Available at SSRN 7154818, 2026
+    - papers.ssrn.com
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7154818
+  snippet: "We read recursive self-improvement (RSI) as budgeted amortized inference\
+    \ and connect it to the fast-Bayes program of generative Bayesian computation\
+    \ (GBC). Fast \u2026"
+  journal: papers.ssrn.com
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7154818
+- id: 1935
+  created_at: 2026-08-02 02:06:02.335131
+  published_on: 2026-07-20
+  title: Comparing explicit likelihood and likelihood-free simulation-based inference
+    for weak lensing cosmic shear
+  authors: Simone Vinciguerra, Nicolas Martinet, Marco Gatti
+  publication_info_summary: S Vinciguerra, N Martinet, M Gatti - arXiv preprint arXiv:2607.17942,
+    2026 - arxiv.org
+  link: https://arxiv.org/abs/2607.17942
+  snippet: "Simulation-based inference (SBI) has become a major tool for extracting\
+    \ cosmological information from weak-lensing (WL) surveys, particularly from non-Gaussian\
+    \ \u2026"
+  journal: arxiv.org
+  arxiv_id: '2607.17942'
+  arxiv_category_tag: astro-ph.CO
+  category: Astrophysics
+- id: 1936
+  created_at: 2026-08-02 02:06:06.278867
+  published_on: 2026-07-07
+  title: Simulation-First Probability for Computing Students A Giant-Waves Case Study
+  publication_info_summary: "FJ Soto S\xE1nchez, L Cavada de la Riva - \u2026 of the\
+    \ 31st ACM Conference on \u2026, 2026 - dl.acm.org"
+  link: https://dl.acm.org/doi/abs/10.1145/3803401.3811994
+  snippet: "Probability matters in later computing work, yet many students still experience\
+    \ it as a set of formulas rather than a way to build and test models. We present\
+    \ a simulation-\u2026"
+  journal: dl.acm.org
+  category: Computer Science
+  doi: https://dl.acm.org/doi/abs/10.1145/3803401.3811994
+- id: 1937
+  created_at: 2026-08-02 02:06:42.692817
+  published_on: 2026-04-01
+  title: Toward Cost-Efficient Simulation-Based Inference for Robotics Reducing Real-World
+    and Simulation Sampling Costs
+  publication_info_summary: K Gahee - 2026 - naist.repo.nii.ac.jp
+  link: https://naist.repo.nii.ac.jp/record/2001447/files/R019926.pdf
+  snippet: "\u2026 \u8FD1\u5E74, \u30B7\u30DF\u30E5\u30EC\u30FC\u30B7\u30E7\u30F3\u30C7\
+    \u30FC\u30BF\u304B\u3089\u30D1\u30E9\u30E1\u30FC\u30BF\u306E\u4E8B\u5F8C\u5206\
+    \u5E03\u3092\u76F4\u63A5\u8FD1\u4F3C\u3059\u308B\u30B7\u30DF\u30E5\u30EC\u30FC\
+    \u30B7\u30E7\u30F3 \u30D9\u30FC\u30B9\u63A8\u8AD6 (Simulation-Based Inference,\
+    \ SBI) \u304C\u63D0\u6848\u3055\u308C, \u5C24\u5EA6\u3092\u7528\u3044\u306A\u3044\
+    \u63A8\u5B9A\u624B\u6CD5\u3068\u3057\u3066\u6CE8\u76EE\u2026"
+  journal: naist.repo.nii.ac.jp
+  category: Computer Science
+  doi: https://naist.repo.nii.ac.jp/record/2001447/files/R019926.pdf
